@@ -1,0 +1,75 @@
+{
+  "exam_id": "gau55_2023_estatal_n1",
+  "source_file": "N1 GAU55 2023 estatal.pdf",
+  "summary": {
+    "verified_problems": 23,
+    "needs_review_or_invalid": 2,
+    "needs_review_problem_numbers": [
+      10,
+      11
+    ],
+    "notes": "No area/difficulty classification is assigned in this first phase. Problem 10 has an internal timing inconsistency; problem 11 repeats the correct answer in two options. Problems 14 and 15 are solvable under the intended school interpretation, and problem 24 requires the same implicit 'spend all remaining money on the final purchase' assumption seen in similar source items."
+  },
+  "review_items": [
+    {
+      "problem_number": 10,
+      "status": "timing_inconsistency_needs_review",
+      "issue": "El intervalo total es 180 min. La respuesta prevista parece 9 por ciclos de 20 min, pero tras el noveno tramo de 15 min se llegaría a las 11:55; tomar el noveno descanso desplaza la 'llegada' al final del descanso."
+    },
+    {
+      "problem_number": 11,
+      "status": "ambiguous_duplicate_correct_options",
+      "issue": "Las opciones a y c son idénticas: ambas dicen 270 saltos, y 270 es el resultado correcto."
+    },
+    {
+      "problem_number": 14,
+      "status": "verified_with_wording_interpretation",
+      "issue": "Se interpreta que pide el número de pares de líneas perpendiculares; hay 3 pares."
+    },
+    {
+      "problem_number": 15,
+      "status": "verified_with_geometry_convention",
+      "issue": "El área del rombo y del romboide no queda determinada solo por sus lados. La opción a es la respuesta escolar prevista; un rombo no cuadrado de lado 4 tiene área menor que 16 cm²."
+    },
+    {
+      "problem_number": 24,
+      "status": "verified_with_implicit_assumption",
+      "issue": "La opción d ($30) requiere asumir que los dos helados consumen exactamente todo el dinero que quedaba."
+    }
+  ],
+  "image_problem_numbers": [
+    1,
+    3,
+    5,
+    7,
+    9,
+    11,
+    16,
+    17,
+    18,
+    20,
+    21,
+    25
+  ],
+  "image_count": 12,
+  "classification_phase": "not_started",
+  "difficulty_phase": "not_started",
+  "media_policy": "Las imágenes Base64 se reservan para contenido visual real del reactivo (figuras geométricas, gráficas, mapas, diagramas, ilustraciones o imágenes que formen parte del enunciado/opciones). Expresiones matemáticas, operadores, letras, números y símbolos usados como notación NO se almacenan como imagen: se representan como texto/LaTeX compatible con Cuantly. Se prefiere la imagen embebida original del PDF; si el visual es vectorial/combinado, se usa un recorte ajustado del render del PDF.",
+  "symbol_policy": "math_text_latex_not_base64",
+  "audited_image_problem_numbers": [
+    1,
+    3,
+    5,
+    7,
+    9,
+    11,
+    16,
+    17,
+    18,
+    20,
+    21,
+    25
+  ],
+  "audited_image_count": 12,
+  "media_audit_status": "reviewed"
+}

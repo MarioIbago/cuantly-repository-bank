@@ -1,0 +1,78 @@
+{
+  "exam_id": "gau55_2024_estatal_n1",
+  "source_file": "N1 GAU55 2024 estatal.pdf",
+  "source_sha256": "f38a8524a04b54b5e143a2cb8728e1636cfe54c5dcd24e2b53b4f4689e662b0c",
+  "summary": {
+    "verified_problems": 25,
+    "needs_review_or_invalid": 0,
+    "needs_review_problem_numbers": [],
+    "notes": "No area/difficulty classification is assigned in this first phase. Problems 4, 20 and 22 have documented interpretation/diagram notes but do not require blocking review."
+  },
+  "review_items": [
+    {
+      "problem_number": 4,
+      "status": "verified_with_wording_interpretation",
+      "issue": "La garantía bancaria está redactada de forma no estándar; se interpreta literalmente como monto inicial multiplicado por 12 meses, lo que da $4,000."
+    },
+    {
+      "problem_number": 20,
+      "status": "verified_from_option_constraint",
+      "issue": "Saber únicamente que la última página es impar no determina una fracción única; la unicidad surge al contrastar las opciones, tal como advierte la nota del reactivo. Solo 3/8 de 248 produce una página impar (93)."
+    },
+    {
+      "problem_number": 22,
+      "status": "verified_from_source_diagram_geometry",
+      "issue": "La respuesta depende del diagrama. Las regiones amarillas suman exactamente 1/4 del círculo; por tanto Irving comió 3/4 de 1.12 kg = 0.84 kg."
+    }
+  ],
+  "image_problem_numbers": [
+    1,
+    2,
+    5,
+    7,
+    8,
+    10,
+    12,
+    14,
+    17,
+    19,
+    20,
+    22,
+    23
+  ],
+  "image_count": 13,
+  "images_embedded_base64": true,
+  "classification_phase": "not_started",
+  "difficulty_phase": "not_started",
+  "json_file": "GAU55_2024_Estatal_N1_verified.json",
+  "media_policy": "Las imágenes Base64 se reservan para contenido visual real del reactivo (figuras geométricas, gráficas, mapas, diagramas, ilustraciones o imágenes que formen parte del enunciado/opciones). Expresiones matemáticas, operadores, letras, números y símbolos usados como notación NO se almacenan como imagen: se representan como texto/LaTeX compatible con Cuantly. Se prefiere la imagen embebida original del PDF; si el visual es vectorial/combinado, se usa un recorte ajustado del render del PDF.",
+  "symbol_policy": "math_text_latex_not_base64",
+  "audited_image_problem_numbers": [
+    1,
+    2,
+    5,
+    7,
+    8,
+    10,
+    12,
+    14,
+    17,
+    19,
+    20,
+    22
+  ],
+  "audited_image_count": 12,
+  "media_audit_status": "reviewed",
+  "media_corrections": [
+    {
+      "problem_number": 23,
+      "change": "Removed Base64 crop containing only mathematical symbols; represented flower as F and star as \\star in LaTeX."
+    }
+  ],
+  "duplicate_source": {
+    "filename": "5to GAU55 2024 estatal SR.pdf",
+    "sha256": "36480fbc0f8c2a142e2cecdecdebba1c539c2b847bb125fcb91d784773044d9b",
+    "content_equivalent_to_primary": true,
+    "action": "stored as alternate raw source; no duplicate exam JSON created"
+  }
+}

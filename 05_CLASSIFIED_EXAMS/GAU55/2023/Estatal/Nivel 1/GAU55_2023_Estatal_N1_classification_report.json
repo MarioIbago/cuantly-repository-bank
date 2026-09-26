@@ -1,0 +1,129 @@
+{
+  "phase": "Cuantly Problems Bank - Phase 2",
+  "scope": "GAU55 2023 - Fase Estatal - Nivel 1",
+  "academic_level": "Quinto de primaria",
+  "source_json": "GAU55_2023_Estatal_N1_verified.json",
+  "classified_json": "GAU55_2023_Estatal_N1_classified.json",
+  "problem_count": 25,
+  "distribution": {
+    "primary_area": {
+      "arithmetic": 15,
+      "algebra": 3,
+      "number_theory": 1,
+      "geometry": 6
+    },
+    "difficulty": {
+      "L1": 12,
+      "L2": 11,
+      "L3": 2
+    },
+    "area_by_difficulty": {
+      "algebra": {
+        "L2": 3
+      },
+      "arithmetic": {
+        "L1": 10,
+        "L2": 5
+      },
+      "geometry": {
+        "L2": 3,
+        "L3": 1,
+        "L1": 2
+      },
+      "number_theory": {
+        "L3": 1
+      }
+    },
+    "mixed_problem_count": 1,
+    "mixed_problem_numbers": [
+      13
+    ]
+  },
+  "provisional_tag_vocabulary": [
+    "angles",
+    "area",
+    "basic_operations",
+    "calendar",
+    "cycles",
+    "diophantine",
+    "distance",
+    "division",
+    "elapsed_time",
+    "equations",
+    "fraction_addition",
+    "fractions",
+    "grid_geometry",
+    "integer_solutions",
+    "linear_equations",
+    "linear_relationships",
+    "midpoint",
+    "multi_step_arithmetic",
+    "multiplication",
+    "number_line",
+    "obtuse_angles",
+    "patterns",
+    "percentages",
+    "perpendicular_lines",
+    "place_value",
+    "polygons",
+    "proportions",
+    "quadrilaterals",
+    "rates",
+    "ratios",
+    "rectangular_prisms",
+    "remainders",
+    "reverse_operations",
+    "rotations",
+    "sequences",
+    "time_conversion",
+    "triangles",
+    "unit_conversion",
+    "visual_patterns",
+    "volume"
+  ],
+  "low_confidence": {
+    "threshold": "either confidence < 0.75",
+    "problems": [
+      {
+        "problem_number": 10,
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.68,
+        "notes": [
+          "Source timing inconsistency is preserved. Difficulty reflects the intended cycle-counting task, not a repaired version of the item."
+        ]
+      },
+      {
+        "problem_number": 15,
+        "classification_confidence": 0.99,
+        "difficulty_confidence": 0.65,
+        "notes": [
+          "Difficulty confidence is lower because the source relies on a school convention about the word 'rombo' and under-specifies some non-rectangular areas."
+        ]
+      }
+    ]
+  },
+  "needs_review_preserved": [
+    10,
+    11
+  ],
+  "audit": {
+    "original_sha256": "16b73e14145d74957e5d4982ae25c3c2d80ca8de974758bff90b2a5122775fdc",
+    "original_problem_count_preserved": true,
+    "source_ids_preserved": true,
+    "options_preserved": true,
+    "correct_answers_preserved": true,
+    "solutions_preserved": true,
+    "problem_images_preserved": true,
+    "verification_statuses_preserved": true,
+    "only_added_field_per_problem": "classification",
+    "allowed_primary_areas_only": true,
+    "all_problems_have_primary_area": true,
+    "all_problems_have_tags": true,
+    "all_problems_have_difficulty": true
+  },
+  "notes": [
+    "This is the first exam classified in Phase 2. Difficulty calibration remains provisional until the remaining exams are compared as a full bank.",
+    "No probability or combinatorics problem appears as a primary area in this exam.",
+    "Problem 13 is the only mixed-area item in this exam: number theory + algebra."
+  ]
+}

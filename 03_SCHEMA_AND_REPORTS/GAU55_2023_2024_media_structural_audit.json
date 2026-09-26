@@ -1,0 +1,43 @@
+{
+  "scope": [
+    "GAU55_2023_Estatal_N1_verified.json",
+    "GAU55_2023_Estatal_N2_verified.json",
+    "GAU55_2024_Estatal_N1_verified.json",
+    "GAU55_2024_Estatal_N3_verified.json",
+    "GAU55_2024_Estatal_N4_verified.json"
+  ],
+  "total_exams": 5,
+  "total_problems": 125,
+  "checks": {
+    "25_problems_each": true,
+    "unique_source_ids": true,
+    "option_labels_unique": true,
+    "correct_option_label_exists": true,
+    "math_symbols_not_stored_as_dedicated_images": true
+  },
+  "corrections": [
+    {
+      "exam": "GAU55 2024 Estatal Nivel 1",
+      "problem": 23,
+      "issue": "symbol-only image",
+      "fix": "Removed image; flower represented by F and star by \\star in LaTeX."
+    },
+    {
+      "exam": "GAU55 2024 Estatal Nivel 3",
+      "problem": 7,
+      "issue": "equation-only image",
+      "fix": "Removed image; S+O+L=10 and symbol values retained as LaTeX/text."
+    }
+  ],
+  "duplicate_source": {
+    "file": "5to GAU55 2024 estatal SR.pdf",
+    "duplicate_of": "N1 GAU55 2024 estatal.pdf",
+    "same_extracted_text": true,
+    "action": "Keep as alternate raw PDF, do not duplicate exam/problem records."
+  },
+  "issues": [],
+  "notes": [
+    "This audit targets storage/media encoding and JSON structural consistency; prior mathematical review statuses are preserved.",
+    "Visual figures, graphs, maps, geometric diagrams and meaningful illustrations remain as Base64 images."
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "exam": "GAU55 2024 - Fase Estatal - Nivel 2 (Sexto de primaria)",
+  "source_file": "6to GAU55 2024 estatal SR.pdf",
+  "source_sha256": "1aad59c5c3d94034b3365169fe097005501ef574f29e2be4a71dce6c6ff1d6d1",
+  "problem_count": 25,
+  "verified": 24,
+  "needs_review": 1,
+  "needs_review_problem_numbers": [
+    6
+  ],
+  "media_audit": {
+    "policy": "Symbols/formulas/letters/operators are text or LaTeX, not Base64 images.",
+    "problems_with_real_visual_media": [
+      5,
+      7,
+      12,
+      15,
+      16,
+      20,
+      24,
+      25
+    ],
+    "problem_12_image_count": 2,
+    "symbol_only_problem_21": "No image stored; flower is represented by F and star by \\star."
+  },
+  "issues": [
+    {
+      "problem_number": 6,
+      "status": "no_matching_option",
+      "detail": "Using the category totals as printed: 20.2+28.6+30.7+40.8=120.3; after the 29.5 payment, 90.8 remains; two thirds is 60.5 overline 3. None of the options equals this. Treating the listed amounts as unit prices also yields no option."
+    }
+  ],
+  "cross_exam_consistency_checks": [
+    "P5 uses the same diagram as GAU55 2024 N3 P20; both are corrected to 30% after direct area-ratio audit of the source image (~0.29).",
+    "P7 matches GAU55 2024 N1 P17: 12 pieces.",
+    "P9 matches GAU55 2024 N1 P15: Day 8.",
+    "P12 matches GAU55 2024 N3 P18: 276 months.",
+    "P16 matches GAU55 2024 N1 P10: 125 cubes.",
+    "P20 matches GAU55 2024 N1 P22: 0.84 kg eaten.",
+    "P21 matches GAU55 2024 N1 P23: 850, with symbols normalized to LaTeX/text.",
+    "P24 matches GAU55 2024 N1 P8: 37.5%.",
+    "P25 matches GAU55 2024 N1 P20: 3/8 under the exam option constraint."
+  ]
+}

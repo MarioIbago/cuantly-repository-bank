@@ -1,0 +1,54 @@
+{
+  "exam": "GAU55 2024 - Fase Estatal - Nivel 4",
+  "source_sha256": "264482d36799452796970060b34f526c06af4b46bd78813f2cadf47dff9a262b",
+  "total": 25,
+  "verified": 20,
+  "review": 5,
+  "issues": [
+    {
+      "problem": 1,
+      "status": "ambiguous_wording",
+      "detail": "“Pendiente inversa” puede significar perpendicular (I) o recíproca (II)."
+    },
+    {
+      "problem": 4,
+      "status": "no_matching_option",
+      "detail": "El área calculada es 64-16π cm² y ninguna opción coincide."
+    },
+    {
+      "problem": 9,
+      "status": "ambiguous_symmetry_definition",
+      "detail": "No se define si se considera simetría axial, rotacional o ambas; la clasificación depende además de los glifos."
+    },
+    {
+      "problem": 12,
+      "status": "counting_ambiguity",
+      "detail": "El conteo da 11 incluyendo el triángulo original; 10 si se excluye, y solo 10 aparece."
+    },
+    {
+      "problem": 22,
+      "status": "source_typo_and_no_match",
+      "detail": "Se repite un vértice del hexágono; incluso corrigiéndolo a (-2,4), ninguna opción da el área requerida."
+    }
+  ],
+  "images_embedded_base64": true,
+  "json_file": "GAU55_2024_Estatal_N4_verified.json",
+  "media_policy": "Las imágenes Base64 se reservan para contenido visual real del reactivo (figuras geométricas, gráficas, mapas, diagramas, ilustraciones o imágenes que formen parte del enunciado/opciones). Expresiones matemáticas, operadores, letras, números y símbolos usados como notación NO se almacenan como imagen: se representan como texto/LaTeX compatible con Cuantly. Se prefiere la imagen embebida original del PDF; si el visual es vectorial/combinado, se usa un recorte ajustado del render del PDF.",
+  "symbol_policy": "math_text_latex_not_base64",
+  "audited_image_problem_numbers": [
+    1,
+    4,
+    5,
+    6,
+    9,
+    10,
+    11,
+    15,
+    16,
+    18,
+    23,
+    24
+  ],
+  "audited_image_count": 24,
+  "media_audit_status": "reviewed"
+}

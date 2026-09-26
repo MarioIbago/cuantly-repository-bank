@@ -1,0 +1,60 @@
+{
+  "exam": "GAU55 2023 - Fase Estatal - Nivel 2",
+  "source_file": "N2 GAU55 2023 estatal.pdf",
+  "problem_count": 25,
+  "verified_problems": 23,
+  "needs_review_or_special_status_count": 2,
+  "items": [
+    {
+      "problem_number": 1,
+      "status": "ambiguous_multiple_valid_options",
+      "details": "La redacción no especifica dónde se coloca la tercera marca. Si queda entre las marcas existentes, a) 9.4 cm es válida; si queda después de la segunda, b) 18.8 cm es válida."
+    },
+    {
+      "problem_number": 9,
+      "status": "verified_source_option_typo",
+      "details": "La opción b aparece incompleta como “Menor km”. La escala del mapa da aproximadamente 18 km, por lo que e) Entre 16 y 24 km es verificable."
+    },
+    {
+      "problem_number": 20,
+      "status": "verified_with_implicit_assumption",
+      "details": "La respuesta d) $37.20 requiere interpretar que el dinero restante tras las dos atracciones se usa exactamente en los dos helados; el enunciado no lo afirma de forma explícita."
+    }
+  ],
+  "image_problems": [
+    2,
+    4,
+    5,
+    7,
+    8,
+    9,
+    14,
+    15,
+    16,
+    23,
+    24,
+    25
+  ],
+  "image_count": 12,
+  "image_storage": "PNG Base64 embedded in the exam JSON. Branding logos repeated on every page were intentionally excluded because they are document decoration rather than problem content.",
+  "classification_phase": "not_started",
+  "difficulty_phase": "not_started",
+  "media_policy": "Las imágenes Base64 se reservan para contenido visual real del reactivo (figuras geométricas, gráficas, mapas, diagramas, ilustraciones o imágenes que formen parte del enunciado/opciones). Expresiones matemáticas, operadores, letras, números y símbolos usados como notación NO se almacenan como imagen: se representan como texto/LaTeX compatible con Cuantly. Se prefiere la imagen embebida original del PDF; si el visual es vectorial/combinado, se usa un recorte ajustado del render del PDF.",
+  "symbol_policy": "math_text_latex_not_base64",
+  "audited_image_problem_numbers": [
+    2,
+    4,
+    5,
+    7,
+    8,
+    9,
+    14,
+    15,
+    16,
+    23,
+    24,
+    25
+  ],
+  "audited_image_count": 12,
+  "media_audit_status": "reviewed"
+}

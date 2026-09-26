@@ -1,0 +1,173 @@
+{
+  "exam": {
+    "competition": "GAU55",
+    "edition": 10,
+    "year": 2024,
+    "phase": "Fase Estatal",
+    "level": "Nivel 2",
+    "school_level": "Sexto año de primaria",
+    "problem_count": 25,
+    "source_file": "6to GAU55 2024 estatal SR.pdf",
+    "source_sha256": "1aad59c5c3d94034b3365169fe097005501ef574f29e2be4a71dce6c6ff1d6d1",
+    "image_policy": "Only genuine visual content is stored as Base64. Mathematical symbols, letters, operators, equations and purely symbolic layouts are normalized to text/LaTeX. Exact embedded PDF images are preferred; tight crops are used only when a required visual is not independently embedded.",
+    "classification_phase": "not_started",
+    "difficulty_phase": "not_started"
+  },
+  "method": {
+    "approach": "multi_pass_nondeterministic_reconciliation",
+    "passes": [
+      "Pass A: independent content-first classification of mathematical area and difficulty.",
+      "Pass B: independent solution-structure/cognitive-demand classification.",
+      "Pass C: reconciliation after reading the complete exam and comparing against GAU55 2023 N1, GAU55 2023 N2, and GAU55 2024 N1."
+    ],
+    "rule": "Disagreements were not averaged mechanically. Final labels reflect the dominant mathematical idea and expected cognitive demand for sixth grade; confidence records unresolved subjectivity."
+  },
+  "total_problems": 25,
+  "areas": {
+    "algebra": 5,
+    "arithmetic": 12,
+    "combinatorics": 1,
+    "geometry": 6,
+    "number_theory": 1
+  },
+  "difficulty": {
+    "L1": 13,
+    "L2": 9,
+    "L3": 3
+  },
+  "area_by_difficulty": {
+    "algebra": {
+      "L1": 1,
+      "L2": 2,
+      "L3": 2
+    },
+    "arithmetic": {
+      "L1": 10,
+      "L2": 2,
+      "L3": 0
+    },
+    "combinatorics": {
+      "L1": 0,
+      "L2": 0,
+      "L3": 1
+    },
+    "geometry": {
+      "L1": 2,
+      "L2": 4,
+      "L3": 0
+    },
+    "number_theory": {
+      "L1": 0,
+      "L2": 1,
+      "L3": 0
+    },
+    "probability": {
+      "L1": 0,
+      "L2": 0,
+      "L3": 0
+    }
+  },
+  "mixed_problems": [
+    3,
+    5,
+    12,
+    20,
+    21,
+    24,
+    25
+  ],
+  "pass_disagreements": [
+    {
+      "problem_number": 2,
+      "pass_A_content_first": {
+        "primary_area": "arithmetic",
+        "difficulty": "L1"
+      },
+      "pass_B_solution_structure": {
+        "primary_area": "arithmetic",
+        "difficulty": "L2"
+      },
+      "final": {
+        "primary_area": "arithmetic",
+        "difficulty": "L1"
+      },
+      "resolution": "Resolved only after whole-exam and cross-exam calibration; confidence was reduced where the boundary remained subjective."
+    },
+    {
+      "problem_number": 3,
+      "pass_A_content_first": {
+        "primary_area": "combinatorics",
+        "difficulty": "L3"
+      },
+      "pass_B_solution_structure": {
+        "primary_area": "geometry",
+        "difficulty": "L3"
+      },
+      "final": {
+        "primary_area": "combinatorics",
+        "difficulty": "L3"
+      },
+      "resolution": "Resolved only after whole-exam and cross-exam calibration; confidence was reduced where the boundary remained subjective."
+    },
+    {
+      "problem_number": 9,
+      "pass_A_content_first": {
+        "primary_area": "algebra",
+        "difficulty": "L1"
+      },
+      "pass_B_solution_structure": {
+        "primary_area": "algebra",
+        "difficulty": "L2"
+      },
+      "final": {
+        "primary_area": "algebra",
+        "difficulty": "L1"
+      },
+      "resolution": "Resolved only after whole-exam and cross-exam calibration; confidence was reduced where the boundary remained subjective."
+    },
+    {
+      "problem_number": 12,
+      "pass_A_content_first": {
+        "primary_area": "algebra",
+        "difficulty": "L2"
+      },
+      "pass_B_solution_structure": {
+        "primary_area": "algebra",
+        "difficulty": "L3"
+      },
+      "final": {
+        "primary_area": "algebra",
+        "difficulty": "L2"
+      },
+      "resolution": "Resolved only after whole-exam and cross-exam calibration; confidence was reduced where the boundary remained subjective."
+    }
+  ],
+  "low_confidence_classifications": [
+    {
+      "problem_number": 9,
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.74
+    },
+    {
+      "problem_number": 12,
+      "classification_confidence": 0.91,
+      "difficulty_confidence": 0.72
+    }
+  ],
+  "needs_review_preserved": [
+    {
+      "problem_number": 6,
+      "status": "no_matching_option"
+    }
+  ],
+  "audit": {
+    "problem_count_preserved": true,
+    "only_problem_classification_added": true,
+    "ids_preserved": true,
+    "options_preserved": true,
+    "answers_preserved": true,
+    "solutions_preserved": true,
+    "problem_images_preserved": true,
+    "verification_preserved": true
+  }
+}

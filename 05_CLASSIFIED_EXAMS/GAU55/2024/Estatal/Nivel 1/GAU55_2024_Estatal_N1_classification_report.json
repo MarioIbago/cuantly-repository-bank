@@ -1,0 +1,169 @@
+{
+  "exam": {
+    "competition": "GAU55",
+    "edition": 10,
+    "year": 2024,
+    "phase": "Fase Estatal",
+    "level": "Nivel 1",
+    "school_level": "Quinto año de primaria",
+    "problem_count": 25,
+    "source_file": "N1 GAU55 2024 estatal.pdf",
+    "source_sha256": "f38a8524a04b54b5e143a2cb8728e1636cfe54c5dcd24e2b53b4f4689e662b0c",
+    "image_policy": "Exact embedded PDF images are preferred. When a visual is vector/table content rather than a standalone embedded image, a tight crop of the rendered PDF is stored. Images are PNG/JPEG Base64 inside the corresponding problem.",
+    "classification_phase": "not_started",
+    "difficulty_phase": "not_started"
+  },
+  "method": {
+    "approach": "multi_pass_nondeterministic_reconciliation",
+    "passes": [
+      "Pass A: content-first area and difficulty assessment.",
+      "Pass B: solution-structure and cognitive-demand assessment, independently from Pass A.",
+      "Pass C: reconciliation against the whole exam and GAU55 2023 N1/N2 classified calibration."
+    ],
+    "rule": "Disagreements were not averaged mechanically; final labels were chosen by mathematical role and expected fifth-grade cognitive demand. Confidence was lowered for borderline items."
+  },
+  "total_problems": 25,
+  "areas": {
+    "algebra": 5,
+    "arithmetic": 10,
+    "geometry": 6,
+    "number_theory": 1,
+    "probability": 3
+  },
+  "difficulty": {
+    "L1": 14,
+    "L2": 9,
+    "L3": 2
+  },
+  "area_by_difficulty": {
+    "algebra": {
+      "L1": 1,
+      "L2": 3,
+      "L3": 1
+    },
+    "arithmetic": {
+      "L1": 8,
+      "L2": 2,
+      "L3": 0
+    },
+    "combinatorics": {
+      "L1": 0,
+      "L2": 0,
+      "L3": 0
+    },
+    "geometry": {
+      "L1": 2,
+      "L2": 3,
+      "L3": 1
+    },
+    "number_theory": {
+      "L1": 0,
+      "L2": 1,
+      "L3": 0
+    },
+    "probability": {
+      "L1": 3,
+      "L2": 0,
+      "L3": 0
+    }
+  },
+  "mixed_problems": [
+    8,
+    20,
+    21,
+    22
+  ],
+  "pass_disagreements": [
+    {
+      "problem_number": 4,
+      "pass_A_content_first": {
+        "primary_area": "arithmetic",
+        "difficulty": "L2"
+      },
+      "pass_B_solution_structure": {
+        "primary_area": "algebra",
+        "difficulty": "L1"
+      },
+      "final": {
+        "primary_area": "arithmetic",
+        "difficulty": "L1"
+      },
+      "resolution": "Reconciled after whole-exam and cross-exam calibration; see classification_notes/confidence where material."
+    },
+    {
+      "problem_number": 10,
+      "pass_A_content_first": {
+        "primary_area": "geometry",
+        "difficulty": "L1"
+      },
+      "pass_B_solution_structure": {
+        "primary_area": "geometry",
+        "difficulty": "L2"
+      },
+      "final": {
+        "primary_area": "geometry",
+        "difficulty": "L1"
+      },
+      "resolution": "Reconciled after whole-exam and cross-exam calibration; see classification_notes/confidence where material."
+    },
+    {
+      "problem_number": 20,
+      "pass_A_content_first": {
+        "primary_area": "number_theory",
+        "difficulty": "L2"
+      },
+      "pass_B_solution_structure": {
+        "primary_area": "arithmetic",
+        "difficulty": "L2"
+      },
+      "final": {
+        "primary_area": "number_theory",
+        "difficulty": "L2"
+      },
+      "resolution": "Reconciled after whole-exam and cross-exam calibration; see classification_notes/confidence where material."
+    },
+    {
+      "problem_number": 23,
+      "pass_A_content_first": {
+        "primary_area": "algebra",
+        "difficulty": "L2"
+      },
+      "pass_B_solution_structure": {
+        "primary_area": "arithmetic",
+        "difficulty": "L2"
+      },
+      "final": {
+        "primary_area": "algebra",
+        "difficulty": "L2"
+      },
+      "resolution": "Reconciled after whole-exam and cross-exam calibration; see classification_notes/confidence where material."
+    }
+  ],
+  "low_confidence_classifications": [
+    {
+      "problem_number": 4,
+      "classification_confidence": 0.78,
+      "difficulty_confidence": 0.71
+    },
+    {
+      "problem_number": 20,
+      "classification_confidence": 0.78,
+      "difficulty_confidence": 0.74
+    }
+  ],
+  "needs_review_preserved": [
+    4,
+    20,
+    22
+  ],
+  "audit": {
+    "problem_count_preserved": true,
+    "only_problem_classification_added": true,
+    "ids_preserved": true,
+    "options_preserved": true,
+    "answers_preserved": true,
+    "solutions_preserved": true,
+    "problem_images_preserved": true,
+    "verification_preserved": true
+  }
+}

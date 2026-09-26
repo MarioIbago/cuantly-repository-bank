@@ -1,34 +1,50 @@
-# Cuantly Repository Bank
+# Cuantly Problems Bank
 
-Repositorio central para bancos de concursos y competencias de Cuantly.
+Banco de problemas y exámenes de Cuantly migrado desde Google Drive.
 
-La organización busca conservar la lógica que antes se manejaba en Drive, pero con versionado, rutas estables y documentación técnica separada de los bancos de problemas.
+Fuente original:
 
-## Estructura
+`Cuantly Problems Bank`  
+https://drive.google.com/drive/folders/1Xssooej0URvwWicw1GCeVMZyboKXUpiD
+
+## Estructura importada
 
 ```text
-/
-├── CERMAT/
-│   ├── documentacion/
-│   │   └── evidencia/
-│   ├── bancos/
-│   └── assets/
-├── FUSION/
-│   ├── documentacion/
-│   ├── bancos/
-│   └── assets/
-└── README.md
+01_RAW_PDFs/
+└── GAU55/
+    ├── 2023/Estatal/
+    └── 2024/Estatal/
+
+02_JSON_EXAMS/
+└── GAU55/
+    ├── 2023/Estatal/
+    └── 2024/Estatal/
+
+03_SCHEMA_AND_REPORTS/
+├── GAU55/
+│   ├── 2023/Estatal/
+│   └── 2024/Estatal/
+└── GAU55_2023_2024_media_structural_audit.json
+
+04_REFERENCE_SOURCES/
+└── GAU55/
+
+05_CLASSIFIED_EXAMS/
+└── GAU55/
+    ├── 2023/Estatal/
+    └── 2024/Estatal/
 ```
 
-- `documentacion/`: especificaciones, flujos y decisiones técnicas.
-- `bancos/`: exámenes, problemas, metadatos y estructuras del banco.
-- `assets/`: referencias y recursos asociados cuando corresponda.
-- Las imágenes servidas por la aplicación pueden mantenerse en almacenamiento/hosting externo y referenciarse desde los datos del banco.
+La jerarquía, nombres de archivo y contenido se conservan desde Drive.
 
-## CERMAT
+Git no representa directorios vacíos, por lo que los niveles clasificados vacíos se mantienen mediante archivos `.gitkeep`.
 
-La documentación inicial del flujo de evidencia fotográfica por QR se encuentra en:
+## Convención
 
-`CERMAT/documentacion/evidencia/`
+- `01_RAW_PDFs`: PDFs fuente.
+- `02_JSON_EXAMS`: exámenes JSON verificados.
+- `03_SCHEMA_AND_REPORTS`: reportes y auditorías.
+- `04_REFERENCE_SOURCES`: material de referencia.
+- `05_CLASSIFIED_EXAMS`: exámenes clasificados y reportes de clasificación.
 
-No mezclar la evidencia privada de participantes con los assets públicos o semipúblicos de los problemas del concurso.
+La documentación o nuevos concursos deben añadirse sin alterar los archivos fuente importados.

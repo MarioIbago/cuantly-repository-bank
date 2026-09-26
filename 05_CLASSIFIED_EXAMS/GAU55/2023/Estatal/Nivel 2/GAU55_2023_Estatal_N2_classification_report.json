@@ -1,0 +1,256 @@
+{
+  "phase": "Cuantly Problems Bank - Phase 2",
+  "scope": "GAU55 2023 - Fase Estatal - Nivel 2",
+  "academic_level": "Sexto de primaria",
+  "source_json": "GAU55_2023_Estatal_N2_verified.json",
+  "classified_json": "GAU55_2023_Estatal_N2_classified.json",
+  "problem_count": 25,
+  "classification_method": {
+    "type": "multi_pass_non_deterministic_review",
+    "passes": [
+      "Pass A: semantic/domain-first classification over the full exam.",
+      "Pass B: independent solution-path and cognitive-load classification without copying Pass A.",
+      "Pass C: reconciliation against the previous GAU55 2023 N1 calibration and within-exam consistency."
+    ],
+    "disagreement_count": 10,
+    "disagreements": [
+      {
+        "problem_number": 1,
+        "dimensions": [
+          "primary_area",
+          "difficulty"
+        ],
+        "pass_a": "algebra/L2",
+        "pass_b": "arithmetic/L2",
+        "final": "algebra/L2"
+      },
+      {
+        "problem_number": 2,
+        "dimensions": [
+          "difficulty"
+        ],
+        "pass_a": "L1",
+        "pass_b": "L2",
+        "final": "L1"
+      },
+      {
+        "problem_number": 3,
+        "dimensions": [
+          "primary_area"
+        ],
+        "pass_a": "arithmetic/L2",
+        "pass_b": "algebra/L2",
+        "final": "arithmetic/L2"
+      },
+      {
+        "problem_number": 6,
+        "dimensions": [
+          "difficulty"
+        ],
+        "pass_a": "L1",
+        "pass_b": "L2",
+        "final": "L1"
+      },
+      {
+        "problem_number": 7,
+        "dimensions": [
+          "difficulty"
+        ],
+        "pass_a": "L1",
+        "pass_b": "L2",
+        "final": "L1"
+      },
+      {
+        "problem_number": 9,
+        "dimensions": [
+          "primary_area"
+        ],
+        "pass_a": "geometry/L2",
+        "pass_b": "arithmetic/L2",
+        "final": "geometry/L2"
+      },
+      {
+        "problem_number": 10,
+        "dimensions": [
+          "difficulty"
+        ],
+        "pass_a": "L2",
+        "pass_b": "L1",
+        "final": "L2"
+      },
+      {
+        "problem_number": 12,
+        "dimensions": [
+          "difficulty"
+        ],
+        "pass_a": "L1",
+        "pass_b": "L2",
+        "final": "L1"
+      },
+      {
+        "problem_number": 14,
+        "dimensions": [
+          "difficulty"
+        ],
+        "pass_a": "L2",
+        "pass_b": "L1",
+        "final": "L2"
+      },
+      {
+        "problem_number": 20,
+        "dimensions": [
+          "mixed"
+        ],
+        "pass_a": "algebra only",
+        "pass_b": "algebra + arithmetic",
+        "final": "algebra + arithmetic"
+      }
+    ],
+    "principle": "Disagreements lower confidence where appropriate; no random jitter is used to fabricate uncertainty."
+  },
+  "distribution": {
+    "primary_area": {
+      "algebra": 5,
+      "arithmetic": 15,
+      "geometry": 4,
+      "probability": 1
+    },
+    "difficulty": {
+      "L2": 9,
+      "L1": 15,
+      "L3": 1
+    },
+    "area_by_difficulty": {
+      "algebra": {
+        "L2": 4,
+        "L3": 1
+      },
+      "arithmetic": {
+        "L1": 11,
+        "L2": 4
+      },
+      "geometry": {
+        "L1": 3,
+        "L2": 1
+      },
+      "probability": {
+        "L1": 1
+      }
+    },
+    "mixed_problem_count": 1,
+    "mixed_problem_numbers": [
+      20
+    ]
+  },
+  "provisional_tag_vocabulary": [
+    "angles",
+    "averages",
+    "basic_operations",
+    "charts",
+    "comparison",
+    "data_interpretation",
+    "decimals",
+    "discounts",
+    "distance",
+    "division",
+    "equations",
+    "equivalent_expressions",
+    "exact_division",
+    "extrema",
+    "fraction_addition",
+    "fraction_subtraction",
+    "fractions",
+    "invariants",
+    "linear_equations",
+    "linear_relationships",
+    "maps",
+    "measurement",
+    "mixed_numbers",
+    "money",
+    "multi_step_arithmetic",
+    "multiples",
+    "multiplication",
+    "number_line",
+    "obtuse_angles",
+    "order_of_operations",
+    "pairwise_reasoning",
+    "parallel_lines",
+    "patterns",
+    "percentages",
+    "perpendicular_lines",
+    "pie_charts",
+    "profit_loss",
+    "proportions",
+    "ratios",
+    "rectangular_prisms",
+    "reverse_operations",
+    "scale",
+    "sequences",
+    "simple_interest",
+    "spatial_reasoning",
+    "subtraction",
+    "successive_percent_changes",
+    "temperature",
+    "unit_conversion",
+    "unit_rate",
+    "visual_patterns",
+    "volume"
+  ],
+  "low_confidence": {
+    "threshold": "either confidence < 0.75",
+    "problems": [
+      {
+        "problem_number": 1,
+        "classification_confidence": 0.76,
+        "difficulty_confidence": 0.62,
+        "notes": [
+          "The source ambiguity is preserved; classification reflects the common linear-ratio structure shared by both valid interpretations."
+        ]
+      },
+      {
+        "problem_number": 9,
+        "classification_confidence": 0.74,
+        "difficulty_confidence": 0.78,
+        "notes": [
+          "The item could be viewed as arithmetic proportional reasoning, but the essential task is spatial measurement from a scaled map."
+        ]
+      },
+      {
+        "problem_number": 20,
+        "classification_confidence": 0.86,
+        "difficulty_confidence": 0.72,
+        "notes": [
+          "The original implicit-assumption status is preserved. Algebra is primary because the solution reconstructs the initial amount from sequential fractional changes."
+        ]
+      }
+    ]
+  },
+  "needs_review_preserved": [
+    1,
+    20
+  ],
+  "audit": {
+    "original_sha256": "ff3150268e5375e4d38182de4936b2d9e0ced52357b74e227f5b1504ab847106",
+    "classified_sha256": "b895080c732c7c5d592cf2b6a8633738bbdfb2138df907292c75ebd3c09ed011",
+    "original_problem_count_preserved": true,
+    "source_ids_preserved": true,
+    "options_preserved": true,
+    "correct_answers_preserved": true,
+    "solutions_preserved": true,
+    "problem_images_preserved": true,
+    "verification_statuses_preserved": true,
+    "exact_original_preserved_after_removing_classification": true,
+    "only_added_field_per_problem": "classification",
+    "allowed_primary_areas_only": true,
+    "all_problems_have_primary_area": true,
+    "all_problems_have_tags": true,
+    "all_problems_have_difficulty": true
+  },
+  "notes": [
+    "Difficulty calibration is still provisional until all six exams are classified.",
+    "Statistics/data-interpretation items are assigned to probability per the frozen Cuantly taxonomy.",
+    "Problem 1 retains its source ambiguity; classification describes the shared mathematical structure of both valid interpretations.",
+    "Problem 20 retains its implicit-assumption verification status and is the only mixed-area item in this exam.",
+    "No number-theory or combinatorics problem appears as a primary area in this exam."
+  ]
+}

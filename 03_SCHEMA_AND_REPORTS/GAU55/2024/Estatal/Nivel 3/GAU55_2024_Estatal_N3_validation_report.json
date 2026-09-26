@@ -1,0 +1,78 @@
+{
+  "exam_id": "gau55_2024_estatal_n3",
+  "source_file": "N3 GAU55 2024 estatal.pdf",
+  "source_sha256": "69676afdaf0c85f9a5b86cedfc3f3637724926135d43dcb60e666a84aa275e42",
+  "summary": {
+    "verified_problems": 23,
+    "needs_review_or_invalid": 2,
+    "needs_review_problem_numbers": [
+      9,
+      12
+    ],
+    "notes": "No area/difficulty classification is assigned in this first phase. Problem 9 is ambiguous because the type of symmetry is unspecified; problem 12 has no matching option. Problems 2, 5, 20, 23 and 25 are retained with explicit source/wording caveats documented in verification."
+  },
+  "review_items": [
+    {
+      "problem_number": 2,
+      "status": "verified_with_source_unit_typo",
+      "issue": "El promedio correcto es 63 kg, pero la opción b imprime 63 g; por ello, tal como está el examen, e) Ninguna de las anteriores es la respuesta válida."
+    },
+    {
+      "problem_number": 5,
+      "status": "verified_against_strict_triangle_geometry",
+      "issue": "La opción d (25,12,13) es degenerada porque 12+13=25. Matemáticamente, solo a puede formar un triángulo que quepa en el círculo de radio 25."
+    },
+    {
+      "problem_number": 9,
+      "status": "ambiguous_symmetry_definition",
+      "issue": "No se especifica si “simetría” significa axial, rotacional o ambas; la clasificación depende además de los glifos exactos."
+    },
+    {
+      "problem_number": 12,
+      "status": "no_matching_option",
+      "issue": "Andrés recorre sqrt(65)≈8.062 y Valentina 8; Andrés gana por ≈0.062 unidades, pero ninguna opción lo expresa."
+    },
+    {
+      "problem_number": 20,
+      "status": "corrected_after_visual_area_audit",
+      "issue": "La auditoría directa de la figura fuente da una razón sombreada aproximada de 0.29; la opción coherente es 30% (e), no 25%."
+    },
+    {
+      "problem_number": 23,
+      "status": "verified_with_indexing_interpretation",
+      "issue": "La opción b requiere tomar los 2 m como base y contar 23 incrementos exitosos de 12 cm; la siguiente meta es 4.88 m y el intento queda en 4.83 m."
+    },
+    {
+      "problem_number": 25,
+      "status": "verified_with_wording_interpretation",
+      "issue": "Se interpreta “ahorro” respecto al precio visto anteriormente (14725), no como el monto bruto del 20% de descuento; así se obtienen 589 pesos."
+    }
+  ],
+  "image_problem_numbers": [
+    3,
+    4,
+    9,
+    11,
+    13,
+    18,
+    20,
+    22,
+    24
+  ],
+  "image_count": 11,
+  "images_embedded_base64": true,
+  "classification_phase": "not_started",
+  "difficulty_phase": "not_started",
+  "json_file": "GAU55_2024_Estatal_N3_verified.json",
+  "media_policy_note": "El problema 7 ya no guarda la ecuación simbólica como imagen; se conserva como texto/LaTeX.",
+  "corrections_applied": [
+    {
+      "problem_number": 7,
+      "change": "symbolic equation image removed; text/LaTeX only"
+    },
+    {
+      "problem_number": 20,
+      "change": "answer corrected from 25% (d) to 30% (e) after source-image area audit"
+    }
+  ]
+}

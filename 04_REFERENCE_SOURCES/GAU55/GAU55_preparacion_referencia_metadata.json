@@ -1,0 +1,48 @@
+{
+  "id": "gau55-preparation-reference-report",
+  "source_type": "secondary_reference",
+  "canonical_exam": false,
+  "import_sample_questions_into_exam_bank": false,
+  "title": "Exámenes Muestra, Estrategias y Recursos para la Preparación del Concurso GAU55",
+  "competition": "GAU55",
+  "scope": "Primaria y secundaria, N1-N5",
+  "level_mapping": {
+    "N1": "Quinto de primaria",
+    "N2": "Sexto de primaria",
+    "N3": "Primero de secundaria",
+    "N4": "Segundo de secundaria",
+    "N5": "Tercero de secundaria"
+  },
+  "competition_structure_claimed": [
+    "Estatal",
+    "Nacional"
+  ],
+  "state_exam_format_claimed": {
+    "questions": "Generalmente 25 preguntas de opción múltiple",
+    "duration": "90-120 minutos según nivel",
+    "calculator": false
+  },
+  "curricular_topics_claimed": [
+    "Números y operaciones",
+    "Álgebra y funciones",
+    "Geometría y medida",
+    "Estadística y probabilidad",
+    "Resolución de problemas contextualizados"
+  ],
+  "difficulty_labels_claimed": {
+    "basic": "Aplicación directa de conceptos y procedimientos",
+    "intermediate": "Integración de varios conceptos y pasos",
+    "advanced": "Problemas no rutinarios, de olimpiada, con creatividad y razonamiento profundo"
+  },
+  "use_in_cuantly": [
+    "Referencia para mapear N1-N5",
+    "Referencia secundaria para calibrar L1/L2/L3",
+    "Referencia para comparar cobertura temática",
+    "No usar como fuente canónica de reactivos oficiales"
+  ],
+  "rights_note_from_source": "El documento recomienda respetar derechos de autor y no utilizar exámenes oficiales con fines comerciales sin autorización.",
+  "media_policy": {
+    "symbols_formulas_letters": "text_or_latex",
+    "real_visuals": "base64_image_only_when_required"
+  }
+}
