@@ -1,0 +1,796 @@
+{
+  "schema_version": "1.0",
+  "source_format_reference": "Cuantly public practice; original multiple_choice and open_answer preserved",
+  "exam": {
+    "competition": "FUSION",
+    "source_competition": "Campeonato de Olimpiadas Matemáticas FUSION26",
+    "edition": null,
+    "source_archive_family": "FUSION6",
+    "year": 2026,
+    "year_status": "confirmed",
+    "year_evidence": "Los encabezados del PDF imprimen SELECTIVOS ESTATALES, FUSION26 y, en el escudo derecho, CIRCUITO NACIONAL COM 2026. El año 2026 es explícito en la fuente. No se infiere número de edición del nombre de la carpeta FUSION6.",
+    "phase": "Selectivo Estatal",
+    "level": "5.º de primaria",
+    "school_level": "Quinto año de primaria",
+    "problem_count": 16,
+    "source_file": "FUSION_2026_selectivo-estatal_multinivel_examenes-selectivos-estatales-fusion-26_original.pdf",
+    "source_pdf_path": "01_RAW_PDFs/FUSION/2026/Selectivo Estatal/Multinivel/FUSION_2026_selectivo-estatal_multinivel_examenes-selectivos-estatales-fusion-26_original.pdf",
+    "source_sha256": "2e13ef4be54f402d7547bb967635bce02b2881424e7337def9756d4d6f8b9620",
+    "image_policy": "Exact embedded mathematical figures, visually compared with every printed appearance; formulas and the five-cell arithmetic diagram transcribed as LaTeX; no header logos or page screenshots.",
+    "classification_phase": "completed",
+    "difficulty_phase": "completed"
+  },
+  "validation_summary": {
+    "verified_problems": 15,
+    "needs_review_or_invalid": 1,
+    "needs_review_problem_numbers": [
+      11
+    ],
+    "notes": "176 preguntas cotejadas con las 46 páginas. Los dos diagramas que el borrador agrupaba por su mismo texto se resuelven por separado: abanico10,retícula34. Se conservan avisos por longitudes geométricas incompatibles, pliegues sin posiciones precisas y cambio de nombre/momento del interés."
+  },
+  "problems": [
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_5-de-primaria_q01",
+      "collection": "FUSION",
+      "subcategory": "2026 / Selectivo Estatal / 5.º de primaria",
+      "problem_number": 1,
+      "source_question_label": "1",
+      "source_page": 9,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Laura y Lalo recibieron manzanas y peras de su abuela; ellos recibieron 25 frutas en total. Camino a casa,\nLaura comió una manzana y tres peras, y Lalo comió tres manzanas y dos peras. Cuando llegaron a casa se dieron\ncuenta que en ese momento tenían, entre los dos, el mismo número de manzanas que de peras. ¿Cuántas peras\nrecibieron de su abuela?",
+      "options": [],
+      "correct_answer": "13 peras",
+      "correct_option_label": null,
+      "solution_text": "1. Comieron cuatro manzanas y cinco peras: nueve frutas. Quedaron \\(25-9=16\\).\n2. Al quedar la misma cantidad de cada fruta, quedaron ocho manzanas y ocho peras.\n3. Recibieron \\(8+5=\\mathbf{13}\\) peras y \\(8+4=12\\) manzanas. En total, 25.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado cotejado con el PDF; solución recalculada. La figura de cada aparición se revisa por separado, sin reutilizar respuestas por coincidencia de enunciado."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2026/Selectivo Estatal/Multinivel/FUSION_2026_selectivo-estatal_multinivel_examenes-selectivos-estatales-fusion-26_original.pdf",
+      "source_pdf_sha256": "2e13ef4be54f402d7547bb967635bce02b2881424e7337def9756d4d6f8b9620",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "equations",
+          "counting"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia de la solución.",
+          "Dificultad editorial relativa a Quinto año de primaria: aplicación directa o rutina breve."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_5-de-primaria_q02",
+      "collection": "FUSION",
+      "subcategory": "2026 / Selectivo Estatal / 5.º de primaria",
+      "problem_number": 2,
+      "source_question_label": "2",
+      "source_page": 9,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Gabo escoge un número natural, lo multiplica por ese mismo número, suma 1, multiplica el resultado por 10,\nsuma 3, multiplica el resultado por 4 y obtiene 2012. ¿Qué número escogió Gabo?",
+      "options": [],
+      "correct_answer": "7",
+      "correct_option_label": null,
+      "solution_text": "1. D eshacemos las operaciones: \\(2012/4=503\\), \\(503-3=500\\), \\(500/10=50\\), \\(50-1=49\\).\n2. El número natural cuyo cuadrado es 49 es **7**.\n3. Comprobación: \\(((7^2+1)10+3)4=2012\\). La raíz negativa no es natural.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado cotejado con el PDF; solución recalculada. La figura de cada aparición se revisa por separado, sin reutilizar respuestas por coincidencia de enunciado."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2026/Selectivo Estatal/Multinivel/FUSION_2026_selectivo-estatal_multinivel_examenes-selectivos-estatales-fusion-26_original.pdf",
+      "source_pdf_sha256": "2e13ef4be54f402d7547bb967635bce02b2881424e7337def9756d4d6f8b9620",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "reverse_operations",
+          "square_roots"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia de la solución.",
+          "Dificultad editorial relativa a Quinto año de primaria: combina modelado y pasos con una inferencia."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_5-de-primaria_q03",
+      "collection": "FUSION",
+      "subcategory": "2026 / Selectivo Estatal / 5.º de primaria",
+      "problem_number": 3,
+      "source_question_label": "3",
+      "source_page": 9,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Los números naturales se pintan con un ciclo: 1 rojo, 2 azul, 3 verde, 4 rojo, 5 azul, 6 verde, y así sucesivamente. ¿De qué color es la suma de un número rojo con un número azul, si ambos son mayores que 100?",
+      "options": [],
+      "correct_answer": "Verde",
+      "correct_option_label": null,
+      "solution_text": "1. Los rojos tienen resto 1 al dividir por 3 y los azules resto 2.\n2. Su suma tiene resto \\(1+2=3\\), es decir, resto cero.\n3. Los múltiplos de 3 son verdes. Ser mayores que 100 no altera este patrón.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado cotejado con el PDF; solución recalculada. La figura de cada aparición se revisa por separado, sin reutilizar respuestas por coincidencia de enunciado."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2026/Selectivo Estatal/Multinivel/FUSION_2026_selectivo-estatal_multinivel_examenes-selectivos-estatales-fusion-26_original.pdf",
+      "source_pdf_sha256": "2e13ef4be54f402d7547bb967635bce02b2881424e7337def9756d4d6f8b9620",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "remainders",
+          "periodicity"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia de la solución.",
+          "Dificultad editorial relativa a Quinto año de primaria: aplicación directa o rutina breve."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_5-de-primaria_q04",
+      "collection": "FUSION",
+      "subcategory": "2026 / Selectivo Estatal / 5.º de primaria",
+      "problem_number": 4,
+      "source_question_label": "4",
+      "source_page": 9,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Mira las siguientes figuras: ambas están formadas por las mismas 5 piezas. El rectángulo tiene 5cm de ancho\ny 10cm de largo, y las otras piezas son la cuarta parte de una circunferencia. ¿Cuál es la diferencia de los\nperímetros de las dos figuras?",
+      "options": [],
+      "correct_answer": "30 cm",
+      "correct_option_label": null,
+      "solution_text": "1. Las dos figuras usan los mismos cuatro arcos de cuarto de circunferencia. Sus longitudes se cancelan al restar los perímetros.\n2. En la primera quedan expuestos, además de los arcos, dos segmentos de 10 cm y dos de 5 cm correspondientes a los lados del rectángulo.\n3. En la segunda esos segmentos quedan dentro de la figura; el contorno está formado por los arcos.\n4. La diferencia es \\(2\\cdot10+2\\cdot5=\\mathbf{30}\\) cm. No hace falta aproximar \\(\\pi\\).",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Figura del problema",
+          "mime_type": "image/jpeg",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "d82d961e94ed0e885d38381c899c94008c1743235fb41bc6b803d106e7934722",
+          "source": "pdf_extracted",
+          "original_filename": "Image40.jpg",
+          "width_px": 343,
+          "height_px": 222
+        }
+      ],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado cotejado con el PDF; solución recalculada. La figura de cada aparición se revisa por separado, sin reutilizar respuestas por coincidencia de enunciado."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2026/Selectivo Estatal/Multinivel/FUSION_2026_selectivo-estatal_multinivel_examenes-selectivos-estatales-fusion-26_original.pdf",
+      "source_pdf_sha256": "2e13ef4be54f402d7547bb967635bce02b2881424e7337def9756d4d6f8b9620",
+      "classification": {
+        "primary_area": "geometry",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "perimeter",
+          "dissection"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia de la solución.",
+          "Dificultad editorial relativa a Quinto año de primaria: combina modelado y pasos con una inferencia."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_5-de-primaria_q05",
+      "collection": "FUSION",
+      "subcategory": "2026 / Selectivo Estatal / 5.º de primaria",
+      "problem_number": 5,
+      "source_question_label": "5",
+      "source_page": 10,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Hay 12 niños en una fiesta de cumpleaños, las edades de los niños son 6, 7, 8, 9 y 10 años (es decir, hay al\nmenos un niño de cada una de las edades). Cuatro de ellos tienen 6 años. En el grupo la edad más común es 8\naños. ¿Cuál es el promedio de las edades de los 12 niños?",
+      "options": [],
+      "correct_answer": "7.5 años",
+      "correct_option_label": null,
+      "solution_text": "1. Hay cuatro niños de seis años. Como ocho es la edad más frecuente, debe haber al menos cinco niños de ocho años.\n2. Debe haber al menos uno de siete, nueve y diez. Esas cantidades ya suman \\(4+5+1+1+1=12\\), así que son las cantidades exactas.\n3. La suma de edades es \\(4\\cdot6+5\\cdot8+7+9+10=90\\).\n4. El promedio es \\(90/12=\\mathbf{7.5}\\) años.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado cotejado con el PDF; solución recalculada. La figura de cada aparición se revisa por separado, sin reutilizar respuestas por coincidencia de enunciado."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2026/Selectivo Estatal/Multinivel/FUSION_2026_selectivo-estatal_multinivel_examenes-selectivos-estatales-fusion-26_original.pdf",
+      "source_pdf_sha256": "2e13ef4be54f402d7547bb967635bce02b2881424e7337def9756d4d6f8b9620",
+      "classification": {
+        "primary_area": "arithmetic",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "average",
+          "counting"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia de la solución.",
+          "Dificultad editorial relativa a Quinto año de primaria: combina modelado y pasos con una inferencia."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_5-de-primaria_q06",
+      "collection": "FUSION",
+      "subcategory": "2026 / Selectivo Estatal / 5.º de primaria",
+      "problem_number": 6,
+      "source_question_label": "6",
+      "source_page": 10,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "El rectángulo ABCD ha sido cortado en 4 rectángulos más pequeños como se muestra en la figura. Los\nperímetros de 3 de ellos son: 11, 16 y 19. El perímetro del cuarto rectángulo no es el mayor ni el menor. Halle el\nperímetro del rectángulo ABCD.",
+      "options": [],
+      "correct_answer": "30 unidades de longitud",
+      "correct_option_label": null,
+      "solution_text": "1. En una división por una horizontal y una vertical, la suma de los perímetros de dos rectángulos opuestos es igual a la de los otros dos, y ambas son el perímetro exterior.\n2. Los extremos 11 y 19 no pueden estar juntos en un par desigual, pues obligarían al cuarto perímetro a ser extremo: las alternativas son \\(11+16-19=8\\) y \\(16+19-11=24\\).\n3. La única posibilidad intermedia es \\(11+19-16=14\\). Así, el perímetro exterior es \\(11+19=16+14=\\mathbf{30}\\).\n4. No se inventan centímetros: el enunciado no declara una unidad para esos cuatro perímetros.",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Figura del problema",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "iVBORw0KGgoAAAANSUhEUgAAAR0AAADNCAIAAAAKQTO3AABI4UlEQVR4nO29CbRkVX0vfPaZh5rvfLubGQFBBlFINCK6EkVDJOBjIa7lsMgLxi+EL0uC+iIuV/yy/EzSUZMoPp+LrJg4gQJBnkOiCArygKgMzdBAN9Ddd55qPvPZ+629/1W7T1dVtwVddW911fl109Ste+rUPufs/zwhQoiQIEGCnkLs7ekSJEiQ0FWCBH1BIq8SJOg9ErpKkKD3kLs5iPs2EEJ9WEOCBMOGRF4lSNB7oO797PxIeNFRdiUCLUGCly2vCCEYY/g3uX0JEhyVfQUgDFxetQu6RFglSPAy6CqKonb66ahAJqSVIMHLoCsgGFEU4QVCqIXYEqJKkIBDxIdC6ARVVUulEiHEtm3HcRBC1WpVllEU+X7gVCobQeCuri4iFAWhS0jourX1jZUI+2HkdTxhggRHj6jT34DggOBQIJFAsCDA3yAINtkj0Cp2RLGDJ8O2bcMwEEIbGxuyLCOERFG07aqu66KILCsFh7GlE1GU6GuCRST6ga8qxmZdS4LRQtTpTUypiepTSBCQ0HBZo0P9AoQQkWGL9UBJkhBClUolk8nIshwEgSiKhqEihMrlsiAIa2tr+Xy+Vq9lM1n4iIhETDCOsKD0b/EJEnQAIyZC2P+BsLjxImwWuqIrTdMOHDjwwx/+8OSTT962bdvDDz8chuHS8rymarIiz0zP7Nm7522/97Zt27cBXfm+Bz4NXdf7fQEJEsTRIB3SEFL0/+ztIwRdt0wPLJfLq6urf/d3f/fNb34zDMPp6elzzz2XECzJqFAovLD3hV/84sFMJvOud136l5/4xEknnuT7vqIoVBUURfRyXPkJEhylHkiYHkgO+quJQASpSW7xrAZJogbLFucHnnLKKRdccMEtt9xyxhlnfPGLX3zDG94gy8h2bMu0HnzwwYceeuhzn//c17/xrbdfcslJJ54UhiFCiAgkDEJNS+gqwSaCSiRKS0BAQEWubauqyrUnHontH7oy3WSZ0sa+ffswxuedd96b3/xmcLgDxZ9++mnve9/7XnXqqzzXV2RqTiERhVEoS7KmaX1dfYIEhwP4KBiNkbm5ueXl5XK57HleyNB3umpBh/URoqqq7/sbGxuEkBNOOMG2baCojfV15oXXRElcW1sVkDA+MQ7xLlVVBUEIwqCvq08wykCCsLy8FEUhEoRqrYrACy2g5aVlCYlhEHz71m9/8qZPnnLqqddee+3HP/7xxx57bG5uzrZtRVF27doFBFatVvuxtq6UNFVV6/X6888/n0qlzj//fNM0q9VqKmVYqdTq6urExERpvrRr1zOWZSiyEkZhEAS6pguIOhL7segECQRBKJVL01PTgiDU7LquaUQQojCUFHVmeqZYLl588cVPPv6EpKr5fH5xcTGKom9961uXXnrpE088cf/994ui+JGPfGR2dtY0TcdxwjC0LKuHnveu6MrzPE3TXnjhhbGxsZNPPhljrOv66uqqlbIUWXn0sUc/+/9/1jT1P7z8slNPPRUhJMuyJEm+76salVoJEvQFzLkX4cj3PMswqbVvmAfm5/793//9lltuMQ3zn//lX1512mn5XN7SdU3TlpaWvva1r/3oRz964YUXPv7xj2ez1HeNENI0rffhLHIo4rkX/E3P85588knDMN73vvdhjEul0jPPPENI+MILz99++22CIGRzqfdcfWWpvE5ISEjoBw7LuqizHxMk6AsiQsr1mhv6ESF+FHpR+Mzzz17+394taSpS5F899ugL+1+KCJlfXgzD8MCBA5VK5frrr6fbNZv9r//6L9jYlUqFniqKgiDo4dpa5RXGmAfRCCHwWlXVZ599NoqihYWFL3zhCw8//PDu3bvn5vZJkpxO02SL1772tTd94iZDNyDNIgojhaVl9JIBJEhwKAjbmYpETQ/f92v1+r/929fvvP12QRC+9vV/O+OMMwghNbs+PTlNomh2dlYUxWuuueaOO+6Ym5szDJoGpKoqmCphGIJHoFdolX1xmuNv1mq1H//4x77v1+v1n/3sZw899NCuXbuqter6+nqtXkunTcu0Tjr5JEVR6rU65JL4vp90JkzQV3i+pzL/s+u6um7853/+57e/9S1BEP7fj3zkooverKna6tpayrRK5dLzzz+PEHIcR9d127apRy1oeNT65ALoYF9xMcWRSqWeffbZTCZz4403vv71r19eXj5w4EC+kPE9b35+4U/+5EOPPfbYO97xjjvvvBOUVEkUowgjRH2cicxK0CcASdTqNZatWv/BD37wwp49hYnx884997jtOxzX2bFtuxd4uqGffvrpYUjdaaurq6lUyjCMMAxBYBBC0ul0XDvrC11FNEedZkvouo4xjqJIkqS77rrr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",
+          "sha256": "d20876ddafa7b66b264efcaa3062e39a65adb4dee223b5f641ca15e6626ae413",
+          "source": "pdf_extracted",
+          "original_filename": "Image50.png",
+          "width_px": 285,
+          "height_px": 205
+        }
+      ],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado cotejado con el PDF; solución recalculada. La figura de cada aparición se revisa por separado, sin reutilizar respuestas por coincidencia de enunciado."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2026/Selectivo Estatal/Multinivel/FUSION_2026_selectivo-estatal_multinivel_examenes-selectivos-estatales-fusion-26_original.pdf",
+      "source_pdf_sha256": "2e13ef4be54f402d7547bb967635bce02b2881424e7337def9756d4d6f8b9620",
+      "classification": {
+        "primary_area": "geometry",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "perimeter",
+          "grid",
+          "equations"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia de la solución.",
+          "Dificultad editorial relativa a Quinto año de primaria: combina modelado y pasos con una inferencia."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_5-de-primaria_q07",
+      "collection": "FUSION",
+      "subcategory": "2026 / Selectivo Estatal / 5.º de primaria",
+      "problem_number": 7,
+      "source_question_label": "7",
+      "source_page": 10,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Los números ABC, BC y C tienen 3 dígitos, dos dígitos y un dígito, respectivamente. Si la suma de esos\nnúmeros es 912. Hallar el valor de B.",
+      "options": [],
+      "correct_answer": "B = 5",
+      "correct_option_label": null,
+      "solution_text": "1. La suma significa \\(100A+10B+C+10B+C+C=100A+20B+3C=912\\).\n2. En las unidades, \\(3C\\) termina en 2. El único dígito que sirve es \\(C=4\\), con acarreo 1.\n3. Queda \\(100A+20B=900\\), o \\(5A+B=45\\). Como A y B son dígitos y B no es cero porque BC tiene dos cifras, solo \\(A=8,B=5\\).\n4. \\(854+54+4=912\\). Por tanto, **B=5**.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado cotejado con el PDF; solución recalculada. La figura de cada aparición se revisa por separado, sin reutilizar respuestas por coincidencia de enunciado."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2026/Selectivo Estatal/Multinivel/FUSION_2026_selectivo-estatal_multinivel_examenes-selectivos-estatales-fusion-26_original.pdf",
+      "source_pdf_sha256": "2e13ef4be54f402d7547bb967635bce02b2881424e7337def9756d4d6f8b9620",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "place_value",
+          "digits",
+          "equations"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia de la solución.",
+          "Dificultad editorial relativa a Quinto año de primaria: combina modelado y pasos con una inferencia."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_5-de-primaria_q08",
+      "collection": "FUSION",
+      "subcategory": "2026 / Selectivo Estatal / 5.º de primaria",
+      "problem_number": 8,
+      "source_question_label": "8",
+      "source_page": 10,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Jesús quiere dividir un tablero de 6x7 en cuadrados de lados enteros. ¿Cuál es el menor número de\ncuadrados que él puede obtener?",
+      "options": [],
+      "correct_answer": "5 cuadrados",
+      "correct_option_label": null,
+      "solution_text": "1. Una construcción usa un cuadrado de \\(4\\times4\\), dos de \\(3\\times3\\) y dos de \\(2\\times2\\). En un rectángulo de ancho 7 y alto 6, sus esquinas inferiores izquierdas pueden ser \\((0,0),(4,0),(4,3),(0,4),(2,4)\\), respectivamente.\n2. Sus áreas suman \\(16+9+9+4+4=42\\) y cubren todo sin solaparse.\n3. Para descartar cuatro o menos, consideramos el mayor lado entero. Si es 6, la franja restante mide \\(1\\times6\\) en la orientación del tablero y necesita seis cuadrados unitarios. Si es 5, fuera de él solo quedan franjas de ancho a lo sumo 2: ningún cuadrado de lado 3 cabe; tres cuadrados restantes de lado a lo sumo 2 cubren a lo sumo 12, menor que \\(42-25=17\\).\n4. Si el mayor lado es 4, se necesitan al menos dos cuadrados de lado 4, pues \\(16+9+9+9=43\\) requiere revisar la igualdad exacta: las únicas cuatro áreas cuadradas con suma 42 y lados a lo sumo 4 son \\(16+16+9+1\\). Dos cuadrados de lado 4 no caben sin solaparse en \\(6\\times7\\): para separarlos horizontal o verticalmente harían falta 8 unidades. Si todos los lados son como máximo 3, cuatro áreas suman a lo sumo 36.\n5. Por tanto el mínimo es **5**. Se consideran cuadrados alineados con el tablero, como una división de su cuadrícula en lados enteros.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado cotejado con el PDF; solución recalculada. La figura de cada aparición se revisa por separado, sin reutilizar respuestas por coincidencia de enunciado."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2026/Selectivo Estatal/Multinivel/FUSION_2026_selectivo-estatal_multinivel_examenes-selectivos-estatales-fusion-26_original.pdf",
+      "source_pdf_sha256": "2e13ef4be54f402d7547bb967635bce02b2881424e7337def9756d4d6f8b9620",
+      "classification": {
+        "primary_area": "geometry",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "tiling",
+          "extremal_principle",
+          "area"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia de la solución.",
+          "Dificultad editorial relativa a Quinto año de primaria: enumeración exhaustiva, prueba de cota o construcción no rutinaria."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_5-de-primaria_q09",
+      "collection": "FUSION",
+      "subcategory": "2026 / Selectivo Estatal / 5.º de primaria",
+      "problem_number": 9,
+      "source_question_label": "9",
+      "source_page": 10,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "En la figura: ABDE es un cuadrado, BCD es un triángulo equilátero y AB = 8cm. El perímetro de ABCDE es:",
+      "options": [],
+      "correct_answer": "40 cm",
+      "correct_option_label": null,
+      "solution_text": "1. El cuadrado tiene lados de 8 cm. El triángulo equilátero comparte BD, que también mide 8.\n2. El contorno ABCDE tiene cinco lados: AB, BC, CD, DE y EA, todos de 8 cm.\n3. Su perímetro es \\(5\\cdot8=\\mathbf{40}\\) cm. BD es interior y no se suma.",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Figura del problema",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "94ab607e0dbd4e3800ad9bc752481ce4fca31ddf1600b8e7651605844b38a542",
+          "source": "pdf_extracted",
+          "original_filename": "Image34.png",
+          "width_px": 211,
+          "height_px": 140
+        }
+      ],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado cotejado con el PDF; solución recalculada. La figura de cada aparición se revisa por separado, sin reutilizar respuestas por coincidencia de enunciado."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2026/Selectivo Estatal/Multinivel/FUSION_2026_selectivo-estatal_multinivel_examenes-selectivos-estatales-fusion-26_original.pdf",
+      "source_pdf_sha256": "2e13ef4be54f402d7547bb967635bce02b2881424e7337def9756d4d6f8b9620",
+      "classification": {
+        "primary_area": "geometry",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "perimeter",
+          "squares",
+          "equilateral_triangles"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia de la solución.",
+          "Dificultad editorial relativa a Quinto año de primaria: aplicación directa o rutina breve."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_5-de-primaria_q10",
+      "collection": "FUSION",
+      "subcategory": "2026 / Selectivo Estatal / 5.º de primaria",
+      "problem_number": 10,
+      "source_question_label": "10",
+      "source_page": 11,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "La figura está formada por dos cuadrados. El perímetro de la figura es de 84cm. El perímetro de un cuadrado\nes:",
+      "options": [],
+      "correct_answer": "56 cm",
+      "correct_option_label": null,
+      "solution_text": "1. Dos cuadrados iguales unidos por un lado forman un rectángulo de lados \\(2s\\) y \\(s\\).\n2. El contorno mide \\(6s=84\\), de donde \\(s=14\\) cm.\n3. El perímetro de un cuadrado es \\(4s=\\mathbf{56}\\) cm. Comprobación del conjunto: \\(2(28+14)=84\\).",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Figura del problema",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "iVBORw0KGgoAAAANSUhEUgAAAKkAAABfCAIAAAAcfHB8AAACtElEQVR4nO3dv0sbYRzH8efuckmOlARxsEaklBa6FQVtJ9GhmNGlm3+Ci2NwdXAU3MRZBwcREQepCt2qkWAHUyuUJBApHBebg0vu8uNSrA6dL1585PN5TbeEe8ib545nOL5Kt9sVBEl96gXQk2F7XGyPi+1xsT0utsfF9rjYHhfb42J7XGyPi+1xsT0utsfF9rjYHhfb42J7XGyPi+1xsT0utsfF9rgigX/puq18/vflpfmo66E7s7NvRkdTQs72vu9Xq42tre8bG/nHXhKJ7e3PQ0MJXdcURQnv71CCfZdzfn6ztHR0dWWVSrUQVoVucjI9MTG8svIplYpLt+9Ns354+EsIEY2qg4NGLKYJWbXbvmW5jUZbCDEwEE0m42HupV7Ztnd7652d3ThOs9nsCDnf9/fGxl6urmbGx4eFrIrFP9nsl729n0KIbHZqYeGDqsobf309t7z8tVp1+3CvXturqhKLRQxDF7KKxyOa9nCc0XXNMHSZ2+shv+P/xzMeLrbHxfa42B4X2+Nie1xsj4vtcbE9LrbHxfa42B4X2+Nie1xsj4vtcbE9LrbHxfa42B4X2+Nie1xsj4vtcbE9LrbHxfa42B4X2+Nie1xsj4vtcbE9LrbHxfa42B4X2+Nie1xsj4vtcbE9LrbHxfa42B4X2+Nie1xsj4vtcbE9LrbHxfa42B5Xr7OSTLN+cHBdKMg7HdM06+XywxC/XK6yuXnRt2FEAZyeVjzvbpzbM2hfLtfW1r7purzz8Tod37a9++v9/euTk5KQmOO0HKfVn3sFnItZqdg7O4Xd3R/Hx8UQVoVucfHj9PSrTOZtqMPnAu77kZHk/Px7y2pwJmoY5ubezcy8FnLu+3/P0o5lubVaPyY4okmnXyQSMXnb03PHMx4utsfF9rjYHhfb42J7XGwvYP0FMlmoi/j4/mQAAAAASUVORK5CYII=",
+          "sha256": "67cf981b0c7669165edbbafe42f68885f247581b23291e2642c006ae24cbcbd0",
+          "source": "pdf_extracted",
+          "original_filename": "Image35.png",
+          "width_px": 169,
+          "height_px": 95
+        }
+      ],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado cotejado con el PDF; solución recalculada. La figura de cada aparición se revisa por separado, sin reutilizar respuestas por coincidencia de enunciado."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2026/Selectivo Estatal/Multinivel/FUSION_2026_selectivo-estatal_multinivel_examenes-selectivos-estatales-fusion-26_original.pdf",
+      "source_pdf_sha256": "2e13ef4be54f402d7547bb967635bce02b2881424e7337def9756d4d6f8b9620",
+      "classification": {
+        "primary_area": "geometry",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "perimeter",
+          "squares"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia de la solución.",
+          "Dificultad editorial relativa a Quinto año de primaria: aplicación directa o rutina breve."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_5-de-primaria_q11",
+      "collection": "FUSION",
+      "subcategory": "2026 / Selectivo Estatal / 5.º de primaria",
+      "problem_number": 11,
+      "source_question_label": "11",
+      "source_page": 11,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "La figura ACDE tiene 882cm de perímetro. ABDE es un rectángulo. CD = 282cm BC = BD AB es la mitad de\nBD. ¿Cuál es el perímetro del triángulo BCD?",
+      "options": [],
+      "correct_answer": "682 cm como cálculo formal; las longitudes impresas son incompatibles",
+      "correct_option_label": null,
+      "solution_text": "1. Si \\(BD=BC=x\\), entonces \\(AB=DE=x/2\\) y \\(AE=x\\). El perímetro ACDE daría \\(x/2+x+282+x/2+x=3x+282=882\\).\n2. De esa ecuación sale \\(x=200\\) y el cálculo formal del perímetro BCD es \\(200+200+282=682\\) cm.\n3. Sin embargo, ABDE es un rectángulo y A, B y C están alineados en la figura. BCD es rectángulo en B. Sus catetos de 200 exigirían \\(CD^2=200^2+200^2=80000\\); el dato impreso da \\(282^2=79524\\).\n4. No existe una figura euclidiana que cumpla exactamente todos esos datos. **682** es el resultado algebraico pretendido, pero requiere aceptar una longitud aproximada que el original no declara. Se con serva el reactivo con este aviso, sin certificar una respuesta exacta.",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Figura del problema",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "324a967389936925d1bbad9f8ad77c9a3542d85f9cc15762c94e0a8ae79460cd",
+          "source": "pdf_extracted",
+          "original_filename": "Image45.png",
+          "width_px": 176,
+          "height_px": 140
+        }
+      ],
+      "option_analysis": [],
+      "verification": {
+        "status": "inconsistent_source_geometric_lengths",
+        "answer_checked": false,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "1. Si \\(BD=BC=x\\), entonces \\(AB=DE=x/2\\) y \\(AE=x\\). El perímetro ACDE daría \\(x/2+x+282+x/2+x=3x+282=882\\).\n2. De esa ecuación sale \\(x=200\\) y el cálculo formal del perímetro BCD es \\(200+200+282=682\\) cm.\n3. Sin embargo, ABDE es un rectángulo y A, B y C están alineados en la figura. BCD es rectángulo en B. Sus catetos de 200 exigirían \\(CD^2=200^2+200^2=80000\\); el dato impreso da \\(282^2=79524\\).\n4. No existe una figura euclidiana que cumpla exactamente todos esos datos. **682** es el resultado algebraico pretendido, pero requiere aceptar una longitud aproximada que el original no declara. Se con serva el reactivo con este aviso, sin certificar una respuesta exacta."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2026/Selectivo Estatal/Multinivel/FUSION_2026_selectivo-estatal_multinivel_examenes-selectivos-estatales-fusion-26_original.pdf",
+      "source_pdf_sha256": "2e13ef4be54f402d7547bb967635bce02b2881424e7337def9756d4d6f8b9620",
+      "classification": {
+        "primary_area": "geometry",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "perimeter",
+          "pythagorean_theorem"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia de la solución.",
+          "Dificultad editorial relativa a Quinto año de primaria: combina modelado y pasos con una inferencia."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_5-de-primaria_q12",
+      "collection": "FUSION",
+      "subcategory": "2026 / Selectivo Estatal / 5.º de primaria",
+      "problem_number": 12,
+      "source_question_label": "12",
+      "source_page": 11,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Pitágoras tenía 84 figuritas en el álbum rojo y 20 figuritas en el álbum azul. Hoy pegó la misma cantidad de\nfiguritas en cada álbum. Ahora tiene, en el álbum rojo, el triple de figuritas que en el azul. ¿Cuántas figuritas\npegó en cada álbum?",
+      "options": [],
+      "correct_answer": "12 figuritas en cada álbum",
+      "correct_option_label": null,
+      "solution_text": "1. Si agrega \\(x\\) a cada álbum, queda \\(84+x=3(20+x)\\).\n2. Entonces \\(84+x=60+3x\\), \\(24=2x\\), y \\(x=\\mathbf{12}\\).\n3. Quedan 96 en rojo y 32 en azul: \\(96=3\\cdot32\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado cotejado con el PDF; solución recalculada. La figura de cada aparición se revisa por separado, sin reutilizar respuestas por coincidencia de enunciado."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2026/Selectivo Estatal/Multinivel/FUSION_2026_selectivo-estatal_multinivel_examenes-selectivos-estatales-fusion-26_original.pdf",
+      "source_pdf_sha256": "2e13ef4be54f402d7547bb967635bce02b2881424e7337def9756d4d6f8b9620",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "equations"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia de la solución.",
+          "Dificultad editorial relativa a Quinto año de primaria: aplicación directa o rutina breve."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_5-de-primaria_q13",
+      "collection": "FUSION",
+      "subcategory": "2026 / Selectivo Estatal / 5.º de primaria",
+      "problem_number": 13,
+      "source_question_label": "13",
+      "source_page": 11,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "En un campeonato de fútbol cada equipo juega 19 partidos en total. Cada vez que gana obtiene 3 puntos y\ncada vez que empata obtiene 1 punto. Al final del campeonato, el equipo Chivas obtuvo un total de 28 puntos.\n¿Cuántos partidos ganó, cuántos partidos empató y cuántos partidos perdió el equipo Chivas? Da todas las\nposibilidades.",
+      "options": [],
+      "correct_answer": "(ganados, empatados, perdidos): (5,13,1), (6,10,3), (7,7,5), (8,4,7), (9,1,9)",
+      "correct_option_label": null,
+      "solution_text": "1. Sean \\(g,e,p\\) los partidos ganados, empatados y perdidos. Se cumple \\(g+e+p=19\\) y \\(3g+e=28\\).\n2. Por tanto \\(e=28-3g\\) y \\(p=2g-9\\). Exigir cantidades enteras no negativas da \\(5\\le g\\le9\\).\n3. Sustituyendo los cinco valores obtenemos **(5,13,1), (6,10,3), (7,7,5), (8,4,7), (9,1,9)**.\n4. Cada terna suma 19 y da 28 puntos. La pregunta pide todas las posibilidades, así que las cinco forman la respuesta.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado cotejado con el PDF; solución recalculada. La figura de cada aparición se revisa por separado, sin reutilizar respuestas por coincidencia de enunciado."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2026/Selectivo Estatal/Multinivel/FUSION_2026_selectivo-estatal_multinivel_examenes-selectivos-estatales-fusion-26_original.pdf",
+      "source_pdf_sha256": "2e13ef4be54f402d7547bb967635bce02b2881424e7337def9756d4d6f8b9620",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "integer_solutions",
+          "casework"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia de la solución.",
+          "Dificultad editorial relativa a Quinto año de primaria: combina modelado y pasos con una inferencia."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_5-de-primaria_q14",
+      "collection": "FUSION",
+      "subcategory": "2026 / Selectivo Estatal / 5.º de primaria",
+      "problem_number": 14,
+      "source_question_label": "14",
+      "source_page": 12,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Un productor de mangos decide exportar la tercera parte de su producción. Entre los mangos que se van a\nexportar, se hace un control de calidad y se descarta la sexta parte. Los mangos que quedan se ponen en cajas\nde 1 docena. Cada caja se vende a $24. Por la venta de los mangos de exportación, el productor obtiene $720.\n¿Cuál es el número total de mangos que produce?",
+      "options": [],
+      "correct_answer": "1296 mangos",
+      "correct_option_label": null,
+      "solution_text": "1. Vendió \\(720/24=30\\) cajas de doce: \\(30\\cdot12=360\\) mangos aprobados.\n2. Esos 360 son cinco sextas partes de lo destinado a exportación. Antes del control había \\(360\\cdot6/5=432\\).\n3. Los 432 eran la tercera parte de la producción; produjo \\(432\\cdot3=\\mathbf{1296}\\).\n4. Comprobación: \\(1296/3=432\\); descartar 72 deja 360.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado cotejado con el PDF; solución recalculada. La figura de cada aparición se revisa por separado, sin reutilizar respuestas por coincidencia de enunciado."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2026/Selectivo Estatal/Multinivel/FUSION_2026_selectivo-estatal_multinivel_examenes-selectivos-estatales-fusion-26_original.pdf",
+      "source_pdf_sha256": "2e13ef4be54f402d7547bb967635bce02b2881424e7337def9756d4d6f8b9620",
+      "classification": {
+        "primary_area": "arithmetic",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "fractions",
+          "reverse_operations"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia de la solución.",
+          "Dificultad editorial relativa a Quinto año de primaria: combina modelado y pasos con una inferencia."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_5-de-primaria_q15",
+      "collection": "FUSION",
+      "subcategory": "2026 / Selectivo Estatal / 5.º de primaria",
+      "problem_number": 15,
+      "source_question_label": "15",
+      "source_page": 12,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Edu tiene 15 bolitas de 4 colores, solo puede tener 2 de un color y 2 de otro color. Además, se sabe que el\nresto de las bolitas únicamente pueden ser azules o blancas. ¿Cuántas combinaciones puede formar?",
+      "options": [],
+      "correct_answer": "10 combinaciones de cantidades por color",
+      "correct_option_label": null,
+      "solution_text": "1. Los dos colores que no son azul ni blanco aportan dos bolitas cada uno, cuatro en total. Quedan \\(15-4=11\\) para azul y blanco.\n2. Al decir que hay cuatro colores, ambos colores restantes deben aparecer: si \\(a\\) es la cantidad azul, \\(1\\le a\\le10\\), y la blanca es \\(11-a\\).\n3. Las parejas son \\((1,10),(2,9),\\ldots,(10,1)\\): **10 combinaciones** por cantidades de color.\n4. Si se permitiera que faltara azul o blanco serían doce parejas, incluyendo (0,11) y (11,0), pero entonces habría solo tres colores y no los cuatro indicados. Las bolitas de un mismo color no se distinguen individualmente.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado cotejado con el PDF; solución recalculada. La figura de cada aparición se revisa por separado, sin reutilizar respuestas por coincidencia de enunciado."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2026/Selectivo Estatal/Multinivel/FUSION_2026_selectivo-estatal_multinivel_examenes-selectivos-estatales-fusion-26_original.pdf",
+      "source_pdf_sha256": "2e13ef4be54f402d7547bb967635bce02b2881424e7337def9756d4d6f8b9620",
+      "classification": {
+        "primary_area": "combinatorics",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "integer_solutions",
+          "counting"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia de la solución.",
+          "Dificultad editorial relativa a Quinto año de primaria: combina modelado y pasos con una inferencia."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_5-de-primaria_q16",
+      "collection": "FUSION",
+      "subcategory": "2026 / Selectivo Estatal / 5.º de primaria",
+      "problem_number": 16,
+      "source_question_label": "16",
+      "source_page": 12,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "En la figura: ABCH y DEFG son rectángulos, BC = DE, CD = GH y GD = 3 HC. El perímetro de ABCDGH es\n140cm. El perímetro de CDGH es 92cm. El perímetro de DEFG es 108cm. ¿Cuál es el perímetro de la figura?",
+      "options": [],
+      "correct_answer": "188 cm",
+      "correct_option_label": null,
+      "solution_text": "1. Sea \\(HC=w\\), \\(BC=DE=h\\) y \\(CD=GH=k\\). Entonces \\(GD=EF=3w\\).\n2. El perímetro CDGH da \\(4w+2k=92\\). El de ABCDGH da \\(4w+2h+2k=140\\); restar resulta \\(2h=48\\), así que \\(h=24\\).\n3. El rectángulo DEFG da \\(6w+2h=108\\). Entonces \\(6w=60\\), \\(w=10\\), y de \\(40+2k=92\\) sale \\(k=26\\).\n4. El contorno de toda la figura tiene \\(4w+4h+2k=40+96+52=\\mathbf{188}\\) cm. HC y GD son interiores y no se cuentan.",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Figura del problema",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "iVBORw0KGgoAAAANSUhEUgAAAKUAAAC2CAIAAAA3C9q4AAAPG0lEQVR4nO3de1BTxx4H8F8eEEwIDwETjRCgCKTyaAsiiFIsbxSZUbQojLUt1dYOxVJrW4fiH3XqMIMy1OIMOtLq8BCpgvUxtiLlXaWWKS9RigJCIZRHQAh5kOTcKedeLld779zBSM7J7ucv3Dh7DnzPnmw2e3YZBEEAhgymoU8AW1A4b7Sw9Vvd+Ph4VlaWVCoFAGtr69TUVDs7O/0eAqNQ3jKZ7MKFC3v27BEIBFwul8fjAQLy8/Pr6urInlBYWNiWLVsAkbwBgMPhhIaGuru7AzJKS0uFQmFwcDAAuLm5AYXpP2+1Wl1fX9/V1WVlZbVq1So2mz01NVVWVqZQKCIiIpYvXw50ptPpLl++LJVKAwMDPTw8Zsu9vb23bt0KlKf/vJVK5bVr1/h8vlgs9vLyUiqV0dHRLBZLIBAcOnSooqLC1dUV6Emn0yUlJd25c8fX1zctLa2oqCg0NJR86caNGyMjI1wuNz4+XiAQADp5W1hYHD58ePZ+npaWJhQKi4uLGQxGdnZ2dHT09u3bgZ7a2to6Ojpu377N4/GqqqpiY2NlMhmDwQAAU1NTMzMzDodD/pO6CL3q6ury8fFpb2+fLdm1a9fJkyfJnzs6Oujeg9uzZ8/sr8bhcCYmJgiC2Lx5c25uLkEHem7fDAbDxMSEyfz3x/qgoKCMjIxNmzbZ2Njs37/f3d19w4YNQE99fX3nz5/fu3evl5fX559/LpFIzM3NgV4W4Jr65JNPWCwWh8PZuHGjUqkk6Oz8+fNsNnvRokXu7u6Dg4NkYWJiokAgcJmRnp5OUBhjAcbPh4eH7ezs+Hz+48ePgf5sbW1HRkb6+/uXLl0KdLNw46lzb/K0xqB4j+x/MpIMsP8TzhstOG+04LzRgvNGC84bLThvtOC80YLzRgvOGy04b7TgvNGC80YLzhstOG+04LzRgvNGC84bLThvtOC80YLzRgvOGy04b7TgvNGC80YLzhstOG+04LzRgvNGC84bLThvtOC80YLzRgvOGy04b7TgvNGC80YLzhstOG+06G09zYmJiZMnT1ZUVADAmjVrkpKSqLxM8PNY757NZotEori4OBcXFzDu9j00NBQXF9fY2HjgwIG0tLSpqanq6urZV+VyObkuem9vL9CcTqdTqVQA0N7ePltYWlrKZDLXrFkjk8mioqK+++47oCy9rMqZkZGxcePGycnJp1+amJhYvXq1n59fbGysSCS6d+8eQVtarfaNN95wcXGJj49fvHjxjz/+SJbPXR+5sLDQz89PKpUSlKSH+7lKpaqoqIiJieHxeFKpdHBwkMlkOjo68vl8ADhy5IiDgwO5/vnx48fXrVsnFAqBnsbGxng8XlNTE5fLra6ujomJGRsbe2J5zaCgoKysrIcPH1Lz7UwPeWs0GrVabWFhAQAXL168cuVKS0vLgQMHkpOTAaC/vz8sLIz8o0RGRn722WctLS1AW3v27OFyuWSuKpVKLpc/sSQ2m81mMBiTk5NASXrIm8fjiUQiMsW9MxITE3U6HfnqunXrMjMzY2NjbWxsUlNThUKhRCIBepLJZIWFheT654cOHfrb9c8HBgZUKtWyZcvAiPvnCQkJ+/bti46OJvfomeutt97q7e21t7dnMBgcDqezs5O+O5JNTEwIhUIfHx9zc3ORSHTz5s0n/sPg4ODhw4fXrVtH3e2Z9NIL0Gg0eXl5Li4uAQEBgYGBzs7OV69efbrXBgCZmZkEbR09ehQAAgICBgYGdDrdbDm53r2zs/OKFSvS09NlMhlBVfrc30CpVLa2tt69e1elUj39allZGQDY29tPT08TNDQ9Pe3g4EB++iJoayH2syDpdDpyJ6r8/HyChgoKCgDA1dVVq9UStLVw46kMBiM1NRUAyLsi7RydOe0PP/yQ3hs1LOTFpVAoyM5aeXk5QSs3Z7pmdnZ2U1NTBJ0t6KVqZmb2/vvvk702oJXMmRPeu3fvokWLgM4WYn+iuYaGhsRisUKhaG1tXblyJdBBW1ubp6enmZlZT08PfT9Mkhb6rcjOzm7nzp30auJHjx4lCGLnzp10D9sA7RsAOjo6JBIJm83u7u6m/hZeUqlULBZrNJr29nb67nQ7ywBdTVdX15iYGLVaffz4caC8r776Sq1Wx8TEGEHYfzFIL7GmpgYArK2t//YrVOqYnJy0trYGgJqaGsIoGOaj5Nq1a/39/WUy2enTp4HCTp8+LZPJ/P39165dC8bBUBdaSUkJADg5OWk0GoKSNBqNk5MTAJSUlBDGwmB5a7VaZ2dnACguLiYoqbi4GACcnZ1pPYD6BIMNDTKZzH379lF5ePWocQygPsGA19rk5OTixYsBoKqqiqCYqqoqAFi8eLFcLieMiCGvXB6P9+6771Jz7CVz5pTee+89cvaS0TDAeMtcUqnU0dFRrVa3t7e7ubkBNdy/f18ikZiamvb09FBz2uG8GfidSSgUJiQkzE4dodQAauLMrBUwLgZu3wBw9+5dDw8PDofT09OzZMkSw54MAPz5559isVilUrW1tdF3auV/Y/ie54svvhgVFaVUKnNycoACvv76a6VSGR0dbXxh/4WgAPKpM1tbW4PPJpiamrKxsQGAn376iTBGhm/fALB+/fpXXnlleHj422+/NeyZfPPNNyMjI76+vk9PrDYSBJVmA65YscKAg1larZZ8tLOoqIgwUkC12b4XL1401DlcuHABAMRiMU1nTNPmfk4+dpWSkmLYsZfMmUOnpKSw2Xp7LJ5yCMp4/PixpaUlANTX1y/80evq6gDAyspqYmKCMF5Uad8AwOfzd+/ebagmnjlz0N27dz/9CKAxMfx4y1x//PGHk5OTVqvt6Oh44YUXFuy4nZ2dbm5uLBaru7ubso926gWF2jcAiESi+Ph4nU537NixhTzusWPHdDrd9u3bjTtsyrVvAGhubvb29uZyub29veS3pc/b8PCwg4ODQqFobm729PQEo0at9g0AXl5eoaGhU1NTJ06cWJgjnjhxQqFQhIeHG33YfyGo5/r16wAgEAiUSuXzPpZCoSC/pJldfMe4UTFvgiDIpnbq1KnnfaDc3FwA8Pb2JtBA0bzJgXSJRDJ3GQW90+l05CSLs2fPEmigaN5qtVokEgHA5cuXn99Rvv/+ewBYvny5Wq0m0EC5/hrJxMSEXM7ruY69ZM5U/sEHH5iYmAAiCKoaGxsjV+z75Zdfnkf9DQ0NAGBhYTE+Pk4gg6LtGwAsLS3ffvvt59fEM2eqTUpKIlcKRATlxlvm6unpIUdVHzx4IBaL9Vhzd3e3i4sLg8F4+PChvb09IIO67Zv8KjouLk6r1WZlZem35qysLK1Wu23bNqTC/gtBDXfu3Dl16hQ5uUWhUOTk5MyWA4C5ubkeF7EbHR0lvwRrbGwkEEOV9n3v3r2ysjLyzUWhUFy8eJEs9/HxefXVVycnJ1NSUnJycshO1rwNDQ0lJCT4+/trNJrg4OCXX36ZLFer1bm5uRs2bNi8eXNhYaFGowEjRZW8/4f9+/ebmppWVlY2NTXFxMSQj23Ow/j4eEhIiK2tbW5u7qpVq2bLtVrtxx9/XFJSkpqampyc3NDQ8PDhQzBSFJq409XVlZGRwWAwVCqVVCqdLTc1NV2yZElTU5OVlVVycrKPj8/Bgwfn8czm5OSkk5NTdnY2ANy4cUMkEpEL+f7666+VlZUFBQUeHh7kZFkwXhTKm8VimZmZMWbMjXNgYCAgIMDKygoAPD09+Xz+vNuf/b96Z+SbGflzZ2enjY0N+TC60aNQ3g4ODikpKSwWSyaTlZeXz5b7+fl99NFHdXV1gYGB2dnZBEHs2LFjHu1brVZXV1e/8847W7duPXLkSFRUFBm/TCbjcDimpqaAAArl/d9IJJLCwsLXXnvNxMTE0tKysbHR0dFxflWNjo56e3uXlJTExsbm5eWRhUuXLh0dHX38+PHCTK8wLKr011gs1mwLYzAYTwxoh4eHe3l5yeXy8+fPzztsmHl+f9myZePj47t372axWGShr6/v9PQ0+d0J+fziyMgIGCuCJvz8/ACgrq5OL/XU1tbOLbx69aq7u/vq1asDAwMjIiIePXpEGCka3M8XQHR0dERERHd3N4vFcnBwMKoFW/4TzvufWCzWQs6ANhSjvZCxv4XzRgvOGy04b7TgvNGC80YLzhstOG+04LzRgvNGC84bLThvtOC80YLzRgvOGy04b7TgvNGC80YLzhstOG+04LzRgvNGC84bLThvtOC80YLzRgvOGy04b7TgvNGC80YLzhstOG+04LzRgvNGC84bLThvtOC80YLzRgvOGy20yZvK+6zQCUEH6enpbDabyWS+/vrrz7Lj4M8//8zlcplMppubW39/P4EeGqyvmJ2dXVpa2tfXZ2pqGhIS8uabbyYmJs6jnoGBgZSUlHPnzm3cuPGLL75Yv359a2srm02Dv4A+EZQXGRl56dIl8ufq6mpLS8t5/7KRkZGz1drb2//+++8EYmhwddva2t66dWvTpk0AUF9fz+fzX3rppXnUMzo6eu/ePblczuPxHjx4MDo6isKC50+gQd5ffvllcHBwX18fh8O5fv36zZs3XV1d51EPQRBJSUlBQUFhYWH5+fmZmZkI5k3p/QVnDQwMFBUV6XS6uLi4Z1nvniCIgoKCnp4ePz+/sLAwQA898sYQup8DwP3798+cObNr16753clnNTc3k7sYCoXCLVu2rFy5EhBDj/GW/Pz8oqKis2fPPmM9LS0tDQ0NQUFBcrl8x44dnZ2dgBga5D00NHTnzp2DBw/W1tY++04yAoFg27Zt+/fvt7Cw6OrqAsTQIO/bt2/z+fzNmzezWKxbt249Y23j4+O1tbVnzpzhcrnkhoJIoXreOp3u0qVL4eHhNjY2ISEhpaWlOp3uWSp89OhRXl5eeXn52NhYd3c3IIbq/fOurq7IyEgmk8nhcBQKBQD88MMP8/5IVlBQUFxcXFZWxmQyDx06dP/+/XPnzgFKqN6+KysrPTw8mpqafvvtt8bGRrFYXFlZ+ezVqtXq4eFhchdwpFA6b41Gc+3atQ0bNpBbD/J4vOjo6CtXrsx7f24Oh1NTU+Pu7i6RSB49evTpp58CYqh+P8cQat+Y3uG80YLzRgvOGy04b7TgvNGC80YLzhstOG+04LzRgvNGC84bLThvtOC8ASn/AK0pyqWkpM/jAAAAAElFTkSuQmCC",
+          "sha256": "2ac4568acbc27e6d521271030a959f285fbb5d176996093cf3b731c5be178e01",
+          "source": "pdf_extracted",
+          "original_filename": "Image55.png",
+          "width_px": 165,
+          "height_px": 182
+        }
+      ],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado cotejado con el PDF; solución recalculada. La figura de cada aparición se revisa por separado, sin reutilizar respuestas por coincidencia de enunciado."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2026/Selectivo Estatal/Multinivel/FUSION_2026_selectivo-estatal_multinivel_examenes-selectivos-estatales-fusion-26_original.pdf",
+      "source_pdf_sha256": "2e13ef4be54f402d7547bb967635bce02b2881424e7337def9756d4d6f8b9620",
+      "classification": {
+        "primary_area": "geometry",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "perimeter",
+          "systems"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia de la solución.",
+          "Dificultad editorial relativa a Quinto año de primaria: combina modelado y pasos con una inferencia."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2026/Selectivo Estatal/Multinivel/FUSION_2026_selectivo-estatal_multinivel_examenes-selectivos-estatales-fusion-26_original.pdf",
+  "source_sha256": "2e13ef4be54f402d7547bb967635bce02b2881424e7337def9756d4d6f8b9620",
+  "bank_sha256": "1cf01f985075dab289eef330dbb31b0eb5f32389058b9526517274e498fac024",
+  "rubric": "Editorial L1/L2/L3 relative to source school grade; primary area follows decisive reasoning, not picture context.",
+  "problems": [
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_3-de-primaria_q01",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "counting",
+        "multiplication"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Tercer año de primaria: aplicación directa o rutina breve."
+      ]
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_3-de-primaria_q02",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "equations",
+        "unit_rate"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Tercer año de primaria: aplicación directa o rutina breve."
+      ]
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_3-de-primaria_q03",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "subtraction",
+        "counting"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Tercer año de primaria: aplicación directa o rutina breve."
+      ]
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_3-de-primaria_q04",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "combinations",
+        "complements"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Tercer año de primaria: aplicación directa o rutina breve."
+      ]
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_3-de-primaria_q05",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "perimeter",
+        "area",
+        "grid"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Tercer año de primaria: combina modelado y pasos con una inferencia."
+      ]
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_3-de-primaria_q06",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "equations",
+        "systems"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Tercer año de primaria: combina modelado y pasos con una inferencia."
+      ]
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_3-de-primaria_q07",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "equations",
+        "counting"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Tercer año de primaria: aplicación directa o rutina breve."
+      ]
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_3-de-primaria_q08",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "reverse_operations",
+        "square_roots"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Tercer año de primaria: combina modelado y pasos con una inferencia."
+      ]
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_3-de-primaria_q09",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "parity",
+        "sequences"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Tercer año de primaria: aplicación directa o rutina breve."
+      ]
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_3-de-primaria_q10",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "perimeter",
+        "ratios"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Tercer año de primaria: aplicación directa o rutina breve."
+      ]
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_3-de-primaria_q11",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "triangle_counting",
+        "counting"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Tercer año de primaria: combina modelado y pasos con una inferencia."
+      ]
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_3-de-primaria_q12",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "multiplication",
+        "subtraction"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Tercer año de primaria: aplicación directa o rutina breve."
+      ]
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_3-de-primaria_q13",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "fractions",
+        "subtraction"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Tercer año de primaria: aplicación directa o rutina breve."
+      ]
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_3-de-primaria_q14",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "digits",
+        "multiplication_principle"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Tercer año de primaria: aplicación directa o rutina breve."
+      ]
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_3-de-primaria_q15",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "perimeter",
+        "squares",
+        "equilateral_triangles"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Tercer año de primaria: aplicación directa o rutina breve."
+      ]
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_3-de-primaria_q16",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "perimeter",
+        "squares"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Tercer año de primaria: aplicación directa o rutina breve."
+      ]
+    }
+  ]
+}

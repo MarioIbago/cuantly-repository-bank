@@ -1,0 +1,789 @@
+{
+  "schema_version": "1.0",
+  "source_format_reference": "Cuantly public practice; original multiple_choice and open_answer preserved",
+  "exam": {
+    "competition": "FUSION",
+    "source_competition": "Campeonato de Olimpiadas Matemáticas FUSION26",
+    "edition": null,
+    "source_archive_family": "FUSION6",
+    "year": 2026,
+    "year_status": "confirmed",
+    "year_evidence": "Los encabezados del PDF imprimen SELECTIVOS ESTATALES, FUSION26 y, en el escudo derecho, CIRCUITO NACIONAL COM 2026. El año 2026 es explícito en la fuente. No se infiere número de edición del nombre de la carpeta FUSION6.",
+    "phase": "Selectivo Estatal",
+    "level": "3.º de bachillerato o preparatoria",
+    "school_level": "Tercer año de bachillerato o preparatoria",
+    "problem_count": 16,
+    "source_file": "FUSION_2026_selectivo-estatal_multinivel_examenes-selectivos-estatales-fusion-26_original.pdf",
+    "source_pdf_path": "01_RAW_PDFs/FUSION/2026/Selectivo Estatal/Multinivel/FUSION_2026_selectivo-estatal_multinivel_examenes-selectivos-estatales-fusion-26_original.pdf",
+    "source_sha256": "2e13ef4be54f402d7547bb967635bce02b2881424e7337def9756d4d6f8b9620",
+    "image_policy": "Exact embedded mathematical figures, visually compared with every printed appearance; formulas and the five-cell arithmetic diagram transcribed as LaTeX; no header logos or page screenshots.",
+    "classification_phase": "completed",
+    "difficulty_phase": "completed"
+  },
+  "validation_summary": {
+    "verified_problems": 15,
+    "needs_review_or_invalid": 1,
+    "needs_review_problem_numbers": [
+      11
+    ],
+    "notes": "176 preguntas cotejadas con las 46 páginas. Los dos diagramas que el borrador agrupaba por su mismo texto se resuelven por separado: abanico10,retícula34. Se conservan avisos por longitudes geométricas incompatibles, pliegues sin posiciones precisas y cambio de nombre/momento del interés."
+  },
+  "problems": [
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_3-bachillerato-o-preparatoria_q01",
+      "collection": "FUSION",
+      "subcategory": "2026 / Selectivo Estatal / 3.º de bachillerato o preparatoria",
+      "problem_number": 1,
+      "source_question_label": "1",
+      "source_page": 39,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Un Mago tiene un cuadrado que habla. Al inicio el cuadrado tiene lado 8 cm. Si el cuadrado dice la verdad,\ntodos sus lados se reducen en 2 cm. Si el cuadrado miente, su perímetro se duplica (pero sigue siendo un\ncuadrado). De las cuatro frases que ha dicho el cuadrado, dos son verdaderas y dos son falsas, pero no sabemos\nel orden de ellas. ¿Cuál es el mayor perímetro que puede tener el cuadrado después de esas cuatro frases?",
+      "options": [],
+      "correct_answer": "112 cm",
+      "correct_option_label": null,
+      "solution_text": "1. Una mentira duplica el lado y una verdad le resta 2. Para un lado s, mentira seguida de verdad deja \\(2s-2\\); verdad seguida de mentira deja \\(2s-4\\).\n2. Por tanto, mover una mentira antes de una verdad aumenta el resultado. El máximo tiene las dos mentiras primero.\n3. Los lados pasan \\(8\\to16\\to32\\to30\\to28\\). El perímetro final es \\(4\\cdot28=\\mathbf{112}\\) cm.\n4. Los seis órdenes posibles dejan lados 16,20,22,24,26 y 28; ninguno supera 28.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado cotejado con el PDF; solución recalculada. La figura de cada aparición se revisa por separado, sin reutilizar respuestas por coincidencia de enunciado."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2026/Selectivo Estatal/Multinivel/FUSION_2026_selectivo-estatal_multinivel_examenes-selectivos-estatales-fusion-26_original.pdf",
+      "source_pdf_sha256": "2e13ef4be54f402d7547bb967635bce02b2881424e7337def9756d4d6f8b9620",
+      "classification": {
+        "primary_area": "arithmetic",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "extremal_principle",
+          "order_of_operations"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia de la solución.",
+          "Dificultad editorial relativa a Tercer año de bachillerato o preparatoria: combina modelado y pasos con una inferencia."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_3-bachillerato-o-preparatoria_q02",
+      "collection": "FUSION",
+      "subcategory": "2026 / Selectivo Estatal / 3.º de bachillerato o preparatoria",
+      "problem_number": 2,
+      "source_question_label": "2",
+      "source_page": 39,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Abel tiene 5 cubos. Cuando él los ordena desde el más pequeño hasta el más grande, las alturas de dos cubos\nadyacentes difieren siempre en 2 cm. El cubo más grande es tan alto como la torre construida con los dos cubos\nmás pequeños. ¿Cuál es la altura de la torre construida con los 5 cubos?",
+      "options": [],
+      "correct_answer": "50 cm",
+      "correct_option_label": null,
+      "solution_text": "1. Si el cubo menor tiene altura x, los cinco miden x,x+2,x+4,x+6,x+8.\n2. El mayor equivale a los dos menores juntos: \\(x+8=x+(x+2)\\), de donde \\(x=6\\).\n3. Las alturas son 6,8,10,12 y 14 cm. La torre de cinco mide \\(6+8+10+12+14=\\mathbf{50}\\) cm.\n4. La condición se verifica:14=6+8.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado cotejado con el PDF; solución recalculada. La figura de cada aparición se revisa por separado, sin reutilizar respuestas por coincidencia de enunciado."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2026/Selectivo Estatal/Multinivel/FUSION_2026_selectivo-estatal_multinivel_examenes-selectivos-estatales-fusion-26_original.pdf",
+      "source_pdf_sha256": "2e13ef4be54f402d7547bb967635bce02b2881424e7337def9756d4d6f8b9620",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "sequences",
+          "equations"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia de la solución.",
+          "Dificultad editorial relativa a Tercer año de bachillerato o preparatoria: aplicación directa o rutina breve."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_3-bachillerato-o-preparatoria_q03",
+      "collection": "FUSION",
+      "subcategory": "2026 / Selectivo Estatal / 3.º de bachillerato o preparatoria",
+      "problem_number": 3,
+      "source_question_label": "3",
+      "source_page": 39,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Cuando los números 144 y 220 son divididos por el entero positivo x se obtiene en ambos casos el resto 11.\nHalla x.",
+      "options": [],
+      "correct_answer": "x = 19",
+      "correct_option_label": null,
+      "solution_text": "1. Los restos 11 implican que x divide \\(144-11=133\\) y \\(220-11=209\\). Además \\(x>11\\).\n2. \\(133=7\\cdot19\\) y \\(209=11\\cdot19\\). Sus divisores comunes son 1 y 19.\n3. Solo **19** es mayor que 11. Comprobación:144=7·19+11 y 220=11·19+11.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado cotejado con el PDF; solución recalculada. La figura de cada aparición se revisa por separado, sin reutilizar respuestas por coincidencia de enunciado."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2026/Selectivo Estatal/Multinivel/FUSION_2026_selectivo-estatal_multinivel_examenes-selectivos-estatales-fusion-26_original.pdf",
+      "source_pdf_sha256": "2e13ef4be54f402d7547bb967635bce02b2881424e7337def9756d4d6f8b9620",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "gcd",
+          "remainders"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia de la solución.",
+          "Dificultad editorial relativa a Tercer año de bachillerato o preparatoria: aplicación directa o rutina breve."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_3-bachillerato-o-preparatoria_q04",
+      "collection": "FUSION",
+      "subcategory": "2026 / Selectivo Estatal / 3.º de bachillerato o preparatoria",
+      "problem_number": 4,
+      "source_question_label": "4",
+      "source_page": 39,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "El Rap es bailado en parejas, un hombre y una mujer. En una noche de baile no hay más de 50 personas y\nademás, 3/4 de los hombres estaban bailando con 4/5 de las mujeres. ¿Cuántas personas estaban bailando en\nese momento?",
+      "options": [],
+      "correct_answer": "24 personas",
+      "correct_option_label": null,
+      "solution_text": "1. Si hay h hombres y m mujeres, cada pareja usa uno de cada sexo: \\(3h/4=4m/5\\).\n2. Entonces \\(15h=16m\\). Las cantidades positivas enteras son \\(h=16k,m=15k\\).\n3. Hay 31 kpersonas y no son más de 50; por tanto k=1. Bailan 12 hombres y 12 mujeres.\n4. El total bailando es **24 personas**. Quedan 4 hombres y 3 mujeres sin bailar.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado cotejado con el PDF; solución recalculada. La figura de cada aparición se revisa por separado, sin reutilizar respuestas por coincidencia de enunciado."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2026/Selectivo Estatal/Multinivel/FUSION_2026_selectivo-estatal_multinivel_examenes-selectivos-estatales-fusion-26_original.pdf",
+      "source_pdf_sha256": "2e13ef4be54f402d7547bb967635bce02b2881424e7337def9756d4d6f8b9620",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "ratios",
+          "integer_solutions",
+          "divisibility"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia de la solución.",
+          "Dificultad editorial relativa a Tercer año de bachillerato o preparatoria: combina modelado y pasos con una inferencia."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_3-bachillerato-o-preparatoria_q05",
+      "collection": "FUSION",
+      "subcategory": "2026 / Selectivo Estatal / 3.º de bachillerato o preparatoria",
+      "problem_number": 5,
+      "source_question_label": "5",
+      "source_page": 39,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Hay algunos números de tres dígitos que tienen la siguiente propiedad: si se tapa el primer dígito se obtiene\nun cuadrado perfecto de dos dígitos, y si se tapa el último dígito, también se obtiene un cuadrado perfecto de\ndos dígitos. ¿Cuál es la suma de todos los números de tres dígitos que tienen esta propiedad?",
+      "options": [],
+      "correct_answer": "1993",
+      "correct_option_label": null,
+      "solution_text": "1. Los cuadrados perfectos de dos cifras son 16,25,36,49,64 y 81.\n2. La unidad del cuadrado formado por las dos primeras cifras debe coincidir con la decena del formado por las dos últimas.\n3. Las únicas uniones posibles son 16–64,36–64,64–49 y 81–16: números 164,364,649 y 816.\n4. Su suma es \\(164+364+649+816=\\mathbf{1993}\\). Cada prefijo y sufijo aparece en la lista de cuadrados.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado cotejado con el PDF; solución recalculada. La figura de cada aparición se revisa por separado, sin reutilizar respuestas por coincidencia de enunciado."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2026/Selectivo Estatal/Multinivel/FUSION_2026_selectivo-estatal_multinivel_examenes-selectivos-estatales-fusion-26_original.pdf",
+      "source_pdf_sha256": "2e13ef4be54f402d7547bb967635bce02b2881424e7337def9756d4d6f8b9620",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "perfect_squares",
+          "digits",
+          "casework"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia de la solución.",
+          "Dificultad editorial relativa a Tercer año de bachillerato o preparatoria: combina modelado y pasos con una inferencia."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_3-bachillerato-o-preparatoria_q06",
+      "collection": "FUSION",
+      "subcategory": "2026 / Selectivo Estatal / 3.º de bachillerato o preparatoria",
+      "problem_number": 6,
+      "source_question_label": "6",
+      "source_page": 40,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Halle el cociente del área de la región sombreada (triángulo MNC) entre el área del cuadrado ABCD, si M es\nel punto medio de AD y MN es perpendicular a AC.",
+      "options": [],
+      "correct_answer": "\\(3/16\\)",
+      "correct_option_label": null,
+      "solution_text": "1. La razón no cambia con la escala, así que tomamos un cuadrado de lado 1: A=(0,0),B=(0,1),C=(1,1),D=(1,0). Entonces M=(1/2,0).\n2. AC tiene ecuación y=x. La perpendicular por M es y=−x+1/2, cuya intersección es N=(1/4,1/4).\n3. El área de MNC es la mitad del valor absoluto del determinante de \\(N-M=(-1/4,1/4)\\) y \\(C-M=(1/2,1)\\):\n\\[\n[MNC]=\\frac12\\left|-\\frac14-\\frac18\\right|=\\frac3{16}.\n\\]\n4. El cuadrado tiene área 1, así que el cociente es **3/16**.",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Figura del problema",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "2598900a2c74f74d45ed68f3b1d18c5c0001bc2b89744420401c188716ecf5d4",
+          "source": "pdf_extracted",
+          "original_filename": "Image127.png",
+          "width_px": 157,
+          "height_px": 146
+        }
+      ],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado cotejado con el PDF; solución recalculada. La figura de cada aparición se revisa por separado, sin reutilizar respuestas por coincidencia de enunciado."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2026/Selectivo Estatal/Multinivel/FUSION_2026_selectivo-estatal_multinivel_examenes-selectivos-estatales-fusion-26_original.pdf",
+      "source_pdf_sha256": "2e13ef4be54f402d7547bb967635bce02b2881424e7337def9756d4d6f8b9620",
+      "classification": {
+        "primary_area": "geometry",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "coordinates",
+          "area",
+          "perpendicular_lines"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia de la solución.",
+          "Dificultad editorial relativa a Tercer año de bachillerato o preparatoria: combina modelado y pasos con una inferencia."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_3-bachillerato-o-preparatoria_q07",
+      "collection": "FUSION",
+      "subcategory": "2026 / Selectivo Estatal / 3.º de bachillerato o preparatoria",
+      "problem_number": 7,
+      "source_question_label": "7",
+      "source_page": 40,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "El profesor escribió en la pizarra los números 1, 2, 3, 4, 5, 6, 7, 8, 9 y 10. Un alumno borra algunos números\nde tal forma que entre los números que quedaron escritos en la pizarra no hay un número que sea igual al doble\nde otro. Como máximo, ¿cuántos números pueden quedar escritos en la pizarra?",
+      "options": [],
+      "correct_answer": "6 números",
+      "correct_option_label": null,
+      "solution_text": "1. Separamos los números en cadenas donde cada término duplica al anterior: (1,2,4,8), (3,6), (5,10), (7), (9).\n2. En la primera cadena pueden con servarse como máximo dos sin que sean vecinos. Cada cadena de dos permite como máximo uno, y cada singleton uno.\n3. La cota es \\(2+1+1+1+1=\\mathbf6\\).\n4. Se alcanza, por ejemplo, con servando 1,3,4,5,7 y 9. Ninguno de esos seis es el doble de otro.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado cotejado con el PDF; solución recalculada. La figura de cada aparición se revisa por separado, sin reutilizar respuestas por coincidencia de enunciado."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2026/Selectivo Estatal/Multinivel/FUSION_2026_selectivo-estatal_multinivel_examenes-selectivos-estatales-fusion-26_original.pdf",
+      "source_pdf_sha256": "2e13ef4be54f402d7547bb967635bce02b2881424e7337def9756d4d6f8b9620",
+      "classification": {
+        "primary_area": "combinatorics",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "extremal_principle",
+          "sets",
+          "doubling"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia de la solución.",
+          "Dificultad editorial relativa a Tercer año de bachillerato o preparatoria: combina modelado y pasos con una inferencia."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_3-bachillerato-o-preparatoria_q08",
+      "collection": "FUSION",
+      "subcategory": "2026 / Selectivo Estatal / 3.º de bachillerato o preparatoria",
+      "problem_number": 8,
+      "source_question_label": "8",
+      "source_page": 40,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Un cubo está rodando sobre el plano, dando vuelta alrededor de sus aristas y sin deslizar. La cara inferior del\ncubo pasa por las posiciones 1, 2, 3, 4, 5, 6 y 7 (en ese orden). ¿Cuáles dos posiciones fueron ocupadas por la\nmisma cara del cubo?",
+      "options": [],
+      "correct_answer": "Las posiciones 1 y 6",
+      "correct_option_label": null,
+      "solution_text": "1. Etiquetamos las caras inicialmente como abajo D, arriba U, derecha E, izquierda W, norte N y sur S.\n2. El camino de la figura avanza derecha,derecha,arriba,derecha,arriba,derecha. Cada movimiento es un cuarto de vuelta alrededor de una arista.\n3. Siguiendo esas rotaciones, las caras inferiores en las posiciones 1 a 7 son **D,E,U,N,W,D,S**.\n4. La única cara repetida es D, en las posiciones **1 y 6**. Las otras cinco caras aparecen una vez cada una.",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Figura del problema",
+          "mime_type": "image/jpeg",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "ffb452c4dfb2890f68f626b6769e309a41fda25ebdc0df7c6bd35706cc5faf5d",
+          "source": "pdf_extracted",
+          "original_filename": "Image128.jpg",
+          "width_px": 178,
+          "height_px": 123
+        }
+      ],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado cotejado con el PDF; solución recalculada. La figura de cada aparición se revisa por separado, sin reutilizar respuestas por coincidencia de enunciado."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2026/Selectivo Estatal/Multinivel/FUSION_2026_selectivo-estatal_multinivel_examenes-selectivos-estatales-fusion-26_original.pdf",
+      "source_pdf_sha256": "2e13ef4be54f402d7547bb967635bce02b2881424e7337def9756d4d6f8b9620",
+      "classification": {
+        "primary_area": "geometry",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "spatial_reasoning",
+          "cube_rotations"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia de la solución.",
+          "Dificultad editorial relativa a Tercer año de bachillerato o preparatoria: combina modelado y pasos con una inferencia."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_3-bachillerato-o-preparatoria_q09",
+      "collection": "FUSION",
+      "subcategory": "2026 / Selectivo Estatal / 3.º de bachillerato o preparatoria",
+      "problem_number": 9,
+      "source_question_label": "9",
+      "source_page": 40,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "En la figura: ABCD es un rectángulo, AMRS es un cuadrado, M es punto medio de AB. El área de ABCD es\n224cm², el área de SRCD es 72cm² y el perímetro de SRCD es 40cm. ¿Cuál es el área de MBCR y cuál es el\nperímetro de MBCR?",
+      "options": [],
+      "correct_answer": "Área: 88 cm²; perímetro: 40 cm",
+      "correct_option_label": null,
+      "solution_text": "1. Sea a el lado del cuadrado AMRS y h la altura AD. Como M es punto medio, el rectángulo mide 2 a por h: \\(2ah=224\\), luego \\(ah=112\\).\n2. MBCR es un trapecio con lados paralelos MR=a y BC=h separados a; su área es \\((a^2+ah)/2=(a^2+112)/2\\).\n3. Las tres regiones AMRS,MBCRySRCD suman 224. Así, \\(a^2+(a^2+112)/2+72=224\\), que da \\(a^2=64\\), \\(a=8\\), \\(h=14\\).\n4. El área buscada es \\(224-64-72=\\mathbf{88}\\) cm². RC es la hipotenusa de catetos 8 y 6, así que mide 10.\n5. El perímetro MBCR es \\(8+14+10+8=\\mathbf{40}\\) cm. Además, SRCD tiene perímetro 6+8+10+16=40, consistente con el dato.",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Figura del problema",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "c420b453c3167f517a5ed5ffd64ad586e1dd570344c13af6ee0b88b4399901f5",
+          "source": "pdf_extracted",
+          "original_filename": "Image113.png",
+          "width_px": 161,
+          "height_px": 144
+        }
+      ],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado cotejado con el PDF; solución recalculada. La figura de cada aparición se revisa por separado, sin reutilizar respuestas por coincidencia de enunciado."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2026/Selectivo Estatal/Multinivel/FUSION_2026_selectivo-estatal_multinivel_examenes-selectivos-estatales-fusion-26_original.pdf",
+      "source_pdf_sha256": "2e13ef4be54f402d7547bb967635bce02b2881424e7337def9756d4d6f8b9620",
+      "classification": {
+        "primary_area": "geometry",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "area",
+          "perimeter",
+          "systems"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia de la solución.",
+          "Dificultad editorial relativa a Tercer año de bachillerato o preparatoria: combina modelado y pasos con una inferencia."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_3-bachillerato-o-preparatoria_q10",
+      "collection": "FUSION",
+      "subcategory": "2026 / Selectivo Estatal / 3.º de bachillerato o preparatoria",
+      "problem_number": 10,
+      "source_question_label": "10",
+      "source_page": 41,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "En una oficina hay 7 empleados Agustín, Benjamín, Carlos, Diego, Enrique, Federico y Gustavo. Hoy\ndecidieron intercambiar sus lugares de trabajo de modo que, cuatro se quedaron en su propio escritorio y\nninguno de los otros tres está en su propio escritorio. ¿De cuántas maneras pueden haberse ubicado para\ntrabajar?",
+      "options": [],
+      "correct_answer": "70 maneras",
+      "correct_option_label": null,
+      "solution_text": "1. Elegimos los tres empleados que cambian de escritorio: \\(\\binom73=35\\) elecciones.\n2. Para tres personas, hay exactamente dos permutaciones sin puntos fijos: los dos ciclos de longitud 3. Las otras seis menos cuatro no sirven, porque alguno permanece.\n3. En total hay \\(35\\cdot2=\\mathbf{70}\\) maneras.\n4. Los otros cuatro empleados quedan exactamente en sus escritorios; no se permite una permutación que deje fijo a alguno de los tres elegidos.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado cotejado con el PDF; solución recalculada. La figura de cada aparición se revisa por separado, sin reutilizar respuestas por coincidencia de enunciado."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2026/Selectivo Estatal/Multinivel/FUSION_2026_selectivo-estatal_multinivel_examenes-selectivos-estatales-fusion-26_original.pdf",
+      "source_pdf_sha256": "2e13ef4be54f402d7547bb967635bce02b2881424e7337def9756d4d6f8b9620",
+      "classification": {
+        "primary_area": "combinatorics",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "combinations",
+          "derangements"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia de la solución.",
+          "Dificultad editorial relativa a Tercer año de bachillerato o preparatoria: combina modelado y pasos con una inferencia."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_3-bachillerato-o-preparatoria_q11",
+      "collection": "FUSION",
+      "subcategory": "2026 / Selectivo Estatal / 3.º de bachillerato o preparatoria",
+      "problem_number": 11,
+      "source_question_label": "11",
+      "source_page": 41,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Pepe compró una bicicleta, pagó la quinta parte de su valor al contado y el resto en 8 cuotas iguales. Cada\nmes paga la cuota correspondiente y, además, el 2% de interés sobre lo que le queda por pagar. El mes que pagó\nla tercera cuota, José pagó en total, $35.20. ¿Cuál es el precio de la bicicleta que compró Pepe?",
+      "options": [],
+      "correct_answer": "$320 bajo la interpretación indicada; la fuente no fija una respuesta única",
+      "correct_option_label": null,
+      "solution_text": "1. El original nombra a Pepe como comprador, después dice que José pagó la tercera cuota y vuelve a preguntar por Pepe. No establece expresamente que sean la misma persona.\n2. Si se corrige mentalmente ese cambio de nombre y el precio es P, se paga P/5 al contado. El saldo 4 P/5 se divide en ocho cuotas: cada una es P/10.\n3. D espués de pagar la tercera cuota queda P/2. Si el interés del 2%se calcula sobre ese saldo posterior, el pago total es \\(P/10+0.02(P/2)=0.11P=35.20\\), de donde **P=320**.\n4. Si el interés se calcula antes de la tercera cuota, el saldo es 3 P/5 y el pago es \\(0.1P+0.02(0.6P)=0.112P\\), dando \\(P=2200/7\\approx314.2857\\).\n5. Se preservan el cambio de nombre y la falta de un momento inequívoco para calcular el saldo. El resultado 320 se ofrece como interpretación habitual, con aviso de práctica guiada.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "ambiguous_source_borrower_and_interest_timing",
+        "answer_checked": false,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "1. El original nombra a Pepe como comprador, después dice que José pagó la tercera cuota y vuelve a preguntar por Pepe. No establece expresamente que sean la misma persona.\n2. Si se corrige mentalmente ese cambio de nombre y el precio es P, se paga P/5 al contado. El saldo 4 P/5 se divide en ocho cuotas: cada una es P/10.\n3. D espués de pagar la tercera cuota queda P/2. Si el interés del 2%se calcula sobre ese saldo posterior, el pago total es \\(P/10+0.02(P/2)=0.11P=35.20\\), de donde **P=320**.\n4. Si el interés se calcula antes de la tercera cuota, el saldo es 3 P/5 y el pago es \\(0.1P+0.02(0.6P)=0.112P\\), dando \\(P=2200/7\\approx314.2857\\).\n5. Se preservan el cambio de nombre y la falta de un momento inequívoco para calcular el saldo. El resultado 320 se ofrece como interpretación habitual, con aviso de práctica guiada."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2026/Selectivo Estatal/Multinivel/FUSION_2026_selectivo-estatal_multinivel_examenes-selectivos-estatales-fusion-26_original.pdf",
+      "source_pdf_sha256": "2e13ef4be54f402d7547bb967635bce02b2881424e7337def9756d4d6f8b9620",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "percentages",
+          "simple_interest",
+          "equations"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia de la solución.",
+          "Dificultad editorial relativa a Tercer año de bachillerato o preparatoria: combina modelado y pasos con una inferencia."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_3-bachillerato-o-preparatoria_q12",
+      "collection": "FUSION",
+      "subcategory": "2026 / Selectivo Estatal / 3.º de bachillerato o preparatoria",
+      "problem_number": 12,
+      "source_question_label": "12",
+      "source_page": 41,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "En la figura: ABCF y DEGH son rectángulos, CDH y FEG son triángulos iguales, BC = HD y GH = 2HC. El\nperímetro de CDH es 30cm. El perímetro de GCDE es 50cm. El perímetro de CDEF es 56cm. ¿Cuál es el perímetro\nde ABCDEF? ¿Cuál es el área de ABCDEF?",
+      "options": [],
+      "correct_answer": "Perímetro: 80 cm; área: 420 cm²",
+      "correct_option_label": null,
+      "solution_text": "1. Sea \\(HC=x\\), \\(HD=h\\), \\(CD=k\\). Como \\(GH=2x\\), el perímetro GCDE es \\(3x+k+2x+h=5x+h+k=50\\). El de CDH da \\(x+h+k=30\\).\n2. Restar resulta \\(4x=20\\): x=5. Por tanto h+k=25. El triángulo rectángulo CDH cumple \\(k^2-h^2=5^2\\). Así, \\((k-h)25=25\\), de donde k−h=1, h=12,k=13.\n3. GH=DE=10 y, por los triángulos iguales, FG=HC=5. Entonces FC=20. Se comprueba CDEF:13+10+13+20=56.\n4. BC=HD=12. El contorno ABCDEF mide \\(20+12+13+10+13+12=\\mathbf{80}\\) cm.\n5. Su área es el rectángulo 20×12 más el trapecio de bases 20 y 10 y altura 12: \\(240+(20+10)12/2=\\mathbf{420}\\) cm².",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Figura del problema",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "78a2a6d2a6baa91d521682770213ce9c1cdaa2c4f4f03fbbb647cd442e21c8a7",
+          "source": "pdf_extracted",
+          "original_filename": "Image122.png",
+          "width_px": 178,
+          "height_px": 186
+        }
+      ],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado cotejado con el PDF; solución recalculada. La figura de cada aparición se revisa por separado, sin reutilizar respuestas por coincidencia de enunciado."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2026/Selectivo Estatal/Multinivel/FUSION_2026_selectivo-estatal_multinivel_examenes-selectivos-estatales-fusion-26_original.pdf",
+      "source_pdf_sha256": "2e13ef4be54f402d7547bb967635bce02b2881424e7337def9756d4d6f8b9620",
+      "classification": {
+        "primary_area": "geometry",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "perimeter",
+          "area",
+          "pythagorean_theorem"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia de la solución.",
+          "Dificultad editorial relativa a Tercer año de bachillerato o preparatoria: combina modelado y pasos con una inferencia."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_3-bachillerato-o-preparatoria_q13",
+      "collection": "FUSION",
+      "subcategory": "2026 / Selectivo Estatal / 3.º de bachillerato o preparatoria",
+      "problem_number": 13,
+      "source_question_label": "13",
+      "source_page": 41,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "En la panadería venden bocaditos de 4 gustos distintos: vainilla, chocolate, nuez y limón. Quiero comprar\nen total 10 bocaditos y por lo menos uno de cada gusto, ¿de cuántas maneras puedo hacerlo?",
+      "options": [],
+      "correct_answer": "84 maneras",
+      "correct_option_label": null,
+      "solution_text": "1. Primero reservamos uno de cada gusto: cuatro bocaditos. Quedan seis para repartir libremente entre los cuatro gustos.\n2. Si las cantidades adicionales son a,b,c,d, se cumple \\(a+b+c+d=6\\), todas no negativas.\n3. Representamos seis unidades con tres separadores: escoger los tres lugares de los separadores entre nueve da \\(\\binom93=\\mathbf{84}\\).\n4. Cada distribución determina cantidades positivas que suman 10, y viceversa. El orden de compra no crea otra manera.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado cotejado con el PDF; solución recalculada. La figura de cada aparición se revisa por separado, sin reutilizar respuestas por coincidencia de enunciado."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2026/Selectivo Estatal/Multinivel/FUSION_2026_selectivo-estatal_multinivel_examenes-selectivos-estatales-fusion-26_original.pdf",
+      "source_pdf_sha256": "2e13ef4be54f402d7547bb967635bce02b2881424e7337def9756d4d6f8b9620",
+      "classification": {
+        "primary_area": "combinatorics",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "stars_and_bars",
+          "integer_solutions"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia de la solución.",
+          "Dificultad editorial relativa a Tercer año de bachillerato o preparatoria: combina modelado y pasos con una inferencia."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_3-bachillerato-o-preparatoria_q14",
+      "collection": "FUSION",
+      "subcategory": "2026 / Selectivo Estatal / 3.º de bachillerato o preparatoria",
+      "problem_number": 14,
+      "source_question_label": "14",
+      "source_page": 42,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Superponiendo rectángulos iguales de cartulina, Clara arma una figura como la que se muestra.\nLos lados de los rectángulos superpuestos se cortan en sus puntos medios. La figura que Clara arma con 10 de\nestos rectángulos tiene 248cm² de área. ¿Podrá armar, con este procedimiento, una figura de 2006cm² de área?\nSi es posible, indica cuántos rectángulos debe utilizar.",
+      "options": [],
+      "correct_answer": "No es posible",
+      "correct_option_label": null,
+      "solution_text": "1. Sea A el área de un rectángulo. Cada superposición ocupa un cuarto, porque los lados se cortan en sus puntos medios. Un nuevo rectángulo aporta 3 A/4 al área total.\n2. Con n rectángulos, el área es \\(A_n=A+(n-1)3A/4=(3n+1)A/4\\).\n3. Para diez, \\(31A/4=248\\), así que A=32 cm². Entonces \\(A_n=24n+8\\).\n4. Llegar a 2006 exigiría \\(n=(2006-8)/24=83.25\\). Como n debe ser entero, **no es posible**.\n5. Con 83 rectángulos se obtiene 2000 cm²y con 84,2024 cm², que confirman el salto sobre 2006.",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Figura del problema",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "69614f67b56cc36b06e988eec7942845a65e588655dd0bc1dce1dc217c165b56",
+          "source": "pdf_extracted",
+          "original_filename": "Image133.png",
+          "width_px": 231,
+          "height_px": 120
+        }
+      ],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado cotejado con el PDF; solución recalculada. La figura de cada aparición se revisa por separado, sin reutilizar respuestas por coincidencia de enunciado."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2026/Selectivo Estatal/Multinivel/FUSION_2026_selectivo-estatal_multinivel_examenes-selectivos-estatales-fusion-26_original.pdf",
+      "source_pdf_sha256": "2e13ef4be54f402d7547bb967635bce02b2881424e7337def9756d4d6f8b9620",
+      "classification": {
+        "primary_area": "geometry",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "area",
+          "sequences",
+          "divisibility"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia de la solución.",
+          "Dificultad editorial relativa a Tercer año de bachillerato o preparatoria: combina modelado y pasos con una inferencia."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_3-bachillerato-o-preparatoria_q15",
+      "collection": "FUSION",
+      "subcategory": "2026 / Selectivo Estatal / 3.º de bachillerato o preparatoria",
+      "problem_number": 15,
+      "source_question_label": "15",
+      "source_page": 42,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Con los dígitos del 0 al 9, se quieren armar conjuntos de cuatro dígitos distintos de modo que la suma de\nesos cuatro dígitos sea múltiplo de 5. ¿Cuántos conjuntos se pueden armar?",
+      "options": [],
+      "correct_answer": "42 conjuntos",
+      "correct_option_label": null,
+      "solution_text": "1. Hay \\(\\binom{10}{4}=210\\) conjuntos de cuatro dígitos distintos. El orden no importa.\n2. La transformación que suma 1 a cada dígito módulo 10 es una biyección entre esos conjuntos; con serva que los dígitos sean distintos.\n3. La suma de las cuatro cifras aumenta 4 módulo 5: cuando 9 pasa a 0 se resta 10, que es múltiplo de 5. Por ello la biyección hace circular los cinco residuos posibles de la suma.\n4. Los cinco residuos tienen la misma cantidad de conjuntos. Para residuo cero hay \\(210/5=\\mathbf{42}\\).\n5. La enumeración de las 210 combinaciones confirma 42 con suma múltiplo de 5.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado cotejado con el PDF; solución recalculada. La figura de cada aparición se revisa por separado, sin reutilizar respuestas por coincidencia de enunciado."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2026/Selectivo Estatal/Multinivel/FUSION_2026_selectivo-estatal_multinivel_examenes-selectivos-estatales-fusion-26_original.pdf",
+      "source_pdf_sha256": "2e13ef4be54f402d7547bb967635bce02b2881424e7337def9756d4d6f8b9620",
+      "classification": {
+        "primary_area": "combinatorics",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "combinations",
+          "remainders"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia de la solución.",
+          "Dificultad editorial relativa a Tercer año de bachillerato o preparatoria: combina modelado y pasos con una inferencia."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_3-bachillerato-o-preparatoria_q16",
+      "collection": "FUSION",
+      "subcategory": "2026 / Selectivo Estatal / 3.º de bachillerato o preparatoria",
+      "problem_number": 16,
+      "source_question_label": "16",
+      "source_page": 42,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "En Navidad, Aldo, Bruno, Carlos y Daniel recibieron cada uno un número distinto de regalos. Además, se\nrepartieron caramelos de manera que, cada chico, recibió 10 caramelos por cada uno de los regalos que\nrecibieron los otros chicos y tuvo que devolver 20 caramelos por cada regalo que él recibió. En total se\nrepartieron 390 caramelos. Al final, a Aldo no le quedaron caramelos, a Bruno le quedaron 120 caramelos y a\nCarlos le quedaron el doble de caramelos que a Daniel. ¿Cuántos regalos se repartieron en total y cuántos regalos\nrecibió cada uno de los chicos?",
+      "options": [],
+      "correct_answer": "39 regalos: Aldo 13, Bruno 9, Carlos 7 y Daniel 10",
+      "correct_option_label": null,
+      "solution_text": "1. Sea T la cantidad total de regalos y g los de un chico. Recibe 10(T−g)caramelos y devuelve 20 g, de modo que al final tiene \\(10T-30g\\).\n2. Sumar los cuatro saldos da \\(40T-30T=10T=390\\), así que T=39.\n3. Aldo queda sin caramelos:390−30 a=0=>a=13. Bruno queda con 120:390−30 b=120=>b=9.\n4. Entonces c+d=17. Carlos tiene el doble que Daniel: \\(390-30c=2(390-30d)\\), que se simplifica a \\(2d-c=13\\). Resolviendo: d=10,c=7.\n5. Los regalos 13,9,7 y 10 son distintos y suman 39. Los caramelos finales son 0,120,180 y 90: suman 390 y 180 es el doble de 90.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado cotejado con el PDF; solución recalculada. La figura de cada aparición se revisa por separado, sin reutilizar respuestas por coincidencia de enunciado."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2026/Selectivo Estatal/Multinivel/FUSION_2026_selectivo-estatal_multinivel_examenes-selectivos-estatales-fusion-26_original.pdf",
+      "source_pdf_sha256": "2e13ef4be54f402d7547bb967635bce02b2881424e7337def9756d4d6f8b9620",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "systems",
+          "net_change"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia de la solución.",
+          "Dificultad editorial relativa a Tercer año de bachillerato o preparatoria: combina modelado y pasos con una inferencia."
+        ]
+      }
+    }
+  ]
+}

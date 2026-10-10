@@ -1,0 +1,650 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2026/Selectivo Estatal/Multinivel/FUSION_2026_selectivo-estatal_multinivel_examenes-selectivos-estatales-fusion-26_original.pdf",
+  "source_sha256": "2e13ef4be54f402d7547bb967635bce02b2881424e7337def9756d4d6f8b9620",
+  "pages_cotejadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "metadata_evidence": "Los encabezados del PDF imprimen SELECTIVOS ESTATALES, FUSION26 y, en el escudo derecho, CIRCUITO NACIONAL COM 2026. El año 2026 es explícito en la fuente. No se infiere número de edición del nombre de la carpeta FUSION6.",
+  "method": "Rendered all 46 pages; independently solved 71 mathematical/visual models across 176 appearances; exact enumerations for counting, figures compared with printed orientations, real KaTeX rendering.",
+  "printed_key_review": {
+    "note": "The 46-page source contains exams without an official printed answer key."
+  },
+  "legacy_group_warning": "Statement-only legacy group382 merges two distinct diagrams. The primary fan has10triangles, the secondary grid34; answers are selected by exact source occurrence.",
+  "problems": [
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_1-de-secundaria_q01",
+      "source_page": 17,
+      "legacy_group_for_navigation_only": 395,
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado cotejado con el PDF; solución recalculada. La figura de cada aparición se revisa por separado, sin reutilizar respuestas por coincidencia de enunciado."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Recalculado: 5. Justificación completa y sustitución en solution_text."
+      },
+      "figures": [],
+      "transcription_notes": [
+        "Original wording and data retained."
+      ]
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_1-de-secundaria_q02",
+      "source_page": 17,
+      "legacy_group_for_navigation_only": 396,
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado cotejado con el PDF; solución recalculada. La figura de cada aparición se revisa por separado, sin reutilizar respuestas por coincidencia de enunciado."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Construccióncinco cuadrados:[[0,0,4],[4,0,3],[4,3,3],[0,4,2],[2,4,2]];única particiónáreade42encuatrocuadradoslado≤4:1,3,4,4;dos4×4nocaben. Lado5dejafranjas≤2;lado6franja1×6."
+      },
+      "figures": [],
+      "transcription_notes": [
+        "Original wording and data retained."
+      ]
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_1-de-secundaria_q03",
+      "source_page": 17,
+      "legacy_group_for_navigation_only": 400,
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado cotejado con el PDF; solución recalculada. La figura de cada aparición se revisa por separado, sin reutilizar respuestas por coincidencia de enunciado."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Recalculado: 4. Justificación completa y sustitución en solution_text."
+      },
+      "figures": [
+        {
+          "page": 17,
+          "object": "Image60.jpg",
+          "box": [
+            239.62,
+            463.84,
+            372.35,
+            574.29
+          ],
+          "sha256": "daa4b1fad4b1262f9535e4b6f1ad50816686c8008e8138fe1c23e8d3b298fa20",
+          "width_px": 271,
+          "height_px": 226,
+          "source": "pdf_extracted"
+        }
+      ],
+      "transcription_notes": [
+        "Original wording and data retained."
+      ]
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_1-de-secundaria_q04",
+      "source_page": 17,
+      "legacy_group_for_navigation_only": 401,
+      "verification": {
+        "status": "needs_review_unspecified_fold_locations",
+        "answer_checked": false,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "1. Doblar con serva la cantidad de papel, pero no el área visible ni la suma de dos regiones dibujadas. No se puede dividir 64 entre dos solo por haber dos dobleces.\n2. El esquema no marca puntos medios, distancias ni el punto preciso sobre el que se lleva cada esquina. Las flechas indican sentido, pero no fijan esas longitudes.\n3. Para ver por qué importa, representemos el cuadrado como un rombo con vértices \\((-1,0),(0,1),(1,0),(0,-1)\\), de área 2. Llevar la esquina izquierda al centro produce el pliegue \\(x=-1/2\\). Si después se lleva la derecha al punto \\((-1/2,0)\\), el nuevo pliegue es \\(x=1/4\\): las dos bandas rectangulares oblicuas suman área \\(1/2\\), un cuarto del área original, equivalente a 16 cm².\n4. Si la esquina derecha se lleva al centro, el segundo pliegue es \\(x=1/2\\), y esas bandas cambian de anchura; no es el mismo cálculo.\n5. Sin marcas que confirmen las posiciones exactas no certificamos 16 ni la cifra 32 heredada del borrador. Se con serva la figura íntegra y se ofrece esta revisión guiada del dato faltante."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Audit deldato faltante: el PDF no marca las posiciones exactas de los pliegues. Se preserva guiado;no se certifica la cifra heredada32."
+      },
+      "figures": [
+        {
+          "page": 17,
+          "object": "Image61.jpg",
+          "box": [
+            209.62,
+            652.066,
+            402.35,
+            741.616
+          ],
+          "sha256": "2a9278b3896f66ce2295423fdf81a8f3a8fb85d43e647e7467c77c60eb733f4f",
+          "width_px": 376,
+          "height_px": 175,
+          "source": "pdf_extracted"
+        }
+      ],
+      "transcription_notes": [
+        "Original wording and data retained."
+      ]
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_1-de-secundaria_q05",
+      "source_page": 18,
+      "legacy_group_for_navigation_only": 402,
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado cotejado con el PDF; solución recalculada. La figura de cada aparición se revisa por separado, sin reutilizar respuestas por coincidencia de enunciado."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Recalculado: 2. Justificación completa y sustitución en solution_text."
+      },
+      "figures": [],
+      "transcription_notes": [
+        "Original wording and data retained."
+      ]
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_1-de-secundaria_q06",
+      "source_page": 18,
+      "legacy_group_for_navigation_only": 406,
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado cotejado con el PDF; solución recalculada. La figura de cada aparición se revisa por separado, sin reutilizar respuestas por coincidencia de enunciado."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Recalculado: 9.999. Justificación completa y sustitución en solution_text."
+      },
+      "figures": [],
+      "transcription_notes": [
+        "Original wording and data retained."
+      ]
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_1-de-secundaria_q07",
+      "source_page": 18,
+      "legacy_group_for_navigation_only": 407,
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado cotejado con el PDF; solución recalculada. La figura de cada aparición se revisa por separado, sin reutilizar respuestas por coincidencia de enunciado."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Recalculado: 240. Justificación completa y sustitución en solution_text."
+      },
+      "figures": [],
+      "transcription_notes": [
+        "Original wording and data retained."
+      ]
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_1-de-secundaria_q08",
+      "source_page": 18,
+      "legacy_group_for_navigation_only": 408,
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado cotejado con el PDF; solución recalculada. La figura de cada aparición se revisa por separado, sin reutilizar respuestas por coincidencia de enunciado."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Recalculado: 29. Justificación completa y sustitución en solution_text."
+      },
+      "figures": [],
+      "transcription_notes": [
+        "Original wording and data retained."
+      ]
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_1-de-secundaria_q09",
+      "source_page": 18,
+      "legacy_group_for_navigation_only": 398,
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado cotejado con el PDF; solución recalculada. La figura de cada aparición se revisa por separado, sin reutilizar respuestas por coincidencia de enunciado."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Recalculado: 10. Justificación completa y sustitución en solution_text."
+      },
+      "figures": [],
+      "transcription_notes": [
+        "Original wording and data retained."
+      ]
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_1-de-secundaria_q10",
+      "source_page": 19,
+      "legacy_group_for_navigation_only": 399,
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado cotejado con el PDF; solución recalculada. La figura de cada aparición se revisa por separado, sin reutilizar respuestas por coincidencia de enunciado."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Recalculado: 188. Justificación completa y sustitución en solution_text."
+      },
+      "figures": [
+        {
+          "page": 19,
+          "object": "Image55.png",
+          "box": [
+            232.12,
+            190.04999999999995,
+            379.84000000000003,
+            353.05
+          ],
+          "sha256": "2ac4568acbc27e6d521271030a959f285fbb5d176996093cf3b731c5be178e01",
+          "width_px": 165,
+          "height_px": 182,
+          "source": "pdf_extracted"
+        }
+      ],
+      "transcription_notes": [
+        "Original wording and data retained."
+      ]
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_1-de-secundaria_q11",
+      "source_page": 19,
+      "legacy_group_for_navigation_only": 403,
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado cotejado con el PDF; solución recalculada. La figura de cada aparición se revisa por separado, sin reutilizar respuestas por coincidencia de enunciado."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Recalculado: 156. Justificación completa y sustitución en solution_text."
+      },
+      "figures": [
+        {
+          "page": 19,
+          "object": "Image66.png",
+          "box": [
+            269.25,
+            447.74,
+            342.724,
+            534.99
+          ],
+          "sha256": "515fd099ed7759fe5a39cb80d2843fc1ab5e1b74ac152e3cc8d7c2c703eee241",
+          "width_px": 121,
+          "height_px": 144,
+          "source": "pdf_extracted"
+        }
+      ],
+      "transcription_notes": [
+        "Original wording and data retained."
+      ]
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_1-de-secundaria_q12",
+      "source_page": 19,
+      "legacy_group_for_navigation_only": 404,
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado cotejado con el PDF; solución recalculada. La figura de cada aparición se revisa por separado, sin reutilizar respuestas por coincidencia de enunciado."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Verificadascincoecuacionesdeperímetros y dos identidadespitagóricas."
+      },
+      "figures": [
+        {
+          "page": 19,
+          "object": "Image67.png",
+          "box": [
+            248.95,
+            663.119,
+            363.04999999999995,
+            723.85
+          ],
+          "sha256": "39de15a50045800757c29c1ff336085039b8ea371ae57d07369902646d88d7ea",
+          "width_px": 235,
+          "height_px": 125,
+          "source": "pdf_extracted"
+        }
+      ],
+      "transcription_notes": [
+        "Original wording and data retained."
+      ]
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_1-de-secundaria_q13",
+      "source_page": 20,
+      "legacy_group_for_navigation_only": 405,
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado cotejado con el PDF; solución recalculada. La figura de cada aparición se revisa por separado, sin reutilizar respuestas por coincidencia de enunciado."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Recalculado: 0.5. Justificación completa y sustitución en solution_text."
+      },
+      "figures": [],
+      "transcription_notes": [
+        "Original wording and data retained."
+      ]
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_1-de-secundaria_q14",
+      "source_page": 20,
+      "legacy_group_for_navigation_only": 409,
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado cotejado con el PDF; solución recalculada. La figura de cada aparición se revisa por separado, sin reutilizar respuestas por coincidencia de enunciado."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Recalculado: 48. Justificación completa y sustitución en solution_text."
+      },
+      "figures": [],
+      "transcription_notes": [
+        "Original wording and data retained."
+      ]
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_1-de-secundaria_q15",
+      "source_page": 20,
+      "legacy_group_for_navigation_only": 410,
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado cotejado con el PDF; solución recalculada. La figura de cada aparición se revisa por separado, sin reutilizar respuestas por coincidencia de enunciado."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Recalculado: 88. Justificación completa y sustitución en solution_text."
+      },
+      "figures": [
+        {
+          "page": 20,
+          "object": "Image76.png",
+          "box": [
+            253.5,
+            416.7,
+            357.75,
+            555.7
+          ],
+          "sha256": "b48400956df6402c70b63a850ebcc7dcf9bb22ef415af72f41671da004d9ae38",
+          "width_px": 120,
+          "height_px": 159,
+          "source": "pdf_extracted"
+        }
+      ],
+      "transcription_notes": [
+        "Original wording and data retained."
+      ]
+    },
+    {
+      "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_1-de-secundaria_q16",
+      "source_page": 20,
+      "legacy_group_for_navigation_only": 382,
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado cotejado con el PDF; solución recalculada. La figura de cada aparición se revisa por separado, sin reutilizar respuestas por coincidencia de enunciado."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Enumeradaslasternas de12interseccionescon3ladoscubiertos:[[\"T\",\"L\",\"R\"],[\"T\",\"L\",\"O\"],[\"T\",\"R\",\"O\"],[\"T\",\"TL\",\"TR\"],[\"T\",\"TL\",\"O\"],[\"T\",\"TL\",\"U\"],[\"T\",\"TR\",\"O\"],[\"T\",\"TR\",\"U\"],[\"L\",\"BL\",\"TL\"],[\"L\",\"BL\",\"O\"],[\"L\",\"BL\",\"W\"],[\"L\",\"TL\",\"O\"],[\"L\",\"TL\",\"W\"],[\"R\",\"BR\",\"TR\"],[\"R\",\"BR\",\"O\"],[\"R\",\"BR\",\"E\"],[\"R\",\"TR\",\"O\"],[\"R\",\"TR\",\"E\"],[\"BL\",\"BR\",\"TL\"],[\"BL\",\"BR\",\"TR\"],[\"BL\",\"BR\",\"O\"],[\"BL\",\"TL\",\"TR\"],[\"BL\",\"TL\",\"O\"],[\"BL\",\"O\",\"D\"],[\"BL\",\"O\",\"W\"],[\"BR\",\"TL\",\"TR\"],[\"BR\",\"TR\",\"O\"],[\"BR\",\"O\",\"D\"],[\"BR\",\"O\",\"E\"],[\"TL\",\"TR\",\"O\"],[\"TL\",\"O\",\"U\"],[\"TL\",\"O\",\"W\"],[\"TR\",\"O\",\"U\"],[\"TR\",\"O\",\"E\"]]"
+      },
+      "figures": [
+        {
+          "page": 20,
+          "object": "Image77.png",
+          "box": [
+            238.87,
+            616.453,
+            373.08000000000004,
+            721.903
+          ],
+          "sha256": "491af01d9c05431180b820cf07e8a3a75d5add829626d69c9d23f32a27694e79",
+          "width_px": 186,
+          "height_px": 146,
+          "source": "pdf_extracted"
+        }
+      ],
+      "transcription_notes": [
+        "Original wording and data retained."
+      ]
+    }
+  ],
+  "bank_sha256": "f353db514525a8c87a625ea5485c8ea4855bfeadf4f9fa35aba2f9fd5901360d",
+  "classified_bank_sha256": "a82fe4a0cb6094fc1335fb902bb16b03c8ecad0e056dac6acd97e31fcea227e6",
+  "counts": {
+    "verified_problems": 15,
+    "needs_review_or_invalid": 1,
+    "needs_review_problem_numbers": [
+      4
+    ],
+    "notes": "176 preguntas cotejadas con las 46 páginas. Los dos diagramas que el borrador agrupaba por su mismo texto se resuelven por separado: abanico10,retícula34. Se conservan avisos por longitudes geométricas incompatibles, pliegues sin posiciones precisas y cambio de nombre/momento del interés."
+  },
+  "latex_rendering": {
+    "engine": "KaTeX",
+    "throwOnError": true,
+    "fields": "problem_text,correct_answer,solution_text"
+  },
+  "structural_validation": {
+    "verified": {
+      "ok": true,
+      "scope": "structure_options_image_decoding_hashes_classification_only",
+      "mathematical_verification": "not_performed_by_this_script",
+      "visual_source_comparison": "not_performed_by_this_script",
+      "latex_rendering": "not_performed_by_this_script",
+      "bank_sha256": "f353db514525a8c87a625ea5485c8ea4855bfeadf4f9fa35aba2f9fd5901360d",
+      "bytes": 87293,
+      "problems": 16,
+      "verified": 15,
+      "guided": 1,
+      "images": 7,
+      "figures": [
+        {
+          "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_1-de-secundaria_q03",
+          "figure": 1,
+          "sha256": "daa4b1fad4b1262f9535e4b6f1ad50816686c8008e8138fe1c23e8d3b298fa20",
+          "width": 271,
+          "height": 226
+        },
+        {
+          "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_1-de-secundaria_q04",
+          "figure": 1,
+          "sha256": "2a9278b3896f66ce2295423fdf81a8f3a8fb85d43e647e7467c77c60eb733f4f",
+          "width": 376,
+          "height": 175
+        },
+        {
+          "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_1-de-secundaria_q10",
+          "figure": 1,
+          "sha256": "2ac4568acbc27e6d521271030a959f285fbb5d176996093cf3b731c5be178e01",
+          "width": 165,
+          "height": 182
+        },
+        {
+          "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_1-de-secundaria_q11",
+          "figure": 1,
+          "sha256": "515fd099ed7759fe5a39cb80d2843fc1ab5e1b74ac152e3cc8d7c2c703eee241",
+          "width": 121,
+          "height": 144
+        },
+        {
+          "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_1-de-secundaria_q12",
+          "figure": 1,
+          "sha256": "39de15a50045800757c29c1ff336085039b8ea371ae57d07369902646d88d7ea",
+          "width": 235,
+          "height": 125
+        },
+        {
+          "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_1-de-secundaria_q15",
+          "figure": 1,
+          "sha256": "b48400956df6402c70b63a850ebcc7dcf9bb22ef415af72f41671da004d9ae38",
+          "width": 120,
+          "height": 159
+        },
+        {
+          "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_1-de-secundaria_q16",
+          "figure": 1,
+          "sha256": "491af01d9c05431180b820cf07e8a3a75d5add829626d69c9d23f32a27694e79",
+          "width": 186,
+          "height": 146
+        }
+      ],
+      "errors": [],
+      "warnings": []
+    },
+    "classified": {
+      "ok": true,
+      "scope": "structure_options_image_decoding_hashes_classification_only",
+      "mathematical_verification": "not_performed_by_this_script",
+      "visual_source_comparison": "not_performed_by_this_script",
+      "latex_rendering": "not_performed_by_this_script",
+      "bank_sha256": "a82fe4a0cb6094fc1335fb902bb16b03c8ecad0e056dac6acd97e31fcea227e6",
+      "bytes": 96079,
+      "problems": 16,
+      "verified": 15,
+      "guided": 1,
+      "images": 7,
+      "figures": [
+        {
+          "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_1-de-secundaria_q03",
+          "figure": 1,
+          "sha256": "daa4b1fad4b1262f9535e4b6f1ad50816686c8008e8138fe1c23e8d3b298fa20",
+          "width": 271,
+          "height": 226
+        },
+        {
+          "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_1-de-secundaria_q04",
+          "figure": 1,
+          "sha256": "2a9278b3896f66ce2295423fdf81a8f3a8fb85d43e647e7467c77c60eb733f4f",
+          "width": 376,
+          "height": 175
+        },
+        {
+          "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_1-de-secundaria_q10",
+          "figure": 1,
+          "sha256": "2ac4568acbc27e6d521271030a959f285fbb5d176996093cf3b731c5be178e01",
+          "width": 165,
+          "height": 182
+        },
+        {
+          "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_1-de-secundaria_q11",
+          "figure": 1,
+          "sha256": "515fd099ed7759fe5a39cb80d2843fc1ab5e1b74ac152e3cc8d7c2c703eee241",
+          "width": 121,
+          "height": 144
+        },
+        {
+          "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_1-de-secundaria_q12",
+          "figure": 1,
+          "sha256": "39de15a50045800757c29c1ff336085039b8ea371ae57d07369902646d88d7ea",
+          "width": 235,
+          "height": 125
+        },
+        {
+          "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_1-de-secundaria_q15",
+          "figure": 1,
+          "sha256": "b48400956df6402c70b63a850ebcc7dcf9bb22ef415af72f41671da004d9ae38",
+          "width": 120,
+          "height": 159
+        },
+        {
+          "source_id": "fusion6_examenes-selectivos-estatales-fusion-26_1-de-secundaria_q16",
+          "figure": 1,
+          "sha256": "491af01d9c05431180b820cf07e8a3a75d5add829626d69c9d23f32a27694e79",
+          "width": 186,
+          "height": 146
+        }
+      ],
+      "errors": [],
+      "warnings": []
+    }
+  }
+}
