@@ -1,0 +1,190 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2020/Estatal CEOM12/Multinivel/FUSION_2020_estatal-ceom12_multinivel_examen-estatal-ceom12_original.pdf",
+  "source_sha256": "377197ef1ecc29123c205951e30c3063642e585df47a40a8497f902c1253fd4b",
+  "school_level": "3.º y 4.º de primaria",
+  "rubric": "Primary solving idea; L1 direct familiar steps, L2 combines ideas, L3 non-routine argument relative to the printed school level. Ambiguity and invalid printed options are retained without automatic grading.",
+  "problems": [
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q01",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "division",
+        "subtraction"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Encadenar dos comparaciones de edades.",
+        "Dificultad relativa a 3.º y 4.º de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q02",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "addition",
+        "patterns",
+        "arithmetic_sequences"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Sumar una secuencia diaria y distinguir si se reinicia cada semana.",
+        "Dificultad relativa a 3.º y 4.º de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q03",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "remainders",
+        "calendar"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Usar la repetición semanal de siete días.",
+        "Dificultad relativa a 3.º y 4.º de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q04",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "linear_equations",
+        "substitution",
+        "balance"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Combinar dos equivalencias de peso de una balanza.",
+        "Dificultad relativa a 3.º y 4.º de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q05",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "multiplication",
+        "division",
+        "counting"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Comparar el número total de sesiones con la capacidad diaria.",
+        "Dificultad relativa a 3.º y 4.º de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q06",
+      "primary_area": "geometry",
+      "secondary_areas": [
+        "combinatorics"
+      ],
+      "mixed": true,
+      "difficulty": "L2",
+      "tags": [
+        "counting",
+        "quadrilaterals",
+        "combinations"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Determinar cada rectángulo con dos líneas verticales y dos horizontales.",
+        "Dificultad relativa a 3.º y 4.º de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q07",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "division",
+        "place_value",
+        "multiplication"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Recuperar un factor mediante división y leer su cifra de decenas.",
+        "Dificultad relativa a 3.º y 4.º de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q08",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L3",
+      "tags": [
+        "addition",
+        "arithmetic_sequences",
+        "patterns"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Agrupar una suma larga en parejas de valor constante.",
+        "Dificultad relativa a 3.º y 4.º de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q09",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L3",
+      "tags": [
+        "area",
+        "grid",
+        "triangles",
+        "quadrilaterals"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Obtener el área por complementos y multiplicar por el área de una casilla.",
+        "Dificultad relativa a 3.º y 4.º de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q10",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L3",
+      "tags": [
+        "area",
+        "triangles",
+        "quadrilaterals",
+        "square_roots"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Descomponer una región escalonada y distinguir razones de áreas y de lados.",
+        "Dificultad relativa a 3.º y 4.º de primaria."
+      ]
+    }
+  ]
+}

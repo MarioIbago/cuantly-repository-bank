@@ -54,9 +54,9 @@ La documentación o nuevos concursos deben añadirse sin alterar los archivos fu
 
 Se preservaron los **32 PDF originales (226 páginas)**. El material de recuperación completo se conserva como borrador sin certificar y no se usa como banco de práctica.
 
-Hay **39 colecciones y 153 problemas publicados**: 130 con respuesta matemática revisada y 23 de práctica guiada, con las ambigüedades o defectos de la fuente explicados. Los 150 problemas GAU55 permanecen disponibles.
+Hay **45 colecciones y 183 problemas publicados**: 151 con respuesta matemática revisada y 32 de práctica guiada, con las ambigüedades o defectos de la fuente explicados. Los 150 problemas GAU55 permanecen disponibles.
 
-Quedan **686 apariciones pendientes**. Otras 42 son variantes de fuente documentadas y no se duplican en el catálogo. El año se conserva como nulo cuando no está confirmado; no se deduce de la edición.
+Quedan **656 apariciones pendientes**. Otras 42 son variantes de fuente documentadas y no se duplican en el catálogo. El año se conserva como nulo cuando no está confirmado; no se deduce de la edición.
 
 Consulta el [avance y las rutas publicadas](03_SCHEMA_AND_REPORTS/FUSION/publication_progress.json), el [inventario de fuentes](03_SCHEMA_AND_REPORTS/FUSION/source_manifest.json), las [variantes de fuente](03_SCHEMA_AND_REPORTS/FUSION/source_variant_aliases.json) y el [contrato de respuestas abiertas](03_SCHEMA_AND_REPORTS/FUSION/OPEN_ANSWER_CONTRACT.md). El [borrador de recuperación](04_REFERENCE_SOURCES/FUSION/recovery/working_draft.json) retiene los registros pendientes con advertencias explícitas.
 

@@ -1,0 +1,442 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2020/Estatal CEOM12/Multinivel/FUSION_2020_estatal-ceom12_multinivel_examen-estatal-ceom12_original.pdf",
+  "source_sha256": "377197ef1ecc29123c205951e30c3063642e585df47a40a8497f902c1253fd4b",
+  "metadata_evidence": "The seven headers print 23 DE MAYO and edition 12 but no calendar year. References such as 3 feb 05 date the borrowed problem, not this exam; 2020 is used within questions. The imported PDF folder used an explicitly inferred 2020 label; the bank does not adopt that inference.",
+  "source_review": "All seven source pages rendered and visually compared. Missing weight data and the unlabelled fifth option recovered from the original, not from inherited notes.",
+  "pages": [
+    5
+  ],
+  "source_numbering": [
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_2-secundaria_q01",
+      "collection_ordinal": 1,
+      "source_question_label": "F"
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_2-secundaria_q02",
+      "collection_ordinal": 2,
+      "source_question_label": "B"
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_2-secundaria_q03",
+      "collection_ordinal": 3,
+      "source_question_label": "C"
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_2-secundaria_q04",
+      "collection_ordinal": 4,
+      "source_question_label": "G"
+    }
+  ],
+  "figure_review": [
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_2-secundaria_q03",
+      "page": 5,
+      "pdf_image_object": "Image44.png",
+      "bbox_top_left_pdf_points": [
+        106.8,
+        426,
+        194.39999999999998,
+        498
+      ],
+      "sha256": "70c5c457119c0a1b46f7c0dea4ff7559247fb313bf959bb48af492935878cc21",
+      "method": "Exact embedded mathematical figure. All pattern examples retained in original order with explicit figure labels."
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_2-secundaria_q03",
+      "page": 5,
+      "pdf_image_object": "Image45.png",
+      "bbox_top_left_pdf_points": [
+        240.48,
+        425.28,
+        329.76,
+        498
+      ],
+      "sha256": "66797a8cad8d60155ae81bc0a51fcceacf95e6d031133fef45f59f06d5ed98a6",
+      "method": "Exact embedded mathematical figure. All pattern examples retained in original order with explicit figure labels."
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_2-secundaria_q03",
+      "page": 5,
+      "pdf_image_object": "Image46.png",
+      "bbox_top_left_pdf_points": [
+        382.08,
+        422.15999999999997,
+        473.28,
+        498
+      ],
+      "sha256": "5f73d7331367e73b803e08c3e2e1c3939fc10bc91d706fb95d40038b997527c5",
+      "method": "Exact embedded mathematical figure. All pattern examples retained in original order with explicit figure labels."
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_2-secundaria_q04",
+      "page": 5,
+      "pdf_image_object": "Image47.png",
+      "bbox_top_left_pdf_points": [
+        230.16,
+        588.96,
+        381.84000000000003,
+        745.2
+      ],
+      "sha256": "37c2bdcfb9e6b5ec8802729eb1bfd73f4a856e54fa5942a36ae0a8b877ff81ca",
+      "method": "Exact embedded mathematical figure. All pattern examples retained in original order with explicit figure labels."
+    }
+  ],
+  "transcription_corrections": [
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_2-secundaria_q03",
+      "kind": "counting_scope_qualified",
+      "details": "The inherited result counts only elementary triangles. A second all-size count is derived and independently checked; the source does not specify the scope."
+    }
+  ],
+  "latex_rendering": {
+    "engine": "KaTeX 0.16.47",
+    "expressions": 42,
+    "errors": []
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_2-secundaria_q01",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "oldOdometer": 15951,
+        "nextOdometer": 16061,
+        "distance": 110,
+        "hours": 2,
+        "speed": 55
+      },
+      "notes": "Respuesta abierta revisada; comparación manual."
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_2-secundaria_q02",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "count": 38,
+        "byLength": {
+          "2": 2,
+          "3": 15,
+          "4": 16,
+          "5": 5
+        },
+        "numbers": [
+          68,
+          86,
+          238,
+          246,
+          264,
+          283,
+          328,
+          344,
+          382,
+          426,
+          434,
+          443,
+          462,
+          624,
+          642,
+          823,
+          832,
+          2226,
+          2234,
+          2243,
+          2262,
+          2324,
+          2342,
+          2423,
+          2432,
+          2622,
+          3224,
+          3242,
+          3422,
+          4223,
+          4232,
+          4322,
+          6222,
+          22223,
+          22232,
+          22322,
+          23222,
+          32222
+        ]
+      },
+      "notes": "Respuesta abierta revisada; comparación manual."
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_2-secundaria_q03",
+      "status": "ambiguous_counting_scope",
+      "independent_check": {
+        "ninth": {
+          "side": 9,
+          "bySide": [
+            {
+              "side": 1,
+              "triangles": 486
+            },
+            {
+              "side": 2,
+              "triangles": 432
+            },
+            {
+              "side": 3,
+              "triangles": 380
+            },
+            {
+              "side": 4,
+              "triangles": 330
+            },
+            {
+              "side": 5,
+              "triangles": 282
+            },
+            {
+              "side": 6,
+              "triangles": 236
+            },
+            {
+              "side": 7,
+              "triangles": 192
+            },
+            {
+              "side": 8,
+              "triangles": 150
+            },
+            {
+              "side": 9,
+              "triangles": 110
+            },
+            {
+              "side": 10,
+              "triangles": 72
+            },
+            {
+              "side": 11,
+              "triangles": 42
+            },
+            {
+              "side": 12,
+              "triangles": 20
+            },
+            {
+              "side": 13,
+              "triangles": 6
+            }
+          ],
+          "total": 2738,
+          "unitTriangles": 486,
+          "closedForm": 2738
+        },
+        "firstFigures": [
+          {
+            "n": 1,
+            "brute": 6,
+            "formula": 6,
+            "summed": 6
+          },
+          {
+            "n": 2,
+            "brute": 38,
+            "formula": 38,
+            "summed": 38
+          },
+          {
+            "n": 3,
+            "brute": 116,
+            "formula": 116,
+            "summed": 116
+          }
+        ],
+        "independentComparisons": [
+          {
+            "n": 1,
+            "brute": 6,
+            "formula": 6,
+            "summed": 6
+          },
+          {
+            "n": 2,
+            "brute": 38,
+            "formula": 38,
+            "summed": 38
+          },
+          {
+            "n": 3,
+            "brute": 116,
+            "formula": 116,
+            "summed": 116
+          },
+          {
+            "n": 4,
+            "brute": 262,
+            "formula": 262,
+            "summed": 262
+          },
+          {
+            "n": 5,
+            "brute": 496,
+            "formula": 496,
+            "summed": 496
+          },
+          {
+            "n": 6,
+            "brute": 840,
+            "formula": 840,
+            "summed": 840
+          },
+          {
+            "n": 7,
+            "brute": 1314,
+            "formula": 1314,
+            "summed": 1314
+          },
+          {
+            "n": 8,
+            "brute": 1940,
+            "formula": 1940,
+            "summed": 1940
+          },
+          {
+            "n": 9,
+            "brute": 2738,
+            "formula": 2738,
+            "summed": 2738
+          }
+        ],
+        "scopeAmbiguity": "Unit cells only versus all triangles formed by the drawn lines."
+      },
+      "notes": "La fuente no especifica triángulos elementales. El conteo 486 de la nota recuperada solo cuenta los pequeños; al incluir todos los tamaños resultan 2738. Ambos alcances se explican sin asignar respuesta única."
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_2-secundaria_q04",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "A": [
+          0,
+          1
+        ],
+        "B": [
+          1,
+          1
+        ],
+        "C": [
+          1,
+          0
+        ],
+        "D": [
+          0,
+          0
+        ],
+        "M": [
+          0.5,
+          1
+        ],
+        "P": [
+          0.3333333333333333,
+          0.6666666666666666
+        ],
+        "areaCPMB": 0.4166666666666667,
+        "exactArea": "5/12",
+        "ratio": 2.4,
+        "exactRatio": "12/5"
+      },
+      "notes": "Respuesta abierta revisada; comparación manual."
+    }
+  ],
+  "structural_validation": [
+    {
+      "path": "02_JSON_EXAMS/FUSION/Sin fecha/Estatal CEOM12/2.º de secundaria/FUSION_sin-fecha_estatal-ceom12_2-secundaria_verified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "7ee12918d3b037e79fb66687ee85dd6d17294ba12442f45a0d761c0fc9b40219",
+        "bytes": 28677,
+        "problems": 4,
+        "verified": 3,
+        "guided": 1,
+        "images": 4,
+        "figures": [
+          {
+            "source_id": "fusion1_examen-estatal-ceom12_2-secundaria_q03",
+            "figure": 1,
+            "sha256": "70c5c457119c0a1b46f7c0dea4ff7559247fb313bf959bb48af492935878cc21",
+            "width": 190,
+            "height": 156
+          },
+          {
+            "source_id": "fusion1_examen-estatal-ceom12_2-secundaria_q03",
+            "figure": 2,
+            "sha256": "66797a8cad8d60155ae81bc0a51fcceacf95e6d031133fef45f59f06d5ed98a6",
+            "width": 194,
+            "height": 158
+          },
+          {
+            "source_id": "fusion1_examen-estatal-ceom12_2-secundaria_q03",
+            "figure": 3,
+            "sha256": "5f73d7331367e73b803e08c3e2e1c3939fc10bc91d706fb95d40038b997527c5",
+            "width": 189,
+            "height": 157
+          },
+          {
+            "source_id": "fusion1_examen-estatal-ceom12_2-secundaria_q04",
+            "figure": 1,
+            "sha256": "37c2bdcfb9e6b5ec8802729eb1bfd73f4a856e54fa5942a36ae0a8b877ff81ca",
+            "width": 242,
+            "height": 250
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/2.º de secundaria/FUSION_sin-fecha_estatal-ceom12_2-secundaria_classified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "01055888fba9447ddae2e78d3c39c9ac6aa2b78b49940b3622029c571c35441a",
+        "bytes": 31006,
+        "problems": 4,
+        "verified": 3,
+        "guided": 1,
+        "images": 4,
+        "figures": [
+          {
+            "source_id": "fusion1_examen-estatal-ceom12_2-secundaria_q03",
+            "figure": 1,
+            "sha256": "70c5c457119c0a1b46f7c0dea4ff7559247fb313bf959bb48af492935878cc21",
+            "width": 190,
+            "height": 156
+          },
+          {
+            "source_id": "fusion1_examen-estatal-ceom12_2-secundaria_q03",
+            "figure": 2,
+            "sha256": "66797a8cad8d60155ae81bc0a51fcceacf95e6d031133fef45f59f06d5ed98a6",
+            "width": 194,
+            "height": 158
+          },
+          {
+            "source_id": "fusion1_examen-estatal-ceom12_2-secundaria_q03",
+            "figure": 3,
+            "sha256": "5f73d7331367e73b803e08c3e2e1c3939fc10bc91d706fb95d40038b997527c5",
+            "width": 189,
+            "height": 157
+          },
+          {
+            "source_id": "fusion1_examen-estatal-ceom12_2-secundaria_q04",
+            "figure": 1,
+            "sha256": "37c2bdcfb9e6b5ec8802729eb1bfd73f4a856e54fa5942a36ae0a8b877ff81ca",
+            "width": 242,
+            "height": 250
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    }
+  ]
+}

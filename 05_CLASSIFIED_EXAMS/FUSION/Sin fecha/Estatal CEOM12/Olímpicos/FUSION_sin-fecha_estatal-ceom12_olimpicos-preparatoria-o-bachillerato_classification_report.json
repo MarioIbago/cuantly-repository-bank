@@ -1,0 +1,88 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2020/Estatal CEOM12/Multinivel/FUSION_2020_estatal-ceom12_multinivel_examen-estatal-ceom12_original.pdf",
+  "source_sha256": "377197ef1ecc29123c205951e30c3063642e585df47a40a8497f902c1253fd4b",
+  "school_level": "Preparatoria o bachillerato",
+  "rubric": "Primary solving idea; L1 direct familiar steps, L2 combines ideas, L3 non-routine argument relative to the printed school level. Ambiguity and invalid printed options are retained without automatic grading.",
+  "problems": [
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q01",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L3",
+      "tags": [
+        "counting",
+        "lattice_paths",
+        "casework",
+        "symmetry"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Contar circuitos simples de diez cuadras por las formas que encierran.",
+        "Dificultad relativa a Preparatoria o bachillerato."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q02",
+      "primary_area": "algebra",
+      "secondary_areas": [
+        "combinatorics"
+      ],
+      "mixed": true,
+      "difficulty": "L2",
+      "tags": [
+        "linear_equations",
+        "pair_sums",
+        "ordering",
+        "invariants"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Recuperar cinco cantidades a partir del multiconjunto de sus diez sumas por parejas.",
+        "Dificultad relativa a Preparatoria o bachillerato."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q03",
+      "primary_area": "combinatorics",
+      "secondary_areas": [
+        "geometry"
+      ],
+      "mixed": true,
+      "difficulty": "L3",
+      "tags": [
+        "patterns",
+        "counting",
+        "triangular_grid",
+        "area"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Generalizar dos conteos distintos en una retícula triangular.",
+        "Dificultad relativa a Preparatoria o bachillerato."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q04",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "area",
+        "similar_triangles",
+        "ratios",
+        "quadrilaterals"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Usar semejanza para hallar la posición del cruce y descomponer el cuadrilátero.",
+        "Dificultad relativa a Preparatoria o bachillerato."
+      ]
+    }
+  ]
+}

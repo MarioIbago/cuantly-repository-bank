@@ -1,0 +1,186 @@
+{
+  "schema_version": "1.0",
+  "source_format_reference": "Cuantly public practice; original multiple_choice and open_answer preserved",
+  "exam": {
+    "competition": "FUSION",
+    "source_competition": "CEOM12",
+    "edition": 12,
+    "year": null,
+    "year_status": "not_confirmed",
+    "year_evidence": "The seven headers print 23 DE MAYO and edition 12 but no calendar year. References such as 3 feb 05 date the borrowed problem, not this exam; 2020 is used within questions. The imported PDF folder used an explicitly inferred 2020 label; the bank does not adopt that inference.",
+    "phase": "Estatal CEOM12",
+    "level": "3.º de secundaria",
+    "school_level": "Tercer año de secundaria",
+    "problem_count": 4,
+    "source_file": "FUSION_2020_estatal-ceom12_multinivel_examen-estatal-ceom12_original.pdf",
+    "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Estatal CEOM12/Multinivel/FUSION_2020_estatal-ceom12_multinivel_examen-estatal-ceom12_original.pdf",
+    "source_sha256": "377197ef1ecc29123c205951e30c3063642e585df47a40a8497f902c1253fd4b",
+    "image_policy": "All mathematical diagrams are exact PDF embedded bytes; three pattern examples per question retain original order. Equation transcribed as LaTeX. No source logos, page images or full-question crops.",
+    "classification_phase": "not_started",
+    "difficulty_phase": "not_started"
+  },
+  "validation_summary": {
+    "verified_problems": 3,
+    "needs_review_or_invalid": 1,
+    "needs_review_problem_numbers": [
+      3
+    ],
+    "notes": "Original multiple-choice options and their values retained; one unlabelled fifth option is explicitly indexed editorially, with source_label:null and no grading. Defective and ambiguous sources remain guided. Printed source question letters and the Kids second-part label are retained separately from collection ordinals. No exam year is inferred."
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_3-secundaria_q01",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Estatal CEOM12 / 3.º de secundaria",
+      "problem_number": 1,
+      "source_question_label": "F",
+      "source_page": 6,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Jaden intenta cruzar todo el país en coche desde Quintana Roo hasta Baja California Sur en cierto momento, al\nir en su trayecto, se da cuenta que el kilometraje marca que ha recorrido 15, 951km y se da cuenta que ese\nnúmero es capicúa. Exactamente dos horas más tarde el kilometraje marca otro número capicúa ¿Cuál fue la\nmenor velocidad promedio durante esas dos horas?\nNota:  número capicúa es aquel que se lee igual de izquierda a derecha que de derecha a izquierda. (22 marz\n05)",
+      "options": [],
+      "correct_answer": "55 km/h",
+      "correct_option_label": null,
+      "solution_text": "1. **Buscar el siguiente capicúa.** Un número de cinco cifras con primeras tres cifras 159 tendría que terminar en 51; ese es precisamente 15951, el valor inicial.\n2. **Aumentar lo menos posible.** El siguiente bloque de tres cifras es 160 y su reflejo produce **16061**. No hay otro capicúa estrictamente entre ambos, porque sus primeras tres cifras tendrían que estar entre 159 y 160.\n3. **Distancia mínima.** \\(16061-15951=110\\) km.\n4. **Velocidad promedio.** En dos horas, la menor velocidad promedio es \\(110/2=\\mathbf{55}\\) km/h.\n5. **Comprobación.** 16061 se lee igual en ambos sentidos y \\(15951+2\\cdot55=16061\\). «Otro número» exige un contador posterior diferente; no se toma una distancia cero.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta revisada; comparación manual."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Estatal CEOM12/Multinivel/FUSION_2020_estatal-ceom12_multinivel_examen-estatal-ceom12_original.pdf",
+      "source_pdf_sha256": "377197ef1ecc29123c205951e30c3063642e585df47a40a8497f902c1253fd4b"
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_3-secundaria_q02",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Estatal CEOM12 / 3.º de secundaria",
+      "problem_number": 2,
+      "source_question_label": "H",
+      "source_page": 6,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Aarón tiene 5 osos de diferentes tamaños los cuales pesa en una báscula que solo permite poner 2 osos en cada pesada, entonces hace todas las combinaciones, posibles diferentes, por parejas y los pesa. Los resultados en gramos fueron: 18, 20, 24, 24, 26, 28, 30, 30, 32 y 36.\n\n¿Cuál es el peso de cada uno de los osos?",
+      "options": [],
+      "correct_answer": "7, 11, 13, 17 y 19 gramos",
+      "correct_option_label": null,
+      "solution_text": "1. **Ordenar pesos.** Llamamos \\(a\\le b\\le c\\le d\\le e\\) a los cinco pesos. Las dos menores sumas son \\(a+b=18\\) y \\(a+c=20\\); la mayor es \\(d+e=36\\).\n2. **Peso total.** Al sumar las diez pesadas, cada oso aparece con los otros cuatro, de modo que se cuenta cuatro veces. La suma impresa es 268 y el peso de los cinco es \\(268/4=67\\).\n3. **Primer peso.** Como \\(d+e=36\\), \\(a+b+c=67-36=31\\). Sustituyendo \\(b=18-a\\) y \\(c=20-a\\), obtenemos \\(38-a=31\\), luego a=7, b=11 y c=13.\n4. **Últimos dos.** Quitamos una aparición de \\(a+b=18\\), de \\(a+c=20\\), de \\(b+c=24\\) y de \\(d+e=36\\). Quedan 24, 26, 28, 30, 30 y 32. Entre estas seis sumas, la menor es \\(a+d=24\\), así que d=17. Finalmente e=36-17=19.\n5. **Respuesta.** Los pesos son **7, 11, 13, 17 y 19 gramos**.\n6. **Comprobación de todas las parejas.** Las sumas son \\(7+11=18\\), \\(7+13=20\\), \\(7+17=24\\), \\(7+19=26\\), \\(11+13=24\\), \\(11+17=28\\), \\(11+19=30\\), \\(13+17=30\\), \\(13+19=32\\) y \\(17+19=36\\). Coinciden con todos los datos, incluidas las dos apariciones de 24 y de 30. El argumento ordenado también demuestra que no hay otro multiconjunto de pesos.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta revisada; comparación manual."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Estatal CEOM12/Multinivel/FUSION_2020_estatal-ceom12_multinivel_examen-estatal-ceom12_original.pdf",
+      "source_pdf_sha256": "377197ef1ecc29123c205951e30c3063642e585df47a40a8497f902c1253fd4b"
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_3-secundaria_q03",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Estatal CEOM12 / 3.º de secundaria",
+      "problem_number": 3,
+      "source_question_label": "C",
+      "source_page": 6,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Siguiendo el patrón de las figuras, ¿cuántos triángulos habrá en la figura 2020? (17 ago 05)",
+      "options": [],
+      "correct_answer": "24,482,400 triángulos elementales; 28,857,609,910 contando todos los tamaños",
+      "correct_option_label": null,
+      "solution_text": "1. **Qué crece.** Los tres ejemplos son hexágonos de lados 1, 2 y 3 unidades pequeñas. Siguiendo esa subdivisión, la figura 2020 tiene lado 2020.\n2. **Solo triángulos pequeños.** Cada uno de los seis sectores contiene \\(2020^2\\) celdas triangulares. Hay\n\\[6\\cdot2020^2=6\\cdot4\\,080\\,400=\\mathbf{24\\,482\\,400}.\\]\n3. **Todos los tamaños.** Si se cuentan también los triángulos compuestos cuyas aristas están dibujadas, se aplica el conteo explicado en el apartado 7:\n\\[T_n=\\frac{n(14n^2+9n+2)-\\varepsilon_n}{4}.\\]\nComo 2020 es par, \\(\\varepsilon_n=0\\). Entonces\n\\[T_{2020}=\\frac{2020(14\\cdot2020^2+9\\cdot2020+2)}4\n=505\\cdot57\\,143\\,782\n=\\mathbf{28\\,857\\,609\\,910}.\\]\n4. **Respuestas condicionadas.** Son **24,482,400 si se piden las celdas elementales** y **28,857,609,910 si se incluyen todos los tamaños**.\n5. **Comprobación independiente.** La suma por longitudes k, de 1 a 3030, da el mismo total que la fórmula cerrada. Para los lados 1 a 9, la enumeración directa de vértices también coincide con esa fórmula; por ejemplo, lado 2 da 38 triángulos de todos los tamaños frente a 24 pequeños.\n6. **Alcance de fuente.** La pregunta no especifica «elementales», así que el resultado pequeño de la nota recuperada se conserva como una lectura condicionada. Se usa práctica guiada para no esconder esta diferencia.\n\n7. **Cómo contar todos los tamaños.** En la retícula triangular, un vértice se representa con dos enteros (x,y) sobre ejes que forman 60°. El hexágono de lado n contiene exactamente los puntos con \\(|x|\\le n,\\ |y|\\le n,\\ |x+y|\\le n\\). Un triángulo de una orientación y lado k tiene vértices \\((x,y),(x+k,y),(x,y+k)\\). Exigir que los tres estén dentro equivale a\n\\[-n\\le x,y\\le n-k,\\qquad -n\\le x+y\\le n-k.\\]\nContando las parejas enteras de esas franjas se obtiene, para una orientación,\n\\[\nU_{n,k}=\n\\begin{cases}\n3n(n-k+1)+\\binom{k-1}{2},&1\\le k\\le n,\\\\\n\\binom{3n-2k+2}{2},&n<k\\le\\lfloor3n/2\\rfloor,\\\\\n0,&k>\\lfloor3n/2\\rfloor.\n\\end{cases}\n\\]\nLa otra orientación tiene el mismo número. Por tanto \\(T_n=2\\sum_kU_{n,k}\\). Al sumar los términos se llega a\n\\[\nT_n=\\frac{n(14n^2+9n+2)-\\varepsilon_n}{4},\n\\qquad\n\\varepsilon_n=\n\\begin{cases}0,&n\\text{ par},\\\\1,&n\\text{ impar}.\\end{cases}\n\\]\nPara verificar la cuenta de franjas, se puede cambiar a \\(X=x+n,\\ Y=y+n\\): quedan \\(0\\le X,Y\\le m=2n-k\\) y \\(n\\le X+Y\\le n+m\\). Se cuentan las \\((m+1)^2\\) parejas del cuadrado y se quitan sus dos esquinas excluidas. El número con \\(X+Y\\le t\\) es \\(\\binom{t+2}{2}-2\\binom{t-m+1}{2}+\\binom{t-2m}{2}\\), tomando un término como cero cuando su argumento superior es menor que 2. Esto reproduce los dos casos de \\(U_{n,k}\\).",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Figura 1 del patrón de hexágonos subdivididos",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "70c5c457119c0a1b46f7c0dea4ff7559247fb313bf959bb48af492935878cc21",
+          "source": "pdf_embedded_image",
+          "original_filename": "ceom12_state_page6_Image52.png",
+          "width_px": 190,
+          "height_px": 156
+        },
+        {
+          "label": "Figura 2 del patrón de hexágonos subdivididos",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "iVBORw0KGgoAAAANSUhEUgAAAMIAAACeCAIAAADvz0LqAAAKx0lEQVR4nO2dS3rbOBCEm1jpCDqGfJPkFll652U+n8BHsW9i3SDZJTdQdpgv4YxG4QME+lHdlFGrmcTuLgLFX6BIIkPOmbq6ZErC3+/q6jHq0lGnUZeGciR9+vRJ5aA+rE6nk8vEBYrR+/u79yzcg15fX/FzN8S5Uvv8+fPb29v433FcXTUMw/W/I9s7nU74EzLK2uh8Pl8zNJmzCJr4iWzv/PdIfqwYPT8/E9Hj42PYqZoojr3hxsnLy8t1MKHKATRC+HA4/PjxY/J5kQNo4ieyt8vlcjwe8SukEDQaz54vX76MQxBq5VFYEsUBEv3n7XA4PD09OQApB0PRqDgOF20EsUdLNlyAlKKhaNTtGDme9GutI/ByWMGkD5ByPBRd5e6z0N3XGxW744GUAqIoyElfpmAQXualIXIAUo6KolFeViv7hvV2wQIphUVRkJO+kogDylvll+loIOXAKLoKbLipHQG9NfVCAilFRtEu7p1ljwVcTVMokHJ4FI2CeWZ0IYg3RhcYkNJeUIRZJPEqZ3tvvOcLcEDKe0DRVaa2hcNCZt4kxjBASjtdFZleGQmXO4OZN4YxEJDyflA0ysi8Slky8CavCQBS2h2KLBYiWk82Zu2rNhVjCCDlXaHoKl3/itVIb2wVS1kDKe39uyI5kHSXMtkAlnLImQMp7xBFo1SOwmgoKJ4xUyCl/aJI97w3+jJ6YBmzeAvFFkh5nyi6SnIgpuNA3OJ2ruyAlO7mDpoESBYoyuKa6q4MgZT3jKJRvMMBDAK1t7B2ZQSkdAcoYiySMK/A5kZjAFdWQMo7R9FVTUcEO/xc3Qs2KRZASvf3XNHmee/16PRQ19f6ASYTIOW7QNGomuOCHXtTU7ArdSCle0JR01oE+dRiLvbC71WiD6R8LygaVT40zIEvaq21lyVdIKU7e9q6ACTfDYryFinBlpSBlO8IRVctHqD1Iddo4gEwERggpbt88WN+Zofa/YP++HHfvk0TSNlAfRfH3UkIJPNn47s+wha2tne2uz4IkPR3onX/yA9rZm2V5mVs4kSyha3yEvt8Podd2EYwMwTwMHcyXrJJtrBN1hvKhpqzOLOYvXdKuXWicMlm9F2RUYsm3RoI5Ydm3xu5OxF+h0Tq/+LH4+PjmtePOWfl0cC7WnMy7qnNu2QjzIayGavFkXKMNa23xrtaaycBUsJ8be318b/20RbBj8tlWuHARSsk6zto6r02Ve4Yzc8ojKVNJ2wgJWsUOZ5ti62j+ZkIg8k1J3wgAW7m67Yrq6YRzA+1NLK2VFmfB6QEuJkPW5QwHnb2PfsXf8bCUn1NJpBgzxVpddys3/pyiJElaq9vZKm1LANICf9ckTUAKlc/poukgXUvz3rdVlmfAyTkI45afbUqG/khWVldSzwzrUBKSBQBdu1oamG9SMqy49XduqnJTDOQwE9bq7Req+ny6xYHqGVJUqcJSKR1B80rSfJqin7IoJSjmfq7bOTy4ke0adNFCAU4PVTM1AMpubz4of4diXAVortIyhpLQK11pKROwwrJ6x00oQeLZZakGmmbkdRUNFMJJEKuiqa9+7QZBEI90DUrJPJ9HZZ9wOqnfrSvnq9i+8lKqgFSCvI6bNOKBPOPcrR2ycbfQTft16ZopmqF5P5mPsMJz7xFffZINqmyi52ZTSAldxS1XrUhH1ws94K9BJcbH1RSN7MNpFB7W2/64Tm3sARz0uon26gMpBRhkxDG2YO8GV5mUoY8Tln2AyD0BpDi7Fe0aYlh28gS3smoxaYwMwUgpYD7FS2eW75v4992j7AvwOCxX1sJSHvZ27rJsIWl+TyBnUTwswakFApFa1dtjm+5ry1KvDiUXf2sAmkzgH3rtEVlP5GrmUUgUeUdtK6uiW7vsm1/qH3//n3zZ7o+oH7+/Pnr169//2eTRq+vr0R0PB4vl0tGaW4a1rrST9fLy8v/41MziKfTieivXwMoeIY+rJ/3P5ftE6xUtXcHEqzppg13V7TiB2ZgXCtPmFLbHgykIGf/ogFHVzRrDTaziKKGGIGB5MvtuY3KP7fWYl/kEC2iqO3pRxiQ3Lm9aKPyr3z9uKCoLUYwIPlyu7Ip2BUV22HMrKGo+VlsAJAWRyTUnLm4oq1G1mYKKGqOkTWQ3Lnd2gvjihpjDUYR580QUyC5c7u1EcAVVbewM1NGESdGdkDaHIVQcwZzRS3FjcyUUcR83dECSBG4zZ4DMkuSJNYwFDFjZAEkd24LJ4AMXPEOVn2INlHEjJE6kJqO3ChJwrJk4IpdUNFMDYr4MVIEUgRuq4w7qSZJWErLSQ2K+DFSBJI7txWrkVIpeR0VJ5UoEsVIBUjso7WYe2GdUXGoJq9TiSJRjORAEh5nkLG2Awnv17VK1aNIGiMhkNy5rZ4heVldS5Jq9SiSxkgCJJXxijNhKsUtLPFqNqFIIUY8ICmOlzxGQgMWMar/FaOyTShSiBEPSO7cNkURr4WdpdbKrSjSiVErkNTHK86EsRtZW2qq34oinRi1AslivOprwjI0qjVG2UyVLRgoUotRPZCMZpFx3it2FxrDJLuyCwNFajGqBJLpeMWZsKamSEubvXgo0oxRDZCsx6tc3yVDm6296KiIIs0YbQIJMIs1s4XP0KjF7qHQyEaRcowKQILN4loj3wzlJWNeyV7ry0aRcowKQEKO17yXO4rmNnwtzVtLUKQfo0UggYds0i5IhkZFyNDimEhQpB+jOZBchizISb+oIK5uPQhRZBKjCZC8xivIbM0Vx9XVhhBFJjG6BZLjkO0iRhRmrSZ9/DAbaARS174kmfGhcAUhkeMWxF08SZLA/Ldmu7oQMfLaMTLsBT8t2fD1NrlAk863keLsGOkeI1ofcMckyS/QrrK17rhj5NpfYZzUd/eKkfy7olvZWvfaMbLwV45fPeStH0B6U0SReYwcd4ws/IC1E0ZEwEnSRREiRhggtc6WnRN2OJDedFGEiBEASPWzBT7pqaUXzJs6ikAxgu0Yqf7DKq6ouhcmSeooAsXIFEiS2VI3Iw+EdZIsUISLkRGQeIMOOOlJUN/UmwWKcDGyAJIkDaZTRbKY2qXcCEXQGKkDSTjWRlNFGiEwSpIRiqAx0gWSfKCNpoqUaqrbs0MROkZaQNIaYvWpItWCut7sUISOkQqQwk4VBQ6lKYocYiQHUtipIsuPSGFZUxQ5xEgIJIsFjUpNMsjQpDK7uDWKfGLEBpJFhiaVhb9Oxt8gxESRT4yEG7RFO+PJOEPCFgAUucWIAaSwU0XGxiZdWhsBUOQWI/YGbZgbYYxfoZD3ejEo8oyR+wZt8kbIDI1qbYdBkWeMImzQJmwHzlButAdDkXOMImzQxu6IR1FrXxiKnGMUYYM2XlOvDI2qaY1EkX+MImzQNtdma8cM5bqRQaLIP0ZrQPI93cO+q1TpAYyiEDEqb9AWbZ4iZGjTCRhFIWIUZIO2uRZtRDBWNoNHUZQY3QIpSIZGTZzEMTZqcazwKDLc36hVDw8P5/P59k8iGFvbpSmCt7nDnPP5fH54eDgej9++fTscDoRSlP2Nvn79GnCeFm0E8TY3MwzD8/MzET09PSEz9Lt1nEG5BVIcV/MznuJpuHGIR9Fv5TDqO0aqCL8vWaC10doKqatJPigK9aHWtV9FWWJ37Vo9Rl0K6jHqUlCPUZeCeoy6FNRj1KWgHqMukusfY5VQHKBxLP8AAAAASUVORK5CYII=",
+          "sha256": "66797a8cad8d60155ae81bc0a51fcceacf95e6d031133fef45f59f06d5ed98a6",
+          "source": "pdf_embedded_image",
+          "original_filename": "ceom12_state_page6_Image53.png",
+          "width_px": 194,
+          "height_px": 158
+        },
+        {
+          "label": "Figura 3 del patrón de hexágonos subdivididos",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "5f73d7331367e73b803e08c3e2e1c3939fc10bc91d706fb95d40038b997527c5",
+          "source": "pdf_embedded_image",
+          "original_filename": "ceom12_state_page6_Image54.png",
+          "width_px": 189,
+          "height_px": 157
+        }
+      ],
+      "option_analysis": [],
+      "verification": {
+        "status": "ambiguous_counting_scope",
+        "answer_checked": false,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "La fuente no especifica triángulos elementales. El resultado recuperado 24482400 cuenta solo celdas; todos los tamaños suman 28857609910 para la figura de lado 2020."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Estatal CEOM12/Multinivel/FUSION_2020_estatal-ceom12_multinivel_examen-estatal-ceom12_original.pdf",
+      "source_pdf_sha256": "377197ef1ecc29123c205951e30c3063642e585df47a40a8497f902c1253fd4b"
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_3-secundaria_q04",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Estatal CEOM12 / 3.º de secundaria",
+      "problem_number": 4,
+      "source_question_label": "G",
+      "source_page": 6,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "En el cuadrado ABCD, M es el punto medio del lado AB y P es el punto de intersección de DM con la diagonal AC. Calcule\nla razón de Área del cuadrado ABCD entre el área del cuadrilátero CPMB.",
+      "options": [],
+      "correct_answer": "\\(12/5\\)",
+      "correct_option_label": null,
+      "solution_text": "1. **Semejanza.** Los triángulos APM y CPD son semejantes: AP y CP están en AC, PM y PD en DM, y AM es paralelo a CD.\n2. **Razón del cruce.** Como M es punto medio de AB y el cuadrado tiene \\(AB=CD\\), \\(AM/CD=1/2\\). Entonces \\(AP/PC=1/2\\), de donde \\(CP/CA=2/3\\).\n3. **Normalizar el área.** Tomamos área del cuadrado igual a 1. Los triángulos CAM y CMB tienen base de medio lado y altura de un lado, así que cada uno tiene área 1/4.\n4. **Parte CPM.** Los triángulos CPM y CAM tienen la misma altura desde M a la diagonal AC. Sus áreas están en razón \\(CP/CA=2/3\\), por lo que \\([CPM]=(2/3)(1/4)=1/6\\).\n5. **Cuadrilátero y razón.** CPMB se divide por CM en CPM y CMB. Su área es \\(1/6+1/4=5/12\\). La razón pedida es\n\\[\\frac{[ABCD]}{[CPMB]}=\\frac1{5/12}=\\mathbf{\\frac{12}5}.\\]\n6. **Comprobación independiente.** Con \\(A=(0,1),B=(1,1),C=(1,0),D=(0,0)\\), tenemos \\(M=(1/2,1)\\). El cruce de \\(y=2x\\) con \\(y=1-x\\) es \\(P=(1/3,2/3)\\). La fórmula de áreas del polígono C–P–M–B vuelve a dar 5/12.",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Cuadrado ABCD original; M y P se definen en el texto",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "89abb3ab4eca970bf868530047aab3e7df7af2885c1b20a995e8d10ed749abdc",
+          "source": "pdf_embedded_image",
+          "original_filename": "ceom12_state_page6_Image55.png",
+          "width_px": 317,
+          "height_px": 323
+        }
+      ],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta revisada; comparación manual."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Estatal CEOM12/Multinivel/FUSION_2020_estatal-ceom12_multinivel_examen-estatal-ceom12_original.pdf",
+      "source_pdf_sha256": "377197ef1ecc29123c205951e30c3063642e585df47a40a8497f902c1253fd4b"
+    }
+  ]
+}

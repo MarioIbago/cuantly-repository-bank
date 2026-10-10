@@ -4,12 +4,12 @@
   "source_pages": 226,
   "recovered_occurrences": 881,
   "legacy_statement_groups": 441,
-  "published_banks": 39,
-  "published_occurrences": 153,
-  "verified_answer_occurrences": 130,
-  "guided_occurrences": 23,
+  "published_banks": 45,
+  "published_occurrences": 183,
+  "verified_answer_occurrences": 151,
+  "guided_occurrences": 32,
   "alternate_source_occurrences": 42,
-  "pending_occurrences": 686,
+  "pending_occurrences": 656,
   "working_draft": "04_REFERENCE_SOURCES/FUSION/recovery/working_draft.json",
   "reviewed_banks": [
     "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 1/Primaria/FUSION_2020_torneo-1_primaria_classified.json",
@@ -50,6 +50,12 @@
     "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Eliminatorio CEOM12/1.º de secundaria/FUSION_sin-fecha_eliminatorio-ceom12_1-secundaria_classified.json",
     "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Eliminatorio CEOM12/2.º de secundaria/FUSION_sin-fecha_eliminatorio-ceom12_2-secundaria_classified.json",
     "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Eliminatorio CEOM12/3.º de secundaria/FUSION_sin-fecha_eliminatorio-ceom12_3-secundaria_classified.json",
-    "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Eliminatorio CEOM12/Olímpicos/FUSION_sin-fecha_eliminatorio-ceom12_olimpicos-bachillerarto-o-preratoria_classified.json"
+    "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Eliminatorio CEOM12/Olímpicos/FUSION_sin-fecha_eliminatorio-ceom12_olimpicos-bachillerarto-o-preratoria_classified.json",
+    "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/Kids/FUSION_sin-fecha_estatal-ceom12_kids-3-y-4-primaria_classified.json",
+    "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/Primaria/FUSION_sin-fecha_estatal-ceom12_primaria-5-y-6-primaria_classified.json",
+    "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/1.º de secundaria/FUSION_sin-fecha_estatal-ceom12_1-secundaria_classified.json",
+    "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/2.º de secundaria/FUSION_sin-fecha_estatal-ceom12_2-secundaria_classified.json",
+    "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/3.º de secundaria/FUSION_sin-fecha_estatal-ceom12_3-secundaria_classified.json",
+    "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/Olímpicos/FUSION_sin-fecha_estatal-ceom12_olimpicos-preparatoria-o-bachillerato_classified.json"
   ]
 }

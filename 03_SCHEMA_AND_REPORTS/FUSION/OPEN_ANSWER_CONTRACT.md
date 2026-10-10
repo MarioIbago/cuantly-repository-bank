@@ -9,3 +9,7 @@ El validador adjunto comprueba estructura, hashes, clasificación y figuras; no 
 ## Año no confirmado
 
 El campo `exam.year` admite un entero positivo confirmado o `null` cuando la fuente no permite confirmarlo. El caso nulo requiere `year_status: "not_confirmed"` y una explicación en `year_evidence`. La biblioteca muestra **Sin fecha** y usa ese segmento en la identidad de colección. No se infiere el año a partir de la edición. El validador conserva los controles anteriores para bancos con año conocido.
+
+## Opciones sin letra impresa
+
+Si una casilla original carece de letra, conserva exactamente su valor y guarda `source_label: null`. Puede usarse una letra como identificador editorial por posición solo si se explica visiblemente que no está impresa. El problema permanece guiado, con `correct_option_label: null`, y el validador impide activar calificación usando ese identificador. Nunca inventes el valor de una opción ni una clave correcta.

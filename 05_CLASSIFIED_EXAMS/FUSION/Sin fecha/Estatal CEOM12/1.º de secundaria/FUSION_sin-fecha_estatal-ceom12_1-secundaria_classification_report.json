@@ -1,0 +1,87 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2020/Estatal CEOM12/Multinivel/FUSION_2020_estatal-ceom12_multinivel_examen-estatal-ceom12_original.pdf",
+  "source_sha256": "377197ef1ecc29123c205951e30c3063642e585df47a40a8497f902c1253fd4b",
+  "school_level": "Primer año de secundaria",
+  "rubric": "Primary solving idea; L1 direct familiar steps, L2 combines ideas, L3 non-routine argument relative to the printed school level. Ambiguity and invalid printed options are retained without automatic grading.",
+  "problems": [
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_1-secundaria_q01",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "prime_factorization",
+        "digits",
+        "extrema"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Agrupar factores primos en dígitos y ordenar para minimizar el número.",
+        "Dificultad relativa a Primer año de secundaria."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_1-secundaria_q02",
+      "primary_area": "combinatorics",
+      "secondary_areas": [
+        "number_theory"
+      ],
+      "mixed": true,
+      "difficulty": "L2",
+      "tags": [
+        "counting",
+        "prime_factorization",
+        "digits",
+        "permutations"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Clasificar multiconjuntos de dígitos por su producto y contar sus ordenaciones.",
+        "Dificultad relativa a Primer año de secundaria."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_1-secundaria_q03",
+      "primary_area": "combinatorics",
+      "secondary_areas": [
+        "geometry"
+      ],
+      "mixed": true,
+      "difficulty": "L3",
+      "tags": [
+        "patterns",
+        "counting",
+        "triangular_grid",
+        "area"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Distinguir celdas elementales de todos los triángulos presentes en una retícula.",
+        "Dificultad relativa a Primer año de secundaria."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_1-secundaria_q04",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L3",
+      "tags": [
+        "area",
+        "parallel_lines",
+        "quadrilaterals",
+        "coordinates"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Encontrar las intersecciones de segmentos que parten de puntos medios y comparar áreas.",
+        "Dificultad relativa a Primer año de secundaria."
+      ]
+    }
+  ]
+}

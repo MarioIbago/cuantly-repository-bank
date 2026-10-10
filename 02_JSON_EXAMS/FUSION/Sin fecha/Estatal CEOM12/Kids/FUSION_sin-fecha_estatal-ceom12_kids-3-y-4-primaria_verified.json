@@ -1,0 +1,777 @@
+{
+  "schema_version": "1.0",
+  "source_format_reference": "Cuantly public practice; original multiple_choice and open_answer preserved",
+  "exam": {
+    "competition": "FUSION",
+    "source_competition": "CEOM12",
+    "edition": 12,
+    "year": null,
+    "year_status": "not_confirmed",
+    "year_evidence": "The seven headers print 23 DE MAYO and edition 12 but no calendar year. References such as 3 feb 05 date the borrowed problem, not this exam; 2020 is used within questions. The imported PDF folder used an explicitly inferred 2020 label; the bank does not adopt that inference.",
+    "phase": "Estatal CEOM12",
+    "level": "Kids",
+    "school_level": "3.º y 4.º de primaria",
+    "problem_count": 10,
+    "source_file": "FUSION_2020_estatal-ceom12_multinivel_examen-estatal-ceom12_original.pdf",
+    "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Estatal CEOM12/Multinivel/FUSION_2020_estatal-ceom12_multinivel_examen-estatal-ceom12_original.pdf",
+    "source_sha256": "377197ef1ecc29123c205951e30c3063642e585df47a40a8497f902c1253fd4b",
+    "image_policy": "All mathematical diagrams are exact PDF embedded bytes; three pattern examples per question retain original order. Equation transcribed as LaTeX. No source logos, page images or full-question crops.",
+    "classification_phase": "not_started",
+    "difficulty_phase": "not_started"
+  },
+  "validation_summary": {
+    "verified_problems": 6,
+    "needs_review_or_invalid": 4,
+    "needs_review_problem_numbers": [
+      2,
+      5,
+      9,
+      10
+    ],
+    "notes": "Original multiple-choice options and their values retained; one unlabelled fifth option is explicitly indexed editorially, with source_label:null and no grading. Defective and ambiguous sources remain guided. Printed source question letters and the Kids second-part label are retained separately from collection ordinals. No exam year is inferred."
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q01",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Estatal CEOM12 / Kids",
+      "problem_number": 1,
+      "source_question_label": "1",
+      "source_page": 1,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Charlitos tiene 2 hermanos (Jaden y lulú): si el mayor tiene 12 años, el menor 5 años menos que el de en medio\ny el de en medio la mitad del mayor, ¿Cuántos años tiene el menor?",
+      "options": [
+        {
+          "label": "a",
+          "text": "1"
+        },
+        {
+          "label": "b",
+          "text": "2"
+        },
+        {
+          "label": "c",
+          "text": "3"
+        },
+        {
+          "label": "d",
+          "text": "6"
+        },
+        {
+          "label": "e",
+          "text": "7"
+        }
+      ],
+      "correct_answer": "1 año",
+      "correct_option_label": "a",
+      "solution_text": "1. **Mayor.** Tiene 12 años.\n2. **Mediano.** Tiene la mitad: \\(12/2=6\\).\n3. **Menor.** Tiene cinco menos que el mediano: \\(6-5=\\mathbf1\\).\n4. **Respuesta y comprobación.** El menor tiene **1 año**, opción **a**. \\(1+5=6\\) y \\(2\\cdot6=12\\). Las opciones 6 y 7 corresponden a usar una comparación incompleta; 2 y 3 tampoco cumplen ambas condiciones.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": true,
+          "reason": "1+5=6 y 6 es la mitad de 12."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "Si el menor tuviera 2, el mediano tendría 7, no 6."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "Si el menor tuviera 3, el mediano tendría 8."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "6 es la edad del mediano, no del menor."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "7 resulta de restar 5 al mayor, en vez de al mediano."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Las cinco opciones se contrastaron con la fuente; una sola es correcta."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Estatal CEOM12/Multinivel/FUSION_2020_estatal-ceom12_multinivel_examen-estatal-ceom12_original.pdf",
+      "source_pdf_sha256": "377197ef1ecc29123c205951e30c3063642e585df47a40a8497f902c1253fd4b"
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q02",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Estatal CEOM12 / Kids",
+      "problem_number": 2,
+      "source_question_label": "2",
+      "source_page": 1,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Laurita ahorra dinero durante una semana, de lunes a domingo, lunes ahorra $1, martes $2, jueves $3 y así\nsucesivamente ¿Cuánto dinero ahorrará en dos semanas completas?",
+      "options": [
+        {
+          "label": "a",
+          "text": "7"
+        },
+        {
+          "label": "b",
+          "text": "14"
+        },
+        {
+          "label": "c",
+          "text": "28"
+        },
+        {
+          "label": "d",
+          "text": "42"
+        },
+        {
+          "label": "e",
+          "text": "56"
+        }
+      ],
+      "correct_answer": "56 si se reinicia el ahorro semanal; 105 si aumenta cada día durante 14 días",
+      "correct_option_label": null,
+      "solution_text": "1. **Problema en la fuente.** La lista dice lunes 1, martes 2 y jueves 3: omite el miércoles. Además, no aclara si en la segunda semana vuelve a empezar en 1 o sigue aumentando.\n2. **Modelo semanal usual.** Si se entiende lunes 1, martes 2, miércoles 3, ..., domingo 7 y se repite la misma semana, se ahorran \\(1+2+\\cdots+7=28\\) por semana. En dos semanas, \\(2\\cdot28=\\mathbf{56}\\).\n3. **Modelo de aumento continuo.** Si el ahorro aumenta en una unidad cada día durante los 14 días, el total es \\(1+2+\\cdots+14=14\\cdot15/2=\\mathbf{105}\\).\n4. **Opciones.** La opción **e, 56**, coincide con el primer modelo; 105 no aparece. Los valores 7, 14, 28 y 42 no son el total de dos semanas bajo ninguno de esos dos modelos.\n5. **Conclusión y comprobación.** Se conserva como **práctica guiada**: no se cambia el jueves impreso ni se decide silenciosamente cómo empieza la segunda semana. Para comprobar 28, emparejamos \\(1+7\\), \\(2+6\\), \\(3+5\\) y dejamos 4: \\(3\\cdot8+4=28\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "7 no es el total de dos semanas bajo los modelos semanal o continuo."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "14 cuenta días, no la suma de sus ahorros."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "28 es una semana con ahorros de 1 a 7; falta la segunda."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "42 no coincide con 56 ni 105."
+        },
+        {
+          "label": "e",
+          "is_correct": null,
+          "reason": "56 es válido si se corrige la secuencia de días y se reinicia cada semana; la fuente no fija esas condiciones."
+        }
+      ],
+      "verification": {
+        "status": "ambiguous_source_schedule",
+        "answer_checked": false,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "La fuente imprime jueves para el tercer día y no especifica si la secuencia se reinicia en la segunda semana. La opción 56 corresponde a corregir ese día a miércoles y reiniciar semanalmente; no se certifica una respuesta única."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Estatal CEOM12/Multinivel/FUSION_2020_estatal-ceom12_multinivel_examen-estatal-ceom12_original.pdf",
+      "source_pdf_sha256": "377197ef1ecc29123c205951e30c3063642e585df47a40a8497f902c1253fd4b"
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q03",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Estatal CEOM12 / Kids",
+      "problem_number": 3,
+      "source_question_label": "3",
+      "source_page": 1,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Jaden cumple años dentro de 23 días, si hoy es sábado ¿En qué día caerá su cumpleaños?",
+      "options": [
+        {
+          "label": "a",
+          "text": "Sábado"
+        },
+        {
+          "label": "b",
+          "text": "Domingo"
+        },
+        {
+          "label": "c",
+          "text": "Lunes"
+        },
+        {
+          "label": "d",
+          "text": "Martes"
+        },
+        {
+          "label": "e",
+          "text": "Viernes"
+        }
+      ],
+      "correct_answer": "Lunes",
+      "correct_option_label": "c",
+      "solution_text": "1. **Semanas y resto.** \\(23=3\\cdot7+2\\). Después de tres semanas completas vuelve a ser sábado.\n2. **Dos días más.** El siguiente es domingo y después lunes.\n3. **Respuesta y comprobación.** Su cumpleaños caerá en **lunes**, opción **c**. Los días 7, 14 y 21 son sábado; el 22 es domingo y el 23 lunes.\n4. **Otras opciones.** Sábado, domingo, martes y viernes exigirían restos 0, 1, 3 y 6; 23 deja resto 2.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "Sábado exigiría un múltiplo de 7."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "Domingo corresponde a resto 1, no 2."
+        },
+        {
+          "label": "c",
+          "is_correct": true,
+          "reason": "23 deja resto 2: sábado más dos días es lunes."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "Martes corresponde a resto 3."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "Viernes corresponde a resto 6."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Las cinco opciones se contrastaron con la fuente; una sola es correcta."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Estatal CEOM12/Multinivel/FUSION_2020_estatal-ceom12_multinivel_examen-estatal-ceom12_original.pdf",
+      "source_pdf_sha256": "377197ef1ecc29123c205951e30c3063642e585df47a40a8497f902c1253fd4b"
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q04",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Estatal CEOM12 / Kids",
+      "problem_number": 4,
+      "source_question_label": "4",
+      "source_page": 1,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "En la siguiente figura se muestran dos balanzas equilibradas, ¿cuánto pesa el pollo pequeño?",
+      "options": [
+        {
+          "label": "a",
+          "text": "5 kg"
+        },
+        {
+          "label": "b",
+          "text": "4 kg"
+        },
+        {
+          "label": "c",
+          "text": "3 kg"
+        },
+        {
+          "label": "d",
+          "text": "2 kg"
+        },
+        {
+          "label": "e",
+          "text": "1 kg"
+        }
+      ],
+      "correct_answer": "2 kg",
+      "correct_option_label": "d",
+      "solution_text": "1. **Leer las balanzas.** El pollo pequeño y el grande juntos pesan 5 kg. El grande pesa lo mismo que el pequeño más 1 kg.\n2. **Sustituir.** Si p es el peso del pequeño, el grande pesa p+1. La primera balanza da \\(p+(p+1)=5\\).\n3. **Resolver.** \\(2p+1=5\\), así que \\(2p=4\\) y \\(p=2\\).\n4. **Respuesta y comprobación.** El pequeño pesa **2 kg**, opción **d**, y el grande 3 kg. Se cumple \\(2+3=5\\) y \\(2+1=3\\).\n5. **Otras opciones.** Si el pequeño pesara 5, 4, 3 o 1, ambos sumarían 11, 9, 7 o 3 kg; ninguna suma es 5.",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Dos balanzas equilibradas con un pollo pequeño y uno grande",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "f7208ace5c27dff3de0d88f8c66623aefc04a1de70d05d1a304c4b30e0fb2746",
+          "source": "pdf_embedded_image",
+          "original_filename": "ceom12_state_page1_Image16.png",
+          "width_px": 388,
+          "height_px": 119
+        }
+      ],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "Un pequeño de 5 exigiría un grande de 6; juntos pesarían 11 kg."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "Un pequeño de 4 exigiría un grande de 5; sumarían 9 kg."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "Un pequeño de 3 exigiría un grande de 4; sumarían 7 kg."
+        },
+        {
+          "label": "d",
+          "is_correct": true,
+          "reason": "Pequeño 2 y grande 3 equilibran las dos balanzas."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "Un pequeño de 1 exigiría un grande de 2; sumarían 3 kg."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Las cinco opciones se contrastaron con la fuente; una sola es correcta."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Estatal CEOM12/Multinivel/FUSION_2020_estatal-ceom12_multinivel_examen-estatal-ceom12_original.pdf",
+      "source_pdf_sha256": "377197ef1ecc29123c205951e30c3063642e585df47a40a8497f902c1253fd4b"
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q05",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Estatal CEOM12 / Kids",
+      "problem_number": 5,
+      "source_question_label": "5",
+      "source_page": 1,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Aarón practica 3 disciplinas distintas o deportes entre semana, 2 cada día, de lunes a domingo, si\npractica 4 veces por semana cada disciplina, ¿Cuántos días tendrá disponibles sin entrenar?",
+      "options": [
+        {
+          "label": "a",
+          "text": "3 días y medio"
+        },
+        {
+          "label": "b",
+          "text": "4 días"
+        },
+        {
+          "label": "c",
+          "text": "1 día"
+        },
+        {
+          "label": "d",
+          "text": "2 días"
+        },
+        {
+          "label": "e",
+          "text": "2 días y medios"
+        }
+      ],
+      "correct_answer": "1 día libre si son dos disciplinas por día de entrenamiento; la lectura literal de todos los días es incompatible",
+      "correct_option_label": null,
+      "solution_text": "1. **Sesiones requeridas.** Hay tres disciplinas, cuatro sesiones de cada una: \\(3\\cdot4=12\\) sesiones por semana.\n2. **Lectura de días de entrenamiento.** Si hace dos disciplinas cada día que entrena, necesita \\(12/2=6\\) días. Queda \\(7-6=\\mathbf1\\) día libre, opción c bajo esta lectura.\n3. **Comprobar que se puede.** Llamamos A, B y C a los deportes. Puede practicar AB, AC, BC, AB, AC y BC en seis días, y descansar el séptimo. Cada disciplina aparece exactamente cuatro veces.\n4. **Contradicción literal.** Dos deportes cada uno de los siete días, como también dice el texto, darían \\(2\\cdot7=14\\) sesiones. Esto no coincide con las 12 fijadas por las otras condiciones.\n5. **Opciones y conclusión.** Un día libre es la respuesta del modelo de seis días de entrenamiento. Las otras opciones dejan 7, 6, 10 o 9 sesiones disponibles a razón de dos por día, en vez de 12. Se mantiene **práctica guiada** porque la fuente debe aclarar el alcance de «cada día».",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "3.5 días libres dejarían 3.5 de entrenamiento, equivalentes a 7 sesiones."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "4 días libres dejarían 3 de entrenamiento y solo 6 sesiones."
+        },
+        {
+          "label": "c",
+          "is_correct": null,
+          "reason": "1 día libre permite 6 de entrenamiento y 12 sesiones, si dos cada día se refiere a días de entrenamiento."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "2 días libres dejarían 5 de entrenamiento y 10 sesiones."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "2.5 días libres dejarían 4.5 de entrenamiento y 9 sesiones."
+        }
+      ],
+      "verification": {
+        "status": "source_inconsistent_daily_schedule",
+        "answer_checked": false,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "La fuente dice dos cada día, de lunes a domingo, pero tres disciplinas practicadas cuatro veces suman 12 sesiones, no 14. Un día libre corresponde a interpretar dos por cada día de entrenamiento."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Estatal CEOM12/Multinivel/FUSION_2020_estatal-ceom12_multinivel_examen-estatal-ceom12_original.pdf",
+      "source_pdf_sha256": "377197ef1ecc29123c205951e30c3063642e585df47a40a8497f902c1253fd4b"
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q06",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Estatal CEOM12 / Kids",
+      "problem_number": 6,
+      "source_question_label": "6",
+      "source_page": 1,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "¿Cuántos rectángulos observas en la siguiente figura?\nNota:  recuerda que los cuadrados también son rectángulos.",
+      "options": [
+        {
+          "label": "a",
+          "text": "9"
+        },
+        {
+          "label": "b",
+          "text": "10"
+        },
+        {
+          "label": "c",
+          "text": "36"
+        },
+        {
+          "label": "d",
+          "text": "22"
+        },
+        {
+          "label": "e",
+          "text": "6"
+        }
+      ],
+      "correct_answer": "36 rectángulos",
+      "correct_option_label": "c",
+      "solution_text": "1. **Líneas.** La cuadrícula tiene cuatro líneas verticales y cuatro horizontales.\n2. **Elegir bordes.** Hay \\(\\binom42=6\\) formas de elegir las dos verticales de un rectángulo y otras 6 de elegir las horizontales.\n3. **Total.** Cada elección determina un rectángulo distinto: \\(6\\cdot6=\\mathbf{36}\\), opción **c**. Los cuadrados se incluyen, como pide la nota.\n4. **Comprobación por tamaños.** Para anchos 1, 2 y 3 hay 3, 2 y 1 posiciones; lo mismo para las alturas. El total es \\((3+2+1)^2=36\\).\n5. **Otras opciones.** 9 solo cuenta las casillas; 10, 22 y 6 omiten otros tamaños.",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Cuadrícula de tres filas y tres columnas",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "iVBORw0KGgoAAAANSUhEUgAAANoAAADaCAIAAABPf8uMAAACuklEQVR4nO3YQYrDMBAAwZ0l//+y9uCgheQBbqOqk/FpDM1Iyay1fqDh9+4B4J8cCZEjIa/9NDO3TsLRrt8wtiMhciR5WG8P/etnXzYeOv+Zn/lxRbQdCZEjIXIkRI6EyJEQORIiR0LkSIgcCZEjIXIkRI6EyJEQORIiR0LkSIgcCZEjIXIkRI6EyJEQORIiR0LkSIgcCZEjIXIkRI6EyJEQORIiR0LkSIgcCZEjIXIkRI6EyJEQORIiR0LkSIgcCZEjIXIkRI6EyJEQORIiR0LkSIgcCZEjIXIkRI6EyJEQORIiR0LkSIgcCZEjIXIkRI6EyJEQORIiR0JmrfV+mrl7GM51dWg7EiJHQl7fr/bx/Sz7svHQ+c/8zI8rou1IiBwJkSMhciREjoTIkRA5EiJHQuRIiBwJkSMhciREjoTIkRA5EiJHQuRIiBwJkSMhciREjoTIkRA5EiJHQuRIiBwJkSMhciREjoTIkRA5EiJHQuRIiBwJkSMhciREjoTIkRA5EiJHQuRIiBwJkSMhciREjoTIkRA5EiJHQuRIiBwJkSMhciREjoTIkRA5EiJHQuRIiBwJkSMhciREjoTIkRA5EiJHQuRIiBwJkSMhs9Z6P83cPQznujq0HQmRIyGv71f7+H6Wfdl46PxnfubHFdF2JESOhMiREDkSIkdC5EiIHAmRIyFyJESOhMiREDkSIkdC5EiIHAmRIyFyJESOhMiREDkSIkdC5EiIHAmRIyFyJESOhMiREDkSIkdC5EiIHAmRIyFyJESOhMiREDkSIkdC5EiIHAmRIyFyJESOhMiREDkSIkdC5EiIHAmRIyFyJESOhMiREDkSIkdC5EiIHAmRIyFyJESOhMiREDkSIkdC5EiIHAmRIyFyJESOhMxa6/00c/cwnOvq0HYkRI4kD2u4ne1IiBz56fgD/q43qS70ABAAAAAASUVORK5CYII=",
+          "sha256": "8c660b6956d21daba78a57f8a27dce0b5fcb0fae57f93d8b3c6bfdc3a6d1e621",
+          "source": "pdf_embedded_image",
+          "original_filename": "ceom12_state_page1_Image17.png",
+          "width_px": 218,
+          "height_px": 218
+        }
+      ],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "9 cuenta únicamente los cuadrados pequeños."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "10 no incluye todos los tamaños y posiciones; el conteo completo es 36."
+        },
+        {
+          "label": "c",
+          "is_correct": true,
+          "reason": "Elegir dos de cuatro verticales y dos de cuatro horizontales da 6·6=36."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "22 no coincide con el conteo completo de 36."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "6 solo cuenta una de las dos elecciones de líneas."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Las cinco opciones se contrastaron con la fuente; una sola es correcta."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Estatal CEOM12/Multinivel/FUSION_2020_estatal-ceom12_multinivel_examen-estatal-ceom12_original.pdf",
+      "source_pdf_sha256": "377197ef1ecc29123c205951e30c3063642e585df47a40a8497f902c1253fd4b"
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q07",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Estatal CEOM12 / Kids",
+      "problem_number": 7,
+      "source_question_label": "7",
+      "source_page": 2,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "¿Qué dígito escribirías en el espacio vacío (cuadrito) para que se cumpla la multiplicación?\n\\[\\overline{1\\Box1}\\times20=2020.\\]",
+      "options": [
+        {
+          "label": "a",
+          "text": "1"
+        },
+        {
+          "label": "b",
+          "text": "5"
+        },
+        {
+          "label": "c",
+          "text": "0"
+        },
+        {
+          "label": "d",
+          "text": "4"
+        },
+        {
+          "label": "e",
+          "text": "Ninguna de las anteriores"
+        }
+      ],
+      "correct_answer": "0",
+      "correct_option_label": "c",
+      "solution_text": "1. **Recuperar el factor.** \\(2020/20=101\\).\n2. **Comparar cifras.** El número 1□1 debe ser 101, así que el espacio es **0**.\n3. **Respuesta y comprobación.** La opción correcta es **c**: \\(101\\cdot20=2020\\).\n4. **Otras opciones.** Con 1, 5 o 4 se obtienen \\(111\\cdot20=2220\\), \\(151\\cdot20=3020\\) y \\(141\\cdot20=2820\\). «Ninguna de las anteriores» es falsa porque 0 sí funciona.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "111·20=2220, no 2020."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "151·20=3020, no 2020."
+        },
+        {
+          "label": "c",
+          "is_correct": true,
+          "reason": "101·20=2020."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "141·20=2820, no 2020."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "La opción 0 sí satisface la multiplicación."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Las cinco opciones se contrastaron con la fuente; una sola es correcta."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Estatal CEOM12/Multinivel/FUSION_2020_estatal-ceom12_multinivel_examen-estatal-ceom12_original.pdf",
+      "source_pdf_sha256": "377197ef1ecc29123c205951e30c3063642e585df47a40a8497f902c1253fd4b"
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q08",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Estatal CEOM12 / Kids",
+      "problem_number": 8,
+      "source_question_label": "8",
+      "source_page": 2,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Lulú suma todos los números de 1 al 2020, ¿Cuánto le dio de resultado?",
+      "options": [
+        {
+          "label": "a",
+          "text": "2020"
+        },
+        {
+          "label": "b",
+          "text": "2,041,210"
+        },
+        {
+          "label": "c",
+          "text": "2021"
+        },
+        {
+          "label": "d",
+          "text": "2,040,200"
+        },
+        {
+          "label": "e",
+          "text": "4,080,400"
+        }
+      ],
+      "correct_answer": "2,041,210",
+      "correct_option_label": "b",
+      "solution_text": "1. **Emparejar extremos.** \\(1+2020=2021\\), \\(2+2019=2021\\) y así sucesivamente.\n2. **Cuántas parejas.** Hay \\(2020/2=1010\\) parejas, cada una de suma 2021.\n3. **Resultado.** \\(1010\\cdot2021=\\mathbf{2\\,041\\,210}\\), opción **b**.\n4. **Comprobación independiente.** La fórmula \\(n(n+1)/2\\) da \\(2020\\cdot2021/2=2\\,041\\,210\\), y la suma directa de los 2020 enteros da el mismo valor.\n5. **Otras opciones.** 2020 y 2021 no cuentan la suma completa; 2,040,200 y 4,080,400 tampoco coinciden con las 1010 parejas de 2021.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "2020 es solo el último sumando."
+        },
+        {
+          "label": "b",
+          "is_correct": true,
+          "reason": "1010 parejas de suma 2021 dan 2,041,210."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "2021 es la suma de una pareja, no de todas."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "2,040,200 omite 1010 respecto de la suma correcta."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "4,080,400 no es 1010·2021."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Las cinco opciones se contrastaron con la fuente; una sola es correcta."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Estatal CEOM12/Multinivel/FUSION_2020_estatal-ceom12_multinivel_examen-estatal-ceom12_original.pdf",
+      "source_pdf_sha256": "377197ef1ecc29123c205951e30c3063642e585df47a40a8497f902c1253fd4b"
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q09",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Estatal CEOM12 / Kids",
+      "problem_number": 9,
+      "source_question_label": "9",
+      "source_page": 2,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Cada cuadrito en la siguiente figura mide \\(2\\,\\mathrm{cm}^2\\) ¿Cuál es el área del cuadrilátero sombreado?\n\n**Nota editorial:** La última casilla de respuestas muestra 33 sin letra impresa; se identifica como e por su posición. Ningún valor se ha cambiado.",
+      "options": [
+        {
+          "label": "a",
+          "text": "16.5"
+        },
+        {
+          "label": "b",
+          "text": "16"
+        },
+        {
+          "label": "c",
+          "text": "15.5"
+        },
+        {
+          "label": "d",
+          "text": "36"
+        },
+        {
+          "label": "e",
+          "source_label": null,
+          "text": "33"
+        }
+      ],
+      "correct_answer": "\\(32\\,\\mathrm{cm}^2\\); ninguna opción impresa es correcta",
+      "correct_option_label": null,
+      "solution_text": "1. **Unidades de la cuadrícula.** Numeramos las líneas verticales y horizontales desde 0. Los vértices son \\((0,4),(4,1),(6,2),(5,6)\\), tal como se ve en la figura.\n2. **Rectángulo que lo contiene.** Entre las filas 1 y 6 y las columnas 0 y 6 hay un rectángulo de \\(6\\cdot5=30\\) casillas de área.\n3. **Quitar cuatro esquinas.** Los triángulos de las esquinas tienen áreas \\(4\\cdot3/2=6\\), \\(2\\cdot1/2=1\\), \\(1\\cdot4/2=2\\) y \\(5\\cdot2/2=5\\), en casillas. El cuadrilátero ocupa \\(30-6-1-2-5=16\\).\n4. **Convertir a centímetros cuadrados.** Cada casilla tiene área 2, de modo que \\(16\\cdot2=\\mathbf{32}\\ \\mathrm{cm}^2\\).\n5. **Comprobación independiente.** La fórmula de coordenadas da \\(|64-32|/2=16\\) casillas, de nuevo 32 cm².\n6. **Opciones y error de fuente.** 16.5, 16, 15.5, 36 y 33 no son 32. En particular, 16 es el área en casillas, no en cm². La nota recuperada que decía 33 también es incorrecta. Se conserva la pregunta como práctica guiada, sin inventar una opción ni asignar una respuesta automática.",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Cuadrilátero sombreado sobre la cuadrícula",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "iVBORw0KGgoAAAANSUhEUgAAAHYAAABlCAIAAAAXh4BzAAACzElEQVR4nO2dbW6DMBBE2Yhr+fQczFWDSgkJxNje9X7M+9VKoWpeRoNZnIRyzhPghFj/emS27M77X25BRDjwDKL/7D5OHwU6AcXsQDE7UMwOFLMDxexAMTtQzA4UswPF7EAxO1DMDhSzA8XsYF7MRZR5Mf3NbZdlmaYppXTr+bb8q9vPv4q9QkR7s5vo9fmL3VHzqZieEleh7+xFC7ieQ8ndsz2GO9Szy2a4BXd7zNHCewZfe8xhw1vSHl2wfelBT3r53bM86eLacIqJR+6BZVkaa3qO2bySNW1PMYmEt+Miz5hiGuS3ZZFnQzG9jho0UN4es8VRgx5K2kO1YpI9rTG1B+bFjKyuNc6L6SS8KaW6RA85UG9RkII1Q/+7HkogO817CxWKyalcLYrJSzNsHBaXIxWT6/COV0zuwqtrXkxh/A5QTN7LIaV0WPU/HNyhUI5QF1NIuUKKyXszXLcEr+JQci/gUhy5GdgVhw1v+tQSmBeb2l9cHt5kauxbfuA+xf33F6N500lLdFActnnLaVKM8JZQeQGN8Ba2RI3isKMGoaKAXEbFaAZexQhvdRF/V4zwtnOlGOFlVIzw9mqJD4ohtzsvitEMjIoRXqaWwLxYdmfm3Wti5dNbgQMvUnycF6+PU/iWFQct8ZLi94k9XHOti+Fa7uoOrttbonQMBNdy8+KD6+ozdSgq793lnNeb/Dg3fqX1DvTHnQO+o53uFHHPDVfv21bcux65bRCnR7n9xdnd5czdlpDbJZ8DL0Wk3xSW4y1Fhr3vLhvskIqWwLw46ucX00muh8+Ly1Os/fOLs8oOqWsJpYqvLx3NoVrxxnZf5vB52iawoXh4h1S3hD3FyvvalWJDrs0r1j9W9aP4eqw6qoh9Kta2FHGuWENlR1Fc7bqxJSIqls91XMVirqH4y7Kv/TtUDI9XzLxgYt9JFhbb305jAiieuPkBieQhL1tP+dUAAAAASUVORK5CYII=",
+          "sha256": "5a27ff45311a3868f27893107a5e2d09c8d1ff77fdbb1b8306ac51ff8e00aa1d",
+          "source": "pdf_embedded_image",
+          "original_filename": "ceom12_state_page2_Image23.png",
+          "width_px": 118,
+          "height_px": 101
+        }
+      ],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "16.5 no es el área en cm² ni el conteo correcto de 16 casillas."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "16 es el área en casillas; cada casilla mide 2 cm² y el resultado es 32 cm²."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "15.5 no coincide con las 16 casillas ni con los 32 cm²."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "36 cm² superaría en 4 el área correcta."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "33 cm² supera en 1 el área correcta; esta casilla no tiene letra en la fuente."
+        }
+      ],
+      "verification": {
+        "status": "invalid_source_no_correct_option",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "La figura tiene área de 16 casillas, es decir 32 cm². Las opciones impresas son 16.5, 16, 15.5, 36 y 33; ninguna coincide. La última casilla 33 carece de letra y se identifica editorialmente como e, conservando source_label:null."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Estatal CEOM12/Multinivel/FUSION_2020_estatal-ceom12_multinivel_examen-estatal-ceom12_original.pdf",
+      "source_pdf_sha256": "377197ef1ecc29123c205951e30c3063642e585df47a40a8497f902c1253fd4b"
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q10",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Estatal CEOM12 / Kids",
+      "problem_number": 10,
+      "source_question_label": "Parte 2 / Problema abierto 1",
+      "source_page": 2,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "La siguiente figura está conformada por 6 cuadrados: 2 pequeños idénticos, 2 medianos idénticos y 2 pequeños idénticos, el área de los más pequeños es de \\(1\\,\\mathrm{m}^2\\) cada uno, el mediano el doble de un pequeño, el grande el doble de un mediano ¿Cuál es el área sombreada?",
+      "options": [],
+      "correct_answer": "\\((5+2\\sqrt2)\\,\\mathrm{m}^2\\) si se duplican las áreas; \\(21\\,\\mathrm{m}^2\\) si se duplican los lados",
+      "correct_option_label": null,
+      "solution_text": "1. **Aclaración de fuente.** La lista repite «pequeños» y después menciona un grande. La figura muestra tres pares de tamaños. Además, «el doble» no precisa si se refiere a áreas o a lados.\n2. **Una descomposición que sirve para ambos casos.** Llamamos a, b y c a los lados grande, mediano y pequeño. El gris se divide en el triángulo superior, de base a+b+c y altura a; el triángulo inferior, de base a+b y altura b; y el cuadrado pequeño inferior. Su área es\n\\[S=\\frac{a(a+b+c)}2+\\frac{b(a+b)}2+c^2.\\]\n3. **Si se duplican las áreas.** Las áreas pequeña, mediana y grande son 1, 2 y 4. Por tanto, \\(c=1,\\ b=\\sqrt2,\\ a=2\\). Las partes valen \\(3+\\sqrt2\\), \\(1+\\sqrt2\\) y 1. El total es **\\(5+2\\sqrt2\\ \\mathrm{m}^2\\)**.\n4. **Si se duplican los lados.** Los lados serían 1, 2 y 4. Las tres partes valen 14, 6 y 1; total **\\(21\\ \\mathrm{m}^2\\)**.\n5. **Comprobación y conclusión.** Ambas cuentas usan exactamente la misma región gris; cambia la magnitud que se duplica. No se decide midiendo un dibujo esquemático. Se conserva como práctica guiada hasta que se aclare el texto.",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Región sombreada en seis cuadrados de tres tamaños",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "aa1016400815981fbfcc2d1274f70bee4727f2071bcba19e91f7228446719319",
+          "source": "pdf_embedded_image",
+          "original_filename": "ceom12_state_page2_Image24.png",
+          "width_px": 323,
+          "height_px": 279
+        }
+      ],
+      "option_analysis": [],
+      "verification": {
+        "status": "ambiguous_source",
+        "answer_checked": false,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "El texto repite pequeños en la lista de tamaños y no dice si doble compara áreas o lados. Las dos lecturas producen valores distintos; el dibujo no se mide para decidir una longitud."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Estatal CEOM12/Multinivel/FUSION_2020_estatal-ceom12_multinivel_examen-estatal-ceom12_original.pdf",
+      "source_pdf_sha256": "377197ef1ecc29123c205951e30c3063642e585df47a40a8497f902c1253fd4b"
+    }
+  ]
+}

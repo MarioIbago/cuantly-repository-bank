@@ -111,6 +111,10 @@ def validate_bank(bank, raw, source_pdf=None, allow_unclassified=False):
             label = option.get("label")
             check(nonempty(label), f"{prefix}: missing option label.")
             check(isinstance(option.get("text"), str), f"{prefix}: option text must be a string.")
+            if "source_label" in option:
+                check(option.get("source_label") is None or option.get("source_label") == label, f"{prefix}: source_label must match label or be null for an editorial identifier.")
+                if option.get("source_label") is None:
+                    check(problem.get("correct_option_label") is None, f"{prefix}: an editorial option identifier cannot be used for automatic grading.")
             if nonempty(label):
                 labels.append(label)
         check(len(set(labels)) == len(labels), f"{prefix}: duplicate option label.")
@@ -140,6 +144,8 @@ def validate_bank(bank, raw, source_pdf=None, allow_unclassified=False):
             verification = {}
         status = verification.get("status")
         check(nonempty(status), f"{prefix}: missing verification.status.")
+        if any(isinstance(option, dict) and "source_label" in option and option["source_label"] is None for option in options):
+            check(not (isinstance(status, str) and status.startswith("verified")) and nonempty(verification.get("notes")), f"{prefix}: editorial option identifiers require a guided status and an explanation.")
         for flag in ("answer_checked", "latex_checked"):
             check(type(verification.get(flag)) is bool, f"{prefix}: {flag} must be boolean.")
         check(verification.get("all_options_checked") is None if is_open else type(verification.get("all_options_checked")) is bool, f"{prefix}: all_options_checked must be null for open answers, boolean for multiple choice.")

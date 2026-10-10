@@ -1,0 +1,447 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2020/Estatal CEOM12/Multinivel/FUSION_2020_estatal-ceom12_multinivel_examen-estatal-ceom12_original.pdf",
+  "source_sha256": "377197ef1ecc29123c205951e30c3063642e585df47a40a8497f902c1253fd4b",
+  "metadata_evidence": "The seven headers print 23 DE MAYO and edition 12 but no calendar year. References such as 3 feb 05 date the borrowed problem, not this exam; 2020 is used within questions. The imported PDF folder used an explicitly inferred 2020 label; the bank does not adopt that inference.",
+  "source_review": "All seven source pages rendered and visually compared. Missing weight data and the unlabelled fifth option recovered from the original, not from inherited notes.",
+  "pages": [
+    1,
+    2
+  ],
+  "source_numbering": [
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q01",
+      "collection_ordinal": 1,
+      "source_question_label": "1"
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q02",
+      "collection_ordinal": 2,
+      "source_question_label": "2"
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q03",
+      "collection_ordinal": 3,
+      "source_question_label": "3"
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q04",
+      "collection_ordinal": 4,
+      "source_question_label": "4"
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q05",
+      "collection_ordinal": 5,
+      "source_question_label": "5"
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q06",
+      "collection_ordinal": 6,
+      "source_question_label": "6"
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q07",
+      "collection_ordinal": 7,
+      "source_question_label": "7"
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q08",
+      "collection_ordinal": 8,
+      "source_question_label": "8"
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q09",
+      "collection_ordinal": 9,
+      "source_question_label": "9"
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q10",
+      "collection_ordinal": 10,
+      "source_question_label": "Parte 2 / Problema abierto 1"
+    }
+  ],
+  "figure_review": [
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q04",
+      "page": 1,
+      "pdf_image_object": "Image16.png",
+      "bbox_top_left_pdf_points": [
+        249.84,
+        395.75955763048404,
+        398.166093686,
+        440.88122583021413
+      ],
+      "sha256": "f7208ace5c27dff3de0d88f8c66623aefc04a1de70d05d1a304c4b30e0fb2746",
+      "method": "Exact embedded mathematical figure. All pattern examples retained in original order with explicit figure labels."
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q06",
+      "page": 1,
+      "pdf_image_object": "Image17.png",
+      "bbox_top_left_pdf_points": [
+        284.16,
+        572.4,
+        363.12,
+        651.12
+      ],
+      "sha256": "8c660b6956d21daba78a57f8a27dce0b5fcb0fae57f93d8b3c6bfdc3a6d1e621",
+      "method": "Exact embedded mathematical figure. All pattern examples retained in original order with explicit figure labels."
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q09",
+      "page": 2,
+      "pdf_image_object": "Image23.png",
+      "bbox_top_left_pdf_points": [
+        280.56,
+        288.72,
+        366.96000000000004,
+        367.92
+      ],
+      "sha256": "5a27ff45311a3868f27893107a5e2d09c8d1ff77fdbb1b8306ac51ff8e00aa1d",
+      "method": "Exact embedded mathematical figure. All pattern examples retained in original order with explicit figure labels."
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q10",
+      "page": 2,
+      "pdf_image_object": "Image24.png",
+      "bbox_top_left_pdf_points": [
+        233.04,
+        528.72,
+        378.96,
+        647.52
+      ],
+      "sha256": "aa1016400815981fbfcc2d1274f70bee4727f2071bcba19e91f7228446719319",
+      "method": "Exact embedded mathematical figure. All pattern examples retained in original order with explicit figure labels."
+    }
+  ],
+  "transcription_corrections": [
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q07",
+      "kind": "symbolic_transcription",
+      "details": "Typeset the original mathematical notation, preserving wording and source defects."
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q07",
+      "kind": "equation_image_to_latex",
+      "page": 2,
+      "pdf_image_object": "Image22.png",
+      "bbox_top_left_pdf_points": [
+        218.16,
+        137.51999999999998,
+        429.12,
+        172.08000000000004
+      ],
+      "source_image_sha256": "5f8b94afe95cc2c06888414709b1958247cc53c4d17457a006910b6845feec93",
+      "transcription": "1□1 × 20 = 2020"
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q09",
+      "kind": "symbolic_transcription",
+      "details": "Typeset the cell area; moved the trailing 33 to its original fifth option and explicitly identified the absent printed label."
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q09",
+      "kind": "mathematical_recovery_and_source_error",
+      "before": "33 cm²",
+      "after": "32 cm², none of the five printed options",
+      "details": "Four corners subtraction and shoelace both give 16 unit cells. Each is 2 cm². The last option 33 has no printed label; source_label:null preserves that absence and e is an explicit editorial position identifier."
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q10",
+      "kind": "symbolic_transcription",
+      "details": "Typeset the original mathematical notation, preserving wording and source defects."
+    }
+  ],
+  "latex_rendering": {
+    "engine": "KaTeX 0.16.47",
+    "expressions": 57,
+    "errors": []
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q01",
+      "status": "verified",
+      "independent_check": {
+        "oldest": 12,
+        "middle": 6,
+        "youngest": 1
+      },
+      "notes": "Las cinco opciones se contrastaron con la fuente; una sola es correcta."
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q02",
+      "status": "ambiguous_source_schedule",
+      "independent_check": {
+        "printedWeekdayError": "Thursday is printed for the third day; Wednesday is not named.",
+        "weeklyResetTotal": 56,
+        "continuousDailyIncreaseTotal": 105
+      },
+      "notes": "La fuente imprime jueves para el tercer día y no especifica si la secuencia se reinicia en la segunda semana. La opción 56 corresponde a corregir ese día a miércoles y reiniciar semanalmente; no se certifica una respuesta única."
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q03",
+      "status": "verified",
+      "independent_check": {
+        "days": 23,
+        "remainder": 2,
+        "day": "Lunes"
+      },
+      "notes": "Las cinco opciones se contrastaron con la fuente; una sola es correcta."
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q04",
+      "status": "verified",
+      "independent_check": {
+        "small": 2,
+        "big": 3,
+        "firstBalance": 5,
+        "secondBalance": {
+          "left": 3,
+          "right": 3
+        }
+      },
+      "notes": "Las cinco opciones se contrastaron con la fuente; una sola es correcta."
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q05",
+      "status": "source_inconsistent_daily_schedule",
+      "independent_check": {
+        "sessions": 12,
+        "trainingDays": 6,
+        "freeDays": 1,
+        "feasibleTrainingPairs": [
+          "AB",
+          "AC",
+          "BC",
+          "AB",
+          "AC",
+          "BC"
+        ],
+        "literalEveryDaySessions": 14,
+        "sourceConstraintMismatch": true
+      },
+      "notes": "La fuente dice dos cada día, de lunes a domingo, pero tres disciplinas practicadas cuatro veces suman 12 sesiones, no 14. Un día libre corresponde a interpretar dos por cada día de entrenamiento."
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q06",
+      "status": "verified",
+      "independent_check": {
+        "verticalLines": 4,
+        "horizontalLines": 4,
+        "rectangles": 36,
+        "calculation": 36
+      },
+      "notes": "Las cinco opciones se contrastaron con la fuente; una sola es correcta."
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q07",
+      "status": "verified",
+      "independent_check": {
+        "missingDigit": 0,
+        "options": [
+          {
+            "digit": 1,
+            "product": 2220
+          },
+          {
+            "digit": 5,
+            "product": 3020
+          },
+          {
+            "digit": 0,
+            "product": 2020
+          },
+          {
+            "digit": 4,
+            "product": 2820
+          }
+        ],
+        "equation": "101*20=2020"
+      },
+      "notes": "Las cinco opciones se contrastaron con la fuente; una sola es correcta."
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q08",
+      "status": "verified",
+      "independent_check": {
+        "directSum": 2041210,
+        "pairSumFormula": 2041210
+      },
+      "notes": "Las cinco opciones se contrastaron con la fuente; una sola es correcta."
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q09",
+      "status": "invalid_source_no_correct_option",
+      "independent_check": {
+        "gridVertices": [
+          [
+            0,
+            4
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            5,
+            6
+          ]
+        ],
+        "areaInCells": 16,
+        "cellArea": 2,
+        "areaCm2": 32,
+        "boundingRectangleAreaInCells": 30,
+        "removedCornerTriangles": [
+          6,
+          1,
+          2,
+          5
+        ],
+        "independentCellArea": 16,
+        "sourceOptions": [
+          16.5,
+          16,
+          15.5,
+          36,
+          33
+        ],
+        "correctOptionPresent": false,
+        "unlabelledLastOption": 33,
+        "recoveredAnswerCorrection": {
+          "before": 33,
+          "after": 32
+        }
+      },
+      "notes": "La figura tiene área de 16 casillas, es decir 32 cm². Las opciones impresas son 16.5, 16, 15.5, 36 y 33; ninguna coincide. La última casilla 33 carece de letra y se identifica editorialmente como e, conservando source_label:null."
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q10",
+      "status": "ambiguous_source",
+      "independent_check": {
+        "ifAreasDouble": {
+          "sides": [
+            "2",
+            "sqrt(2)",
+            "1"
+          ],
+          "upperTriangle": "3+sqrt(2)",
+          "lowerTriangle": "1+sqrt(2)",
+          "smallSquare": 1,
+          "total": "5+2sqrt(2)",
+          "numeric": 7.82842712474619
+        },
+        "ifSidesDouble": {
+          "sides": [
+            4,
+            2,
+            1
+          ],
+          "total": 21
+        },
+        "sourceTypo": "pequeños appears twice in the six-square size list"
+      },
+      "notes": "El texto repite pequeños en la lista de tamaños y no dice si doble compara áreas o lados. Las dos lecturas producen valores distintos; el dibujo no se mide para decidir una longitud."
+    }
+  ],
+  "structural_validation": [
+    {
+      "path": "02_JSON_EXAMS/FUSION/Sin fecha/Estatal CEOM12/Kids/FUSION_sin-fecha_estatal-ceom12_kids-3-y-4-primaria_verified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "c0944cdea710b22414a975e84459774589c01e1b7c4f7b2a076c0bdce4709a07",
+        "bytes": 52722,
+        "problems": 10,
+        "verified": 6,
+        "guided": 4,
+        "images": 4,
+        "figures": [
+          {
+            "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q04",
+            "figure": 1,
+            "sha256": "f7208ace5c27dff3de0d88f8c66623aefc04a1de70d05d1a304c4b30e0fb2746",
+            "width": 388,
+            "height": 119
+          },
+          {
+            "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q06",
+            "figure": 1,
+            "sha256": "8c660b6956d21daba78a57f8a27dce0b5fcb0fae57f93d8b3c6bfdc3a6d1e621",
+            "width": 218,
+            "height": 218
+          },
+          {
+            "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q09",
+            "figure": 1,
+            "sha256": "5a27ff45311a3868f27893107a5e2d09c8d1ff77fdbb1b8306ac51ff8e00aa1d",
+            "width": 118,
+            "height": 101
+          },
+          {
+            "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q10",
+            "figure": 1,
+            "sha256": "aa1016400815981fbfcc2d1274f70bee4727f2071bcba19e91f7228446719319",
+            "width": 323,
+            "height": 279
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/Kids/FUSION_sin-fecha_estatal-ceom12_kids-3-y-4-primaria_classified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "b2e8c2dc4368f2b696de6a6bdbb4c351c09526abbb428fd9349f6abc232b37b5",
+        "bytes": 57910,
+        "problems": 10,
+        "verified": 6,
+        "guided": 4,
+        "images": 4,
+        "figures": [
+          {
+            "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q04",
+            "figure": 1,
+            "sha256": "f7208ace5c27dff3de0d88f8c66623aefc04a1de70d05d1a304c4b30e0fb2746",
+            "width": 388,
+            "height": 119
+          },
+          {
+            "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q06",
+            "figure": 1,
+            "sha256": "8c660b6956d21daba78a57f8a27dce0b5fcb0fae57f93d8b3c6bfdc3a6d1e621",
+            "width": 218,
+            "height": 218
+          },
+          {
+            "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q09",
+            "figure": 1,
+            "sha256": "5a27ff45311a3868f27893107a5e2d09c8d1ff77fdbb1b8306ac51ff8e00aa1d",
+            "width": 118,
+            "height": 101
+          },
+          {
+            "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q10",
+            "figure": 1,
+            "sha256": "aa1016400815981fbfcc2d1274f70bee4727f2071bcba19e91f7228446719319",
+            "width": 323,
+            "height": 279
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,405 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2020/Estatal CEOM12/Multinivel/FUSION_2020_estatal-ceom12_multinivel_examen-estatal-ceom12_original.pdf",
+  "source_sha256": "377197ef1ecc29123c205951e30c3063642e585df47a40a8497f902c1253fd4b",
+  "metadata_evidence": "The seven headers print 23 DE MAYO and edition 12 but no calendar year. References such as 3 feb 05 date the borrowed problem, not this exam; 2020 is used within questions. The imported PDF folder used an explicitly inferred 2020 label; the bank does not adopt that inference.",
+  "source_review": "All seven source pages rendered and visually compared. Missing weight data and the unlabelled fifth option recovered from the original, not from inherited notes.",
+  "pages": [
+    7
+  ],
+  "source_numbering": [
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q01",
+      "collection_ordinal": 1,
+      "source_question_label": "I"
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q02",
+      "collection_ordinal": 2,
+      "source_question_label": "H"
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q03",
+      "collection_ordinal": 3,
+      "source_question_label": "C"
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q04",
+      "collection_ordinal": 4,
+      "source_question_label": "G"
+    }
+  ],
+  "figure_review": [
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q03",
+      "page": 7,
+      "pdf_image_object": "Image65.png",
+      "bbox_top_left_pdf_points": [
+        106.8,
+        468.72,
+        194.39999999999998,
+        540.72
+      ],
+      "sha256": "70c5c457119c0a1b46f7c0dea4ff7559247fb313bf959bb48af492935878cc21",
+      "method": "Exact embedded mathematical figure. All pattern examples retained in original order with explicit figure labels."
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q03",
+      "page": 7,
+      "pdf_image_object": "Image66.png",
+      "bbox_top_left_pdf_points": [
+        240.48,
+        468,
+        329.76,
+        540.72
+      ],
+      "sha256": "66797a8cad8d60155ae81bc0a51fcceacf95e6d031133fef45f59f06d5ed98a6",
+      "method": "Exact embedded mathematical figure. All pattern examples retained in original order with explicit figure labels."
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q03",
+      "page": 7,
+      "pdf_image_object": "Image67.png",
+      "bbox_top_left_pdf_points": [
+        382.08,
+        465.12,
+        473.28,
+        540.72
+      ],
+      "sha256": "5f73d7331367e73b803e08c3e2e1c3939fc10bc91d706fb95d40038b997527c5",
+      "method": "Exact embedded mathematical figure. All pattern examples retained in original order with explicit figure labels."
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q04",
+      "page": 7,
+      "pdf_image_object": "Image68.png",
+      "bbox_top_left_pdf_points": [
+        239.28,
+        615.84,
+        372.24,
+        751.44
+      ],
+      "sha256": "89abb3ab4eca970bf868530047aab3e7df7af2885c1b20a995e8d10ed749abdc",
+      "method": "Exact embedded mathematical figure. All pattern examples retained in original order with explicit figure labels."
+    }
+  ],
+  "transcription_corrections": [
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q01",
+      "kind": "bullet_normalization",
+      "details": "Replaced private-use bullet glyphs with Markdown list markers; all three conditions and the note retained."
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q02",
+      "kind": "omitted_source_data_restored",
+      "details": "Restored the printed ten pair weights, omitted by the legacy extractor."
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q03",
+      "kind": "counting_scope_qualified",
+      "details": "The inherited result counts only elementary triangles. A second all-size count is derived and independently checked; the source does not specify the scope."
+    }
+  ],
+  "latex_rendering": {
+    "engine": "KaTeX 0.16.47",
+    "expressions": 63,
+    "errors": []
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q01",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "steps": 10,
+        "directedClosedSimpleWalks": 560,
+        "walksByEnclosedArea": {
+          "4": 360,
+          "5": 160,
+          "6": 40
+        },
+        "independentFixedPolyominoesWithPerimeter10": {
+          "4": 18,
+          "5": 8,
+          "6": 2
+        },
+        "translationsAndOrientationsPerFixedShape": 20,
+        "independentTotal": 560,
+        "returnToStartException": "The required final return is allowed; no other vertex or edge is revisited."
+      },
+      "notes": "Se cuentan recorridos por las calles de la cuadrícula. El regreso final a casa es la excepción obligatoria a no repetir puntos; ningún otro punto se visita dos veces. Los sentidos contrarios son distintos, como indica la fuente."
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q02",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "weights": [
+          7,
+          11,
+          13,
+          17,
+          19
+        ],
+        "allPairSums": [
+          18,
+          20,
+          24,
+          24,
+          26,
+          28,
+          30,
+          30,
+          32,
+          36
+        ],
+        "given": [
+          18,
+          20,
+          24,
+          24,
+          26,
+          28,
+          30,
+          30,
+          32,
+          36
+        ],
+        "sumOfGivenPairs": 268,
+        "sumOfWeights": 67
+      },
+      "notes": "Respuesta abierta revisada; comparación manual."
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q03",
+      "status": "ambiguous_counting_scope",
+      "independent_check": {
+        "figure2020": {
+          "n": 2020,
+          "sideLengthClasses": 3030,
+          "total": 28857609910,
+          "unitTriangles": 24482400,
+          "closedForm": 28857609910,
+          "firstThreeSizeCounts": [
+            {
+              "side": 1,
+              "triangles": 24482400
+            },
+            {
+              "side": 2,
+              "triangles": 24470280
+            },
+            {
+              "side": 3,
+              "triangles": 24458162
+            }
+          ],
+          "lastThreeSizeCounts": [
+            {
+              "side": 3028,
+              "triangles": 30
+            },
+            {
+              "side": 3029,
+              "triangles": 12
+            },
+            {
+              "side": 3030,
+              "triangles": 2
+            }
+          ]
+        },
+        "unitTriangles": 24482400,
+        "allTrianglesClosedForm": 28857609910,
+        "scopeAmbiguity": "Unit cells only versus all triangles formed by the drawn lines.",
+        "independentComparisons": [
+          {
+            "n": 1,
+            "brute": 6,
+            "formula": 6,
+            "summed": 6
+          },
+          {
+            "n": 2,
+            "brute": 38,
+            "formula": 38,
+            "summed": 38
+          },
+          {
+            "n": 3,
+            "brute": 116,
+            "formula": 116,
+            "summed": 116
+          },
+          {
+            "n": 4,
+            "brute": 262,
+            "formula": 262,
+            "summed": 262
+          },
+          {
+            "n": 5,
+            "brute": 496,
+            "formula": 496,
+            "summed": 496
+          },
+          {
+            "n": 6,
+            "brute": 840,
+            "formula": 840,
+            "summed": 840
+          },
+          {
+            "n": 7,
+            "brute": 1314,
+            "formula": 1314,
+            "summed": 1314
+          },
+          {
+            "n": 8,
+            "brute": 1940,
+            "formula": 1940,
+            "summed": 1940
+          },
+          {
+            "n": 9,
+            "brute": 2738,
+            "formula": 2738,
+            "summed": 2738
+          }
+        ]
+      },
+      "notes": "La fuente no especifica triángulos elementales. El resultado recuperado 24482400 cuenta solo celdas; todos los tamaños suman 28857609910 para la figura de lado 2020."
+    },
+    {
+      "source_id": "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q04",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "A": [
+          0,
+          1
+        ],
+        "B": [
+          1,
+          1
+        ],
+        "C": [
+          1,
+          0
+        ],
+        "D": [
+          0,
+          0
+        ],
+        "M": [
+          0.5,
+          1
+        ],
+        "P": [
+          0.3333333333333333,
+          0.6666666666666666
+        ],
+        "areaCPMB": 0.4166666666666667,
+        "exactArea": "5/12",
+        "ratio": 2.4,
+        "exactRatio": "12/5"
+      },
+      "notes": "Respuesta abierta revisada; comparación manual."
+    }
+  ],
+  "structural_validation": [
+    {
+      "path": "02_JSON_EXAMS/FUSION/Sin fecha/Estatal CEOM12/Olímpicos/FUSION_sin-fecha_estatal-ceom12_olimpicos-preparatoria-o-bachillerato_verified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "02fbf80b8265bfc3d714a6fd9f274b100a148b7e768130585e2b981b409c9bb6",
+        "bytes": 39525,
+        "problems": 4,
+        "verified": 3,
+        "guided": 1,
+        "images": 4,
+        "figures": [
+          {
+            "source_id": "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q03",
+            "figure": 1,
+            "sha256": "70c5c457119c0a1b46f7c0dea4ff7559247fb313bf959bb48af492935878cc21",
+            "width": 190,
+            "height": 156
+          },
+          {
+            "source_id": "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q03",
+            "figure": 2,
+            "sha256": "66797a8cad8d60155ae81bc0a51fcceacf95e6d031133fef45f59f06d5ed98a6",
+            "width": 194,
+            "height": 158
+          },
+          {
+            "source_id": "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q03",
+            "figure": 3,
+            "sha256": "5f73d7331367e73b803e08c3e2e1c3939fc10bc91d706fb95d40038b997527c5",
+            "width": 189,
+            "height": 157
+          },
+          {
+            "source_id": "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q04",
+            "figure": 1,
+            "sha256": "89abb3ab4eca970bf868530047aab3e7df7af2885c1b20a995e8d10ed749abdc",
+            "width": 317,
+            "height": 323
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/Olímpicos/FUSION_sin-fecha_estatal-ceom12_olimpicos-preparatoria-o-bachillerato_classified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "b7ae94c78d735da61f6bbdfd454412fb60e5f6ebabdb6d919a9608249e332f59",
+        "bytes": 41810,
+        "problems": 4,
+        "verified": 3,
+        "guided": 1,
+        "images": 4,
+        "figures": [
+          {
+            "source_id": "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q03",
+            "figure": 1,
+            "sha256": "70c5c457119c0a1b46f7c0dea4ff7559247fb313bf959bb48af492935878cc21",
+            "width": 190,
+            "height": 156
+          },
+          {
+            "source_id": "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q03",
+            "figure": 2,
+            "sha256": "66797a8cad8d60155ae81bc0a51fcceacf95e6d031133fef45f59f06d5ed98a6",
+            "width": 194,
+            "height": 158
+          },
+          {
+            "source_id": "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q03",
+            "figure": 3,
+            "sha256": "5f73d7331367e73b803e08c3e2e1c3939fc10bc91d706fb95d40038b997527c5",
+            "width": 189,
+            "height": 157
+          },
+          {
+            "source_id": "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q04",
+            "figure": 1,
+            "sha256": "89abb3ab4eca970bf868530047aab3e7df7af2885c1b20a995e8d10ed749abdc",
+            "width": 317,
+            "height": 323
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    }
+  ]
+}

@@ -5,9 +5,9 @@
   "counts": {
     "recovered_occurrences": 881,
     "legacy_statement_groups": 441,
-    "published_occurrences": 153,
+    "published_occurrences": 183,
     "alternate_source_occurrences": 42,
-    "pending_occurrences": 686
+    "pending_occurrences": 656
   },
   "notes": [
     "Agrupaciones heredadas: su normalizador eliminaba signos matemáticos; no equivalen a duplicados certificados.",
@@ -3196,12 +3196,14 @@
         }
       ],
       "legacy_statement_group": 58,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "1 año",
       "inherited_solution_unverified": "El hermano de en medio tiene 12/2=6 años; el menor tiene 6-5=1.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/Kids/FUSION_sin-fecha_estatal-ceom12_kids-3-y-4-primaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q02",
@@ -3237,12 +3239,14 @@
         }
       ],
       "legacy_statement_group": 59,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": "La secuencia impresa salta del martes al jueves. Tampoco especifica si en la segunda semana reinicia 1,2,...,7 o continúa 8,...,14. Las sumas posibles serían 56 o 105. Se necesita corregir la redacción para tener una respuesta única.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/Kids/FUSION_sin-fecha_estatal-ceom12_kids-3-y-4-primaria_classified.json",
+      "reviewed_status": "ambiguous_source_schedule"
     },
     {
       "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q03",
@@ -3278,12 +3282,14 @@
         }
       ],
       "legacy_statement_group": 60,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "lunes",
       "inherited_solution_unverified": "23=3·7+2. Dos días después del sábado es lunes.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/Kids/FUSION_sin-fecha_estatal-ceom12_kids-3-y-4-primaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q04",
@@ -3319,12 +3325,14 @@
         }
       ],
       "legacy_statement_group": 61,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "2;opciónd",
-      "checkpoint_notes_unverified": "s+g5,s+1g"
+      "checkpoint_notes_unverified": "s+g5,s+1g",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/Kids/FUSION_sin-fecha_estatal-ceom12_kids-3-y-4-primaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q05",
@@ -3360,12 +3368,14 @@
         }
       ],
       "legacy_statement_group": 62,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "1 día;opciónc",
-      "checkpoint_notes_unverified": "12 sesiones en6 días"
+      "checkpoint_notes_unverified": "12 sesiones en6 días",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/Kids/FUSION_sin-fecha_estatal-ceom12_kids-3-y-4-primaria_classified.json",
+      "reviewed_status": "source_inconsistent_daily_schedule"
     },
     {
       "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q06",
@@ -3401,12 +3411,14 @@
         }
       ],
       "legacy_statement_group": 63,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "36;opciónc",
-      "checkpoint_notes_unverified": "C(4,2)²"
+      "checkpoint_notes_unverified": "C(4,2)²",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/Kids/FUSION_sin-fecha_estatal-ceom12_kids-3-y-4-primaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q07",
@@ -3442,12 +3454,14 @@
         }
       ],
       "legacy_statement_group": 64,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "0;opciónc",
-      "checkpoint_notes_unverified": "101*20"
+      "checkpoint_notes_unverified": "101*20",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/Kids/FUSION_sin-fecha_estatal-ceom12_kids-3-y-4-primaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q08",
@@ -3483,12 +3497,14 @@
         }
       ],
       "legacy_statement_group": 65,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "2041210",
       "inherited_solution_unverified": "La suma 1+2+...+2020 es 2020·2021/2=2041210.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/Kids/FUSION_sin-fecha_estatal-ceom12_kids-3-y-4-primaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q09",
@@ -3520,12 +3536,14 @@
         }
       ],
       "legacy_statement_group": 66,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "33 cm²;opcióne",
-      "checkpoint_notes_unverified": "vértices(0,4),(4,1),(6,2),(5,6);16.5 casillas"
+      "checkpoint_notes_unverified": "vértices(0,4),(4,1),(6,2),(5,6);16.5 casillas",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/Kids/FUSION_sin-fecha_estatal-ceom12_kids-3-y-4-primaria_classified.json",
+      "reviewed_status": "invalid_source_no_correct_option"
     },
     {
       "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q10",
@@ -3540,12 +3558,14 @@
       "problem_text": "La siguiente figura está conformada por 6 cuadrados: 2 pequeños idénticos, 2 medianos idénticos y 2\npequeños idénticos, el área de los más pequeños es de 1 m^{2}cada uno, el mediano el doble de un\npequeño, el grande el doble de un mediano ¿Cuál  es el área sombreada?",
       "options": [],
       "legacy_statement_group": 67,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "5+2sqrt2",
-      "checkpoint_notes_unverified": "lados1,sqrt2,2;triángulos superiores e inferiores más cuadrado1"
+      "checkpoint_notes_unverified": "lados1,sqrt2,2;triángulos superiores e inferiores más cuadrado1",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/Kids/FUSION_sin-fecha_estatal-ceom12_kids-3-y-4-primaria_classified.json",
+      "reviewed_status": "ambiguous_source"
     },
     {
       "source_id": "fusion1_examen-estatal-ceom12_primaria-5-y-6-primaria_q01",
@@ -3560,12 +3580,14 @@
       "problem_text": "Encuentra el menor entero positivo tal que al multiplicar sus dígitos el resultado sea 1890.  (3 feb 05)",
       "options": [],
       "legacy_statement_group": 68,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "5679",
-      "checkpoint_notes_unverified": "2*3³*5*7;resto54=6*9"
+      "checkpoint_notes_unverified": "2*3³*5*7;resto54=6*9",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/Primaria/FUSION_sin-fecha_estatal-ceom12_primaria-5-y-6-primaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-estatal-ceom12_primaria-5-y-6-primaria_q02",
@@ -3580,12 +3602,14 @@
       "problem_text": "¿Cuántos números naturales existen tales que ninguno de sus dígitos sea 1 y que además el producto de sus\ndígitos sea 48? (22 ABR 05)",
       "options": [],
       "legacy_statement_group": 69,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "38",
-      "checkpoint_notes_unverified": "2 de2cifras,15 de3,16 de4,5 de5"
+      "checkpoint_notes_unverified": "2 de2cifras,15 de3,16 de4,5 de5",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/Primaria/FUSION_sin-fecha_estatal-ceom12_primaria-5-y-6-primaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-estatal-ceom12_primaria-5-y-6-primaria_q03",
@@ -3600,12 +3624,14 @@
       "problem_text": "Siguiendo el patrón de las figuras, ¿cuántos triángulos habrá en la novena figura? (17 ago 05)",
       "options": [],
       "legacy_statement_group": 70,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "486 triángulos elementales",
-      "checkpoint_notes_unverified": "6n²"
+      "checkpoint_notes_unverified": "6n²",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/Primaria/FUSION_sin-fecha_estatal-ceom12_primaria-5-y-6-primaria_classified.json",
+      "reviewed_status": "ambiguous_counting_scope"
     },
     {
       "source_id": "fusion1_examen-estatal-ceom12_primaria-5-y-6-primaria_q04",
@@ -3620,12 +3646,14 @@
       "problem_text": "La siguiente figura está conformada por 6 cuadrados: 2 pequeños idénticos, 2 medianos idénticos y 2\npequeños idénticos, el área de los más pequeños es de 1 m^{2}cada uno, el mediano el doble, de lado, de un\npequeño, el grande el doble de un mediano ¿Cuál  es el área sombreada?",
       "options": [],
       "legacy_statement_group": 71,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "21 m²",
-      "checkpoint_notes_unverified": "superior14,inferior6+1"
+      "checkpoint_notes_unverified": "superior14,inferior6+1",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/Primaria/FUSION_sin-fecha_estatal-ceom12_primaria-5-y-6-primaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-estatal-ceom12_1-secundaria_q01",
@@ -3640,12 +3668,14 @@
       "problem_text": "Encuentra el menor entero positivo tal que al multiplicar sus dígitos el resultado sea 1890.  (3 feb 05)",
       "options": [],
       "legacy_statement_group": 68,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "5679",
-      "checkpoint_notes_unverified": "2*3³*5*7;resto54=6*9"
+      "checkpoint_notes_unverified": "2*3³*5*7;resto54=6*9",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/1.º de secundaria/FUSION_sin-fecha_estatal-ceom12_1-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-estatal-ceom12_1-secundaria_q02",
@@ -3660,12 +3690,14 @@
       "problem_text": "¿Cuántos números naturales existen tales que ninguno de sus dígitos sea 1 y que además el producto de sus\ndígitos sea 48? (22 ABR 05)",
       "options": [],
       "legacy_statement_group": 69,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "38",
-      "checkpoint_notes_unverified": "2 de2cifras,15 de3,16 de4,5 de5"
+      "checkpoint_notes_unverified": "2 de2cifras,15 de3,16 de4,5 de5",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/1.º de secundaria/FUSION_sin-fecha_estatal-ceom12_1-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-estatal-ceom12_1-secundaria_q03",
@@ -3680,12 +3712,14 @@
       "problem_text": "Siguiendo el patrón de las figuras, ¿cuántos triángulos habrá en la novena figura? (17 ago 05)",
       "options": [],
       "legacy_statement_group": 70,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "486 triángulos elementales",
-      "checkpoint_notes_unverified": "6n²"
+      "checkpoint_notes_unverified": "6n²",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/1.º de secundaria/FUSION_sin-fecha_estatal-ceom12_1-secundaria_classified.json",
+      "reviewed_status": "ambiguous_counting_scope"
     },
     {
       "source_id": "fusion1_examen-estatal-ceom12_1-secundaria_q04",
@@ -3700,12 +3734,14 @@
       "problem_text": "En el paralelogramo ABCD de área 1, los puntos P, Q, R y S son los puntos medios de los lados. ¿Cuál es la suma de las\náreas de los triángulos sombreados? (18 nov 05)",
       "options": [],
       "legacy_statement_group": 72,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "1/6",
-      "checkpoint_notes_unverified": "cuatro triángulos1/24"
+      "checkpoint_notes_unverified": "cuatro triángulos1/24",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/1.º de secundaria/FUSION_sin-fecha_estatal-ceom12_1-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-estatal-ceom12_2-secundaria_q01",
@@ -3720,12 +3756,14 @@
       "problem_text": "Jaden intenta cruzar todo el país en coche desde Quintana Roo hasta Baja California Sur en cierto momento, al\nir en su trayecto, se da cuenta que el kilometraje marca que ha recorrido 15, 951km y se da cuenta que ese\nnúmero es capicúa. Exactamente dos horas más tarde el kilometraje marca otro número capicúa ¿Cuál fue la\nmenor velocidad promedio durante esas dos horas?\nNota:  número capicúa es aquel que se lee igual de izquierda a derecha que de derecha a izquierda. (22 marz\n05)",
       "options": [],
       "legacy_statement_group": 73,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "55 km/h",
-      "checkpoint_notes_unverified": "16061;distancia110"
+      "checkpoint_notes_unverified": "16061;distancia110",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/2.º de secundaria/FUSION_sin-fecha_estatal-ceom12_2-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-estatal-ceom12_2-secundaria_q02",
@@ -3740,12 +3778,14 @@
       "problem_text": "¿Cuántos números naturales existen tales que ninguno de sus dígitos sea 1 y que además el producto de sus\ndígitos sea 48? (22 ABR 05)",
       "options": [],
       "legacy_statement_group": 69,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "38",
-      "checkpoint_notes_unverified": "2 de2cifras,15 de3,16 de4,5 de5"
+      "checkpoint_notes_unverified": "2 de2cifras,15 de3,16 de4,5 de5",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/2.º de secundaria/FUSION_sin-fecha_estatal-ceom12_2-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-estatal-ceom12_2-secundaria_q03",
@@ -3760,12 +3800,14 @@
       "problem_text": "Siguiendo el patrón de las figuras, ¿cuántos triángulos habrá en la novena figura? (17 ago 05)",
       "options": [],
       "legacy_statement_group": 70,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "486 triángulos elementales",
-      "checkpoint_notes_unverified": "6n²"
+      "checkpoint_notes_unverified": "6n²",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/2.º de secundaria/FUSION_sin-fecha_estatal-ceom12_2-secundaria_classified.json",
+      "reviewed_status": "ambiguous_counting_scope"
     },
     {
       "source_id": "fusion1_examen-estatal-ceom12_2-secundaria_q04",
@@ -3780,12 +3822,14 @@
       "problem_text": "En el cuadrado ABCD, M es el punto medio del lado AB y P es el punto de intersección de DM con la diagonal AC. Calcule\nla razón de Área del cuadrado ABCD entre el área del cuadrilátero CPMB.",
       "options": [],
       "legacy_statement_group": 74,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "12/5",
-      "checkpoint_notes_unverified": "P=(1/3,2/3);área5/12"
+      "checkpoint_notes_unverified": "P=(1/3,2/3);área5/12",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/2.º de secundaria/FUSION_sin-fecha_estatal-ceom12_2-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-estatal-ceom12_3-secundaria_q01",
@@ -3800,12 +3844,14 @@
       "problem_text": "Jaden intenta cruzar todo el país en coche desde Quintana Roo hasta Baja California Sur en cierto momento, al\nir en su trayecto, se da cuenta que el kilometraje marca que ha recorrido 15, 951km y se da cuenta que ese\nnúmero es capicúa. Exactamente dos horas más tarde el kilometraje marca otro número capicúa ¿Cuál fue la\nmenor velocidad promedio durante esas dos horas?\nNota:  número capicúa es aquel que se lee igual de izquierda a derecha que de derecha a izquierda. (22 marz\n05)",
       "options": [],
       "legacy_statement_group": 73,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "55 km/h",
-      "checkpoint_notes_unverified": "16061;distancia110"
+      "checkpoint_notes_unverified": "16061;distancia110",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/3.º de secundaria/FUSION_sin-fecha_estatal-ceom12_3-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-estatal-ceom12_3-secundaria_q02",
@@ -3820,12 +3866,14 @@
       "problem_text": "Aarón tiene 5 osos de diferentes tamaños los cuales pesa en una báscula que solo permite poner 2 osos en\ncada pesada, entonces hace todas las combinaciones, posibles diferentes, por parejas y los pesa. Los\n¿Cuál es el peso de cada uno de los osos?",
       "options": [],
       "legacy_statement_group": 75,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "7,11,13,17,19 gramos",
-      "checkpoint_notes_unverified": "todas las diez sumas reproducen lista;restaurar pesos omitidos"
+      "checkpoint_notes_unverified": "todas las diez sumas reproducen lista;restaurar pesos omitidos",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/3.º de secundaria/FUSION_sin-fecha_estatal-ceom12_3-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-estatal-ceom12_3-secundaria_q03",
@@ -3840,12 +3888,14 @@
       "problem_text": "Siguiendo el patrón de las figuras, ¿cuántos triángulos habrá en la figura 2020? (17 ago 05)",
       "options": [],
       "legacy_statement_group": 76,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "24482400",
-      "checkpoint_notes_unverified": "6*2020²"
+      "checkpoint_notes_unverified": "6*2020²",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/3.º de secundaria/FUSION_sin-fecha_estatal-ceom12_3-secundaria_classified.json",
+      "reviewed_status": "ambiguous_counting_scope"
     },
     {
       "source_id": "fusion1_examen-estatal-ceom12_3-secundaria_q04",
@@ -3860,12 +3910,14 @@
       "problem_text": "En el cuadrado ABCD, M es el punto medio del lado AB y P es el punto de intersección de DM con la diagonal AC. Calcule\nla razón de Área del cuadrado ABCD entre el área del cuadrilátero CPMB.",
       "options": [],
       "legacy_statement_group": 74,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "12/5",
-      "checkpoint_notes_unverified": "P=(1/3,2/3);área5/12"
+      "checkpoint_notes_unverified": "P=(1/3,2/3);área5/12",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/3.º de secundaria/FUSION_sin-fecha_estatal-ceom12_3-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q01",
@@ -3880,12 +3932,14 @@
       "problem_text": "Charlitos quiere comenzar un plan de entrenamiento diario, pero su entrenador le pide comenzar a trotar diario\n1km. El vive en una colonia, en la cual saldrá a trotar, cuadriculada de 5km x 5 km y cada cuadra mide 100m x\n100m y su casa está en una de las esquinas del centro de la colonia. ¿Durante cuántos días puede hacer\nrecorridos distintos, siguiendo las siguientes características?\n Siempre empieza los recorridos saliendo de su casa.\n Siempre termina los recorridos en su casa.\n No puede repetir ningún punto del recorrido en el mismo día.\nNota: recorridos de días distintos pueden tener partes en común e inclusive determinar el mismo camino\npero en sentido contrario.",
       "options": [],
       "legacy_statement_group": 77,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "560",
-      "checkpoint_notes_unverified": "enumeración diez pasos cerrados dirigidos"
+      "checkpoint_notes_unverified": "enumeración diez pasos cerrados dirigidos",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/Olímpicos/FUSION_sin-fecha_estatal-ceom12_olimpicos-preparatoria-o-bachillerato_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q02",
@@ -3900,12 +3954,14 @@
       "problem_text": "Aarón tiene 5 osos de diferentes tamaños los cuales pesa en una báscula que solo permite poner 2 osos en\ncada pesada, entonces hace todas las combinaciones, posibles diferentes, por parejas y los pesa. Los\n¿Cuál es el peso de cada uno de los osos?",
       "options": [],
       "legacy_statement_group": 75,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "7,11,13,17,19 gramos",
-      "checkpoint_notes_unverified": "todas las diez sumas reproducen lista;restaurar pesos omitidos"
+      "checkpoint_notes_unverified": "todas las diez sumas reproducen lista;restaurar pesos omitidos",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/Olímpicos/FUSION_sin-fecha_estatal-ceom12_olimpicos-preparatoria-o-bachillerato_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q03",
@@ -3920,12 +3976,14 @@
       "problem_text": "Siguiendo el patrón de las figuras, ¿cuántos triángulos habrá en la figura 2020? (17 ago 05)",
       "options": [],
       "legacy_statement_group": 76,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "24482400",
-      "checkpoint_notes_unverified": "6*2020²"
+      "checkpoint_notes_unverified": "6*2020²",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/Olímpicos/FUSION_sin-fecha_estatal-ceom12_olimpicos-preparatoria-o-bachillerato_classified.json",
+      "reviewed_status": "ambiguous_counting_scope"
     },
     {
       "source_id": "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q04",
@@ -3940,12 +3998,14 @@
       "problem_text": "En el cuadrado ABCD, M es el punto medio del lado AB y P es el punto de intersección de DM con la diagonal AC. Calcule\nla razón de Área del cuadrado ABCD entre el área del cuadrilátero CPMB.",
       "options": [],
       "legacy_statement_group": 74,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "12/5",
-      "checkpoint_notes_unverified": "P=(1/3,2/3);área5/12"
+      "checkpoint_notes_unverified": "P=(1/3,2/3);área5/12",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/Olímpicos/FUSION_sin-fecha_estatal-ceom12_olimpicos-preparatoria-o-bachillerato_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-final-ceom10_kids-3ro_q01",
