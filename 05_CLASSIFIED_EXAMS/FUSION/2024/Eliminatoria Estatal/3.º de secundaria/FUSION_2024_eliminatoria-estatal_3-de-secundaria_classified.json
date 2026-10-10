@@ -121,7 +121,7 @@
         "difficulty": "L2",
         "tags": [
           "sets",
-          "constraints"
+          "constraint_satisfaction"
         ],
         "classification_confidence": 0.95,
         "difficulty_confidence": 0.85,
@@ -210,7 +210,7 @@
         "mixed": false,
         "difficulty": "L1",
         "tags": [
-          "unit_price",
+          "unit_rate",
           "division"
         ],
         "classification_confidence": 0.95,
@@ -312,9 +312,9 @@
         "mixed": false,
         "difficulty": "L2",
         "tags": [
-          "lcm",
+          "least_common_multiple",
           "perimeter",
-          "periodic_motion"
+          "periodicity"
         ],
         "classification_confidence": 0.95,
         "difficulty_confidence": 0.85,
@@ -358,7 +358,7 @@
       ],
       "correct_answer": "135°",
       "correct_option_label": "c",
-      "solution_text": "1. Trazamos AC. Los triángulos ABC y ADC tienen AB=AD, BC=DC y AC común, por lo que son congruentes por sus tres lados.\n2. Por tanto, los ángulos interiores en B y D son iguales. El dibujo da \\(A=70^\\circ\\) y \\(C=20^\\circ\\).\n3. La suma interior del cuadrilátero es \\(360^\\circ\\). Así, \\(2B=360^circ-70^circ-20^circ=270^\\circ\\), luego \\(B=\\mathbf{135^circ}\\), opción **c**.\n4. Comprobación: \\(70+135+20+135=360\\). Los demás ángulos ofrecidos no satisfacen esa suma con B=D.",
+      "solution_text": "1. Trazamos AC. Los triángulos ABC y ADC tienen AB=AD, BC=DC y AC común, por lo que son congruentes por sus tres lados.\n2. Por tanto, los ángulos interiores en B y D son iguales. El dibujo da \\(A=70^\\circ\\) y \\(C=20^\\circ\\).\n3. La suma interior del cuadrilátero es \\(360^\\circ\\). Así, \\(2B=360^\\circ-70^\\circ-20^\\circ=270^\\circ\\), luego \\(B=\\mathbf{135^\\circ}\\), opción **c**.\n4. Comprobación: \\(70+135+20+135=360\\). Los demás ángulos ofrecidos no satisfacen esa suma con B=D.",
       "has_diagram": true,
       "problem_images": [
         {
@@ -549,7 +549,7 @@
         "difficulty": "L3",
         "tags": [
           "triangle_counting",
-          "geometry_counting"
+          "counting"
         ],
         "classification_confidence": 0.95,
         "difficulty_confidence": 0.85,
@@ -605,7 +605,7 @@
         "tags": [
           "volume",
           "spatial_reasoning",
-          "decomposition"
+          "dissection"
         ],
         "classification_confidence": 0.95,
         "difficulty_confidence": 0.85,

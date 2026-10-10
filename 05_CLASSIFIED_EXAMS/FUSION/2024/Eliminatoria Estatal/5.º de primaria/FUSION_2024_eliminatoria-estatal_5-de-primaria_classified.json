@@ -61,7 +61,7 @@
       ],
       "correct_answer": "465 ositos",
       "correct_option_label": "d",
-      "solution_text": "1. Isabel conserva los regalos de sus 30 cumpleaños: hay que sumar 1, 2, ..., 30.\n2. Emparejamos primero con último: \\(1+30=2+29=cdots=15+16=31\\). Son 15 parejas.\n3. El total es \\(15\\cdot31=\\mathbf{465}\\) ositos, opción **d**. Como comprobación, \\(30\\cdot31/2=465\\).",
+      "solution_text": "1. Isabel conserva los regalos de sus 30 cumpleaños: hay que sumar 1, 2, ..., 30.\n2. Emparejamos primero con último: \\(1+30=2+29=\\cdots=15+16=31\\). Son 15 parejas.\n3. El total es \\(15\\cdot31=\\mathbf{465}\\) ositos, opción **d**. Como comprobación, \\(30\\cdot31/2=465\\).",
       "has_diagram": false,
       "problem_images": [],
       "option_analysis": [
@@ -298,7 +298,7 @@
         "mixed": false,
         "difficulty": "L2",
         "tags": [
-          "constraints",
+          "constraint_satisfaction",
           "invariants"
         ],
         "classification_confidence": 0.95,
@@ -490,8 +490,8 @@
         "mixed": false,
         "difficulty": "L2",
         "tags": [
-          "constraints",
-          "grids"
+          "constraint_satisfaction",
+          "grid"
         ],
         "classification_confidence": 0.95,
         "difficulty_confidence": 0.85,
@@ -588,7 +588,7 @@
         "mixed": false,
         "difficulty": "L2",
         "tags": [
-          "grids",
+          "grid",
           "addition"
         ],
         "classification_confidence": 0.95,

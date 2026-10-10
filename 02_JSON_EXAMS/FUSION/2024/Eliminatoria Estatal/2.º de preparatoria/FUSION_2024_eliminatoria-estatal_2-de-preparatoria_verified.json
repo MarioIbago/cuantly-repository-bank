@@ -518,7 +518,7 @@
       "options": [],
       "correct_answer": "20",
       "correct_option_label": null,
-      "solution_text": "1. Los ocho animales distintos representan ocho enteros positivos distintos. La suma total es \\(15+11+3+7=36\\), igual al mínimo \\(1+2+cdots+8=36\\). Por tanto usan exactamente los números del 1 al 8.\n2. La columna que suma 15 obliga a usar 7 y 8; con los restantes, la de 11 usa 5 y 6. La de 3 usa 1 y 2, y la de 7 usa 3 y 4.\n3. Para maximizar la fila superior ponemos arriba el mayor de cada pareja: \\(8+6+2+4=\\mathbf{20}\\). Abajo quedan 7, 5, 1 y 3, que producen las cuatro sumas indicadas.\n4. Hay dos orientaciones de cada pareja, \\(2^4=16\\) asignaciones. Ninguna puede superar la suma de los cuatro máximos. La clave de segundo de preparatoria imprime 23, pero ese valor no cumple estas restricciones.",
+      "solution_text": "1. Los ocho animales distintos representan ocho enteros positivos distintos. La suma total es \\(15+11+3+7=36\\), igual al mínimo \\(1+2+\\cdots+8=36\\). Por tanto usan exactamente los números del 1 al 8.\n2. La columna que suma 15 obliga a usar 7 y 8; con los restantes, la de 11 usa 5 y 6. La de 3 usa 1 y 2, y la de 7 usa 3 y 4.\n3. Para maximizar la fila superior ponemos arriba el mayor de cada pareja: \\(8+6+2+4=\\mathbf{20}\\). Abajo quedan 7, 5, 1 y 3, que producen las cuatro sumas indicadas.\n4. Hay dos orientaciones de cada pareja, \\(2^4=16\\) asignaciones. Ninguna puede superar la suma de los cuatro máximos. La clave de segundo de preparatoria imprime 23, pero ese valor no cumple estas restricciones.",
       "has_diagram": true,
       "problem_images": [
         {

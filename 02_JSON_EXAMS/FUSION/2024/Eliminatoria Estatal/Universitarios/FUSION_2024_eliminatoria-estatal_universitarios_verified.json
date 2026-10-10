@@ -369,7 +369,7 @@
       ],
       "correct_answer": "La posición e",
       "correct_option_label": "e",
-      "solution_text": "1. Una vuelta completa recorre la circunferencia \\(2\\pi r=2\\pi\\), pues r=1.\n2. La distancia \\(11\\pi\\) equivale a \\(11pi/(2pi)=5.5\\) vueltas. Tras cinco vueltas completas queda media vuelta, es decir, una rotación de 180°.\n3. En el dibujo inicial el blanco está arriba, el gris abajo a la izquierda y el negro abajo a la derecha. Tras media vuelta quedan blanco abajo, gris arriba a la derecha y negro arriba a la izquierda: **e**.\n4. Las otras cuatro figuras tienen otra distribución de colores. La dirección de giro no altera este resultado de media vuelta.",
+      "solution_text": "1. Una vuelta completa recorre la circunferencia \\(2\\pi r=2\\pi\\), pues r=1.\n2. La distancia \\(11\\pi\\) equivale a \\(11\\pi/(2\\pi)=5.5\\) vueltas. Tras cinco vueltas completas queda media vuelta, es decir, una rotación de 180°.\n3. En el dibujo inicial el blanco está arriba, el gris abajo a la izquierda y el negro abajo a la derecha. Tras media vuelta quedan blanco abajo, gris arriba a la derecha y negro arriba a la izquierda: **e**.\n4. Las otras cuatro figuras tienen otra distribución de colores. La dirección de giro no altera este resultado de media vuelta.",
       "has_diagram": true,
       "problem_images": [
         {

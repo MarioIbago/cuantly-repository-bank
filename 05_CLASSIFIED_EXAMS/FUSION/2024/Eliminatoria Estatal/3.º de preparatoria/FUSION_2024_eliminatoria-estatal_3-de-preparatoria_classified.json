@@ -174,7 +174,7 @@
         "difficulty": "L2",
         "tags": [
           "subsequences",
-          "constraints"
+          "constraint_satisfaction"
         ],
         "classification_confidence": 0.95,
         "difficulty_confidence": 0.85,
@@ -546,7 +546,7 @@
         "difficulty": "L1",
         "tags": [
           "logic",
-          "truth_and_lies"
+          "truth_assignments"
         ],
         "classification_confidence": 0.95,
         "difficulty_confidence": 0.85,
@@ -787,7 +787,7 @@
         "mixed": false,
         "difficulty": "L1",
         "tags": [
-          "scale_factor",
+          "scaling",
           "perimeter"
         ],
         "classification_confidence": 0.95,

@@ -121,7 +121,7 @@
         "mixed": false,
         "difficulty": "L2",
         "tags": [
-          "constraints",
+          "constraint_satisfaction",
           "invariants"
         ],
         "classification_confidence": 0.95,
@@ -313,8 +313,8 @@
         "mixed": false,
         "difficulty": "L2",
         "tags": [
-          "constraints",
-          "grids"
+          "constraint_satisfaction",
+          "grid"
         ],
         "classification_confidence": 0.95,
         "difficulty_confidence": 0.85,
@@ -726,7 +726,7 @@
       "options": [],
       "correct_answer": "\\(50\\pi\\) unidades cuadradas",
       "correct_option_label": null,
-      "solution_text": "1. El segmento rotulado 5 es el radio del semicírculo pequeño. Su diámetro 10 equivale al radio del círculo exterior.\n2. La región negra puede verse como media circunferencia grande más un semicírculo pequeño y menos otro del mismo tamaño. Esas dos áreas pequeñas se cancelan.\n3. El área negra es \\(pi\\cdot10^2/2=\\mathbf{50pi}\\). Una rotación de 180° intercambia regiones negra y blanca y confirma que ambas ocupan la mitad.\n4. El dibujo no imprime una unidad de longitud; el resultado se expresa en unidades cuadradas sin inventar cm² o m².",
+      "solution_text": "1. El segmento rotulado 5 es el radio del semicírculo pequeño. Su diámetro 10 equivale al radio del círculo exterior.\n2. La región negra puede verse como media circunferencia grande más un semicírculo pequeño y menos otro del mismo tamaño. Esas dos áreas pequeñas se cancelan.\n3. El área negra es \\(\\pi\\cdot10^2/2=\\mathbf{50\\pi}\\). Una rotación de 180° intercambia regiones negra y blanca y confirma que ambas ocupan la mitad.\n4. El dibujo no imprime una unidad de longitud; el resultado se expresa en unidades cuadradas sin inventar cm² o m².",
       "has_diagram": true,
       "problem_images": [
         {

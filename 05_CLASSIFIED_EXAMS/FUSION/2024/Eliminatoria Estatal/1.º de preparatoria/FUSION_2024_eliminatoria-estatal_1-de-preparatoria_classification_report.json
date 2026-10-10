@@ -1,7 +1,7 @@
 {
   "source_pdf": "01_RAW_PDFs/FUSION/2024/Selectivo Estatal/Multinivel/FUSION_2024_selectivo-estatal_multinivel_evaluacion-selectivos-estatales-fusion-2024_original.pdf",
   "source_sha256": "fec19769e5b5743aa2eafc767fbfbceaea6280914f8e0c1be2c53ecbff219635",
-  "bank_sha256": "d1702ff2f280b25ad68f4a3b3b99b000f2a3dbe732e5a97ba1da54cf15408b83",
+  "bank_sha256": "5757164e7807669aef1bb895f6739233c91b2a9b0a6acf03f735404b4962c81d",
   "rubric": "Editorial L1/L2/L3 relative to source school grade; primary area follows decisive reasoning, not picture context.",
   "problems": [
     {
@@ -11,9 +11,9 @@
       "mixed": false,
       "difficulty": "L1",
       "tags": [
-        "lcm",
+        "least_common_multiple",
         "perimeter",
-        "periodic_motion"
+        "periodicity"
       ],
       "classification_confidence": 0.95,
       "difficulty_confidence": 0.85,
@@ -46,7 +46,7 @@
       "mixed": false,
       "difficulty": "L1",
       "tags": [
-        "integer_bounds",
+        "bounds",
         "integer_solutions"
       ],
       "classification_confidence": 0.95,
@@ -82,7 +82,7 @@
       "difficulty": "L2",
       "tags": [
         "subsequences",
-        "constraints"
+        "constraint_satisfaction"
       ],
       "classification_confidence": 0.95,
       "difficulty_confidence": 0.85,

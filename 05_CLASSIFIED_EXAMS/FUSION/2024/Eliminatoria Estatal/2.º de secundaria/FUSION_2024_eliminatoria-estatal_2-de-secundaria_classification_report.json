@@ -1,7 +1,7 @@
 {
   "source_pdf": "01_RAW_PDFs/FUSION/2024/Selectivo Estatal/Multinivel/FUSION_2024_selectivo-estatal_multinivel_evaluacion-selectivos-estatales-fusion-2024_original.pdf",
   "source_sha256": "fec19769e5b5743aa2eafc767fbfbceaea6280914f8e0c1be2c53ecbff219635",
-  "bank_sha256": "18a053e9d95209c25564294d7d2af3dacb0faa3e460138e51f04bfc4586d0287",
+  "bank_sha256": "948e969c39257584eb3d51de61b9a9260033926b12626f62714e56e9190b8f48",
   "rubric": "Editorial L1/L2/L3 relative to source school grade; primary area follows decisive reasoning, not picture context.",
   "problems": [
     {
@@ -47,7 +47,7 @@
       "difficulty": "L2",
       "tags": [
         "sets",
-        "constraints"
+        "constraint_satisfaction"
       ],
       "classification_confidence": 0.95,
       "difficulty_confidence": 0.85,
@@ -63,7 +63,7 @@
       "mixed": false,
       "difficulty": "L1",
       "tags": [
-        "unit_price",
+        "unit_rate",
         "division"
       ],
       "classification_confidence": 0.95,
@@ -80,9 +80,9 @@
       "mixed": false,
       "difficulty": "L2",
       "tags": [
-        "lcm",
+        "least_common_multiple",
         "perimeter",
-        "periodic_motion"
+        "periodicity"
       ],
       "classification_confidence": 0.95,
       "difficulty_confidence": 0.85,
@@ -134,7 +134,7 @@
       "difficulty": "L3",
       "tags": [
         "triangle_counting",
-        "geometry_counting"
+        "counting"
       ],
       "classification_confidence": 0.95,
       "difficulty_confidence": 0.85,
@@ -152,7 +152,7 @@
       "tags": [
         "volume",
         "spatial_reasoning",
-        "decomposition"
+        "dissection"
       ],
       "classification_confidence": 0.95,
       "difficulty_confidence": 0.85,

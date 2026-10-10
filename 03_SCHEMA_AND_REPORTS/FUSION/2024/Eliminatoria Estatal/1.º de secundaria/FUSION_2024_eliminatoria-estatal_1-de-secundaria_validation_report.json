@@ -496,8 +496,8 @@
       ]
     }
   ],
-  "bank_sha256": "259771a5dd18e07f2e5e91475296db34c9b04c985f134d73ef0f429ffb3ae768",
-  "classified_bank_sha256": "02d58f691ab6c40fd785e707e7ea5ee3a155903f97d17a6610c8f05537156294",
+  "bank_sha256": "a84485aceeba7984dba9a066f143344ec9d71a7b5a112c841fc036964a6e86b7",
+  "classified_bank_sha256": "c9dc4f8c1cf256d28bfbf75cf376a4d638d1adcc8339edd296249d13dba969e5",
   "counts": {
     "verified_problems": 9,
     "needs_review_or_invalid": 1,
@@ -518,8 +518,8 @@
       "mathematical_verification": "not_performed_by_this_script",
       "visual_source_comparison": "not_performed_by_this_script",
       "latex_rendering": "not_performed_by_this_script",
-      "bank_sha256": "259771a5dd18e07f2e5e91475296db34c9b04c985f134d73ef0f429ffb3ae768",
-      "bytes": 121902,
+      "bank_sha256": "a84485aceeba7984dba9a066f143344ec9d71a7b5a112c841fc036964a6e86b7",
+      "bytes": 121906,
       "problems": 10,
       "verified": 9,
       "guided": 1,
@@ -577,8 +577,8 @@
       "mathematical_verification": "not_performed_by_this_script",
       "visual_source_comparison": "not_performed_by_this_script",
       "latex_rendering": "not_performed_by_this_script",
-      "bank_sha256": "02d58f691ab6c40fd785e707e7ea5ee3a155903f97d17a6610c8f05537156294",
-      "bytes": 127441,
+      "bank_sha256": "c9dc4f8c1cf256d28bfbf75cf376a4d638d1adcc8339edd296249d13dba969e5",
+      "bytes": 127459,
       "problems": 10,
       "verified": 9,
       "guided": 1,
@@ -630,5 +630,6 @@
       "errors": [],
       "warnings": []
     }
-  }
+  },
+  "final_formula_audit": "Commands for ellipsis, degrees and pi restored and rendered; mathematical answers unchanged."
 }
