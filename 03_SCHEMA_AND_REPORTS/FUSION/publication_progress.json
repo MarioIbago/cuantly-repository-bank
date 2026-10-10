@@ -1,0 +1,18 @@
+{
+  "status": "in_progress",
+  "source_count": 32,
+  "source_pages": 226,
+  "recovered_occurrences": 881,
+  "legacy_statement_groups": 441,
+  "published_banks": 3,
+  "published_occurrences": 12,
+  "verified_answer_occurrences": 10,
+  "guided_occurrences": 2,
+  "pending_occurrences": 869,
+  "working_draft": "04_REFERENCE_SOURCES/FUSION/recovery/working_draft.json",
+  "reviewed_banks": [
+    "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 1/Primaria/FUSION_2020_torneo-1_primaria_classified.json",
+    "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 1/Secundaria/FUSION_2020_torneo-1_secundaria_classified.json",
+    "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 1/Élite/FUSION_2020_torneo-1_elite-preparatoria-universitarios_classified.json"
+  ]
+}

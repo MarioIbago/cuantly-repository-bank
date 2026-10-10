@@ -1,0 +1,121 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2020/Torneo 1/Multinivel/FUSION_2020_torneo-1_multinivel_examen-1_original.pdf",
+  "source_sha256": "3b336421705a37b7fc31bd2269e31749bc7ee5b95bbcd3b835c6a32b060d97c6",
+  "pages": [
+    1
+  ],
+  "transcription_review": "Compared to original PDF pages; original problem order and stable recovered IDs retained.",
+  "figure_review": "No diagrams in these questions. No full-page or question-snippet images included.",
+  "solution_review": "Independent reasoning plus exact finite enumerations where recorded below; no claim of a second human reviewer.",
+  "latex_rendering": {
+    "engine": "KaTeX 0.16.47",
+    "expressions": 25,
+    "errors": []
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-1_primaria_q01",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "digits": 12,
+        "sum": 80,
+        "nines": 8,
+        "negativeIsSmallerThanPositive": true
+      },
+      "notes": "Respuesta abierta: comparar el procedimiento y la solución; sin calificación automática."
+    },
+    {
+      "source_id": "fusion1_examen-1_primaria_q02",
+      "status": "verified_open_answer",
+      "independent_check": "Distance/time ratio and inverse time comparison.",
+      "notes": "Respuesta abierta: comparar el procedimiento y la solución; sin calificación automática."
+    },
+    {
+      "source_id": "fusion1_examen-1_primaria_q03",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "solutions": [
+          [
+            1,
+            6,
+            59
+          ],
+          [
+            3,
+            3,
+            60
+          ],
+          [
+            5,
+            0,
+            61
+          ]
+        ],
+        "remainingCounts": [
+          66
+        ]
+      },
+      "notes": "Respuesta abierta: comparar el procedimiento y la solución; sin calificación automática."
+    },
+    {
+      "source_id": "fusion1_examen-1_primaria_q04",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "recurrenceResult": 512
+      },
+      "notes": "Respuesta abierta: comparar el procedimiento y la solución; sin calificación automática."
+    }
+  ],
+  "structural_validation": [
+    {
+      "path": "02_JSON_EXAMS/FUSION/2020/Torneo 1/Primaria/FUSION_2020_torneo-1_primaria_verified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "bb89a1fe4ad3fdd1da0ae953b679af35d5cd1d900b2a527dbb86290ed43d4000",
+        "bytes": 9530,
+        "problems": 4,
+        "verified": 4,
+        "guided": 0,
+        "images": 0,
+        "figures": [],
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 1/Primaria/FUSION_2020_torneo-1_primaria_classified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "b28ab6174d04ce8e72aadba5b220cdf7abcf0e0156858a04877efe9ca3dd5bc1",
+        "bytes": 11427,
+        "problems": 4,
+        "verified": 4,
+        "guided": 0,
+        "images": 0,
+        "figures": [],
+        "errors": [],
+        "warnings": []
+      }
+    }
+  ],
+  "final_bank_hashes": [
+    {
+      "path": "02_JSON_EXAMS/FUSION/2020/Torneo 1/Primaria/FUSION_2020_torneo-1_primaria_verified.json",
+      "sha256": "bb89a1fe4ad3fdd1da0ae953b679af35d5cd1d900b2a527dbb86290ed43d4000",
+      "bytes": 9530
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 1/Primaria/FUSION_2020_torneo-1_primaria_classified.json",
+      "sha256": "b28ab6174d04ce8e72aadba5b220cdf7abcf0e0156858a04877efe9ca3dd5bc1",
+      "bytes": 11427
+    }
+  ]
+}

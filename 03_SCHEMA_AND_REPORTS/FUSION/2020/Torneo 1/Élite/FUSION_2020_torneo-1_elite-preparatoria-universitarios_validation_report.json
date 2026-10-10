@@ -1,0 +1,169 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2020/Torneo 1/Multinivel/FUSION_2020_torneo-1_multinivel_examen-1_original.pdf",
+  "source_sha256": "3b336421705a37b7fc31bd2269e31749bc7ee5b95bbcd3b835c6a32b060d97c6",
+  "pages": [
+    3
+  ],
+  "transcription_review": "Compared to original PDF pages; original problem order and stable recovered IDs retained.",
+  "figure_review": "No diagrams in these questions. No full-page or question-snippet images included.",
+  "solution_review": "Independent reasoning plus exact finite enumerations where recorded below; no claim of a second human reviewer.",
+  "latex_rendering": {
+    "engine": "KaTeX 0.16.47",
+    "expressions": 40,
+    "errors": []
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-1_elite-preparatoria-universitarios_q01",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "product": 65535,
+        "expression": 65535,
+        "sum": 282
+      },
+      "notes": "Respuesta abierta: comparar el procedimiento y la solución; sin calificación automática."
+    },
+    {
+      "source_id": "fusion1_examen-1_elite-preparatoria-universitarios_q02",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "cases": [
+          {
+            "a": 7,
+            "b": 6,
+            "additionalDigits": 42
+          }
+        ]
+      },
+      "notes": "Respuesta abierta: comparar el procedimiento y la solución; sin calificación automática."
+    },
+    {
+      "source_id": "fusion1_examen-1_elite-preparatoria-universitarios_q03",
+      "status": "ambiguous_source",
+      "independent_check": "Source defect analysis with explicit coordinate counterexamples.",
+      "notes": "El original llama ABDC al cuadrado y AD a uno de sus lados. Tampoco indica en qué semiplanos se construyen los triángulos equiláteros. No acompaña una figura que resuelva esas dudas."
+    },
+    {
+      "source_id": "fusion1_examen-1_elite-preparatoria-universitarios_q04",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "enumerationCount": 12,
+        "triples": [
+          [
+            3,
+            36,
+            38
+          ],
+          [
+            3,
+            38,
+            36
+          ],
+          [
+            4,
+            19,
+            54
+          ],
+          [
+            4,
+            54,
+            19
+          ],
+          [
+            19,
+            4,
+            54
+          ],
+          [
+            19,
+            54,
+            4
+          ],
+          [
+            36,
+            3,
+            38
+          ],
+          [
+            36,
+            38,
+            3
+          ],
+          [
+            38,
+            3,
+            36
+          ],
+          [
+            38,
+            36,
+            3
+          ],
+          [
+            54,
+            4,
+            19
+          ],
+          [
+            54,
+            19,
+            4
+          ]
+        ]
+      },
+      "notes": "Respuesta abierta: comparar el procedimiento y la solución; sin calificación automática."
+    }
+  ],
+  "structural_validation": [
+    {
+      "path": "02_JSON_EXAMS/FUSION/2020/Torneo 1/Élite/FUSION_2020_torneo-1_elite-preparatoria-universitarios_verified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "dfc31341b43e80973b8db1d275b8a865a9497ef9273e06eb54fc54d829685e05",
+        "bytes": 9558,
+        "problems": 4,
+        "verified": 3,
+        "guided": 1,
+        "images": 0,
+        "figures": [],
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 1/Élite/FUSION_2020_torneo-1_elite-preparatoria-universitarios_classified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "ae3bbcca9f613282e6a7bc3b14a9df85e2b99e83baf68123fe7d50686a9f1130",
+        "bytes": 11567,
+        "problems": 4,
+        "verified": 3,
+        "guided": 1,
+        "images": 0,
+        "figures": [],
+        "errors": [],
+        "warnings": []
+      }
+    }
+  ],
+  "final_bank_hashes": [
+    {
+      "path": "02_JSON_EXAMS/FUSION/2020/Torneo 1/Élite/FUSION_2020_torneo-1_elite-preparatoria-universitarios_verified.json",
+      "sha256": "dfc31341b43e80973b8db1d275b8a865a9497ef9273e06eb54fc54d829685e05",
+      "bytes": 9558
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 1/Élite/FUSION_2020_torneo-1_elite-preparatoria-universitarios_classified.json",
+      "sha256": "ae3bbcca9f613282e6a7bc3b14a9df85e2b99e83baf68123fe7d50686a9f1130",
+      "bytes": 11567
+    }
+  ]
+}

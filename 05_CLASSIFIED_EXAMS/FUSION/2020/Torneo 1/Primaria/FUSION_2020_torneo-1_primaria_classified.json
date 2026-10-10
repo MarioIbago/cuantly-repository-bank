@@ -1,0 +1,196 @@
+{
+  "schema_version": "1.0",
+  "source_format_reference": "Cuantly public practice; open_answer extension (manual comparison, no invented options)",
+  "exam": {
+    "competition": "FUSION",
+    "edition": 1,
+    "year": 2020,
+    "phase": "Torneo 1",
+    "level": "Primaria",
+    "school_level": "Primaria (sin grado indicado)",
+    "problem_count": 4,
+    "source_file": "FUSION_2020_torneo-1_multinivel_examen-1_original.pdf",
+    "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Torneo 1/Multinivel/FUSION_2020_torneo-1_multinivel_examen-1_original.pdf",
+    "source_sha256": "3b336421705a37b7fc31bd2269e31749bc7ee5b95bbcd3b835c6a32b060d97c6",
+    "image_policy": "No problem diagrams in these source pages; source pages and logos are not used as figures.",
+    "classification_phase": "completed",
+    "difficulty_phase": "completed"
+  },
+  "validation_summary": {
+    "verified_problems": 4,
+    "needs_review_or_invalid": 0,
+    "needs_review_problem_numbers": [],
+    "notes": "Problemas abiertos conservados fielmente; las respuestas no se califican de forma automática. Se corrigen los resultados 23 y 45 del solucionario de referencia a 93 y 42. El problema geométrico ambiguo conserva su enunciado y advertencia."
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-1_primaria_q01",
+      "collection": "FUSION",
+      "subcategory": "2020 / Torneo 1 / Primaria",
+      "problem_number": 1,
+      "source_page": 1,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Encuentra el entero de 12 dígitos más pequeño (escríbelo), tal que la suma de sus dígitos sea 80. ¿cuántos 9 tiene?",
+      "options": [],
+      "correct_answer": "-999999998000; contiene ocho cifras 9",
+      "correct_option_label": null,
+      "solution_text": "1. **Qué se busca.** El menor entero de 12 cifras cuya suma de cifras sea 80, y cuántas cifras 9 contiene. El signo no cuenta como cifra.\n2. **Idea.** Los enteros incluyen los negativos. Para obtener el menor debemos maximizar su valor absoluto.\n3. **Construcción.** Colocamos 9 en las posiciones de mayor valor mientras alcance la suma: ocho nueves consumen \\(8\\cdot9=72\\). Quedan \\(80-72=8\\), que colocamos a continuación; completamos las doce cifras con tres ceros. Obtenemos \\(-999999998000\\).\n4. **Por qué es mínimo.** Cualquier cambio que reduzca la primera cifra distinta reduce el valor absoluto y produce un entero negativo mayor. Nueve cifras 9 ya sumarían 81, así que no son posibles.\n5. **Respuesta y comprobación.** El entero es **-999999998000**, con **ocho nueves**. Tiene 12 cifras y su suma es \\(72+8=80\\).\n6. **Lectura del enunciado.** Si se pidiera explícitamente un entero positivo, el mínimo sería 100799999999. El original dice «entero»; por eso conservamos la respuesta negativa.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta: comparar el procedimiento y la solución; sin calificación automática."
+      },
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "integers",
+          "place_value",
+          "extrema"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Maximizar las cifras con una suma fija y distinguir enteros negativos y positivos."
+        ]
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Torneo 1/Multinivel/FUSION_2020_torneo-1_multinivel_examen-1_original.pdf",
+      "source_pdf_sha256": "3b336421705a37b7fc31bd2269e31749bc7ee5b95bbcd3b835c6a32b060d97c6"
+    },
+    {
+      "source_id": "fusion1_examen-1_primaria_q02",
+      "collection": "FUSION",
+      "subcategory": "2020 / Torneo 1 / Primaria",
+      "problem_number": 2,
+      "source_page": 1,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Charlitos ha recorrido dos tercios de su trayecto, en bicicleta, cuando de repente, se le poncha una llanta. Decide terminar su recorrido a pie, pero ese tramo del viaje le toma el doble de tiempo del que hizo en bicicleta. ¿cuántas veces anda en bicicleta que a pie?",
+      "options": [],
+      "correct_answer": "4 veces",
+      "correct_option_label": null,
+      "solution_text": "1. **Datos.** Sea \\(D\\) la distancia total y \\(t\\) el tiempo en bicicleta. Recorre \\(2D/3\\) en bicicleta y \\(D/3\\) a pie; caminar le toma \\(2t\\).\n2. **Velocidades.** Usamos distancia entre tiempo: \\(v_b=2D/(3t)\\) y \\(v_p=D/(6t)\\).\n3. **Comparación.** \\(\\frac{v_b}{v_p}=\\frac{2D}{3t}\\cdot\\frac{6t}{D}=4\\).\n4. **Respuesta.** En bicicleta va **4 veces** más rápido que a pie.\n5. **Comprobación.** A una velocidad cuatro veces menor, recorrer la mitad de la distancia requiere el doble de tiempo, como indica el problema.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta: comparar el procedimiento y la solución; sin calificación automática."
+      },
+      "classification": {
+        "primary_area": "arithmetic",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "ratios",
+          "rates",
+          "fractions"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Comparar velocidades exige dividir dos razones de distancia y tiempo."
+        ]
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Torneo 1/Multinivel/FUSION_2020_torneo-1_multinivel_examen-1_original.pdf",
+      "source_pdf_sha256": "3b336421705a37b7fc31bd2269e31749bc7ee5b95bbcd3b835c6a32b060d97c6"
+    },
+    {
+      "source_id": "fusion1_examen-1_primaria_q03",
+      "collection": "FUSION",
+      "subcategory": "2020 / Torneo 1 / Primaria",
+      "problem_number": 3,
+      "source_page": 1,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Jaden tiene una caja de azúcar con 70 bloques de dimensión 7x13x25 mm. Después de haber endulzado su café, forma una línea recta colocando los bloques de azúcar restantes en cualquier posición y obtiene la longitud de 1.56m ¿cuánta azúcar, (en bloques) le puso a su café?",
+      "options": [],
+      "correct_answer": "4 bloques",
+      "correct_option_label": null,
+      "solution_text": "1. **Datos y unidades.** Los lados de cada bloque miden 7, 13 y 25 mm. La fila mide \\(1.56\\,\\mathrm m=1560\\,\\mathrm{mm}\\). Sea \\(n\\) el número de bloques que quedan.\n2. **Acotación.** Cada bloque aporta como máximo 25 mm. Por eso \\(n\\ge\\lceil1560/25\\rceil=63\\). Tampoco pueden quedar más de los 70 iniciales: \\(63\\le n\\le70\\).\n3. **Idea decisiva.** Si todos aportaran 25 mm, la fila mediría \\(25n\\). Girar un bloque para que aporte 13 o 7 mm reduce 12 o 18 mm, respectivamente. La reducción total es múltiplo de 6. Como 1560 es múltiplo de 6, también lo es \\(25n\\), y por tanto \\(n\\) es múltiplo de 6.\n4. **Único número posible.** Entre 63 y 70 solo 66 es múltiplo de 6.\n5. **Existencia y respuesta.** Es posible alinear 61 bloques por el lado de 25 mm y 5 por el de 7 mm: \\(61\\cdot25+5\\cdot7=1560\\). Quedan 66; usó **\\(70-66=4\\) bloques**.\n6. **Comprobación.** La construcción usa 66 bloques y reproduce exactamente los 1560 mm, de modo que la acotación y la congruencia no dieron una posibilidad imposible.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta: comparar el procedimiento y la solución; sin calificación automática."
+      },
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [
+          "algebra"
+        ],
+        "mixed": true,
+        "difficulty": "L3",
+        "tags": [
+          "integer_solutions",
+          "remainders",
+          "unit_conversion"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "La restricción entera módulo 6 determina el número de bloques sin fijar sus orientaciones."
+        ]
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Torneo 1/Multinivel/FUSION_2020_torneo-1_multinivel_examen-1_original.pdf",
+      "source_pdf_sha256": "3b336421705a37b7fc31bd2269e31749bc7ee5b95bbcd3b835c6a32b060d97c6"
+    },
+    {
+      "source_id": "fusion1_examen-1_primaria_q04",
+      "collection": "FUSION",
+      "subcategory": "2020 / Torneo 1 / Primaria",
+      "problem_number": 4,
+      "source_page": 1,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "El número 3 se puede expresar como la suma de enteros en las formas siguientes: 3,   1+2,    2+1,      1+1+1 ¿de cuantas maneras se puede expresar el 10 como la suma de uno o varios enteros positivos?",
+      "options": [],
+      "correct_answer": "512",
+      "correct_option_label": null,
+      "solution_text": "1. **Interpretación.** Los ejemplos cuentan \\(1+2\\) y \\(2+1\\) por separado; el orden de los sumandos importa.\n2. **Representación.** Escribimos diez unos consecutivos. Hay nueve espacios entre ellos. Cada suma se forma decidiendo en cada espacio si se corta o si se unen los unos vecinos en un mismo sumando.\n3. **Conteo.** Cada espacio tiene dos posibilidades independientes. Hay \\(2^9=512\\) elecciones.\n4. **Sin duplicar ni omitir.** Los tamaños de los bloques recuperan exactamente los sumandos, y cualquier suma ordenada de enteros positivos determina esos cortes. No cortar en ningún lugar corresponde al sumando único 10.\n5. **Comprobación.** Para tres unos, los dos espacios dan \\(2^2=4\\) sumas, exactamente las del ejemplo.\n6. **Respuesta.** Hay **512 maneras**.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta: comparar el procedimiento y la solución; sin calificación automática."
+      },
+      "classification": {
+        "primary_area": "combinatorics",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "counting",
+          "patterns"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Biyectar sumas ordenadas con las elecciones de cortes entre diez unos."
+        ]
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Torneo 1/Multinivel/FUSION_2020_torneo-1_multinivel_examen-1_original.pdf",
+      "source_pdf_sha256": "3b336421705a37b7fc31bd2269e31749bc7ee5b95bbcd3b835c6a32b060d97c6"
+    }
+  ]
+}

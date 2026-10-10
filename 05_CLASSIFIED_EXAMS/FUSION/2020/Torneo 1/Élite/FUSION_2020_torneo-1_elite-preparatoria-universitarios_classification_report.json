@@ -1,0 +1,95 @@
+{
+  "exam": {
+    "competition": "FUSION",
+    "edition": 1,
+    "year": 2020,
+    "phase": "Torneo 1",
+    "level": "Élite",
+    "school_level": "Preparatoria y universitarios",
+    "problem_count": 4,
+    "source_file": "FUSION_2020_torneo-1_multinivel_examen-1_original.pdf",
+    "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Torneo 1/Multinivel/FUSION_2020_torneo-1_multinivel_examen-1_original.pdf",
+    "source_sha256": "3b336421705a37b7fc31bd2269e31749bc7ee5b95bbcd3b835c6a32b060d97c6",
+    "image_policy": "No problem diagrams in these source pages; source pages and logos are not used as figures.",
+    "classification_phase": "completed",
+    "difficulty_phase": "completed"
+  },
+  "policy": "Editorial L1/L2/L3 relative to source school level; not an official competition ranking.",
+  "distribution": {
+    "number_theory": 2,
+    "algebra": 1,
+    "geometry": 1
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-1_elite-preparatoria-universitarios_q01",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "divisibility",
+        "multiplication",
+        "equivalent_expressions"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Usar sucesivas diferencias de cuadrados y comprobar la primalidad de los factores."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-1_elite-preparatoria-universitarios_q02",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "linear_equations",
+        "place_value",
+        "counting"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Traducir la notación de cifras y el conteo inclusivo a una ecuación lineal."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-1_elite-preparatoria-universitarios_q03",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "area",
+        "equilateral_triangles",
+        "quadrilaterals"
+      ],
+      "classification_confidence": 0.7,
+      "difficulty_confidence": 0.6,
+      "classification_notes": [
+        "La tarea pretende comparar áreas, pero la posición de los triángulos y el orden de vértices no quedan fijados."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-1_elite-preparatoria-universitarios_q04",
+      "primary_area": "number_theory",
+      "secondary_areas": [
+        "combinatorics"
+      ],
+      "mixed": true,
+      "difficulty": "L2",
+      "tags": [
+        "divisibility",
+        "integer_solutions",
+        "counting"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Factorizar el producto, agotar los posibles múltiplos de 19 y contar las permutaciones."
+      ]
+    }
+  ]
+}

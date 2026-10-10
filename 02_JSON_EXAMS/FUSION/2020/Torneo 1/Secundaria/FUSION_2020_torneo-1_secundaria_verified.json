@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0",
+  "source_format_reference": "Cuantly public practice; open_answer extension (manual comparison, no invented options)",
+  "exam": {
+    "competition": "FUSION",
+    "edition": 1,
+    "year": 2020,
+    "phase": "Torneo 1",
+    "level": "Secundaria",
+    "school_level": "Secundaria (sin grado indicado)",
+    "problem_count": 4,
+    "source_file": "FUSION_2020_torneo-1_multinivel_examen-1_original.pdf",
+    "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Torneo 1/Multinivel/FUSION_2020_torneo-1_multinivel_examen-1_original.pdf",
+    "source_sha256": "3b336421705a37b7fc31bd2269e31749bc7ee5b95bbcd3b835c6a32b060d97c6",
+    "image_policy": "No problem diagrams in these source pages; source pages and logos are not used as figures.",
+    "classification_phase": "not_started",
+    "difficulty_phase": "not_started"
+  },
+  "validation_summary": {
+    "verified_problems": 3,
+    "needs_review_or_invalid": 1,
+    "needs_review_problem_numbers": [
+      3
+    ],
+    "notes": "Problemas abiertos conservados fielmente; las respuestas no se califican de forma automática. Se corrigen los resultados 23 y 45 del solucionario de referencia a 93 y 42. El problema geométrico ambiguo conserva su enunciado y advertencia."
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-1_secundaria_q01",
+      "collection": "FUSION",
+      "subcategory": "2020 / Torneo 1 / Secundaria",
+      "problem_number": 1,
+      "source_page": 2,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "¿Cuántos números de siete digitos son múltiplos de 388 y terminan en 388?",
+      "options": [],
+      "correct_answer": "93",
+      "correct_option_label": null,
+      "solution_text": "1. **Representación.** Un número de siete cifras que termina en 388 es \\(N=1000k+388\\), donde \\(1000\\le k\\le9999\\).\n2. **Divisibilidad.** Como 388 divide al último sumando, necesitamos \\(388\\mid1000k\\). El máximo común divisor de 388 y 1000 es 4. Al dividir ambos por 4, la condición es \\(97\\mid250k\\). Como 97 y 250 son coprimos, equivale a \\(97\\mid k\\).\n3. **Extremos.** El primer múltiplo de 97 de cuatro cifras es \\(97\\cdot11=1067\\); el último es \\(97\\cdot103=9991\\).\n4. **Conteo y respuesta.** Hay \\(103-11+1=\\mathbf{93}\\) valores, cada uno con un número \\(N\\) distinto.\n5. **Comprobación.** Los extremos producen 1067388 y 9991388; ambos tienen siete cifras, terminan en 388 y son divisibles por 388.\n6. **Corrección del solucionario.** El resultado impreso de 23 exige indebidamente \\(388\\mid k\\). La condición correcta es \\(97\\mid k\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta: comparar el procedimiento y la solución; sin calificación automática."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Torneo 1/Multinivel/FUSION_2020_torneo-1_multinivel_examen-1_original.pdf",
+      "source_pdf_sha256": "3b336421705a37b7fc31bd2269e31749bc7ee5b95bbcd3b835c6a32b060d97c6"
+    },
+    {
+      "source_id": "fusion1_examen-1_secundaria_q02",
+      "collection": "FUSION",
+      "subcategory": "2020 / Torneo 1 / Secundaria",
+      "problem_number": 2,
+      "source_page": 2,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Para escribir todos los números naturales consecutivos desde 1ab hasta ab2 inclusive se han empleado 1ab1 dígitos. ¿Cuántos dígitos más se necesitan para escribir los números naturales hasta el aab inclusive? (a y b representan dígitos)",
+      "options": [],
+      "correct_answer": "42 dígitos más",
+      "correct_option_label": null,
+      "solution_text": "1. **Notación.** \\(\\overline{1ab}=100+10a+b\\), \\(\\overline{ab2}=100a+10b+2\\) y \\(\\overline{1ab1}=1001+100a+10b\\). Son números escritos con esas cifras, no productos.\n2. **Conteo inclusivo.** Entre los dos primeros extremos hay \\((100a+10b+2)-(100+10a+b)+1=90a+9b-97\\) números. Todos tienen tres cifras.\n3. **Ecuación.** \\(3(90a+9b-97)=1001+100a+10b\\). Al simplificar: \\(170a+17b=1292\\), por lo que \\(10a+b=76\\). Así, \\(a=7\\) y \\(b=6\\).\n4. **Qué falta escribir.** Ya se escribió hasta 762 inclusive. Para llegar a \\(\\overline{aab}=776\\), faltan 763, 764, …, 776: \\(776-763+1=14\\) números.\n5. **Respuesta y comprobación.** Se necesitan **\\(14\\cdot3=42\\) dígitos más**. El tramo inicial tiene \\(762-176+1=587\\) números y usa \\(587\\cdot3=1761=\\overline{1ab1}\\) dígitos.\n6. **Corrección del solucionario.** Contar 45 vuelve a incluir el 762, que ya estaba escrito.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta: comparar el procedimiento y la solución; sin calificación automática."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Torneo 1/Multinivel/FUSION_2020_torneo-1_multinivel_examen-1_original.pdf",
+      "source_pdf_sha256": "3b336421705a37b7fc31bd2269e31749bc7ee5b95bbcd3b835c6a32b060d97c6"
+    },
+    {
+      "source_id": "fusion1_examen-1_secundaria_q03",
+      "collection": "FUSION",
+      "subcategory": "2020 / Torneo 1 / Secundaria",
+      "problem_number": 3,
+      "source_page": 2,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Sea ABDC un cuadrado de centro O. sobre los lados DC y AD se han construido los triángulos equiláteros EDC y FAD. ¿Qué área es mayor la del triángulo FDE o la del triángulo DOC? Demuestre.",
+      "options": [],
+      "correct_answer": null,
+      "correct_option_label": null,
+      "solution_text": "**El enunciado necesita aclaración antes de tener una respuesta única.**\n1. El original escribe «cuadrado ABDC» y después trata AD como lado. Si ABDC enumera los vértices en orden, AD sería una diagonal. No cambiamos ese nombre por ABCD sin respaldo.\n2. Incluso si se aclara un cuadrado con lados AD y DC adyacentes, un segmento permite dos triángulos equiláteros, uno a cada lado. El texto no elige los semiplanos.\n3. **Por qué importa.** Tomemos como ejemplo \\(D=(0,0)\\), \\(A=(1,0)\\), \\(C=(0,1)\\) y lado 1. Entonces \\(O=(1/2,1/2)\\), \\(F=(1/2,\\pm\\sqrt3/2)\\), \\(E=(\\pm\\sqrt3/2,1/2)\\). El área de DOC es \\(1/4\\), mientras que la de FDE puede ser \\(1/4\\) o \\(1/2\\), según los signos. Por tanto, unas construcciones dan igualdad y otras un área mayor.\n4. **Práctica guiada.** Hace falta confirmar el orden de los vértices y dónde se construyen ambos equiláteros. Hasta entonces no se fija una respuesta ni se califica automáticamente.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "ambiguous_source",
+        "answer_checked": false,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "El original llama ABDC al cuadrado y AD a uno de sus lados. Tampoco indica en qué semiplanos se construyen los triángulos equiláteros. No acompaña una figura que resuelva esas dudas."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Torneo 1/Multinivel/FUSION_2020_torneo-1_multinivel_examen-1_original.pdf",
+      "source_pdf_sha256": "3b336421705a37b7fc31bd2269e31749bc7ee5b95bbcd3b835c6a32b060d97c6"
+    },
+    {
+      "source_id": "fusion1_examen-1_secundaria_q04",
+      "collection": "FUSION",
+      "subcategory": "2020 / Torneo 1 / Secundaria",
+      "problem_number": 4,
+      "source_page": 2,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "¿Cuántas tripletas (x, y, z) de números naturales satisfacen las siguientes ecuaciones? \\[xyz=4104,\\qquad x+y+z=77.\\]",
+      "options": [],
+      "correct_answer": "12 tripletas",
+      "correct_option_label": null,
+      "solution_text": "1. **Factorización y restricciones.** \\(4104=2^3\\cdot3^3\\cdot19\\). Como el producto es positivo y la suma es 77, las tres variables son positivas, aun si se incluye 0 entre los naturales.\n2. **Casos exhaustivos.** Alguna variable es múltiplo de 19. Al ser menor que 77, puede ser 19, 38, 57 o 76.\n3. Si vale 19, las otras dos suman 58 y su producto es 216: son 4 y 54. Si vale 38, suman 39 y su producto es 108: son 3 y 36.\n4. Si vale 57, las otras suman 20 y su producto es 72. La ecuación \\(t^2-20t+72=0\\) tiene discriminante \\(112\\), que no es cuadrado; no da enteros. Si vale 76, dos enteros positivos deberían sumar 1, lo cual es imposible.\n5. **Orden y respuesta.** Las ternas sin orden son \\(\\{4,19,54\\}\\) y \\(\\{3,36,38\\}\\). En cada una los tres valores son distintos, por lo que hay \\(3!=6\\) permutaciones. En total, **12 tripletas**.\n6. **Comprobación.** \\(4+19+54=77\\), \\(4\\cdot19\\cdot54=4104\\); también \\(3+36+38=77\\), \\(3\\cdot36\\cdot38=4104\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta: comparar el procedimiento y la solución; sin calificación automática."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Torneo 1/Multinivel/FUSION_2020_torneo-1_multinivel_examen-1_original.pdf",
+      "source_pdf_sha256": "3b336421705a37b7fc31bd2269e31749bc7ee5b95bbcd3b835c6a32b060d97c6"
+    }
+  ]
+}
