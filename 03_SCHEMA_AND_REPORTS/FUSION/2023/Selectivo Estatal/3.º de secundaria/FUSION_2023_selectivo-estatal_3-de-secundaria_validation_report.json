@@ -1,0 +1,777 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2023/Selectivo Estatal/3 de secundaria/FUSION_2023_selectivo-estatal_3-de-secundaria_examen-selectivo-3-de-secundaria_original.pdf",
+  "source_sha256": "302959fb1f642e2c98edb8cf5f000c368238387c7edd77fd2a62f8392ad985d8",
+  "metadata_evidence": "Los ocho encabezados dicen 3.º Campeonato de Olimpiadas Matemáticas FUSION COM, Selectivo Estatal, y su grado; los pies de página imprimen 2023. Se conserva 5.º de primaria y menores. El año proviene de esos pies, no de los números dentro de los problemas.",
+  "source_review": "Las 3 páginas fueron renderizadas y cotejadas visualmente con enunciados, opciones y fórmulas. Las variantes por grado se compararon sin quitar símbolos matemáticos.",
+  "pages": [
+    1,
+    2,
+    3
+  ],
+  "source_numbering": [
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q01",
+      "collection_ordinal": 1,
+      "source_question_label": "1"
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q02",
+      "collection_ordinal": 2,
+      "source_question_label": "2"
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q03",
+      "collection_ordinal": 3,
+      "source_question_label": "3"
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q04",
+      "collection_ordinal": 4,
+      "source_question_label": "4"
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q05",
+      "collection_ordinal": 5,
+      "source_question_label": "5"
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q06",
+      "collection_ordinal": 6,
+      "source_question_label": "6"
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q07",
+      "collection_ordinal": 7,
+      "source_question_label": "7"
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q08",
+      "collection_ordinal": 8,
+      "source_question_label": "8"
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q09",
+      "collection_ordinal": 9,
+      "source_question_label": "9"
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q10",
+      "collection_ordinal": 10,
+      "source_question_label": "10"
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q11",
+      "collection_ordinal": 11,
+      "source_question_label": "11"
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q12",
+      "collection_ordinal": 12,
+      "source_question_label": "12"
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q13",
+      "collection_ordinal": 13,
+      "source_question_label": "13"
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q14",
+      "collection_ordinal": 14,
+      "source_question_label": "14"
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q15",
+      "collection_ordinal": 15,
+      "source_question_label": "15"
+    }
+  ],
+  "figure_review": [
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q01",
+      "page": 1,
+      "pdf_image_object": "Image32.png",
+      "bbox_top_left_pdf_points": [
+        443.25,
+        172.31000000000006,
+        549.75,
+        255.96000000000004
+      ],
+      "sha256": "c0a4c2528f8375a538c89062f01596e65a56af59b5921efbb6616da35d37d081",
+      "method": "Exact embedded mathematical image bytes from this PDF. Original labels and all relevant geometry retained."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q06",
+      "page": 2,
+      "pdf_image_object": "Image59.png",
+      "bbox_top_left_pdf_points": [
+        249.75,
+        132.89999999999998,
+        398.25,
+        227.39999999999998
+      ],
+      "sha256": "34fd3c714978ade830e444a82307e5b52659bb8eda65dcdbbc05c4e3e806b916",
+      "method": "Exact embedded mathematical image bytes from this PDF. Original labels and all relevant geometry retained."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q12",
+      "page": 3,
+      "pdf_image_object": "Image72.png",
+      "bbox_top_left_pdf_points": [
+        268.12,
+        312.53,
+        379.86,
+        391.68
+      ],
+      "sha256": "13d4f204bafdfb69eda965b5e4738eb2ce5e31ab7f917f234ad252d422c7acd8",
+      "method": "Exact embedded mathematical image bytes from this PDF. Original labels and all relevant geometry retained."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q14",
+      "page": 3,
+      "pdf_image_object": "Image73.png",
+      "bbox_top_left_pdf_points": [
+        206.23,
+        519.56,
+        441.78,
+        647.03
+      ],
+      "sha256": "762eaae35909e3091b0cc3f87077501e21cab80fa1cfa9bc6e409ccc16c84963",
+      "method": "Exact embedded mathematical image bytes from this PDF. Original labels and all relevant geometry retained."
+    }
+  ],
+  "formula_image_transcriptions": [],
+  "transcription_corrections": [
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q01",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y comparada con el PDF original.",
+      "statement_normalized": true,
+      "options_recovered_from_pdf": true,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q02",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y comparada con el PDF original.",
+      "statement_normalized": false,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q03",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y comparada con el PDF original.",
+      "statement_normalized": true,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q04",
+      "kind": "manual_source_review",
+      "details": "Las opciones a y b son ambas verdaderas. A=55 y B=57 satisfacen todos los datos y el límite de edad; B=1 se excluye porque hace ocho años aún no habría nacido.",
+      "statement_normalized": true,
+      "options_recovered_from_pdf": true,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q05",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y comparada con el PDF original.",
+      "statement_normalized": true,
+      "options_recovered_from_pdf": true,
+      "diagram_flag_corrected": true
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q06",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y comparada con el PDF original.",
+      "statement_normalized": true,
+      "options_recovered_from_pdf": true,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q07",
+      "kind": "manual_source_review",
+      "details": "Otro cuadrado se interpreta como distinto de ABCD; incluir de nuevo el cuadrado exterior añadiría su tamaño. Las nueve posiciones interiores producen cinco tamaños.",
+      "statement_normalized": false,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q08",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y comparada con el PDF original.",
+      "statement_normalized": true,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q09",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y comparada con el PDF original.",
+      "statement_normalized": false,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q10",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y comparada con el PDF original.",
+      "statement_normalized": true,
+      "options_recovered_from_pdf": true,
+      "diagram_flag_corrected": true
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q11",
+      "kind": "manual_source_review",
+      "details": "Se retiró PC/PD=5/48, que pertenece a la siguiente pregunta. No se cambian los datos de la proporción.",
+      "statement_normalized": true,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q12",
+      "kind": "manual_source_review",
+      "details": "La razón 5/48 estaba dividida entre las dos preguntas en la extracción. Se recompuso desde el original y se conserva la figura completa de las dos secantes.",
+      "statement_normalized": true,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q13",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y comparada con el PDF original.",
+      "statement_normalized": false,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q14",
+      "kind": "manual_source_review",
+      "details": "Se recuperó la pregunta ¿Cuánto vale x? del interior de la figura. La solución sigue los lados de las piezas, sin estimar longitudes a partir de píxeles.",
+      "statement_normalized": true,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q15",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y comparada con el PDF original.",
+      "statement_normalized": false,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": true
+    }
+  ],
+  "latex_rendering": {
+    "engine": "KaTeX 0.16.47",
+    "expressions": 135,
+    "errors": []
+  },
+  "problems": [
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q01",
+      "status": "verified",
+      "independent_check": {
+        "blackBeforeOverlap": 40,
+        "grayBeforeOverlap": 25,
+        "overlapSymbol": "t",
+        "visibleDifference": "(40−t)−(25−t)=15",
+        "difference": 15
+      },
+      "notes": "Respuesta recalculada y comparada con el PDF original."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q02",
+      "status": "verified",
+      "independent_check": {
+        "integerCases": [
+          {
+            "fivePointHits": 9,
+            "eightPointHits": 3,
+            "tenPointHits": 3,
+            "scoringHits": 15,
+            "throws": 20
+          }
+        ]
+      },
+      "notes": "Respuesta recalculada y comparada con el PDF original."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q03",
+      "status": "verified",
+      "independent_check": {
+        "ABC": 75,
+        "BCA": 75,
+        "BAC": 30,
+        "CAD": 50,
+        "ACD": 65,
+        "ADC": 65,
+        "ABD": 50,
+        "ADB": 50,
+        "BDC": 15,
+        "equalLengths": [
+          "AB=AC",
+          "AD=AC"
+        ]
+      },
+      "notes": "Respuesta recalculada y comparada con el PDF original."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q04",
+      "status": "invalid_source_multiple_correct_options",
+      "independent_check": {
+        "ageSearch": "8≤age<100, to ensure both described past ages exist",
+        "A": [
+          55
+        ],
+        "B": [
+          57
+        ],
+        "optionTruths": {
+          "a": true,
+          "b": true,
+          "c": false,
+          "d": false,
+          "e": false
+        },
+        "sourceDefect": "Two printed options are true."
+      },
+      "notes": "Las opciones a y b son ambas verdaderas. A=55 y B=57 satisfacen todos los datos y el límite de edad; B=1 se excluye porque hace ocho años aún no habría nacido."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q05",
+      "status": "verified",
+      "independent_check": {
+        "circleArea": 1,
+        "chordDistanceOverRadius": 0.5,
+        "minorCentralAngleDegrees": 120,
+        "segmentArea": 0.1955011094778853,
+        "lowerBound": 0.16666666666666666,
+        "upperBound": 0.25,
+        "proofBounds": "3<π<4 and 4/3<√3<2 imply 1/12<√3/(4π)<1/6"
+      },
+      "notes": "Respuesta recalculada y comparada con el PDF original."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q06",
+      "status": "verified",
+      "independent_check": {
+        "sideLengths": [
+          17,
+          4,
+          3,
+          5,
+          13
+        ],
+        "perimeter": 42,
+        "equalSidePairs": 0,
+        "onlyFalseAssertion": "d"
+      },
+      "notes": "Respuesta recalculada y comparada con el PDF original."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q07",
+      "status": "verified",
+      "independent_check": {
+        "placements": [
+          {
+            "t": 1,
+            "area": 82
+          },
+          {
+            "t": 2,
+            "area": 68
+          },
+          {
+            "t": 3,
+            "area": 58
+          },
+          {
+            "t": 4,
+            "area": 52
+          },
+          {
+            "t": 5,
+            "area": 50
+          },
+          {
+            "t": 6,
+            "area": 52
+          },
+          {
+            "t": 7,
+            "area": 58
+          },
+          {
+            "t": 8,
+            "area": 68
+          },
+          {
+            "t": 9,
+            "area": 82
+          }
+        ],
+        "distinctSquaredSideLengths": [
+          82,
+          68,
+          58,
+          52,
+          50
+        ],
+        "originalSquareExcluded": true
+      },
+      "notes": "Otro cuadrado se interpreta como distinto de ABCD; incluir de nuevo el cuadrado exterior añadiría su tamaño. Las nueve posiciones interiores producen cinco tamaños."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q08",
+      "status": "verified",
+      "independent_check": {
+        "side": 5,
+        "A": [
+          0,
+          4.330127018922193
+        ],
+        "B": [
+          -2.5,
+          0
+        ],
+        "C": [
+          2.5,
+          0
+        ],
+        "P": [
+          0,
+          2.598076211353316
+        ],
+        "AP": 1.7320508075688772,
+        "PB_squared": 13,
+        "positiveRoot": 5,
+        "negativeRoot": -2
+      },
+      "notes": "Respuesta recalculada y comparada con el PDF original."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q09",
+      "status": "verified",
+      "independent_check": {
+        "feasibleCells": [
+          {
+            "count": 40,
+            "Italian": true,
+            "man": false,
+            "vegetarian": true
+          },
+          {
+            "count": 10,
+            "Italian": true,
+            "man": true,
+            "vegetarian": false
+          },
+          {
+            "count": 50,
+            "Italian": false,
+            "man": true,
+            "vegetarian": true
+          }
+        ],
+        "totals": {
+          "people": 100,
+          "Italian": 50,
+          "men": 60,
+          "vegetarian": 90,
+          "tripleIntersection": 0
+        }
+      },
+      "notes": "Respuesta recalculada y comparada con el PDF original."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q10",
+      "status": "verified",
+      "independent_check": {
+        "number": "65024",
+        "maxPowerOfTwoExponent": 9,
+        "oddQuotient": "127"
+      },
+      "notes": "Respuesta recalculada y comparada con el PDF original."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q11",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "goldRate": 3,
+        "tonnes": 4,
+        "outputGoldGrams": 12
+      },
+      "notes": "Se retiró PC/PD=5/48, que pertenece a la siguiente pregunta. No se cambian los datos de la proporción."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q12",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "PA": 5,
+        "PB": 12,
+        "power": 60,
+        "PC": 2.5,
+        "PD": 24,
+        "ratio": [
+          5,
+          48
+        ]
+      },
+      "notes": "La razón 5/48 estaba dividida entre las dos preguntas en la extracción. Se recompuso desde el original y se conserva la figura completa de las dos secantes."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q13",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "allFeasibleCases": [
+          {
+            "girls": 7,
+            "boys": 3,
+            "candiesEach": 11
+          }
+        ]
+      },
+      "notes": "Respuesta recalculada y comparada con el PDF original."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q14",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "auxiliaryCoordinateCertificate": {
+          "O": [
+            0,
+            0
+          ],
+          "A": [
+            0,
+            37
+          ],
+          "B": [
+            11,
+            37
+          ],
+          "C": [
+            11,
+            26
+          ],
+          "D": [
+            24,
+            26
+          ],
+          "E": [
+            24,
+            0
+          ],
+          "M": [
+            24,
+            13
+          ],
+          "R": [
+            48,
+            26
+          ]
+        },
+        "rigidMotions": {
+          "OAB_90DegreesAroundB": [
+            [
+              48,
+              26
+            ],
+            [
+              11,
+              26
+            ],
+            [
+              11,
+              37
+            ]
+          ],
+          "OME_180DegreesAroundM": [
+            [
+              48,
+              26
+            ],
+            [
+              24,
+              13
+            ],
+            [
+              24,
+              26
+            ]
+          ]
+        },
+        "originalArea": 745,
+        "finalTriangleArea": 745,
+        "x": 37
+      },
+      "notes": "Se recuperó la pregunta ¿Cuánto vale x? del interior de la figura. La solución sigue los lados de las piezas, sin estimar longitudes a partir de píxeles."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q15",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "squareRoot": 44.844174649557324,
+        "trialPrimeRemainders": [
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            13,
+            9
+          ],
+          [
+            17,
+            5
+          ],
+          [
+            19,
+            16
+          ],
+          [
+            23,
+            10
+          ],
+          [
+            29,
+            10
+          ],
+          [
+            31,
+            27
+          ],
+          [
+            37,
+            13
+          ],
+          [
+            41,
+            2
+          ],
+          [
+            43,
+            33
+          ]
+        ],
+        "smallestNonUnitDivisor": 2011
+      },
+      "notes": "Respuesta recalculada y comparada con el PDF original."
+    }
+  ],
+  "structural_validation": [
+    {
+      "path": "02_JSON_EXAMS/FUSION/2023/Selectivo Estatal/3.º de secundaria/FUSION_2023_selectivo-estatal_3-de-secundaria_verified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "d9164d0c58a0bbcb160bfd5699132a7a733b57d575f1bb163a49db5629251ba6",
+        "bytes": 86859,
+        "problems": 15,
+        "verified": 14,
+        "guided": 1,
+        "images": 4,
+        "figures": [
+          {
+            "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q01",
+            "figure": 1,
+            "sha256": "c0a4c2528f8375a538c89062f01596e65a56af59b5921efbb6616da35d37d081",
+            "width": 133,
+            "height": 104
+          },
+          {
+            "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q06",
+            "figure": 1,
+            "sha256": "34fd3c714978ade830e444a82307e5b52659bb8eda65dcdbbc05c4e3e806b916",
+            "width": 188,
+            "height": 120
+          },
+          {
+            "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q12",
+            "figure": 1,
+            "sha256": "13d4f204bafdfb69eda965b5e4738eb2ce5e31ab7f917f234ad252d422c7acd8",
+            "width": 182,
+            "height": 129
+          },
+          {
+            "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q14",
+            "figure": 1,
+            "sha256": "762eaae35909e3091b0cc3f87077501e21cab80fa1cfa9bc6e409ccc16c84963",
+            "width": 323,
+            "height": 175
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/3.º de secundaria/FUSION_2023_selectivo-estatal_3-de-secundaria_classified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "1c4d59515acb4f56b3938529b9f907f9e2cef36bc55b56ff9bab18b7c4965a7a",
+        "bytes": 95634,
+        "problems": 15,
+        "verified": 14,
+        "guided": 1,
+        "images": 4,
+        "figures": [
+          {
+            "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q01",
+            "figure": 1,
+            "sha256": "c0a4c2528f8375a538c89062f01596e65a56af59b5921efbb6616da35d37d081",
+            "width": 133,
+            "height": 104
+          },
+          {
+            "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q06",
+            "figure": 1,
+            "sha256": "34fd3c714978ade830e444a82307e5b52659bb8eda65dcdbbc05c4e3e806b916",
+            "width": 188,
+            "height": 120
+          },
+          {
+            "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q12",
+            "figure": 1,
+            "sha256": "13d4f204bafdfb69eda965b5e4738eb2ce5e31ab7f917f234ad252d422c7acd8",
+            "width": 182,
+            "height": 129
+          },
+          {
+            "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q14",
+            "figure": 1,
+            "sha256": "762eaae35909e3091b0cc3f87077501e21cab80fa1cfa9bc6e409ccc16c84963",
+            "width": 323,
+            "height": 175
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    }
+  ]
+}

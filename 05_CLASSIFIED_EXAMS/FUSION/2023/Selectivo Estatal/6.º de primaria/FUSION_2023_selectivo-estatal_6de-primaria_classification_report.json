@@ -1,0 +1,275 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2023/Selectivo Estatal/6 de primaria/FUSION_2023_selectivo-estatal_6-de-primaria_examen-selectivo-6de-primaria_original.pdf",
+  "source_sha256": "8981fb548eef9277a38669f7d1ca144e9e83f5ba9f9d56449450c32bc242fe49",
+  "school_level": "Sexto año de primaria",
+  "rubric": "Primary solving idea; L1 familiar direct steps, L2 combines ideas, L3 non-routine argument, relative to the printed school grade. Source defects do not become automatic answers.",
+  "problems": [
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q01",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "area",
+        "parallel_lines",
+        "distance"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Distancia a los lados opuestos. AD y BC son paralelos y están separados 5 cm. Como P está dentro y a 1 cm de BC, está a \\(5-1=4\\) cm de AD.",
+        "Dificultad relativa a Sexto año de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q02",
+      "primary_area": "probability",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "independence",
+        "coin_tosses"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "El pasado no cambia la moneda. Una moneda no trucada sigue teniendo probabilidad 1/2 de cara y 1/2 de cruz en cada lanzamiento independiente, aunque hayan salido tres caras.",
+        "Dificultad relativa a Sexto año de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q03",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "arithmetic_series",
+        "subtraction"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Suma inicial. \\(1+2+\\cdots+20=20\\cdot21/2=210\\).",
+        "Dificultad relativa a Sexto año de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q04",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "linear_equations",
+        "ratios"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Modelos que quedaron. De los 8 modelos en casa, 2 son aviones; por tanto quedaron 6 barcos.",
+        "Dificultad relativa a Sexto año de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q05",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "ordering",
+        "sequences",
+        "parity"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Primer bloque. Entre 1 y 50 hay 25 números pares, que ocupan las posiciones 1 a 25 en orden creciente.",
+        "Dificultad relativa a Sexto año de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q06",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "calendar",
+        "sequences",
+        "casework"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Escribir el patrón. Si el día es d, el mes debe ser \\(d+2\\) y las dos cifras del año, \\(d+4\\). Los tres deben ser impares consecutivos.",
+        "Dificultad relativa a Sexto año de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q07",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "fractions",
+        "rates",
+        "time_conversion"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Consumo al cazar. Un tercio de 60 es 20, así que cada día de caza bebe \\(60+20=80\\) ml.",
+        "Dificultad relativa a Sexto año de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q08",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "addition",
+        "casework",
+        "invariants"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Leer la figura original. Los números disponibles son 17, 167, 30, 49 y 96. Se requieren tres sumandos y un resultado, usando cuatro números.",
+        "Dificultad relativa a Sexto año de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q09",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "square_border",
+        "area",
+        "counting"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Contar el borde sin repetir esquinas. Si hay n cubos por lado, el borde tiene \\(4n-4\\), pues las cuatro esquinas se contarían dos veces al sumar los cuatro lados.",
+        "Dificultad relativa a Sexto año de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q10",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "division",
+        "multiplication",
+        "inverse_operations"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Recuperar el entero. Al multiplicarlo por 31 se obtuvo 372, así que el entero era \\(372/31=12\\).",
+        "Dificultad relativa a Sexto año de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q11",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "parallelograms",
+        "parallel_lines",
+        "construction"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Elegir una esquina. De los tres puntos del triángulo, cualquiera puede ser el vértice común de dos lados adyacentes del paralelogramo.",
+        "Dificultad relativa a Sexto año de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q12",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L3",
+      "tags": [
+        "tiling",
+        "area",
+        "divisibility",
+        "casework"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área de una pieza. La figura tiene cinco casillas: cuatro en línea y una sobre un extremo. Si un cuadrado se forma con N piezas, su área en casillas es \\(5N=s^2\\), de modo que su lado entero s debe ser múltiplo de 5.",
+        "Dificultad relativa a Sexto año de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q13",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "division",
+        "remainders",
+        "divisors"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Caramelos repartidos. Se entregaron \\(80-3=77\\) caramelos a las alumnas.",
+        "Dificultad relativa a Sexto año de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q14",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "combinations",
+        "circular_arrangements"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Todas las parejas. Entre seis caballeros hay \\(\\binom62=15\\) parejas sin distinguir el orden.",
+        "Dificultad relativa a Sexto año de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q15",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "squares",
+        "lengths",
+        "overlap"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Seguir la diagonal de posiciones. En la figura los cuadrados de 40 cm ocupan las esquinas inferior izquierda y superior derecha del tapete de 90 cm. El cuadrado central tiene lado 50 cm.",
+        "Dificultad relativa a Sexto año de primaria."
+      ]
+    }
+  ]
+}

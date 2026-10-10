@@ -5,9 +5,9 @@
   "counts": {
     "recovered_occurrences": 881,
     "legacy_statement_groups": 441,
-    "published_occurrences": 303,
+    "published_occurrences": 423,
     "alternate_source_occurrences": 42,
-    "pending_occurrences": 536
+    "pending_occurrences": 416
   },
   "notes": [
     "Agrupaciones heredadas: su normalizador eliminaba signos matemáticos; no equivalen a duplicados certificados.",
@@ -9945,12 +9945,14 @@
         }
       ],
       "legacy_statement_group": 178,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "96",
       "inherited_solution_unverified": "Los seis estudiantes suman 6·68=408 puntos. Los siete suman 7·72=504. El séptimo obtuvo 504-408=96.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/1.º de preparatoria/FUSION_2023_selectivo-estatal_1-ano-de-preparatoria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q02",
@@ -9986,12 +9988,14 @@
         }
       ],
       "legacy_statement_group": 179,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "cuadrado;opcióne",
-      "checkpoint_notes_unverified": "rotación90 no pertenece a misma retícula;restituir triánguloisósceles"
+      "checkpoint_notes_unverified": "rotación90 no pertenece a misma retícula;restituir triánguloisósceles",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/1.º de preparatoria/FUSION_2023_selectivo-estatal_1-ano-de-preparatoria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q03",
@@ -10027,12 +10031,14 @@
         }
       ],
       "legacy_statement_group": 180,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "4 toneladas",
       "inherited_solution_unverified": "La proporción es 10/30 toneladas por gramo. Para 12 gramos hacen falta 12·10/30=4 toneladas.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/1.º de preparatoria/FUSION_2023_selectivo-estatal_1-ano-de-preparatoria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q04",
@@ -10068,12 +10074,14 @@
         }
       ],
       "legacy_statement_group": 181,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "12m;opcióne",
-      "checkpoint_notes_unverified": "ABBD3 BC9 AC12"
+      "checkpoint_notes_unverified": "ABBD3 BC9 AC12",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/1.º de preparatoria/FUSION_2023_selectivo-estatal_1-ano-de-preparatoria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q05",
@@ -10109,12 +10117,14 @@
         }
       ],
       "legacy_statement_group": 182,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "1;opciónc",
-      "checkpoint_notes_unverified": "pi/4+(1-pi/4);opciones3/4,pi/4,1,3/2,pi/2"
+      "checkpoint_notes_unverified": "pi/4+(1-pi/4);opciones3/4,pi/4,1,3/2,pi/2",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/1.º de preparatoria/FUSION_2023_selectivo-estatal_1-ano-de-preparatoria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q06",
@@ -10150,12 +10160,14 @@
         }
       ],
       "legacy_statement_group": 183,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "dos lados iguales;opciónd",
-      "checkpoint_notes_unverified": "todas las longitudes distintas;perímetro42 síverdadero"
+      "checkpoint_notes_unverified": "todas las longitudes distintas;perímetro42 síverdadero",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/1.º de preparatoria/FUSION_2023_selectivo-estatal_1-ano-de-preparatoria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q07",
@@ -10191,12 +10203,14 @@
         }
       ],
       "legacy_statement_group": 184,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "5",
       "inherited_solution_unverified": "Un vértice de un cuadrado interior puede ubicarse a distancia k de una esquina, con k entero entre 1 y 9. La perpendicularidad y la igualdad de lados determinan los otros tres vértices. Las áreas son k²+(10-k)². Los valores k y 10-k coinciden, y k=1,...,5 da cinco áreas distintas:82,68,58,52,50.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/1.º de preparatoria/FUSION_2023_selectivo-estatal_1-ano-de-preparatoria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q08",
@@ -10232,12 +10246,14 @@
         }
       ],
       "legacy_statement_group": 185,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "5 cm",
       "inherited_solution_unverified": "Como PB=PC, P está sobre la altura desde A. Si el lado del triángulo es s y P es interior, su altura sobre BC es√3(s/2-1), pues PA=√3. Pitágoras en PB da 13=s²/4+3(s/2-1)²=s²-3 s+3. Entonces(s-5)(s+2)=0 y s=5.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/1.º de preparatoria/FUSION_2023_selectivo-estatal_1-ano-de-preparatoria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q09",
@@ -10273,12 +10289,14 @@
         }
       ],
       "legacy_statement_group": 186,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "0",
       "inherited_solution_unverified": "Para la intersección triple la cota es 50+60+90-2·100=0. Se puede alcanzar:10 hombres italianos no vegetarianos,40 mujeres italianas vegetarianas y 50 hombres no italianos vegetarianos. No se garantiza ningún hombre italiano vegetariano.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/1.º de preparatoria/FUSION_2023_selectivo-estatal_1-ano-de-preparatoria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q10",
@@ -10314,12 +10332,14 @@
         }
       ],
       "legacy_statement_group": 187,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "2^9;opciónc",
-      "checkpoint_notes_unverified": "254*256=127*512"
+      "checkpoint_notes_unverified": "254*256=127*512",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/1.º de preparatoria/FUSION_2023_selectivo-estatal_1-ano-de-preparatoria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q11",
@@ -10334,12 +10354,14 @@
       "problem_text": "Matías, el buscador de oro, sabe por su experiencia, que, después de cerner 10 toneladas de grava del\narroyo Dorado, consigue 30 gramos de oro. ¿Cuántas toneladas habrá que cerner si quiere obtener 12\ngramos de oro?\n𝑃𝐶\n5\n𝑃𝐷 =",
       "options": [],
       "legacy_statement_group": 188,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "4 toneladas",
       "inherited_solution_unverified": "La proporción es 10/30 toneladas por gramo. Para 12 gramos hacen falta 12·10/30=4 toneladas.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "4 toneladas",
-      "checkpoint_notes_unverified": "retirar PC/PD del enunciado;pertenece189"
+      "checkpoint_notes_unverified": "retirar PC/PD del enunciado;pertenece189",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/1.º de preparatoria/FUSION_2023_selectivo-estatal_1-ano-de-preparatoria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q12",
@@ -10354,12 +10376,14 @@
       "problem_text": "PA · PB = 60, y\n48, ¿cuál es el valor de PC?",
       "options": [],
       "legacy_statement_group": 189,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "PC5/2",
-      "checkpoint_notes_unverified": "potenciaPC*PD60"
+      "checkpoint_notes_unverified": "potenciaPC*PD60",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/1.º de preparatoria/FUSION_2023_selectivo-estatal_1-ano-de-preparatoria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q13",
@@ -10374,12 +10398,14 @@
       "problem_text": "Seis rectas se disponen como se indica en la figura:\na//b, b//c, p//m\n¿Cuántos trapecios se forman?",
       "options": [],
       "legacy_statement_group": 190,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "ambiguo",
-      "checkpoint_notes_unverified": "6 exclusivos;9 contando paralelogramos"
+      "checkpoint_notes_unverified": "6 exclusivos;9 contando paralelogramos",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/1.º de preparatoria/FUSION_2023_selectivo-estatal_1-ano-de-preparatoria_classified.json",
+      "reviewed_status": "ambiguous_source_trapezoid_definition"
     },
     {
       "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q14",
@@ -10394,12 +10420,14 @@
       "problem_text": "Un estudiante sabe solamente 5 de los 10 temas que entran en su examen, en el que se hacen tres\npreguntas, de tres temas elegidos al azar de entre los 10. ¿Cuál es la probabilidad de que las tres\npreguntas correspondan a temas que el estudiante conoce?",
       "options": [],
       "legacy_statement_group": 191,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "1/12",
       "inherited_solution_unverified": "De las C(10,3)=120 ternas de temas posibles, C(5,3)=10 están completamente entre los temas conocidos. La probabilidad es 10/120=1/12.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/1.º de preparatoria/FUSION_2023_selectivo-estatal_1-ano-de-preparatoria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q15",
@@ -10414,12 +10442,14 @@
       "problem_text": "¿Cuántas cifras tiene el número   \\(10^{10}\\) -\\(9^{9}\\)+\\(8^{8}\\)-\\(7^{7}\\)+… -\\(1^{1}\\)?",
       "options": [],
       "legacy_statement_group": 192,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "10",
       "inherited_solution_unverified": "Agrupar las restas en(9^9-8^8)+(7^7-6^6)+...+(3^3-2^2)+1 muestra que el número es menor que 10^10. Agrupar las sumas positivas por parejas muestra que es mayor que 10^10-9^9, que supera 10^9. Por tanto tiene exactamente 10 cifras.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/1.º de preparatoria/FUSION_2023_selectivo-estatal_1-ano-de-preparatoria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion3_examen-selectivo-2-ano-de-preparatoria_2-ano-de-preparatoria_q01",
@@ -10455,12 +10485,14 @@
         }
       ],
       "legacy_statement_group": 178,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "96",
       "inherited_solution_unverified": "Los seis estudiantes suman 6·68=408 puntos. Los siete suman 7·72=504. El séptimo obtuvo 504-408=96.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/2.º de preparatoria/FUSION_2023_selectivo-estatal_2-ano-de-preparatoria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-2-ano-de-preparatoria_2-ano-de-preparatoria_q02",
@@ -10496,12 +10528,14 @@
         }
       ],
       "legacy_statement_group": 179,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "cuadrado;opcióne",
-      "checkpoint_notes_unverified": "rotación90 no pertenece a misma retícula;restituir triánguloisósceles"
+      "checkpoint_notes_unverified": "rotación90 no pertenece a misma retícula;restituir triánguloisósceles",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/2.º de preparatoria/FUSION_2023_selectivo-estatal_2-ano-de-preparatoria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-2-ano-de-preparatoria_2-ano-de-preparatoria_q03",
@@ -10537,12 +10571,14 @@
         }
       ],
       "legacy_statement_group": 180,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "4 toneladas",
       "inherited_solution_unverified": "La proporción es 10/30 toneladas por gramo. Para 12 gramos hacen falta 12·10/30=4 toneladas.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/2.º de preparatoria/FUSION_2023_selectivo-estatal_2-ano-de-preparatoria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-2-ano-de-preparatoria_2-ano-de-preparatoria_q04",
@@ -10578,12 +10614,14 @@
         }
       ],
       "legacy_statement_group": 181,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "12m;opcióne",
-      "checkpoint_notes_unverified": "ABBD3 BC9 AC12"
+      "checkpoint_notes_unverified": "ABBD3 BC9 AC12",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/2.º de preparatoria/FUSION_2023_selectivo-estatal_2-ano-de-preparatoria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-2-ano-de-preparatoria_2-ano-de-preparatoria_q05",
@@ -10619,12 +10657,14 @@
         }
       ],
       "legacy_statement_group": 182,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "1;opciónc",
-      "checkpoint_notes_unverified": "pi/4+(1-pi/4);opciones3/4,pi/4,1,3/2,pi/2"
+      "checkpoint_notes_unverified": "pi/4+(1-pi/4);opciones3/4,pi/4,1,3/2,pi/2",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/2.º de preparatoria/FUSION_2023_selectivo-estatal_2-ano-de-preparatoria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-2-ano-de-preparatoria_2-ano-de-preparatoria_q06",
@@ -10660,12 +10700,14 @@
         }
       ],
       "legacy_statement_group": 193,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "246;opciónd",
-      "checkpoint_notes_unverified": "áreas96+150;factorsemejanza5/4"
+      "checkpoint_notes_unverified": "áreas96+150;factorsemejanza5/4",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/2.º de preparatoria/FUSION_2023_selectivo-estatal_2-ano-de-preparatoria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-2-ano-de-preparatoria_2-ano-de-preparatoria_q07",
@@ -10701,12 +10743,14 @@
         }
       ],
       "legacy_statement_group": 194,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "0;opcióna",
-      "checkpoint_notes_unverified": "ambos divisores de diferencia;implicaambos1,d2;contradicciónparidad"
+      "checkpoint_notes_unverified": "ambos divisores de diferencia;implicaambos1,d2;contradicciónparidad",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/2.º de preparatoria/FUSION_2023_selectivo-estatal_2-ano-de-preparatoria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-2-ano-de-preparatoria_2-ano-de-preparatoria_q08",
@@ -10742,12 +10786,14 @@
         }
       ],
       "legacy_statement_group": 195,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "1:2.25;opciónd",
-      "checkpoint_notes_unverified": "razónn²/n=n=2.25"
+      "checkpoint_notes_unverified": "razónn²/n=n=2.25",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/2.º de preparatoria/FUSION_2023_selectivo-estatal_2-ano-de-preparatoria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-2-ano-de-preparatoria_2-ano-de-preparatoria_q09",
@@ -10762,12 +10808,14 @@
       "problem_text": "De las siguientes fracciones continuas, ¿cuál es la mayor? :",
       "options": [],
       "legacy_statement_group": 196,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "E;opcióne",
-      "checkpoint_notes_unverified": "(2n+1)/(2n+3) aumenta;n1..5"
+      "checkpoint_notes_unverified": "(2n+1)/(2n+3) aumenta;n1..5",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/2.º de preparatoria/FUSION_2023_selectivo-estatal_2-ano-de-preparatoria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-2-ano-de-preparatoria_2-ano-de-preparatoria_q10",
@@ -10803,12 +10851,14 @@
         }
       ],
       "legacy_statement_group": 187,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "2^9;opciónc",
-      "checkpoint_notes_unverified": "254*256=127*512"
+      "checkpoint_notes_unverified": "254*256=127*512",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/2.º de preparatoria/FUSION_2023_selectivo-estatal_2-ano-de-preparatoria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-2-ano-de-preparatoria_2-ano-de-preparatoria_q11",
@@ -10823,12 +10873,14 @@
       "problem_text": "Los ángulos agudos del paralelogramo de la figura miden 60º. El radio del círculo AO = 3 cm. ¿Cuál es\nel área del paralelogramo?",
       "options": [],
       "legacy_statement_group": 197,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "9sqrt3 cm²",
-      "checkpoint_notes_unverified": "AB6 AD3 sin60"
+      "checkpoint_notes_unverified": "AB6 AD3 sin60",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/2.º de preparatoria/FUSION_2023_selectivo-estatal_2-ano-de-preparatoria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion3_examen-selectivo-2-ano-de-preparatoria_2-ano-de-preparatoria_q12",
@@ -10843,12 +10895,14 @@
       "problem_text": "¿Cuál es en metros, aproximadamente, la altura de Pitágoras con su mano levantada sobre el\npedestal?",
       "options": [],
       "legacy_statement_group": 198,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "2.6396 m aproximadamente",
-      "checkpoint_notes_unverified": "sqrt(25-2.3²)-1.8"
+      "checkpoint_notes_unverified": "sqrt(25-2.3²)-1.8",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/2.º de preparatoria/FUSION_2023_selectivo-estatal_2-ano-de-preparatoria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion3_examen-selectivo-2-ano-de-preparatoria_2-ano-de-preparatoria_q13",
@@ -10863,12 +10917,14 @@
       "problem_text": "Seis rectas se disponen como se indica en la figura:\na//b, b//c, p//m\n¿Cuántos trapecios se forman?",
       "options": [],
       "legacy_statement_group": 190,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "ambiguo",
-      "checkpoint_notes_unverified": "6 exclusivos;9 contando paralelogramos"
+      "checkpoint_notes_unverified": "6 exclusivos;9 contando paralelogramos",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/2.º de preparatoria/FUSION_2023_selectivo-estatal_2-ano-de-preparatoria_classified.json",
+      "reviewed_status": "ambiguous_source_trapezoid_definition"
     },
     {
       "source_id": "fusion3_examen-selectivo-2-ano-de-preparatoria_2-ano-de-preparatoria_q14",
@@ -10883,12 +10939,14 @@
       "problem_text": "Un estudiante sabe solamente 5 de los 10 temas que entran en su examen, en el que se hacen tres\npreguntas, de tres temas elegidos al azar de entre los 10. ¿Cuál es la probabilidad de que las tres\npreguntas correspondan a temas que el estudiante conoce?",
       "options": [],
       "legacy_statement_group": 191,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "1/12",
       "inherited_solution_unverified": "De las C(10,3)=120 ternas de temas posibles, C(5,3)=10 están completamente entre los temas conocidos. La probabilidad es 10/120=1/12.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/2.º de preparatoria/FUSION_2023_selectivo-estatal_2-ano-de-preparatoria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion3_examen-selectivo-2-ano-de-preparatoria_2-ano-de-preparatoria_q15",
@@ -10903,12 +10961,14 @@
       "problem_text": "¿Cuántas cifras tiene el número   \\(10^{10}\\) -\\(9^{9}\\)+\\(8^{8}\\)-\\(7^{7}\\)+… -\\(1^{1}\\)?",
       "options": [],
       "legacy_statement_group": 192,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "10",
       "inherited_solution_unverified": "Agrupar las restas en(9^9-8^8)+(7^7-6^6)+...+(3^3-2^2)+1 muestra que el número es menor que 10^10. Agrupar las sumas positivas por parejas muestra que es mayor que 10^10-9^9, que supera 10^9. Por tanto tiene exactamente 10 cifras.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/2.º de preparatoria/FUSION_2023_selectivo-estatal_2-ano-de-preparatoria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q01",
@@ -10944,12 +11004,14 @@
         }
       ],
       "legacy_statement_group": 199,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "1 solución;opciónb",
-      "checkpoint_notes_unverified": "paridad fuerzaun primo2;sólo k1funciona"
+      "checkpoint_notes_unverified": "paridad fuerzaun primo2;sólo k1funciona",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/3.º de preparatoria/FUSION_2023_selectivo-estatal_3-ano-de-preparatoria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q02",
@@ -10985,12 +11047,14 @@
         }
       ],
       "legacy_statement_group": 200,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "p+q5;opciónb",
-      "checkpoint_notes_unverified": "s²-2s15;spositivo"
+      "checkpoint_notes_unverified": "s²-2s15;spositivo",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/3.º de preparatoria/FUSION_2023_selectivo-estatal_3-ano-de-preparatoria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q03",
@@ -11026,12 +11090,14 @@
         }
       ],
       "legacy_statement_group": 201,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "3;opciónc",
-      "checkpoint_notes_unverified": "(X+Y+1)²+3(Y+1)²+3"
+      "checkpoint_notes_unverified": "(X+Y+1)²+3(Y+1)²+3",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/3.º de preparatoria/FUSION_2023_selectivo-estatal_3-ano-de-preparatoria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q04",
@@ -11067,12 +11133,14 @@
         }
       ],
       "legacy_statement_group": 202,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "X1;opcióna",
-      "checkpoint_notes_unverified": "bipartición;X misma claseque1"
+      "checkpoint_notes_unverified": "bipartición;X misma claseque1",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/3.º de preparatoria/FUSION_2023_selectivo-estatal_3-ano-de-preparatoria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q05",
@@ -11108,12 +11176,14 @@
         }
       ],
       "legacy_statement_group": 182,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "1;opciónc",
-      "checkpoint_notes_unverified": "pi/4+(1-pi/4);opciones3/4,pi/4,1,3/2,pi/2"
+      "checkpoint_notes_unverified": "pi/4+(1-pi/4);opciones3/4,pi/4,1,3/2,pi/2",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/3.º de preparatoria/FUSION_2023_selectivo-estatal_3-ano-de-preparatoria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q06",
@@ -11149,12 +11219,14 @@
         }
       ],
       "legacy_statement_group": 193,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "246;opciónd",
-      "checkpoint_notes_unverified": "áreas96+150;factorsemejanza5/4"
+      "checkpoint_notes_unverified": "áreas96+150;factorsemejanza5/4",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/3.º de preparatoria/FUSION_2023_selectivo-estatal_3-ano-de-preparatoria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q07",
@@ -11190,12 +11262,14 @@
         }
       ],
       "legacy_statement_group": 194,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "0;opcióna",
-      "checkpoint_notes_unverified": "ambos divisores de diferencia;implicaambos1,d2;contradicciónparidad"
+      "checkpoint_notes_unverified": "ambos divisores de diferencia;implicaambos1,d2;contradicciónparidad",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/3.º de preparatoria/FUSION_2023_selectivo-estatal_3-ano-de-preparatoria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q08",
@@ -11231,12 +11305,14 @@
         }
       ],
       "legacy_statement_group": 195,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "1:2.25;opciónd",
-      "checkpoint_notes_unverified": "razónn²/n=n=2.25"
+      "checkpoint_notes_unverified": "razónn²/n=n=2.25",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/3.º de preparatoria/FUSION_2023_selectivo-estatal_3-ano-de-preparatoria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q09",
@@ -11251,12 +11327,14 @@
       "problem_text": "De las siguientes fracciones continuas, ¿cuál es la mayor? :",
       "options": [],
       "legacy_statement_group": 196,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "E;opcióne",
-      "checkpoint_notes_unverified": "(2n+1)/(2n+3) aumenta;n1..5"
+      "checkpoint_notes_unverified": "(2n+1)/(2n+3) aumenta;n1..5",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/3.º de preparatoria/FUSION_2023_selectivo-estatal_3-ano-de-preparatoria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q10",
@@ -11292,12 +11370,14 @@
         }
       ],
       "legacy_statement_group": 187,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "2^9;opciónc",
-      "checkpoint_notes_unverified": "254*256=127*512"
+      "checkpoint_notes_unverified": "254*256=127*512",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/3.º de preparatoria/FUSION_2023_selectivo-estatal_3-ano-de-preparatoria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q11",
@@ -11312,12 +11392,14 @@
       "problem_text": "Los ángulos agudos del paralelogramo de la figura miden 60º. El radio del círculo AO = 3 cm. ¿Cuál es\nel área del paralelogramo?",
       "options": [],
       "legacy_statement_group": 197,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "9sqrt3 cm²",
-      "checkpoint_notes_unverified": "AB6 AD3 sin60"
+      "checkpoint_notes_unverified": "AB6 AD3 sin60",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/3.º de preparatoria/FUSION_2023_selectivo-estatal_3-ano-de-preparatoria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q12",
@@ -11332,12 +11414,14 @@
       "problem_text": "¿Cuál es en metros, aproximadamente, la altura de Pitágoras con su mano levantada sobre el\npedestal?",
       "options": [],
       "legacy_statement_group": 198,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "2.6396 m aproximadamente",
-      "checkpoint_notes_unverified": "sqrt(25-2.3²)-1.8"
+      "checkpoint_notes_unverified": "sqrt(25-2.3²)-1.8",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/3.º de preparatoria/FUSION_2023_selectivo-estatal_3-ano-de-preparatoria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q13",
@@ -11352,12 +11436,14 @@
       "problem_text": "Seis rectas se disponen como se indica en la figura:\na//b, b//c, p//m\n¿Cuántos trapecios se forman?",
       "options": [],
       "legacy_statement_group": 190,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "ambiguo",
-      "checkpoint_notes_unverified": "6 exclusivos;9 contando paralelogramos"
+      "checkpoint_notes_unverified": "6 exclusivos;9 contando paralelogramos",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/3.º de preparatoria/FUSION_2023_selectivo-estatal_3-ano-de-preparatoria_classified.json",
+      "reviewed_status": "ambiguous_source_trapezoid_definition"
     },
     {
       "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q14",
@@ -11372,12 +11458,14 @@
       "problem_text": "¿Para qué valores de n entero,  0 < n < 9, es posible marcar algunas casillas en una tabla 5x5 de manera\nque cada cuadrado 3x3 en ella contenga exactamente n casillas marcadas?",
       "options": [],
       "legacy_statement_group": 203,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "todosn1..8",
-      "checkpoint_notes_unverified": "patrón periódico3x3 porclases deresiduos"
+      "checkpoint_notes_unverified": "patrón periódico3x3 porclases deresiduos",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/3.º de preparatoria/FUSION_2023_selectivo-estatal_3-ano-de-preparatoria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q15",
@@ -11392,12 +11480,14 @@
       "problem_text": "¿Cuántos conjuntos de cuatro aristas de un cubo tienen la propiedad siguiente:\n•\nningún par de aristas del conjunto tienen un vértice común ?",
       "options": [],
       "legacy_statement_group": 204,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "9",
-      "checkpoint_notes_unverified": "emparejamientosperfectos grafo cubo"
+      "checkpoint_notes_unverified": "emparejamientosperfectos grafo cubo",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/3.º de preparatoria/FUSION_2023_selectivo-estatal_3-ano-de-preparatoria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion3_examen-selectivo-1-de-secundaria_1-de-secundaria_q01",
@@ -11433,12 +11523,14 @@
         }
       ],
       "legacy_statement_group": 205,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "10cm²;opciónb",
-      "checkpoint_notes_unverified": "distanciaPAD4;baseAD5"
+      "checkpoint_notes_unverified": "distanciaPAD4;baseAD5",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/1.º de secundaria/FUSION_2023_selectivo-estatal_1-de-secundaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-1-de-secundaria_1-de-secundaria_q02",
@@ -11474,12 +11566,14 @@
         }
       ],
       "legacy_statement_group": 206,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "no sepuede asegurar;opcióne",
-      "checkpoint_notes_unverified": "independencia;reconstruir opcionescompletas"
+      "checkpoint_notes_unverified": "independencia;reconstruir opcionescompletas",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/1.º de secundaria/FUSION_2023_selectivo-estatal_1-de-secundaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-1-de-secundaria_1-de-secundaria_q03",
@@ -11515,12 +11609,14 @@
         }
       ],
       "legacy_statement_group": 207,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "28;opciónd",
-      "checkpoint_notes_unverified": "210-(21+...+28)=14"
+      "checkpoint_notes_unverified": "210-(21+...+28)=14",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/1.º de secundaria/FUSION_2023_selectivo-estatal_1-de-secundaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-1-de-secundaria_1-de-secundaria_q04",
@@ -11556,12 +11652,14 @@
         }
       ],
       "legacy_statement_group": 208,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "2 aviones;opcióna",
-      "checkpoint_notes_unverified": "barcos12,aviones4,deja2"
+      "checkpoint_notes_unverified": "barcos12,aviones4,deja2",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/1.º de secundaria/FUSION_2023_selectivo-estatal_1-de-secundaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-1-de-secundaria_1-de-secundaria_q05",
@@ -11597,12 +11695,14 @@
         }
       ],
       "legacy_statement_group": 209,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "41;opciónd",
-      "checkpoint_notes_unverified": "quintoimpar descendente"
+      "checkpoint_notes_unverified": "quintoimpar descendente",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/1.º de secundaria/FUSION_2023_selectivo-estatal_1-de-secundaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-1-de-secundaria_1-de-secundaria_q06",
@@ -11638,12 +11738,14 @@
         }
       ],
       "legacy_statement_group": 210,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "2024;opciónd",
-      "checkpoint_notes_unverified": "evaluar5opciones"
+      "checkpoint_notes_unverified": "evaluar5opciones",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/1.º de secundaria/FUSION_2023_selectivo-estatal_1-de-secundaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-1-de-secundaria_1-de-secundaria_q07",
@@ -11679,12 +11781,14 @@
         }
       ],
       "legacy_statement_group": 211,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "42;opcióna",
-      "checkpoint_notes_unverified": "12+30"
+      "checkpoint_notes_unverified": "12+30",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/1.º de secundaria/FUSION_2023_selectivo-estatal_1-de-secundaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-1-de-secundaria_1-de-secundaria_q08",
@@ -11720,12 +11824,14 @@
         }
       ],
       "legacy_statement_group": 212,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "7.5m;opciónb",
-      "checkpoint_notes_unverified": "15bandas"
+      "checkpoint_notes_unverified": "15bandas",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/1.º de secundaria/FUSION_2023_selectivo-estatal_1-de-secundaria_classified.json",
+      "reviewed_status": "ambiguous_source_option_units"
     },
     {
       "source_id": "fusion3_examen-selectivo-1-de-secundaria_1-de-secundaria_q09",
@@ -11761,12 +11867,14 @@
         }
       ],
       "legacy_statement_group": 213,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "64",
       "inherited_solution_unverified": "Un borde de n×n cubos contiene 4 n-4 cubos. De 4 n-4=36 resulta n=10. El interior tiene(10-2)^2=64 cubos.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/1.º de secundaria/FUSION_2023_selectivo-estatal_1-de-secundaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-1-de-secundaria_1-de-secundaria_q10",
@@ -11802,12 +11910,14 @@
         }
       ],
       "legacy_statement_group": 214,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "3612",
       "inherited_solution_unverified": "El entero es 372/31=12. La multiplicación correcta es 12·301=3612.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/1.º de secundaria/FUSION_2023_selectivo-estatal_1-de-secundaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-1-de-secundaria_1-de-secundaria_q11",
@@ -11822,12 +11932,14 @@
       "problem_text": "Tres puntos en una hoja de papel son los vértices de un triángulo. Se quiere dibujar otro punto que\nforme con esos tres un paralelogramo. ¿Cuántas posibilidades hay para situar ese cuarto punto?",
       "options": [],
       "legacy_statement_group": 215,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "3",
       "inherited_solution_unverified": "Cada punto puede ser el vértice común de dos lados del paralelogramo. Esto da tres cuartos vértices distintos: A+B-C,A+C-B y B+C-A.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/1.º de secundaria/FUSION_2023_selectivo-estatal_1-de-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion3_examen-selectivo-1-de-secundaria_1-de-secundaria_q12",
@@ -11842,12 +11954,14 @@
       "problem_text": "Usando únicamente piezas como la de la figura se quiere construir un cuadrado sin espacios blancos ni\npiezas encimadas. ¿Cuál es el menor número de piezas necesarias?",
       "options": [],
       "legacy_statement_group": 216,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "20 piezas",
-      "checkpoint_notes_unverified": "no cubre5x5 búsqueda27estados;10x10 con10rectángulos5x2 de2piezas"
+      "checkpoint_notes_unverified": "no cubre5x5 búsqueda27estados;10x10 con10rectángulos5x2 de2piezas",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/1.º de secundaria/FUSION_2023_selectivo-estatal_1-de-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion3_examen-selectivo-1-de-secundaria_1-de-secundaria_q13",
@@ -11862,12 +11976,14 @@
       "problem_text": "Hay 10 estudiantes en la clase de baile. La profesora tiene 80 caramelos, que reparte a partes iguales\nentre las alumnas y le sobran tres caramelos. ¿Cuántos chicos hay en la clase?",
       "options": [],
       "legacy_statement_group": 217,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "3 chicos",
       "inherited_solution_unverified": "Se reparten 77 caramelos entre las alumnas. Su número divide 77 y no supera 10: puede ser 1 o 7. Como sobran 3, el divisor debe ser mayor que 3, así que son 7 alumnas y 3 chicos.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/1.º de secundaria/FUSION_2023_selectivo-estatal_1-de-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion3_examen-selectivo-1-de-secundaria_1-de-secundaria_q14",
@@ -11882,12 +11998,14 @@
       "problem_text": "Seis caballeros del Rey Arturo están sentados en la Tabla Redonda. Los que son contiguos son rivales,\npero los no contiguos son amigos. Queremos elegir dos caballeros que sean amigos. ¿Cuántas\nposibilidades tenemos de hacerlo?",
       "options": [],
       "legacy_statement_group": 218,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "9",
-      "checkpoint_notes_unverified": "15parejas menos6contiguas"
+      "checkpoint_notes_unverified": "15parejas menos6contiguas",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/1.º de secundaria/FUSION_2023_selectivo-estatal_1-de-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion3_examen-selectivo-1-de-secundaria_1-de-secundaria_q15",
@@ -11902,12 +12020,14 @@
       "problem_text": "Laura cose 3 cuadrados superpuestos de colores sobre un tapete cuadrado de 90 cm de lado. Los 2\nmás pequeños tienen 40 cm de lado, y el tercero, más grande, tiene50 cm de lado. Las partes\nsolapadas (en gris en la figura) son cuadrados iguales. ¿Cuánto mide el: lado de los cuadrados grises?",
       "options": [],
       "legacy_statement_group": 219,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "20cm",
-      "checkpoint_notes_unverified": "40+50+40-2x90"
+      "checkpoint_notes_unverified": "40+50+40-2x90",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/1.º de secundaria/FUSION_2023_selectivo-estatal_1-de-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion3_examen-selectivo-2-de-secundaria-docx_2-de-secundaria_q01",
@@ -11943,12 +12063,14 @@
         }
       ],
       "legacy_statement_group": 220,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "15cm²;opciónd",
-      "checkpoint_notes_unverified": "49-9-25;intersecciones cancelan"
+      "checkpoint_notes_unverified": "49-9-25;intersecciones cancelan",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/2.º de secundaria/FUSION_2023_selectivo-estatal_2-de-secundaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-2-de-secundaria-docx_2-de-secundaria_q02",
@@ -11984,12 +12106,14 @@
         }
       ],
       "legacy_statement_group": 221,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "20tiros;opciónd",
-      "checkpoint_notes_unverified": "9aciertos5,tres8,tres10;15=75porciento"
+      "checkpoint_notes_unverified": "9aciertos5,tres8,tres10;15=75porciento",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/2.º de secundaria/FUSION_2023_selectivo-estatal_2-de-secundaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-2-de-secundaria-docx_2-de-secundaria_q03",
@@ -12025,12 +12149,14 @@
         }
       ],
       "legacy_statement_group": 222,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "BDC15grados;opciónb",
-      "checkpoint_notes_unverified": "CAD50,ADACAB;ADB50"
+      "checkpoint_notes_unverified": "CAD50,ADACAB;ADB50",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/2.º de secundaria/FUSION_2023_selectivo-estatal_2-de-secundaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-2-de-secundaria-docx_2-de-secundaria_q04",
@@ -12066,12 +12192,14 @@
         }
       ],
       "legacy_statement_group": 223,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "error_fuente:A55 B57",
-      "checkpoint_notes_unverified": "opcionesa yb ambasverdaderas;no fijaropción única"
+      "checkpoint_notes_unverified": "opcionesa yb ambasverdaderas;no fijaropción única",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/2.º de secundaria/FUSION_2023_selectivo-estatal_2-de-secundaria_classified.json",
+      "reviewed_status": "invalid_source_multiple_correct_options"
     },
     {
       "source_id": "fusion3_examen-selectivo-2-de-secundaria-docx_2-de-secundaria_q05",
@@ -12107,12 +12235,14 @@
         }
       ],
       "legacy_statement_group": 224,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "1/6<S<1/4;opciónc",
-      "checkpoint_notes_unverified": "S1/3-sqrt3/(4pi)"
+      "checkpoint_notes_unverified": "S1/3-sqrt3/(4pi)",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/2.º de secundaria/FUSION_2023_selectivo-estatal_2-de-secundaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-2-de-secundaria-docx_2-de-secundaria_q06",
@@ -12148,12 +12278,14 @@
         }
       ],
       "legacy_statement_group": 210,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "2024;opciónd",
-      "checkpoint_notes_unverified": "evaluar5opciones"
+      "checkpoint_notes_unverified": "evaluar5opciones",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/2.º de secundaria/FUSION_2023_selectivo-estatal_2-de-secundaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-2-de-secundaria-docx_2-de-secundaria_q07",
@@ -12189,12 +12321,14 @@
         }
       ],
       "legacy_statement_group": 211,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "42;opcióna",
-      "checkpoint_notes_unverified": "12+30"
+      "checkpoint_notes_unverified": "12+30",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/2.º de secundaria/FUSION_2023_selectivo-estatal_2-de-secundaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-2-de-secundaria-docx_2-de-secundaria_q08",
@@ -12230,12 +12364,14 @@
         }
       ],
       "legacy_statement_group": 212,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "7.5m;opciónb",
-      "checkpoint_notes_unverified": "15bandas"
+      "checkpoint_notes_unverified": "15bandas",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/2.º de secundaria/FUSION_2023_selectivo-estatal_2-de-secundaria_classified.json",
+      "reviewed_status": "ambiguous_source_option_units"
     },
     {
       "source_id": "fusion3_examen-selectivo-2-de-secundaria-docx_2-de-secundaria_q09",
@@ -12271,12 +12407,14 @@
         }
       ],
       "legacy_statement_group": 225,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "10 y14;opcióne",
-      "checkpoint_notes_unverified": "media12;parsum24"
+      "checkpoint_notes_unverified": "media12;parsum24",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/2.º de secundaria/FUSION_2023_selectivo-estatal_2-de-secundaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-2-de-secundaria-docx_2-de-secundaria_q10",
@@ -12312,12 +12450,14 @@
         }
       ],
       "legacy_statement_group": 226,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "6;opciónc",
-      "checkpoint_notes_unverified": "cuatrocon ángulorectoenextremo;dos en semicircunferencia"
+      "checkpoint_notes_unverified": "cuatrocon ángulorectoenextremo;dos en semicircunferencia",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/2.º de secundaria/FUSION_2023_selectivo-estatal_2-de-secundaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-2-de-secundaria-docx_2-de-secundaria_q11",
@@ -12332,12 +12472,14 @@
       "problem_text": "El número de cinco cifras “24X8Y” es divisible por 4, por 5 y por 9.¿Cuánto vale la suma de las cifras X\n+ Y?",
       "options": [],
       "legacy_statement_group": 227,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "X+Y4",
-      "checkpoint_notes_unverified": "Y0,X4"
+      "checkpoint_notes_unverified": "Y0,X4",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/2.º de secundaria/FUSION_2023_selectivo-estatal_2-de-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion3_examen-selectivo-2-de-secundaria-docx_2-de-secundaria_q12",
@@ -12352,12 +12494,14 @@
       "problem_text": "Los tres cuervos Isaac, Max y Oscar tienen, cada uno, su propio nido. Isaac dice: “Estoy más de dos\nveces más lejos de Max que de Óscar”. Max dice: “Estoy más de dos veces más lejos de Oscar que de\nIsaac”. Oscar dice: “Estoy más de dos veces más lejos de Max que de Isaac”. Al menos dos de ellos\ndicen la verdad. ¿Quién miente?",
       "options": [],
       "legacy_statement_group": 228,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "Max",
-      "checkpoint_notes_unverified": "dos desigualdadesconMax imposiblepor desigualdadtriangular"
+      "checkpoint_notes_unverified": "dos desigualdadesconMax imposiblepor desigualdadtriangular",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/2.º de secundaria/FUSION_2023_selectivo-estatal_2-de-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion3_examen-selectivo-2-de-secundaria-docx_2-de-secundaria_q13",
@@ -12372,12 +12516,14 @@
       "problem_text": "Hay 10 estudiantes en la clase de baile. La profesora tiene 80 caramelos, que reparte a partes iguales\nentre las alumnas y le sobran tres caramelos. ¿Cuántos chicos hay en la clase?",
       "options": [],
       "legacy_statement_group": 217,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "3 chicos",
       "inherited_solution_unverified": "Se reparten 77 caramelos entre las alumnas. Su número divide 77 y no supera 10: puede ser 1 o 7. Como sobran 3, el divisor debe ser mayor que 3, así que son 7 alumnas y 3 chicos.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/2.º de secundaria/FUSION_2023_selectivo-estatal_2-de-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion3_examen-selectivo-2-de-secundaria-docx_2-de-secundaria_q14",
@@ -12392,12 +12538,14 @@
       "problem_text": "La figura de la izquierda muestra una pieza formada por dos rectángulos. Se han marcado las\nlongitudes de dos de los lados, 11 y 13. La pieza se corta en tres partes que se colocan formando un\ntriángulo, como muestra la figura de la derecha.",
       "options": [],
       "legacy_statement_group": 229,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "x37",
-      "checkpoint_notes_unverified": "horizontaltrasladado13+(11+13)"
+      "checkpoint_notes_unverified": "horizontaltrasladado13+(11+13)",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/2.º de secundaria/FUSION_2023_selectivo-estatal_2-de-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion3_examen-selectivo-2-de-secundaria-docx_2-de-secundaria_q15",
@@ -12412,12 +12560,14 @@
       "problem_text": "¿Cuál es el menor divisor de 2011, distinto de 1?",
       "options": [],
       "legacy_statement_group": 230,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "2011",
-      "checkpoint_notes_unverified": "primo;divisores primoshasta43 comprobados"
+      "checkpoint_notes_unverified": "primo;divisores primoshasta43 comprobados",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/2.º de secundaria/FUSION_2023_selectivo-estatal_2-de-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q01",
@@ -12453,12 +12603,14 @@
         }
       ],
       "legacy_statement_group": 220,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "15cm²;opciónd",
-      "checkpoint_notes_unverified": "49-9-25;intersecciones cancelan"
+      "checkpoint_notes_unverified": "49-9-25;intersecciones cancelan",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/3.º de secundaria/FUSION_2023_selectivo-estatal_3-de-secundaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q02",
@@ -12494,12 +12646,14 @@
         }
       ],
       "legacy_statement_group": 221,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "20tiros;opciónd",
-      "checkpoint_notes_unverified": "9aciertos5,tres8,tres10;15=75porciento"
+      "checkpoint_notes_unverified": "9aciertos5,tres8,tres10;15=75porciento",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/3.º de secundaria/FUSION_2023_selectivo-estatal_3-de-secundaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q03",
@@ -12535,12 +12689,14 @@
         }
       ],
       "legacy_statement_group": 222,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "BDC15grados;opciónb",
-      "checkpoint_notes_unverified": "CAD50,ADACAB;ADB50"
+      "checkpoint_notes_unverified": "CAD50,ADACAB;ADB50",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/3.º de secundaria/FUSION_2023_selectivo-estatal_3-de-secundaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q04",
@@ -12576,12 +12732,14 @@
         }
       ],
       "legacy_statement_group": 223,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "error_fuente:A55 B57",
-      "checkpoint_notes_unverified": "opcionesa yb ambasverdaderas;no fijaropción única"
+      "checkpoint_notes_unverified": "opcionesa yb ambasverdaderas;no fijaropción única",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/3.º de secundaria/FUSION_2023_selectivo-estatal_3-de-secundaria_classified.json",
+      "reviewed_status": "invalid_source_multiple_correct_options"
     },
     {
       "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q05",
@@ -12617,12 +12775,14 @@
         }
       ],
       "legacy_statement_group": 224,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "1/6<S<1/4;opciónc",
-      "checkpoint_notes_unverified": "S1/3-sqrt3/(4pi)"
+      "checkpoint_notes_unverified": "S1/3-sqrt3/(4pi)",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/3.º de secundaria/FUSION_2023_selectivo-estatal_3-de-secundaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q06",
@@ -12658,12 +12818,14 @@
         }
       ],
       "legacy_statement_group": 183,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "dos lados iguales;opciónd",
-      "checkpoint_notes_unverified": "todas las longitudes distintas;perímetro42 síverdadero"
+      "checkpoint_notes_unverified": "todas las longitudes distintas;perímetro42 síverdadero",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/3.º de secundaria/FUSION_2023_selectivo-estatal_3-de-secundaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q07",
@@ -12699,12 +12861,14 @@
         }
       ],
       "legacy_statement_group": 184,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "5",
       "inherited_solution_unverified": "Un vértice de un cuadrado interior puede ubicarse a distancia k de una esquina, con k entero entre 1 y 9. La perpendicularidad y la igualdad de lados determinan los otros tres vértices. Las áreas son k²+(10-k)². Los valores k y 10-k coinciden, y k=1,...,5 da cinco áreas distintas:82,68,58,52,50.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/3.º de secundaria/FUSION_2023_selectivo-estatal_3-de-secundaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q08",
@@ -12740,12 +12904,14 @@
         }
       ],
       "legacy_statement_group": 185,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "5 cm",
       "inherited_solution_unverified": "Como PB=PC, P está sobre la altura desde A. Si el lado del triángulo es s y P es interior, su altura sobre BC es√3(s/2-1), pues PA=√3. Pitágoras en PB da 13=s²/4+3(s/2-1)²=s²-3 s+3. Entonces(s-5)(s+2)=0 y s=5.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/3.º de secundaria/FUSION_2023_selectivo-estatal_3-de-secundaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q09",
@@ -12781,12 +12947,14 @@
         }
       ],
       "legacy_statement_group": 186,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "0",
       "inherited_solution_unverified": "Para la intersección triple la cota es 50+60+90-2·100=0. Se puede alcanzar:10 hombres italianos no vegetarianos,40 mujeres italianas vegetarianas y 50 hombres no italianos vegetarianos. No se garantiza ningún hombre italiano vegetariano.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/3.º de secundaria/FUSION_2023_selectivo-estatal_3-de-secundaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q10",
@@ -12822,12 +12990,14 @@
         }
       ],
       "legacy_statement_group": 187,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "2^9;opciónc",
-      "checkpoint_notes_unverified": "254*256=127*512"
+      "checkpoint_notes_unverified": "254*256=127*512",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/3.º de secundaria/FUSION_2023_selectivo-estatal_3-de-secundaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q11",
@@ -12842,12 +13012,14 @@
       "problem_text": "Matías, el buscador de oro, sabe por su experiencia, que, después de cerner 10 toneladas de grava del\narroyo Dorado, consigue 30 gramos de oro. ¿Cuántas toneladas habrá que cerner si quiere obtener 12\ngramos de oro?\n𝑃𝐶\n5\n𝑃𝐷 =",
       "options": [],
       "legacy_statement_group": 188,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "4 toneladas",
       "inherited_solution_unverified": "La proporción es 10/30 toneladas por gramo. Para 12 gramos hacen falta 12·10/30=4 toneladas.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "4 toneladas",
-      "checkpoint_notes_unverified": "retirar PC/PD del enunciado;pertenece189"
+      "checkpoint_notes_unverified": "retirar PC/PD del enunciado;pertenece189",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/3.º de secundaria/FUSION_2023_selectivo-estatal_3-de-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q12",
@@ -12862,12 +13034,14 @@
       "problem_text": "PA · PB = 60, y\n48, ¿cuál es el valor de PC?",
       "options": [],
       "legacy_statement_group": 189,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "PC5/2",
-      "checkpoint_notes_unverified": "potenciaPC*PD60"
+      "checkpoint_notes_unverified": "potenciaPC*PD60",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/3.º de secundaria/FUSION_2023_selectivo-estatal_3-de-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q13",
@@ -12882,12 +13056,14 @@
       "problem_text": "Hay 10 estudiantes en la clase de baile. La profesora tiene 80 caramelos, que reparte a partes iguales\nentre las alumnas y le sobran tres caramelos. ¿Cuántos chicos hay en la clase?",
       "options": [],
       "legacy_statement_group": 217,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "3 chicos",
       "inherited_solution_unverified": "Se reparten 77 caramelos entre las alumnas. Su número divide 77 y no supera 10: puede ser 1 o 7. Como sobran 3, el divisor debe ser mayor que 3, así que son 7 alumnas y 3 chicos.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/3.º de secundaria/FUSION_2023_selectivo-estatal_3-de-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q14",
@@ -12902,12 +13078,14 @@
       "problem_text": "La figura de la izquierda muestra una pieza formada por dos rectángulos. Se han marcado las\nlongitudes de dos de los lados, 11 y 13. La pieza se corta en tres partes que se colocan formando un\ntriángulo, como muestra la figura de la derecha.",
       "options": [],
       "legacy_statement_group": 229,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "x37",
-      "checkpoint_notes_unverified": "horizontaltrasladado13+(11+13)"
+      "checkpoint_notes_unverified": "horizontaltrasladado13+(11+13)",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/3.º de secundaria/FUSION_2023_selectivo-estatal_3-de-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q15",
@@ -12922,12 +13100,14 @@
       "problem_text": "¿Cuál es el menor divisor de 2011, distinto de 1?",
       "options": [],
       "legacy_statement_group": 230,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "2011",
-      "checkpoint_notes_unverified": "primo;divisores primoshasta43 comprobados"
+      "checkpoint_notes_unverified": "primo;divisores primoshasta43 comprobados",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/3.º de secundaria/FUSION_2023_selectivo-estatal_3-de-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q01",
@@ -12963,12 +13143,14 @@
         }
       ],
       "legacy_statement_group": 231,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "56 km/h",
       "inherited_solution_unverified": "30 minutos son media hora. La velocidad es 28/(1/2)=56 km/h.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/5.º de primaria y menores/FUSION_2023_selectivo-estatal_5de-primaria-y-menores_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q02",
@@ -13004,12 +13186,14 @@
         }
       ],
       "legacy_statement_group": 232,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "cuadrado;opcióna",
-      "checkpoint_notes_unverified": "restaurarrectángulo,triángulorectángulo,pentágono,isósceles"
+      "checkpoint_notes_unverified": "restaurarrectángulo,triángulorectángulo,pentágono,isósceles",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/5.º de primaria y menores/FUSION_2023_selectivo-estatal_5de-primaria-y-menores_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q03",
@@ -13045,12 +13229,14 @@
         }
       ],
       "legacy_statement_group": 233,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "47",
       "inherited_solution_unverified": "Los primeros quince impares sin cifra 3 son 1,5,7,9,11,15,17,19,21,25,27,29,41,45,47. La decimoquinta es 47.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/5.º de primaria y menores/FUSION_2023_selectivo-estatal_5de-primaria-y-menores_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q04",
@@ -13086,12 +13272,14 @@
         }
       ],
       "legacy_statement_group": 234,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "13;opciónb",
-      "checkpoint_notes_unverified": "grafo bipartito10y6;máximo7+6"
+      "checkpoint_notes_unverified": "grafo bipartito10y6;máximo7+6",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/5.º de primaria y menores/FUSION_2023_selectivo-estatal_5de-primaria-y-menores_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q05",
@@ -13127,12 +13315,14 @@
         }
       ],
       "legacy_statement_group": 235,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "750;opciónd",
-      "checkpoint_notes_unverified": "500interiores+250derechos"
+      "checkpoint_notes_unverified": "500interiores+250derechos",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/5.º de primaria y menores/FUSION_2023_selectivo-estatal_5de-primaria-y-menores_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q06",
@@ -13168,12 +13358,14 @@
         }
       ],
       "legacy_statement_group": 236,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "5",
       "inherited_solution_unverified": "El mes es día+2 y el año abreviado es día+4. El mes debe ser un impar no mayor que 12, por lo que el día puede ser 1,3,5,7 o 9. Resultan 01-03-05,03-05-07,05-07-09,07-09-11 y 09-11-13: cinco fechas válidas.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/5.º de primaria y menores/FUSION_2023_selectivo-estatal_5de-primaria-y-menores_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q07",
@@ -13209,12 +13401,14 @@
         }
       ],
       "legacy_statement_group": 237,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "1120 ml",
       "inherited_solution_unverified": "Al cazar bebe 60·(1+1/3)=80 ml diarios. En 14 días bebe 14·80=1120 ml.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/5.º de primaria y menores/FUSION_2023_selectivo-estatal_5de-primaria-y-menores_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q08",
@@ -13250,12 +13444,14 @@
         }
       ],
       "legacy_statement_group": 238,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "sobra167;opcióne",
-      "checkpoint_notes_unverified": "17+30+49=96;figuranumérica atexto"
+      "checkpoint_notes_unverified": "17+30+49=96;figuranumérica atexto",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/5.º de primaria y menores/FUSION_2023_selectivo-estatal_5de-primaria-y-menores_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q09",
@@ -13291,12 +13487,14 @@
         }
       ],
       "legacy_statement_group": 213,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "64",
       "inherited_solution_unverified": "Un borde de n×n cubos contiene 4 n-4 cubos. De 4 n-4=36 resulta n=10. El interior tiene(10-2)^2=64 cubos.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/5.º de primaria y menores/FUSION_2023_selectivo-estatal_5de-primaria-y-menores_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q10",
@@ -13332,12 +13530,14 @@
         }
       ],
       "legacy_statement_group": 214,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "3612",
       "inherited_solution_unverified": "El entero es 372/31=12. La multiplicación correcta es 12·301=3612.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/5.º de primaria y menores/FUSION_2023_selectivo-estatal_5de-primaria-y-menores_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q11",
@@ -13352,12 +13552,14 @@
       "problem_text": "Tres puntos en una hoja de papel son los vértices de un triángulo. Se quiere dibujar otro punto que\nforme con esos tres un paralelogramo. ¿Cuántas posibilidades hay para situar ese cuarto punto?",
       "options": [],
       "legacy_statement_group": 215,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "3",
       "inherited_solution_unverified": "Cada punto puede ser el vértice común de dos lados del paralelogramo. Esto da tres cuartos vértices distintos: A+B-C,A+C-B y B+C-A.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/5.º de primaria y menores/FUSION_2023_selectivo-estatal_5de-primaria-y-menores_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q12",
@@ -13372,12 +13574,14 @@
       "problem_text": "Usando únicamente piezas como la de la figura se quiere construir un cuadrado sin espacios blancos ni\npiezas encimadas. ¿Cuál es el menor número de piezas necesarias?",
       "options": [],
       "legacy_statement_group": 216,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "20 piezas",
-      "checkpoint_notes_unverified": "no cubre5x5 búsqueda27estados;10x10 con10rectángulos5x2 de2piezas"
+      "checkpoint_notes_unverified": "no cubre5x5 búsqueda27estados;10x10 con10rectángulos5x2 de2piezas",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/5.º de primaria y menores/FUSION_2023_selectivo-estatal_5de-primaria-y-menores_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q13",
@@ -13392,12 +13596,14 @@
       "problem_text": "Hay 10 estudiantes en la clase de baile. La profesora tiene 80 caramelos, que reparte a partes iguales\nentre las alumnas y le sobran tres caramelos. ¿Cuántos chicos hay en la clase?",
       "options": [],
       "legacy_statement_group": 217,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "3 chicos",
       "inherited_solution_unverified": "Se reparten 77 caramelos entre las alumnas. Su número divide 77 y no supera 10: puede ser 1 o 7. Como sobran 3, el divisor debe ser mayor que 3, así que son 7 alumnas y 3 chicos.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/5.º de primaria y menores/FUSION_2023_selectivo-estatal_5de-primaria-y-menores_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q14",
@@ -13412,12 +13618,14 @@
       "problem_text": "Una gata tiene gatitos de 7 colores diferentes: blanco; negro; rubio; blanco y negro; rubio y blanco;\nnegro y rubio; y blanco, negro y rubio. ¿De cuántas maneras se pueden poner 4 gatitos en la cesta de\nmodo que cada par de gatitos compartan por lo menos un color?",
       "options": [],
       "legacy_statement_group": 239,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "4",
       "inherited_solution_unverified": "Si se elige un gatito de un solo color, se deben tomar los otros tres que contienen ese color: una selección por cada color, tres. Sin gatitos monocolores, solo queda la selección de los tres bicolores y el tricolor. Total 4.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/5.º de primaria y menores/FUSION_2023_selectivo-estatal_5de-primaria-y-menores_classified.json",
+      "reviewed_status": "ambiguous_source_kitten_multiplicity"
     },
     {
       "source_id": "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q15",
@@ -13432,12 +13640,14 @@
       "problem_text": "Charlitos dice que Chuty miente. Chuty dice que Rocky miente. Rocky dice que Chuty miente. Chip dice\nque Charlitos miente. ¿Cuántos de los cuatro chicos mienten?",
       "options": [],
       "legacy_statement_group": 240,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "2",
-      "checkpoint_notes_unverified": "dosde cadaveracidad"
+      "checkpoint_notes_unverified": "dosde cadaveracidad",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/5.º de primaria y menores/FUSION_2023_selectivo-estatal_5de-primaria-y-menores_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q01",
@@ -13473,12 +13683,14 @@
         }
       ],
       "legacy_statement_group": 205,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "10cm²;opciónb",
-      "checkpoint_notes_unverified": "distanciaPAD4;baseAD5"
+      "checkpoint_notes_unverified": "distanciaPAD4;baseAD5",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/6.º de primaria/FUSION_2023_selectivo-estatal_6de-primaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q02",
@@ -13514,12 +13726,14 @@
         }
       ],
       "legacy_statement_group": 206,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "no sepuede asegurar;opcióne",
-      "checkpoint_notes_unverified": "independencia;reconstruir opcionescompletas"
+      "checkpoint_notes_unverified": "independencia;reconstruir opcionescompletas",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/6.º de primaria/FUSION_2023_selectivo-estatal_6de-primaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q03",
@@ -13555,12 +13769,14 @@
         }
       ],
       "legacy_statement_group": 207,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "28;opciónd",
-      "checkpoint_notes_unverified": "210-(21+...+28)=14"
+      "checkpoint_notes_unverified": "210-(21+...+28)=14",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/6.º de primaria/FUSION_2023_selectivo-estatal_6de-primaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q04",
@@ -13596,12 +13812,14 @@
         }
       ],
       "legacy_statement_group": 208,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "2 aviones;opcióna",
-      "checkpoint_notes_unverified": "barcos12,aviones4,deja2"
+      "checkpoint_notes_unverified": "barcos12,aviones4,deja2",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/6.º de primaria/FUSION_2023_selectivo-estatal_6de-primaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q05",
@@ -13637,12 +13855,14 @@
         }
       ],
       "legacy_statement_group": 209,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "41;opciónd",
-      "checkpoint_notes_unverified": "quintoimpar descendente"
+      "checkpoint_notes_unverified": "quintoimpar descendente",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/6.º de primaria/FUSION_2023_selectivo-estatal_6de-primaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q06",
@@ -13678,12 +13898,14 @@
         }
       ],
       "legacy_statement_group": 236,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "5",
       "inherited_solution_unverified": "El mes es día+2 y el año abreviado es día+4. El mes debe ser un impar no mayor que 12, por lo que el día puede ser 1,3,5,7 o 9. Resultan 01-03-05,03-05-07,05-07-09,07-09-11 y 09-11-13: cinco fechas válidas.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/6.º de primaria/FUSION_2023_selectivo-estatal_6de-primaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q07",
@@ -13719,12 +13941,14 @@
         }
       ],
       "legacy_statement_group": 237,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "1120 ml",
       "inherited_solution_unverified": "Al cazar bebe 60·(1+1/3)=80 ml diarios. En 14 días bebe 14·80=1120 ml.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/6.º de primaria/FUSION_2023_selectivo-estatal_6de-primaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q08",
@@ -13760,12 +13984,14 @@
         }
       ],
       "legacy_statement_group": 238,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "sobra167;opcióne",
-      "checkpoint_notes_unverified": "17+30+49=96;figuranumérica atexto"
+      "checkpoint_notes_unverified": "17+30+49=96;figuranumérica atexto",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/6.º de primaria/FUSION_2023_selectivo-estatal_6de-primaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q09",
@@ -13801,12 +14027,14 @@
         }
       ],
       "legacy_statement_group": 213,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "64",
       "inherited_solution_unverified": "Un borde de n×n cubos contiene 4 n-4 cubos. De 4 n-4=36 resulta n=10. El interior tiene(10-2)^2=64 cubos.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/6.º de primaria/FUSION_2023_selectivo-estatal_6de-primaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q10",
@@ -13842,12 +14070,14 @@
         }
       ],
       "legacy_statement_group": 214,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "3612",
       "inherited_solution_unverified": "El entero es 372/31=12. La multiplicación correcta es 12·301=3612.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/6.º de primaria/FUSION_2023_selectivo-estatal_6de-primaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q11",
@@ -13862,12 +14092,14 @@
       "problem_text": "Tres puntos en una hoja de papel son los vértices de un triángulo. Se quiere dibujar otro punto que\nforme con esos tres un paralelogramo. ¿Cuántas posibilidades hay para situar ese cuarto punto?",
       "options": [],
       "legacy_statement_group": 215,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "3",
       "inherited_solution_unverified": "Cada punto puede ser el vértice común de dos lados del paralelogramo. Esto da tres cuartos vértices distintos: A+B-C,A+C-B y B+C-A.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/6.º de primaria/FUSION_2023_selectivo-estatal_6de-primaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q12",
@@ -13882,12 +14114,14 @@
       "problem_text": "Usando únicamente piezas como la de la figura se quiere construir un cuadrado sin espacios blancos ni\npiezas encimadas. ¿Cuál es el menor número de piezas necesarias?",
       "options": [],
       "legacy_statement_group": 216,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "20 piezas",
-      "checkpoint_notes_unverified": "no cubre5x5 búsqueda27estados;10x10 con10rectángulos5x2 de2piezas"
+      "checkpoint_notes_unverified": "no cubre5x5 búsqueda27estados;10x10 con10rectángulos5x2 de2piezas",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/6.º de primaria/FUSION_2023_selectivo-estatal_6de-primaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q13",
@@ -13902,12 +14136,14 @@
       "problem_text": "Hay 10 estudiantes en la clase de baile. La profesora tiene 80 caramelos, que reparte a partes iguales\nentre las alumnas y le sobran tres caramelos. ¿Cuántos chicos hay en la clase?",
       "options": [],
       "legacy_statement_group": 217,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "3 chicos",
       "inherited_solution_unverified": "Se reparten 77 caramelos entre las alumnas. Su número divide 77 y no supera 10: puede ser 1 o 7. Como sobran 3, el divisor debe ser mayor que 3, así que son 7 alumnas y 3 chicos.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/6.º de primaria/FUSION_2023_selectivo-estatal_6de-primaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q14",
@@ -13922,12 +14158,14 @@
       "problem_text": "Seis caballeros del Rey Arturo están sentados en la Tabla Redonda. Los que son contiguos son rivales,\npero los no contiguos son amigos. Queremos elegir dos caballeros que sean amigos. ¿Cuántas\nposibilidades tenemos de hacerlo?",
       "options": [],
       "legacy_statement_group": 218,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "9",
-      "checkpoint_notes_unverified": "15parejas menos6contiguas"
+      "checkpoint_notes_unverified": "15parejas menos6contiguas",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/6.º de primaria/FUSION_2023_selectivo-estatal_6de-primaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q15",
@@ -13942,12 +14180,14 @@
       "problem_text": "Laura cose 3 cuadrados superpuestos de colores sobre un tapete cuadrado de 90 cm de lado. Los 2\nmás pequeños tienen 40 cm de lado, y el tercero, más grande, tiene50 cm de lado. Las partes\nsolapadas (en gris en la figura) son cuadrados iguales. ¿Cuánto mide el: lado de los cuadrados grises?",
       "options": [],
       "legacy_statement_group": 219,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "20cm",
-      "checkpoint_notes_unverified": "40+50+40-2x90"
+      "checkpoint_notes_unverified": "40+50+40-2x90",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/6.º de primaria/FUSION_2023_selectivo-estatal_6de-primaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_5-de-primaria_q01",

@@ -4,12 +4,12 @@
   "source_pages": 226,
   "recovered_occurrences": 881,
   "legacy_statement_groups": 441,
-  "published_banks": 53,
-  "published_occurrences": 303,
-  "verified_answer_occurrences": 261,
-  "guided_occurrences": 42,
+  "published_banks": 61,
+  "published_occurrences": 423,
+  "verified_answer_occurrences": 373,
+  "guided_occurrences": 50,
   "alternate_source_occurrences": 42,
-  "pending_occurrences": 536,
+  "pending_occurrences": 416,
   "working_draft": "04_REFERENCE_SOURCES/FUSION/recovery/working_draft.json",
   "reviewed_banks": [
     "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 1/Primaria/FUSION_2020_torneo-1_primaria_classified.json",
@@ -64,6 +64,14 @@
     "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3.º de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-de-secundaria_classified.json",
     "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3.º de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-preparatoria_classified.json",
     "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/5.º de primaria/FUSION_sin-fecha_selectivo-estatal-serie-2_5-de-primaria_classified.json",
-    "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/6.º de primaria/FUSION_sin-fecha_selectivo-estatal-serie-2_6-de-primaria_classified.json"
+    "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/6.º de primaria/FUSION_sin-fecha_selectivo-estatal-serie-2_6-de-primaria_classified.json",
+    "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/1.º de preparatoria/FUSION_2023_selectivo-estatal_1-ano-de-preparatoria_classified.json",
+    "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/2.º de preparatoria/FUSION_2023_selectivo-estatal_2-ano-de-preparatoria_classified.json",
+    "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/3.º de preparatoria/FUSION_2023_selectivo-estatal_3-ano-de-preparatoria_classified.json",
+    "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/1.º de secundaria/FUSION_2023_selectivo-estatal_1-de-secundaria_classified.json",
+    "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/2.º de secundaria/FUSION_2023_selectivo-estatal_2-de-secundaria_classified.json",
+    "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/3.º de secundaria/FUSION_2023_selectivo-estatal_3-de-secundaria_classified.json",
+    "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/5.º de primaria y menores/FUSION_2023_selectivo-estatal_5de-primaria-y-menores_classified.json",
+    "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/6.º de primaria/FUSION_2023_selectivo-estatal_6de-primaria_classified.json"
   ]
 }

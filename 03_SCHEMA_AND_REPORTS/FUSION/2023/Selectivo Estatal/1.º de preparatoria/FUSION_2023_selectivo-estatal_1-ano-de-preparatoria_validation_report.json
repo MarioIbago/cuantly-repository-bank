@@ -1,0 +1,737 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2023/Selectivo Estatal/1 de preparatoria/FUSION_2023_selectivo-estatal_1-de-preparatoria_examen-selectivo-1-ano-de-preparatoria_original.pdf",
+  "source_sha256": "b9517ae2506eefed0e185939fc984067b03d8bdeb3614487082905aa53b67725",
+  "metadata_evidence": "Los ocho encabezados dicen 3.º Campeonato de Olimpiadas Matemáticas FUSION COM, Selectivo Estatal, y su grado; los pies de página imprimen 2023. Se conserva 5.º de primaria y menores. El año proviene de esos pies, no de los números dentro de los problemas.",
+  "source_review": "Las 3 páginas fueron renderizadas y cotejadas visualmente con enunciados, opciones y fórmulas. Las variantes por grado se compararon sin quitar símbolos matemáticos.",
+  "pages": [
+    1,
+    2,
+    3
+  ],
+  "source_numbering": [
+    {
+      "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q01",
+      "collection_ordinal": 1,
+      "source_question_label": "1"
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q02",
+      "collection_ordinal": 2,
+      "source_question_label": "2"
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q03",
+      "collection_ordinal": 3,
+      "source_question_label": "3"
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q04",
+      "collection_ordinal": 4,
+      "source_question_label": "4"
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q05",
+      "collection_ordinal": 5,
+      "source_question_label": "5"
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q06",
+      "collection_ordinal": 6,
+      "source_question_label": "6"
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q07",
+      "collection_ordinal": 7,
+      "source_question_label": "7"
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q08",
+      "collection_ordinal": 8,
+      "source_question_label": "8"
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q09",
+      "collection_ordinal": 9,
+      "source_question_label": "9"
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q10",
+      "collection_ordinal": 10,
+      "source_question_label": "10"
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q11",
+      "collection_ordinal": 11,
+      "source_question_label": "11"
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q12",
+      "collection_ordinal": 12,
+      "source_question_label": "12"
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q13",
+      "collection_ordinal": 13,
+      "source_question_label": "13"
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q14",
+      "collection_ordinal": 14,
+      "source_question_label": "14"
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q15",
+      "collection_ordinal": 15,
+      "source_question_label": "15"
+    }
+  ],
+  "figure_review": [
+    {
+      "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q02",
+      "page": 1,
+      "pdf_image_object": "Image32.png",
+      "bbox_top_left_pdf_points": [
+        439.5,
+        274.515,
+        551,
+        363.75
+      ],
+      "sha256": "e60c08bba88c433a3e8a82c4cdd3d04bf5abc058c61e405352cdd47cf2924d13",
+      "method": "Exact embedded mathematical image bytes from this PDF. Original labels and all relevant geometry retained."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q04",
+      "page": 1,
+      "pdf_image_object": "Image33.png",
+      "bbox_top_left_pdf_points": [
+        441.75,
+        478.51,
+        534.748,
+        592.31
+      ],
+      "sha256": "4b38cd1ef087a88b7e39879d8fed2ad5914615ace80fc566d0377999e7c5fdf1",
+      "method": "Exact embedded mathematical image bytes from this PDF. Original labels and all relevant geometry retained."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q05",
+      "page": 1,
+      "pdf_image_object": "Image48.png",
+      "bbox_top_left_pdf_points": [
+        379.5,
+        606.74,
+        476.929,
+        664.84
+      ],
+      "sha256": "8338c0f147201bc8547d18af1377270044c442cf126fa94424216c690a506691",
+      "method": "Exact embedded mathematical image bytes from this PDF. Original labels and all relevant geometry retained."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q06",
+      "page": 2,
+      "pdf_image_object": "Image63.png",
+      "bbox_top_left_pdf_points": [
+        249.75,
+        167.53999999999996,
+        398.25,
+        262.03999999999996
+      ],
+      "sha256": "34fd3c714978ade830e444a82307e5b52659bb8eda65dcdbbc05c4e3e806b916",
+      "method": "Exact embedded mathematical image bytes from this PDF. Original labels and all relevant geometry retained."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q12",
+      "page": 3,
+      "pdf_image_object": "Image77.png",
+      "bbox_top_left_pdf_points": [
+        268.12,
+        364.18999999999994,
+        379.86,
+        443.34
+      ],
+      "sha256": "13d4f204bafdfb69eda965b5e4738eb2ce5e31ab7f917f234ad252d422c7acd8",
+      "method": "Exact embedded mathematical image bytes from this PDF. Original labels and all relevant geometry retained."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q13",
+      "page": 3,
+      "pdf_image_object": "Image74.jpg",
+      "bbox_top_left_pdf_points": [
+        346.5,
+        459.45000000000005,
+        485.19,
+        553.3
+      ],
+      "sha256": "6223d713766547c14ada329f2c17fccd5dec0bfa8d2dddb3889b09567ec37a1d",
+      "method": "Exact embedded mathematical image bytes from this PDF. Original labels and all relevant geometry retained."
+    }
+  ],
+  "formula_image_transcriptions": [],
+  "transcription_corrections": [
+    {
+      "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q01",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y comparada con el PDF original.",
+      "statement_normalized": false,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q02",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y comparada con el PDF original.",
+      "statement_normalized": true,
+      "options_recovered_from_pdf": true,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q03",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y comparada con el PDF original.",
+      "statement_normalized": false,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": true
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q04",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y comparada con el PDF original.",
+      "statement_normalized": true,
+      "options_recovered_from_pdf": true,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q05",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y comparada con el PDF original.",
+      "statement_normalized": true,
+      "options_recovered_from_pdf": true,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q06",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y comparada con el PDF original.",
+      "statement_normalized": true,
+      "options_recovered_from_pdf": true,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q07",
+      "kind": "manual_source_review",
+      "details": "Otro cuadrado se interpreta como distinto de ABCD; incluir de nuevo el cuadrado exterior añadiría su tamaño. Las nueve posiciones interiores producen cinco tamaños.",
+      "statement_normalized": false,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q08",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y comparada con el PDF original.",
+      "statement_normalized": true,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q09",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y comparada con el PDF original.",
+      "statement_normalized": false,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q10",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y comparada con el PDF original.",
+      "statement_normalized": true,
+      "options_recovered_from_pdf": true,
+      "diagram_flag_corrected": true
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q11",
+      "kind": "manual_source_review",
+      "details": "Se retiró PC/PD=5/48, que pertenece a la siguiente pregunta. No se cambian los datos de la proporción.",
+      "statement_normalized": true,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q12",
+      "kind": "manual_source_review",
+      "details": "La razón 5/48 estaba dividida entre las dos preguntas en la extracción. Se recompuso desde el original y se conserva la figura completa de las dos secantes.",
+      "statement_normalized": true,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q13",
+      "kind": "manual_source_review",
+      "details": "Con la definición exclusiva hay 6; con la inclusiva hay 9 al sumar tres paralelogramos. La fuente no declara la convención.",
+      "statement_normalized": true,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q14",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y comparada con el PDF original.",
+      "statement_normalized": false,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q15",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y comparada con el PDF original.",
+      "statement_normalized": true,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": true
+    }
+  ],
+  "latex_rendering": {
+    "engine": "KaTeX 0.16.47",
+    "expressions": 118,
+    "errors": []
+  },
+  "problems": [
+    {
+      "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q01",
+      "status": "verified",
+      "independent_check": {
+        "totals": [
+          408,
+          504
+        ],
+        "seventh": 96
+      },
+      "notes": "Respuesta recalculada y comparada con el PDF original."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q02",
+      "status": "verified",
+      "independent_check": {
+        "generalProof": "In the unit triangular lattice, squared lengths m²+mn+n² are integers. A nondegenerate lattice square would have integer area equal to a nonzero integer multiple of √3/2, impossible.",
+        "possibleOtherShapes": [
+          "equilateral triangle, also isosceles",
+          "rectangle spanning four unit triangles",
+          "rhombus of two unit triangles",
+          "hexagon of six unit triangles"
+        ]
+      },
+      "notes": "Respuesta recalculada y comparada con el PDF original."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q03",
+      "status": "verified",
+      "independent_check": {
+        "goldGramsPerTonne": 3,
+        "tonnes": 4
+      },
+      "notes": "Respuesta recalculada y comparada con el PDF original."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q04",
+      "status": "verified",
+      "independent_check": {
+        "coordinates": {
+          "A": [
+            0,
+            0
+          ],
+          "B": [
+            3,
+            0
+          ],
+          "D": [
+            3,
+            3
+          ],
+          "C": [
+            12,
+            0
+          ],
+          "E": [
+            12,
+            12
+          ]
+        },
+        "lengths": {
+          "AB": 3,
+          "BD": 3,
+          "AD": 4.242640687119286,
+          "BC": 9,
+          "AC": 12,
+          "CE": 12
+        },
+        "similarityScale": 4
+      },
+      "notes": "Respuesta recalculada y comparada con el PDF original."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q05",
+      "status": "verified",
+      "independent_check": {
+        "quarterCircle": 0.7853981633974483,
+        "rightComplement": 0.21460183660255172,
+        "total": 1
+      },
+      "notes": "Respuesta recalculada y comparada con el PDF original."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q06",
+      "status": "verified",
+      "independent_check": {
+        "sideLengths": [
+          17,
+          4,
+          3,
+          5,
+          13
+        ],
+        "perimeter": 42,
+        "equalSidePairs": 0,
+        "onlyFalseAssertion": "d"
+      },
+      "notes": "Respuesta recalculada y comparada con el PDF original."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q07",
+      "status": "verified",
+      "independent_check": {
+        "placements": [
+          {
+            "t": 1,
+            "area": 82
+          },
+          {
+            "t": 2,
+            "area": 68
+          },
+          {
+            "t": 3,
+            "area": 58
+          },
+          {
+            "t": 4,
+            "area": 52
+          },
+          {
+            "t": 5,
+            "area": 50
+          },
+          {
+            "t": 6,
+            "area": 52
+          },
+          {
+            "t": 7,
+            "area": 58
+          },
+          {
+            "t": 8,
+            "area": 68
+          },
+          {
+            "t": 9,
+            "area": 82
+          }
+        ],
+        "distinctSquaredSideLengths": [
+          82,
+          68,
+          58,
+          52,
+          50
+        ],
+        "originalSquareExcluded": true
+      },
+      "notes": "Otro cuadrado se interpreta como distinto de ABCD; incluir de nuevo el cuadrado exterior añadiría su tamaño. Las nueve posiciones interiores producen cinco tamaños."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q08",
+      "status": "verified",
+      "independent_check": {
+        "side": 5,
+        "A": [
+          0,
+          4.330127018922193
+        ],
+        "B": [
+          -2.5,
+          0
+        ],
+        "C": [
+          2.5,
+          0
+        ],
+        "P": [
+          0,
+          2.598076211353316
+        ],
+        "AP": 1.7320508075688772,
+        "PB_squared": 13,
+        "positiveRoot": 5,
+        "negativeRoot": -2
+      },
+      "notes": "Respuesta recalculada y comparada con el PDF original."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q09",
+      "status": "verified",
+      "independent_check": {
+        "feasibleCells": [
+          {
+            "count": 40,
+            "Italian": true,
+            "man": false,
+            "vegetarian": true
+          },
+          {
+            "count": 10,
+            "Italian": true,
+            "man": true,
+            "vegetarian": false
+          },
+          {
+            "count": 50,
+            "Italian": false,
+            "man": true,
+            "vegetarian": true
+          }
+        ],
+        "totals": {
+          "people": 100,
+          "Italian": 50,
+          "men": 60,
+          "vegetarian": 90,
+          "tripleIntersection": 0
+        }
+      },
+      "notes": "Respuesta recalculada y comparada con el PDF original."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q10",
+      "status": "verified",
+      "independent_check": {
+        "number": "65024",
+        "maxPowerOfTwoExponent": 9,
+        "oddQuotient": "127"
+      },
+      "notes": "Respuesta recalculada y comparada con el PDF original."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q11",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "goldRate": 3,
+        "tonnes": 4,
+        "outputGoldGrams": 12
+      },
+      "notes": "Se retiró PC/PD=5/48, que pertenece a la siguiente pregunta. No se cambian los datos de la proporción."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q12",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "PA": 5,
+        "PB": 12,
+        "power": 60,
+        "PC": 2.5,
+        "PD": 24,
+        "ratio": [
+          5,
+          48
+        ]
+      },
+      "notes": "La razón 5/48 estaba dividida entre las dos preguntas en la extracción. Se recompuso desde el original y se conserva la figura completa de las dos secantes."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q13",
+      "status": "ambiguous_source_trapezoid_definition",
+      "independent_check": {
+        "parallelHorizontalPairs": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "exclusiveSidePairs": [
+          [
+            "p",
+            "q"
+          ],
+          [
+            "q",
+            "m"
+          ]
+        ],
+        "inclusiveAdditionalPair": [
+          "p",
+          "m"
+        ],
+        "exclusiveCount": 6,
+        "inclusiveCount": 9,
+        "ambiguity": "No convention is printed; both common trapezoid definitions are documented."
+      },
+      "notes": "Con la definición exclusiva hay 6; con la inclusiva hay 9 al sumar tres paralelogramos. La fuente no declara la convención."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q14",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "totalTopicTriples": 120,
+        "knownTopicTriples": 10,
+        "probability": [
+          1,
+          12
+        ]
+      },
+      "notes": "Respuesta recalculada y comparada con el PDF original."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q15",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "directBigInt": "9628576947",
+        "digits": 10,
+        "lowerBound": "9612579511",
+        "upperBound": "10000000000"
+      },
+      "notes": "Respuesta recalculada y comparada con el PDF original."
+    }
+  ],
+  "structural_validation": [
+    {
+      "path": "02_JSON_EXAMS/FUSION/2023/Selectivo Estatal/1.º de preparatoria/FUSION_2023_selectivo-estatal_1-ano-de-preparatoria_verified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "d22db9c8df2a89a5418f89f8d24f236d98f5253ef86d5d991a4b86f6fe307539",
+        "bytes": 130763,
+        "problems": 15,
+        "verified": 14,
+        "guided": 1,
+        "images": 6,
+        "figures": [
+          {
+            "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q02",
+            "figure": 1,
+            "sha256": "e60c08bba88c433a3e8a82c4cdd3d04bf5abc058c61e405352cdd47cf2924d13",
+            "width": 199,
+            "height": 159
+          },
+          {
+            "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q04",
+            "figure": 1,
+            "sha256": "4b38cd1ef087a88b7e39879d8fed2ad5914615ace80fc566d0377999e7c5fdf1",
+            "width": 144,
+            "height": 176
+          },
+          {
+            "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q05",
+            "figure": 1,
+            "sha256": "8338c0f147201bc8547d18af1377270044c442cf126fa94424216c690a506691",
+            "width": 207,
+            "height": 123
+          },
+          {
+            "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q06",
+            "figure": 1,
+            "sha256": "34fd3c714978ade830e444a82307e5b52659bb8eda65dcdbbc05c4e3e806b916",
+            "width": 188,
+            "height": 120
+          },
+          {
+            "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q12",
+            "figure": 1,
+            "sha256": "13d4f204bafdfb69eda965b5e4738eb2ce5e31ab7f917f234ad252d422c7acd8",
+            "width": 182,
+            "height": 129
+          },
+          {
+            "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q13",
+            "figure": 1,
+            "sha256": "6223d713766547c14ada329f2c17fccd5dec0bfa8d2dddb3889b09567ec37a1d",
+            "width": 252,
+            "height": 171
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/1.º de preparatoria/FUSION_2023_selectivo-estatal_1-ano-de-preparatoria_classified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "9382ab756aab5e10611b6c4e6b06f01870213ecd99451c1ac3d8853ba4199159",
+        "bytes": 139545,
+        "problems": 15,
+        "verified": 14,
+        "guided": 1,
+        "images": 6,
+        "figures": [
+          {
+            "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q02",
+            "figure": 1,
+            "sha256": "e60c08bba88c433a3e8a82c4cdd3d04bf5abc058c61e405352cdd47cf2924d13",
+            "width": 199,
+            "height": 159
+          },
+          {
+            "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q04",
+            "figure": 1,
+            "sha256": "4b38cd1ef087a88b7e39879d8fed2ad5914615ace80fc566d0377999e7c5fdf1",
+            "width": 144,
+            "height": 176
+          },
+          {
+            "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q05",
+            "figure": 1,
+            "sha256": "8338c0f147201bc8547d18af1377270044c442cf126fa94424216c690a506691",
+            "width": 207,
+            "height": 123
+          },
+          {
+            "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q06",
+            "figure": 1,
+            "sha256": "34fd3c714978ade830e444a82307e5b52659bb8eda65dcdbbc05c4e3e806b916",
+            "width": 188,
+            "height": 120
+          },
+          {
+            "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q12",
+            "figure": 1,
+            "sha256": "13d4f204bafdfb69eda965b5e4738eb2ce5e31ab7f917f234ad252d422c7acd8",
+            "width": 182,
+            "height": 129
+          },
+          {
+            "source_id": "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q13",
+            "figure": 1,
+            "sha256": "6223d713766547c14ada329f2c17fccd5dec0bfa8d2dddb3889b09567ec37a1d",
+            "width": 252,
+            "height": 171
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    }
+  ]
+}

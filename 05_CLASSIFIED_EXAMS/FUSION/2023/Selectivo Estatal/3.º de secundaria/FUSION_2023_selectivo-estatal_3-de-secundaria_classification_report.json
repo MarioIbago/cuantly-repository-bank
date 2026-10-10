@@ -1,0 +1,277 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2023/Selectivo Estatal/3 de secundaria/FUSION_2023_selectivo-estatal_3-de-secundaria_examen-selectivo-3-de-secundaria_original.pdf",
+  "source_sha256": "302959fb1f642e2c98edb8cf5f000c368238387c7edd77fd2a62f8392ad985d8",
+  "school_level": "Tercer año de secundaria",
+  "rubric": "Primary solving idea; L1 familiar direct steps, L2 combines ideas, L3 non-routine argument, relative to the printed school grade. Source defects do not become automatic answers.",
+  "problems": [
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q01",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "area",
+        "overlap",
+        "invariants"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Región inicial del cuadrado grande. Al quitar el cuadrado blanco de lado 3 al de lado 7 quedan \\(7^2-3^2=49-9=40\\) cm².",
+        "Dificultad relativa a Tercer año de secundaria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q02",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "linear_diophantine_equations",
+        "percentages"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Contar aciertos. Si hay a lanzamientos de 5 puntos y b de 8, también hay b de 10. Por tanto \\(5a+18b=99\\).",
+        "Dificultad relativa a Tercer año de secundaria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q03",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L3",
+      "tags": [
+        "isosceles_triangles",
+        "angles",
+        "quadrilaterals"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Triángulo ABC. Como \\(AB=AC\\) y \\(\\angle ABC=75^\\circ\\), también \\(\\angle BCA=75^\\circ\\), y \\(\\angle BAC=30^\\circ\\).",
+        "Dificultad relativa a Tercer año de secundaria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q04",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "congruences",
+        "ages",
+        "casework"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Edad de A. Hace siete años era múltiplo de 8, así que \\(A\\equiv7\\pmod8\\). Dentro de ocho será múltiplo de 7: \\(A\\equiv6\\pmod7\\). La solución menor de 100 es A=55.",
+        "Dificultad relativa a Tercer año de secundaria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q05",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L3",
+      "tags": [
+        "circle_segments",
+        "area",
+        "inequalities"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Distancia de la cuerda al centro. Como divide al radio perpendicular en mitades, está a distancia R/2 del centro, donde R es el radio.",
+        "Dificultad relativa a Tercer año de secundaria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q06",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "polygons",
+        "perimeter",
+        "angles"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Leer lados y vértices. El polígono tiene cinco lados, de longitudes 17, 4, 3, 5 y 13. Por tanto es un pentágono.",
+        "Dificultad relativa a Tercer año de secundaria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q07",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "squares",
+        "lattice_points",
+        "pythagorean_theorem",
+        "casework"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Parametrizar el nuevo cuadrado. Para un cuadrado distinto del exterior, sus vértices sobre los cuatro lados se pueden escribir como \\((t,0),(10,t),(10-t,10),(0,10-t)\\), con t entero entre 1 y 9.",
+        "Dificultad relativa a Tercer año de secundaria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q08",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L3",
+      "tags": [
+        "equilateral_triangles",
+        "pythagorean_theorem",
+        "quadratic_equations"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Ubicar P. Como \\(PB=PC\\), P está en la mediatriz de BC, que es la altura desde A. Al ser interior, está a distancia \\(AP=\\sqrt3\\) hacia abajo desde A.",
+        "Dificultad relativa a Tercer año de secundaria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q09",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "sets",
+        "inclusion_exclusion",
+        "extremal_principle"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "No basta sumar categorías. Hay 50 italianos, 60 hombres y 90 vegetarianos, pero las categorías pueden solaparse de distintas maneras.",
+        "Dificultad relativa a Tercer año de secundaria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q10",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "prime_factorization",
+        "difference_of_squares",
+        "divisibility"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Diferencia de cuadrados. \\(255^2-1=(255-1)(255+1)=254\\cdot256\\).",
+        "Dificultad relativa a Tercer año de secundaria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q11",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "proportionality",
+        "unit_rate"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Rendimiento. Diez toneladas producen 30 gramos, de modo que el rendimiento supuesto es \\(30/10=3\\) gramos por tonelada.",
+        "Dificultad relativa a Tercer año de secundaria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q12",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "power_of_a_point",
+        "secants",
+        "ratios"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Dos secantes. En la figura, P está fuera del círculo; la potencia de P cumple \\(PA\\cdot PB=PC\\cdot PD=60\\).",
+        "Dificultad relativa a Tercer año de secundaria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q13",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "division",
+        "remainders",
+        "divisors"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Caramelos repartidos. Se entregaron \\(80-3=77\\) caramelos a las alumnas.",
+        "Dificultad relativa a Tercer año de secundaria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q14",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L3",
+      "tags": [
+        "dissection",
+        "rotations",
+        "lengths"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Ancho de la pieza inicial. Los dos tramos horizontales miden 11 y 13, por lo que la base completa mide \\(11+13=24\\).",
+        "Dificultad relativa a Tercer año de secundaria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q15",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "primes",
+        "trial_division",
+        "divisors"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Límite de prueba. Si 2011 fuera compuesto, tendría un divisor primo no mayor que \\(\\sqrt{2011}<45\\).",
+        "Dificultad relativa a Tercer año de secundaria."
+      ]
+    }
+  ]
+}

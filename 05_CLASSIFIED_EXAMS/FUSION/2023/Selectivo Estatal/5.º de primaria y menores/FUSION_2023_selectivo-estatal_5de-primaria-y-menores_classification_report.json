@@ -1,0 +1,278 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2023/Selectivo Estatal/5 de primaria/FUSION_2023_selectivo-estatal_5-de-primaria_examen-selectivo-5de-primaria-y-menores_original.pdf",
+  "source_sha256": "e625f494a03830d9fc5e79a7b8930713bae731fd23049aadab50d468d8ddac5d",
+  "school_level": "Quinto año de primaria y menores",
+  "rubric": "Primary solving idea; L1 familiar direct steps, L2 combines ideas, L3 non-routine argument, relative to the printed school grade. Source defects do not become automatic answers.",
+  "problems": [
+    {
+      "source_id": "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q01",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "rates",
+        "time_conversion"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Convertir el tiempo. Treinta minutos equivalen a media hora.",
+        "Dificultad relativa a Quinto año de primaria y menores."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q02",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "polygons",
+        "cuts",
+        "construction"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Cortes que sí funcionan. Un corte paralelo a dos lados produce rectángulos. Un corte que une puntos de dos lados adyacentes produce un triángulo en una esquina y un pentágono en la otra parte. La diagonal produce triángulos rectángulos e isósceles.",
+        "Dificultad relativa a Quinto año de primaria y menores."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q03",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "digits",
+        "ordering",
+        "casework"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Primera decena. Los impares sin 3 son 1, 5, 7 y 9: cuatro casas.",
+        "Dificultad relativa a Quinto año de primaria y menores."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q04",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L3",
+      "tags": [
+        "graphs",
+        "paths",
+        "bipartite_coloring",
+        "extremal_principle"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Modelar los cruces. Hay cuatro filas de semillas, con 1, 3, 5 y 7 cruces. Numeramos las filas desde r=0 hasta 3 y las columnas como \\(x=-r,\\ldots,r\\); los túneles unen cruces vecinos horizontales o verticales.",
+        "Dificultad relativa a Quinto año de primaria y menores."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q05",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "fractions",
+        "flow_network",
+        "conservation"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Primera bifurcación. Los 1000 litros se reparten en dos ramales de 500.",
+        "Dificultad relativa a Quinto año de primaria y menores."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q06",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "calendar",
+        "sequences",
+        "casework"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Escribir el patrón. Si el día es d, el mes debe ser \\(d+2\\) y las dos cifras del año, \\(d+4\\). Los tres deben ser impares consecutivos.",
+        "Dificultad relativa a Quinto año de primaria y menores."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q07",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "fractions",
+        "rates",
+        "time_conversion"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Consumo al cazar. Un tercio de 60 es 20, así que cada día de caza bebe \\(60+20=80\\) ml.",
+        "Dificultad relativa a Quinto año de primaria y menores."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q08",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "addition",
+        "casework",
+        "invariants"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Leer la figura original. Los números disponibles son 17, 167, 30, 49 y 96. Se requieren tres sumandos y un resultado, usando cuatro números.",
+        "Dificultad relativa a Quinto año de primaria y menores."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q09",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "square_border",
+        "area",
+        "counting"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Contar el borde sin repetir esquinas. Si hay n cubos por lado, el borde tiene \\(4n-4\\), pues las cuatro esquinas se contarían dos veces al sumar los cuatro lados.",
+        "Dificultad relativa a Quinto año de primaria y menores."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q10",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "division",
+        "multiplication",
+        "inverse_operations"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Recuperar el entero. Al multiplicarlo por 31 se obtuvo 372, así que el entero era \\(372/31=12\\).",
+        "Dificultad relativa a Quinto año de primaria y menores."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q11",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "parallelograms",
+        "parallel_lines",
+        "construction"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Elegir una esquina. De los tres puntos del triángulo, cualquiera puede ser el vértice común de dos lados adyacentes del paralelogramo.",
+        "Dificultad relativa a Quinto año de primaria y menores."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q12",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L3",
+      "tags": [
+        "tiling",
+        "area",
+        "divisibility",
+        "casework"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área de una pieza. La figura tiene cinco casillas: cuatro en línea y una sobre un extremo. Si un cuadrado se forma con N piezas, su área en casillas es \\(5N=s^2\\), de modo que su lado entero s debe ser múltiplo de 5.",
+        "Dificultad relativa a Quinto año de primaria y menores."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q13",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "division",
+        "remainders",
+        "divisors"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Caramelos repartidos. Se entregaron \\(80-3=77\\) caramelos a las alumnas.",
+        "Dificultad relativa a Quinto año de primaria y menores."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q14",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "sets",
+        "intersecting_families",
+        "casework"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Modelo con tipos distintos. Representemos blanco, negro y rubio por B, N y R. Los siete patrones son B, N, R, BN, BR, NR y BNR. Si se eligen cuatro patrones diferentes, cada pareja debe compartir una letra.",
+        "Dificultad relativa a Quinto año de primaria y menores."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q15",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "logic",
+        "truth_assignments"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Charlitos y Rocky dicen lo mismo. Ambos afirman que Chuty miente, así que tienen el mismo valor de verdad.",
+        "Dificultad relativa a Quinto año de primaria y menores."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1589 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2023/Selectivo Estatal/6 de primaria/FUSION_2023_selectivo-estatal_6-de-primaria_examen-selectivo-6de-primaria_original.pdf",
+  "source_sha256": "8981fb548eef9277a38669f7d1ca144e9e83f5ba9f9d56449450c32bc242fe49",
+  "metadata_evidence": "Los ocho encabezados dicen 3.º Campeonato de Olimpiadas Matemáticas FUSION COM, Selectivo Estatal, y su grado; los pies de página imprimen 2023. Se conserva 5.º de primaria y menores. El año proviene de esos pies, no de los números dentro de los problemas.",
+  "source_review": "Las 3 páginas fueron renderizadas y cotejadas visualmente con enunciados, opciones y fórmulas. Las variantes por grado se compararon sin quitar símbolos matemáticos.",
+  "pages": [
+    1,
+    2,
+    3
+  ],
+  "source_numbering": [
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q01",
+      "collection_ordinal": 1,
+      "source_question_label": "1"
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q02",
+      "collection_ordinal": 2,
+      "source_question_label": "2"
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q03",
+      "collection_ordinal": 3,
+      "source_question_label": "3"
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q04",
+      "collection_ordinal": 4,
+      "source_question_label": "4"
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q05",
+      "collection_ordinal": 5,
+      "source_question_label": "5"
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q06",
+      "collection_ordinal": 6,
+      "source_question_label": "6"
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q07",
+      "collection_ordinal": 7,
+      "source_question_label": "7"
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q08",
+      "collection_ordinal": 8,
+      "source_question_label": "8"
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q09",
+      "collection_ordinal": 9,
+      "source_question_label": "9"
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q10",
+      "collection_ordinal": 10,
+      "source_question_label": "10"
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q11",
+      "collection_ordinal": 11,
+      "source_question_label": "11"
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q12",
+      "collection_ordinal": 12,
+      "source_question_label": "12"
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q13",
+      "collection_ordinal": 13,
+      "source_question_label": "13"
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q14",
+      "collection_ordinal": 14,
+      "source_question_label": "14"
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q15",
+      "collection_ordinal": 15,
+      "source_question_label": "15"
+    }
+  ],
+  "figure_review": [
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q01",
+      "page": 1,
+      "pdf_image_object": "Image32.png",
+      "bbox_top_left_pdf_points": [
+        426.75,
+        207.61,
+        521.238,
+        279.46000000000004
+      ],
+      "sha256": "2527ff095a1dffc9db3e13e70a818d8d7fb438180724175f4c97d82c3d8eda29",
+      "method": "Exact embedded mathematical image bytes from this PDF. Original labels and all relevant geometry retained."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q09",
+      "page": 2,
+      "pdf_image_object": "Image55.png",
+      "bbox_top_left_pdf_points": [
+        432.75,
+        470.84000000000003,
+        536.95,
+        555.59
+      ],
+      "sha256": "a157de3f2dc9365c516b8e2b7a56e40cf30f11ac2c5268bcff9be896f5bef0a6",
+      "method": "Exact embedded mathematical image bytes from this PDF. Original labels and all relevant geometry retained."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q12",
+      "page": 3,
+      "pdf_image_object": "Image77.png",
+      "bbox_top_left_pdf_points": [
+        249.75,
+        340.59000000000003,
+        398.21000000000004,
+        435.44
+      ],
+      "sha256": "b5d3ff4a354d00d2ae48572d4a4e6de8c7650f13af8f06b760a0d1893d55d873",
+      "method": "Exact embedded mathematical image bytes from this PDF. Original labels and all relevant geometry retained."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q15",
+      "page": 3,
+      "pdf_image_object": "Image78.png",
+      "bbox_top_left_pdf_points": [
+        268.5,
+        626.1990000000001,
+        379.5,
+        737.199
+      ],
+      "sha256": "c37015ab101c5f8d53c9bb6803d3f8829ff912f8bd48bb25c46c7e28b8f1950f",
+      "method": "Exact embedded mathematical image bytes from this PDF. Original labels and all relevant geometry retained."
+    }
+  ],
+  "formula_image_transcriptions": [
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q08",
+      "page": 2,
+      "object": "Image54.png",
+      "sha256": "627045b7df59cdf73f0316498740dd55d06cef1d928280a716e656a55de02b42",
+      "transcription": "Numbers 17, 167, 30, 49, 96; three addends and one result. Original figure says 96; option d says 94."
+    }
+  ],
+  "transcription_corrections": [
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q01",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y comparada con el PDF original.",
+      "statement_normalized": true,
+      "options_recovered_from_pdf": true,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q02",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y comparada con el PDF original.",
+      "statement_normalized": true,
+      "options_recovered_from_pdf": true,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q03",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y comparada con el PDF original.",
+      "statement_normalized": false,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q04",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y comparada con el PDF original.",
+      "statement_normalized": false,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q05",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y comparada con el PDF original.",
+      "statement_normalized": false,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": true
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q06",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y comparada con el PDF original.",
+      "statement_normalized": false,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q07",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y comparada con el PDF original.",
+      "statement_normalized": false,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": true
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q08",
+      "kind": "manual_source_review",
+      "details": "La figura dice 96 y la opción d dice 94. Se preservan ambos valores en su lugar original; el esquema de suma se transcribe a LaTeX. La respuesta única sigue siendo e:167.",
+      "statement_normalized": true,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": true
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q09",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y comparada con el PDF original.",
+      "statement_normalized": false,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q10",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y comparada con el PDF original.",
+      "statement_normalized": false,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": true
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q11",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y comparada con el PDF original.",
+      "statement_normalized": false,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q12",
+      "kind": "manual_source_review",
+      "details": "Imposibilidad de 5×5 comprobada por búsqueda exacta exhaustiva con las ocho orientaciones de la pieza; seis casos de esquina, ninguno completable. Se guarda construcción explícita de 20 piezas que cubren 100 celdas sin solaparse.",
+      "statement_normalized": false,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q13",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y comparada con el PDF original.",
+      "statement_normalized": false,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q14",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y comparada con el PDF original.",
+      "statement_normalized": false,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q15",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y comparada con el PDF original.",
+      "statement_normalized": false,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": false
+    }
+  ],
+  "latex_rendering": {
+    "engine": "KaTeX 0.16.47",
+    "expressions": 58,
+    "errors": []
+  },
+  "problems": [
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q01",
+      "status": "verified",
+      "independent_check": {
+        "squareSide": 5,
+        "pointP": [
+          4,
+          3
+        ],
+        "AP": 5,
+        "distanceToBC": 1,
+        "areaAPD": 10
+      },
+      "notes": "Respuesta recalculada y comparada con el PDF original."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q02",
+      "status": "verified",
+      "independent_check": {
+        "eightEquiprobableFutureOutcomes": [
+          "000",
+          "001",
+          "010",
+          "011",
+          "100",
+          "101",
+          "110",
+          "111"
+        ],
+        "threeHeadsProbability": [
+          1,
+          8
+        ],
+        "threeTailsProbability": [
+          1,
+          8
+        ],
+        "headMajorityProbability": [
+          4,
+          8
+        ],
+        "tailMajorityProbability": [
+          4,
+          8
+        ],
+        "conclusion": "No a–d prediction is certain; previous tosses do not determine the next ones."
+      },
+      "notes": "Respuesta recalculada y comparada con el PDF original."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q03",
+      "status": "verified",
+      "independent_check": {
+        "firstSum": 210,
+        "remainingByLastSubtracted": {
+          "26": 69,
+          "27": 42,
+          "28": 14,
+          "29": -15,
+          "30": -45
+        },
+        "last": 28
+      },
+      "notes": "Respuesta recalculada y comparada con el PDF original."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q04",
+      "status": "verified",
+      "independent_check": {
+        "boats": 12,
+        "planes": 4,
+        "leftAtHome": {
+          "boats": 6,
+          "planes": 2,
+          "total": 8
+        },
+        "planesTaken": 2
+      },
+      "notes": "Respuesta recalculada y comparada con el PDF original."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q05",
+      "status": "verified",
+      "independent_check": {
+        "order": [
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          20,
+          22,
+          24,
+          26,
+          28,
+          30,
+          32,
+          34,
+          36,
+          38,
+          40,
+          42,
+          44,
+          46,
+          48,
+          50,
+          49,
+          47,
+          45,
+          43,
+          41,
+          39,
+          37,
+          35,
+          33,
+          31,
+          29,
+          27,
+          25,
+          23,
+          21,
+          19,
+          17,
+          15,
+          13,
+          11,
+          9,
+          7,
+          5,
+          3,
+          1
+        ],
+        "position30": 41
+      },
+      "notes": "Respuesta recalculada y comparada con el PDF original."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q06",
+      "status": "verified",
+      "independent_check": {
+        "datesDayMonthYear2Digits": [
+          [
+            1,
+            3,
+            5
+          ],
+          [
+            3,
+            5,
+            7
+          ],
+          [
+            5,
+            7,
+            9
+          ],
+          [
+            7,
+            9,
+            11
+          ],
+          [
+            9,
+            11,
+            13
+          ]
+        ],
+        "count": 5
+      },
+      "notes": "Respuesta recalculada y comparada con el PDF original."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q07",
+      "status": "verified",
+      "independent_check": {
+        "normalDailyMl": 60,
+        "extraDailyMl": 20,
+        "huntingDailyMl": 80,
+        "days": 14,
+        "totalMl": 1120
+      },
+      "notes": "Respuesta recalculada y comparada con el PDF original."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q08",
+      "status": "verified",
+      "independent_check": {
+        "figureNumbers": [
+          17,
+          167,
+          30,
+          49,
+          96
+        ],
+        "total": 359,
+        "cases": [
+          {
+            "excluded": 17,
+            "resultCandidates": []
+          },
+          {
+            "excluded": 167,
+            "resultCandidates": [
+              96
+            ]
+          },
+          {
+            "excluded": 30,
+            "resultCandidates": []
+          },
+          {
+            "excluded": 49,
+            "resultCandidates": []
+          },
+          {
+            "excluded": 96,
+            "resultCandidates": []
+          }
+        ],
+        "printedOptionD": 94,
+        "figureValue": 96,
+        "onlyValidExclusion": 167
+      },
+      "notes": "La figura dice 96 y la opción d dice 94. Se preservan ambos valores en su lugar original; el esquema de suma se transcribe a LaTeX. La respuesta única sigue siendo e:167."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q09",
+      "status": "verified",
+      "independent_check": {
+        "perimeterEquation": "4n−4=36",
+        "side": 10,
+        "insideSide": 8,
+        "insideCubes": 64
+      },
+      "notes": "Respuesta recalculada y comparada con el PDF original."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q10",
+      "status": "verified",
+      "independent_check": {
+        "mistakenMultiplier": 31,
+        "printedProduct": 372,
+        "integer": 12,
+        "correctMultiplier": 301,
+        "correctProduct": 3612
+      },
+      "notes": "Respuesta recalculada y comparada con el PDF original."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q11",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "givenNoncollinearPoints": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "fourthPointPossibilities": [
+          [
+            2,
+            2
+          ],
+          [
+            -2,
+            2
+          ],
+          [
+            2,
+            -2
+          ]
+        ],
+        "count": 3,
+        "completeness": "Each of the three given points can be the common corner; A+B−C, A+C−B, B+C−A are distinct."
+      },
+      "notes": "Respuesta recalculada y comparada con el PDF original."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q12",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "model": "Unit-grid polyomino tiling, all rotations and reflections permitted.",
+        "piece": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "orientations": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          [
+            [
+              3,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ]
+          ]
+        ],
+        "exhaustive5x5": {
+          "size": 5,
+          "orientations": 8,
+          "placementCount": 64,
+          "searchNodes": 32,
+          "solution": null,
+          "exhaustive": true
+        },
+        "allCornerCases": [
+          {
+            "firstPiece": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            "remainingSearchNodes": 8,
+            "completion": false
+          },
+          {
+            "firstPiece": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ]
+            ],
+            "remainingSearchNodes": 6,
+            "completion": false
+          },
+          {
+            "firstPiece": [
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                3
+              ]
+            ],
+            "remainingSearchNodes": 3,
+            "completion": false
+          },
+          {
+            "firstPiece": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                0
+              ],
+              [
+                3,
+                1
+              ]
+            ],
+            "remainingSearchNodes": 3,
+            "completion": false
+          },
+          {
+            "firstPiece": [
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                2,
+                1
+              ],
+              [
+                3,
+                1
+              ]
+            ],
+            "remainingSearchNodes": 6,
+            "completion": false
+          },
+          {
+            "firstPiece": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ]
+            ],
+            "remainingSearchNodes": 8,
+            "completion": false
+          }
+        ],
+        "proofAlgorithm": "function(size,shapes){\n var full=(1n<<BigInt(size*size))-1n,placements=[],byCell=Array.from({length:size*size},()=>[]);\n for(var [oi,shape]of shapes.entries()){var w=Math.max(...shape.map(c=>c[0]))+1,h=Math.max(...shape.map(c=>c[1]))+1;for(var y=0;y<=size-h;y++)for(var x=0;x<=size-w;x++){var cs=shape.map(([dx,dy])=>[x+dx,y+dy]);var mask=cs.reduce((m,[px,py])=>m|(1n<<BigInt(py*size+px)),0n);var pi=placements.length;placements.push({orientation:oi,x,y,cells:cs,mask});for(var [px,py]of cs)byCell[py*size+px].push(pi);}}\n var nodes=0,dead=new Set();\n var search=function(used,chosen){nodes++;if(used===full)return chosen;if(dead.has(used.toString()))return null;var best=null;for(var cell=0;cell<size*size;cell++)if(!(used&(1n<<BigInt(cell)))){var opts=byCell[cell].filter(pi=>!(used&placements[pi].mask));if(!opts.length)return null;if(!best||opts.length<best.length)best=opts;if(best.length===1)break;}for(var pi of best){var out=search(used|placements[pi].mask,[...chosen,pi]);if(out)return out;}dead.add(used.toString());return null;};\n var sol=search(0n,[]);return{size,orientations:shapes.length,placementCount:placements.length,searchNodes:nodes,solution:sol?.map(pi=>{var p=placements[pi];return{orientation:p.orientation,x:p.x,y:p.y,cells:p.cells};})||null,exhaustive:!sol};\n}",
+        "cornerCaseAlgorithm": "function(size,shapes){\n var full=(1n<<BigInt(size*size))-1n,placements=[],byCell=Array.from({length:size*size},()=>[]);\n for(var shape of shapes){var w=Math.max(...shape.map(c=>c[0]))+1,h=Math.max(...shape.map(c=>c[1]))+1;for(var y=0;y<=size-h;y++)for(var x=0;x<=size-w;x++){var cells=shape.map(([dx,dy])=>[x+dx,y+dy]),mask=cells.reduce((m,[px,py])=>m|(1n<<BigInt(py*size+px)),0n),index=placements.length;placements.push({cells,mask});for(var [px,py]of cells)byCell[py*size+px].push(index);}}\n var branches=0;var dfs=function(used){branches++;if(used===full)return true;var best=null;for(var k=0;k<size*size;k++)if(!(used&(1n<<BigInt(k)))){var opts=byCell[k].filter(i=>!(used&placements[i].mask));if(!opts.length)return false;if(!best||opts.length<best.length)best=opts;}for(var i of best)if(dfs(used|placements[i].mask))return true;return false;};\n return byCell[0].map(i=>{var before=branches,sol=dfs(placements[i].mask);return{firstPiece:placements[i].cells,remainingSearchNodes:branches-before,completion:sol};});\n}",
+        "construction10x10": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              4,
+              0
+            ]
+          ],
+          [
+            [
+              5,
+              0
+            ],
+            [
+              6,
+              0
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              8,
+              0
+            ],
+            [
+              5,
+              1
+            ]
+          ],
+          [
+            [
+              6,
+              1
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              9,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          [
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              4,
+              2
+            ]
+          ],
+          [
+            [
+              5,
+              2
+            ],
+            [
+              6,
+              2
+            ],
+            [
+              7,
+              2
+            ],
+            [
+              8,
+              2
+            ],
+            [
+              5,
+              3
+            ]
+          ],
+          [
+            [
+              6,
+              3
+            ],
+            [
+              7,
+              3
+            ],
+            [
+              8,
+              3
+            ],
+            [
+              9,
+              3
+            ],
+            [
+              9,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              0,
+              5
+            ]
+          ],
+          [
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              4
+            ]
+          ],
+          [
+            [
+              5,
+              4
+            ],
+            [
+              6,
+              4
+            ],
+            [
+              7,
+              4
+            ],
+            [
+              8,
+              4
+            ],
+            [
+              5,
+              5
+            ]
+          ],
+          [
+            [
+              6,
+              5
+            ],
+            [
+              7,
+              5
+            ],
+            [
+              8,
+              5
+            ],
+            [
+              9,
+              5
+            ],
+            [
+              9,
+              4
+            ]
+          ],
+          [
+            [
+              0,
+              6
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              0,
+              7
+            ]
+          ],
+          [
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          [
+            [
+              5,
+              6
+            ],
+            [
+              6,
+              6
+            ],
+            [
+              7,
+              6
+            ],
+            [
+              8,
+              6
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          [
+            [
+              6,
+              7
+            ],
+            [
+              7,
+              7
+            ],
+            [
+              8,
+              7
+            ],
+            [
+              9,
+              7
+            ],
+            [
+              9,
+              6
+            ]
+          ],
+          [
+            [
+              0,
+              8
+            ],
+            [
+              1,
+              8
+            ],
+            [
+              2,
+              8
+            ],
+            [
+              3,
+              8
+            ],
+            [
+              0,
+              9
+            ]
+          ],
+          [
+            [
+              1,
+              9
+            ],
+            [
+              2,
+              9
+            ],
+            [
+              3,
+              9
+            ],
+            [
+              4,
+              9
+            ],
+            [
+              4,
+              8
+            ]
+          ],
+          [
+            [
+              5,
+              8
+            ],
+            [
+              6,
+              8
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              8,
+              8
+            ],
+            [
+              5,
+              9
+            ]
+          ],
+          [
+            [
+              6,
+              9
+            ],
+            [
+              7,
+              9
+            ],
+            [
+              8,
+              9
+            ],
+            [
+              9,
+              9
+            ],
+            [
+              9,
+              8
+            ]
+          ]
+        ],
+        "constructionCells": 100,
+        "constructionPieces": 20,
+        "areaRestriction": "5N=s² => s is divisible by 5",
+        "minimumPieces": 20
+      },
+      "notes": "Imposibilidad de 5×5 comprobada por búsqueda exacta exhaustiva con las ocho orientaciones de la pieza; seis casos de esquina, ninguno completable. Se guarda construcción explícita de 20 piezas que cubren 100 celdas sin solaparse."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q13",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "allFeasibleCases": [
+          {
+            "girls": 7,
+            "boys": 3,
+            "candiesEach": 11
+          }
+        ]
+      },
+      "notes": "Respuesta recalculada y comparada con el PDF original."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q14",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "totalPairs": 15,
+        "adjacentPairs": 6,
+        "nonAdjacentPairs": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            5
+          ]
+        ],
+        "count": 9
+      },
+      "notes": "Respuesta recalculada y comparada con el PDF original."
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q15",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "sideLengths": [
+          40,
+          50,
+          40
+        ],
+        "outerSide": 90,
+        "overlapSide": 20,
+        "diagonalIntervals": [
+          [
+            0,
+            40
+          ],
+          [
+            20,
+            70
+          ],
+          [
+            50,
+            90
+          ]
+        ],
+        "grayOverlapIntervals": [
+          [
+            20,
+            40
+          ],
+          [
+            50,
+            70
+          ]
+        ]
+      },
+      "notes": "Respuesta recalculada y comparada con el PDF original."
+    }
+  ],
+  "structural_validation": [
+    {
+      "path": "02_JSON_EXAMS/FUSION/2023/Selectivo Estatal/6.º de primaria/FUSION_2023_selectivo-estatal_6de-primaria_verified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "9e2ce103a4b25a3463a705666af8941ff157fb1f0e49200186354af2ea55a115",
+        "bytes": 80000,
+        "problems": 15,
+        "verified": 15,
+        "guided": 0,
+        "images": 4,
+        "figures": [
+          {
+            "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q01",
+            "figure": 1,
+            "sha256": "2527ff095a1dffc9db3e13e70a818d8d7fb438180724175f4c97d82c3d8eda29",
+            "width": 182,
+            "height": 139
+          },
+          {
+            "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q09",
+            "figure": 1,
+            "sha256": "a157de3f2dc9365c516b8e2b7a56e40cf30f11ac2c5268bcff9be896f5bef0a6",
+            "width": 142,
+            "height": 116
+          },
+          {
+            "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q12",
+            "figure": 1,
+            "sha256": "b5d3ff4a354d00d2ae48572d4a4e6de8c7650f13af8f06b760a0d1893d55d873",
+            "width": 137,
+            "height": 87
+          },
+          {
+            "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q15",
+            "figure": 1,
+            "sha256": "c37015ab101c5f8d53c9bb6803d3f8829ff912f8bd48bb25c46c7e28b8f1950f",
+            "width": 120,
+            "height": 120
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/6.º de primaria/FUSION_2023_selectivo-estatal_6de-primaria_classified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "667aa47c1cb44c0be6be9348de7d6c1a965b5f70e2ebfaa646236bd670abc5e9",
+        "bytes": 88653,
+        "problems": 15,
+        "verified": 15,
+        "guided": 0,
+        "images": 4,
+        "figures": [
+          {
+            "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q01",
+            "figure": 1,
+            "sha256": "2527ff095a1dffc9db3e13e70a818d8d7fb438180724175f4c97d82c3d8eda29",
+            "width": 182,
+            "height": 139
+          },
+          {
+            "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q09",
+            "figure": 1,
+            "sha256": "a157de3f2dc9365c516b8e2b7a56e40cf30f11ac2c5268bcff9be896f5bef0a6",
+            "width": 142,
+            "height": 116
+          },
+          {
+            "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q12",
+            "figure": 1,
+            "sha256": "b5d3ff4a354d00d2ae48572d4a4e6de8c7650f13af8f06b760a0d1893d55d873",
+            "width": 137,
+            "height": 87
+          },
+          {
+            "source_id": "fusion3_examen-selectivo-6de-primaria_6de-primaria_q15",
+            "figure": 1,
+            "sha256": "c37015ab101c5f8d53c9bb6803d3f8829ff912f8bd48bb25c46c7e28b8f1950f",
+            "width": 120,
+            "height": 120
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    }
+  ]
+}

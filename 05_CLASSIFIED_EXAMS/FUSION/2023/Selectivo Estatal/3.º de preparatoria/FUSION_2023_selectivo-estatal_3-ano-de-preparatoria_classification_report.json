@@ -1,0 +1,280 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2023/Selectivo Estatal/3 de preparatoria/FUSION_2023_selectivo-estatal_3-de-preparatoria_examen-selectivo-3-ano-de-preparatoria-docx_original.pdf",
+  "source_sha256": "a0962674699b3a82206bad15879020fac08c94b30d78672b07378f097e5f0dcd",
+  "school_level": "Tercer año de preparatoria",
+  "rubric": "Primary solving idea; L1 familiar direct steps, L2 combines ideas, L3 non-routine argument, relative to the printed school grade. Source defects do not become automatic answers.",
+  "problems": [
+    {
+      "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q01",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "primes",
+        "parity",
+        "casework"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Caso k=1. El mayor primo hasta 2 es 2, hasta 3 es 3 y hasta 5 es 5. Por tanto \\(2+3=5\\): sí funciona.",
+        "Dificultad relativa a Tercer año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q02",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "quadratic_equations",
+        "factorization"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Agrupar el producto. Llevar \\(-2pq\\) al lado izquierdo da \\(p^2+2pq+q^2-2p-2q=15\\).",
+        "Dificultad relativa a Tercer año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q03",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "completing_the_square",
+        "minimization"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Completar cuadrados. La expresión se puede escribir como \\((X+Y+1)^2+3(Y+1)^2+3\\).",
+        "Dificultad relativa a Tercer año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q04",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "graphs",
+        "parity",
+        "linear_equations"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Dos pasos conservan el número. Si cada segmento une números que suman S, partir de un valor u lleva a \\(S-u\\) en el siguiente punto y vuelve a u tras otro segmento.",
+        "Dificultad relativa a Tercer año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q05",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "area",
+        "circles",
+        "complements"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Dividir el rectángulo. La línea vertical a una unidad lo divide en dos cuadrados de área 1.",
+        "Dificultad relativa a Tercer año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q06",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "similar_triangles",
+        "area",
+        "trapezoids",
+        "pythagorean_theorem"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Triángulo izquierdo. Sus catetos miden 12 y 16, de modo que la diagonal común mide \\(\\sqrt{12^2+16^2}=20\\). Su área es \\(12\\cdot16/2=96\\).",
+        "Dificultad relativa a Tercer año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q07",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "gcd",
+        "divisibility",
+        "parity",
+        "proof"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Nombrar los mcd. Sean \\(d=\\gcd(x,y)\\), \\(e=\\gcd(x+1,y+1)\\) y \\(t=x-y=d+e>0\\).",
+        "Dificultad relativa a Tercer año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q08",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "scale",
+        "area",
+        "percentages"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área correcta. Una escala \\(1:n\\) multiplica las longitudes por n y las áreas por \\(n^2\\). Si el área medida es A, la correcta es \\(An^2\\).",
+        "Dificultad relativa a Tercer año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q09",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "continued_fractions",
+        "inequalities",
+        "simplification"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Describir las cinco expresiones. Para k=1,2,3,4,5, cada opción tiene la forma \\(F(k)=\\frac{k}{k+\\frac{k}{k+\\frac{k}{k+k}}}\\).",
+        "Dificultad relativa a Tercer año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q10",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "prime_factorization",
+        "difference_of_squares",
+        "divisibility"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Diferencia de cuadrados. \\(255^2-1=(255-1)(255+1)=254\\cdot256\\).",
+        "Dificultad relativa a Tercer año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q11",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "parallelograms",
+        "circles",
+        "thales_theorem",
+        "area"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Diámetro. La figura coloca A y B en extremos de un diámetro, con O como centro. Como \\(AO=3\\), se tiene \\(AB=6\\).",
+        "Dificultad relativa a Tercer año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q12",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "pythagorean_theorem",
+        "measurement",
+        "approximation"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Leer las medidas. La figura marca un triángulo rectángulo con hipotenusa 5 m y base 2.3 m. Su altura vertical incluye el segmento de 1.8 m por encima de la mano levantada.",
+        "Dificultad relativa a Tercer año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q13",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "counting",
+        "trapezoids",
+        "parallelograms",
+        "combinations"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Elegir las bases. Las rectas a, b y c son paralelas. Cada par forma las dos bases: hay \\(\\binom32=3\\) elecciones.",
+        "Dificultad relativa a Tercer año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q14",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "grid",
+        "periodicity",
+        "construction"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Clasificar casillas por residuos. Numeramos filas y columnas del 0 al 4. Cada casilla tiene un par de residuos módulo 3, uno de fila y otro de columna. Hay nueve clases posibles.",
+        "Dificultad relativa a Tercer año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q15",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "perfect_matchings",
+        "cube",
+        "casework"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Qué significa elegir cuatro aristas. Son ocho extremos distintos, de modo que cada uno de los ocho vértices del cubo debe pertenecer exactamente a una arista elegida.",
+        "Dificultad relativa a Tercer año de preparatoria."
+      ]
+    }
+  ]
+}

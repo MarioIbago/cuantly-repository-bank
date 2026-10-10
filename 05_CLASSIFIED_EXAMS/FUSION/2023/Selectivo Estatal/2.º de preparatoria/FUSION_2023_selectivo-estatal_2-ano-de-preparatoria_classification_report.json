@@ -1,0 +1,280 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2023/Selectivo Estatal/2 de preparatoria/FUSION_2023_selectivo-estatal_2-de-preparatoria_examen-selectivo-2-ano-de-preparatoria_original.pdf",
+  "source_sha256": "15e5a75cba5d1a83cff714c639c532868184358ba3f973577b548dcfb6f7172e",
+  "school_level": "Segundo año de preparatoria",
+  "rubric": "Primary solving idea; L1 familiar direct steps, L2 combines ideas, L3 non-routine argument, relative to the printed school grade. Source defects do not become automatic answers.",
+  "problems": [
+    {
+      "source_id": "fusion3_examen-selectivo-2-ano-de-preparatoria_2-ano-de-preparatoria_q01",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "average",
+        "addition"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Puntos de los seis estudiantes. \\(6\\cdot68=408\\).",
+        "Dificultad relativa a Segundo año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-2-ano-de-preparatoria_2-ano-de-preparatoria_q02",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "triangular_grid",
+        "area",
+        "lattice_points",
+        "polygons"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Reconocer el retículo. Sus puntos pertenecen a una malla de triángulos equiláteros. Un triángulo equilátero, un rombo de dos triángulos, un rectángulo de cuatro y un hexágono regular de seis se pueden formar uniendo sus puntos.",
+        "Dificultad relativa a Segundo año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-2-ano-de-preparatoria_2-ano-de-preparatoria_q03",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "proportionality",
+        "unit_rate"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Oro por tonelada. \\(30/10=3\\) gramos por tonelada.",
+        "Dificultad relativa a Segundo año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-2-ano-de-preparatoria_2-ano-de-preparatoria_q04",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "similar_triangles",
+        "pythagorean_theorem",
+        "ratios"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Triángulo del poste. ABD es rectángulo y tiene \\(AB=BD\\). Por Pitágoras, \\(AD^2=2AB^2\\). Como \\(AD=3\\sqrt2\\), resulta \\(AB=BD=3\\).",
+        "Dificultad relativa a Segundo año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-2-ano-de-preparatoria_2-ano-de-preparatoria_q05",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "area",
+        "circles",
+        "complements"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Dividir el rectángulo. La línea vertical a una unidad lo divide en dos cuadrados de área 1.",
+        "Dificultad relativa a Segundo año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-2-ano-de-preparatoria_2-ano-de-preparatoria_q06",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "similar_triangles",
+        "area",
+        "trapezoids",
+        "pythagorean_theorem"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Triángulo izquierdo. Sus catetos miden 12 y 16, de modo que la diagonal común mide \\(\\sqrt{12^2+16^2}=20\\). Su área es \\(12\\cdot16/2=96\\).",
+        "Dificultad relativa a Segundo año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-2-ano-de-preparatoria_2-ano-de-preparatoria_q07",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "gcd",
+        "divisibility",
+        "parity",
+        "proof"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Nombrar los mcd. Sean \\(d=\\gcd(x,y)\\), \\(e=\\gcd(x+1,y+1)\\) y \\(t=x-y=d+e>0\\).",
+        "Dificultad relativa a Segundo año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-2-ano-de-preparatoria_2-ano-de-preparatoria_q08",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "scale",
+        "area",
+        "percentages"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área correcta. Una escala \\(1:n\\) multiplica las longitudes por n y las áreas por \\(n^2\\). Si el área medida es A, la correcta es \\(An^2\\).",
+        "Dificultad relativa a Segundo año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-2-ano-de-preparatoria_2-ano-de-preparatoria_q09",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "continued_fractions",
+        "inequalities",
+        "simplification"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Describir las cinco expresiones. Para k=1,2,3,4,5, cada opción tiene la forma \\(F(k)=\\frac{k}{k+\\frac{k}{k+\\frac{k}{k+k}}}\\).",
+        "Dificultad relativa a Segundo año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-2-ano-de-preparatoria_2-ano-de-preparatoria_q10",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "prime_factorization",
+        "difference_of_squares",
+        "divisibility"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Diferencia de cuadrados. \\(255^2-1=(255-1)(255+1)=254\\cdot256\\).",
+        "Dificultad relativa a Segundo año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-2-ano-de-preparatoria_2-ano-de-preparatoria_q11",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "parallelograms",
+        "circles",
+        "thales_theorem",
+        "area"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Diámetro. La figura coloca A y B en extremos de un diámetro, con O como centro. Como \\(AO=3\\), se tiene \\(AB=6\\).",
+        "Dificultad relativa a Segundo año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-2-ano-de-preparatoria_2-ano-de-preparatoria_q12",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "pythagorean_theorem",
+        "measurement",
+        "approximation"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Leer las medidas. La figura marca un triángulo rectángulo con hipotenusa 5 m y base 2.3 m. Su altura vertical incluye el segmento de 1.8 m por encima de la mano levantada.",
+        "Dificultad relativa a Segundo año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-2-ano-de-preparatoria_2-ano-de-preparatoria_q13",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "counting",
+        "trapezoids",
+        "parallelograms",
+        "combinations"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Elegir las bases. Las rectas a, b y c son paralelas. Cada par forma las dos bases: hay \\(\\binom32=3\\) elecciones.",
+        "Dificultad relativa a Segundo año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-2-ano-de-preparatoria_2-ano-de-preparatoria_q14",
+      "primary_area": "probability",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "combinations",
+        "sampling_without_replacement"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Selecciones posibles. Tres temas distintos entre diez se pueden elegir de \\(\\binom{10}3=120\\) maneras.",
+        "Dificultad relativa a Segundo año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-2-ano-de-preparatoria_2-ano-de-preparatoria_q15",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "exponents",
+        "bounds",
+        "digits"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Agrupar términos alternados. \\(N=10^{10}-(9^9-8^8)-(7^7-6^6)-\\cdots-(3^3-2^2)-1\\). Cada par restado es positivo, de modo que \\(N<10^{10}\\).",
+        "Dificultad relativa a Segundo año de preparatoria."
+      ]
+    }
+  ]
+}

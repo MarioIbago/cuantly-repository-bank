@@ -1,0 +1,1210 @@
+{
+  "schema_version": "1.0",
+  "source_format_reference": "Cuantly public practice; original multiple_choice and open_answer preserved",
+  "exam": {
+    "competition": "FUSION",
+    "source_competition": "3.º Campeonato de Olimpiadas Matemáticas FUSION COM",
+    "edition": 3,
+    "source_archive_family": "FUSION3",
+    "year": 2023,
+    "year_status": "confirmed",
+    "year_evidence": "Los ocho encabezados dicen 3.º Campeonato de Olimpiadas Matemáticas FUSION COM, Selectivo Estatal, y su grado; los pies de página imprimen 2023. Se conserva 5.º de primaria y menores. El año proviene de esos pies, no de los números dentro de los problemas.",
+    "phase": "Selectivo Estatal",
+    "level": "3.º de secundaria",
+    "school_level": "Tercer año de secundaria",
+    "problem_count": 15,
+    "source_file": "FUSION_2023_selectivo-estatal_3-de-secundaria_examen-selectivo-3-de-secundaria_original.pdf",
+    "source_pdf_path": "01_RAW_PDFs/FUSION/2023/Selectivo Estatal/3 de secundaria/FUSION_2023_selectivo-estatal_3-de-secundaria_examen-selectivo-3-de-secundaria_original.pdf",
+    "source_sha256": "302959fb1f642e2c98edb8cf5f000c368238387c7edd77fd2a62f8392ad985d8",
+    "image_policy": "Exact embedded mathematical figures from each original PDF; formulas and arithmetic layouts transcribed as LaTeX. No logos, page screenshots or full-question crops.",
+    "classification_phase": "completed",
+    "difficulty_phase": "completed"
+  },
+  "validation_summary": {
+    "verified_problems": 14,
+    "needs_review_or_invalid": 1,
+    "needs_review_problem_numbers": [
+      4
+    ],
+    "notes": "Enunciados, fórmulas y opciones cotejados con las ocho fuentes de 2023. Definición de trapecio, unidades omitidas, dos opciones verdaderas de edades y multiplicidad de gatitos conservan avisos y no generan calificación automática."
+  },
+  "problems": [
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q01",
+      "collection": "FUSION",
+      "subcategory": "2023 / Selectivo Estatal / 3.º de secundaria",
+      "problem_number": 1,
+      "source_question_label": "1",
+      "source_page": 1,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "La figura muestra un cuadrado de lado 3 cm dentro de un cuadrado de lado 7 cm, y un tercero, de lado 5 cm, que interseca los dos primeros. ¿Cuál es la diferencia entre el área de la parte negra y el área de la parte gris?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(0\\,\\mathrm{cm}^2\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(10\\,\\mathrm{cm}^2\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(11\\,\\mathrm{cm}^2\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(15\\,\\mathrm{cm}^2\\)"
+        },
+        {
+          "label": "e",
+          "text": "Imposible saberlo"
+        }
+      ],
+      "correct_answer": "\\(15\\,\\mathrm{cm}^2\\)",
+      "correct_option_label": "d",
+      "solution_text": "1. **Región inicial del cuadrado grande.** Al quitar el cuadrado blanco de lado 3 al de lado 7 quedan \\(7^2-3^2=49-9=40\\) cm².\n2. **Cancelar el solapamiento.** Sea t el área donde el cuadrado de lado 5 se cruza con esa región inicial. La zona negra visible mide \\(40-t\\); la gris visible mide \\(25-t\\).\n3. **Diferencia.** \\((40-t)-(25-t)=\\mathbf{15}\\) cm², opción **d**.\n4. **Comprobación.** No es necesario conocer t ni la inclinación del cuadrado de lado 5; la misma intersección se resta de ambas áreas.",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Cuadrados de lados 7, 5 y 3 con regiones negra y gris",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "c0a4c2528f8375a538c89062f01596e65a56af59b5921efbb6616da35d37d081",
+          "source": "pdf_embedded_image",
+          "original_filename": "fusion3_page1_Image32.png",
+          "width_px": 133,
+          "height_px": 104
+        }
+      ],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "0 exigiría que las áreas iniciales 40 y 25 fueran iguales."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "10 no es 49−9−25."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "11 no es 49−9−25."
+        },
+        {
+          "label": "d",
+          "is_correct": true,
+          "reason": "15=49−9−25; la intersección se cancela."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "Sí se puede saber porque el solapamiento desconocido se elimina al restar."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y comparada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2023/Selectivo Estatal/3 de secundaria/FUSION_2023_selectivo-estatal_3-de-secundaria_examen-selectivo-3-de-secundaria_original.pdf",
+      "source_pdf_sha256": "302959fb1f642e2c98edb8cf5f000c368238387c7edd77fd2a62f8392ad985d8",
+      "classification": {
+        "primary_area": "geometry",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "area",
+          "overlap",
+          "invariants"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Región inicial del cuadrado grande. Al quitar el cuadrado blanco de lado 3 al de lado 7 quedan \\(7^2-3^2=49-9=40\\) cm².",
+          "Dificultad relativa a Tercer año de secundaria."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q02",
+      "collection": "FUSION",
+      "subcategory": "2023 / Selectivo Estatal / 3.º de secundaria",
+      "problem_number": 2,
+      "source_question_label": "2",
+      "source_page": 1,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Jaden lanza dardos a una diana, y obtiene (varias veces) 5, 8 y 10 puntos, y ninguna otra puntuación. El número\nde veces que obtiene 8 puntos es el mismo que el que obtiene 10. Consigue 99 puntos en total, y el 25% de sus\nlanzamientos fueron fuera de la diana. ¿Cuántos lanzamientos hizo?",
+      "options": [
+        {
+          "label": "a",
+          "text": "10"
+        },
+        {
+          "label": "b",
+          "text": "12"
+        },
+        {
+          "label": "c",
+          "text": "16"
+        },
+        {
+          "label": "d",
+          "text": "20"
+        },
+        {
+          "label": "e",
+          "text": "24"
+        }
+      ],
+      "correct_answer": "20 lanzamientos",
+      "correct_option_label": "d",
+      "solution_text": "1. **Contar aciertos.** Si hay a lanzamientos de 5 puntos y b de 8, también hay b de 10. Por tanto \\(5a+18b=99\\).\n2. **Usar el resto módulo 5.** \\(3b\\equiv4\\pmod5\\), así que \\(b\\equiv3\\pmod5\\). Como \\(18b\\le99\\), se tiene \\(0\\le b\\le5\\), y solo funciona b=3.\n3. **Lanzamientos de 5.** \\(a=(99-54)/5=9\\). Hubo \\(9+3+3=15\\) aciertos.\n4. **Incluir fallos.** El 25% quedó fuera; los aciertos son el 75%. El total es \\(15/(3/4)=\\mathbf{20}\\), opción **d**.\n5. **Comprobación.** Nueve tiros de 5, tres de 8, tres de 10 y cinco fallos suman 20 tiros, 99 puntos y 25% de fallos.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "10 tiros darían 7.5 aciertos, imposible."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "12 darían 9 aciertos, pero la puntuación obliga a 15."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "16 darían 12 aciertos."
+        },
+        {
+          "label": "d",
+          "is_correct": true,
+          "reason": "20 da 15 aciertos y 5 fallos."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "24 darían 18 aciertos, no los 15 requeridos."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y comparada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2023/Selectivo Estatal/3 de secundaria/FUSION_2023_selectivo-estatal_3-de-secundaria_examen-selectivo-3-de-secundaria_original.pdf",
+      "source_pdf_sha256": "302959fb1f642e2c98edb8cf5f000c368238387c7edd77fd2a62f8392ad985d8",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "linear_diophantine_equations",
+          "percentages"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Contar aciertos. Si hay a lanzamientos de 5 puntos y b de 8, también hay b de 10. Por tanto \\(5a+18b=99\\).",
+          "Dificultad relativa a Tercer año de secundaria."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q03",
+      "collection": "FUSION",
+      "subcategory": "2023 / Selectivo Estatal / 3.º de secundaria",
+      "problem_number": 3,
+      "source_question_label": "3",
+      "source_page": 1,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "En un cuadrilátero convexo ABCD, con \\(AB=AC\\), se conocen los siguientes ángulos: \\(BAD=80^\\circ\\), \\(ABC=75^\\circ\\), \\(ADC=65^\\circ\\). ¿Cuánto mide el ángulo BDC?",
+      "options": [
+        {
+          "label": "a",
+          "text": "10°"
+        },
+        {
+          "label": "b",
+          "text": "15°"
+        },
+        {
+          "label": "c",
+          "text": "20°"
+        },
+        {
+          "label": "d",
+          "text": "30°"
+        },
+        {
+          "label": "e",
+          "text": "45°"
+        }
+      ],
+      "correct_answer": "\\(15^\\circ\\)",
+      "correct_option_label": "b",
+      "solution_text": "1. **Triángulo ABC.** Como \\(AB=AC\\) y \\(\\angle ABC=75^\\circ\\), también \\(\\angle BCA=75^\\circ\\), y \\(\\angle BAC=30^\\circ\\).\n2. **Ángulo CAD.** La diagonal AC divide el ángulo BAD del cuadrilátero convexo: \\(\\angle CAD=80^\\circ-30^\\circ=50^\\circ\\).\n3. **Triángulo ACD.** Su ángulo en D es 65°, así que el de C también mide \\(180^\\circ-50^\\circ-65^\\circ=65^\\circ\\). Por tanto \\(AD=AC=AB\\).\n4. **Triángulo ABD.** Tiene AB=AD y 80° en A; sus ángulos en B y D son 50°.\n5. **Ángulo pedido.** BD queda dentro del ángulo ADC por convexidad. Entonces \\(\\angle BDC=65^\\circ-50^\\circ=\\mathbf{15^\\circ}\\), opción **b**.\n6. **Comprobación.** Los ángulos del cuadrilátero son 80°, 75°, 140° y 65°; suman 360°.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "10° no es 65°−50°."
+        },
+        {
+          "label": "b",
+          "is_correct": true,
+          "reason": "15°=65°−50°."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "20° no es la diferencia requerida."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "30° es BAC, no BDC."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "45° no satisface los dos triángulos isósceles."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y comparada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2023/Selectivo Estatal/3 de secundaria/FUSION_2023_selectivo-estatal_3-de-secundaria_examen-selectivo-3-de-secundaria_original.pdf",
+      "source_pdf_sha256": "302959fb1f642e2c98edb8cf5f000c368238387c7edd77fd2a62f8392ad985d8",
+      "classification": {
+        "primary_area": "geometry",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "isosceles_triangles",
+          "angles",
+          "quadrilaterals"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Triángulo ABC. Como \\(AB=AC\\) y \\(\\angle ABC=75^\\circ\\), también \\(\\angle BCA=75^\\circ\\), y \\(\\angle BAC=30^\\circ\\).",
+          "Dificultad relativa a Tercer año de secundaria."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q04",
+      "collection": "FUSION",
+      "subcategory": "2023 / Selectivo Estatal / 3.º de secundaria",
+      "problem_number": 4,
+      "source_question_label": "4",
+      "source_page": 1,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Hace 7 años, la edad de A era múltiplo de 8, y dentro de ocho años, su edad será múltiplo de 7. Hace 8 años, la edad de B era múltiplo de 7, y dentro de 7 años su edad será múltiplo de 8. Ninguno de ellos es centenario. ¿Cuál de las siguientes proposiciones es cierta:",
+      "options": [
+        {
+          "label": "a",
+          "text": "B ES DOS AÑOS MAYOR QUE A"
+        },
+        {
+          "label": "b",
+          "text": "B ES MAYOR QUE A"
+        },
+        {
+          "label": "c",
+          "text": "A Y B TIENEN LA MISMA EDAD"
+        },
+        {
+          "label": "d",
+          "text": "B ES UN AÑO MAS JOVEN QUE A"
+        },
+        {
+          "label": "e",
+          "text": "B ES DOS AÑOS MAS JOVEN QUE A"
+        }
+      ],
+      "correct_answer": "A tiene 55 años y B 57; a y b son verdaderas",
+      "correct_option_label": null,
+      "solution_text": "1. **Edad de A.** Hace siete años era múltiplo de 8, así que \\(A\\equiv7\\pmod8\\). Dentro de ocho será múltiplo de 7: \\(A\\equiv6\\pmod7\\). La solución menor de 100 es **A=55**.\n2. **Edad de B.** \\(B-8\\) es múltiplo de 7 y \\(B+7\\) de 8, de modo que \\(B\\equiv1\\pmod7\\) y \\(B\\equiv1\\pmod8\\). Antes de los 100, serían 1 o 57; la edad 1 no permite hablar de su edad hace ocho años, así que **B=57**.\n3. **Comprobar las cuatro condiciones.** \\(55-7=48\\), \\(55+8=63\\), \\(57-8=49\\) y \\(57+7=64\\), divisibles por 8, 7, 7 y 8 respectivamente.\n4. **Error de unicidad.** B es dos años mayor que A, por lo que son verdaderas tanto **a** como **b**. La pregunta ofrece ambas como respuestas distintas; se conserva como práctica guiada sin escoger una sola.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": true,
+          "reason": "Verdadera: 57−55=2."
+        },
+        {
+          "label": "b",
+          "is_correct": true,
+          "reason": "También verdadera: 57 es mayor que 55."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "Falsa: sus edades no son iguales."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "Falsa: B es mayor, no un año menor."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "Falsa: B no es dos años menor."
+        }
+      ],
+      "verification": {
+        "status": "invalid_source_multiple_correct_options",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Las opciones a y b son ambas verdaderas. A=55 y B=57 satisfacen todos los datos y el límite de edad; B=1 se excluye porque hace ocho años aún no habría nacido."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2023/Selectivo Estatal/3 de secundaria/FUSION_2023_selectivo-estatal_3-de-secundaria_examen-selectivo-3-de-secundaria_original.pdf",
+      "source_pdf_sha256": "302959fb1f642e2c98edb8cf5f000c368238387c7edd77fd2a62f8392ad985d8",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "congruences",
+          "ages",
+          "casework"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Edad de A. Hace siete años era múltiplo de 8, así que \\(A\\equiv7\\pmod8\\). Dentro de ocho será múltiplo de 7: \\(A\\equiv6\\pmod7\\). La solución menor de 100 es A=55.",
+          "Dificultad relativa a Tercer año de secundaria."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q05",
+      "collection": "FUSION",
+      "subcategory": "2023 / Selectivo Estatal / 3.º de secundaria",
+      "problem_number": 5,
+      "source_question_label": "5",
+      "source_page": 1,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Una cuerda de un círculo de área 1 divide en dos partes iguales al radio que es perpendicular a la cuerda. La cuerda divide al círculo en dos partes, de la que la más pequeña tiene área S. ¿Cuál de las siguientes desigualdades es cierta?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(S<1/6\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(S=1/6\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(1/6<S<1/4\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(S=1/4\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(S>1/4\\)"
+        }
+      ],
+      "correct_answer": "\\(1/6<S<1/4\\)",
+      "correct_option_label": "c",
+      "solution_text": "1. **Distancia de la cuerda al centro.** Como divide al radio perpendicular en mitades, está a distancia R/2 del centro, donde R es el radio.\n2. **Ángulo del sector pequeño.** En el triángulo rectángulo hacia un extremo de la cuerda, \\(\\cos\\theta=(R/2)/R=1/2\\). Por tanto \\(\\theta=60^\\circ\\) y el ángulo central completo es 120°.\n3. **Área del segmento.** El sector ocupa 1/3 del círculo. Se resta el triángulo isósceles de área \\(R^2\\sin120^\\circ/2=\\sqrt3R^2/4\\). Como \\(\\pi R^2=1\\), \\(S=1/3-\\sqrt3/(4\\pi)\\approx0.1955\\).\n4. **Comparación rigurosa.** De \\(3<\\pi<4\\) y \\(4/3<\\sqrt3<2\\) se obtiene \\(1/12<\\sqrt3/(4\\pi)<1/6\\). Al restar de 1/3, queda \\(\\mathbf{1/6<S<1/4}\\), opción **c**.\n5. **Comprobación.** \\(1/6\\approx0.1667<0.1955<0.25=1/4\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "S es mayor que 1/6."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "S no es igual a 1/6."
+        },
+        {
+          "label": "c",
+          "is_correct": true,
+          "reason": "La fórmula y las cotas dan estrictamente 1/6<S<1/4."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "S es estrictamente menor que 1/4."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "S no supera 1/4."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y comparada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2023/Selectivo Estatal/3 de secundaria/FUSION_2023_selectivo-estatal_3-de-secundaria_examen-selectivo-3-de-secundaria_original.pdf",
+      "source_pdf_sha256": "302959fb1f642e2c98edb8cf5f000c368238387c7edd77fd2a62f8392ad985d8",
+      "classification": {
+        "primary_area": "geometry",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "circle_segments",
+          "area",
+          "inequalities"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Distancia de la cuerda al centro. Como divide al radio perpendicular en mitades, está a distancia R/2 del centro, donde R es el radio.",
+          "Dificultad relativa a Tercer año de secundaria."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q06",
+      "collection": "FUSION",
+      "subcategory": "2023 / Selectivo Estatal / 3.º de secundaria",
+      "problem_number": 6,
+      "source_question_label": "6",
+      "source_page": 2,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Observando el polígono de la figura ¿cuál de las siguientes afirmaciones es falsa?",
+      "options": [
+        {
+          "label": "a",
+          "text": "Es un pentágono"
+        },
+        {
+          "label": "b",
+          "text": "Tiene un ángulo agudo"
+        },
+        {
+          "label": "c",
+          "text": "Dos lados son perpendiculares"
+        },
+        {
+          "label": "d",
+          "text": "Tiene dos lados de la misma longitud"
+        },
+        {
+          "label": "e",
+          "text": "el perímetro es 42"
+        }
+      ],
+      "correct_answer": "Tiene dos lados de la misma longitud: afirmación falsa",
+      "correct_option_label": "d",
+      "solution_text": "1. **Leer lados y vértices.** El polígono tiene cinco lados, de longitudes 17, 4, 3, 5 y 13. Por tanto es un pentágono.\n2. **Ángulos.** La punta izquierda es aguda y la marca de la derecha indica que dos lados son perpendiculares.\n3. **Perímetro.** \\(17+4+3+5+13=42\\), de modo que esa afirmación es verdadera.\n4. **Afirmación falsa.** Las cinco longitudes son diferentes; no hay dos lados de la misma longitud. La respuesta es **d**.\n5. **Comprobación.** Las otras cuatro opciones describen propiedades que sí aparecen en el dibujo; se pide identificar la falsa.",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Pentágono con lados 17, 4, 3, 5 y 13 y ángulo recto",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "34fd3c714978ade830e444a82307e5b52659bb8eda65dcdbbc05c4e3e806b916",
+          "source": "pdf_embedded_image",
+          "original_filename": "fusion3_page2_Image59.png",
+          "width_px": 188,
+          "height_px": 120
+        }
+      ],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "Verdadera: tiene cinco lados; no responde a la pregunta por la falsa."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "Verdadera: el ángulo de la punta izquierda es agudo."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "Verdadera: la marca de ángulo recto indica perpendicularidad."
+        },
+        {
+          "label": "d",
+          "is_correct": true,
+          "reason": "Falsa: 17, 4, 3, 5 y 13 son todas diferentes."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "Verdadera: las cinco longitudes suman 42."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y comparada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2023/Selectivo Estatal/3 de secundaria/FUSION_2023_selectivo-estatal_3-de-secundaria_examen-selectivo-3-de-secundaria_original.pdf",
+      "source_pdf_sha256": "302959fb1f642e2c98edb8cf5f000c368238387c7edd77fd2a62f8392ad985d8",
+      "classification": {
+        "primary_area": "geometry",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "polygons",
+          "perimeter",
+          "angles"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Leer lados y vértices. El polígono tiene cinco lados, de longitudes 17, 4, 3, 5 y 13. Por tanto es un pentágono.",
+          "Dificultad relativa a Tercer año de secundaria."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q07",
+      "collection": "FUSION",
+      "subcategory": "2023 / Selectivo Estatal / 3.º de secundaria",
+      "problem_number": 7,
+      "source_question_label": "7",
+      "source_page": 2,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "En una retícula, se dibuja un cuadrado ABCD de dimensión 10x10. Los vértices son puntos reticulares. Después\nse traza otro cuadrado EFGH, cuyos vértices están en los lados de ABCD, y de modo que sus vértices son también\npuntos reticulares. ¿Cuántos cuadrados EFGH de diferentes tamaños se pueden trazar así?",
+      "options": [
+        {
+          "label": "a",
+          "text": "3"
+        },
+        {
+          "label": "b",
+          "text": "4"
+        },
+        {
+          "label": "c",
+          "text": "5"
+        },
+        {
+          "label": "d",
+          "text": "7"
+        },
+        {
+          "label": "e",
+          "text": "9"
+        }
+      ],
+      "correct_answer": "5 tamaños",
+      "correct_option_label": "c",
+      "solution_text": "1. **Parametrizar el nuevo cuadrado.** Para un cuadrado distinto del exterior, sus vértices sobre los cuatro lados se pueden escribir como \\((t,0),(10,t),(10-t,10),(0,10-t)\\), con t entero entre 1 y 9.\n2. **Lado al cuadrado.** La distancia entre dos vértices consecutivos tiene cuadrado \\(t^2+(10-t)^2\\).\n3. **Evitar tamaños repetidos.** t y \\(10-t\\) dan el mismo tamaño. Basta usar \\(t=1,2,3,4,5\\), que producen \\(82,68,58,52,50\\).\n4. **Respuesta.** Hay **5 tamaños**, opción **c**.\n5. **Comprobación del alcance.** t=0 o 10 reproduce ABCD, no otro cuadrado. Para las demás posiciones los vectores consecutivos son perpendiculares e iguales, así que todas las construcciones contadas son cuadrados reales.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "3 omite dos tamaños realizables."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "4 omite uno."
+        },
+        {
+          "label": "c",
+          "is_correct": true,
+          "reason": "5 corresponde a t=1,2,3,4,5 después de agrupar t con 10−t."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "7 no elimina correctamente tamaños repetidos."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "9 cuenta posiciones t=1,…,9, pero t y 10−t tienen igual tamaño."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Otro cuadrado se interpreta como distinto de ABCD; incluir de nuevo el cuadrado exterior añadiría su tamaño. Las nueve posiciones interiores producen cinco tamaños."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2023/Selectivo Estatal/3 de secundaria/FUSION_2023_selectivo-estatal_3-de-secundaria_examen-selectivo-3-de-secundaria_original.pdf",
+      "source_pdf_sha256": "302959fb1f642e2c98edb8cf5f000c368238387c7edd77fd2a62f8392ad985d8",
+      "classification": {
+        "primary_area": "geometry",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "squares",
+          "lattice_points",
+          "pythagorean_theorem",
+          "casework"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Parametrizar el nuevo cuadrado. Para un cuadrado distinto del exterior, sus vértices sobre los cuatro lados se pueden escribir como \\((t,0),(10,t),(10-t,10),(0,10-t)\\), con t entero entre 1 y 9.",
+          "Dificultad relativa a Tercer año de secundaria."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q08",
+      "collection": "FUSION",
+      "subcategory": "2023 / Selectivo Estatal / 3.º de secundaria",
+      "problem_number": 8,
+      "source_question_label": "8",
+      "source_page": 2,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Desde un punto P, interior a un triángulo equilátero, las distancias a sus tres vértices son: \\(PA=\\sqrt3\\) cm, \\(PB=\\sqrt{13}\\) cm y \\(PC=\\sqrt{13}\\) cm. La longitud del lado del triángulo es",
+      "options": [
+        {
+          "label": "a",
+          "text": "5"
+        },
+        {
+          "label": "b",
+          "text": "6"
+        },
+        {
+          "label": "c",
+          "text": "7"
+        },
+        {
+          "label": "d",
+          "text": "8"
+        },
+        {
+          "label": "e",
+          "text": "9"
+        }
+      ],
+      "correct_answer": "5 cm",
+      "correct_option_label": "a",
+      "solution_text": "1. **Ubicar P.** Como \\(PB=PC\\), P está en la mediatriz de BC, que es la altura desde A. Al ser interior, está a distancia \\(AP=\\sqrt3\\) hacia abajo desde A.\n2. **Escribir la altura.** Si el lado es s, la altura del equilátero es \\(s\\sqrt3/2\\). La distancia de P a BC es \\(s\\sqrt3/2-\\sqrt3\\).\n3. **Pitágoras hasta B.** \\(13=(s/2)^2+(s\\sqrt3/2-\\sqrt3)^2=s^2-3s+3\\).\n4. **Resolver.** \\(s^2-3s-10=(s-5)(s+2)=0\\). La longitud positiva es **5 cm**, opción **a**.\n5. **Comprobación.** Con s=5, la altura de P es \\(3\\sqrt3/2>0\\), menor que la altura total, y \\(PB^2=25/4+27/4=13\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": true,
+          "reason": "5 satisface s²−3s−10=0 y coloca P en el interior."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "6 da PB²=21, no 13."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "7 da PB²=31."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "8 da PB²=43."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "9 da PB²=57."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y comparada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2023/Selectivo Estatal/3 de secundaria/FUSION_2023_selectivo-estatal_3-de-secundaria_examen-selectivo-3-de-secundaria_original.pdf",
+      "source_pdf_sha256": "302959fb1f642e2c98edb8cf5f000c368238387c7edd77fd2a62f8392ad985d8",
+      "classification": {
+        "primary_area": "geometry",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "equilateral_triangles",
+          "pythagorean_theorem",
+          "quadratic_equations"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Ubicar P. Como \\(PB=PC\\), P está en la mediatriz de BC, que es la altura desde A. Al ser interior, está a distancia \\(AP=\\sqrt3\\) hacia abajo desde A.",
+          "Dificultad relativa a Tercer año de secundaria."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q09",
+      "collection": "FUSION",
+      "subcategory": "2023 / Selectivo Estatal / 3.º de secundaria",
+      "problem_number": 9,
+      "source_question_label": "9",
+      "source_page": 2,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "En una plaza hay 100 personas. 50 de ellas son de Italia, 60 son hombres y 90 son vegetarianas. ¿Cuántos\nhombres italianos y vegetarianos hay, como mínimo, en la plaza?",
+      "options": [
+        {
+          "label": "a",
+          "text": "0"
+        },
+        {
+          "label": "b",
+          "text": "1"
+        },
+        {
+          "label": "c",
+          "text": "10"
+        },
+        {
+          "label": "d",
+          "text": "40"
+        },
+        {
+          "label": "e",
+          "text": "50"
+        }
+      ],
+      "correct_answer": "0",
+      "correct_option_label": "a",
+      "solution_text": "1. **No basta sumar categorías.** Hay 50 italianos, 60 hombres y 90 vegetarianos, pero las categorías pueden solaparse de distintas maneras.\n2. **Construir cero coincidencias triples.** Distribuimos 40 personas como mujeres italianas vegetarianas; 10 como hombres italianos no vegetarianos; y 50 como hombres no italianos vegetarianos.\n3. **Verificar los datos.** Son \\(40+10+50=100\\) personas, \\(40+10=50\\) italianas, \\(10+50=60\\) hombres y \\(40+50=90\\) vegetarianas. Ningún hombre es a la vez italiano y vegetariano.\n4. **Mínimo.** Una cantidad de personas no puede ser negativa, y 0 se alcanza. Por tanto el mínimo es **0**, opción **a**.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": true,
+          "reason": "0 se alcanza con la distribución 40,10,50 descrita."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "1 no es mínimo porque 0 es posible."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "10 no es mínimo; sumar solo dos categorías impone una cota distinta."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "40 no es mínimo."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "50 no es mínimo."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y comparada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2023/Selectivo Estatal/3 de secundaria/FUSION_2023_selectivo-estatal_3-de-secundaria_examen-selectivo-3-de-secundaria_original.pdf",
+      "source_pdf_sha256": "302959fb1f642e2c98edb8cf5f000c368238387c7edd77fd2a62f8392ad985d8",
+      "classification": {
+        "primary_area": "combinatorics",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "sets",
+          "inclusion_exclusion",
+          "extremal_principle"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "No basta sumar categorías. Hay 50 italianos, 60 hombres y 90 vegetarianos, pero las categorías pueden solaparse de distintas maneras.",
+          "Dificultad relativa a Tercer año de secundaria."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q10",
+      "collection": "FUSION",
+      "subcategory": "2023 / Selectivo Estatal / 3.º de secundaria",
+      "problem_number": 10,
+      "source_question_label": "10",
+      "source_page": 2,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "¿Cuál es la mayor potencia de 2 que divide a \\(255^2-1\\)?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(2^1\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(2^8\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(2^9\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(2^{127}\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(2^{254}\\)"
+        }
+      ],
+      "correct_answer": "\\(2^9\\)",
+      "correct_option_label": "c",
+      "solution_text": "1. **Diferencia de cuadrados.** \\(255^2-1=(255-1)(255+1)=254\\cdot256\\).\n2. **Separar potencias de 2.** \\(254=2\\cdot127\\) y \\(256=2^8\\), por lo que \\(255^2-1=2^9\\cdot127\\).\n3. **Potencia máxima.** 127 es impar; no queda otro factor 2. La mayor potencia es **\\(2^9\\)**, opción **c**.\n4. **Comprobación.** \\(255^2-1=65024=512\\cdot127\\); al dividir entre 1024 el resultado ya no es entero.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "2¹ divide al número, pero no es la mayor potencia."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "2⁸ divide, pero aún queda otro factor 2."
+        },
+        {
+          "label": "c",
+          "is_correct": true,
+          "reason": "2⁹ divide y el cociente 127 es impar."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "2¹²⁷ no divide; supera con mucho el número."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "2²⁵⁴ tampoco divide."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y comparada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2023/Selectivo Estatal/3 de secundaria/FUSION_2023_selectivo-estatal_3-de-secundaria_examen-selectivo-3-de-secundaria_original.pdf",
+      "source_pdf_sha256": "302959fb1f642e2c98edb8cf5f000c368238387c7edd77fd2a62f8392ad985d8",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "prime_factorization",
+          "difference_of_squares",
+          "divisibility"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Diferencia de cuadrados. \\(255^2-1=(255-1)(255+1)=254\\cdot256\\).",
+          "Dificultad relativa a Tercer año de secundaria."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q11",
+      "collection": "FUSION",
+      "subcategory": "2023 / Selectivo Estatal / 3.º de secundaria",
+      "problem_number": 11,
+      "source_question_label": "11",
+      "source_page": 3,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Matías, el buscador de oro, sabe por su experiencia, que, después de cerner 10 toneladas de grava del arroyo Dorado, consigue 30 gramos de oro. ¿Cuántas toneladas habrá que cerner si quiere obtener 12 gramos de oro?",
+      "options": [],
+      "correct_answer": "4 toneladas",
+      "correct_option_label": null,
+      "solution_text": "1. **Rendimiento.** Diez toneladas producen 30 gramos, de modo que el rendimiento supuesto es \\(30/10=3\\) gramos por tonelada.\n2. **Objetivo.** Para obtener 12 gramos se necesitan \\(12/3=\\mathbf4\\) toneladas.\n3. **Comprobación.** \\(4\\cdot3=12\\). La fracción que aparecía al final de la extracción pertenece al problema siguiente y se retiró de este enunciado.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Se retiró PC/PD=5/48, que pertenece a la siguiente pregunta. No se cambian los datos de la proporción."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2023/Selectivo Estatal/3 de secundaria/FUSION_2023_selectivo-estatal_3-de-secundaria_examen-selectivo-3-de-secundaria_original.pdf",
+      "source_pdf_sha256": "302959fb1f642e2c98edb8cf5f000c368238387c7edd77fd2a62f8392ad985d8",
+      "classification": {
+        "primary_area": "arithmetic",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "proportionality",
+          "unit_rate"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Rendimiento. Diez toneladas producen 30 gramos, de modo que el rendimiento supuesto es \\(30/10=3\\) gramos por tonelada.",
+          "Dificultad relativa a Tercer año de secundaria."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q12",
+      "collection": "FUSION",
+      "subcategory": "2023 / Selectivo Estatal / 3.º de secundaria",
+      "problem_number": 12,
+      "source_question_label": "12",
+      "source_page": 3,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "\\(PA\\cdot PB=60\\), y \\(\\frac{PC}{PD}=\\frac5{48}\\), ¿cuál es el valor de PC?",
+      "options": [],
+      "correct_answer": "\\(5/2\\)",
+      "correct_option_label": null,
+      "solution_text": "1. **Dos secantes.** En la figura, P está fuera del círculo; la potencia de P cumple \\(PA\\cdot PB=PC\\cdot PD=60\\).\n2. **Usar la razón.** Como \\(PC/PD=5/48\\), escribimos \\(PC=5t\\) y \\(PD=48t\\), con t positivo.\n3. **Resolver.** \\((5t)(48t)=60\\) da \\(240t^2=60\\), así que \\(t=1/2\\).\n4. **Respuesta y comprobación.** **\\(PC=5/2\\)** y \\(PD=24\\). Su producto es 60 y su razón es \\((5/2)/24=5/48\\).",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Dos secantes desde P a una circunferencia",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "13d4f204bafdfb69eda965b5e4738eb2ce5e31ab7f917f234ad252d422c7acd8",
+          "source": "pdf_embedded_image",
+          "original_filename": "fusion3_page3_Image72.png",
+          "width_px": 182,
+          "height_px": 129
+        }
+      ],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "La razón 5/48 estaba dividida entre las dos preguntas en la extracción. Se recompuso desde el original y se conserva la figura completa de las dos secantes."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2023/Selectivo Estatal/3 de secundaria/FUSION_2023_selectivo-estatal_3-de-secundaria_examen-selectivo-3-de-secundaria_original.pdf",
+      "source_pdf_sha256": "302959fb1f642e2c98edb8cf5f000c368238387c7edd77fd2a62f8392ad985d8",
+      "classification": {
+        "primary_area": "geometry",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "power_of_a_point",
+          "secants",
+          "ratios"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Dos secantes. En la figura, P está fuera del círculo; la potencia de P cumple \\(PA\\cdot PB=PC\\cdot PD=60\\).",
+          "Dificultad relativa a Tercer año de secundaria."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q13",
+      "collection": "FUSION",
+      "subcategory": "2023 / Selectivo Estatal / 3.º de secundaria",
+      "problem_number": 13,
+      "source_question_label": "13",
+      "source_page": 3,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Hay 10 estudiantes en la clase de baile. La profesora tiene 80 caramelos, que reparte a partes iguales\nentre las alumnas y le sobran tres caramelos. ¿Cuántos chicos hay en la clase?",
+      "options": [],
+      "correct_answer": "3 chicos",
+      "correct_option_label": null,
+      "solution_text": "1. **Caramelos repartidos.** Se entregaron \\(80-3=77\\) caramelos a las alumnas.\n2. **Número de alumnas.** Debe dividir a 77 y no superar los 10 estudiantes. Los divisores de 77 son 1, 7, 11 y 77; además debe haber más de tres alumnas para que el sobrante de la división sea 3. Solo sirve 7.\n3. **Chicos.** \\(10-7=\\mathbf3\\).\n4. **Comprobación.** Siete alumnas reciben 11 caramelos cada una: \\(7\\cdot11+3=80\\). Quedan tres chicos entre los diez estudiantes.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y comparada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2023/Selectivo Estatal/3 de secundaria/FUSION_2023_selectivo-estatal_3-de-secundaria_examen-selectivo-3-de-secundaria_original.pdf",
+      "source_pdf_sha256": "302959fb1f642e2c98edb8cf5f000c368238387c7edd77fd2a62f8392ad985d8",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "division",
+          "remainders",
+          "divisors"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Caramelos repartidos. Se entregaron \\(80-3=77\\) caramelos a las alumnas.",
+          "Dificultad relativa a Tercer año de secundaria."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q14",
+      "collection": "FUSION",
+      "subcategory": "2023 / Selectivo Estatal / 3.º de secundaria",
+      "problem_number": 14,
+      "source_question_label": "14",
+      "source_page": 3,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "La figura de la izquierda muestra una pieza formada por dos rectángulos. Se han marcado las longitudes de dos de los lados, 11 y 13. La pieza se corta en tres partes que se colocan formando un triángulo, como muestra la figura de la derecha.\n¿Cuánto vale x?",
+      "options": [],
+      "correct_answer": "\\(x=37\\)",
+      "correct_option_label": null,
+      "solution_text": "1. **Ancho de la pieza inicial.** Los dos tramos horizontales miden 11 y 13, por lo que la base completa mide \\(11+13=24\\).\n2. **Seguir el triángulo inferior al girarlo.** En el reacomodo de la derecha, esa base de 24 pasa a formar el tramo horizontal desde la antigua esquina derecha hasta el vértice derecho del triángulo final.\n3. **Seguir el triángulo izquierdo.** Su lado original de longitud x pasa a ser el segmento horizontal completo que llega a ese mismo vértice. Ese segmento contiene el tramo de 13 que no se movió, más el tramo de 24 que acabamos de identificar.\n4. **Respuesta.** \\(x=13+24=\\mathbf{37}\\).\n5. **Comprobación con una reconstrucción.** La pieza inicial puede situarse con vértices \\((0,0),(0,37),(11,37),(11,26),(24,26),(24,0)\\) y corte inferior hasta (24,13). Al girar las dos piezas recortadas se obtiene el triángulo de vértices \\((0,0),(11,37),(48,26)\\). Las piezas encajan y ambas áreas son \\(11\\cdot37+13\\cdot26=745\\).",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Pieza de dos rectángulos y su reacomodo en triángulo",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "762eaae35909e3091b0cc3f87077501e21cab80fa1cfa9bc6e409ccc16c84963",
+          "source": "pdf_embedded_image",
+          "original_filename": "fusion3_page3_Image73.png",
+          "width_px": 323,
+          "height_px": 175
+        }
+      ],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Se recuperó la pregunta ¿Cuánto vale x? del interior de la figura. La solución sigue los lados de las piezas, sin estimar longitudes a partir de píxeles."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2023/Selectivo Estatal/3 de secundaria/FUSION_2023_selectivo-estatal_3-de-secundaria_examen-selectivo-3-de-secundaria_original.pdf",
+      "source_pdf_sha256": "302959fb1f642e2c98edb8cf5f000c368238387c7edd77fd2a62f8392ad985d8",
+      "classification": {
+        "primary_area": "geometry",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "dissection",
+          "rotations",
+          "lengths"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Ancho de la pieza inicial. Los dos tramos horizontales miden 11 y 13, por lo que la base completa mide \\(11+13=24\\).",
+          "Dificultad relativa a Tercer año de secundaria."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q15",
+      "collection": "FUSION",
+      "subcategory": "2023 / Selectivo Estatal / 3.º de secundaria",
+      "problem_number": 15,
+      "source_question_label": "15",
+      "source_page": 3,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "¿Cuál es el menor divisor de 2011, distinto de 1?",
+      "options": [],
+      "correct_answer": "2011",
+      "correct_option_label": null,
+      "solution_text": "1. **Límite de prueba.** Si 2011 fuera compuesto, tendría un divisor primo no mayor que \\(\\sqrt{2011}<45\\).\n2. **Primos necesarios.** Basta probar \\(2,3,5,7,11,13,17,19,23,29,31,37,41,43\\).\n3. **Restos.** Los respectivos restos son \\(1,1,1,2,9,9,5,16,10,10,27,13,2,33\\); ninguno es 0. Por tanto 2011 es primo.\n4. **Respuesta y comprobación.** Sus únicos divisores positivos son 1 y 2011. El menor distinto de 1 es **2011**.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y comparada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2023/Selectivo Estatal/3 de secundaria/FUSION_2023_selectivo-estatal_3-de-secundaria_examen-selectivo-3-de-secundaria_original.pdf",
+      "source_pdf_sha256": "302959fb1f642e2c98edb8cf5f000c368238387c7edd77fd2a62f8392ad985d8",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "primes",
+          "trial_division",
+          "divisors"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Límite de prueba. Si 2011 fuera compuesto, tendría un divisor primo no mayor que \\(\\sqrt{2011}<45\\).",
+          "Dificultad relativa a Tercer año de secundaria."
+        ]
+      }
+    }
+  ]
+}
