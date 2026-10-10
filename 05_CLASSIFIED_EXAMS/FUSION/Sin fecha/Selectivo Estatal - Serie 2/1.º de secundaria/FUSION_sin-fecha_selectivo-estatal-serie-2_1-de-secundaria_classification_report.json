@@ -1,0 +1,268 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/1 de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_1-de-secundaria_examen-selectivo-1-de-secundaria-docx_original.pdf",
+  "source_sha256": "1ca2f937d777471d5d907d0bf46a81b993a942477639e835c7efb25200163611",
+  "school_level": "Primer año de secundaria",
+  "rubric": "Primary solving idea; L1 familiar direct steps, L2 combines ideas, L3 non-routine argument, relative to the printed school grade. Source defects do not become automatic answers.",
+  "problems": [
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q01",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "perimeter",
+        "squares"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Lados conocidos. El lado de un cuadrado es su perímetro dividido entre 4: I mide \\(16/4=4\\) cm y II mide \\(24/4=6\\) cm.",
+        "Dificultad relativa a Primer año de secundaria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q02",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "parallelograms",
+        "vectors"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Elegir el vértice de la esquina. Dos lados adyacentes del paralelogramo pueden salir de A, de B o de C.",
+        "Dificultad relativa a Primer año de secundaria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q03",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "logic",
+        "constraint_satisfaction"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Mismo mes. El único mes que aparece dos veces es marzo. Cristina y Flor deben ocupar marzo 1 y marzo 20.",
+        "Dificultad relativa a Primer año de secundaria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q04",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "rates",
+        "fractions"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Trabajo por hora. Groot come \\(1/10\\) del árbol por hora. Cada padre come el doble, \\(2/10\\).",
+        "Dificultad relativa a Primer año de secundaria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q05",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "perimeter",
+        "linear_equations"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Triángulo. Sus tres lados consumen \\(3\\cdot6=18\\) cerillos.",
+        "Dificultad relativa a Primer año de secundaria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q06",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "linear_equations",
+        "addition"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Representar precios. Si m, n y p son los precios de una manzana, una naranja y un plátano, se tiene \\(4m+2n=15.40\\) y \\(2n+4p=17.00\\).",
+        "Dificultad relativa a Primer año de secundaria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q07",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "area",
+        "regular_polygons",
+        "similarity"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Dividir el hexágono. Un hexágono regular de lado 1 contiene seis triángulos equiláteros de lado 1.",
+        "Dificultad relativa a Primer año de secundaria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q08",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "inequalities",
+        "extremal_principle"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Galletas restantes. Tere, Edgar y Liz comieron \\(1+2+3=6\\); Raúl y los otros dos comieron 14.",
+        "Dificultad relativa a Primer año de secundaria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q09",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "angles",
+        "squares",
+        "parallel_lines"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Dirección de la recta. ND es vertical. Como \\(\\angle OND=60^\\circ\\), la recta NM forma \\(90^\\circ-60^\\circ=30^\\circ\\) con un lado horizontal.",
+        "Dificultad relativa a Primer año de secundaria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q10",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "rates",
+        "circular_motion",
+        "fractions"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Problema de la fuente. El enunciado nombra a Gabo y Adry, pero las flechas de la figura dicen Miguel y Alicia. No se indica qué flecha corresponde a cada corredor.",
+        "Dificultad relativa a Primer año de secundaria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q11",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "inclusion_exclusion",
+        "sets"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Contar sin duplicar. Sumar 6 personas con calcetines y 4 con zapatos cuenta dos veces a las 3 que llevan ambos. Por eso \\(6+4-3=7\\) llevan al menos uno de los dos.",
+        "Dificultad relativa a Primer año de secundaria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q12",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "fractions",
+        "proportionality"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Costo total. Las tres pencas cuestan \\(3\\cdot6=18\\). Los cinco plátanos por penca no cambian esta cuenta, pues se da el precio de la penca entera.",
+        "Dificultad relativa a Primer año de secundaria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q13",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "exponents",
+        "fractions"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Convertir el decimal. \\(0.125=1/8=2^{-3}\\).",
+        "Dificultad relativa a Primer año de secundaria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q14",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L3",
+      "tags": [
+        "trapezoids",
+        "isosceles_triangles",
+        "parallel_lines"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Usar las bases paralelas. La figura da \\(AD\\parallel BC\\), \\(AD=d\\), \\(DC=c\\), \\(AB=a\\). Sea \\(\\angle ABC=\\theta\\); entonces \\(\\angle ADC=2\\theta\\) y \\(\\angle DCB=180^\\circ-2\\theta\\).",
+        "Dificultad relativa a Primer año de secundaria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q15",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "factorials",
+        "last_digit",
+        "modular_arithmetic"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Factoriales grandes. Desde \\(5!\\), cada factorial contiene los factores 2 y 5, y por tanto termina en 0.",
+        "Dificultad relativa a Primer año de secundaria."
+      ]
+    }
+  ]
+}

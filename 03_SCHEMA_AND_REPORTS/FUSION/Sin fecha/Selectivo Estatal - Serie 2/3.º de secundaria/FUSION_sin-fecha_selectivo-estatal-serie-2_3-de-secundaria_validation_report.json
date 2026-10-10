@@ -1,0 +1,439 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3 de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-de-secundaria_examen-selectivo-3-de-secundaria_original.pdf",
+  "source_sha256": "65ac2467de5d1c2bdab47b85a29cddcafadb673da9a606a18a9b332b2856fdd6",
+  "metadata_evidence": "Los ocho encabezados dicen I Campeonato Nacional de Matemáticas, Selectivo Estatal y el grado, sin año calendario. Los números 1998, 2001, 2002 y 2003 son datos de problemas y no fechan el examen. Serie 2 identifica la carpeta recuperada FUSION2, no un año inferido.",
+  "source_review": "Las 3 páginas fueron renderizadas y cotejadas visualmente con enunciados, opciones y fórmulas. Las variantes por grado se compararon sin quitar símbolos matemáticos.",
+  "pages": [
+    1,
+    2,
+    3
+  ],
+  "source_numbering": [
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q01",
+      "collection_ordinal": 1,
+      "source_question_label": "1"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q02",
+      "collection_ordinal": 2,
+      "source_question_label": "2"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q03",
+      "collection_ordinal": 3,
+      "source_question_label": "3"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q04",
+      "collection_ordinal": 4,
+      "source_question_label": "4"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q05",
+      "collection_ordinal": 5,
+      "source_question_label": "5"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q06",
+      "collection_ordinal": 6,
+      "source_question_label": "6"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q07",
+      "collection_ordinal": 7,
+      "source_question_label": "7"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q08",
+      "collection_ordinal": 8,
+      "source_question_label": "8"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q09",
+      "collection_ordinal": 9,
+      "source_question_label": "9"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q10",
+      "collection_ordinal": 10,
+      "source_question_label": "10"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q11",
+      "collection_ordinal": 11,
+      "source_question_label": "11"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q12",
+      "collection_ordinal": 12,
+      "source_question_label": "12"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q13",
+      "collection_ordinal": 13,
+      "source_question_label": "13"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q14",
+      "collection_ordinal": 14,
+      "source_question_label": "14"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q15",
+      "collection_ordinal": 15,
+      "source_question_label": "15"
+    }
+  ],
+  "figure_review": [],
+  "transcription_corrections": [
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q02",
+      "kind": "manual_source_review",
+      "details": "La respuesta recuperada Ninguna de las opciones era incorrecta. Se corrigió mediante razonamiento y enumeración de las 90 entradas; 70 produce 43.",
+      "statement_normalized": false,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q03",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y contrastada con el PDF original.",
+      "statement_normalized": true,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q05",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y contrastada con el PDF original.",
+      "statement_normalized": true,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": true
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q07",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y contrastada con el PDF original.",
+      "statement_normalized": true,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q11",
+      "kind": "manual_source_review",
+      "details": "Los dos PDF imprimen 21 y 18. El modelo de rapidez constante exige u/v=−1/4 y N=63/4; no hay número entero de escalones. No se inventa una corrección.",
+      "statement_normalized": false,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q12",
+      "kind": "manual_source_review",
+      "details": "La fuente no imprime menor. Se da y comprueba un ejemplo; al añadir ceros se obtienen infinitas respuestas. No se atribuye unicidad ni se reescribe el enunciado.",
+      "statement_normalized": false,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q13",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y contrastada con el PDF original.",
+      "statement_normalized": true,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q14",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y contrastada con el PDF original.",
+      "statement_normalized": true,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": false
+    }
+  ],
+  "latex_rendering": {
+    "engine": "KaTeX 0.16.47",
+    "expressions": 83,
+    "errors": []
+  },
+  "problems": [
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q01",
+      "status": "verified",
+      "independent_check": {
+        "people": 82,
+        "degree": 3,
+        "totalHandshakes": 123,
+        "realizability": "Cycle on 82 vertices plus the matching of opposite vertices; all degrees 3."
+      },
+      "notes": "Respuesta recalculada y contrastada con el PDF original."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q02",
+      "status": "verified",
+      "independent_check": {
+        "enumeratedInputs": 90,
+        "matches": [
+          {
+            "input": 70,
+            "doubled": 140,
+            "reversed": 41,
+            "result": 43
+          }
+        ]
+      },
+      "notes": "La respuesta recuperada Ninguna de las opciones era incorrecta. Se corrigió mediante razonamiento y enumeración de las 90 entradas; 70 produce 43."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q03",
+      "status": "verified",
+      "independent_check": {
+        "modularMultiplications": 1998,
+        "lastTwo": "49"
+      },
+      "notes": "Respuesta recalculada y contrastada con el PDF original."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q04",
+      "status": "verified",
+      "independent_check": {
+        "Lulu": 3,
+        "Naye": 10,
+        "sum": 13,
+        "fourYearsLater": [
+          7,
+          14
+        ]
+      },
+      "notes": "Respuesta recalculada y contrastada con el PDF original."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q05",
+      "status": "verified",
+      "independent_check": {
+        "BAD": 48,
+        "ABD": 66,
+        "ADB": 66,
+        "ADC": 114,
+        "alpha": 33
+      },
+      "notes": "Respuesta recalculada y contrastada con el PDF original."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q06",
+      "status": "verified",
+      "independent_check": {
+        "current": 187569,
+        "next": 187590,
+        "allIntermediateRejected": 20,
+        "distance": 21,
+        "digitSum": 3
+      },
+      "notes": "Respuesta recalculada y contrastada con el PDF original."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q07",
+      "status": "verified",
+      "independent_check": {
+        "remainder": 10
+      },
+      "notes": "Respuesta recalculada y contrastada con el PDF original."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q08",
+      "status": "verified",
+      "independent_check": {
+        "allSolutions": [
+          {
+            "apples": 1,
+            "pears": 7,
+            "peaches": 0
+          },
+          {
+            "apples": 2,
+            "pears": 5,
+            "peaches": 1
+          },
+          {
+            "apples": 3,
+            "pears": 3,
+            "peaches": 2
+          },
+          {
+            "apples": 4,
+            "pears": 1,
+            "peaches": 3
+          }
+        ]
+      },
+      "notes": "Respuesta recalculada y contrastada con el PDF original."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q09",
+      "status": "verified",
+      "independent_check": {
+        "sourceValues": [
+          3,
+          45,
+          111,
+          1001,
+          2001
+        ],
+        "bValues": [
+          666,
+          652,
+          630,
+          "1000/3",
+          0
+        ],
+        "impossible": 1001
+      },
+      "notes": "Respuesta recalculada y contrastada con el PDF original."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q10",
+      "status": "verified",
+      "independent_check": {
+        "cats": 15,
+        "hours": 15,
+        "rate": [
+          2,
+          3
+        ],
+        "mice": 150
+      },
+      "notes": "Respuesta recalculada y contrastada con el PDF original."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q11",
+      "status": "invalid_source_inconsistent_step_counts",
+      "independent_check": {
+        "printedSteps": [
+          21,
+          18
+        ],
+        "speedRatio": [
+          1,
+          2
+        ],
+        "signedEscalatorRatio": [
+          -1,
+          4
+        ],
+        "restSteps": [
+          63,
+          4
+        ],
+        "integer": false,
+        "upwardMotion": false
+      },
+      "notes": "Los dos PDF imprimen 21 y 18. El modelo de rapidez constante exige u/v=−1/4 y N=63/4; no hay número entero de escalones. No se inventa una corrección."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q12",
+      "status": "source_non_unique_multiple",
+      "independent_check": {
+        "example": "3300030300",
+        "quotient": "1659975",
+        "remainder": 0,
+        "breadthFirstFirstExample": "3300030300",
+        "visitedResidues": 1188,
+        "sourceDoesNotRequestMinimum": true,
+        "otherExample": "33000303000"
+      },
+      "notes": "La fuente no imprime menor. Se da y comprueba un ejemplo; al añadir ceros se obtienen infinitas respuestas. No se atribuye unicidad ni se reescribe el enunciado."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q13",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "allowedDigits": [
+          0,
+          1,
+          3,
+          4,
+          6,
+          9
+        ],
+        "enumeratedCount": 180
+      },
+      "notes": "Respuesta recalculada y contrastada con el PDF original."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q14",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "allSolutions": [
+          19,
+          29,
+          39,
+          49,
+          59,
+          69,
+          79,
+          89,
+          99
+        ],
+        "unitDigits": [
+          9
+        ]
+      },
+      "notes": "Respuesta recalculada y contrastada con el PDF original."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q15",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "days": 9,
+        "clearMornings": 6,
+        "clearAfternoons": 5,
+        "rainMornings": 3,
+        "rainAfternoons": 4,
+        "rainyDays": 7,
+        "allClearDays": 2
+      },
+      "notes": "Se usa el modelo del enunciado de cada mañana y tarde como periodo claro o lluvioso; las siete veces son sus siete periodos lluviosos."
+    }
+  ],
+  "structural_validation": [
+    {
+      "path": "02_JSON_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3.º de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-de-secundaria_verified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "ef56b02dbafb826d98da2722aab4bb2fc4559c302a370310c849c58c868fbc9b",
+        "bytes": 40682,
+        "problems": 15,
+        "verified": 13,
+        "guided": 2,
+        "images": 0,
+        "figures": [],
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3.º de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-de-secundaria_classified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "fee8c6077ade9871577bd7ee57901762ad5a3227c65d74090cf9933fe352b95c",
+        "bytes": 49046,
+        "problems": 15,
+        "verified": 13,
+        "guided": 2,
+        "images": 0,
+        "figures": [],
+        "errors": [],
+        "warnings": []
+      }
+    }
+  ]
+}

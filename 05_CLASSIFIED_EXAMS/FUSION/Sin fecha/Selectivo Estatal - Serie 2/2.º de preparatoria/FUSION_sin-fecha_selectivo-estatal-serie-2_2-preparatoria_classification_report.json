@@ -1,0 +1,277 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/2 de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_2-de-preparatoria_examen-selectivo-2-preparatoria_original.pdf",
+  "source_sha256": "9e573f79ed778f931c188d7928c4df4fca1c5d186a93f2b7119f5ab9277f3760",
+  "school_level": "Segundo año de preparatoria",
+  "rubric": "Primary solving idea; L1 familiar direct steps, L2 combines ideas, L3 non-routine argument, relative to the printed school grade. Source defects do not become automatic answers.",
+  "problems": [
+    {
+      "source_id": "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q01",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "area",
+        "midpoints",
+        "quadrilaterals"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Primer cuadrilátero de puntos medios. KLMN ocupa la mitad del rectángulo: las cuatro esquinas recortadas suman la otra mitad.",
+        "Dificultad relativa a Segundo año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q02",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "percentages",
+        "invariants"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Masa que no es agua. Después de beber, representa \\(100\\%-85\\%=15\\%\\) de 800 kg: \\(0.15\\cdot800=120\\) kg.",
+        "Dificultad relativa a Segundo año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q03",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "squares",
+        "pythagorean_theorem",
+        "exponents"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Diagonal. Por Pitágoras, \\(d^2=1^2+1^2=2\\).",
+        "Dificultad relativa a Segundo año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q04",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "casework",
+        "parity",
+        "products"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Agrupar por signos negativos. Si k de las seis letras valen −1, su suma es \\(6-2k\\) y su producto es \\((-1)^k\\).",
+        "Dificultad relativa a Segundo año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q05",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "digit_counting",
+        "multiples"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Última cifra. Los múltiplos de 5 desde 5 hasta 2000 terminan en 0 o 5, así que no aportan unos en las unidades.",
+        "Dificultad relativa a Segundo año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q06",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "area",
+        "midpoints",
+        "triangles"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Ubicar los puntos. E está a mitad de BD y F a mitad de ED, así que \\(DF=BD/4\\).",
+        "Dificultad relativa a Segundo año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q07",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "parallel_lines",
+        "angles",
+        "exterior_angles"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Ángulo entre transversales. El marcado 140° es suplementario del ángulo agudo entre ellas: \\(180^\\circ-140^\\circ=40^\\circ\\).",
+        "Dificultad relativa a Segundo año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q08",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "area",
+        "regular_polygons",
+        "similarity"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Comparar lados. Si el hexágono tiene lado h y el triángulo lado t, la igualdad de perímetros da \\(6h=3t\\), o \\(t=2h\\).",
+        "Dificultad relativa a Segundo año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q09",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "products",
+        "radicals",
+        "elimination"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Eliminar variables por cociente. \\(\\frac{(bc)(de)}{(cd)(ea)}=\\frac ba=\\frac{2\\cdot4}{3\\cdot5}=\\frac8{15}\\).",
+        "Dificultad relativa a Segundo año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q10",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "squares",
+        "circles",
+        "pythagorean_theorem",
+        "area"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Diámetro común. En la figura el círculo está inscrito en el cuadrado grande y pasa por los cuatro vértices del chico. El diámetro del círculo es el lado del grande y la diagonal del chico.",
+        "Dificultad relativa a Segundo año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q11",
+      "primary_area": "number_theory",
+      "secondary_areas": [
+        "combinatorics"
+      ],
+      "mixed": true,
+      "difficulty": "L2",
+      "tags": [
+        "cryptarithms",
+        "digits",
+        "casework"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Unidades. La multiplicación exige \\(B^2\\equiv B\\pmod{10}\\). Como B es una cifra no nula del factor y de un producto de cuatro cifras, queda \\(B=1,5,6\\).",
+        "Dificultad relativa a Segundo año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q12",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "fractions",
+        "order_of_operations"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Empezar por el interior. \\(7/2+3=7/2+6/2=13/2\\).",
+        "Dificultad relativa a Segundo año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q13",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "linear_systems",
+        "elimination"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Restar ecuaciones. La segunda menos la primera da \\((X+5Y)-(X-2Y)=-17-11\\), es decir \\(7Y=-28\\).",
+        "Dificultad relativa a Segundo año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q14",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "radicals",
+        "simplification",
+        "domain"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Conservar el dominio. La expresión original tiene denominador 3x, así que \\(x\\ne0\\). Para números reales no hay restricción adicional por tratarse de una raíz cúbica.",
+        "Dificultad relativa a Segundo año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q15",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "counting",
+        "linear_equations",
+        "sets"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Contar medios días. Cada día contiene una mañana y una tarde. Las partes claras suman \\(6+5=11\\) y las lluviosas son 7.",
+        "Dificultad relativa a Segundo año de preparatoria."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3 de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-de-preparatoria_examen-selectivo-3-preparatoria_original.pdf",
+  "source_sha256": "12f15fff3cdfa8546bcd8b751141a80cd766c51e1b2b3707bd0f2adcbc318e5b",
+  "school_level": "Tercer año de preparatoria",
+  "rubric": "Primary solving idea; L1 familiar direct steps, L2 combines ideas, L3 non-routine argument, relative to the printed school grade. Source defects do not become automatic answers.",
+  "problems": [
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q01",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "percentages",
+        "linear_equations"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Precio original. Sea x el precio antes del aumento. Después cuesta \\(x+12\\).",
+        "Dificultad relativa a Tercer año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q02",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "equilateral_triangles",
+        "isosceles_triangles",
+        "triangle_inequality",
+        "angles"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Normalizar el lado. Tomamos \\(AB=BC=CA=1\\). Como B es el punto medio de AD, también \\(BD=1\\).",
+        "Dificultad relativa a Tercer año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q03",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "rates",
+        "units",
+        "linear_equations"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Usar las mismas unidades. Los 16 minutos de diferencia son \\(16/60=4/15\\) de hora.",
+        "Dificultad relativa a Tercer año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q04",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "factorization",
+        "divisibility",
+        "bounds"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Edades en años enteros. Sea m la edad del menor; la del mayor es 2m. Como ambas aparecen en el producto, \\(2m^2\\) divide a \\(1664=2^7\\cdot13\\).",
+        "Dificultad relativa a Tercer año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q05",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "isosceles_triangles",
+        "angles",
+        "sine_rule"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Ángulos del triángulo grande. Al ser isósceles y tener 40° en A, los ángulos de la base B y C son \\((180^\\circ-40^\\circ)/2=70^\\circ\\).",
+        "Dificultad relativa a Tercer año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q06",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "area",
+        "midpoints",
+        "triangles"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Ubicar los puntos. E está a mitad de BD y F a mitad de ED, así que \\(DF=BD/4\\).",
+        "Dificultad relativa a Tercer año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q07",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "parallel_lines",
+        "angles",
+        "exterior_angles"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Ángulo entre transversales. El marcado 140° es suplementario del ángulo agudo entre ellas: \\(180^\\circ-140^\\circ=40^\\circ\\).",
+        "Dificultad relativa a Tercer año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q08",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "area",
+        "regular_polygons",
+        "similarity"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Comparar lados. Si el hexágono tiene lado h y el triángulo lado t, la igualdad de perímetros da \\(6h=3t\\), o \\(t=2h\\).",
+        "Dificultad relativa a Tercer año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q09",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "products",
+        "radicals",
+        "elimination"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Eliminar variables por cociente. \\(\\frac{(bc)(de)}{(cd)(ea)}=\\frac ba=\\frac{2\\cdot4}{3\\cdot5}=\\frac8{15}\\).",
+        "Dificultad relativa a Tercer año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q10",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "squares",
+        "circles",
+        "pythagorean_theorem",
+        "area"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Diámetro común. En la figura el círculo está inscrito en el cuadrado grande y pasa por los cuatro vértices del chico. El diámetro del círculo es el lado del grande y la diagonal del chico.",
+        "Dificultad relativa a Tercer año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q11",
+      "primary_area": "number_theory",
+      "secondary_areas": [
+        "combinatorics"
+      ],
+      "mixed": true,
+      "difficulty": "L2",
+      "tags": [
+        "cryptarithms",
+        "digits",
+        "casework"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Unidades. La multiplicación exige \\(B^2\\equiv B\\pmod{10}\\). Como B es una cifra no nula del factor y de un producto de cuatro cifras, queda \\(B=1,5,6\\).",
+        "Dificultad relativa a Tercer año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q12",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "fractions",
+        "order_of_operations"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Empezar por el interior. \\(7/2+3=7/2+6/2=13/2\\).",
+        "Dificultad relativa a Tercer año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q13",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "linear_systems",
+        "elimination"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Restar ecuaciones. La segunda menos la primera da \\((X+5Y)-(X-2Y)=-17-11\\), es decir \\(7Y=-28\\).",
+        "Dificultad relativa a Tercer año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q14",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "ages",
+        "linear_equations"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Diferencia común. Sea d la diferencia entre Juan y Pedro, y también entre Pedro y Luis. Entonces Juan tiene \\(L+2d\\) si Luis tiene L.",
+        "Dificultad relativa a Tercer año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q15",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "percentages",
+        "ratios",
+        "profit"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Aclarar la base del porcentaje. La fuente solo dice que gana 12%; no especifica si ese porcentaje se calcula sobre su costo o sobre lo cobrado, ni detalla los precios.",
+        "Dificultad relativa a Tercer año de preparatoria."
+      ]
+    }
+  ]
+}

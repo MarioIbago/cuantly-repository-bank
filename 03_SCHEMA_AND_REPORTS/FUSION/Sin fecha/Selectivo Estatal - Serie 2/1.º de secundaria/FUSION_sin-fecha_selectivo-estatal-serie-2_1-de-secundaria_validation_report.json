@@ -1,0 +1,591 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/1 de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_1-de-secundaria_examen-selectivo-1-de-secundaria-docx_original.pdf",
+  "source_sha256": "1ca2f937d777471d5d907d0bf46a81b993a942477639e835c7efb25200163611",
+  "metadata_evidence": "Los ocho encabezados dicen I Campeonato Nacional de Matemáticas, Selectivo Estatal y el grado, sin año calendario. Los números 1998, 2001, 2002 y 2003 son datos de problemas y no fechan el examen. Serie 2 identifica la carpeta recuperada FUSION2, no un año inferido.",
+  "source_review": "Las 4 páginas fueron renderizadas y cotejadas visualmente con enunciados, opciones y fórmulas. Las variantes por grado se compararon sin quitar símbolos matemáticos.",
+  "pages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "source_numbering": [
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q01",
+      "collection_ordinal": 1,
+      "source_question_label": "1"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q02",
+      "collection_ordinal": 2,
+      "source_question_label": "2"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q03",
+      "collection_ordinal": 3,
+      "source_question_label": "3"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q04",
+      "collection_ordinal": 4,
+      "source_question_label": "4"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q05",
+      "collection_ordinal": 5,
+      "source_question_label": "5"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q06",
+      "collection_ordinal": 6,
+      "source_question_label": "6"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q07",
+      "collection_ordinal": 7,
+      "source_question_label": "7"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q08",
+      "collection_ordinal": 8,
+      "source_question_label": "8"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q09",
+      "collection_ordinal": 9,
+      "source_question_label": "9"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q10",
+      "collection_ordinal": 10,
+      "source_question_label": "10"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q11",
+      "collection_ordinal": 11,
+      "source_question_label": "11"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q12",
+      "collection_ordinal": 12,
+      "source_question_label": "12"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q13",
+      "collection_ordinal": 13,
+      "source_question_label": "13"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q14",
+      "collection_ordinal": 14,
+      "source_question_label": "14"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q15",
+      "collection_ordinal": 15,
+      "source_question_label": "15"
+    }
+  ],
+  "figure_review": [
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q01",
+      "page": 1,
+      "pdf_image_object": "Image25.png",
+      "bbox_top_left_pdf_points": [
+        246.37,
+        264.13,
+        401.57,
+        368.23
+      ],
+      "sha256": "70ce659c1b18ff7c85bb6c5e841b2a00707df715afec515c07c5878c015944dc",
+      "method": "Exact embedded mathematical image bytes. Original labels and all relevant geometry retained."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q09",
+      "page": 2,
+      "pdf_image_object": "Image33.png",
+      "bbox_top_left_pdf_points": [
+        262.5,
+        602.643,
+        385.5,
+        719.643
+      ],
+      "sha256": "1620dca0a1ad6c0a9b84676c1d77737d808eb7f26ed28f8977f3bc7addaaddd5",
+      "method": "Exact embedded mathematical image bytes. Original labels and all relevant geometry retained."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q10",
+      "page": 3,
+      "pdf_image_object": "Image46.png",
+      "bbox_top_left_pdf_points": [
+        259.87,
+        239.64999999999998,
+        388.09000000000003,
+        357.85
+      ],
+      "sha256": "b28dceaa7bb8b02f47f5593076fd862f297f4471aa5c850707beb9775c5921fd",
+      "method": "Exact embedded mathematical image bytes. Original labels and all relevant geometry retained."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q14",
+      "page": 4,
+      "pdf_image_object": "Image55.png",
+      "bbox_top_left_pdf_points": [
+        231.74997285515937,
+        105.34776508727498,
+        415.7051951607754,
+        202.60951984665007
+      ],
+      "sha256": "eb434791b960a1d6c5fb924b702b8a12a6bda4a44920c64d7f38cabde1bb1151",
+      "method": "Exact embedded mathematical image bytes. Original labels and all relevant geometry retained."
+    }
+  ],
+  "transcription_corrections": [
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q07",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y contrastada con el PDF original.",
+      "statement_normalized": true,
+      "options_recovered_from_pdf": true,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q11",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y contrastada con el PDF original.",
+      "statement_normalized": true,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q12",
+      "kind": "manual_source_review",
+      "details": "Fracción 1/8 cotejada visualmente; costo proporcional al peso bajo el modelo del problema. El símbolo monetario original se conserva sin atribuir país o moneda.",
+      "statement_normalized": true,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q13",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y contrastada con el PDF original.",
+      "statement_normalized": true,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q14",
+      "kind": "manual_source_review",
+      "details": "Se recuperó la figura original situada en la página siguiente; AB se normaliza desde Ab. La relación AD paralela a BC y la orientación usadas son las de la figura.",
+      "statement_normalized": true,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": true
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q15",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y contrastada con el PDF original.",
+      "statement_normalized": true,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": false
+    }
+  ],
+  "latex_rendering": {
+    "engine": "KaTeX 0.16.47",
+    "expressions": 98,
+    "errors": []
+  },
+  "problems": [
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q01",
+      "status": "verified",
+      "independent_check": {
+        "sides": [
+          4,
+          6,
+          10,
+          16
+        ],
+        "perimeter": 64
+      },
+      "notes": "Respuesta recalculada y contrastada con el PDF original."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q02",
+      "status": "verified",
+      "independent_check": {
+        "examplePoints": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "completions": [
+          [
+            2,
+            2
+          ],
+          [
+            -2,
+            2
+          ],
+          [
+            2,
+            -2
+          ]
+        ],
+        "proof": "Each choice of shared corner gives exactly one completion; equality of completions forces two given points equal."
+      },
+      "notes": "Respuesta recalculada y contrastada con el PDF original."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q03",
+      "status": "verified",
+      "independent_check": {
+        "uniqueAssignment": [
+          2,
+          1,
+          3,
+          0
+        ],
+        "dateOrder": [
+          "Mar 1",
+          "Mar 20",
+          "May 17",
+          "Jul 20"
+        ],
+        "personOrder": [
+          "Blanca",
+          "Cristina",
+          "Daniela",
+          "Flor"
+        ]
+      },
+      "notes": "Respuesta recalculada y contrastada con el PDF original."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q04",
+      "status": "verified",
+      "independent_check": {
+        "rates": [
+          0.1,
+          0.2,
+          0.2
+        ],
+        "timeHours": 2
+      },
+      "notes": "Respuesta recalculada y contrastada con el PDF original."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q05",
+      "status": "verified",
+      "independent_check": {
+        "triangle": 18,
+        "rectangleSides": [
+          6,
+          15
+        ],
+        "total": 60
+      },
+      "notes": "Respuesta recalculada y contrastada con el PDF original."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q06",
+      "status": "verified",
+      "independent_check": {
+        "combinedPrice": 32.4,
+        "oneEach": 8.1
+      },
+      "notes": "Respuesta recalculada y contrastada con el PDF original."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q07",
+      "status": "verified",
+      "independent_check": {
+        "hexagonUnitTriangles": 6,
+        "largeTriangleUnitTriangles": 9,
+        "ratio": [
+          2,
+          3
+        ]
+      },
+      "notes": "Respuesta recalculada y contrastada con el PDF original."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q08",
+      "status": "verified",
+      "independent_check": {
+        "minimumRaul": 6,
+        "allMinimalAssignments": [
+          [
+            6,
+            3,
+            5
+          ],
+          [
+            6,
+            4,
+            4
+          ],
+          [
+            6,
+            5,
+            3
+          ]
+        ]
+      },
+      "notes": "Respuesta recalculada y contrastada con el PDF original."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q09",
+      "status": "verified",
+      "independent_check": {
+        "diagonalDegrees": 45,
+        "lineDegrees": 30,
+        "angleDegrees": 15,
+        "triangleAngles": [
+          45,
+          120,
+          15
+        ]
+      },
+      "notes": "Respuesta recalculada y contrastada con el PDF original."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q10",
+      "status": "ambiguous_source_direction_labels",
+      "independent_check": {
+        "sourceNames": [
+          "Gabo",
+          "Adry"
+        ],
+        "figureNames": [
+          "Miguel",
+          "Alicia"
+        ],
+        "assumedSpeedRatio": [
+          3,
+          1
+        ],
+        "fastFraction": [
+          3,
+          4
+        ],
+        "slowFraction": [
+          1,
+          4
+        ],
+        "possibleEndpoints": [
+          "E",
+          "A"
+        ]
+      },
+      "notes": "El enunciado usa Gabo/Adry y la figura Miguel/Alicia; la correspondencia de sentidos no está indicada. Bajo rapidez 3:1, E y A son resultados posibles. La expresión tres veces más rápido también se interpreta aquí explícitamente como razón 3:1."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q11",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "both": 3,
+        "socksOnly": 3,
+        "shoesOnly": 1,
+        "neither": 5,
+        "total": 12
+      },
+      "notes": "Respuesta recalculada y contrastada con el PDF original."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q12",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "bunches": 3,
+        "bunchPrice": 6,
+        "total": 18,
+        "peelFraction": [
+          1,
+          8
+        ],
+        "proportionalPeelCost": 2.25
+      },
+      "notes": "Fracción 1/8 cotejada visualmente; costo proporcional al peso bajo el modelo del problema. El símbolo monetario original se conserva sin atribuir país o moneda."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q13",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "decimal": 0.125,
+        "exponent": [
+          -2,
+          3
+        ],
+        "value": 3.9999999999999996
+      },
+      "notes": "Respuesta recalculada y contrastada con el PDF original."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q14",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "generalProof": "a sinθ=c sin2θ; a=2c cosθ; BC=a cosθ+d−c cos2θ=c+d",
+        "independentSamples": [
+          {
+            "thetaDegrees": 20,
+            "a": 5.638155724715451,
+            "c": 3,
+            "d": 4,
+            "height": 1.928362829059618,
+            "cdHeight": 1.9283628290596178,
+            "bcFromProjections": 7,
+            "expectedBC": 7
+          },
+          {
+            "thetaDegrees": 35,
+            "a": 4.914912265733951,
+            "c": 3,
+            "d": 4,
+            "height": 2.819077862357725,
+            "cdHeight": 2.819077862357725,
+            "bcFromProjections": 7,
+            "expectedBC": 7
+          },
+          {
+            "thetaDegrees": 55,
+            "a": 3.4414586181062763,
+            "c": 3,
+            "d": 4,
+            "height": 2.819077862357725,
+            "cdHeight": 2.8190778623577253,
+            "bcFromProjections": 7,
+            "expectedBC": 7
+          },
+          {
+            "thetaDegrees": 75,
+            "a": 1.5529142706151244,
+            "c": 3,
+            "d": 4,
+            "height": 1.5,
+            "cdHeight": 1.4999999999999998,
+            "bcFromProjections": 7,
+            "expectedBC": 7
+          }
+        ]
+      },
+      "notes": "Se recuperó la figura original situada en la página siguiente; AB se normaliza desde Ab. La relación AD paralela a BC y la orientación usadas son las de la figura."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q15",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "lastDigit": "3",
+        "factorialTerms": 99
+      },
+      "notes": "Respuesta recalculada y contrastada con el PDF original."
+    }
+  ],
+  "structural_validation": [
+    {
+      "path": "02_JSON_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/1.º de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_1-de-secundaria_verified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "508189fc26a1790360261d7c101652433e73b541ad1b440da93350ce870ebd32",
+        "bytes": 58839,
+        "problems": 15,
+        "verified": 14,
+        "guided": 1,
+        "images": 4,
+        "figures": [
+          {
+            "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q01",
+            "figure": 1,
+            "sha256": "70ce659c1b18ff7c85bb6c5e841b2a00707df715afec515c07c5878c015944dc",
+            "width": 190,
+            "height": 128
+          },
+          {
+            "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q09",
+            "figure": 1,
+            "sha256": "1620dca0a1ad6c0a9b84676c1d77737d808eb7f26ed28f8977f3bc7addaaddd5",
+            "width": 116,
+            "height": 110
+          },
+          {
+            "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q10",
+            "figure": 1,
+            "sha256": "b28dceaa7bb8b02f47f5593076fd862f297f4471aa5c850707beb9775c5921fd",
+            "width": 148,
+            "height": 137
+          },
+          {
+            "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q14",
+            "figure": 1,
+            "sha256": "eb434791b960a1d6c5fb924b702b8a12a6bda4a44920c64d7f38cabde1bb1151",
+            "width": 335,
+            "height": 178
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/1.º de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_1-de-secundaria_classified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "e92a427421aad3593944ab8e7c5ff233042192f47132ee2743f6ed6c37e421d7",
+        "bytes": 67303,
+        "problems": 15,
+        "verified": 14,
+        "guided": 1,
+        "images": 4,
+        "figures": [
+          {
+            "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q01",
+            "figure": 1,
+            "sha256": "70ce659c1b18ff7c85bb6c5e841b2a00707df715afec515c07c5878c015944dc",
+            "width": 190,
+            "height": 128
+          },
+          {
+            "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q09",
+            "figure": 1,
+            "sha256": "1620dca0a1ad6c0a9b84676c1d77737d808eb7f26ed28f8977f3bc7addaaddd5",
+            "width": 116,
+            "height": 110
+          },
+          {
+            "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q10",
+            "figure": 1,
+            "sha256": "b28dceaa7bb8b02f47f5593076fd862f297f4471aa5c850707beb9775c5921fd",
+            "width": 148,
+            "height": 137
+          },
+          {
+            "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q14",
+            "figure": 1,
+            "sha256": "eb434791b960a1d6c5fb924b702b8a12a6bda4a44920c64d7f38cabde1bb1151",
+            "width": 335,
+            "height": 178
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    }
+  ]
+}

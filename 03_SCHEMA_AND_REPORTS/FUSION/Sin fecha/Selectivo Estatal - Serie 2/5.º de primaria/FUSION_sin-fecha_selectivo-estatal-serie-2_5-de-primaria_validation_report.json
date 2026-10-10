@@ -1,0 +1,430 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/5 de primaria/FUSION_sin-fecha_selectivo-estatal-serie-2_5-de-primaria_examen-selectivo-5-de-primaria_original.pdf",
+  "source_sha256": "0636923281fa4ad8fe2cc001d0301623450acd479e35c4889ec0bed3e9dcc298",
+  "metadata_evidence": "Los ocho encabezados dicen I Campeonato Nacional de Matemáticas, Selectivo Estatal y el grado, sin año calendario. Los números 1998, 2001, 2002 y 2003 son datos de problemas y no fechan el examen. Serie 2 identifica la carpeta recuperada FUSION2, no un año inferido.",
+  "source_review": "Las 3 páginas fueron renderizadas y cotejadas visualmente con enunciados, opciones y fórmulas. Las variantes por grado se compararon sin quitar símbolos matemáticos.",
+  "pages": [
+    1,
+    2,
+    3
+  ],
+  "source_numbering": [
+    {
+      "source_id": "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q01",
+      "collection_ordinal": 1,
+      "source_question_label": "1"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q02",
+      "collection_ordinal": 2,
+      "source_question_label": "2"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q03",
+      "collection_ordinal": 3,
+      "source_question_label": "3"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q04",
+      "collection_ordinal": 4,
+      "source_question_label": "4"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q05",
+      "collection_ordinal": 5,
+      "source_question_label": "5"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q06",
+      "collection_ordinal": 6,
+      "source_question_label": "6"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q07",
+      "collection_ordinal": 7,
+      "source_question_label": "7"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q08",
+      "collection_ordinal": 8,
+      "source_question_label": "8"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q09",
+      "collection_ordinal": 9,
+      "source_question_label": "9"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q10",
+      "collection_ordinal": 10,
+      "source_question_label": "10"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q11",
+      "collection_ordinal": 11,
+      "source_question_label": "11"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q12",
+      "collection_ordinal": 12,
+      "source_question_label": "12"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q13",
+      "collection_ordinal": 13,
+      "source_question_label": "13"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q14",
+      "collection_ordinal": 14,
+      "source_question_label": "14"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q15",
+      "collection_ordinal": 15,
+      "source_question_label": "15"
+    }
+  ],
+  "figure_review": [
+    {
+      "source_id": "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q07",
+      "page": 2,
+      "pdf_image_object": "Image33.png",
+      "bbox_top_left_pdf_points": [
+        274.87,
+        236.34216936823407,
+        372.73387780378005,
+        326.2321247757219
+      ],
+      "sha256": "d8f4896c51538c2a43c9fb84fecb9ef598327b38080c99dbfb3b98c735774a01",
+      "method": "Exact embedded mathematical image bytes. Original labels and all relevant geometry retained."
+    }
+  ],
+  "transcription_corrections": [
+    {
+      "source_id": "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q06",
+      "kind": "manual_source_review",
+      "details": "La fuente no fija el orden y ofrece tanto 11 como 6. Se conservan las dos interpretaciones sin imponer una opción.",
+      "statement_normalized": false,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q09",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y contrastada con el PDF original.",
+      "statement_normalized": true,
+      "options_recovered_from_pdf": true,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q10",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y contrastada con el PDF original.",
+      "statement_normalized": true,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": false
+    }
+  ],
+  "latex_rendering": {
+    "engine": "KaTeX 0.16.47",
+    "expressions": 79,
+    "errors": []
+  },
+  "problems": [
+    {
+      "source_id": "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q01",
+      "status": "verified",
+      "independent_check": {
+        "Jaden": 7,
+        "Fer": 14,
+        "difference": 7,
+        "ratio": 2
+      },
+      "notes": "Respuesta recalculada y contrastada con el PDF original."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q02",
+      "status": "verified",
+      "independent_check": {
+        "pencilsByColor": [
+          179,
+          121
+        ],
+        "casesByColor": [
+          18,
+          13
+        ],
+        "total": 31
+      },
+      "notes": "Respuesta recalculada y contrastada con el PDF original."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q03",
+      "status": "verified",
+      "independent_check": {
+        "fiveChildren": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "sum": 15,
+        "minForSix": 21
+      },
+      "notes": "Respuesta recalculada y contrastada con el PDF original."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q04",
+      "status": "verified",
+      "independent_check": {
+        "directCount": 8,
+        "byPosition": {
+          "units": 3,
+          "tens": 5
+        }
+      },
+      "notes": "Respuesta recalculada y contrastada con el PDF original."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q05",
+      "status": "verified",
+      "independent_check": {
+        "sum": 12
+      },
+      "notes": "Respuesta recalculada y contrastada con el PDF original."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q06",
+      "status": "ambiguous_source_pair_order",
+      "independent_check": {
+        "unordered": [
+          [
+            1,
+            21
+          ],
+          [
+            3,
+            19
+          ],
+          [
+            5,
+            17
+          ],
+          [
+            7,
+            15
+          ],
+          [
+            9,
+            13
+          ],
+          [
+            11,
+            11
+          ]
+        ],
+        "unorderedCount": 6,
+        "orderedCount": 11,
+        "sourceContainsBothChoices": true
+      },
+      "notes": "La fuente no fija el orden y ofrece tanto 11 como 6. Se conservan las dos interpretaciones sin imponer una opción."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q07",
+      "status": "verified",
+      "independent_check": {
+        "smallSides": [
+          3,
+          10
+        ],
+        "smallPerimeter": 26,
+        "largeSides": [
+          7,
+          10
+        ],
+        "largePerimeter": 34,
+        "difference": 8
+      },
+      "notes": "Respuesta recalculada y contrastada con el PDF original."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q08",
+      "status": "verified",
+      "independent_check": {
+        "firstThreeSum": 26,
+        "requiredSum": 36,
+        "fourth": 10,
+        "average": 9
+      },
+      "notes": "Respuesta recalculada y contrastada con el PDF original."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q09",
+      "status": "verified",
+      "independent_check": {
+        "originalPortions": 12,
+        "remainingAfterDays": [
+          6,
+          4,
+          3
+        ],
+        "fraction": [
+          1,
+          4
+        ]
+      },
+      "notes": "Respuesta recalculada y contrastada con el PDF original."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q10",
+      "status": "verified",
+      "independent_check": {
+        "positiveC": [
+          2,
+          5,
+          14
+        ],
+        "count": 3,
+        "completeness": "C+4≤18; search through 100 covers all possible denominators."
+      },
+      "notes": "Respuesta recalculada y contrastada con el PDF original."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q11",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "capacityLiters": 16,
+        "half": 8,
+        "added": 4,
+        "threeQuarters": 12
+      },
+      "notes": "Respuesta recalculada y contrastada con el PDF original."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q12",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "sandFraction": [
+          32,
+          50
+        ],
+        "tileFraction": [
+          1440,
+          4000
+        ],
+        "sum": 1
+      },
+      "notes": "Respuesta recalculada y contrastada con el PDF original."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q13",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "integerSidesAndArea": [
+          [
+            1,
+            8,
+            8
+          ],
+          [
+            2,
+            7,
+            14
+          ],
+          [
+            3,
+            6,
+            18
+          ],
+          [
+            4,
+            5,
+            20
+          ]
+        ],
+        "maxArea": 20
+      },
+      "notes": "Respuesta recalculada y contrastada con el PDF original."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q14",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "first": 300,
+        "second": 900,
+        "firstSixth": 50,
+        "secondThird": 300
+      },
+      "notes": "Respuesta recalculada y contrastada con el PDF original."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q15",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "permutations": 24,
+        "directSum": 66660,
+        "complementPairSum": 5555,
+        "pairs": 12
+      },
+      "notes": "Respuesta recalculada y contrastada con el PDF original."
+    }
+  ],
+  "structural_validation": [
+    {
+      "path": "02_JSON_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/5.º de primaria/FUSION_sin-fecha_selectivo-estatal-serie-2_5-de-primaria_verified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "19dfdc94e74d0211471fb4eeb7e2efb84b1fa3f47574ada1c2b84ebccafb68b7",
+        "bytes": 41198,
+        "problems": 15,
+        "verified": 14,
+        "guided": 1,
+        "images": 1,
+        "figures": [
+          {
+            "source_id": "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q07",
+            "figure": 1,
+            "sha256": "d8f4896c51538c2a43c9fb84fecb9ef598327b38080c99dbfb3b98c735774a01",
+            "width": 172,
+            "height": 159
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/5.º de primaria/FUSION_sin-fecha_selectivo-estatal-serie-2_5-de-primaria_classified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "b6faec15d1b4dd47ff577417966afa11d7a7c7874fdaa39727b45a3ed4c9565a",
+        "bytes": 49174,
+        "problems": 15,
+        "verified": 14,
+        "guided": 1,
+        "images": 1,
+        "figures": [
+          {
+            "source_id": "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q07",
+            "figure": 1,
+            "sha256": "d8f4896c51538c2a43c9fb84fecb9ef598327b38080c99dbfb3b98c735774a01",
+            "width": 172,
+            "height": 159
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    }
+  ]
+}

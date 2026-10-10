@@ -1,0 +1,909 @@
+{
+  "schema_version": "1.0",
+  "source_format_reference": "Cuantly public practice; original multiple_choice and open_answer preserved",
+  "exam": {
+    "competition": "FUSION",
+    "source_competition": "I Campeonato Nacional de Matemáticas",
+    "edition": 1,
+    "year": null,
+    "year_status": "not_confirmed",
+    "year_evidence": "Los ocho encabezados dicen I Campeonato Nacional de Matemáticas, Selectivo Estatal y el grado, sin año calendario. Los números 1998, 2001, 2002 y 2003 son datos de problemas y no fechan el examen. Serie 2 identifica la carpeta recuperada FUSION2, no un año inferido.",
+    "phase": "Selectivo Estatal - Serie 2",
+    "level": "3.º de secundaria",
+    "school_level": "Tercer año de secundaria",
+    "problem_count": 15,
+    "source_file": "FUSION_sin-fecha_selectivo-estatal-serie-2_3-de-secundaria_examen-selectivo-3-de-secundaria_original.pdf",
+    "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3 de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-de-secundaria_examen-selectivo-3-de-secundaria_original.pdf",
+    "source_sha256": "65ac2467de5d1c2bdab47b85a29cddcafadb673da9a606a18a9b332b2856fdd6",
+    "image_policy": "Exact embedded mathematical figures from each original PDF; formulas and arithmetic layouts transcribed as LaTeX. No logos, page screenshots or full-question crops.",
+    "classification_phase": "not_started",
+    "difficulty_phase": "not_started",
+    "source_archive_family": "FUSION2"
+  },
+  "validation_summary": {
+    "verified_problems": 13,
+    "needs_review_or_invalid": 2,
+    "needs_review_problem_numbers": [
+      11,
+      12
+    ],
+    "notes": "Opciones originales y fórmulas cotejadas en todos los PDF; respuestas abiertas conservadas. Avisos de fuente para nombres de corredores, escalera inconsistente, múltiplo no único, unidad impresa incorrecta, base de ganancia y orden de parejas. No se infiere un año."
+  },
+  "problems": [
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q01",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 3.º de secundaria",
+      "problem_number": 1,
+      "source_question_label": "1",
+      "source_page": 1,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "En una fiesta cada persona saludó a exactamente otras tres personas. Si hubo en total 123\nsaludos, ¿Cuántas personas asistieron a la fiesta?",
+      "options": [
+        {
+          "label": "a",
+          "text": "54"
+        },
+        {
+          "label": "b",
+          "text": "67"
+        },
+        {
+          "label": "c",
+          "text": "77"
+        },
+        {
+          "label": "d",
+          "text": "82"
+        },
+        {
+          "label": "e",
+          "text": "101"
+        }
+      ],
+      "correct_answer": "82 personas",
+      "correct_option_label": "d",
+      "solution_text": "1. **Contar extremos de saludos.** Un saludo une a dos personas. Los 123 saludos aportan \\(2\\cdot123=246\\) extremos.\n2. **Contar por personas.** Si asistieron n y cada una saludó a tres, hay \\(3n\\) extremos. Así, \\(3n=246\\).\n3. **Respuesta.** \\(n=\\mathbf{82}\\), opción **d**.\n4. **Comprobación de posibilidad.** Podemos colocar a 82 personas en un círculo: cada una saluda a sus dos vecinas y a la opuesta. Son tres saludos por persona y \\(82\\cdot3/2=123\\) saludos distintos.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "54 personas producirían 81 saludos."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "67 daría 201 extremos, un número impar incompatible con saludos de dos personas."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "77 también da un número impar de extremos."
+        },
+        {
+          "label": "d",
+          "is_correct": true,
+          "reason": "82·3/2=123."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "101 da 303 extremos, no 246."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3 de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-de-secundaria_examen-selectivo-3-de-secundaria_original.pdf",
+      "source_pdf_sha256": "65ac2467de5d1c2bdab47b85a29cddcafadb673da9a606a18a9b332b2856fdd6"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q02",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 3.º de secundaria",
+      "problem_number": 2,
+      "source_question_label": "2",
+      "source_page": 1,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Mi calculadora se descompuso y trabaja de manera muy rara: cuando escribo un número\nla calculadora lo multiplica por 2, después le voltea todos los dígitos y termina sumando 2\nal resultado. ¿Cuál de los siguientes podría ser el número que escribió la calculadora si yo\nescribí un número de dos cifras?",
+      "options": [
+        {
+          "label": "a",
+          "text": "39"
+        },
+        {
+          "label": "b",
+          "text": "41"
+        },
+        {
+          "label": "c",
+          "text": "42"
+        },
+        {
+          "label": "d",
+          "text": "43"
+        },
+        {
+          "label": "e",
+          "text": "No está la respuesta"
+        }
+      ],
+      "correct_answer": "43",
+      "correct_option_label": "d",
+      "solution_text": "1. **Probar una entrada válida.** Escribimos 70, que tiene dos cifras.\n2. **Seguir las operaciones en orden.** La calculadora duplica: \\(70\\cdot2=140\\). Al invertir las cifras aparece 041, cuyo valor numérico es 41. Finalmente suma 2: \\(41+2=\\mathbf{43}\\).\n3. **Respuesta.** La opción **d** sí puede aparecer. El cero inicial de 041 no se conserva como una centena.\n4. **Descartar las otras opciones.** Para producir 39 o 41, antes de sumar 2 habría que obtener 37 o 39; sus inversiones posibles dentro del intervalo 20–198 son impares. Para producir 42 habría que invertir a 40, que exigiría un cero inicial en el número duplicado. Ningún doble de una entrada de dos cifras cumple eso.\n5. **Comprobación independiente.** Al evaluar las 90 entradas de 10 a 99, la única coincidencia con 39, 41, 42 o 43 es la entrada 70 con salida 43.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "39 exigiría invertir a 37; la inversión 73 es impar y 370 está fuera del intervalo."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "41 exigiría invertir a 39; 93 es impar y 390 está fuera del intervalo."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "42 exigiría obtener 40 por inversión; un entero sin cero inicial no se invierte a una cifra final 0."
+        },
+        {
+          "label": "d",
+          "is_correct": true,
+          "reason": "70 → 140 → 041 → 43."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "43 sí es una salida válida."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "La respuesta recuperada Ninguna de las opciones era incorrecta. Se corrigió mediante razonamiento y enumeración de las 90 entradas; 70 produce 43."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3 de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-de-secundaria_examen-selectivo-3-de-secundaria_original.pdf",
+      "source_pdf_sha256": "65ac2467de5d1c2bdab47b85a29cddcafadb673da9a606a18a9b332b2856fdd6"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q03",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 3.º de secundaria",
+      "problem_number": 3,
+      "source_question_label": "3",
+      "source_page": 1,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "¿Cuáles son los dos últimos dígitos de \\(7^{1998}\\)?",
+      "options": [
+        {
+          "label": "a",
+          "text": "01"
+        },
+        {
+          "label": "b",
+          "text": "07"
+        },
+        {
+          "label": "c",
+          "text": "18"
+        },
+        {
+          "label": "d",
+          "text": "43"
+        },
+        {
+          "label": "e",
+          "text": "49"
+        }
+      ],
+      "correct_answer": "49",
+      "correct_option_label": "e",
+      "solution_text": "1. **Trabajar módulo 100.** \\(7^2=49\\) y \\(7^4=2401\\equiv1\\pmod{100}\\).\n2. **Reducir el exponente.** \\(1998=4\\cdot499+2\\), por lo que \\(7^{1998}\\equiv1^{499}\\cdot49=49\\pmod{100}\\).\n3. **Respuesta.** Los dos últimos dígitos son **49**, opción **e**.\n4. **Comprobación del ciclo.** Las primeras potencias terminan en 07, 49, 43, 01 y se repiten cada cuatro exponentes; 1998 ocupa la segunda posición.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "01 corresponde a exponentes múltiplos de 4."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "07 corresponde a exponentes congruentes con 1 módulo 4."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "18 no pertenece al ciclo."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "43 corresponde a exponentes congruentes con 3 módulo 4."
+        },
+        {
+          "label": "e",
+          "is_correct": true,
+          "reason": "49 corresponde a exponentes congruentes con 2 módulo 4."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3 de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-de-secundaria_examen-selectivo-3-de-secundaria_original.pdf",
+      "source_pdf_sha256": "65ac2467de5d1c2bdab47b85a29cddcafadb673da9a606a18a9b332b2856fdd6"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q04",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 3.º de secundaria",
+      "problem_number": 4,
+      "source_question_label": "4",
+      "source_page": 1,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Lulú es 7 años más joven que Naye. ¿Cuál es la suma de sus edades en este momento si\ndentro de 4 años la edad de Lulú será la mitad que la de Naye?",
+      "options": [
+        {
+          "label": "a",
+          "text": "13"
+        },
+        {
+          "label": "b",
+          "text": "15"
+        },
+        {
+          "label": "c",
+          "text": "17"
+        },
+        {
+          "label": "d",
+          "text": "19"
+        },
+        {
+          "label": "e",
+          "text": "21"
+        }
+      ],
+      "correct_answer": "13 años",
+      "correct_option_label": "a",
+      "solution_text": "1. **Relacionar edades.** Si Lulú tiene x años, Naye tiene \\(x+7\\).\n2. **Dentro de cuatro años.** \\(x+4=(x+11)/2\\), de donde \\(2x+8=x+11\\) y \\(x=3\\).\n3. **Suma actual.** Naye tiene 10 y la suma es \\(3+10=\\mathbf{13}\\), opción **a**.\n4. **Comprobación.** Dentro de cuatro años tendrán 7 y 14; 7 es la mitad de 14, y siempre mantienen siete años de diferencia.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": true,
+          "reason": "13 corresponde a edades 3 y 10, que cumplen todas las condiciones."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "15 daría edades 4 y 11; después serían 8 y 15, sin razón 1:2."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "17 daría 5 y 12; después serían 9 y 16."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "19 daría 6 y 13; después serían 10 y 17."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "21 daría 7 y 14; después serían 11 y 18."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3 de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-de-secundaria_examen-selectivo-3-de-secundaria_original.pdf",
+      "source_pdf_sha256": "65ac2467de5d1c2bdab47b85a29cddcafadb673da9a606a18a9b332b2856fdd6"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q05",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 3.º de secundaria",
+      "problem_number": 5,
+      "source_question_label": "5",
+      "source_page": 2,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "En la figura, \\(AB=AD=DC\\). ¿Cuánto mide el ángulo \\(\\alpha\\)?",
+      "options": [
+        {
+          "label": "a",
+          "text": "24"
+        },
+        {
+          "label": "b",
+          "text": "29"
+        },
+        {
+          "label": "c",
+          "text": "33"
+        },
+        {
+          "label": "d",
+          "text": "40"
+        },
+        {
+          "label": "e",
+          "text": "no está la respuesta."
+        }
+      ],
+      "correct_answer": "\\(33^\\circ\\)",
+      "correct_option_label": "c",
+      "solution_text": "1. **Primer isósceles.** Como \\(AB=AD\\) y el ángulo BAD de la figura es 48°, los ángulos ABD y BDA miden \\((180^\\circ-48^\\circ)/2=66^\\circ\\).\n2. **Ángulo adyacente.** B, D y C están alineados, por lo que \\(\\angle ADC=180^\\circ-66^\\circ=114^\\circ\\).\n3. **Segundo isósceles.** Como \\(AD=DC\\), los ángulos DAC y ACD son iguales: \\(\\alpha=(180^\\circ-114^\\circ)/2=\\mathbf{33^\\circ}\\), opción **c**.\n4. **Comprobación.** El triángulo grande tiene ángulos 81°, 66° y 33°, que suman 180°; el de 81° se divide en 48° y 33°.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "Con α=24°, el triángulo ADC requeriría un ángulo en D de 132°, no 114°."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "Con α=29° requeriría 122°."
+        },
+        {
+          "label": "c",
+          "is_correct": true,
+          "reason": "2·33°+114°=180°."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "Con α=40° requeriría 100°."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "33 sí aparece como opción c."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3 de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-de-secundaria_examen-selectivo-3-de-secundaria_original.pdf",
+      "source_pdf_sha256": "65ac2467de5d1c2bdab47b85a29cddcafadb673da9a606a18a9b332b2856fdd6"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q06",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 3.º de secundaria",
+      "problem_number": 6,
+      "source_question_label": "6",
+      "source_page": 2,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "El contador de kilómetros de mi carro indica el número 187569. Dentro de m kilómetros\nserá la próxima vez que el contador de mi carro indique un número con todas sus cifras\ndistintas. ¿Cuánto vale la suma de los dígitos de m?",
+      "options": [
+        {
+          "label": "a",
+          "text": "1"
+        },
+        {
+          "label": "b",
+          "text": "3"
+        },
+        {
+          "label": "c",
+          "text": "8"
+        },
+        {
+          "label": "d",
+          "text": "11"
+        },
+        {
+          "label": "e",
+          "text": "24"
+        }
+      ],
+      "correct_answer": "3",
+      "correct_option_label": "b",
+      "solution_text": "1. **Buscar el siguiente número sin repeticiones.** De 187570 a 187579 se repite el 7. De 187580 a 187589 se repite el 8. El número 187590 tiene las seis cifras diferentes.\n2. **Distancia.** \\(m=187590-187569=21\\).\n3. **Lo que se pide.** La suma de las cifras de m es \\(2+1=\\mathbf3\\), opción **b**.\n4. **Comprobación de mínimo.** Los dos intervalos anteriores cubren todos los enteros intermedios, así que 187590 es efectivamente la próxima lectura válida.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "1 no es la suma de las cifras de 21."
+        },
+        {
+          "label": "b",
+          "is_correct": true,
+          "reason": "3=2+1."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "8 no es la suma pedida."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "11 no es la suma pedida."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "24 no es la suma pedida."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3 de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-de-secundaria_examen-selectivo-3-de-secundaria_original.pdf",
+      "source_pdf_sha256": "65ac2467de5d1c2bdab47b85a29cddcafadb673da9a606a18a9b332b2856fdd6"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q07",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 3.º de secundaria",
+      "problem_number": 7,
+      "source_question_label": "7",
+      "source_page": 2,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Si se hace la división de \\(10^{2001}\\) entre 15, ¿cuál es el residuo?",
+      "options": [
+        {
+          "label": "a",
+          "text": "0"
+        },
+        {
+          "label": "b",
+          "text": "1"
+        },
+        {
+          "label": "c",
+          "text": "6"
+        },
+        {
+          "label": "d",
+          "text": "9"
+        },
+        {
+          "label": "e",
+          "text": "no está la respuesta."
+        }
+      ],
+      "correct_answer": "Residuo 10; opción e",
+      "correct_option_label": "e",
+      "solution_text": "1. **Primeras potencias.** \\(10\\equiv10\\pmod{15}\\) y \\(10^2=100\\equiv10\\pmod{15}\\).\n2. **La misma regla continúa.** Si una potencia tiene residuo 10, multiplicarla por 10 vuelve a dar residuo \\(100\\equiv10\\pmod{15}\\).\n3. **Resultado.** Toda potencia positiva de 10, incluida \\(10^{2001}\\), deja residuo **10**. Como 10 no está entre 0, 1, 6 y 9, corresponde la opción **e**.\n4. **Comprobación.** El residuo debe ser múltiplo de 5 y congruente con 1 módulo 3; entre 0 y 14 solo 10 cumple ambos requisitos.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "0 es congruente con 0 módulo 3, pero la potencia es congruente con 1."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "1 no es múltiplo de 5."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "6 no es múltiplo de 5."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "9 no es múltiplo de 5."
+        },
+        {
+          "label": "e",
+          "is_correct": true,
+          "reason": "El residuo correcto es 10 y no está entre a–d."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3 de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-de-secundaria_examen-selectivo-3-de-secundaria_original.pdf",
+      "source_pdf_sha256": "65ac2467de5d1c2bdab47b85a29cddcafadb673da9a606a18a9b332b2856fdd6"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q08",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 3.º de secundaria",
+      "problem_number": 8,
+      "source_question_label": "8",
+      "source_page": 2,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Una caja de manzanas cuesta 20 pesos, una de peras cuesta 30 pesos, y una de duraznos\n40 pesos. Si 8 cajas de fruta costaron 230 pesos, ¿Cuál es la mayor cantidad de ellas que\npodrían ser de duraznos?",
+      "options": [
+        {
+          "label": "a",
+          "text": "1"
+        },
+        {
+          "label": "b",
+          "text": "2"
+        },
+        {
+          "label": "c",
+          "text": "3"
+        },
+        {
+          "label": "d",
+          "text": "4"
+        },
+        {
+          "label": "e",
+          "text": "5"
+        }
+      ],
+      "correct_answer": "3 cajas",
+      "correct_option_label": "c",
+      "solution_text": "1. **Costo básico.** Ocho cajas de manzanas costarían \\(8\\cdot20=160\\). Hay 70 pesos adicionales para sustituirlas por peras o duraznos.\n2. **Incrementos.** Cada caja de peras agrega 10 y cada caja de duraznos 20. Si son p y d, \\(10p+20d=70\\), o \\(p+2d=7\\).\n3. **Cota y construcción.** Como p no es negativo, \\(d\\le3\\). Con \\(d=3\\) se obtiene \\(p=1\\) y quedan 4 cajas de manzanas.\n4. **Comprobación.** \\(4\\cdot20+1\\cdot30+3\\cdot40=230\\). El máximo es **3**, opción **c**.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "1 es posible, pero no es el máximo."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "2 es posible, pero no es el máximo."
+        },
+        {
+          "label": "c",
+          "is_correct": true,
+          "reason": "3 se alcanza con 4 cajas de manzanas y 1 de peras."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "4 duraznos y las otras cuatro cajas más baratas ya cuestan 240."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "5 duraznos y tres manzanas cuestan al menos 260."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3 de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-de-secundaria_examen-selectivo-3-de-secundaria_original.pdf",
+      "source_pdf_sha256": "65ac2467de5d1c2bdab47b85a29cddcafadb673da9a606a18a9b332b2856fdd6"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q09",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 3.º de secundaria",
+      "problem_number": 9,
+      "source_question_label": "9",
+      "source_page": 3,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "En la ecuación a + 3b = 2001, a y b son enteros. ¿Cuál de los siguientes valores de a es\nimposible?",
+      "options": [
+        {
+          "label": "a",
+          "text": "3"
+        },
+        {
+          "label": "b",
+          "text": "45"
+        },
+        {
+          "label": "c",
+          "text": "111"
+        },
+        {
+          "label": "d",
+          "text": "1001"
+        },
+        {
+          "label": "e",
+          "text": "2001"
+        }
+      ],
+      "correct_answer": "1001",
+      "correct_option_label": "d",
+      "solution_text": "1. **Condición necesaria.** De \\(a+3b=2001\\) se obtiene \\(a=2001-3b\\). Como 2001 es divisible entre 3, a también debe serlo.\n2. **Revisar las opciones.** 3, 45, 111 y 2001 son múltiplos de 3. En cambio la suma de las cifras de 1001 es 2, así que no lo es.\n3. **Conclusión.** El valor imposible es **1001**, opción **d**.\n4. **Comprobación de los otros casos.** Los respectivos valores de b son 666, 652, 630 y 0. Para 1001 resultaría \\(b=1000/3\\), que no es entero.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "Con a=3 funciona b=666."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "Con a=45 funciona b=652."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "Con a=111 funciona b=630."
+        },
+        {
+          "label": "d",
+          "is_correct": true,
+          "reason": "Con a=1001 resultaría b=1000/3, no entero."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "Con a=2001 funciona b=0; se permiten enteros, no solo positivos."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3 de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-de-secundaria_examen-selectivo-3-de-secundaria_original.pdf",
+      "source_pdf_sha256": "65ac2467de5d1c2bdab47b85a29cddcafadb673da9a606a18a9b332b2856fdd6"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q10",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 3.º de secundaria",
+      "problem_number": 10,
+      "source_question_label": "10",
+      "source_page": 3,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Un gato y medio se come un ratón y medio cada hora y media. ¿Cuántos ratones\npueden comer 15 gatos en 15 horas?",
+      "options": [
+        {
+          "label": "a",
+          "text": "15"
+        },
+        {
+          "label": "b",
+          "text": "45"
+        },
+        {
+          "label": "c",
+          "text": "60"
+        },
+        {
+          "label": "d",
+          "text": "125"
+        },
+        {
+          "label": "e",
+          "text": "150"
+        }
+      ],
+      "correct_answer": "150 ratones",
+      "correct_option_label": "e",
+      "solution_text": "1. **Ritmo por gato y hora.** \\(\\frac{1.5}{1.5\\cdot1.5}=\\frac23\\) ratón por gato y hora.\n2. **Escalar ambas cantidades.** Quince gatos durante quince horas producen \\(15\\cdot15\\cdot\\frac23=\\mathbf{150}\\) ratones, opción **e**.\n3. **Otra comprobación.** Hay diez veces más gatos y diez veces más tiempo que en el dato: \\(1.5\\cdot10\\cdot10=150\\). Se usa el ritmo constante que supone el problema.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "15 solo multiplica por diez una de las dos cantidades."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "45 no aplica las dos escalas del enunciado."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "60 no aplica las dos escalas del enunciado."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "125 usa un ritmo equivocado de 5/9."
+        },
+        {
+          "label": "e",
+          "is_correct": true,
+          "reason": "150 es 15·15·2/3."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3 de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-de-secundaria_examen-selectivo-3-de-secundaria_original.pdf",
+      "source_pdf_sha256": "65ac2467de5d1c2bdab47b85a29cddcafadb673da9a606a18a9b332b2856fdd6"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q11",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 3.º de secundaria",
+      "problem_number": 11,
+      "source_question_label": "11",
+      "source_page": 3,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Adonay y Charlitos suben caminando por una escalera mecánica en movimiento.\nCuando Adonay llega Arriba ha subido 21 escalones, mientras que Charlitos, quien\ncamina con una velocidad que es el doble de la de Adonay, Ha subido 18. ¿Cuántos\nescalones tiene la escalera en reposo?",
+      "options": [],
+      "correct_answer": "Los datos impresos no admiten un número entero de escalones",
+      "correct_option_label": null,
+      "solution_text": "1. **Conservar los datos.** La fuente dice 21 escalones para Adonay y 18 para Charlitos, aunque Charlitos camina el doble de rápido.\n2. **Modelar tiempos.** Sea v la rapidez de Adonay en escalones por unidad de tiempo y u la rapidez firmada de la escalera. Sus tiempos son \\(21/v\\) y \\(18/(2v)=9/v\\).\n3. **Misma longitud.** El número N de escalones en reposo debería satisfacer \\(N=21+21u/v=18+9u/v\\). Entonces \\(u/v=-1/4\\) y \\(N=63/4=15.75\\).\n4. **Incompatibilidad.** Una escalera que avanza hacia arriba tendría \\(u\\ge0\\), pero el cálculo exige movimiento hacia abajo. Incluso permitiéndolo, N no es entero.\n5. **Conclusión.** No se certifica una respuesta numérica. Hace falta corregir o aclarar un dato de la fuente; se muestran 21 y 18 tal como están, sin sustituirlos por cifras supuestas.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "invalid_source_inconsistent_step_counts",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Los dos PDF imprimen 21 y 18. El modelo de rapidez constante exige u/v=−1/4 y N=63/4; no hay número entero de escalones. No se inventa una corrección."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3 de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-de-secundaria_examen-selectivo-3-de-secundaria_original.pdf",
+      "source_pdf_sha256": "65ac2467de5d1c2bdab47b85a29cddcafadb673da9a606a18a9b332b2856fdd6"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q12",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 3.º de secundaria",
+      "problem_number": 12,
+      "source_question_label": "12",
+      "source_page": 3,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "¿Cuál es el múltiplo positivo de 1988 que solo tiene a los dígitos 0 y 3?",
+      "options": [],
+      "correct_answer": "Un ejemplo es 3300030300; el enunciado no determina uno único",
+      "correct_option_label": null,
+      "solution_text": "1. **Verificar un candidato.** El número 3300030300 contiene únicamente 3 y 0.\n2. **Comprobar divisibilidad.** \\(3300030300=1988\\cdot1659975\\), así que sí es un múltiplo positivo de 1988.\n3. **Falta de unicidad.** El enunciado no pide el menor. Agregar ceros a ese número conserva tanto la divisibilidad como los dígitos permitidos; por ejemplo 33000303000 también funciona.\n4. **Cómo se puede buscar.** Se forman números que empiezan en 3 y se añade 0 o 3, guardando sus residuos módulo 1988. Hay solo 1988 residuos, así que basta conservar el primer número que alcanza cada uno y buscar el residuo 0.\n5. **Conclusión.** **3300030300 es una respuesta válida**, pero no la única. La práctica conserva ese aviso y no trata otros múltiplos correctos como errores.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "source_non_unique_multiple",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "La fuente no imprime menor. Se da y comprueba un ejemplo; al añadir ceros se obtienen infinitas respuestas. No se atribuye unicidad ni se reescribe el enunciado."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3 de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-de-secundaria_examen-selectivo-3-de-secundaria_original.pdf",
+      "source_pdf_sha256": "65ac2467de5d1c2bdab47b85a29cddcafadb673da9a606a18a9b332b2856fdd6"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q13",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 3.º de secundaria",
+      "problem_number": 13,
+      "source_question_label": "13",
+      "source_page": 3,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "¿Cuántos enteros en el conjunto 100, 101, 102, 103, …, 999 no contienen los dígitos 2, 5, 7 u 8?",
+      "options": [],
+      "correct_answer": "180",
+      "correct_option_label": null,
+      "solution_text": "1. **Cifras permitidas.** Al quitar 2, 5, 7 y 8 quedan \\(0,1,3,4,6,9\\): seis posibilidades.\n2. **Primera cifra.** Un número de tres cifras no puede empezar por 0, por lo que hay cinco opciones para las centenas.\n3. **Las otras dos.** Cada una admite las seis cifras, con repeticiones permitidas porque no se prohíben.\n4. **Respuesta.** \\(5\\cdot6\\cdot6=\\mathbf{180}\\).\n5. **Comprobación.** Para cada centena permitida, de sus 100 números hay 36 finales permitidos; cinco centenas producen 180.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3 de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-de-secundaria_examen-selectivo-3-de-secundaria_original.pdf",
+      "source_pdf_sha256": "65ac2467de5d1c2bdab47b85a29cddcafadb673da9a606a18a9b332b2856fdd6"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q14",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 3.º de secundaria",
+      "problem_number": 14,
+      "source_question_label": "14",
+      "source_page": 3,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Sean P(n) y S(n) el producto y la suma de los dígitos del número n, respectivamente. Por ejemplo, P(23)=6 y S(23)=5. Si n es un número de dos dígitos tal que \\(n=P(n)+S(n)\\), ¿Cuál es el digito de las unidades de n?",
+      "options": [],
+      "correct_answer": "9",
+      "correct_option_label": null,
+      "solution_text": "1. **Nombrar las cifras.** Si n tiene decenas a y unidades b, entonces \\(n=10a+b\\), \\(P(n)=ab\\) y \\(S(n)=a+b\\).\n2. **Sustituir la igualdad.** \\(10a+b=ab+a+b\\) se reduce a \\(9a=ab\\).\n3. **Usar las dos cifras.** \\(a\\ne0\\), así que dividir por a da \\(b=\\mathbf9\\).\n4. **Comprobación.** Cualquiera de 19, 29, …, 99 funciona: \\(9a+(a+9)=10a+9\\). El número puede variar, pero la cifra de unidades siempre es 9.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3 de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-de-secundaria_examen-selectivo-3-de-secundaria_original.pdf",
+      "source_pdf_sha256": "65ac2467de5d1c2bdab47b85a29cddcafadb673da9a606a18a9b332b2856fdd6"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q15",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 3.º de secundaria",
+      "problem_number": 15,
+      "source_question_label": "15",
+      "source_page": 3,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Charlitos salió de vacaciones por algunos días y observó que llovió 7 veces en\ntotal. Cuando llovía por le mañana, estaba claro en la tarde, además solo 5 tardes y\n6 mañanas fueron claras. ¿Por cuantos días salió Charlitos de vacaciones?",
+      "options": [],
+      "correct_answer": "9 días",
+      "correct_option_label": null,
+      "solution_text": "1. **Contar medios días.** Cada día contiene una mañana y una tarde. Las partes claras suman \\(6+5=11\\) y las lluviosas son 7.\n2. **Días totales.** Hay \\(11+7=18\\) medios días, por lo que las vacaciones duraron \\(18/2=\\mathbf9\\) días.\n3. **Comprobación con la condición adicional.** De las nueve mañanas, tres fueron lluviosas; de las nueve tardes, cuatro. Como una mañana lluviosa tiene tarde clara, esos siete periodos de lluvia están en siete días diferentes; los otros dos días fueron completamente claros. Esto deja exactamente seis mañanas y cinco tardes claras.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Se usa el modelo del enunciado de cada mañana y tarde como periodo claro o lluvioso; las siete veces son sus siete periodos lluviosos."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3 de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-de-secundaria_examen-selectivo-3-de-secundaria_original.pdf",
+      "source_pdf_sha256": "65ac2467de5d1c2bdab47b85a29cddcafadb673da9a606a18a9b332b2856fdd6"
+    }
+  ]
+}

@@ -1,0 +1,932 @@
+{
+  "schema_version": "1.0",
+  "source_format_reference": "Cuantly public practice; original multiple_choice and open_answer preserved",
+  "exam": {
+    "competition": "FUSION",
+    "source_competition": "I Campeonato Nacional de Matemáticas",
+    "edition": 1,
+    "year": null,
+    "year_status": "not_confirmed",
+    "year_evidence": "Los ocho encabezados dicen I Campeonato Nacional de Matemáticas, Selectivo Estatal y el grado, sin año calendario. Los números 1998, 2001, 2002 y 2003 son datos de problemas y no fechan el examen. Serie 2 identifica la carpeta recuperada FUSION2, no un año inferido.",
+    "phase": "Selectivo Estatal - Serie 2",
+    "level": "6.º de primaria",
+    "school_level": "Sexto año de primaria",
+    "problem_count": 15,
+    "source_file": "FUSION_sin-fecha_selectivo-estatal-serie-2_6-de-primaria_examen-selectivo-6-de-primaria_original.pdf",
+    "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/6 de primaria/FUSION_sin-fecha_selectivo-estatal-serie-2_6-de-primaria_examen-selectivo-6-de-primaria_original.pdf",
+    "source_sha256": "4ee280201daa77a3986caf9158c0026035fb1e867bb36e73f14533603aa55ad3",
+    "image_policy": "Exact embedded mathematical figures from each original PDF; formulas and arithmetic layouts transcribed as LaTeX. No logos, page screenshots or full-question crops.",
+    "classification_phase": "not_started",
+    "difficulty_phase": "not_started",
+    "source_archive_family": "FUSION2"
+  },
+  "validation_summary": {
+    "verified_problems": 14,
+    "needs_review_or_invalid": 1,
+    "needs_review_problem_numbers": [
+      6
+    ],
+    "notes": "Opciones originales y fórmulas cotejadas en todos los PDF; respuestas abiertas conservadas. Avisos de fuente para nombres de corredores, escalera inconsistente, múltiplo no único, unidad impresa incorrecta, base de ganancia y orden de parejas. No se infiere un año."
+  },
+  "problems": [
+    {
+      "source_id": "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q01",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 6.º de primaria",
+      "problem_number": 1,
+      "source_question_label": "1",
+      "source_page": 1,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "La figura que se muestra está formada por cuatro cuadrados. Los perímetros de los\ncuadrados I y II miden, respectivamente, 16 cm y 24 cm. ¿Cuánto mide el perímetro del\ncuadrado IV ?",
+      "options": [
+        {
+          "label": "a",
+          "text": "56"
+        },
+        {
+          "label": "b",
+          "text": "60"
+        },
+        {
+          "label": "c",
+          "text": "64"
+        },
+        {
+          "label": "d",
+          "text": "72"
+        },
+        {
+          "label": "e",
+          "text": "80"
+        }
+      ],
+      "correct_answer": "64 cm",
+      "correct_option_label": "c",
+      "solution_text": "1. **Lados conocidos.** El lado de un cuadrado es su perímetro dividido entre 4: I mide \\(16/4=4\\) cm y II mide \\(24/4=6\\) cm.\n2. **Cuadrado III.** Su lado superior abarca los lados de I y II, por lo que mide \\(4+6=10\\) cm.\n3. **Cuadrado IV.** Su lado izquierdo abarca los cuadrados II y III: \\(6+10=16\\) cm.\n4. **Respuesta y comprobación.** Su perímetro es \\(4\\cdot16=\\mathbf{64}\\) cm, opción **c**. Reconstruir los lados 4, 6, 10 y 16 respeta todas las alineaciones de la figura.",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Cuatro cuadrados I, II, III y IV",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "iVBORw0KGgoAAAANSUhEUgAAAL4AAACACAIAAAA6ZkQXAAAElklEQVR4nO3dTUgcZwCH8dnZNRnxE2ppCNGUStpUlpJCpZK46kXQiyCt/TiIScBLLB5Lb7mV4qGUJqcepNDiqR/QUy21mzYpLdiANSsebIoUhCYbtLtbXdTdnVK9JGkV9z87OzO7z+8kIzvv6D6M867MOyHbtg2geKbwGoB0oOOsAxHpQEQ6EJEORKQDEelARDoQkQ5EpANRxPDCzs5OMpn0ZGjsa2hoaGxsNJywvTAxMeHooOFYV1fXxsaGkzfRm7PO3Nzc9PT08PCw2wONjIzEYrHJyUm3BwqWTCbT1taWSqWam5vlnXiTTigUqqurc3LcR1RTU1NbW1uGgYIlHA473wmXyRCRDkSkAxHpQEQ6EJEORKQDEemgXB8Jzs7OrqysGM6k02mHe0DA0pmfnx8fH29vb3c4ajabdbgHBCydzc3NbDYbj8cdjtrR0eFwD/Ccz6918r9/e+3yS6d637r+1Z3MAVvgDW/+/Xlk4Wdiz9akzr7y9pWhNvOALfCG33/7ucTNX5rO95w0D9kCT/j8DSis3fop09nzfOSQLfCGz9NJ37p591xP5/HDtsAb/k5n++cffj0T6244bAsqJJ3STYDyqzc+fu+jG7lj928nUgdsgYdKfclQuglQ+Om+i1f7Ll49bAsq6Q8WE6BqUep0mABVjVKnwwSoapQ4HSZA1aOE6TABqi4lnGExAaou/v5IED5GOhCRDkSkAxHpQEQ6KNfk3LZt57fC5PP5ra2tMtxSk8vl3B6iahWdTiaTaWpqcj7wpT2GyyzL6u/vd3uU6lR0OvX19QsLC0ZAjI2NeX0IFavodEzTbG1tNQLCsiyvD6FicZkMEelARDoQkQ5EpAMR6UBEOq7JP3xLWmF9/tMr3SdfHP0w/kd+79vbd64NXxh655PbfxnBxK3brgk/ekta5xuXe9//Mffyhba9RfYL6fs1Qx/MXOqsNwKKs457co+uyRF5LtqeXF76+9+vC/fmPl/rejO43ZCOmwqPr8lRG42euru0vGMU/vzmi3vnXz8X7E+6Oeu4Jv34mhyR9uiZ1PLS+trXX67HXnsh6It1kI5btv+7JsfxaPT0b99d/yzV+2r0mBF0pOOG/P+vyRE+HT0bevBE/0hH8MNhhuWO8AFrclj9737f/eSJypjWVsZPERjWUyeCfW38EP5gQUQ6EJEORKQDEelARDoQkQ5EpIPgpHOUBxXx6CL/i/jzQUU8usj/TJ8+qIiVu33P9OeDili52/9Mfz6oiJW7/c/05YOKWLk7AMqbzlEeVMTK3UFhFyMej7e0tNjBMTg4ODU15fVR+M7+emqrq6tOdsJHghCRDkSkAxHpQEQ6EJEORKQDEelARDoQkQ5EpAMR6UBEOhCRDkSkAxHpQEQ6EJEORKQDEelARDoQkQ5EpAMR6aAsi6REIhHbtkdHR42ASCQSyWRycXHR6wPxl93dXcuyTNPRiSNk23ZRL5iZmeGdqAB9fX0DAwNlTQfYx7UORKQDEelARDoQkQ5EpAMR6UBEOhCRDkSkAxHpQEQ6EJEORKQDEelARDoQkQ5EpAMR6cDQ/AMBIZOcfMT7owAAAABJRU5ErkJggg==",
+          "sha256": "70ce659c1b18ff7c85bb6c5e841b2a00707df715afec515c07c5878c015944dc",
+          "source": "pdf_embedded_image",
+          "original_filename": "fusion2_page1_Image25.png",
+          "width_px": 190,
+          "height_px": 128
+        }
+      ],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "56 exigiría un lado 14, en lugar de 6+10=16."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "60 exigiría un lado 15."
+        },
+        {
+          "label": "c",
+          "is_correct": true,
+          "reason": "64=4(6+4+6)."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "72 exigiría un lado 18."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "80 exigiría un lado 20."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/6 de primaria/FUSION_sin-fecha_selectivo-estatal-serie-2_6-de-primaria_examen-selectivo-6-de-primaria_original.pdf",
+      "source_pdf_sha256": "4ee280201daa77a3986caf9158c0026035fb1e867bb36e73f14533603aa55ad3"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q02",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 6.º de primaria",
+      "problem_number": 2,
+      "source_question_label": "2",
+      "source_page": 1,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Si A, B y C son tres puntos no alineados, ¿En cuántas posiciones distintas se puede agregar\nun cuarto punto para que los cuatro sean los vértices de un paralelogramo?",
+      "options": [
+        {
+          "label": "a",
+          "text": "1"
+        },
+        {
+          "label": "b",
+          "text": "2"
+        },
+        {
+          "label": "c",
+          "text": "3"
+        },
+        {
+          "label": "d",
+          "text": "4"
+        },
+        {
+          "label": "e",
+          "text": "No se puede"
+        }
+      ],
+      "correct_answer": "3",
+      "correct_option_label": "c",
+      "solution_text": "1. **Elegir el vértice de la esquina.** Dos lados adyacentes del paralelogramo pueden salir de A, de B o de C.\n2. **Completar cada caso.** Desde A, el cuarto vértice es \\(B+C-A\\); desde B es \\(A+C-B\\); desde C es \\(A+B-C\\). Esta notación suma y resta las coordenadas correspondientes.\n3. **Son distintos.** Igualar dos resultados obligaría a igualar dos de los puntos originales. Tampoco coinciden con un punto dado, pues eso haría que A, B y C estuvieran alineados.\n4. **Conclusión.** Hay exactamente **3 posiciones**, opción **c**. Son todos los casos porque en cualquier paralelogramo tres vértices contienen exactamente una de esas tres esquinas completas.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "Cuenta solo una elección de la esquina."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "Omite una de las tres esquinas posibles."
+        },
+        {
+          "label": "c",
+          "is_correct": true,
+          "reason": "Cada uno de los tres puntos puede ser la esquina de los dos lados conocidos."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "No hay una cuarta elección de esquina entre tres puntos."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "La construcción por paralelas siempre es posible para tres puntos no alineados."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/6 de primaria/FUSION_sin-fecha_selectivo-estatal-serie-2_6-de-primaria_examen-selectivo-6-de-primaria_original.pdf",
+      "source_pdf_sha256": "4ee280201daa77a3986caf9158c0026035fb1e867bb36e73f14533603aa55ad3"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q03",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 6.º de primaria",
+      "problem_number": 3,
+      "source_question_label": "3",
+      "source_page": 1,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Las fechas de cumpleaños de cuatro amigas (Blanca, Cristina, Daniela y Flor) son marzo 1,\nmarzo 20, mayo 17 y julio 20. Sabemos que Flor nació el mismo mes que Cristina, y que el\nnúmero de día en que nacieron Cristina y Daniela es el mismo, aunque nacieron en\ndistintos meses. ¿Quién nació en mayo 17?",
+      "options": [
+        {
+          "label": "a",
+          "text": "Blanca"
+        },
+        {
+          "label": "b",
+          "text": "Cristina"
+        },
+        {
+          "label": "c",
+          "text": "Daniela"
+        },
+        {
+          "label": "d",
+          "text": "Flor"
+        },
+        {
+          "label": "e",
+          "text": "Imposible determinar."
+        }
+      ],
+      "correct_answer": "Blanca",
+      "correct_option_label": "a",
+      "solution_text": "1. **Mismo mes.** El único mes que aparece dos veces es marzo. Cristina y Flor deben ocupar marzo 1 y marzo 20.\n2. **Mismo día.** El único número de día repetido es 20. Por eso Cristina nació en marzo 20 y Daniela en julio 20.\n3. **Fecha restante.** Flor ocupa marzo 1 y a Blanca le queda **mayo 17**, opción **a**.\n4. **Comprobación.** Cristina y Flor comparten marzo; Cristina y Daniela comparten el día 20 y tienen meses diferentes.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": true,
+          "reason": "La fecha restante después de cumplir ambas pistas es mayo 17."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "Cristina debe ocupar marzo 20."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "Daniela debe ocupar julio 20."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "Flor debe ocupar marzo 1."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "Las dos pistas determinan las cuatro fechas."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/6 de primaria/FUSION_sin-fecha_selectivo-estatal-serie-2_6-de-primaria_examen-selectivo-6-de-primaria_original.pdf",
+      "source_pdf_sha256": "4ee280201daa77a3986caf9158c0026035fb1e867bb36e73f14533603aa55ad3"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q04",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 6.º de primaria",
+      "problem_number": 4,
+      "source_question_label": "4",
+      "source_page": 1,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Groot el Koala se come las hojas de un árbol en 10 horas. Su papá y su mamá comen el\ndoble de rápido, cada uno. ¿cuántas horas tardan los tres juntos en comer todas las hojas\ndel árbol?",
+      "options": [
+        {
+          "label": "a",
+          "text": "2"
+        },
+        {
+          "label": "b",
+          "text": "3"
+        },
+        {
+          "label": "c",
+          "text": "4"
+        },
+        {
+          "label": "d",
+          "text": "5"
+        },
+        {
+          "label": "e",
+          "text": "6"
+        }
+      ],
+      "correct_answer": "2 horas",
+      "correct_option_label": "a",
+      "solution_text": "1. **Trabajo por hora.** Groot come \\(1/10\\) del árbol por hora. Cada padre come el doble, \\(2/10\\).\n2. **Sumar ritmos.** Juntos comen \\((1+2+2)/10=1/2\\) del árbol por hora.\n3. **Tiempo total.** Necesitan \\(1\\div(1/2)=\\mathbf2\\) horas, opción **a**.\n4. **Comprobación.** En dos horas Groot come 1/5 y cada padre 2/5; las tres partes suman 1 árbol.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": true,
+          "reason": "2 horas producen 1 árbol entre los tres."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "En 3 horas producirían 1.5 árboles."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "En 4 horas producirían 2 árboles."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "En 5 horas producirían 2.5 árboles."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "En 6 horas producirían 3 árboles."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/6 de primaria/FUSION_sin-fecha_selectivo-estatal-serie-2_6-de-primaria_examen-selectivo-6-de-primaria_original.pdf",
+      "source_pdf_sha256": "4ee280201daa77a3986caf9158c0026035fb1e867bb36e73f14533603aa55ad3"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q05",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 6.º de primaria",
+      "problem_number": 5,
+      "source_question_label": "5",
+      "source_page": 2,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Fer y Jaden tienen 60 cerillos entre los dos. Utilizando algunos de ellos Fer construyó un\ntriángulo que tiene 6 cerillos en cada lado. Con el resto de los cerillos Jaden construyó un\nrectángulo, de forma que uno de sus lados tiene 6 cerillos de largo. ¿Cuántos cerillos de\nlargo tiene el otro lado del rectángulo?",
+      "options": [
+        {
+          "label": "a",
+          "text": "9"
+        },
+        {
+          "label": "b",
+          "text": "12"
+        },
+        {
+          "label": "c",
+          "text": "15"
+        },
+        {
+          "label": "d",
+          "text": "18"
+        },
+        {
+          "label": "e",
+          "text": "no está la respuesta."
+        }
+      ],
+      "correct_answer": "15 cerillos",
+      "correct_option_label": "c",
+      "solution_text": "1. **Triángulo.** Sus tres lados consumen \\(3\\cdot6=18\\) cerillos.\n2. **Rectángulo.** Quedan \\(60-18=42\\). Dos lados miden 6 y los otros dos, x: \\(12+2x=42\\).\n3. **Resolver.** \\(2x=30\\), así que \\(x=\\mathbf{15}\\), opción **c**.\n4. **Comprobación.** \\(18+6+15+6+15=60\\); se usan exactamente todos los cerillos.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "9 daría 18+2(6+9)=48 cerillos."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "12 daría 54 cerillos."
+        },
+        {
+          "label": "c",
+          "is_correct": true,
+          "reason": "15 da exactamente 60 cerillos."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "18 daría 66 cerillos."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "El valor 15 sí está impreso."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/6 de primaria/FUSION_sin-fecha_selectivo-estatal-serie-2_6-de-primaria_examen-selectivo-6-de-primaria_original.pdf",
+      "source_pdf_sha256": "4ee280201daa77a3986caf9158c0026035fb1e867bb36e73f14533603aa55ad3"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q06",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 6.º de primaria",
+      "problem_number": 6,
+      "source_question_label": "6",
+      "source_page": 2,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "¿Cuántas parejas de enteros positivos impares tienen como suma 22?",
+      "options": [
+        {
+          "label": "a",
+          "text": "12"
+        },
+        {
+          "label": "b",
+          "text": "22"
+        },
+        {
+          "label": "c",
+          "text": "5"
+        },
+        {
+          "label": "d",
+          "text": "11"
+        },
+        {
+          "label": "e",
+          "text": "6"
+        }
+      ],
+      "correct_answer": "6 parejas sin orden; 11 parejas ordenadas",
+      "correct_option_label": null,
+      "solution_text": "1. **Parejas sin distinguir el orden.** Basta elegir el menor impar hasta 11: \\((1,21),(3,19),(5,17),(7,15),(9,13),(11,11)\\). Son **6**, opción e.\n2. **Si el orden sí importa.** Las primeras cinco parejas admiten dos órdenes; (11,11) solo uno. Entonces hay \\(2\\cdot5+1=\\mathbf{11}\\), opción d.\n3. **Comprobación.** Elegir cualquier primer impar de 1 a 21 determina el segundo como 22 menos ese valor: once elecciones ordenadas.\n4. **Límite de la fuente.** No se especifica si el orden distingue parejas, y las dos respuestas aparecen impresas. Se muestran ambas lecturas y se conserva práctica guiada.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "12 cuenta dos veces también (11,11), que no cambia al invertirla."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "22 no corresponde a ninguna de las dos convenciones."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "5 omite (11,11) en el conteo sin orden."
+        },
+        {
+          "label": "d",
+          "is_correct": null,
+          "reason": "11 es correcto cuando las parejas son ordenadas."
+        },
+        {
+          "label": "e",
+          "is_correct": null,
+          "reason": "6 es correcto cuando no se distingue el orden."
+        }
+      ],
+      "verification": {
+        "status": "ambiguous_source_pair_order",
+        "answer_checked": false,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "La fuente no fija el orden y ofrece tanto 11 como 6. Se conservan las dos interpretaciones sin imponer una opción."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/6 de primaria/FUSION_sin-fecha_selectivo-estatal-serie-2_6-de-primaria_examen-selectivo-6-de-primaria_original.pdf",
+      "source_pdf_sha256": "4ee280201daa77a3986caf9158c0026035fb1e867bb36e73f14533603aa55ad3"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q07",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 6.º de primaria",
+      "problem_number": 7,
+      "source_question_label": "7",
+      "source_page": 2,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Cada lado del cuadrado ABCD mide 10 cm. El lado más pequeño del rectángulo\nAMTD mide 3 cm. ¿Por cuántos centímetros es más grande el perímetro del\nrectángulo MBCT que el del rectángulo AMT D?",
+      "options": [
+        {
+          "label": "a",
+          "text": "10"
+        },
+        {
+          "label": "b",
+          "text": "8"
+        },
+        {
+          "label": "c",
+          "text": "4"
+        },
+        {
+          "label": "d",
+          "text": "6"
+        },
+        {
+          "label": "e",
+          "text": "no está la respuesta."
+        }
+      ],
+      "correct_answer": "8 cm",
+      "correct_option_label": "b",
+      "solution_text": "1. **Rectángulo angosto.** AMTD mide 3 por 10, así que su perímetro es \\(2(3+10)=26\\) cm.\n2. **Rectángulo restante.** El ancho restante es \\(10-3=7\\); MBCT mide 7 por 10 y tiene perímetro \\(2(7+10)=34\\) cm.\n3. **Diferencia.** \\(34-26=\\mathbf8\\) cm, opción **b**.\n4. **Comprobación.** Los dos lados de longitud 10 se cancelan al restar; quedan \\(2(7-3)=8\\) cm.",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Cuadrado ABCD dividido en rectángulos AMTD y MBCT",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "d8f4896c51538c2a43c9fb84fecb9ef598327b38080c99dbfb3b98c735774a01",
+          "source": "pdf_embedded_image",
+          "original_filename": "fusion2_page2_Image34.png",
+          "width_px": 172,
+          "height_px": 159
+        }
+      ],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "10 es el lado del cuadrado, no la diferencia de perímetros."
+        },
+        {
+          "label": "b",
+          "is_correct": true,
+          "reason": "8=34−26."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "4 es la diferencia de anchos; falta contarla dos veces."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "6 es dos veces el ancho pequeño, no la diferencia."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "8 sí aparece como opción b."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/6 de primaria/FUSION_sin-fecha_selectivo-estatal-serie-2_6-de-primaria_examen-selectivo-6-de-primaria_original.pdf",
+      "source_pdf_sha256": "4ee280201daa77a3986caf9158c0026035fb1e867bb36e73f14533603aa55ad3"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q08",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 6.º de primaria",
+      "problem_number": 8,
+      "source_question_label": "8",
+      "source_page": 2,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Las calificaciones de los primeros tres exámenes de matemáticas de Laura fueron\n7, 9 y 10. ¿Cuánto tiene que sacar en el cuarto examen para sacar 9 de promedio\nentre los cuatro exámenes?",
+      "options": [
+        {
+          "label": "a",
+          "text": "7"
+        },
+        {
+          "label": "b",
+          "text": "8"
+        },
+        {
+          "label": "c",
+          "text": "10"
+        },
+        {
+          "label": "d",
+          "text": "9"
+        },
+        {
+          "label": "e",
+          "text": "no está la respuesta."
+        }
+      ],
+      "correct_answer": "10",
+      "correct_option_label": "c",
+      "solution_text": "1. **Suma necesaria.** Cuatro exámenes con promedio 9 deben sumar \\(4\\cdot9=36\\).\n2. **Suma actual.** \\(7+9+10=26\\).\n3. **Cuarta nota.** Necesita \\(36-26=\\mathbf{10}\\), opción **c**.\n4. **Comprobación.** \\((7+9+10+10)/4=36/4=9\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "7 dejaría promedio 33/4=8.25."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "8 dejaría promedio 34/4=8.5."
+        },
+        {
+          "label": "c",
+          "is_correct": true,
+          "reason": "10 deja promedio 36/4=9."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "9 dejaría promedio 35/4=8.75."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "10 sí aparece como opción c."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/6 de primaria/FUSION_sin-fecha_selectivo-estatal-serie-2_6-de-primaria_examen-selectivo-6-de-primaria_original.pdf",
+      "source_pdf_sha256": "4ee280201daa77a3986caf9158c0026035fb1e867bb36e73f14533603aa55ad3"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q09",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 6.º de primaria",
+      "problem_number": 9,
+      "source_question_label": "9",
+      "source_page": 2,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Compré un costal lleno de Croquetas para alimentar a mi Perrito Chuty. El primer día mi perrito se comió \\(\\frac12\\) del total de las Croquetas. El segundo día se comió \\(\\frac13\\) de las croquetas restantes y el tercer día comió \\(\\frac14\\) del sobrante. Del total de las croquetas que había en el costal, ¿Qué fracción queda?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(1/24\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(1/4\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(1/3\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(3/4\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(4/5\\)"
+        }
+      ],
+      "correct_answer": "\\(1/4\\)",
+      "correct_option_label": "b",
+      "solution_text": "1. **Después del primer día.** Queda \\(1-1/2=1/2\\) del costal.\n2. **Después del segundo.** Se conserva \\(1-1/3=2/3\\) de lo que quedaba: \\(\\frac12\\cdot\\frac23=\\frac13\\) del total.\n3. **Después del tercero.** Queda \\(1-1/4=3/4\\) del sobrante: \\(\\frac13\\cdot\\frac34=\\mathbf{\\frac14}\\), opción **b**.\n4. **Comprobación con 12 porciones.** Quedan 6 después del primer día, 4 después del segundo y 3 después del tercero. \\(3/12=1/4\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "1/24 multiplica las fracciones comidas, no las conservadas."
+        },
+        {
+          "label": "b",
+          "is_correct": true,
+          "reason": "1/4 es (1/2)(2/3)(3/4)."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "1/3 es lo que queda antes del tercer día."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "3/4 es la fracción conservada del último sobrante, no del costal original."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "4/5 no corresponde a los tres cambios."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/6 de primaria/FUSION_sin-fecha_selectivo-estatal-serie-2_6-de-primaria_examen-selectivo-6-de-primaria_original.pdf",
+      "source_pdf_sha256": "4ee280201daa77a3986caf9158c0026035fb1e867bb36e73f14533603aa55ad3"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q10",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 6.º de primaria",
+      "problem_number": 10,
+      "source_question_label": "10",
+      "source_page": 3,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "¿Para cuántos valores enteros positivos de C la expresión \\(\\frac{18}{C+4}\\) es un entero?",
+      "options": [
+        {
+          "label": "a",
+          "text": "3"
+        },
+        {
+          "label": "b",
+          "text": "6"
+        },
+        {
+          "label": "c",
+          "text": "9"
+        },
+        {
+          "label": "d",
+          "text": "10"
+        },
+        {
+          "label": "e",
+          "text": "12"
+        }
+      ],
+      "correct_answer": "3 valores",
+      "correct_option_label": "a",
+      "solution_text": "1. **Condición de divisibilidad.** Para que \\(18/(C+4)\\) sea entero, \\(C+4\\) debe ser un divisor positivo de 18.\n2. **Divisores.** Son \\(1,2,3,6,9,18\\).\n3. **C positivo.** Se necesita \\(C+4>4\\), de modo que solo sirven 6, 9 y 18. Corresponden a \\(C=2,5,14\\).\n4. **Respuesta y comprobación.** Hay **3 valores**, opción **a**; los cocientes son, respectivamente, 3, 2 y 1.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": true,
+          "reason": "3 cuenta los divisores 6, 9 y 18."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "6 incluye también valores de C no positivos."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "9 no es la cantidad de divisores admisibles."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "10 no es la cantidad de divisores admisibles."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "12 no es la cantidad de divisores admisibles."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/6 de primaria/FUSION_sin-fecha_selectivo-estatal-serie-2_6-de-primaria_examen-selectivo-6-de-primaria_original.pdf",
+      "source_pdf_sha256": "4ee280201daa77a3986caf9158c0026035fb1e867bb36e73f14533603aa55ad3"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q11",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 6.º de primaria",
+      "problem_number": 11,
+      "source_question_label": "11",
+      "source_page": 3,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Hay 12 personas en un cuarto, 6 usan calcetines, 4 usan zapatos y 3 usan ambos. ¿Cuántas personas están descalzas?",
+      "options": [],
+      "correct_answer": "5 personas",
+      "correct_option_label": null,
+      "solution_text": "1. **Contar sin duplicar.** Sumar 6 personas con calcetines y 4 con zapatos cuenta dos veces a las 3 que llevan ambos. Por eso \\(6+4-3=7\\) llevan al menos uno de los dos.\n2. **Tomar el complemento.** Las que no llevan ninguno son \\(12-7=\\mathbf5\\).\n3. **Comprobación por grupos.** Hay 3 con ambos, 3 solo con calcetines, 1 solo con zapatos y 5 con ninguno: \\(3+3+1+5=12\\). Son **5 personas**.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/6 de primaria/FUSION_sin-fecha_selectivo-estatal-serie-2_6-de-primaria_examen-selectivo-6-de-primaria_original.pdf",
+      "source_pdf_sha256": "4ee280201daa77a3986caf9158c0026035fb1e867bb36e73f14533603aa55ad3"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q12",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 6.º de primaria",
+      "problem_number": 12,
+      "source_question_label": "12",
+      "source_page": 3,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "La cascara de un plátano pesa aproximadamente \\(\\frac18\\) del peso total del plátano. Raúl compró 3 pencas de plátanos, cada una con 5 plátanos. Si cada penca cuesta $6 ¿Cuánto está pagando por la cáscara?",
+      "options": [],
+      "correct_answer": "Aproximadamente $2.25",
+      "correct_option_label": null,
+      "solution_text": "1. **Costo total.** Las tres pencas cuestan \\(3\\cdot6=18\\). Los cinco plátanos por penca no cambian esta cuenta, pues se da el precio de la penca entera.\n2. **Parte de la cáscara.** En la compra por peso que supone el problema, la cáscara representa aproximadamente \\(1/8\\) tanto del peso como del costo.\n3. **Resultado.** \\(18\\cdot\\frac18=\\frac94=\\mathbf{2.25}\\). Se pagan aproximadamente **$2.25 por la cáscara**.\n4. **Comprobación.** Ocho partes iguales de 2.25 suman 18; la pulpa corresponde a las otras siete, 15.75.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Fracción 1/8 cotejada visualmente; costo proporcional al peso bajo el modelo del problema. El símbolo monetario original se conserva sin atribuir país o moneda."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/6 de primaria/FUSION_sin-fecha_selectivo-estatal-serie-2_6-de-primaria_examen-selectivo-6-de-primaria_original.pdf",
+      "source_pdf_sha256": "4ee280201daa77a3986caf9158c0026035fb1e867bb36e73f14533603aa55ad3"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q13",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 6.º de primaria",
+      "problem_number": 13,
+      "source_question_label": "13",
+      "source_page": 3,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Lulú quiere construir un rectángulo con dimensiones enteras, que tenga la mayor\nárea posible y cuyo perímetro sea 18cm. ¿Cuántos centímetros miden sus lados?",
+      "options": [],
+      "correct_answer": "4 cm y 5 cm",
+      "correct_option_label": null,
+      "solution_text": "1. **Usar el perímetro.** Si los lados son a y b, \\(2(a+b)=18\\), por lo que \\(a+b=9\\).\n2. **Revisar pares positivos sin repetir.** Los posibles lados enteros son (1,8), (2,7), (3,6) y (4,5); sus áreas son 8, 14, 18 y 20.\n3. **Máximo.** La mayor área es 20 cm² y se obtiene con lados **4 cm y 5 cm**.\n4. **Comprobación.** \\(2(4+5)=18\\). Además \\(ab=((a+b)^2-(a-b)^2)/4\\): con suma fija, conviene la menor diferencia de lados posible, que aquí es 1.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/6 de primaria/FUSION_sin-fecha_selectivo-estatal-serie-2_6-de-primaria_examen-selectivo-6-de-primaria_original.pdf",
+      "source_pdf_sha256": "4ee280201daa77a3986caf9158c0026035fb1e867bb36e73f14533603aa55ad3"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q14",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 6.º de primaria",
+      "problem_number": 14,
+      "source_question_label": "14",
+      "source_page": 3,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Si la sexta parte de un número es 50 y dicho número es la tercera parte de otro.\n¿Qué número es este último?",
+      "options": [],
+      "correct_answer": "900",
+      "correct_option_label": null,
+      "solution_text": "1. **Primer número.** Si su sexta parte es 50, el número es \\(6\\cdot50=300\\).\n2. **Segundo número.** Ese 300 representa la tercera parte del otro, que vale \\(3\\cdot300=\\mathbf{900}\\).\n3. **Comprobación.** Un tercio de 900 es 300 y un sexto de 300 es 50.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/6 de primaria/FUSION_sin-fecha_selectivo-estatal-serie-2_6-de-primaria_examen-selectivo-6-de-primaria_original.pdf",
+      "source_pdf_sha256": "4ee280201daa77a3986caf9158c0026035fb1e867bb36e73f14533603aa55ad3"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q15",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 6.º de primaria",
+      "problem_number": 15,
+      "source_question_label": "15",
+      "source_page": 3,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Encuentra la suma de los números de 4 dígitos que se obtienen al permutar\n(cambiar) de todas las formas posibles los dígitos 1, 2, 3 y 4.",
+      "options": [],
+      "correct_answer": "66660",
+      "correct_option_label": null,
+      "solution_text": "1. **Número de permutaciones.** Hay \\(4!=24\\) números de cuatro cifras.\n2. **Repetición por posición.** Cada cifra aparece \\(3!=6\\) veces en unidades, seis en decenas, seis en centenas y seis en millares.\n3. **Aporte por posición.** Las cifras suman \\(1+2+3+4=10\\), así que cada posición aporta un coeficiente \\(6\\cdot10=60\\).\n4. **Suma total.** \\(60(1+10+100+1000)=60\\cdot1111=\\mathbf{66660}\\).\n5. **Comprobación por parejas.** Cada permutación se empareja con la que cambia 1↔4 y 2↔3; cada pareja suma 5555. Son 12 parejas y \\(12\\cdot5555=66660\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/6 de primaria/FUSION_sin-fecha_selectivo-estatal-serie-2_6-de-primaria_examen-selectivo-6-de-primaria_original.pdf",
+      "source_pdf_sha256": "4ee280201daa77a3986caf9158c0026035fb1e867bb36e73f14533603aa55ad3"
+    }
+  ]
+}

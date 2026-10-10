@@ -1,0 +1,555 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3 de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-de-preparatoria_examen-selectivo-3-preparatoria_original.pdf",
+  "source_sha256": "12f15fff3cdfa8546bcd8b751141a80cd766c51e1b2b3707bd0f2adcbc318e5b",
+  "metadata_evidence": "Los ocho encabezados dicen I Campeonato Nacional de Matemáticas, Selectivo Estatal y el grado, sin año calendario. Los números 1998, 2001, 2002 y 2003 son datos de problemas y no fechan el examen. Serie 2 identifica la carpeta recuperada FUSION2, no un año inferido.",
+  "source_review": "Las 4 páginas fueron renderizadas y cotejadas visualmente con enunciados, opciones y fórmulas. Las variantes por grado se compararon sin quitar símbolos matemáticos.",
+  "pages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "source_numbering": [
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q01",
+      "collection_ordinal": 1,
+      "source_question_label": "1"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q02",
+      "collection_ordinal": 2,
+      "source_question_label": "2"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q03",
+      "collection_ordinal": 3,
+      "source_question_label": "3"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q04",
+      "collection_ordinal": 4,
+      "source_question_label": "4"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q05",
+      "collection_ordinal": 5,
+      "source_question_label": "5"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q06",
+      "collection_ordinal": 6,
+      "source_question_label": "6"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q07",
+      "collection_ordinal": 7,
+      "source_question_label": "7"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q08",
+      "collection_ordinal": 8,
+      "source_question_label": "8"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q09",
+      "collection_ordinal": 9,
+      "source_question_label": "9"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q10",
+      "collection_ordinal": 10,
+      "source_question_label": "10"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q11",
+      "collection_ordinal": 11,
+      "source_question_label": "11"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q12",
+      "collection_ordinal": 12,
+      "source_question_label": "12"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q13",
+      "collection_ordinal": 13,
+      "source_question_label": "13"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q14",
+      "collection_ordinal": 14,
+      "source_question_label": "14"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q15",
+      "collection_ordinal": 15,
+      "source_question_label": "15"
+    }
+  ],
+  "figure_review": [
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q05",
+      "page": 2,
+      "pdf_image_object": "Image36.png",
+      "bbox_top_left_pdf_points": [
+        264.1,
+        135.21000000000004,
+        383.32000000000005,
+        280.11
+      ],
+      "sha256": "2c2b3dd5ea1c2185931b4d27d1a85dec2ab63d2e1afd409c9965cf3327d9acfb",
+      "method": "Exact embedded mathematical image bytes. Original labels and all relevant geometry retained."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q07",
+      "page": 2,
+      "pdf_image_object": "Image37.png",
+      "bbox_top_left_pdf_points": [
+        223.5,
+        449.05,
+        424.41999999999996,
+        572.85
+      ],
+      "sha256": "5a5a1a54fc696cf8e4d0fe8d889962d6d60550a185cb0e16390646d498d4d9dc",
+      "method": "Exact embedded mathematical image bytes. Original labels and all relevant geometry retained."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q10",
+      "page": 3,
+      "pdf_image_object": "Image42.png",
+      "bbox_top_left_pdf_points": [
+        283.5,
+        286.22,
+        363.75,
+        364.22
+      ],
+      "sha256": "a9738569594cd8f2b2b53adc4d5dc2d22607d92bd40e788dd58ef8d3ea597203",
+      "method": "Exact embedded mathematical image bytes. Original labels and all relevant geometry retained."
+    }
+  ],
+  "transcription_corrections": [
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q03",
+      "kind": "manual_source_review",
+      "details": "El resultado es 8 km. Todas las opciones originales imprimen m, sin k; ninguna es correcta tal como está. No se cambia una unidad para fabricar una respuesta.",
+      "statement_normalized": false,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q06",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y contrastada con el PDF original.",
+      "statement_normalized": false,
+      "options_recovered_from_pdf": true,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q08",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y contrastada con el PDF original.",
+      "statement_normalized": false,
+      "options_recovered_from_pdf": true,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q09",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y contrastada con el PDF original.",
+      "statement_normalized": true,
+      "options_recovered_from_pdf": true,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q10",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y contrastada con el PDF original.",
+      "statement_normalized": true,
+      "options_recovered_from_pdf": true,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q11",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y contrastada con el PDF original.",
+      "statement_normalized": true,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q12",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y contrastada con el PDF original.",
+      "statement_normalized": true,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q13",
+      "kind": "manual_source_review",
+      "details": "Respuesta recalculada y contrastada con el PDF original.",
+      "statement_normalized": true,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": false
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q15",
+      "kind": "manual_source_review",
+      "details": "No se especifica la base del porcentaje ni los precios de compra y venta. Con igual precio nominal por kilo y ganancia del 12% sobre costo: 6250/7 g; si es margen sobre venta: 880 g.",
+      "statement_normalized": false,
+      "options_recovered_from_pdf": false,
+      "diagram_flag_corrected": false
+    }
+  ],
+  "latex_rendering": {
+    "engine": "KaTeX 0.16.47",
+    "expressions": 136,
+    "errors": []
+  },
+  "problems": [
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q01",
+      "status": "verified",
+      "independent_check": {
+        "before": 48,
+        "raised": 60,
+        "discount": 12,
+        "after": 48
+      },
+      "notes": "Respuesta recalculada y contrastada con el PDF original."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q02",
+      "status": "verified",
+      "independent_check": {
+        "BC": 1,
+        "BD": 1,
+        "BCD": 30,
+        "BDC": 30,
+        "BDE": 150,
+        "BED": 15,
+        "farthestPointProof": "CE≤CD+DE, equality exactly when C,D,E are collinear in that order"
+      },
+      "notes": "Respuesta recalculada y contrastada con el PDF original."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q03",
+      "status": "invalid_source_units",
+      "independent_check": {
+        "distanceKm": 8,
+        "upMinutes": 40,
+        "downMinutes": 24,
+        "differenceMinutes": 16,
+        "sourceOptionsMeters": [
+          8,
+          10,
+          12,
+          14,
+          16
+        ],
+        "optionDifferenceMinutes": [
+          0.016,
+          0.02,
+          0.024,
+          0.028,
+          0.032
+        ],
+        "noneValid": true
+      },
+      "notes": "El resultado es 8 km. Todas las opciones originales imprimen m, sin k; ninguna es correcta tal como está. No se cambia una unidad para fabricar una respuesta."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q04",
+      "status": "verified",
+      "independent_check": {
+        "integerAges": true,
+        "ageOneExcluded": "If minimum is 1, maximum is 2, so product cannot contain 13.",
+        "allNondecreasingFactorPartitionsWithMaxTwiceMin": [
+          [
+            8,
+            13,
+            16
+          ]
+        ]
+      },
+      "notes": "Se utiliza el modelo habitual de edades expresadas en años enteros positivos; se explicita ese dominio en la solución."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q05",
+      "status": "verified",
+      "independent_check": {
+        "A": 40,
+        "B": 70,
+        "C": 70,
+        "ABD": 30,
+        "DBC": 40,
+        "BDC": 70,
+        "BC": 1,
+        "BD": 1
+      },
+      "notes": "Respuesta recalculada y contrastada con el PDF original."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q06",
+      "status": "verified",
+      "independent_check": {
+        "D": [
+          0,
+          1
+        ],
+        "B": [
+          1,
+          0
+        ],
+        "C": [
+          1,
+          1
+        ],
+        "E": [
+          0.5,
+          0.5
+        ],
+        "F": [
+          0.25,
+          0.75
+        ],
+        "triangleArea": 0.125
+      },
+      "notes": "Respuesta recalculada y contrastada con el PDF original."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q07",
+      "status": "verified",
+      "independent_check": {
+        "acuteBetweenTransversals": 40,
+        "gentleToHorizontal": 30,
+        "x": 70,
+        "supplementCheck": 140
+      },
+      "notes": "Respuesta recalculada y contrastada con el PDF original."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q08",
+      "status": "verified",
+      "independent_check": {
+        "triangleArea": 2,
+        "hexagonArea": 3,
+        "areaRatio": [
+          3,
+          2
+        ]
+      },
+      "notes": "Respuesta recalculada y contrastada con el PDF original."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q09",
+      "status": "verified",
+      "independent_check": {
+        "variables": {
+          "a": 1.3693063937629153,
+          "b": 0.7302967433402214,
+          "c": 2.7386127875258306,
+          "d": 1.0954451150103321,
+          "e": 3.6514837167011076
+        },
+        "products": [
+          0.9999999999999999,
+          1.9999999999999998,
+          3,
+          4,
+          5
+        ],
+        "bSquared": [
+          8,
+          15
+        ]
+      },
+      "notes": "Respuesta recalculada y contrastada con el PDF original."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q10",
+      "status": "verified",
+      "independent_check": {
+        "radius": 1,
+        "outerArea": 4,
+        "innerArea": 2,
+        "ratio": 2
+      },
+      "notes": "Respuesta recalculada y contrastada con el PDF original."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q11",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "allSolutions": [
+          {
+            "A": 7,
+            "B": 6,
+            "C": 4,
+            "multiplicand": 776,
+            "product": 4656
+          }
+        ]
+      },
+      "notes": "Respuesta recalculada y contrastada con el PDF original."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q12",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "innerSum": [
+          13,
+          2
+        ],
+        "nextFraction": [
+          2,
+          13
+        ],
+        "denominator": [
+          15,
+          13
+        ],
+        "result": [
+          13,
+          15
+        ]
+      },
+      "notes": "Respuesta recalculada y contrastada con el PDF original."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q13",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "X": 3,
+        "Y": -4,
+        "first": 11,
+        "second": -17
+      },
+      "notes": "Respuesta recalculada y contrastada con el PDF original."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q14",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "symbolic": "J=L+2d and J−5=2d imply L=5",
+        "example": [
+          15,
+          10,
+          5
+        ]
+      },
+      "notes": "Respuesta recalculada y contrastada con el PDF original."
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q15",
+      "status": "ambiguous_source_profit_basis",
+      "independent_check": {
+        "assumedSameNominalPrice": true,
+        "ifProfitOnCost": {
+          "kg": [
+            25,
+            28
+          ],
+          "grams": [
+            6250,
+            7
+          ],
+          "profitRatio": [
+            3,
+            25
+          ]
+        },
+        "ifMarginOnSales": {
+          "kg": 0.88,
+          "grams": 880
+        },
+        "basisMissingInSource": true
+      },
+      "notes": "No se especifica la base del porcentaje ni los precios de compra y venta. Con igual precio nominal por kilo y ganancia del 12% sobre costo: 6250/7 g; si es margen sobre venta: 880 g."
+    }
+  ],
+  "structural_validation": [
+    {
+      "path": "02_JSON_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3.º de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-preparatoria_verified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "fbb2d67ddd870ec5b32e140707d6ee2c349cb9ef222b5c2efb89d8044901d73d",
+        "bytes": 60513,
+        "problems": 15,
+        "verified": 13,
+        "guided": 2,
+        "images": 3,
+        "figures": [
+          {
+            "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q05",
+            "figure": 1,
+            "sha256": "2c2b3dd5ea1c2185931b4d27d1a85dec2ab63d2e1afd409c9965cf3327d9acfb",
+            "width": 151,
+            "height": 183
+          },
+          {
+            "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q07",
+            "figure": 1,
+            "sha256": "5a5a1a54fc696cf8e4d0fe8d889962d6d60550a185cb0e16390646d498d4d9dc",
+            "width": 230,
+            "height": 141
+          },
+          {
+            "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q10",
+            "figure": 1,
+            "sha256": "a9738569594cd8f2b2b53adc4d5dc2d22607d92bd40e788dd58ef8d3ea597203",
+            "width": 107,
+            "height": 104
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3.º de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-preparatoria_classified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "3c0b89443159ab0af43dab994fe43e14f05580dbadb75679a5f88ac456d0925b",
+        "bytes": 69205,
+        "problems": 15,
+        "verified": 13,
+        "guided": 2,
+        "images": 3,
+        "figures": [
+          {
+            "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q05",
+            "figure": 1,
+            "sha256": "2c2b3dd5ea1c2185931b4d27d1a85dec2ab63d2e1afd409c9965cf3327d9acfb",
+            "width": 151,
+            "height": 183
+          },
+          {
+            "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q07",
+            "figure": 1,
+            "sha256": "5a5a1a54fc696cf8e4d0fe8d889962d6d60550a185cb0e16390646d498d4d9dc",
+            "width": 230,
+            "height": 141
+          },
+          {
+            "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q10",
+            "figure": 1,
+            "sha256": "a9738569594cd8f2b2b53adc4d5dc2d22607d92bd40e788dd58ef8d3ea597203",
+            "width": 107,
+            "height": 104
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    }
+  ]
+}

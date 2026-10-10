@@ -1,0 +1,945 @@
+{
+  "schema_version": "1.0",
+  "source_format_reference": "Cuantly public practice; original multiple_choice and open_answer preserved",
+  "exam": {
+    "competition": "FUSION",
+    "source_competition": "I Campeonato Nacional de Matemáticas",
+    "edition": 1,
+    "year": null,
+    "year_status": "not_confirmed",
+    "year_evidence": "Los ocho encabezados dicen I Campeonato Nacional de Matemáticas, Selectivo Estatal y el grado, sin año calendario. Los números 1998, 2001, 2002 y 2003 son datos de problemas y no fechan el examen. Serie 2 identifica la carpeta recuperada FUSION2, no un año inferido.",
+    "phase": "Selectivo Estatal - Serie 2",
+    "level": "3.º de preparatoria",
+    "school_level": "Tercer año de preparatoria",
+    "problem_count": 15,
+    "source_file": "FUSION_sin-fecha_selectivo-estatal-serie-2_3-de-preparatoria_examen-selectivo-3-preparatoria_original.pdf",
+    "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3 de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-de-preparatoria_examen-selectivo-3-preparatoria_original.pdf",
+    "source_sha256": "12f15fff3cdfa8546bcd8b751141a80cd766c51e1b2b3707bd0f2adcbc318e5b",
+    "image_policy": "Exact embedded mathematical figures from each original PDF; formulas and arithmetic layouts transcribed as LaTeX. No logos, page screenshots or full-question crops.",
+    "classification_phase": "not_started",
+    "difficulty_phase": "not_started",
+    "source_archive_family": "FUSION2"
+  },
+  "validation_summary": {
+    "verified_problems": 13,
+    "needs_review_or_invalid": 2,
+    "needs_review_problem_numbers": [
+      3,
+      15
+    ],
+    "notes": "Opciones originales y fórmulas cotejadas en todos los PDF; respuestas abiertas conservadas. Avisos de fuente para nombres de corredores, escalera inconsistente, múltiplo no único, unidad impresa incorrecta, base de ganancia y orden de parejas. No se infiere un año."
+  },
+  "problems": [
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q01",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 3.º de preparatoria",
+      "problem_number": 1,
+      "source_question_label": "1",
+      "source_page": 1,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "En la tienda de la esquina el precio del kilo de jamón subió 12 pesos. Después se puso en\noferta con un descuento del 20%, con lo que el precio quedó igual a como estaba antes de\nque lo subieran. ¿Cuánto costaba antes del aumento de precio?",
+      "options": [
+        {
+          "label": "a",
+          "text": "40"
+        },
+        {
+          "label": "b",
+          "text": "48"
+        },
+        {
+          "label": "c",
+          "text": "52"
+        },
+        {
+          "label": "d",
+          "text": "54"
+        },
+        {
+          "label": "e",
+          "text": "60"
+        }
+      ],
+      "correct_answer": "48 pesos",
+      "correct_option_label": "b",
+      "solution_text": "1. **Precio original.** Sea x el precio antes del aumento. Después cuesta \\(x+12\\).\n2. **Descuento.** Una rebaja del 20% deja el 80% de ese precio: \\(0.8(x+12)=x\\).\n3. **Resolver.** \\(0.8x+9.6=x\\), así que \\(0.2x=9.6\\) y \\(x=\\mathbf{48}\\), opción **b**.\n4. **Comprobación.** El aumento lleva 48 a 60; el 20% de 60 es 12, por lo que la oferta vuelve a 48.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "El 80% de 40+12 es 41.60, no 40."
+        },
+        {
+          "label": "b",
+          "is_correct": true,
+          "reason": "El 80% de 48+12 es 48."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "El 80% de 52+12 es 51.20."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "El 80% de 54+12 es 52.80."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "60 es el precio después del aumento, no el original."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3 de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-de-preparatoria_examen-selectivo-3-preparatoria_original.pdf",
+      "source_pdf_sha256": "12f15fff3cdfa8546bcd8b751141a80cd766c51e1b2b3707bd0f2adcbc318e5b"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q02",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 3.º de preparatoria",
+      "problem_number": 2,
+      "source_question_label": "2",
+      "source_page": 1,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "En el plano hay 5 puntos A, B, C, D y E situados de tal manera que ABC es un triángulo\nequilátero, B es el punto medio de AD y E el punto más alejado de C para el cual los\nsegmentos DE y AB miden lo mismo. ¿Cuánto mide el ángulo BED?",
+      "options": [
+        {
+          "label": "a",
+          "text": "45"
+        },
+        {
+          "label": "b",
+          "text": "30"
+        },
+        {
+          "label": "c",
+          "text": "20"
+        },
+        {
+          "label": "d",
+          "text": "15"
+        },
+        {
+          "label": "e",
+          "text": "10"
+        }
+      ],
+      "correct_answer": "\\(15^\\circ\\)",
+      "correct_option_label": "d",
+      "solution_text": "1. **Normalizar el lado.** Tomamos \\(AB=BC=CA=1\\). Como B es el punto medio de AD, también \\(BD=1\\).\n2. **Encontrar la dirección de E.** La condición \\(DE=AB=1\\) coloca E en el círculo de centro D y radio 1. La desigualdad \\(CE\\le CD+DE\\) se vuelve igualdad exactamente cuando C, D y E están alineados, con D entre C y E. Ese es el E más alejado.\n3. **Ángulo en D.** El triángulo BCD tiene \\(BC=BD=1\\) y \\(\\angle CBD=120^\\circ\\), así que sus otros ángulos son 30°. Por la alineación, \\(\\angle BDE=180^\\circ-30^\\circ=150^\\circ\\).\n4. **Último isósceles.** \\(BD=DE=1\\), por lo que \\(\\angle BED=(180^\\circ-150^\\circ)/2=\\mathbf{15^\\circ}\\), opción **d**.\n5. **Comprobación.** El triángulo BDE tiene ángulos 15°, 15° y 150°, coherentes con ambos lados iguales.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "45° requeriría un ángulo BDE de 90°, no 150°."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "30° es el ángulo BDC, no BED."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "20° requeriría un ángulo BDE de 140°."
+        },
+        {
+          "label": "d",
+          "is_correct": true,
+          "reason": "15°+15°+150°=180°."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "10° requeriría un ángulo BDE de 160°."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3 de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-de-preparatoria_examen-selectivo-3-preparatoria_original.pdf",
+      "source_pdf_sha256": "12f15fff3cdfa8546bcd8b751141a80cd766c51e1b2b3707bd0f2adcbc318e5b"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q03",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 3.º de preparatoria",
+      "problem_number": 3,
+      "source_question_label": "3",
+      "source_page": 1,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Un ciclista sube por un camino a la velocidad de 12 km/h, y de regreso desciende por ´el a\n20 km/h. Si se tardó 16 minutos más en subir que en bajar, ¿Cuál es la longitud del\ncamino?",
+      "options": [
+        {
+          "label": "a",
+          "text": "8m"
+        },
+        {
+          "label": "b",
+          "text": "10m"
+        },
+        {
+          "label": "c",
+          "text": "12m"
+        },
+        {
+          "label": "d",
+          "text": "14m"
+        },
+        {
+          "label": "e",
+          "text": "16m"
+        }
+      ],
+      "correct_answer": "8 km; ninguna opción impresa tiene la unidad correcta",
+      "correct_option_label": null,
+      "solution_text": "1. **Usar las mismas unidades.** Los 16 minutos de diferencia son \\(16/60=4/15\\) de hora.\n2. **Ecuación de tiempos.** Si el camino mide d kilómetros, subir tarda \\(d/12\\) horas y bajar \\(d/20\\). Entonces \\(d/12-d/20=d/30=4/15\\).\n3. **Distancia.** \\(d=30\\cdot4/15=\\mathbf8\\) kilómetros.\n4. **Comprobación.** Subir 8 km tarda 40 minutos y bajar, 24; la diferencia es 16.\n5. **Error de unidades en la fuente.** Las opciones dicen 8m, 10m, 12m, 14m y 16m, todas en metros. Por ejemplo 8 m producirían una diferencia de solo 0.016 minutos. El número de la opción a sería adecuado si imprimiera km, pero no se modifica ni se califica como correcta.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "8 m no son 8 km; darían 0.016 minutos de diferencia."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "10 m darían 0.020 minutos de diferencia."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "12 m darían 0.024 minutos de diferencia."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "14 m darían 0.028 minutos de diferencia."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "16 m darían 0.032 minutos de diferencia."
+        }
+      ],
+      "verification": {
+        "status": "invalid_source_units",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "El resultado es 8 km. Todas las opciones originales imprimen m, sin k; ninguna es correcta tal como está. No se cambia una unidad para fabricar una respuesta."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3 de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-de-preparatoria_examen-selectivo-3-preparatoria_original.pdf",
+      "source_pdf_sha256": "12f15fff3cdfa8546bcd8b751141a80cd766c51e1b2b3707bd0f2adcbc318e5b"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q04",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 3.º de preparatoria",
+      "problem_number": 4,
+      "source_question_label": "4",
+      "source_page": 1,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "El producto de las edades de mis hijos es 1664. La edad del más grande es el doble que la\ndel más pequeño. ¿Cuántos hijos tengo?",
+      "options": [
+        {
+          "label": "a",
+          "text": "2"
+        },
+        {
+          "label": "b",
+          "text": "3"
+        },
+        {
+          "label": "c",
+          "text": "4"
+        },
+        {
+          "label": "d",
+          "text": "5"
+        },
+        {
+          "label": "e",
+          "text": "6"
+        }
+      ],
+      "correct_answer": "3 hijos",
+      "correct_option_label": "b",
+      "solution_text": "1. **Edades en años enteros.** Sea m la edad del menor; la del mayor es 2m. Como ambas aparecen en el producto, \\(2m^2\\) divide a \\(1664=2^7\\cdot13\\).\n2. **Posibilidades para m.** \\(m^2\\) divide \\(832=2^6\\cdot13\\); por tanto \\(m=1,2,4\\) u 8.\n3. **El factor 13.** Alguna edad debe ser divisible entre 13. Si m fuera 1, 2 o 4, todas las edades serían a lo sumo 2, 4 u 8, imposible. Así, m=8 y el mayor tiene 16.\n4. **Producto restante.** \\(1664/(8\\cdot16)=13\\). Como cada edad adicional está entre 8 y 16, solo puede haber un hijo adicional, de 13 años.\n5. **Respuesta y comprobación.** Hay **3 hijos**, opción **b**, con edades 8, 13 y 16. Su producto es 1664 y 16 es el doble de 8.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "Dos hijos exigirían 2m²=1664, pero 832 no es un cuadrado."
+        },
+        {
+          "label": "b",
+          "is_correct": true,
+          "reason": "8·13·16=1664 y 16=2·8."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "Una cuarta edad sería al menos 8 y ya excedería el producto restante 13."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "Cinco edades tampoco caben en ese producto."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "Seis edades tampoco caben en ese producto."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Se utiliza el modelo habitual de edades expresadas en años enteros positivos; se explicita ese dominio en la solución."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3 de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-de-preparatoria_examen-selectivo-3-preparatoria_original.pdf",
+      "source_pdf_sha256": "12f15fff3cdfa8546bcd8b751141a80cd766c51e1b2b3707bd0f2adcbc318e5b"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q05",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 3.º de preparatoria",
+      "problem_number": 5,
+      "source_question_label": "5",
+      "source_page": 2,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "En la siguiente figura el triángulo grande es isósceles. Si la base mide 1, ¿cuánto mide el\nsegmento DB?",
+      "options": [
+        {
+          "label": "a",
+          "text": "1"
+        },
+        {
+          "label": "b",
+          "text": "2 cos 30°"
+        },
+        {
+          "label": "c",
+          "text": "3/2"
+        },
+        {
+          "label": "d",
+          "text": "2 sen 40°"
+        },
+        {
+          "label": "e",
+          "text": "√2"
+        }
+      ],
+      "correct_answer": "1",
+      "correct_option_label": "a",
+      "solution_text": "1. **Ángulos del triángulo grande.** Al ser isósceles y tener 40° en A, los ángulos de la base B y C son \\((180^\\circ-40^\\circ)/2=70^\\circ\\).\n2. **Ángulo junto a BD.** La figura marca \\(\\angle ABD=30^\\circ\\), así que \\(\\angle DBC=70^\\circ-30^\\circ=40^\\circ\\).\n3. **Triángulo BCD.** Como D está en AC, su ángulo en C es 70°. El de D es \\(180^\\circ-40^\\circ-70^\\circ=70^\\circ\\).\n4. **Lados opuestos a ángulos iguales.** Los lados BC y BD son iguales. Dado \\(BC=1\\), resulta **BD=1**, opción **a**.\n5. **Comprobación.** La ley de senos en BCD da \\(BD/BC=\\sin70^\\circ/\\sin70^\\circ=1\\).",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Triángulo isósceles ABC con ángulos 40 y 30 y punto D sobre AC",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "2c2b3dd5ea1c2185931b4d27d1a85dec2ab63d2e1afd409c9965cf3327d9acfb",
+          "source": "pdf_embedded_image",
+          "original_filename": "fusion2_page2_Image36.png",
+          "width_px": 151,
+          "height_px": 183
+        }
+      ],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": true,
+          "reason": "1 es igual a la base BC por los dos ángulos de 70°."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "2 cos 30°=√3 es mayor que 1."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "3/2 es mayor que 1."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "2 sen 40° es aproximadamente 1.286, no 1."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "√2 es mayor que 1."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3 de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-de-preparatoria_examen-selectivo-3-preparatoria_original.pdf",
+      "source_pdf_sha256": "12f15fff3cdfa8546bcd8b751141a80cd766c51e1b2b3707bd0f2adcbc318e5b"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q06",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 3.º de preparatoria",
+      "problem_number": 6,
+      "source_question_label": "6",
+      "source_page": 2,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "En un cuadrado ABCD de lado 1, E es punto medio de la diagonal BD y F es punto medio de\nED. ¿Cuál es el área del triángulo CFD?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(1/12\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(1/8\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(3/8\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(1/2\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(3/4\\)"
+        }
+      ],
+      "correct_answer": "\\(1/8\\)",
+      "correct_option_label": "b",
+      "solution_text": "1. **Ubicar los puntos.** E está a mitad de BD y F a mitad de ED, así que \\(DF=BD/4\\).\n2. **Comparar alturas.** D está sobre el lado CD y B está a distancia 1 de ese lado. Al recorrer la cuarta parte de DB, F alcanza distancia 1/4 respecto de CD.\n3. **Área.** El triángulo CFD tiene base \\(CD=1\\) y altura 1/4, de modo que \\([CFD]=\\frac12\\cdot1\\cdot\\frac14=\\mathbf{\\frac18}\\), opción **b**.\n4. **Comprobación por coordenadas.** Tomar \\(D=(0,1),B=(1,0),C=(1,1)\\) da \\(F=(1/4,3/4)\\); el determinante da otra vez área 1/8.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "1/12 usaría una altura 1/6 que no corresponde a los puntos medios."
+        },
+        {
+          "label": "b",
+          "is_correct": true,
+          "reason": "1/8=1·(1/4)/2."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "3/8 usaría la distancia 3/4 al lado opuesto, no al lado CD."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "1/2 es el área del triángulo CBD."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "3/4 excede incluso el área del triángulo CBD."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3 de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-de-preparatoria_examen-selectivo-3-preparatoria_original.pdf",
+      "source_pdf_sha256": "12f15fff3cdfa8546bcd8b751141a80cd766c51e1b2b3707bd0f2adcbc318e5b"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q07",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 3.º de preparatoria",
+      "problem_number": 7,
+      "source_question_label": "7",
+      "source_page": 2,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Dos paralelas son atravesadas por dos transversales de manera que se intersectan con los\nángulos marcados en la figura. ¿Cuánto mide el ángulo x?",
+      "options": [
+        {
+          "label": "a",
+          "text": "30°"
+        },
+        {
+          "label": "b",
+          "text": "40°"
+        },
+        {
+          "label": "c",
+          "text": "45°"
+        },
+        {
+          "label": "d",
+          "text": "60°"
+        },
+        {
+          "label": "e",
+          "text": "70°"
+        }
+      ],
+      "correct_answer": "\\(70^\\circ\\)",
+      "correct_option_label": "e",
+      "solution_text": "1. **Ángulo entre transversales.** El marcado 140° es suplementario del ángulo agudo entre ellas: \\(180^\\circ-140^\\circ=40^\\circ\\).\n2. **Inclinación de la transversal menos empinada.** Forma 30° con la paralela superior y también 30° con cualquier horizontal paralela a ella.\n3. **Sumar inclinaciones.** La otra transversal está 40° por encima de esa dirección, por lo que forma \\(30^\\circ+40^\\circ=\\mathbf{70^\\circ}\\) con las paralelas.\n4. **Respuesta y comprobación.** \\(x=70^\\circ\\), opción **e**. La diferencia \\(70^\\circ-30^\\circ=40^\\circ\\) tiene suplemento 140°, exactamente como la figura.",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Dos paralelas y dos transversales con ángulos 30, 140 y x",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "iVBORw0KGgoAAAANSUhEUgAAAOYAAACNCAIAAAAsO5F1AAATVElEQVR4nO3deVgT194H8DEkEFBZFRF6oW9VSgABKeVFUUSswJUHQRYVKKC+SVhcQXmxWnvtYl2KfYq3FqnidQggUkUsm5bFakFWRSAkCIKAskuUJUC2mfdB7/WlrlUhk5k5n79gZjLnB8/3OTkzOZkzBUVRCADwg4J1AQDwZkBkAZwBkQVwBkQWwBkQWQBnQGQBnAGRBXAGRBbAGRBZAGdAZAGcAZEFcAZEFsAZEFkAZ0BkAZwBkQVwBkQWwBnyRnZoaEgikWBdBXEMDw8XFRXJoSHyRvbIkSM+Pj5YV0EQeXl55ubm0dHRcmiLvJHlcDienp5YV4F7AoEgODh41apVTCbz999/l0OLVIiUioqKOjs7QS/7js6cObN9+3YTE5Pq6mpjY2NILkgaWRiGvby8pk+fjnUheNXW1hYWFlZcXHz48GEWizVlyhS5NU3GgcHIyEhaWlpwcDDWheASgiBHjx41MzNTUVHh8XhsNvt1eZX28Ip/L+b3SiemADL2shkZGerq6k5OTlgXgj91dXVMJrO1tfXJ2xSEPLpxkdMwShlo5A/ZhW//RF8JkjZnxf/aNV19uE9l0YYAG+WymM+LHb7YalJ3JOoH54PbF6i8cxEo+bi4uHz22WdYV4EzIpFo7969KioqLBbr0aNHTzbKOn/ydPjmlgSVNh5abLypcBSV3jm6+lO4Z+wFJbvcthX0V3+5emv+KIqiI5lsz4P10nevhHS9bEdHR35+fmxsLNaF4ElxcTGLxZLJZJcvX166dOnT7RQ9FidbOo2K9Nzkjn680oSG9BVcbjPYqwFBkDLDmHbtN/63TB/tM2l51Jn3Kw38gucqvXsxpItsUlKSjY3Nhx9+iHUh+DAwMLBr166EhISdO3fu3buXTqf/eT91mmpP6dnUpHO0oP91nU1B67oFFBX64yskGp020NtLmev/j72yUaGEttR1AvJKxsjCMLx582asq8CHX3/9lcViGRkZVVRUWFhYvPggJX27tZG2Tklr7YNV888toysjA8jjHSgio1Bpj6/MlOhTJyau5LtjUFlZ2dTUtG7dOqwLUXTd3d2+vr5+fn79/f2ff/75S/KKdJzysdmaL4Igivp7emh97V3UwIJB7emSQRAk6+ocNLY0pU14beSKLAzD7u7uWlpaWBei0BISEhgMxuDgYF1d3Z49e/bv3/+SAym6i7y9//bg+o3yrH/+q3npF9sWK9OXb2fRsuILqsp+SWhwiPL/2yQEDCUNkUiko6OTmZmJdSGK686dO05OTjo6OomJiU+2NDU1TZkypbOz86WvkQju1lTVtT2S/P8mYSevqqbl4QTcHXgREkU2PT1dV1dXIhn3vwX+QyKRHDx4UFVV1d/fv6dn7CbVUwwGIyEhAVUYJBoYwDAcEBBApZLuivO1bt68aWtrGxcXl56enpycPHPmzPF73dzccnNzIYVBlsg+ePAgJycHfEj7jJGRkaioqIULFzo4ONTV1bm6uj57BASZmJjcu3cPUhhT3vEp3k1NTS+9/aFIJBKJVCpVVVXFuhAFIpPJxGLx2F1/ZWUlpZfehZI9pqys/NoTOjo6ZmdnQwoeWZFIVF1dDSm8oKAgV1dXf39/rAtRCP39/bGxsXl5eRs2bAgKCpqowZK6urqJiQk02VAS4HK5SkpKr7rsJZPU1NRZs2YtXryYz+ejOESKaxEYhl1cXPT09CByu3//fnh4+NWrVw8dOhQSEiLPSa4TiPiXXzKZLCkpieQXXiiKHjt2zNTUlEKh8Hi80NBQnOaVFHMM8vLyRkZGPDw8ILLi8XgsFqu5ufnUqVME+O4Q8XtZGIbXrl2rovLuU4vxRywW79u3z9ramsFg8Pl8AuSV+L1sf39/RkZGYWEhRD4lJSVMJlMsFufm5i5btgwiCoL3smlpaYaGhgsXLoTIZHBwcPPmzY6Oju7u7rW1tUTKK/F7WRiGg4KCIDLJzs4OCwvT1dUtKyuzsrKCiAclrsbGRgqF0traipJDd3f32rVr1dTUYmJipNJJmkeFPSIPDBITEx0dHQ0NDSESOH36NIPBEAgEXC53x44dr/gAFvdQgkIQxMjICIZhlOiampo++eQTbW3t06dPoyRA2F726tWrfX193t7eEHHJZLLvvvtu/vz5M2bM4PP5JPm4hLCXX4mJid7e3lOnToUIqqqqislk9vb2pqWlubm5QaRBzF52eHj43LlzRO11RkZGoqOj7ezsFi1axOPxSJVXwvay6enp2trajo6OEOEUFhay2Ww6nX716lU7OzuIfIjZy8IwHBgYiN+ZHy/08OHDjRs3rly5Migo6ObNm+TM6xiUcO7du0ehUBoaGlACOXv27KxZs+zt7Xk8HkpuBBwYcDgcOzu7efPmQYTQ3t4eHh5+5cqVgwcPhoWFEeyt4y0QcGAAwzAxLrxQFP3pp59MTU1RFOXxeOHh4SCv//6/EElpaSmdTn/6NEn84vF49vb2s2bNOnv2LNa1KBai9bIwDHt4eGhojD0uEqfEYvFXX321YMECY2NjPp+/Zs0arCtSLIQay4pEotTU1OTkZAi3SktLmUzm6OhoTk4OeM74CxGql83MzKTT6c7OzhAODQ0NbdmyZenSpW5ubrW1tSCvpOhlYRj29/fH4ySmnJyc0NDQmTNnlpaWLliwAOtyFBpxelkURWtra3Hx6Jpn8Hi8/fv3S6XS3bt3g7ySKLJ4nLr19OuEpqamPB4PX8VjhTgDAxiGfXx8cDR16/r16ywWSyKRXLp0iZDTISYJQXpZoVCIo6lbg4ODmzZtWrZsmYeHR01NDcgrGXvZ9PT0GTNmjF/fR2FlZmaGh4fr6emVl5dbWlpiXQ7+UMgxdUt49/rFpNPnq/pkj2qzU1IuFLeKMFkzY82aNX5+fpGRkaWlpSCvbwnFv7a2NgqF0tjY+JL9I1Vn/nmeOyC5893fF3p/zqm9/u1iQ9/kQfkWmZCQoKWl5eLicvfuXfm2TDREGBhwOJyFCxfOnTv3xbsFeZWQ+waz6VATMtihaedlatL0JWfNf0+TV3lNTU1sNru6ujo2NjYwMFBezRIXin9GRkYhISGv/eb+wyTv91YnChRjzQzgreE+siUlJTQaTUdHx8nJqbu7++UHjuQw/8vxSPNYrkd7uh/KJruwyspKKysrIyOj3NzcyW6LVHB/+QXDsLe39+3bt2k0mrW1dV1d3Z/3I33Xfoj8/mr/aPlvfyhbfWygBCFtF84UDkxiScPDwzt37ly0aJGjo+PL1swAMFsrAVsikWj27NkpKSmurq4IgrDZ7PLy8oqKinGP5pRyD6/8nzvuYcajj/prqjWDgj9oa1RxDF455/WrVbyV/Pz8kJCQqVOnnjx50tbWdnIaITcUz9LS0mbPnv10FDs8PGxiYhIVFfXno2RDnfd7Rsd+GOxs6RJOVjF9fX3BwcF0Ov2bb74Ri8WT1Qzp4Tuybm5uzwT00qVL6urqIpFIzpWkpKTo6uo6ODjU19fLuWmywXFku7q6qFQql8sdv1EikWhra+fk5MitjNbW1pUrV2poaMTHxyMIIrd2SQvHl1/JycmWlpZmZmbjN1KpVGdn5ytXrsihAARBjh49amZmpqKiwuPx2Gw2+DohDi6/WlpasHpIdHt7+/Tp09XV1Z/ZPjAwdjvg+e0TSywW9/X1SaVSbW1tHE0fm1SLFi2Sw7eY3jWyQqEQk5UImpubd+zYAcPwZEfzeRKJJC0t7fz588uXL1+/fj3I61MzZsyQwzP+8XqTKyIioqWl5cKFC3Jut6ioiMViIQhy4sQJBwcHObcO4HUml1QqTUlJkfPs2IGBgbCwsOXLl3t5edXU1IC8YgWX02Jyc3MRBJHnQyovXry4adMmAwODysrK+fPny61dgCC9LAzDfn5+NBpNDm11dXX5+PgEBARERUWVlJSAvGIOf5EVCASZmZlyGBWgKHry5EkGgyEUCuvq6rZt20ah4O/fRTz4GxikpqbOmzfvo48+mtRWGhsb2Ww2l8v98ccfAwICJrUt4I3gr9uY7AcbSqXSAwcOWFhYvPfee3w+H+RV0eDsJld9fb25ufm9e/dmz549GeevrKxkMpn9/f3x8fE4fVAS4eGsl4VheMWKFZORV6FQGBkZaW9v7+TkxOVyQV4VFp7GsgiCcDicmJiYCT/z5cuXQ0NDNTQ0iouLbWxsJvz8AEl72YKCgqGhIU9Pzwk8Z19fX2BgoKenJ5vNrqysBHlVfHjqZWEYXrNmDZ1On6gTJicnR0REmJmZ1dTUEGZtBeJDcWJgYEBNTa2oqGhCztbS0uLq6qqpqfnzzz+DSa74gpuBQVpamr6+vr29/TueB0GQH374wczMbOrUqXw+n8VigUmu+IKbgQEMw0FBQe94ktraWiaT2d7enpyc7OHhMUGlAXKFj162ubm5uLj4XSIrEon27NljY2NjbW3N4/FAXvELH71sYmKig4ODkZHR27382rVrT77lUlBQsHjx4omuDpArHPSyKIomJia+3Ye0/f39ISEhK1as8PX1vXXrFsgrAeCgl/3jjz96enp8fHze9IUXLlzYvHmzoaHhjRs3zM3NJ6c6QN5w0MvCMOzl5TVt2hs8qrCzs9PLyysoKCg6Orq4uBjklUgUPbLDw8O//PLLXx8VoCgaHx/PYDBEIlFdXd3WrVvBJFeCUfSBwYULFzQ1Nf/i984bGhpYLBafz4+Li/Pz85v86gAMUHDxRPnX9pQSiWT//v2Wlpbvv/8+n88HeSUwhZ4ve//+fSMjIz6fb2xs/IrDysvLmUymUCg8fvz4ihUr5FgggAGF7mWTkpJsbW1fkVehULh9+/YlS5Y4OzvX1taCvJKBQo9lYRjetm3by/ZeunQpNDRUS0vr+vXrk/1VMECBoIqqrKxMRUVFIHjB4ga9vb3+/v6qqqoHDx6USCRYVAdgRnEHBjAMr1q1SktL65ntHA6HwWB0dnbW1NRER0dTqQr9RgFMPFQhiUQibW3trKys8Rvv3r3r7OyspaWVkJCAXWkAxhS0l83MzKTRaC4uLk9+lclk33//vbm5uYaGBp/P37hxI9YFAphR0HdVGIYDAgKevOnX1NRs2LCBx+PFxcWtX78e69IAjCliL9vT05ObmxscHDw6Orp79+6PP/7Yzs7O1ta2vr4e69IA7CliZFNSUszNzQUCgYWFRUZGRmFh4bFjxwIDA7OysrAuDcCeIn76NX/+/GnTplVVVe3atWv37t3KymNLdHV0dBgYGLS3t+vr62NdIIAlhRvLHjlyhMvl2tjY3Lx509TU9Ol2fX19KpXa3d0NIktyChTZjo6OTZs2ZWdnm5ubl5WVPTMVBkEQmUw2btlEgKQUYiyLoujx48dNTU3FYrGGhsa+ffuen7rV0tKCoujMmTMxqhFQFNj3svX19Ww2+/bt2/Hx8dOmTSstLXV3d3/+sBMnTixbtgxEFsCyl5VIJF9//fWCBQvmzp3L5/PXrl0Lw/C6deueXG+NNzo6evLkyS1btmBUKaBIsPrYraSkxNzcfM6cOfn5+U+2CAQCFRWVsrKy5w+OiIgwMjJ6urzym5M8qC+5VtrY99YnABQGBpEdHBzcsmWLsrJyVFTU8PDw0+1xcXEmJibPHx8VFaWjo3Pr1q0nvw51cK+e+WpjZPJ92Z8Ok9T/HPJF3tiC4Kjkbk5c7Klk+FhsSuVDFBWWH9nxfdlDyYOiQ5GxVfJekBmYYPIeGOTk5JiZmRUVFZWUlBw+fFhVVfUVT5SvqKjw9fU9depUQUGBpaXl422IeHBE4wPl1httwvE3lEXcsz+lFLcMohAkaz6+I0XNL9g/iGlb8499hQN3coskFpaaVJ2PTIeuXL4rk99fC+D68qu3t3fbtm0ZGRlffvllZGSkkpLS+L0NDQ1lZWWGhoYxMTFPpslmZ2fX1NT4+voWFRWZmJj850CKlrGNRlvRFGh03KuFlecq9f9uo546lum+/EutBns1KBCkzDCm/fEb/9sNXlpnz16m6rZX6K8LnvundgHckVNkORxORESElZVVbW3tnDlznj8AhmFra2ttbe3CwkKRSKSpqenp6ZmVlaWrq/vakz+6fv62sY+vlPf4N7S3W0BRoT9++6DRaf29vZQPP933hWxUKKEtdQV5xT05RZbL5cbExLxsHtaTJ8ofOHDgLZZ/QXoKzt6et9pLNnhDIpOODgjFynRlZAB5vBNFZBQqbcrYj0r0qSCuhCCnyB46dOgVe69cufLo0aPVq1e/xZlRidoM5abfMpuk3Or795QuFVmttGBQ07tkEESVdXUOGluaymMRRoBcn37BMOzr66umpvYXjkUEVRdPJ5d0dlek/iu9ogdRMljoHfDpGttZomEpJBsZlkFqy7ezaFnxBVVlvyQ0OET5/00h/kaAODO5hoaG9PT0cnJyJnTt7eEufkOv2vumRppgOEAw2H9ge+7cOV1d3SVLlkzoWdX0GFZ6E3pGQEFQFOSJ8mDBAgAfA4OWlpY5c+Y0NjZ+8MEHGJYB4AjGvSyHw7G3twd5BXAT2f7+fhaLhW0NAL5gf8cAAHB2+QUAbwREFsAZEFkAZ0BkAZwBkQVwBkQWwBkQWQBnQGQBnAGRBSB8+T8leTtFTI4mcgAAAABJRU5ErkJggg==",
+          "sha256": "5a5a1a54fc696cf8e4d0fe8d889962d6d60550a185cb0e16390646d498d4d9dc",
+          "source": "pdf_embedded_image",
+          "original_filename": "fusion2_page2_Image37.png",
+          "width_px": 230,
+          "height_px": 141
+        }
+      ],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "30° es la inclinación de la otra transversal."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "40° es el ángulo agudo entre las dos transversales."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "45° no reproduce la diferencia angular de 40°."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "60° daría una diferencia de 30°, no de 40°."
+        },
+        {
+          "label": "e",
+          "is_correct": true,
+          "reason": "70°−30°=40°, suplementario del 140° dado."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3 de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-de-preparatoria_examen-selectivo-3-preparatoria_original.pdf",
+      "source_pdf_sha256": "12f15fff3cdfa8546bcd8b751141a80cd766c51e1b2b3707bd0f2adcbc318e5b"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q08",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 3.º de preparatoria",
+      "problem_number": 8,
+      "source_question_label": "8",
+      "source_page": 2,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Un triángulo equilátero y un hexágono regular tienen perímetros de igual longitud. Si el\ntriángulo tiene área igual a dos, ¿cuál es el área del hexágono?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(3/4\\)"
+        },
+        {
+          "label": "b",
+          "text": "2"
+        },
+        {
+          "label": "c",
+          "text": "\\(5/2\\)"
+        },
+        {
+          "label": "d",
+          "text": "3"
+        },
+        {
+          "label": "e",
+          "text": "4"
+        }
+      ],
+      "correct_answer": "3",
+      "correct_option_label": "d",
+      "solution_text": "1. **Comparar lados.** Si el hexágono tiene lado h y el triángulo lado t, la igualdad de perímetros da \\(6h=3t\\), o \\(t=2h\\).\n2. **Usar triángulos unitarios.** El hexágono contiene seis equiláteros de lado h. El triángulo de lado 2h tiene área igual a cuatro de esos equiláteros.\n3. **Razón de áreas.** El área del hexágono es \\(6/4=3/2\\) veces la del triángulo. Como esta vale 2, la otra es \\(2\\cdot3/2=\\mathbf3\\), opción **d**.\n4. **Comprobación.** Cada equilátero pequeño tiene área \\(2/4=1/2\\); seis suman 3.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "3/4 no es 6·(2/4)."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "Igual perímetro no implica igual área."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "5/2 contaría cinco triángulos pequeños en vez de seis."
+        },
+        {
+          "label": "d",
+          "is_correct": true,
+          "reason": "3 es seis veces 1/2."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "4 no es la razón 3/2 aplicada a 2."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3 de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-de-preparatoria_examen-selectivo-3-preparatoria_original.pdf",
+      "source_pdf_sha256": "12f15fff3cdfa8546bcd8b751141a80cd766c51e1b2b3707bd0f2adcbc318e5b"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q09",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 3.º de preparatoria",
+      "problem_number": 9,
+      "source_question_label": "9",
+      "source_page": 3,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Si a, b, c, d y e son números positivos tales que \\(ab=1\\), \\(bc=2\\), \\(cd=3\\), \\(de=4\\) y \\(ea=5\\), ¿cuál es el valor de b?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(\\sqrt{\\frac3{10}}\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(\\sqrt{\\frac8{15}}\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(\\sqrt{\\frac5{16}}\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(\\sqrt{\\frac{40}3}\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(\\sqrt{30}\\)"
+        }
+      ],
+      "correct_answer": "\\(\\sqrt{8/15}\\)",
+      "correct_option_label": "b",
+      "solution_text": "1. **Eliminar variables por cociente.** \\(\\frac{(bc)(de)}{(cd)(ea)}=\\frac ba=\\frac{2\\cdot4}{3\\cdot5}=\\frac8{15}\\).\n2. **Usar el producto restante.** Como \\(ab=1\\), se tiene \\(b^2=(b/a)(ab)=8/15\\).\n3. **Elegir el signo.** Todos los números son positivos, así que \\(b=\\mathbf{\\sqrt{8/15}}\\), opción **b**.\n4. **Comprobación.** Si t es ese valor, tomar \\(b=t,a=1/t,c=2/t,d=3t/2,e=8/(3t)\\) produce ab=1, bc=2, cd=3, de=4 y \\(ea=8/(3t^2)=5\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "Su cuadrado 3/10 no es 8/15."
+        },
+        {
+          "label": "b",
+          "is_correct": true,
+          "reason": "El cuadrado 8/15 satisface la eliminación y el signo es positivo."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "Su cuadrado 5/16 no es 8/15."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "Su cuadrado 40/3 no es 8/15."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "Su cuadrado 30 no es 8/15."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3 de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-de-preparatoria_examen-selectivo-3-preparatoria_original.pdf",
+      "source_pdf_sha256": "12f15fff3cdfa8546bcd8b751141a80cd766c51e1b2b3707bd0f2adcbc318e5b"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q10",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 3.º de preparatoria",
+      "problem_number": 10,
+      "source_question_label": "10",
+      "source_page": 3,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "¿Cuál es el resultado de dividir el área del cuadrado grande entre el área del cuadrado chico?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(\\frac1{\\sqrt2}\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(2+\\sqrt2\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(2\\sqrt2\\)"
+        },
+        {
+          "label": "d",
+          "text": "2"
+        },
+        {
+          "label": "e",
+          "text": "\\(\\sqrt2\\)"
+        }
+      ],
+      "correct_answer": "2",
+      "correct_option_label": "d",
+      "solution_text": "1. **Diámetro común.** En la figura el círculo está inscrito en el cuadrado grande y pasa por los cuatro vértices del chico. El diámetro del círculo es el lado del grande y la diagonal del chico.\n2. **Relacionar áreas.** Si el lado del chico es s, su diagonal tiene cuadrado \\(s^2+s^2=2s^2\\). El área del grande es, por tanto, \\(2s^2\\).\n3. **Dividir.** \\(A_{grande}/A_{chico}=2s^2/s^2=\\mathbf2\\), opción **d**.\n4. **Comprobación.** Con radio 1, el grande tiene lado 2 y área 4; el chico tiene diagonal 2 y área 2. La razón vuelve a ser 2.",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Cuadrado exterior, círculo y cuadrado interior",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "a9738569594cd8f2b2b53adc4d5dc2d22607d92bd40e788dd58ef8d3ea597203",
+          "source": "pdf_embedded_image",
+          "original_filename": "fusion2_page3_Image42.png",
+          "width_px": 107,
+          "height_px": 104
+        }
+      ],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "1/√2 es menor que 1 y no puede ser área grande dividida entre área chica."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "2+√2 no es la razón obtenida por Pitágoras."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "2√2 confunde longitudes y áreas."
+        },
+        {
+          "label": "d",
+          "is_correct": true,
+          "reason": "2 es el cuadrado de la razón de lados √2."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "√2 es la razón de lados, no la de áreas."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3 de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-de-preparatoria_examen-selectivo-3-preparatoria_original.pdf",
+      "source_pdf_sha256": "12f15fff3cdfa8546bcd8b751141a80cd766c51e1b2b3707bd0f2adcbc318e5b"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q11",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 3.º de preparatoria",
+      "problem_number": 11,
+      "source_question_label": "11",
+      "source_page": 4,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Laura quiere saber cuanto valen A, B y C en la siguiente multiplicación, si todos son dígitos diferentes:\n\\[\\begin{array}{rrrr}&A&A&B\\\\\\times&&&B\\\\\\hline C&B&5&B\\end{array}\\]",
+      "options": [],
+      "correct_answer": "\\(A=7,\\ B=6,\\ C=4\\)",
+      "correct_option_label": null,
+      "solution_text": "1. **Unidades.** La multiplicación exige \\(B^2\\equiv B\\pmod{10}\\). Como B es una cifra no nula del factor y de un producto de cuatro cifras, queda \\(B=1,5,6\\).\n2. **Descartar B=1.** Multiplicar por 1 no convierte un número de tres cifras en uno de cuatro.\n3. **Descartar B=5.** \\((110A+5)5=550A+25=1000C+555\\), lo que daría \\(55A-53=100C\\). Para \\(A=1,\\ldots,9\\), el miembro izquierdo es 2, 57, 112, 167, 222, 277, 332, 387 o 442; ninguno es múltiplo de 100.\n4. **Caso B=6.** \\((110A+6)6=660A+36=1000C+656\\), de donde \\(33A-31=50C\\). Al probar las nueve cifras A, solo \\(A=7\\) da un múltiplo de 50: 200, y entonces \\(C=4\\).\n5. **Respuesta y comprobación.** **A=7, B=6, C=4**, todas distintas, y \\(776\\cdot6=4656\\), que tiene la forma CB5B.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3 de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-de-preparatoria_examen-selectivo-3-preparatoria_original.pdf",
+      "source_pdf_sha256": "12f15fff3cdfa8546bcd8b751141a80cd766c51e1b2b3707bd0f2adcbc318e5b"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q12",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 3.º de preparatoria",
+      "problem_number": 12,
+      "source_question_label": "12",
+      "source_page": 4,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Resuelve la siguiente fracción compleja:\n\\[\\frac1{1+\\frac1{\\frac72+3}}\\]",
+      "options": [],
+      "correct_answer": "\\(13/15\\)",
+      "correct_option_label": null,
+      "solution_text": "1. **Empezar por el interior.** \\(7/2+3=7/2+6/2=13/2\\).\n2. **Invertir esa suma.** \\(1/(13/2)=2/13\\).\n3. **Denominador exterior.** \\(1+2/13=15/13\\).\n4. **Resultado.** \\(1/(15/13)=\\mathbf{13/15}\\).\n5. **Comprobación.** Multiplicar 13/15 por el denominador 15/13 da 1, como exige la fracción exterior.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3 de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-de-preparatoria_examen-selectivo-3-preparatoria_original.pdf",
+      "source_pdf_sha256": "12f15fff3cdfa8546bcd8b751141a80cd766c51e1b2b3707bd0f2adcbc318e5b"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q13",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 3.º de preparatoria",
+      "problem_number": 13,
+      "source_question_label": "13",
+      "source_page": 4,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Encuentra el valor de X y Y en las siguientes ecuaciones:\n\\[\\begin{cases}X-2Y=11\\\\X+5Y=-17\\end{cases}\\]",
+      "options": [],
+      "correct_answer": "\\(X=3,\\ Y=-4\\)",
+      "correct_option_label": null,
+      "solution_text": "1. **Restar ecuaciones.** La segunda menos la primera da \\((X+5Y)-(X-2Y)=-17-11\\), es decir \\(7Y=-28\\).\n2. **Encontrar Y.** \\(Y=-4\\).\n3. **Sustituir.** \\(X-2(-4)=11\\) da \\(X=3\\).\n4. **Respuesta y comprobación.** **X=3, Y=−4**. Se verifica \\(3-2(-4)=11\\) y \\(3+5(-4)=-17\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3 de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-de-preparatoria_examen-selectivo-3-preparatoria_original.pdf",
+      "source_pdf_sha256": "12f15fff3cdfa8546bcd8b751141a80cd766c51e1b2b3707bd0f2adcbc318e5b"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q14",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 3.º de preparatoria",
+      "problem_number": 14,
+      "source_question_label": "14",
+      "source_page": 4,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "La diferencia de edades entre Juan y Pedro es la misma que la diferencia de\nedades entre Pedro y Luis, pero sabemos que Juan es mayor que Pedro y Pedro es\nmayor que Luis. Hace 5 años la edad de Juan era el doble que la diferencia de\nedades que hay entre él y Pedro. ¿Qué edad tiene Luis?",
+      "options": [],
+      "correct_answer": "5 años",
+      "correct_option_label": null,
+      "solution_text": "1. **Diferencia común.** Sea d la diferencia entre Juan y Pedro, y también entre Pedro y Luis. Entonces Juan tiene \\(L+2d\\) si Luis tiene L.\n2. **Usar hace cinco años.** La condición dice \\(J-5=2d\\). Sustituir \\(J=L+2d\\) da \\(L+2d-5=2d\\).\n3. **Respuesta.** Se cancelan las diferencias y queda \\(L=\\mathbf5\\) años.\n4. **Comprobación.** Por ejemplo, Luis 5, Pedro 10 y Juan 15 mantienen diferencias de 5; hace cinco años Juan tenía 10, el doble de la diferencia. Cualquier diferencia positiva compatible conserva L=5.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3 de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-de-preparatoria_examen-selectivo-3-preparatoria_original.pdf",
+      "source_pdf_sha256": "12f15fff3cdfa8546bcd8b751141a80cd766c51e1b2b3707bd0f2adcbc318e5b"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q15",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 3.º de preparatoria",
+      "problem_number": 15,
+      "source_question_label": "15",
+      "source_page": 4,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Un vendedor deshonesto gana el 12% usando pesas falsas. ¿Cuál es el peso real de\nsus pesas de “Kilo”?",
+      "options": [],
+      "correct_answer": "Condicional: \\(6250/7\\) g si el 12% se calcula sobre el costo real",
+      "correct_option_label": null,
+      "solution_text": "1. **Aclarar la base del porcentaje.** La fuente solo dice que gana 12%; no especifica si ese porcentaje se calcula sobre su costo o sobre lo cobrado, ni detalla los precios.\n2. **Modelo usual con igual precio por kilo.** Si el precio de un kilo real es p y una pesa entrega una fracción w de kilo, el costo real es pw y el cobro p. Una ganancia del 12% sobre el costo exige \\((p-pw)/(pw)=0.12\\).\n3. **Resolver ese modelo.** \\(1/w=1.12\\), así que \\(w=25/28\\) kg, equivalentes a \\(\\mathbf{6250/7}\\) g, aproximadamente 892.86 g.\n4. **Otra base cambia la respuesta.** Si el 12% se refiere a lo cobrado, \\((p-pw)/p=0.12\\) produce \\(w=0.88\\) kg, o 880 g.\n5. **Conclusión.** Se conserva la respuesta habitual como condicional y se explica la información que falta. No se presenta una masa única sin especificar el modelo.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "ambiguous_source_profit_basis",
+        "answer_checked": false,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "No se especifica la base del porcentaje ni los precios de compra y venta. Con igual precio nominal por kilo y ganancia del 12% sobre costo: 6250/7 g; si es margen sobre venta: 880 g."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3 de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-de-preparatoria_examen-selectivo-3-preparatoria_original.pdf",
+      "source_pdf_sha256": "12f15fff3cdfa8546bcd8b751141a80cd766c51e1b2b3707bd0f2adcbc318e5b"
+    }
+  ]
+}

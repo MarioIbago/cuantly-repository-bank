@@ -1,0 +1,271 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/1 de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_1-de-preparatoria_examen-selectivo-1-preparatoria_original.pdf",
+  "source_sha256": "b3a4b3c7dbbf643820054e81749e01878d1a740cae3f832d5727924e2537ec13",
+  "school_level": "Primer año de preparatoria",
+  "rubric": "Primary solving idea; L1 familiar direct steps, L2 combines ideas, L3 non-routine argument, relative to the printed school grade. Source defects do not become automatic answers.",
+  "problems": [
+    {
+      "source_id": "fusion2_examen-selectivo-1-preparatoria_1-preparatoria_q01",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "area",
+        "midpoints",
+        "quadrilaterals"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Primer cuadrilátero de puntos medios. KLMN ocupa la mitad del rectángulo: las cuatro esquinas recortadas suman la otra mitad.",
+        "Dificultad relativa a Primer año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-preparatoria_1-preparatoria_q02",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "percentages",
+        "invariants"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Masa que no es agua. Después de beber, representa \\(100\\%-85\\%=15\\%\\) de 800 kg: \\(0.15\\cdot800=120\\) kg.",
+        "Dificultad relativa a Primer año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-preparatoria_1-preparatoria_q03",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "squares",
+        "pythagorean_theorem",
+        "exponents"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Diagonal. Por Pitágoras, \\(d^2=1^2+1^2=2\\).",
+        "Dificultad relativa a Primer año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-preparatoria_1-preparatoria_q04",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "casework",
+        "parity",
+        "products"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Agrupar por signos negativos. Si k de las seis letras valen −1, su suma es \\(6-2k\\) y su producto es \\((-1)^k\\).",
+        "Dificultad relativa a Primer año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-preparatoria_1-preparatoria_q05",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "digit_counting",
+        "multiples"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Última cifra. Los múltiplos de 5 desde 5 hasta 2000 terminan en 0 o 5, así que no aportan unos en las unidades.",
+        "Dificultad relativa a Primer año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-preparatoria_1-preparatoria_q06",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "digits",
+        "successor",
+        "place_value"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Buscar el siguiente número sin repeticiones. De 187570 a 187579 se repite el 7. De 187580 a 187589 se repite el 8. El número 187590 tiene las seis cifras diferentes.",
+        "Dificultad relativa a Primer año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-preparatoria_1-preparatoria_q07",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "modular_arithmetic",
+        "exponents"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Primeras potencias. \\(10\\equiv10\\pmod{15}\\) y \\(10^2=100\\equiv10\\pmod{15}\\).",
+        "Dificultad relativa a Primer año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-preparatoria_1-preparatoria_q08",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "linear_diophantine_equations",
+        "maximization"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Costo básico. Ocho cajas de manzanas costarían \\(8\\cdot20=160\\). Hay 70 pesos adicionales para sustituirlas por peras o duraznos.",
+        "Dificultad relativa a Primer año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-preparatoria_1-preparatoria_q09",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "divisibility",
+        "modular_arithmetic",
+        "linear_equations"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Condición necesaria. De \\(a+3b=2001\\) se obtiene \\(a=2001-3b\\). Como 2001 es divisible entre 3, a también debe serlo.",
+        "Dificultad relativa a Primer año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-preparatoria_1-preparatoria_q10",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "rates",
+        "proportionality"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Ritmo por gato y hora. \\(\\frac{1.5}{1.5\\cdot1.5}=\\frac23\\) ratón por gato y hora.",
+        "Dificultad relativa a Primer año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-preparatoria_1-preparatoria_q11",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "telescoping_sums",
+        "fractions"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Descomponer un sumando. \\(\\frac1{k(k+1)}=\\frac1k-\\frac1{k+1}\\).",
+        "Dificultad relativa a Primer año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-preparatoria_1-preparatoria_q12",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "factorization",
+        "rational_expressions"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Dominio. Los denominadores exigen \\(a\\ne0\\) y \\(b\\ne0\\).",
+        "Dificultad relativa a Primer año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-preparatoria_1-preparatoria_q13",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "digits",
+        "place_value",
+        "exponents"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Examinar el préstamo decimal. Para \\(n\\ge4\\), el número \\(10^n-2003\\) tiene \\(n-4\\) nueves seguidos del bloque 7997. Por ejemplo, \\(10^5-2003=97997\\).",
+        "Dificultad relativa a Primer año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-preparatoria_1-preparatoria_q14",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "digits",
+        "factorization",
+        "linear_equations"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Nombrar las cifras. Si n tiene decenas a y unidades b, entonces \\(n=10a+b\\), \\(P(n)=ab\\) y \\(S(n)=a+b\\).",
+        "Dificultad relativa a Primer año de preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-preparatoria_1-preparatoria_q15",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "counting",
+        "linear_equations",
+        "sets"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Contar medios días. Cada día contiene una mañana y una tarde. Las partes claras suman \\(6+5=11\\) y las lluviosas son 7.",
+        "Dificultad relativa a Primer año de preparatoria."
+      ]
+    }
+  ]
+}

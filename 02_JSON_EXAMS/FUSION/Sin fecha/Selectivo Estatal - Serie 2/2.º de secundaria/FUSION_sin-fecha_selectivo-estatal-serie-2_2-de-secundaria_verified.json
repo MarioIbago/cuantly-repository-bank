@@ -1,0 +1,958 @@
+{
+  "schema_version": "1.0",
+  "source_format_reference": "Cuantly public practice; original multiple_choice and open_answer preserved",
+  "exam": {
+    "competition": "FUSION",
+    "source_competition": "I Campeonato Nacional de Matemáticas",
+    "edition": 1,
+    "year": null,
+    "year_status": "not_confirmed",
+    "year_evidence": "Los ocho encabezados dicen I Campeonato Nacional de Matemáticas, Selectivo Estatal y el grado, sin año calendario. Los números 1998, 2001, 2002 y 2003 son datos de problemas y no fechan el examen. Serie 2 identifica la carpeta recuperada FUSION2, no un año inferido.",
+    "phase": "Selectivo Estatal - Serie 2",
+    "level": "2.º de secundaria",
+    "school_level": "Segundo año de secundaria",
+    "problem_count": 15,
+    "source_file": "FUSION_sin-fecha_selectivo-estatal-serie-2_2-de-secundaria_examen-selectivo-2-de-secundaria_original.pdf",
+    "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/2 de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_2-de-secundaria_examen-selectivo-2-de-secundaria_original.pdf",
+    "source_sha256": "908eef75078f45e703b060fcc74b79b3d566297380f8c46641f6e8ffa46d7b2e",
+    "image_policy": "Exact embedded mathematical figures from each original PDF; formulas and arithmetic layouts transcribed as LaTeX. No logos, page screenshots or full-question crops.",
+    "classification_phase": "not_started",
+    "difficulty_phase": "not_started",
+    "source_archive_family": "FUSION2"
+  },
+  "validation_summary": {
+    "verified_problems": 12,
+    "needs_review_or_invalid": 3,
+    "needs_review_problem_numbers": [
+      10,
+      11,
+      12
+    ],
+    "notes": "Opciones originales y fórmulas cotejadas en todos los PDF; respuestas abiertas conservadas. Avisos de fuente para nombres de corredores, escalera inconsistente, múltiplo no único, unidad impresa incorrecta, base de ganancia y orden de parejas. No se infiere un año."
+  },
+  "problems": [
+    {
+      "source_id": "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q01",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 2.º de secundaria",
+      "problem_number": 1,
+      "source_question_label": "1",
+      "source_page": 1,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "En una fiesta cada persona saludó a exactamente otras tres personas. Si hubo en total 123\nsaludos, ¿Cuántas personas asistieron a la fiesta?",
+      "options": [
+        {
+          "label": "a",
+          "text": "54"
+        },
+        {
+          "label": "b",
+          "text": "67"
+        },
+        {
+          "label": "c",
+          "text": "77"
+        },
+        {
+          "label": "d",
+          "text": "82"
+        },
+        {
+          "label": "e",
+          "text": "101"
+        }
+      ],
+      "correct_answer": "82 personas",
+      "correct_option_label": "d",
+      "solution_text": "1. **Contar extremos de saludos.** Un saludo une a dos personas. Los 123 saludos aportan \\(2\\cdot123=246\\) extremos.\n2. **Contar por personas.** Si asistieron n y cada una saludó a tres, hay \\(3n\\) extremos. Así, \\(3n=246\\).\n3. **Respuesta.** \\(n=\\mathbf{82}\\), opción **d**.\n4. **Comprobación de posibilidad.** Podemos colocar a 82 personas en un círculo: cada una saluda a sus dos vecinas y a la opuesta. Son tres saludos por persona y \\(82\\cdot3/2=123\\) saludos distintos.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "54 personas producirían 81 saludos."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "67 daría 201 extremos, un número impar incompatible con saludos de dos personas."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "77 también da un número impar de extremos."
+        },
+        {
+          "label": "d",
+          "is_correct": true,
+          "reason": "82·3/2=123."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "101 da 303 extremos, no 246."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/2 de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_2-de-secundaria_examen-selectivo-2-de-secundaria_original.pdf",
+      "source_pdf_sha256": "908eef75078f45e703b060fcc74b79b3d566297380f8c46641f6e8ffa46d7b2e"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q02",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 2.º de secundaria",
+      "problem_number": 2,
+      "source_question_label": "2",
+      "source_page": 1,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Mi calculadora se descompuso y trabaja de manera muy rara: cuando escribo un número\nla calculadora lo multiplica por 2, después le voltea todos los dígitos y termina sumando 2\nal resultado. ¿Cuál de los siguientes podría ser el número que escribió la calculadora si yo\nescribí un número de dos cifras?",
+      "options": [
+        {
+          "label": "a",
+          "text": "39"
+        },
+        {
+          "label": "b",
+          "text": "41"
+        },
+        {
+          "label": "c",
+          "text": "42"
+        },
+        {
+          "label": "d",
+          "text": "43"
+        },
+        {
+          "label": "e",
+          "text": "No está la respuesta"
+        }
+      ],
+      "correct_answer": "43",
+      "correct_option_label": "d",
+      "solution_text": "1. **Probar una entrada válida.** Escribimos 70, que tiene dos cifras.\n2. **Seguir las operaciones en orden.** La calculadora duplica: \\(70\\cdot2=140\\). Al invertir las cifras aparece 041, cuyo valor numérico es 41. Finalmente suma 2: \\(41+2=\\mathbf{43}\\).\n3. **Respuesta.** La opción **d** sí puede aparecer. El cero inicial de 041 no se conserva como una centena.\n4. **Descartar las otras opciones.** Para producir 39 o 41, antes de sumar 2 habría que obtener 37 o 39; sus inversiones posibles dentro del intervalo 20–198 son impares. Para producir 42 habría que invertir a 40, que exigiría un cero inicial en el número duplicado. Ningún doble de una entrada de dos cifras cumple eso.\n5. **Comprobación independiente.** Al evaluar las 90 entradas de 10 a 99, la única coincidencia con 39, 41, 42 o 43 es la entrada 70 con salida 43.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "39 exigiría invertir a 37; la inversión 73 es impar y 370 está fuera del intervalo."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "41 exigiría invertir a 39; 93 es impar y 390 está fuera del intervalo."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "42 exigiría obtener 40 por inversión; un entero sin cero inicial no se invierte a una cifra final 0."
+        },
+        {
+          "label": "d",
+          "is_correct": true,
+          "reason": "70 → 140 → 041 → 43."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "43 sí es una salida válida."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "La respuesta recuperada Ninguna de las opciones era incorrecta. Se corrigió mediante razonamiento y enumeración de las 90 entradas; 70 produce 43."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/2 de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_2-de-secundaria_examen-selectivo-2-de-secundaria_original.pdf",
+      "source_pdf_sha256": "908eef75078f45e703b060fcc74b79b3d566297380f8c46641f6e8ffa46d7b2e"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q03",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 2.º de secundaria",
+      "problem_number": 3,
+      "source_question_label": "3",
+      "source_page": 1,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "¿Cuáles son los dos últimos dígitos de \\(7^{1998}\\)?",
+      "options": [
+        {
+          "label": "a",
+          "text": "01"
+        },
+        {
+          "label": "b",
+          "text": "07"
+        },
+        {
+          "label": "c",
+          "text": "18"
+        },
+        {
+          "label": "d",
+          "text": "43"
+        },
+        {
+          "label": "e",
+          "text": "49"
+        }
+      ],
+      "correct_answer": "49",
+      "correct_option_label": "e",
+      "solution_text": "1. **Trabajar módulo 100.** \\(7^2=49\\) y \\(7^4=2401\\equiv1\\pmod{100}\\).\n2. **Reducir el exponente.** \\(1998=4\\cdot499+2\\), por lo que \\(7^{1998}\\equiv1^{499}\\cdot49=49\\pmod{100}\\).\n3. **Respuesta.** Los dos últimos dígitos son **49**, opción **e**.\n4. **Comprobación del ciclo.** Las primeras potencias terminan en 07, 49, 43, 01 y se repiten cada cuatro exponentes; 1998 ocupa la segunda posición.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "01 corresponde a exponentes múltiplos de 4."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "07 corresponde a exponentes congruentes con 1 módulo 4."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "18 no pertenece al ciclo."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "43 corresponde a exponentes congruentes con 3 módulo 4."
+        },
+        {
+          "label": "e",
+          "is_correct": true,
+          "reason": "49 corresponde a exponentes congruentes con 2 módulo 4."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/2 de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_2-de-secundaria_examen-selectivo-2-de-secundaria_original.pdf",
+      "source_pdf_sha256": "908eef75078f45e703b060fcc74b79b3d566297380f8c46641f6e8ffa46d7b2e"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q04",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 2.º de secundaria",
+      "problem_number": 4,
+      "source_question_label": "4",
+      "source_page": 1,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Lulú es 7 años más joven que Naye. ¿Cuál es la suma de sus edades en este momento si\ndentro de 4 años la edad de Lulú será la mitad que la de Naye?",
+      "options": [
+        {
+          "label": "a",
+          "text": "13"
+        },
+        {
+          "label": "b",
+          "text": "15"
+        },
+        {
+          "label": "c",
+          "text": "17"
+        },
+        {
+          "label": "d",
+          "text": "19"
+        },
+        {
+          "label": "e",
+          "text": "21"
+        }
+      ],
+      "correct_answer": "13 años",
+      "correct_option_label": "a",
+      "solution_text": "1. **Relacionar edades.** Si Lulú tiene x años, Naye tiene \\(x+7\\).\n2. **Dentro de cuatro años.** \\(x+4=(x+11)/2\\), de donde \\(2x+8=x+11\\) y \\(x=3\\).\n3. **Suma actual.** Naye tiene 10 y la suma es \\(3+10=\\mathbf{13}\\), opción **a**.\n4. **Comprobación.** Dentro de cuatro años tendrán 7 y 14; 7 es la mitad de 14, y siempre mantienen siete años de diferencia.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": true,
+          "reason": "13 corresponde a edades 3 y 10, que cumplen todas las condiciones."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "15 daría edades 4 y 11; después serían 8 y 15, sin razón 1:2."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "17 daría 5 y 12; después serían 9 y 16."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "19 daría 6 y 13; después serían 10 y 17."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "21 daría 7 y 14; después serían 11 y 18."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/2 de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_2-de-secundaria_examen-selectivo-2-de-secundaria_original.pdf",
+      "source_pdf_sha256": "908eef75078f45e703b060fcc74b79b3d566297380f8c46641f6e8ffa46d7b2e"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q05",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 2.º de secundaria",
+      "problem_number": 5,
+      "source_question_label": "5",
+      "source_page": 2,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "En la figura, \\(AB=AD=DC\\). ¿Cuánto mide el ángulo \\(\\alpha\\)?",
+      "options": [
+        {
+          "label": "a",
+          "text": "24"
+        },
+        {
+          "label": "b",
+          "text": "29"
+        },
+        {
+          "label": "c",
+          "text": "33"
+        },
+        {
+          "label": "d",
+          "text": "40"
+        },
+        {
+          "label": "e",
+          "text": "no está la respuesta."
+        }
+      ],
+      "correct_answer": "\\(33^\\circ\\)",
+      "correct_option_label": "c",
+      "solution_text": "1. **Primer isósceles.** Como \\(AB=AD\\) y el ángulo BAD de la figura es 48°, los ángulos ABD y BDA miden \\((180^\\circ-48^\\circ)/2=66^\\circ\\).\n2. **Ángulo adyacente.** B, D y C están alineados, por lo que \\(\\angle ADC=180^\\circ-66^\\circ=114^\\circ\\).\n3. **Segundo isósceles.** Como \\(AD=DC\\), los ángulos DAC y ACD son iguales: \\(\\alpha=(180^\\circ-114^\\circ)/2=\\mathbf{33^\\circ}\\), opción **c**.\n4. **Comprobación.** El triángulo grande tiene ángulos 81°, 66° y 33°, que suman 180°; el de 81° se divide en 48° y 33°.",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Triángulos isósceles ABD y ADC con ángulo de 48 grados",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "893de8a6174a596e66cc78fda2810ef89c09ce9043bbb41cafc69a08e247bf36",
+          "source": "pdf_embedded_image",
+          "original_filename": "fusion2_page2_Image41.png",
+          "width_px": 206,
+          "height_px": 128
+        }
+      ],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "Con α=24°, el triángulo ADC requeriría un ángulo en D de 132°, no 114°."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "Con α=29° requeriría 122°."
+        },
+        {
+          "label": "c",
+          "is_correct": true,
+          "reason": "2·33°+114°=180°."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "Con α=40° requeriría 100°."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "33 sí aparece como opción c."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/2 de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_2-de-secundaria_examen-selectivo-2-de-secundaria_original.pdf",
+      "source_pdf_sha256": "908eef75078f45e703b060fcc74b79b3d566297380f8c46641f6e8ffa46d7b2e"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q06",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 2.º de secundaria",
+      "problem_number": 6,
+      "source_question_label": "6",
+      "source_page": 2,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Si 4 manzanas y 2 naranjas cuestan $15.40 y 2 naranjas y 4 plátanos cuestan $17.00,\n¿Cuánto tengo que pagar en total por una manzana, una naranja y un plátano?",
+      "options": [
+        {
+          "label": "a",
+          "text": "$7.70"
+        },
+        {
+          "label": "b",
+          "text": "$7.80"
+        },
+        {
+          "label": "c",
+          "text": "$7.90"
+        },
+        {
+          "label": "d",
+          "text": "$8.00"
+        },
+        {
+          "label": "e",
+          "text": "$8.10"
+        }
+      ],
+      "correct_answer": "$8.10",
+      "correct_option_label": "e",
+      "solution_text": "1. **Representar precios.** Si m, n y p son los precios de una manzana, una naranja y un plátano, se tiene \\(4m+2n=15.40\\) y \\(2n+4p=17.00\\).\n2. **Sumar compras.** \\(4m+4n+4p=32.40\\).\n3. **Una de cada fruta.** Dividir entre 4 da \\(m+n+p=\\mathbf{8.10}\\), opción **e**.\n4. **Comprobación.** Cuatro compras de una de cada fruta cuestan \\(4\\cdot8.10=32.40=15.40+17.00\\). No necesitamos conocer los tres precios por separado.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "Cuatro veces 7.70 es 30.80, no 32.40."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "Cuatro veces 7.80 es 31.20."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "Cuatro veces 7.90 es 31.60."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "Cuatro veces 8.00 es 32.00."
+        },
+        {
+          "label": "e",
+          "is_correct": true,
+          "reason": "Cuatro veces 8.10 es 32.40."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/2 de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_2-de-secundaria_examen-selectivo-2-de-secundaria_original.pdf",
+      "source_pdf_sha256": "908eef75078f45e703b060fcc74b79b3d566297380f8c46641f6e8ffa46d7b2e"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q07",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 2.º de secundaria",
+      "problem_number": 7,
+      "source_question_label": "7",
+      "source_page": 2,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Si llamamos H al área de un hexágono regular de lado 1 y T al área de un triángulo equilátero de lado 3, entonces \\(\\frac HT\\) es igual a:",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(2/3\\)"
+        },
+        {
+          "label": "b",
+          "text": "2"
+        },
+        {
+          "label": "c",
+          "text": "\\(5/6\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(3/4\\)"
+        },
+        {
+          "label": "e",
+          "text": "no está la respuesta."
+        }
+      ],
+      "correct_answer": "\\(2/3\\)",
+      "correct_option_label": "a",
+      "solution_text": "1. **Dividir el hexágono.** Un hexágono regular de lado 1 contiene seis triángulos equiláteros de lado 1.\n2. **Comparar con el triángulo grande.** Al triplicar el lado, el área se multiplica por \\(3^2=9\\). Si u es el área de un equilátero de lado 1, entonces \\(H=6u\\) y \\(T=9u\\).\n3. **Razón.** \\(H/T=6/9=\\mathbf{2/3}\\), opción **a**.\n4. **Comprobación independiente.** Las fórmulas dan \\(H=3\\sqrt3/2\\) y \\(T=9\\sqrt3/4\\), cuya razón vuelve a ser 2/3.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": true,
+          "reason": "6/9 se reduce a 2/3."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "2 confunde la escala de longitudes con la de áreas."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "5/6 no coincide con seis triángulos unitarios frente a nueve."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "3/4 tampoco es 6/9."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "La razón 2/3 sí aparece."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/2 de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_2-de-secundaria_examen-selectivo-2-de-secundaria_original.pdf",
+      "source_pdf_sha256": "908eef75078f45e703b060fcc74b79b3d566297380f8c46641f6e8ffa46d7b2e"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q08",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 2.º de secundaria",
+      "problem_number": 8,
+      "source_question_label": "8",
+      "source_page": 2,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Entre seis niños se comieron 20 galletas. Tere se comió una, Edgar se comió dos, Liz se\ncomió tres y Raúl comió más que ningún otro niño. ¿Cuál es la mínima cantidad de galletas\nque pudo haberse comido Raúl?",
+      "options": [
+        {
+          "label": "a",
+          "text": "3"
+        },
+        {
+          "label": "b",
+          "text": "4"
+        },
+        {
+          "label": "c",
+          "text": "5"
+        },
+        {
+          "label": "d",
+          "text": "6"
+        },
+        {
+          "label": "e",
+          "text": "no está la respuesta."
+        }
+      ],
+      "correct_answer": "6 galletas",
+      "correct_option_label": "d",
+      "solution_text": "1. **Galletas restantes.** Tere, Edgar y Liz comieron \\(1+2+3=6\\); Raúl y los otros dos comieron 14.\n2. **Una cota.** Si Raúl comió r, cada uno de los otros dos comió a lo sumo \\(r-1\\), porque Raúl comió estrictamente más. Así, \\(14\\le r+(r-1)+(r-1)=3r-2\\).\n3. **Mínimo posible.** \\(r\\ge16/3\\), de modo que el entero mínimo es 6.\n4. **Construcción.** El reparto \\(1,2,3,6,4,4\\) suma 20 y Raúl supera a todos. Por tanto son **6 galletas**, opción **d**.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "3 no supera a Liz y es insuficiente para completar 20."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "Con r=4 los tres niños restantes suman a lo sumo 10, no 14."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "Con r=5 suman a lo sumo 13."
+        },
+        {
+          "label": "d",
+          "is_correct": true,
+          "reason": "6 es posible con los otros dos comiendo 4 cada uno."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "El mínimo 6 sí aparece."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/2 de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_2-de-secundaria_examen-selectivo-2-de-secundaria_original.pdf",
+      "source_pdf_sha256": "908eef75078f45e703b060fcc74b79b3d566297380f8c46641f6e8ffa46d7b2e"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q09",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 2.º de secundaria",
+      "problem_number": 9,
+      "source_question_label": "9",
+      "source_page": 3,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Si la figura representa un cuadrado con vértices A, B, C y D, y el ángulo OND mide 60° ,\n¿Cuánto mide el ángulo COM?",
+      "options": [
+        {
+          "label": "a",
+          "text": "10°"
+        },
+        {
+          "label": "b",
+          "text": "15°"
+        },
+        {
+          "label": "c",
+          "text": "20°"
+        },
+        {
+          "label": "d",
+          "text": "30°"
+        },
+        {
+          "label": "e",
+          "text": "35°"
+        }
+      ],
+      "correct_answer": "\\(15^\\circ\\)",
+      "correct_option_label": "b",
+      "solution_text": "1. **Dirección de la recta.** ND es vertical. Como \\(\\angle OND=60^\\circ\\), la recta NM forma \\(90^\\circ-60^\\circ=30^\\circ\\) con un lado horizontal.\n2. **Diagonal del cuadrado.** AC forma \\(45^\\circ\\) con AB, porque divide un ángulo recto en dos iguales.\n3. **Ángulo pedido.** Los rayos OC y OM apuntan hacia la derecha y forman \\(45^\\circ-30^\\circ=\\mathbf{15^\\circ}\\), opción **b**.\n4. **Comprobación.** En el triángulo AON, los ángulos en A y N son 45° y 120°, así que el de O es 15°. Es opuesto por el vértice a COM.",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Cuadrado ABCD, diagonal AC y recta NOM",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "1620dca0a1ad6c0a9b84676c1d77737d808eb7f26ed28f8977f3bc7addaaddd5",
+          "source": "pdf_embedded_image",
+          "original_filename": "fusion2_page3_Image50.png",
+          "width_px": 116,
+          "height_px": 110
+        }
+      ],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "10° no es la diferencia entre 45° y 30°."
+        },
+        {
+          "label": "b",
+          "is_correct": true,
+          "reason": "15° es 45°−30°."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "20° no corresponde a las direcciones dadas."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "30° es la inclinación de NM respecto de AB, no COM."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "35° no completa el triángulo AON."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/2 de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_2-de-secundaria_examen-selectivo-2-de-secundaria_original.pdf",
+      "source_pdf_sha256": "908eef75078f45e703b060fcc74b79b3d566297380f8c46641f6e8ffa46d7b2e"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q10",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 2.º de secundaria",
+      "problem_number": 10,
+      "source_question_label": "10",
+      "source_page": 3,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Gabo puede correr 3 veces más rápido que su hermana Adry. Si ellos empiezan al\nmismo tiempo desde el punto P de la pista que se muestra en la figura, pero en\ndirecciones opuestas, ¿En qué punto se encontrarán por primera vez?",
+      "options": [
+        {
+          "label": "a",
+          "text": "A"
+        },
+        {
+          "label": "b",
+          "text": "B"
+        },
+        {
+          "label": "c",
+          "text": "C"
+        },
+        {
+          "label": "d",
+          "text": "D"
+        },
+        {
+          "label": "e",
+          "text": "E"
+        }
+      ],
+      "correct_answer": "Condicional: E si Gabo sigue la flecha de Miguel y la razón de velocidades es 3:1; A si sigue la otra flecha",
+      "correct_option_label": null,
+      "solution_text": "1. **Problema de la fuente.** El enunciado nombra a Gabo y Adry, pero las flechas de la figura dicen Miguel y Alicia. No se indica qué flecha corresponde a cada corredor.\n2. **Cálculo bajo una interpretación explícita.** Si la rapidez de Gabo es tres veces la de Adry y la circunferencia mide L, al primer encuentro la suma de recorridos es L. Entonces Gabo recorre \\(3L/4\\) y Adry \\(L/4\\).\n3. **Asignación de flechas.** Si Gabo sigue la flecha de Miguel hacia la izquierda desde P, el encuentro es en **E**. Si sigue la otra flecha, es en **A**.\n4. **Conclusión.** Las dos asignaciones conservan la razón y producen respuestas distintas. La figura original se conserva con su aviso; no se certifica una opción única.",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Pista circular con rótulos originales Miguel y Alicia",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "b28dceaa7bb8b02f47f5593076fd862f297f4471aa5c850707beb9775c5921fd",
+          "source": "pdf_embedded_image",
+          "original_filename": "fusion2_page3_Image51.png",
+          "width_px": 148,
+          "height_px": 137
+        }
+      ],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": null,
+          "reason": "A corresponde a asignar al corredor rápido la flecha hacia la derecha."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "B no está a un cuarto de vuelta de P en el modelo 3:1."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "C está a media vuelta; ese encuentro correspondería a velocidades iguales."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "D no está a un cuarto de vuelta de P en el modelo 3:1."
+        },
+        {
+          "label": "e",
+          "is_correct": null,
+          "reason": "E corresponde a asignar al corredor rápido la flecha de Miguel."
+        }
+      ],
+      "verification": {
+        "status": "ambiguous_source_direction_labels",
+        "answer_checked": false,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "El enunciado usa Gabo/Adry y la figura Miguel/Alicia; la correspondencia de sentidos no está indicada. Bajo rapidez 3:1, E y A son resultados posibles. La expresión tres veces más rápido también se interpreta aquí explícitamente como razón 3:1."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/2 de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_2-de-secundaria_examen-selectivo-2-de-secundaria_original.pdf",
+      "source_pdf_sha256": "908eef75078f45e703b060fcc74b79b3d566297380f8c46641f6e8ffa46d7b2e"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q11",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 2.º de secundaria",
+      "problem_number": 11,
+      "source_question_label": "11",
+      "source_page": 3,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Adonay y Charlitos suben caminando por una escalera mecánica en movimiento.\nCuando Adonay llega Arriba ha subido 21 escalones, mientras que Charlitos, quien\ncamina con una velocidad que es el doble de la de Adonay, Ha subido 18. ¿Cuántos\nescalones tiene la escalera en reposo?",
+      "options": [],
+      "correct_answer": "Los datos impresos no admiten un número entero de escalones",
+      "correct_option_label": null,
+      "solution_text": "1. **Conservar los datos.** La fuente dice 21 escalones para Adonay y 18 para Charlitos, aunque Charlitos camina el doble de rápido.\n2. **Modelar tiempos.** Sea v la rapidez de Adonay en escalones por unidad de tiempo y u la rapidez firmada de la escalera. Sus tiempos son \\(21/v\\) y \\(18/(2v)=9/v\\).\n3. **Misma longitud.** El número N de escalones en reposo debería satisfacer \\(N=21+21u/v=18+9u/v\\). Entonces \\(u/v=-1/4\\) y \\(N=63/4=15.75\\).\n4. **Incompatibilidad.** Una escalera que avanza hacia arriba tendría \\(u\\ge0\\), pero el cálculo exige movimiento hacia abajo. Incluso permitiéndolo, N no es entero.\n5. **Conclusión.** No se certifica una respuesta numérica. Hace falta corregir o aclarar un dato de la fuente; se muestran 21 y 18 tal como están, sin sustituirlos por cifras supuestas.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "invalid_source_inconsistent_step_counts",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Los dos PDF imprimen 21 y 18. El modelo de rapidez constante exige u/v=−1/4 y N=63/4; no hay número entero de escalones. No se inventa una corrección."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/2 de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_2-de-secundaria_examen-selectivo-2-de-secundaria_original.pdf",
+      "source_pdf_sha256": "908eef75078f45e703b060fcc74b79b3d566297380f8c46641f6e8ffa46d7b2e"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q12",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 2.º de secundaria",
+      "problem_number": 12,
+      "source_question_label": "12",
+      "source_page": 3,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "¿Cuál es el múltiplo positivo de 1988 que solo tiene a los dígitos 0 y 3?",
+      "options": [],
+      "correct_answer": "Un ejemplo es 3300030300; el enunciado no determina uno único",
+      "correct_option_label": null,
+      "solution_text": "1. **Verificar un candidato.** El número 3300030300 contiene únicamente 3 y 0.\n2. **Comprobar divisibilidad.** \\(3300030300=1988\\cdot1659975\\), así que sí es un múltiplo positivo de 1988.\n3. **Falta de unicidad.** El enunciado no pide el menor. Agregar ceros a ese número conserva tanto la divisibilidad como los dígitos permitidos; por ejemplo 33000303000 también funciona.\n4. **Cómo se puede buscar.** Se forman números que empiezan en 3 y se añade 0 o 3, guardando sus residuos módulo 1988. Hay solo 1988 residuos, así que basta conservar el primer número que alcanza cada uno y buscar el residuo 0.\n5. **Conclusión.** **3300030300 es una respuesta válida**, pero no la única. La práctica conserva ese aviso y no trata otros múltiplos correctos como errores.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "source_non_unique_multiple",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "La fuente no imprime menor. Se da y comprueba un ejemplo; al añadir ceros se obtienen infinitas respuestas. No se atribuye unicidad ni se reescribe el enunciado."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/2 de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_2-de-secundaria_examen-selectivo-2-de-secundaria_original.pdf",
+      "source_pdf_sha256": "908eef75078f45e703b060fcc74b79b3d566297380f8c46641f6e8ffa46d7b2e"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q13",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 2.º de secundaria",
+      "problem_number": 13,
+      "source_question_label": "13",
+      "source_page": 4,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "¿A cuánto equivale \\((0.125)^{-\\frac23}\\)? La solución es entera.",
+      "options": [],
+      "correct_answer": "4",
+      "correct_option_label": null,
+      "solution_text": "1. **Convertir el decimal.** \\(0.125=1/8=2^{-3}\\).\n2. **Multiplicar exponentes.** \\((2^{-3})^{-2/3}=2^{(-3)(-2/3)}=2^2\\).\n3. **Respuesta.** El valor es **4**.\n4. **Comprobación independiente.** La raíz cúbica de 1/8 es 1/2; elevarla a −2 da \\((1/2)^{-2}=4\\). La base positiva permite ambas operaciones.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/2 de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_2-de-secundaria_examen-selectivo-2-de-secundaria_original.pdf",
+      "source_pdf_sha256": "908eef75078f45e703b060fcc74b79b3d566297380f8c46641f6e8ffa46d7b2e"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q14",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 2.º de secundaria",
+      "problem_number": 14,
+      "source_question_label": "14",
+      "source_page": 4,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "En el trapecio ABCD el ángulo ADC es el doble del ángulo ABC. Los lados AB, CD y DA miden a, c y d respectivamente ¿Cuánto mide el lado BC?",
+      "options": [],
+      "correct_answer": "\\(c+d\\)",
+      "correct_option_label": null,
+      "solution_text": "1. **Usar las bases paralelas.** La figura da \\(AD\\parallel BC\\), \\(AD=d\\), \\(DC=c\\), \\(AB=a\\). Sea \\(\\angle ABC=\\theta\\); entonces \\(\\angle ADC=2\\theta\\) y \\(\\angle DCB=180^\\circ-2\\theta\\).\n2. **Trazar una paralela.** Por A trazamos una recta paralela a DC que corta la prolongación de BC en E. AECD es un paralelogramo, por lo que \\(AE=DC=c\\) y \\(EC=AD=d\\).\n3. **Triángulo isósceles.** El ángulo BAE es \\(180^\\circ-\\theta-(180^\\circ-2\\theta)=\\theta\\), igual a ABE. Por ello \\(BE=AE=c\\). Además E está entre B y C, como también muestra la comprobación por proyecciones.\n4. **Respuesta.** \\(BC=BE+EC=\\mathbf{c+d}\\).\n5. **Comprobación independiente.** Las alturas dan \\(a\\sin\\theta=c\\sin2\\theta\\), es decir \\(a=2c\\cos\\theta\\). Proyectar sobre BC da \\(BC=a\\cos\\theta+d-c\\cos2\\theta=c+d\\). La longitud a se cancela.",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Trapecio ABCD con lados a, c y d",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "eb434791b960a1d6c5fb924b702b8a12a6bda4a44920c64d7f38cabde1bb1151",
+          "source": "pdf_embedded_image",
+          "original_filename": "fusion2_page4_Image57.png",
+          "width_px": 335,
+          "height_px": 178
+        }
+      ],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Se recuperó la figura original situada en la página siguiente; AB se normaliza desde Ab. La relación AD paralela a BC y la orientación usadas son las de la figura."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/2 de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_2-de-secundaria_examen-selectivo-2-de-secundaria_original.pdf",
+      "source_pdf_sha256": "908eef75078f45e703b060fcc74b79b3d566297380f8c46641f6e8ffa46d7b2e"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q15",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 2.º de secundaria",
+      "problem_number": 15,
+      "source_question_label": "15",
+      "source_page": 4,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "¿Cuál es el dígito de las unidades de \\(S=1!+2!+3!+\\cdots+99!\\)? \\((n!=1\\times2\\times\\cdots\\times n.)\\)",
+      "options": [],
+      "correct_answer": "3",
+      "correct_option_label": null,
+      "solution_text": "1. **Factoriales grandes.** Desde \\(5!\\), cada factorial contiene los factores 2 y 5, y por tanto termina en 0.\n2. **Sumandos que importan.** \\(1!+2!+3!+4!=1+2+6+24=33\\).\n3. **Última cifra.** Agregar los factoriales de 5! a 99! no altera las unidades, que son **3**.\n4. **Comprobación modular.** Los primeros cuatro residuos módulo 10 son 1, 2, 6 y 4; suman 13, cuyo residuo es 3.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/2 de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_2-de-secundaria_examen-selectivo-2-de-secundaria_original.pdf",
+      "source_pdf_sha256": "908eef75078f45e703b060fcc74b79b3d566297380f8c46641f6e8ffa46d7b2e"
+    }
+  ]
+}

@@ -1,0 +1,272 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3 de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-de-secundaria_examen-selectivo-3-de-secundaria_original.pdf",
+  "source_sha256": "65ac2467de5d1c2bdab47b85a29cddcafadb673da9a606a18a9b332b2856fdd6",
+  "school_level": "Tercer año de secundaria",
+  "rubric": "Primary solving idea; L1 familiar direct steps, L2 combines ideas, L3 non-routine argument, relative to the printed school grade. Source defects do not become automatic answers.",
+  "problems": [
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q01",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "double_counting",
+        "graphs"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Contar extremos de saludos. Un saludo une a dos personas. Los 123 saludos aportan \\(2\\cdot123=246\\) extremos.",
+        "Dificultad relativa a Tercer año de secundaria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q02",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "digits",
+        "reverse_digits",
+        "casework"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Probar una entrada válida. Escribimos 70, que tiene dos cifras.",
+        "Dificultad relativa a Tercer año de secundaria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q03",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "last_digits",
+        "modular_arithmetic",
+        "exponents"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Trabajar módulo 100. \\(7^2=49\\) y \\(7^4=2401\\equiv1\\pmod{100}\\).",
+        "Dificultad relativa a Tercer año de secundaria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q04",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "ages",
+        "linear_equations"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Relacionar edades. Si Lulú tiene x años, Naye tiene \\(x+7\\).",
+        "Dificultad relativa a Tercer año de secundaria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q05",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "isosceles_triangles",
+        "angles",
+        "straight_angle"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Primer isósceles. Como \\(AB=AD\\) y el ángulo BAD de la figura es 48°, los ángulos ABD y BDA miden \\((180^\\circ-48^\\circ)/2=66^\\circ\\).",
+        "Dificultad relativa a Tercer año de secundaria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q06",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "digits",
+        "successor",
+        "place_value"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Buscar el siguiente número sin repeticiones. De 187570 a 187579 se repite el 7. De 187580 a 187589 se repite el 8. El número 187590 tiene las seis cifras diferentes.",
+        "Dificultad relativa a Tercer año de secundaria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q07",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "modular_arithmetic",
+        "exponents"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Primeras potencias. \\(10\\equiv10\\pmod{15}\\) y \\(10^2=100\\equiv10\\pmod{15}\\).",
+        "Dificultad relativa a Tercer año de secundaria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q08",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "linear_diophantine_equations",
+        "maximization"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Costo básico. Ocho cajas de manzanas costarían \\(8\\cdot20=160\\). Hay 70 pesos adicionales para sustituirlas por peras o duraznos.",
+        "Dificultad relativa a Tercer año de secundaria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q09",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "divisibility",
+        "modular_arithmetic",
+        "linear_equations"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Condición necesaria. De \\(a+3b=2001\\) se obtiene \\(a=2001-3b\\). Como 2001 es divisible entre 3, a también debe serlo.",
+        "Dificultad relativa a Tercer año de secundaria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q10",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "rates",
+        "proportionality"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Ritmo por gato y hora. \\(\\frac{1.5}{1.5\\cdot1.5}=\\frac23\\) ratón por gato y hora.",
+        "Dificultad relativa a Tercer año de secundaria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q11",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L3",
+      "tags": [
+        "rates",
+        "linear_equations",
+        "consistency"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Conservar los datos. La fuente dice 21 escalones para Adonay y 18 para Charlitos, aunque Charlitos camina el doble de rápido.",
+        "Dificultad relativa a Tercer año de secundaria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q12",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L3",
+      "tags": [
+        "divisibility",
+        "digits",
+        "remainders"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Verificar un candidato. El número 3300030300 contiene únicamente 3 y 0.",
+        "Dificultad relativa a Tercer año de secundaria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q13",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "multiplication_principle",
+        "digits"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Cifras permitidas. Al quitar 2, 5, 7 y 8 quedan \\(0,1,3,4,6,9\\): seis posibilidades.",
+        "Dificultad relativa a Tercer año de secundaria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q14",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "digits",
+        "factorization",
+        "linear_equations"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Nombrar las cifras. Si n tiene decenas a y unidades b, entonces \\(n=10a+b\\), \\(P(n)=ab\\) y \\(S(n)=a+b\\).",
+        "Dificultad relativa a Tercer año de secundaria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q15",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "counting",
+        "linear_equations",
+        "sets"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Contar medios días. Cada día contiene una mañana y una tarde. Las partes claras suman \\(6+5=11\\) y las lluviosas son 7.",
+        "Dificultad relativa a Tercer año de secundaria."
+      ]
+    }
+  ]
+}

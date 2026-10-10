@@ -1,0 +1,918 @@
+{
+  "schema_version": "1.0",
+  "source_format_reference": "Cuantly public practice; original multiple_choice and open_answer preserved",
+  "exam": {
+    "competition": "FUSION",
+    "source_competition": "I Campeonato Nacional de Matemáticas",
+    "edition": 1,
+    "year": null,
+    "year_status": "not_confirmed",
+    "year_evidence": "Los ocho encabezados dicen I Campeonato Nacional de Matemáticas, Selectivo Estatal y el grado, sin año calendario. Los números 1998, 2001, 2002 y 2003 son datos de problemas y no fechan el examen. Serie 2 identifica la carpeta recuperada FUSION2, no un año inferido.",
+    "phase": "Selectivo Estatal - Serie 2",
+    "level": "1.º de preparatoria",
+    "school_level": "Primer año de preparatoria",
+    "problem_count": 15,
+    "source_file": "FUSION_sin-fecha_selectivo-estatal-serie-2_1-de-preparatoria_examen-selectivo-1-preparatoria_original.pdf",
+    "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/1 de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_1-de-preparatoria_examen-selectivo-1-preparatoria_original.pdf",
+    "source_sha256": "b3a4b3c7dbbf643820054e81749e01878d1a740cae3f832d5727924e2537ec13",
+    "image_policy": "Exact embedded mathematical figures from each original PDF; formulas and arithmetic layouts transcribed as LaTeX. No logos, page screenshots or full-question crops.",
+    "classification_phase": "not_started",
+    "difficulty_phase": "not_started",
+    "source_archive_family": "FUSION2"
+  },
+  "validation_summary": {
+    "verified_problems": 15,
+    "needs_review_or_invalid": 0,
+    "needs_review_problem_numbers": [],
+    "notes": "Opciones originales y fórmulas cotejadas en todos los PDF; respuestas abiertas conservadas. Avisos de fuente para nombres de corredores, escalera inconsistente, múltiplo no único, unidad impresa incorrecta, base de ganancia y orden de parejas. No se infiere un año."
+  },
+  "problems": [
+    {
+      "source_id": "fusion2_examen-selectivo-1-preparatoria_1-preparatoria_q01",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 1.º de preparatoria",
+      "problem_number": 1,
+      "source_question_label": "1",
+      "source_page": 1,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "En la figura K, L, M y N son los puntos medios de los lados del rectángulo ABCD, y O, P, R y S son los puntos medios de los lados del cuadrilátero KLMN. Si el área del rectángulo ABCD es 1, ¿cuánto mide el área sombreada?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(3/5\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(2/3\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(5/6\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(3/4\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(5/7\\)"
+        }
+      ],
+      "correct_answer": "\\(3/4\\)",
+      "correct_option_label": "d",
+      "solution_text": "1. **Primer cuadrilátero de puntos medios.** KLMN ocupa la mitad del rectángulo: las cuatro esquinas recortadas suman la otra mitad.\n2. **Segundo cuadrilátero.** OPRS ocupa la mitad de KLMN, es decir \\(\\frac12\\cdot\\frac12=\\frac14\\) del rectángulo original.\n3. **Regiones sombreadas.** En la figura se sombrea lo exterior a KLMN y también el rectángulo central OPRS. Su área es \\(\\frac12+\\frac14=\\mathbf{\\frac34}\\), opción **d**.\n4. **Comprobación por complemento.** Las cuatro regiones blancas suman \\(1/2-1/4=1/4\\); el resto es 3/4.",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Rectángulo con dos cuadriláteros sucesivos de puntos medios y región sombreada",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "a8498515ddf617b73df59336fc5e08cd794b187cb4d2a6e19c4451c67750fd8e",
+          "source": "pdf_embedded_image",
+          "original_filename": "fusion2_page1_Image37.png",
+          "width_px": 171,
+          "height_px": 125
+        }
+      ],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "3/5 no coincide con 1/2+1/4."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "2/3 no coincide con 1/2+1/4."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "5/6 no coincide con 1/2+1/4."
+        },
+        {
+          "label": "d",
+          "is_correct": true,
+          "reason": "3/4 suma las cuatro esquinas exteriores y la región central."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "5/7 no coincide con 1/2+1/4."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/1 de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_1-de-preparatoria_examen-selectivo-1-preparatoria_original.pdf",
+      "source_pdf_sha256": "b3a4b3c7dbbf643820054e81749e01878d1a740cae3f832d5727924e2537ec13"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-preparatoria_1-preparatoria_q02",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 1.º de preparatoria",
+      "problem_number": 2,
+      "source_question_label": "2",
+      "source_page": 1,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Cuando el camello Chip tiene sed, el 84% de su peso es agua. Después de que toma agua,\nsu peso aumenta a 800 Kg y el agua en ese momento constituye el 85% de su peso. ¿Cuál\nes el peso de Chip cuando tiene sed?",
+      "options": [
+        {
+          "label": "a",
+          "text": "672kg"
+        },
+        {
+          "label": "b",
+          "text": "680kg"
+        },
+        {
+          "label": "c",
+          "text": "715 kg"
+        },
+        {
+          "label": "d",
+          "text": "720kg"
+        },
+        {
+          "label": "e",
+          "text": "750kg"
+        }
+      ],
+      "correct_answer": "750 kg",
+      "correct_option_label": "e",
+      "solution_text": "1. **Masa que no es agua.** Después de beber, representa \\(100\\%-85\\%=15\\%\\) de 800 kg: \\(0.15\\cdot800=120\\) kg.\n2. **Antes de beber.** Esa misma masa de 120 kg era el \\(100\\%-84\\%=16\\%\\) de su peso x. Por tanto \\(0.16x=120\\).\n3. **Resolver.** \\(x=120/0.16=\\mathbf{750}\\) kg, opción **e**.\n4. **Comprobación.** Antes había 630 kg de agua; beber 50 kg deja 680 kg de agua en 800 kg totales, justo el 85%.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "El 16% de 672 es 107.52 kg, no 120."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "El 16% de 680 es 108.8 kg."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "El 16% de 715 es 114.4 kg."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "El 16% de 720 es 115.2 kg."
+        },
+        {
+          "label": "e",
+          "is_correct": true,
+          "reason": "El 16% de 750 es 120 kg y la masa no acuosa se conserva."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/1 de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_1-de-preparatoria_examen-selectivo-1-preparatoria_original.pdf",
+      "source_pdf_sha256": "b3a4b3c7dbbf643820054e81749e01878d1a740cae3f832d5727924e2537ec13"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-preparatoria_1-preparatoria_q03",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 1.º de preparatoria",
+      "problem_number": 3,
+      "source_question_label": "3",
+      "source_page": 1,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "¿Cuál es el doble del cuadrado de la mitad de la diagonal de un cuadrado de lado 1?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(1/2\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(3/4\\)"
+        },
+        {
+          "label": "c",
+          "text": "1"
+        },
+        {
+          "label": "d",
+          "text": "2"
+        },
+        {
+          "label": "e",
+          "text": "no está la respuesta"
+        }
+      ],
+      "correct_answer": "1",
+      "correct_option_label": "c",
+      "solution_text": "1. **Diagonal.** Por Pitágoras, \\(d^2=1^2+1^2=2\\).\n2. **Interpretar las operaciones.** Se pide \\(2(d/2)^2\\), que es \\(d^2/2\\), no \\((2d/2)^2\\).\n3. **Resultado.** \\(d^2/2=2/2=\\mathbf1\\), opción **c**.\n4. **Comprobación.** La mitad de la diagonal es \\(\\sqrt2/2\\); su cuadrado es 1/2 y el doble es 1.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "1/2 es el cuadrado de la mitad de la diagonal; falta duplicarlo."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "3/4 no resulta de las operaciones indicadas."
+        },
+        {
+          "label": "c",
+          "is_correct": true,
+          "reason": "2(√2/2)²=1."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "2 es el cuadrado de la diagonal completa."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "El resultado 1 sí aparece."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/1 de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_1-de-preparatoria_examen-selectivo-1-preparatoria_original.pdf",
+      "source_pdf_sha256": "b3a4b3c7dbbf643820054e81749e01878d1a740cae3f832d5727924e2537ec13"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-preparatoria_1-preparatoria_q04",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 1.º de preparatoria",
+      "problem_number": 4,
+      "source_question_label": "4",
+      "source_page": 1,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Se le asigna a cada una de las letras A, B, C, D, E y F el valor 1 o −1. ¿Cuántos valores\ndistintos puede tomar la suma A + B + C + D + E + F + ABCDEF?",
+      "options": [
+        {
+          "label": "a",
+          "text": "4"
+        },
+        {
+          "label": "b",
+          "text": "7"
+        },
+        {
+          "label": "c",
+          "text": "8"
+        },
+        {
+          "label": "d",
+          "text": "10"
+        },
+        {
+          "label": "e",
+          "text": "14"
+        }
+      ],
+      "correct_answer": "4 valores distintos",
+      "correct_option_label": "a",
+      "solution_text": "1. **Agrupar por signos negativos.** Si k de las seis letras valen −1, su suma es \\(6-2k\\) y su producto es \\((-1)^k\\).\n2. **Revisar los siete casos.** Para \\(k=0,1,2,3,4,5,6\\), la expresión vale, respectivamente, \\(7,3,3,-1,-1,-5,-5\\).\n3. **Contar valores, no asignaciones.** Los resultados diferentes son \\(\\{7,3,-1,-5\\}\\): **4**, opción **a**.\n4. **Comprobación.** Cada k entre 0 y 6 se obtiene asignando exactamente k signos negativos; no queda ninguna asignación fuera de esos casos.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": true,
+          "reason": "Los únicos valores son 7, 3, −1 y −5."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "7 cuenta casos de k, pero algunos repiten resultado."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "8 supera incluso los siete casos posibles de k."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "10 no coincide con el conjunto de resultados."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "14 tampoco coincide con el conjunto de resultados."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/1 de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_1-de-preparatoria_examen-selectivo-1-preparatoria_original.pdf",
+      "source_pdf_sha256": "b3a4b3c7dbbf643820054e81749e01878d1a740cae3f832d5727924e2537ec13"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-preparatoria_1-preparatoria_q05",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 1.º de preparatoria",
+      "problem_number": 5,
+      "source_question_label": "5",
+      "source_page": 2,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "gSi se escriben todos los múltiplos de 5 menores que 2002, ¿cuántos 1’s se usan?",
+      "options": [
+        {
+          "label": "a",
+          "text": "140"
+        },
+        {
+          "label": "b",
+          "text": "200"
+        },
+        {
+          "label": "c",
+          "text": "280"
+        },
+        {
+          "label": "d",
+          "text": "360"
+        },
+        {
+          "label": "e",
+          "text": "400"
+        }
+      ],
+      "correct_answer": "280",
+      "correct_option_label": "c",
+      "solution_text": "1. **Última cifra.** Los múltiplos de 5 desde 5 hasta 2000 terminan en 0 o 5, así que no aportan unos en las unidades.\n2. **Decenas.** Por cada centena de 0 a 19 aparecen los finales 10 y 15: \\(20\\cdot2=40\\) unos.\n3. **Centenas.** Los intervalos 100–199 y 1100–1199 contienen 20 múltiplos de 5 cada uno: otros 40 unos.\n4. **Millares.** De 1000 a 1995 hay 200 múltiplos de 5 y todos empiezan por 1.\n5. **Total.** \\(40+40+200=\\mathbf{280}\\), opción **c**. El 2000 y el posible 0 no aportan unos; los números con varios unos se cuentan una vez por cada posición.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "140 es la mitad del conteo de cifras correcto."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "200 cuenta solo los unos de los millares."
+        },
+        {
+          "label": "c",
+          "is_correct": true,
+          "reason": "280=40+40+200."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "360 excede en 80 el conteo por posiciones."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "400 es el número de múltiplos positivos, no de cifras 1."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "La g aislada antes de Si está impresa en este PDF y se conserva en el enunciado; no forma parte de una variable matemática."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/1 de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_1-de-preparatoria_examen-selectivo-1-preparatoria_original.pdf",
+      "source_pdf_sha256": "b3a4b3c7dbbf643820054e81749e01878d1a740cae3f832d5727924e2537ec13"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-preparatoria_1-preparatoria_q06",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 1.º de preparatoria",
+      "problem_number": 6,
+      "source_question_label": "6",
+      "source_page": 2,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "El contador de kilómetros de mi carro indica el número 187569. Dentro de m kilómetros\nserá la próxima vez que el contador de mi carro indique un número con todas sus cifras\ndistintas. ¿Cuánto vale la suma de los dígitos de m?",
+      "options": [
+        {
+          "label": "a",
+          "text": "1"
+        },
+        {
+          "label": "b",
+          "text": "3"
+        },
+        {
+          "label": "c",
+          "text": "8"
+        },
+        {
+          "label": "d",
+          "text": "11"
+        },
+        {
+          "label": "e",
+          "text": "24"
+        }
+      ],
+      "correct_answer": "3",
+      "correct_option_label": "b",
+      "solution_text": "1. **Buscar el siguiente número sin repeticiones.** De 187570 a 187579 se repite el 7. De 187580 a 187589 se repite el 8. El número 187590 tiene las seis cifras diferentes.\n2. **Distancia.** \\(m=187590-187569=21\\).\n3. **Lo que se pide.** La suma de las cifras de m es \\(2+1=\\mathbf3\\), opción **b**.\n4. **Comprobación de mínimo.** Los dos intervalos anteriores cubren todos los enteros intermedios, así que 187590 es efectivamente la próxima lectura válida.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "1 no es la suma de las cifras de 21."
+        },
+        {
+          "label": "b",
+          "is_correct": true,
+          "reason": "3=2+1."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "8 no es la suma pedida."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "11 no es la suma pedida."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "24 no es la suma pedida."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/1 de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_1-de-preparatoria_examen-selectivo-1-preparatoria_original.pdf",
+      "source_pdf_sha256": "b3a4b3c7dbbf643820054e81749e01878d1a740cae3f832d5727924e2537ec13"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-preparatoria_1-preparatoria_q07",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 1.º de preparatoria",
+      "problem_number": 7,
+      "source_question_label": "7",
+      "source_page": 2,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Si se hace la división de \\(10^{2001}\\) entre 15, ¿cuál es el residuo?",
+      "options": [
+        {
+          "label": "a",
+          "text": "0"
+        },
+        {
+          "label": "b",
+          "text": "1"
+        },
+        {
+          "label": "c",
+          "text": "6"
+        },
+        {
+          "label": "d",
+          "text": "9"
+        },
+        {
+          "label": "e",
+          "text": "no está la respuesta."
+        }
+      ],
+      "correct_answer": "Residuo 10; opción e",
+      "correct_option_label": "e",
+      "solution_text": "1. **Primeras potencias.** \\(10\\equiv10\\pmod{15}\\) y \\(10^2=100\\equiv10\\pmod{15}\\).\n2. **La misma regla continúa.** Si una potencia tiene residuo 10, multiplicarla por 10 vuelve a dar residuo \\(100\\equiv10\\pmod{15}\\).\n3. **Resultado.** Toda potencia positiva de 10, incluida \\(10^{2001}\\), deja residuo **10**. Como 10 no está entre 0, 1, 6 y 9, corresponde la opción **e**.\n4. **Comprobación.** El residuo debe ser múltiplo de 5 y congruente con 1 módulo 3; entre 0 y 14 solo 10 cumple ambos requisitos.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "0 es congruente con 0 módulo 3, pero la potencia es congruente con 1."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "1 no es múltiplo de 5."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "6 no es múltiplo de 5."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "9 no es múltiplo de 5."
+        },
+        {
+          "label": "e",
+          "is_correct": true,
+          "reason": "El residuo correcto es 10 y no está entre a–d."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/1 de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_1-de-preparatoria_examen-selectivo-1-preparatoria_original.pdf",
+      "source_pdf_sha256": "b3a4b3c7dbbf643820054e81749e01878d1a740cae3f832d5727924e2537ec13"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-preparatoria_1-preparatoria_q08",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 1.º de preparatoria",
+      "problem_number": 8,
+      "source_question_label": "8",
+      "source_page": 2,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Una caja de manzanas cuesta 20 pesos, una de peras cuesta 30 pesos, y una de duraznos\n40 pesos. Si 8 cajas de fruta costaron 230 pesos, ¿Cuál es la mayor cantidad de ellas que\npodrían ser de duraznos?",
+      "options": [
+        {
+          "label": "a",
+          "text": "1"
+        },
+        {
+          "label": "b",
+          "text": "2"
+        },
+        {
+          "label": "c",
+          "text": "3"
+        },
+        {
+          "label": "d",
+          "text": "4"
+        },
+        {
+          "label": "e",
+          "text": "5"
+        }
+      ],
+      "correct_answer": "3 cajas",
+      "correct_option_label": "c",
+      "solution_text": "1. **Costo básico.** Ocho cajas de manzanas costarían \\(8\\cdot20=160\\). Hay 70 pesos adicionales para sustituirlas por peras o duraznos.\n2. **Incrementos.** Cada caja de peras agrega 10 y cada caja de duraznos 20. Si son p y d, \\(10p+20d=70\\), o \\(p+2d=7\\).\n3. **Cota y construcción.** Como p no es negativo, \\(d\\le3\\). Con \\(d=3\\) se obtiene \\(p=1\\) y quedan 4 cajas de manzanas.\n4. **Comprobación.** \\(4\\cdot20+1\\cdot30+3\\cdot40=230\\). El máximo es **3**, opción **c**.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "1 es posible, pero no es el máximo."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "2 es posible, pero no es el máximo."
+        },
+        {
+          "label": "c",
+          "is_correct": true,
+          "reason": "3 se alcanza con 4 cajas de manzanas y 1 de peras."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "4 duraznos y las otras cuatro cajas más baratas ya cuestan 240."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "5 duraznos y tres manzanas cuestan al menos 260."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/1 de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_1-de-preparatoria_examen-selectivo-1-preparatoria_original.pdf",
+      "source_pdf_sha256": "b3a4b3c7dbbf643820054e81749e01878d1a740cae3f832d5727924e2537ec13"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-preparatoria_1-preparatoria_q09",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 1.º de preparatoria",
+      "problem_number": 9,
+      "source_question_label": "9",
+      "source_page": 2,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "En la ecuación a + 3b = 2001, a y b son enteros. ¿Cuál de los siguientes valores de a es\nimposible?",
+      "options": [
+        {
+          "label": "a",
+          "text": "3"
+        },
+        {
+          "label": "b",
+          "text": "45"
+        },
+        {
+          "label": "c",
+          "text": "111"
+        },
+        {
+          "label": "d",
+          "text": "1001"
+        },
+        {
+          "label": "e",
+          "text": "2001"
+        }
+      ],
+      "correct_answer": "1001",
+      "correct_option_label": "d",
+      "solution_text": "1. **Condición necesaria.** De \\(a+3b=2001\\) se obtiene \\(a=2001-3b\\). Como 2001 es divisible entre 3, a también debe serlo.\n2. **Revisar las opciones.** 3, 45, 111 y 2001 son múltiplos de 3. En cambio la suma de las cifras de 1001 es 2, así que no lo es.\n3. **Conclusión.** El valor imposible es **1001**, opción **d**.\n4. **Comprobación de los otros casos.** Los respectivos valores de b son 666, 652, 630 y 0. Para 1001 resultaría \\(b=1000/3\\), que no es entero.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "Con a=3 funciona b=666."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "Con a=45 funciona b=652."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "Con a=111 funciona b=630."
+        },
+        {
+          "label": "d",
+          "is_correct": true,
+          "reason": "Con a=1001 resultaría b=1000/3, no entero."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "Con a=2001 funciona b=0; se permiten enteros, no solo positivos."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/1 de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_1-de-preparatoria_examen-selectivo-1-preparatoria_original.pdf",
+      "source_pdf_sha256": "b3a4b3c7dbbf643820054e81749e01878d1a740cae3f832d5727924e2537ec13"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-preparatoria_1-preparatoria_q10",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 1.º de preparatoria",
+      "problem_number": 10,
+      "source_question_label": "10",
+      "source_page": 2,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Un gato y medio se come un ratón y medio cada hora y media. ¿Cuántos ratones\npueden comer 15 gatos en 15 horas?",
+      "options": [
+        {
+          "label": "a",
+          "text": "15"
+        },
+        {
+          "label": "b",
+          "text": "45"
+        },
+        {
+          "label": "c",
+          "text": "60"
+        },
+        {
+          "label": "d",
+          "text": "125"
+        },
+        {
+          "label": "e",
+          "text": "150"
+        }
+      ],
+      "correct_answer": "150 ratones",
+      "correct_option_label": "e",
+      "solution_text": "1. **Ritmo por gato y hora.** \\(\\frac{1.5}{1.5\\cdot1.5}=\\frac23\\) ratón por gato y hora.\n2. **Escalar ambas cantidades.** Quince gatos durante quince horas producen \\(15\\cdot15\\cdot\\frac23=\\mathbf{150}\\) ratones, opción **e**.\n3. **Otra comprobación.** Hay diez veces más gatos y diez veces más tiempo que en el dato: \\(1.5\\cdot10\\cdot10=150\\). Se usa el ritmo constante que supone el problema.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "15 solo multiplica por diez una de las dos cantidades."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "45 no aplica las dos escalas del enunciado."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "60 no aplica las dos escalas del enunciado."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "125 usa un ritmo equivocado de 5/9."
+        },
+        {
+          "label": "e",
+          "is_correct": true,
+          "reason": "150 es 15·15·2/3."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/1 de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_1-de-preparatoria_examen-selectivo-1-preparatoria_original.pdf",
+      "source_pdf_sha256": "b3a4b3c7dbbf643820054e81749e01878d1a740cae3f832d5727924e2537ec13"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-preparatoria_1-preparatoria_q11",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 1.º de preparatoria",
+      "problem_number": 11,
+      "source_question_label": "11",
+      "source_page": 3,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "¿Cuánto vale la siguiente suma \\(\\frac{25}{8\\times9}+\\frac{25}{9\\times10}+\\frac{25}{10\\times11}+\\cdots+\\frac{25}{99\\times100}\\)?",
+      "options": [],
+      "correct_answer": "\\(23/8\\)",
+      "correct_option_label": null,
+      "solution_text": "1. **Descomponer un sumando.** \\(\\frac1{k(k+1)}=\\frac1k-\\frac1{k+1}\\).\n2. **Cancelar términos consecutivos.** La suma dada es \\(25[(1/8-1/9)+(1/9-1/10)+\\cdots+(1/99-1/100)]\\).\n3. **Quedan los extremos.** \\(25(1/8-1/100)=25\\cdot\\frac{23}{200}=\\mathbf{\\frac{23}{8}}\\).\n4. **Comprobación.** La descomposición se verifica llevando a denominador común: \\(((k+1)-k)/(k(k+1))=1/(k(k+1))\\). Por eso la cancelación no omite ningún sumando.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/1 de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_1-de-preparatoria_examen-selectivo-1-preparatoria_original.pdf",
+      "source_pdf_sha256": "b3a4b3c7dbbf643820054e81749e01878d1a740cae3f832d5727924e2537ec13"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-preparatoria_1-preparatoria_q12",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 1.º de preparatoria",
+      "problem_number": 12,
+      "source_question_label": "12",
+      "source_page": 3,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Si a y b son dos números distintos tales que \\(a+\\frac1b=b+\\frac1a\\), ¿Cuál es el valor ab?",
+      "options": [],
+      "correct_answer": "\\(ab=-1\\)",
+      "correct_option_label": null,
+      "solution_text": "1. **Dominio.** Los denominadores exigen \\(a\\ne0\\) y \\(b\\ne0\\).\n2. **Reordenar.** De \\(a+1/b=b+1/a\\) resulta \\(a-b=(b-a)/(ab)\\).\n3. **Factorizar.** Multiplicar por ab y llevar todo al mismo lado da \\((a-b)(ab+1)=0\\).\n4. **Usar que son distintos.** Como \\(a-b\\ne0\\), necesariamente \\(ab+1=0\\), es decir **\\(ab=-1\\)**.\n5. **Comprobación.** Con \\(b=-1/a\\), ambos lados son 0; por ejemplo \\(a=1,b=-1\\) satisfacen la igualdad y son distintos.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/1 de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_1-de-preparatoria_examen-selectivo-1-preparatoria_original.pdf",
+      "source_pdf_sha256": "b3a4b3c7dbbf643820054e81749e01878d1a740cae3f832d5727924e2537ec13"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-preparatoria_1-preparatoria_q13",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 1.º de preparatoria",
+      "problem_number": 13,
+      "source_question_label": "13",
+      "source_page": 3,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "¿Cuánto vale la suma de todos los dígitos del número \\(10^{2003}-2003\\)?",
+      "options": [],
+      "correct_answer": "18023",
+      "correct_option_label": null,
+      "solution_text": "1. **Examinar el préstamo decimal.** Para \\(n\\ge4\\), el número \\(10^n-2003\\) tiene \\(n-4\\) nueves seguidos del bloque 7997. Por ejemplo, \\(10^5-2003=97997\\).\n2. **Contar en el caso pedido.** Con \\(n=2003\\), hay 1999 nueves y las cuatro cifras 7, 9, 9, 7.\n3. **Sumar cifras.** \\(1999\\cdot9+7+9+9+7=17991+32=\\mathbf{18023}\\).\n4. **Comprobación algebraica del patrón.** La cadena de \\(n-4\\) nueves seguida de 7997 vale \\((10^{n-4}-1)10^4+7997=10^n-2003\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/1 de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_1-de-preparatoria_examen-selectivo-1-preparatoria_original.pdf",
+      "source_pdf_sha256": "b3a4b3c7dbbf643820054e81749e01878d1a740cae3f832d5727924e2537ec13"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-preparatoria_1-preparatoria_q14",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 1.º de preparatoria",
+      "problem_number": 14,
+      "source_question_label": "14",
+      "source_page": 3,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Sean P(n) y S(n) el producto y la suma de los dígitos del número n, respectivamente. Por ejemplo, P(23)=6 y S(23)=5. Si n es un número de dos dígitos tal que \\(n=P(n)+S(n)\\), ¿Cuál es el digito de las unidades de n?",
+      "options": [],
+      "correct_answer": "9",
+      "correct_option_label": null,
+      "solution_text": "1. **Nombrar las cifras.** Si n tiene decenas a y unidades b, entonces \\(n=10a+b\\), \\(P(n)=ab\\) y \\(S(n)=a+b\\).\n2. **Sustituir la igualdad.** \\(10a+b=ab+a+b\\) se reduce a \\(9a=ab\\).\n3. **Usar las dos cifras.** \\(a\\ne0\\), así que dividir por a da \\(b=\\mathbf9\\).\n4. **Comprobación.** Cualquiera de 19, 29, …, 99 funciona: \\(9a+(a+9)=10a+9\\). El número puede variar, pero la cifra de unidades siempre es 9.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada y contrastada con el PDF original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/1 de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_1-de-preparatoria_examen-selectivo-1-preparatoria_original.pdf",
+      "source_pdf_sha256": "b3a4b3c7dbbf643820054e81749e01878d1a740cae3f832d5727924e2537ec13"
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-1-preparatoria_1-preparatoria_q15",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Selectivo Estatal - Serie 2 / 1.º de preparatoria",
+      "problem_number": 15,
+      "source_question_label": "15",
+      "source_page": 3,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Charlitos salió de vacaciones por algunos días y observó que llovió 7 veces en\ntotal. Cuando llovía por le mañana, estaba claro en la tarde, además solo 5 tardes y\n6 mañanas fueron claras. ¿Por cuantos días salió Charlitos de vacaciones?",
+      "options": [],
+      "correct_answer": "9 días",
+      "correct_option_label": null,
+      "solution_text": "1. **Contar medios días.** Cada día contiene una mañana y una tarde. Las partes claras suman \\(6+5=11\\) y las lluviosas son 7.\n2. **Días totales.** Hay \\(11+7=18\\) medios días, por lo que las vacaciones duraron \\(18/2=\\mathbf9\\) días.\n3. **Comprobación con la condición adicional.** De las nueve mañanas, tres fueron lluviosas; de las nueve tardes, cuatro. Como una mañana lluviosa tiene tarde clara, esos siete periodos de lluvia están en siete días diferentes; los otros dos días fueron completamente claros. Esto deja exactamente seis mañanas y cinco tardes claras.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Se usa el modelo del enunciado de cada mañana y tarde como periodo claro o lluvioso; las siete veces son sus siete periodos lluviosos."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/1 de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_1-de-preparatoria_examen-selectivo-1-preparatoria_original.pdf",
+      "source_pdf_sha256": "b3a4b3c7dbbf643820054e81749e01878d1a740cae3f832d5727924e2537ec13"
+    }
+  ]
+}

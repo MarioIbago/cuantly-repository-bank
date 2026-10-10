@@ -1,0 +1,268 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/6 de primaria/FUSION_sin-fecha_selectivo-estatal-serie-2_6-de-primaria_examen-selectivo-6-de-primaria_original.pdf",
+  "source_sha256": "4ee280201daa77a3986caf9158c0026035fb1e867bb36e73f14533603aa55ad3",
+  "school_level": "Sexto año de primaria",
+  "rubric": "Primary solving idea; L1 familiar direct steps, L2 combines ideas, L3 non-routine argument, relative to the printed school grade. Source defects do not become automatic answers.",
+  "problems": [
+    {
+      "source_id": "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q01",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "perimeter",
+        "squares"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Lados conocidos. El lado de un cuadrado es su perímetro dividido entre 4: I mide \\(16/4=4\\) cm y II mide \\(24/4=6\\) cm.",
+        "Dificultad relativa a Sexto año de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q02",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "parallelograms",
+        "vectors"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Elegir el vértice de la esquina. Dos lados adyacentes del paralelogramo pueden salir de A, de B o de C.",
+        "Dificultad relativa a Sexto año de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q03",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "logic",
+        "constraint_satisfaction"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Mismo mes. El único mes que aparece dos veces es marzo. Cristina y Flor deben ocupar marzo 1 y marzo 20.",
+        "Dificultad relativa a Sexto año de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q04",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "rates",
+        "fractions"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Trabajo por hora. Groot come \\(1/10\\) del árbol por hora. Cada padre come el doble, \\(2/10\\).",
+        "Dificultad relativa a Sexto año de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q05",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "perimeter",
+        "linear_equations"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Triángulo. Sus tres lados consumen \\(3\\cdot6=18\\) cerillos.",
+        "Dificultad relativa a Sexto año de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q06",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "casework",
+        "ordered_pairs",
+        "parity"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Parejas sin distinguir el orden. Basta elegir el menor impar hasta 11: \\((1,21),(3,19),(5,17),(7,15),(9,13),(11,11)\\). Son 6, opción e.",
+        "Dificultad relativa a Sexto año de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q07",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "perimeter",
+        "rectangles",
+        "subtraction"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Rectángulo angosto. AMTD mide 3 por 10, así que su perímetro es \\(2(3+10)=26\\) cm.",
+        "Dificultad relativa a Sexto año de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q08",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "average",
+        "addition"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Suma necesaria. Cuatro exámenes con promedio 9 deben sumar \\(4\\cdot9=36\\).",
+        "Dificultad relativa a Sexto año de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q09",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "fractions",
+        "successive_changes"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Después del primer día. Queda \\(1-1/2=1/2\\) del costal.",
+        "Dificultad relativa a Sexto año de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q10",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "divisors",
+        "positive_integers"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Condición de divisibilidad. Para que \\(18/(C+4)\\) sea entero, \\(C+4\\) debe ser un divisor positivo de 18.",
+        "Dificultad relativa a Sexto año de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q11",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "inclusion_exclusion",
+        "sets"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Contar sin duplicar. Sumar 6 personas con calcetines y 4 con zapatos cuenta dos veces a las 3 que llevan ambos. Por eso \\(6+4-3=7\\) llevan al menos uno de los dos.",
+        "Dificultad relativa a Sexto año de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q12",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "fractions",
+        "proportionality"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Costo total. Las tres pencas cuestan \\(3\\cdot6=18\\). Los cinco plátanos por penca no cambian esta cuenta, pues se da el precio de la penca entera.",
+        "Dificultad relativa a Sexto año de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q13",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "area",
+        "perimeter",
+        "maximization",
+        "integers"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Usar el perímetro. Si los lados son a y b, \\(2(a+b)=18\\), por lo que \\(a+b=9\\).",
+        "Dificultad relativa a Sexto año de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q14",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "fractions",
+        "inverse_operations"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Primer número. Si su sexta parte es 50, el número es \\(6\\cdot50=300\\).",
+        "Dificultad relativa a Sexto año de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q15",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "permutations",
+        "place_value",
+        "symmetry"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Número de permutaciones. Hay \\(4!=24\\) números de cuatro cifras.",
+        "Dificultad relativa a Sexto año de primaria."
+      ]
+    }
+  ]
+}
