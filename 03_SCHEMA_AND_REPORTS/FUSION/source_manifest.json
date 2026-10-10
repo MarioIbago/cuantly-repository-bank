@@ -1,0 +1,337 @@
+{
+  "schema_version": "1.0",
+  "collection": "FUSION",
+  "publication_stage": "original_sources",
+  "original_source_archive_sha256": "2874a796a47bd2cb40b47d16651c08e87876b57cdf1c5588813c939c8f0edbd3",
+  "source_count": 32,
+  "total_pages": 226,
+  "total_bytes": 14117979,
+  "notes": [
+    "Los PDF conservan exactamente los bytes recuperados del archivo original.",
+    "31 documentos de exámenes y un documento de soluciones de referencia; varios exámenes tienen versiones alternativas.",
+    "Las carpetas reproducen la organización recuperada. CEOM12 se archivó bajo 2020 por continuidad de edición; no se presenta como fecha impresa confirmada.",
+    "La publicación de las fuentes no certifica transcripciones, soluciones ni clasificación. Los lotes revisados se publican por separado."
+  ],
+  "files": [
+    {
+      "path": "01_RAW_PDFs/FUSION/2020/Torneo 1/Multinivel/FUSION_2020_torneo-1_multinivel_examen-1_original.pdf",
+      "original_archive_path": "SELECTIVOS ESTATALES/FUSION1/EXAMEN #1.pdf",
+      "pages": 3,
+      "bytes": 711832,
+      "sha256": "3b336421705a37b7fc31bd2269e31749bc7ee5b95bbcd3b835c6a32b060d97c6",
+      "git_blob_sha": "14fdc6a069891650b0457670c4df920853d2b401",
+      "role": "exam_source",
+      "year_evidence": "source_header_or_filename"
+    },
+    {
+      "path": "01_RAW_PDFs/FUSION/2020/Torneo 2/Multinivel/FUSION_2020_torneo-2_multinivel_examen-2-primaria_original.pdf",
+      "original_archive_path": "SELECTIVOS ESTATALES/FUSION1/EXAMEN #2 primaria.pdf",
+      "pages": 5,
+      "bytes": 848825,
+      "sha256": "8bc8714ff2ea01ad0ea75effceb072b5c7920f55e2a9ca5cda953b563c8a87b6",
+      "git_blob_sha": "6cd1d5436b45f58f89d51c3f408e60c849ed809e",
+      "role": "exam_source",
+      "year_evidence": "source_header_or_filename"
+    },
+    {
+      "path": "01_RAW_PDFs/FUSION/2020/Torneo 2/Multinivel/FUSION_2020_torneo-2_multinivel_examen-2-secundaria_original.pdf",
+      "original_archive_path": "SELECTIVOS ESTATALES/FUSION1/EXAMEN #2 secundaria.pdf",
+      "pages": 6,
+      "bytes": 916621,
+      "sha256": "ba4f2a8b775f64d1d3f19a62721ffb12bb765ced8fac4b3c163800da9a045ca2",
+      "git_blob_sha": "6dd06d61f4b86abb4cf512738e2f10cb40ffa336",
+      "role": "exam_source",
+      "year_evidence": "source_header_or_filename"
+    },
+    {
+      "path": "01_RAW_PDFs/FUSION/2020/Torneo 2/Multinivel/FUSION_2020_torneo-2_multinivel_examen-2_original.pdf",
+      "original_archive_path": "SELECTIVOS ESTATALES/FUSION1/EXAMEN #2.pdf",
+      "pages": 4,
+      "bytes": 680933,
+      "sha256": "e307a24fa83d543413e4794fc753c4a6866adecbf888ec9150b32dc8cbe9a7e4",
+      "git_blob_sha": "3b54515f1510e102f6acb810e142263345f75b52",
+      "role": "exam_source",
+      "year_evidence": "source_header_or_filename"
+    },
+    {
+      "path": "01_RAW_PDFs/FUSION/2020/Torneo 3/Multinivel/FUSION_2020_torneo-3_multinivel_examen-3_original.pdf",
+      "original_archive_path": "SELECTIVOS ESTATALES/FUSION1/EXAMEN #3.pdf",
+      "pages": 3,
+      "bytes": 781222,
+      "sha256": "2ad4a60cbdb05cf65e37a55d2969f91e1647c857e7007e722968e17eef99e50c",
+      "git_blob_sha": "37c39d52b8ef537637d4b03105a73c88838b74b4",
+      "role": "exam_source",
+      "year_evidence": "source_header_or_filename"
+    },
+    {
+      "path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11-pdf_original.pdf",
+      "original_archive_path": "SELECTIVOS ESTATALES/FUSION1/EXAMEN ELIMINATORIO CEOM11 PDF.pdf",
+      "pages": 6,
+      "bytes": 235961,
+      "sha256": "7ac63005300d3e466797a6e5a614cb388118319d7ed52c45c53c7c2d30e90c6c",
+      "git_blob_sha": "c0d27d112ae292ae9548dfade43037187e983ee9",
+      "role": "exam_source",
+      "year_evidence": "source_header_or_filename"
+    },
+    {
+      "path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11_original.pdf",
+      "original_archive_path": "SELECTIVOS ESTATALES/FUSION1/EXAMEN ELIMINATORIO CEOM11.pdf",
+      "pages": 6,
+      "bytes": 238358,
+      "sha256": "684a7471d3f7fef78cbad4a82741a4252521ce37f8952e6406856f14b00a1055",
+      "git_blob_sha": "82f624c5b13075275abf43d4be8379373e801042",
+      "role": "exam_source",
+      "year_evidence": "source_header_or_filename"
+    },
+    {
+      "path": "01_RAW_PDFs/FUSION/2020/Eliminatorio CEOM12/Multinivel/FUSION_2020_eliminatorio-ceom12_multinivel_examen-eliminatorio-ceom12_original.pdf",
+      "original_archive_path": "SELECTIVOS ESTATALES/FUSION1/EXAMEN ELIMINATORIO CEOM12.pdf",
+      "pages": 7,
+      "bytes": 804958,
+      "sha256": "a29b5c46c62ea6f19d0b9f420f03ded03bced2dede70d339ed8e5841069869e7",
+      "git_blob_sha": "e274b5818d5cf53ead3c18604f785603f2abe935",
+      "role": "exam_source",
+      "year_evidence": "inferred_from_edition"
+    },
+    {
+      "path": "01_RAW_PDFs/FUSION/2020/Estatal CEOM12/Multinivel/FUSION_2020_estatal-ceom12_multinivel_examen-estatal-ceom12_original.pdf",
+      "original_archive_path": "SELECTIVOS ESTATALES/FUSION1/EXAMEN ESTATAL CEOM12.pdf",
+      "pages": 7,
+      "bytes": 665374,
+      "sha256": "377197ef1ecc29123c205951e30c3063642e585df47a40a8497f902c1253fd4b",
+      "git_blob_sha": "1741faf0a5597728c64a3452710e475454a0cb9c",
+      "role": "exam_source",
+      "year_evidence": "inferred_from_edition"
+    },
+    {
+      "path": "01_RAW_PDFs/FUSION/2018/Final CEOM10/Multinivel/FUSION_2018_final-ceom10_multinivel_examen-final-ceom10_original.pdf",
+      "original_archive_path": "SELECTIVOS ESTATALES/FUSION1/EXAMEN FINAL CEOM10.pdf",
+      "pages": 6,
+      "bytes": 277964,
+      "sha256": "ae1e470b3945aa17cb1f7ad9a053dc345bece4196035a854ae38bf45c3c48456",
+      "git_blob_sha": "968236cd37240a7f8325fb0026266efdd766f821",
+      "role": "exam_source",
+      "year_evidence": "source_header_or_filename"
+    },
+    {
+      "path": "01_RAW_PDFs/FUSION/Sin fecha/Final CEOM9/Multinivel/FUSION_sin-fecha_final-ceom9_multinivel_examen-final-ceom9_original.pdf",
+      "original_archive_path": "SELECTIVOS ESTATALES/FUSION1/EXAMEN FINAL CEOM9.pdf",
+      "pages": 6,
+      "bytes": 635098,
+      "sha256": "861b22efaadf8b782064a7abfc97fd3b98f3c02f67b0f2267705dabc3deded30",
+      "git_blob_sha": "7b6a7f330d934ec600594b9e0edce4358d532917",
+      "role": "exam_source",
+      "year_evidence": "unknown"
+    },
+    {
+      "path": "01_RAW_PDFs/FUSION/2018/Eliminatorio CEOM10/Multinivel/FUSION_2018_eliminatorio-ceom10_multinivel_examen-eliminatorio-ceom10-docx-corregido_original.pdf",
+      "original_archive_path": "SELECTIVOS ESTATALES/FUSION1/EXAMEN-ELIMINATORIO-CEOM10.docx.Corregido .pdf",
+      "pages": 6,
+      "bytes": 152183,
+      "sha256": "4088166913929e7a8662a1006d66523d4dd85b5d2ccf1f74880536b41b8e2a52",
+      "git_blob_sha": "5855c365d9793837ffa3fb77eaab69e36ad351a1",
+      "role": "exam_source",
+      "year_evidence": "source_header_or_filename"
+    },
+    {
+      "path": "04_REFERENCE_SOURCES/FUSION/2020/Torneo 1/Multinivel/FUSION_2020_torneo-1_multinivel_soluciones-todas-las-categorias-torneo-1_original.pdf",
+      "original_archive_path": "SELECTIVOS ESTATALES/FUSION1/soluciones todas las categorias torneo #1.pdf",
+      "pages": 7,
+      "bytes": 967516,
+      "sha256": "7c46cff44eefff11c2112911625917a18ba383ea52e1b222838d631a0fcd5353",
+      "git_blob_sha": "2bd863a4a0c3edb51b71c55499b39ad923a2fea6",
+      "role": "reference_solutions",
+      "year_evidence": "source_header_or_filename"
+    },
+    {
+      "path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/1 de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_1-de-secundaria_examen-selectivo-1-de-secundaria-docx_original.pdf",
+      "original_archive_path": "SELECTIVOS ESTATALES/FUSION2/EXAMEN SELECTIVO 1° DE SECUNDARIA.docx.pdf",
+      "pages": 4,
+      "bytes": 219149,
+      "sha256": "1ca2f937d777471d5d907d0bf46a81b993a942477639e835c7efb25200163611",
+      "git_blob_sha": "d6c240407d2ff9f66cf3d5852bd53a30a74c1b94",
+      "role": "exam_source",
+      "year_evidence": "unknown"
+    },
+    {
+      "path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/1 de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_1-de-preparatoria_examen-selectivo-1-preparatoria_original.pdf",
+      "original_archive_path": "SELECTIVOS ESTATALES/FUSION2/EXAMEN SELECTIVO 1° PREPARATORIA.pdf",
+      "pages": 3,
+      "bytes": 225232,
+      "sha256": "b3a4b3c7dbbf643820054e81749e01878d1a740cae3f832d5727924e2537ec13",
+      "git_blob_sha": "8c5a5e06db9d01fc25baee426a0a6d3a72e33cd7",
+      "role": "exam_source",
+      "year_evidence": "unknown"
+    },
+    {
+      "path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/2 de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_2-de-secundaria_examen-selectivo-2-de-secundaria_original.pdf",
+      "original_archive_path": "SELECTIVOS ESTATALES/FUSION2/EXAMEN SELECTIVO 2° DE SECUNDARIA.pdf",
+      "pages": 4,
+      "bytes": 223945,
+      "sha256": "908eef75078f45e703b060fcc74b79b3d566297380f8c46641f6e8ffa46d7b2e",
+      "git_blob_sha": "e9c791425302e00f6dc83bf85a739c122aa0b445",
+      "role": "exam_source",
+      "year_evidence": "unknown"
+    },
+    {
+      "path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/2 de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_2-de-preparatoria_examen-selectivo-2-preparatoria_original.pdf",
+      "original_archive_path": "SELECTIVOS ESTATALES/FUSION2/EXAMEN SELECTIVO 2° PREPARATORIA.pdf",
+      "pages": 3,
+      "bytes": 208202,
+      "sha256": "9e573f79ed778f931c188d7928c4df4fca1c5d186a93f2b7119f5ab9277f3760",
+      "git_blob_sha": "4b9cd8bf471a3fe4ed82592e82e85ac61358c398",
+      "role": "exam_source",
+      "year_evidence": "unknown"
+    },
+    {
+      "path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3 de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-de-secundaria_examen-selectivo-3-de-secundaria_original.pdf",
+      "original_archive_path": "SELECTIVOS ESTATALES/FUSION2/EXAMEN SELECTIVO 3° DE SECUNDARIA.pdf",
+      "pages": 3,
+      "bytes": 214516,
+      "sha256": "65ac2467de5d1c2bdab47b85a29cddcafadb673da9a606a18a9b332b2856fdd6",
+      "git_blob_sha": "578937eb3282f2c926258f47a0c243ec6af63a64",
+      "role": "exam_source",
+      "year_evidence": "unknown"
+    },
+    {
+      "path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3 de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-de-preparatoria_examen-selectivo-3-preparatoria_original.pdf",
+      "original_archive_path": "SELECTIVOS ESTATALES/FUSION2/EXAMEN SELECTIVO 3° PREPARATORIA.pdf",
+      "pages": 4,
+      "bytes": 214936,
+      "sha256": "12f15fff3cdfa8546bcd8b751141a80cd766c51e1b2b3707bd0f2adcbc318e5b",
+      "git_blob_sha": "95e046afbce89f39899b1e2e118faa0c4709c7c5",
+      "role": "exam_source",
+      "year_evidence": "unknown"
+    },
+    {
+      "path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/5 de primaria/FUSION_sin-fecha_selectivo-estatal-serie-2_5-de-primaria_examen-selectivo-5-de-primaria_original.pdf",
+      "original_archive_path": "SELECTIVOS ESTATALES/FUSION2/EXAMEN SELECTIVO 5° DE PRIMARIA.pdf",
+      "pages": 3,
+      "bytes": 186540,
+      "sha256": "0636923281fa4ad8fe2cc001d0301623450acd479e35c4889ec0bed3e9dcc298",
+      "git_blob_sha": "f4d078bf16f81944970e312cd3d0649e32703323",
+      "role": "exam_source",
+      "year_evidence": "unknown"
+    },
+    {
+      "path": "01_RAW_PDFs/FUSION/Sin fecha/Selectivo Estatal - Serie 2/6 de primaria/FUSION_sin-fecha_selectivo-estatal-serie-2_6-de-primaria_examen-selectivo-6-de-primaria_original.pdf",
+      "original_archive_path": "SELECTIVOS ESTATALES/FUSION2/EXAMEN SELECTIVO 6° DE PRIMARIA.pdf",
+      "pages": 3,
+      "bytes": 194207,
+      "sha256": "4ee280201daa77a3986caf9158c0026035fb1e867bb36e73f14533603aa55ad3",
+      "git_blob_sha": "75f4438821176ea0ab2b900bb0e4325e44fdb9a0",
+      "role": "exam_source",
+      "year_evidence": "unknown"
+    },
+    {
+      "path": "01_RAW_PDFs/FUSION/2023/Selectivo Estatal/1 de preparatoria/FUSION_2023_selectivo-estatal_1-de-preparatoria_examen-selectivo-1-ano-de-preparatoria_original.pdf",
+      "original_archive_path": "SELECTIVOS ESTATALES/FUSION3/EXAMEN SELECTIVO  1° AÑO DE PREPARATORIA.pdf",
+      "pages": 3,
+      "bytes": 326838,
+      "sha256": "b9517ae2506eefed0e185939fc984067b03d8bdeb3614487082905aa53b67725",
+      "git_blob_sha": "abcea31c1fbfe381c7654d3193b84cfa79b305da",
+      "role": "exam_source",
+      "year_evidence": "source_header_or_filename"
+    },
+    {
+      "path": "01_RAW_PDFs/FUSION/2023/Selectivo Estatal/2 de preparatoria/FUSION_2023_selectivo-estatal_2-de-preparatoria_examen-selectivo-2-ano-de-preparatoria_original.pdf",
+      "original_archive_path": "SELECTIVOS ESTATALES/FUSION3/EXAMEN SELECTIVO  2° AÑO DE PREPARATORIA.pdf",
+      "pages": 3,
+      "bytes": 343525,
+      "sha256": "15e5a75cba5d1a83cff714c639c532868184358ba3f973577b548dcfb6f7172e",
+      "git_blob_sha": "2aed20e1e101497733d9545f234c39585ba095f1",
+      "role": "exam_source",
+      "year_evidence": "source_header_or_filename"
+    },
+    {
+      "path": "01_RAW_PDFs/FUSION/2023/Selectivo Estatal/3 de preparatoria/FUSION_2023_selectivo-estatal_3-de-preparatoria_examen-selectivo-3-ano-de-preparatoria-docx_original.pdf",
+      "original_archive_path": "SELECTIVOS ESTATALES/FUSION3/EXAMEN SELECTIVO  3° AÑO DE PREPARATORIA.docx.pdf",
+      "pages": 3,
+      "bytes": 335752,
+      "sha256": "a0962674699b3a82206bad15879020fac08c94b30d78672b07378f097e5f0dcd",
+      "git_blob_sha": "76d84d6da4ead60daf4efa093f0118a889ed4848",
+      "role": "exam_source",
+      "year_evidence": "source_header_or_filename"
+    },
+    {
+      "path": "01_RAW_PDFs/FUSION/2023/Selectivo Estatal/1 de secundaria/FUSION_2023_selectivo-estatal_1-de-secundaria_examen-selectivo-1-de-secundaria_original.pdf",
+      "original_archive_path": "SELECTIVOS ESTATALES/FUSION3/EXAMEN SELECTIVO 1° DE SECUNDARIA.pdf",
+      "pages": 3,
+      "bytes": 303212,
+      "sha256": "7ca50df37f529a7a7c08b9287c756423b313077bdd8e5e7ef5a5cf1614d2a090",
+      "git_blob_sha": "6e7e6e5d13112c93a503d589de70f3996c377bcd",
+      "role": "exam_source",
+      "year_evidence": "source_header_or_filename"
+    },
+    {
+      "path": "01_RAW_PDFs/FUSION/2023/Selectivo Estatal/2 de secundaria/FUSION_2023_selectivo-estatal_2-de-secundaria_examen-selectivo-2-de-secundaria-docx_original.pdf",
+      "original_archive_path": "SELECTIVOS ESTATALES/FUSION3/EXAMEN SELECTIVO 2° DE SECUNDARIA.docx.pdf",
+      "pages": 3,
+      "bytes": 299050,
+      "sha256": "72674fde327342c20efb6bd800e97b9a5315af03e0b2d99b2f8b330c53290350",
+      "git_blob_sha": "6b481de614bcee83fde76c9d281215d1efedae64",
+      "role": "exam_source",
+      "year_evidence": "source_header_or_filename"
+    },
+    {
+      "path": "01_RAW_PDFs/FUSION/2023/Selectivo Estatal/3 de secundaria/FUSION_2023_selectivo-estatal_3-de-secundaria_examen-selectivo-3-de-secundaria_original.pdf",
+      "original_archive_path": "SELECTIVOS ESTATALES/FUSION3/EXAMEN SELECTIVO 3° DE SECUNDARIA.pdf",
+      "pages": 3,
+      "bytes": 291943,
+      "sha256": "302959fb1f642e2c98edb8cf5f000c368238387c7edd77fd2a62f8392ad985d8",
+      "git_blob_sha": "cbc816080c61bee33c611390016b9c5bc2207d84",
+      "role": "exam_source",
+      "year_evidence": "source_header_or_filename"
+    },
+    {
+      "path": "01_RAW_PDFs/FUSION/2023/Selectivo Estatal/5 de primaria/FUSION_2023_selectivo-estatal_5-de-primaria_examen-selectivo-5de-primaria-y-menores_original.pdf",
+      "original_archive_path": "SELECTIVOS ESTATALES/FUSION3/EXAMEN SELECTIVO 5°DE PRIMARIA Y MENORES.pdf",
+      "pages": 3,
+      "bytes": 304112,
+      "sha256": "e625f494a03830d9fc5e79a7b8930713bae731fd23049aadab50d468d8ddac5d",
+      "git_blob_sha": "3ad19202bb51304c4bec42c187922f8daa0ed5d5",
+      "role": "exam_source",
+      "year_evidence": "source_header_or_filename"
+    },
+    {
+      "path": "01_RAW_PDFs/FUSION/2023/Selectivo Estatal/6 de primaria/FUSION_2023_selectivo-estatal_6-de-primaria_examen-selectivo-6de-primaria_original.pdf",
+      "original_archive_path": "SELECTIVOS ESTATALES/FUSION3/EXAMEN SELECTIVO 6°DE PRIMARIA.pdf",
+      "pages": 3,
+      "bytes": 296165,
+      "sha256": "8981fb548eef9277a38669f7d1ca144e9e83f5ba9f9d56449450c32bc242fe49",
+      "git_blob_sha": "3bbe7f25469df4e9b58b4df45fc3d7272c8ed5df",
+      "role": "exam_source",
+      "year_evidence": "source_header_or_filename"
+    },
+    {
+      "path": "01_RAW_PDFs/FUSION/2024/Selectivo Estatal/Multinivel/FUSION_2024_selectivo-estatal_multinivel_evaluacion-selectivos-estatales-fusion-2024_original.pdf",
+      "original_archive_path": "SELECTIVOS ESTATALES/FUSION4/EVALUACION SELECTIVOS ESTATALES FUSIÓN 2024.pdf",
+      "pages": 28,
+      "bytes": 731218,
+      "sha256": "fec19769e5b5743aa2eafc767fbfbceaea6280914f8e0c1be2c53ecbff219635",
+      "git_blob_sha": "84725c6fc1f545fc9cb7bd1ec0a0623c09246c71",
+      "role": "exam_source",
+      "year_evidence": "source_header_or_filename"
+    },
+    {
+      "path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "original_archive_path": "SELECTIVOS ESTATALES/FUSION5/EXAMENES SELECTIVOS ESTATALES.pdf",
+      "pages": 29,
+      "bytes": 636887,
+      "sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed",
+      "git_blob_sha": "c353a002f750c658fea280a3c2725eb46d59efdf",
+      "role": "exam_source",
+      "year_evidence": "source_header_or_filename"
+    },
+    {
+      "path": "01_RAW_PDFs/FUSION/2026/Selectivo Estatal/Multinivel/FUSION_2026_selectivo-estatal_multinivel_examenes-selectivos-estatales-fusion-26_original.pdf",
+      "original_archive_path": "SELECTIVOS ESTATALES/FUSION6/EXAMENES SELECTIVOS ESTATALES FUSION 26.pdf",
+      "pages": 46,
+      "bytes": 645705,
+      "sha256": "2e13ef4be54f402d7547bb967635bce02b2881424e7337def9756d4d6f8b9620",
+      "git_blob_sha": "8e0d12c14d6295aa3d9e241b2bebbfe5945433c5",
+      "role": "exam_source",
+      "year_evidence": "source_header_or_filename"
+    }
+  ]
+}
