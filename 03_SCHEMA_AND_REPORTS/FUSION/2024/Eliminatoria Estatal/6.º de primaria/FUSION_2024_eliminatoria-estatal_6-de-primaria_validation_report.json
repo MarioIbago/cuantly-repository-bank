@@ -1,0 +1,609 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2024/Selectivo Estatal/Multinivel/FUSION_2024_selectivo-estatal_multinivel_evaluacion-selectivos-estatales-fusion-2024_original.pdf",
+  "source_sha256": "fec19769e5b5743aa2eafc767fbfbceaea6280914f8e0c1be2c53ecbff219635",
+  "pages_cotejadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28
+  ],
+  "metadata_evidence": "Los encabezados imprimen ELIMINATORIA ESTATAL FUSION COM24 y el grado; el nombre del PDF confirma 2024. No se infiere número de edición del nombre de la carpeta FUSION4.",
+  "method": "Rendered all pages; independently solved every model; evaluated all options; compared decoded original figures with rendered PDF; KaTeX actual rendering.",
+  "printed_key_review": {
+    "page": 28,
+    "note": "La clave no es prueba. 253 tiene tres opciones válidas; 266 no determina edad; 269 depende del orden de cifras; 272 da 48 y no 42; 275 da 20 y no 23."
+  },
+  "problems": [
+    {
+      "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q01",
+      "source_page": 4,
+      "legacy_group_for_navigation_only": 243,
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada desde el enunciado y las figuras; la clave impresa no sustituye la comprobación."
+      },
+      "second_check": {
+        "method": "independent_exact_calculation_or_exhaustive_enumeration",
+        "result": [
+          {
+            "coin": "C",
+            "to": [
+              4,
+              2
+            ]
+          }
+        ],
+        "passed": true
+      },
+      "figures": [
+        {
+          "page": 4,
+          "object": "Image24.png",
+          "box": [
+            265.2,
+            277.63,
+            346.79999999999995,
+            362.83
+          ],
+          "method": "pdf_embedded_image",
+          "sha256": "09b8da237df31f9b0ad8919558ce0d6c84efe897a0dc80de5c14f11e30de2c14"
+        }
+      ],
+      "transcription_notes": [
+        "Se conserva el texto propio de esta aparición; grupos heredados no certifican equivalencia."
+      ]
+    },
+    {
+      "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q02",
+      "source_page": 4,
+      "legacy_group_for_navigation_only": 251,
+      "verification": {
+        "status": "ambiguous_source_object_name",
+        "answer_checked": false,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "1. El documento habla de **Pokebolas**, pero pregunta por **monedas**. No proporciona ninguna relación entre ambos objetos.\n2. Los datos sobre Pokebolas se pueden resolver: si Abel tiene \\(a\\), Sarahi tiene \\(2a\\) y Manuel \\(a+12\\). De \\(4a+12=40\\) resulta \\(a=7\\), y Sarahi tiene 14 Pokebolas.\n3. Por tanto, **d** sería la respuesta si la pregunta dijera Pokebolas. Tal como está impresa, el número de monedas no se determina. Conservamos la palabra original y este reactivo se practica sin calificación automática."
+      },
+      "second_check": {
+        "method": "independent_exact_calculation_or_exhaustive_enumeration",
+        "result": {
+          "coins": "underdetermined",
+          "pokebolas": {
+            "Abel": 7,
+            "Sarahi": 14,
+            "Manuel": 19
+          }
+        },
+        "passed": true
+      },
+      "figures": [],
+      "transcription_notes": [
+        "Se conserva el texto propio de esta aparición; grupos heredados no certifican equivalencia."
+      ]
+    },
+    {
+      "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q03",
+      "source_page": 4,
+      "legacy_group_for_navigation_only": 245,
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada desde el enunciado y las figuras; la clave impresa no sustituye la comprobación."
+      },
+      "second_check": {
+        "method": "independent_exact_calculation_or_exhaustive_enumeration",
+        "result": [
+          {
+            "label": "a",
+            "collisions": [
+              [
+                4,
+                2,
+                4,
+                3
+              ],
+              [
+                4,
+                4,
+                5,
+                4
+              ],
+              [
+                4,
+                5,
+                4,
+                6
+              ]
+            ]
+          },
+          {
+            "label": "b",
+            "collisions": [
+              [
+                3,
+                5,
+                4,
+                5
+              ]
+            ]
+          },
+          {
+            "label": "c",
+            "collisions": [
+              [
+                4,
+                3,
+                5,
+                3
+              ],
+              [
+                4,
+                5,
+                4,
+                6
+              ]
+            ]
+          },
+          {
+            "label": "d",
+            "collisions": []
+          },
+          {
+            "label": "e",
+            "collisions": [
+              [
+                2,
+                3,
+                3,
+                3
+              ]
+            ]
+          }
+        ],
+        "passed": true
+      },
+      "figures": [
+        {
+          "page": 4,
+          "object": "Image38.png",
+          "box": [
+            270,
+            545.38,
+            342,
+            618.58
+          ],
+          "method": "pdf_embedded_image",
+          "sha256": "0814be489873cf4aa9e7efa7593c1385efdae5101978f6d36a77677c503eeb79"
+        }
+      ],
+      "transcription_notes": [
+        "Se conserva el texto propio de esta aparición; grupos heredados no certifican equivalencia."
+      ]
+    },
+    {
+      "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q04",
+      "source_page": 5,
+      "legacy_group_for_navigation_only": 252,
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada desde el enunciado y las figuras; la clave impresa no sustituye la comprobación."
+      },
+      "second_check": {
+        "method": "independent_exact_calculation_or_exhaustive_enumeration",
+        "result": {
+          "rectangle": 48,
+          "shaded": 3
+        },
+        "passed": true
+      },
+      "figures": [
+        {
+          "page": 5,
+          "object": "Image67.png",
+          "box": [
+            255.75,
+            169.48000000000002,
+            392.23,
+            260.03
+          ],
+          "method": "pdf_embedded_image",
+          "sha256": "f2d33074770bd5bf6952461089a27f605e715e3ed8bff2d7f2244956760a9623"
+        }
+      ],
+      "transcription_notes": [
+        "Se conserva el texto propio de esta aparición; grupos heredados no certifican equivalencia."
+      ]
+    },
+    {
+      "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q05",
+      "source_page": 5,
+      "legacy_group_for_navigation_only": 253,
+      "verification": {
+        "status": "invalid_source_multiple_correct_options",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "1. Cada equipo juega exactamente dos partidos. En cada uno obtiene 0, 1 o 3 puntos.\n2. Las sumas posibles son \\(0+0=0\\), \\(0+1=1\\), \\(1+1=2\\), \\(0+3=3\\), \\(1+3=4\\) y \\(3+3=6\\).\n3. Por tanto 8, 5 y 7 puntos son imposibles: **a**, **b** y **c** son verdaderas. 4 y 6 sí se obtienen.\n4. El original pide una sola opción, pero tiene tres. La clave impresa elige b; eso no hace falsas a y c. Se conserva como práctica guiada, sin respuesta única."
+      },
+      "second_check": {
+        "method": "independent_exact_calculation_or_exhaustive_enumeration",
+        "result": {
+          "possible": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            6
+          ],
+          "impossibleOptions": [
+            "a",
+            "b",
+            "c"
+          ]
+        },
+        "passed": true
+      },
+      "figures": [],
+      "transcription_notes": [
+        "Se conserva el texto propio de esta aparición; grupos heredados no certifican equivalencia."
+      ]
+    },
+    {
+      "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q06",
+      "source_page": 5,
+      "legacy_group_for_navigation_only": 248,
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada desde el enunciado y las figuras; la clave impresa no sustituye la comprobación."
+      },
+      "second_check": {
+        "method": "independent_exact_calculation_or_exhaustive_enumeration",
+        "result": [
+          [
+            1,
+            3,
+            5,
+            7
+          ],
+          [
+            2,
+            3,
+            6,
+            7
+          ],
+          [
+            3,
+            5,
+            6,
+            7
+          ],
+          [
+            4,
+            5,
+            6,
+            7
+          ]
+        ],
+        "passed": true
+      },
+      "figures": [],
+      "transcription_notes": [
+        "Se conserva el texto propio de esta aparición; grupos heredados no certifican equivalencia."
+      ]
+    },
+    {
+      "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q07",
+      "source_page": 5,
+      "legacy_group_for_navigation_only": 249,
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada desde el enunciado y las figuras; la clave impresa no sustituye la comprobación."
+      },
+      "second_check": {
+        "method": "independent_exact_calculation_or_exhaustive_enumeration",
+        "result": {
+          "horizontal": 30,
+          "up": 30,
+          "down": 30,
+          "total": 90
+        },
+        "passed": true
+      },
+      "figures": [
+        {
+          "page": 5,
+          "object": "Image57.jpg",
+          "box": [
+            355.65,
+            569.28,
+            528.78,
+            658.98
+          ],
+          "method": "pdf_embedded_image",
+          "sha256": "c3b8afe4caaa7aa3c3f4411de585409dd85cc3acf135317fb6e2b917311b5622"
+        }
+      ],
+      "transcription_notes": [
+        "Se conserva el texto propio de esta aparición; grupos heredados no certifican equivalencia."
+      ]
+    },
+    {
+      "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q08",
+      "source_page": 6,
+      "legacy_group_for_navigation_only": 250,
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada desde el enunciado y las figuras; la clave impresa no sustituye la comprobación."
+      },
+      "second_check": {
+        "method": "independent_exact_calculation_or_exhaustive_enumeration",
+        "result": {
+          "jamon": 24,
+          "pan": 6,
+          "Mayte": 108,
+          "AlexRemaining": 32
+        },
+        "passed": true
+      },
+      "figures": [],
+      "transcription_notes": [
+        "Se conserva el texto propio de esta aparición; grupos heredados no certifican equivalencia."
+      ]
+    },
+    {
+      "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q09",
+      "source_page": 6,
+      "legacy_group_for_navigation_only": 254,
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada desde el enunciado y las figuras; la clave impresa no sustituye la comprobación."
+      },
+      "second_check": {
+        "method": "independent_exact_calculation_or_exhaustive_enumeration",
+        "result": [
+          14,
+          17,
+          20,
+          23
+        ],
+        "passed": true
+      },
+      "figures": [
+        {
+          "page": 6,
+          "object": "Image73.png",
+          "box": [
+            171.2,
+            321.58000000000004,
+            442.28999999999996,
+            417.93
+          ],
+          "method": "pdf_embedded_image",
+          "sha256": "f65bb40b329741765cfb2ac36ea5a6380e002ddd9902f26c2016f44da9338c52"
+        }
+      ],
+      "transcription_notes": [
+        "Se conserva el texto propio de esta aparición; grupos heredados no certifican equivalencia."
+      ]
+    },
+    {
+      "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q10",
+      "source_page": 6,
+      "legacy_group_for_navigation_only": 255,
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada desde el enunciado y las figuras; la clave impresa no sustituye la comprobación."
+      },
+      "second_check": {
+        "method": "independent_exact_calculation_or_exhaustive_enumeration",
+        "result": {
+          "smallRadius": 5,
+          "largeRadius": 10,
+          "areaMultipleOfPi": 50
+        },
+        "passed": true
+      },
+      "figures": [
+        {
+          "page": 6,
+          "object": "Image76.png",
+          "box": [
+            228.4,
+            555.89,
+            330.35,
+            648.29
+          ],
+          "method": "pdf_embedded_image",
+          "sha256": "26a915fd5ee9595920f37bad182bb10d344c13afcefb6ec2969152d33685bcbc"
+        }
+      ],
+      "transcription_notes": [
+        "Se conserva el texto propio de esta aparición; grupos heredados no certifican equivalencia."
+      ]
+    }
+  ],
+  "bank_sha256": "1f2ed3a4300620f482cb58501ca0d511eda677618c559b4be6c98677c0ec5c13",
+  "classified_bank_sha256": "5df3e76d6db6589efdddff67ac54d5e0482d6fea3bb33a08560fb69b8ec1d23c",
+  "counts": {
+    "verified_problems": 8,
+    "needs_review_or_invalid": 2,
+    "needs_review_problem_numbers": [
+      2,
+      5
+    ],
+    "notes": "90 apariciones cotejadas con las 28 páginas del PDF. Se preservan monedas/Pokebolas, puntuaciones múltiples, edad no única y orden de dados sin calificación automática. Fichas: 48; animales: 20, pese a discrepancias de la clave."
+  },
+  "latex_rendering": {
+    "engine": "KaTeX",
+    "throwOnError": true,
+    "fields": "problem_text, correct_answer, solution_text, options and option analysis"
+  },
+  "structural_validation": {
+    "verified": {
+      "ok": true,
+      "scope": "structure_options_image_decoding_hashes_classification_only",
+      "mathematical_verification": "not_performed_by_this_script",
+      "visual_source_comparison": "not_performed_by_this_script",
+      "latex_rendering": "not_performed_by_this_script",
+      "bank_sha256": "1f2ed3a4300620f482cb58501ca0d511eda677618c559b4be6c98677c0ec5c13",
+      "bytes": 134448,
+      "problems": 10,
+      "verified": 8,
+      "guided": 2,
+      "images": 6,
+      "figures": [
+        {
+          "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q01",
+          "figure": 1,
+          "sha256": "09b8da237df31f9b0ad8919558ce0d6c84efe897a0dc80de5c14f11e30de2c14",
+          "width": 136,
+          "height": 142
+        },
+        {
+          "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q03",
+          "figure": 1,
+          "sha256": "0814be489873cf4aa9e7efa7593c1385efdae5101978f6d36a77677c503eeb79",
+          "width": 120,
+          "height": 122
+        },
+        {
+          "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q04",
+          "figure": 1,
+          "sha256": "f2d33074770bd5bf6952461089a27f605e715e3ed8bff2d7f2244956760a9623",
+          "width": 419,
+          "height": 278
+        },
+        {
+          "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q07",
+          "figure": 1,
+          "sha256": "c3b8afe4caaa7aa3c3f4411de585409dd85cc3acf135317fb6e2b917311b5622",
+          "width": 257,
+          "height": 133
+        },
+        {
+          "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q09",
+          "figure": 1,
+          "sha256": "f65bb40b329741765cfb2ac36ea5a6380e002ddd9902f26c2016f44da9338c52",
+          "width": 385,
+          "height": 146
+        },
+        {
+          "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q10",
+          "figure": 1,
+          "sha256": "26a915fd5ee9595920f37bad182bb10d344c13afcefb6ec2969152d33685bcbc",
+          "width": 299,
+          "height": 271
+        }
+      ],
+      "errors": [],
+      "warnings": []
+    },
+    "classified": {
+      "ok": true,
+      "scope": "structure_options_image_decoding_hashes_classification_only",
+      "mathematical_verification": "not_performed_by_this_script",
+      "visual_source_comparison": "not_performed_by_this_script",
+      "latex_rendering": "not_performed_by_this_script",
+      "bank_sha256": "5df3e76d6db6589efdddff67ac54d5e0482d6fea3bb33a08560fb69b8ec1d23c",
+      "bytes": 139928,
+      "problems": 10,
+      "verified": 8,
+      "guided": 2,
+      "images": 6,
+      "figures": [
+        {
+          "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q01",
+          "figure": 1,
+          "sha256": "09b8da237df31f9b0ad8919558ce0d6c84efe897a0dc80de5c14f11e30de2c14",
+          "width": 136,
+          "height": 142
+        },
+        {
+          "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q03",
+          "figure": 1,
+          "sha256": "0814be489873cf4aa9e7efa7593c1385efdae5101978f6d36a77677c503eeb79",
+          "width": 120,
+          "height": 122
+        },
+        {
+          "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q04",
+          "figure": 1,
+          "sha256": "f2d33074770bd5bf6952461089a27f605e715e3ed8bff2d7f2244956760a9623",
+          "width": 419,
+          "height": 278
+        },
+        {
+          "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q07",
+          "figure": 1,
+          "sha256": "c3b8afe4caaa7aa3c3f4411de585409dd85cc3acf135317fb6e2b917311b5622",
+          "width": 257,
+          "height": 133
+        },
+        {
+          "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q09",
+          "figure": 1,
+          "sha256": "f65bb40b329741765cfb2ac36ea5a6380e002ddd9902f26c2016f44da9338c52",
+          "width": 385,
+          "height": 146
+        },
+        {
+          "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q10",
+          "figure": 1,
+          "sha256": "26a915fd5ee9595920f37bad182bb10d344c13afcefb6ec2969152d33685bcbc",
+          "width": 299,
+          "height": 271
+        }
+      ],
+      "errors": [],
+      "warnings": []
+    }
+  }
+}

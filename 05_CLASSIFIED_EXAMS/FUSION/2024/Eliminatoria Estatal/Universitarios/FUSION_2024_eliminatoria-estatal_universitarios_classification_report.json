@@ -1,0 +1,182 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2024/Selectivo Estatal/Multinivel/FUSION_2024_selectivo-estatal_multinivel_evaluacion-selectivos-estatales-fusion-2024_original.pdf",
+  "source_sha256": "fec19769e5b5743aa2eafc767fbfbceaea6280914f8e0c1be2c53ecbff219635",
+  "bank_sha256": "34620061f13bca6ff2cc2bc6018c6ad5f0961264c70728b36a140886f6dcd883",
+  "rubric": "Editorial L1/L2/L3 relative to source school grade; primary area follows decisive reasoning, not picture context.",
+  "problems": [
+    {
+      "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_universitarios_q01",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "multiplication",
+        "division"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia explicada en la solución.",
+        "Dificultad editorial relativa a Universidad: aplicación directa de una idea familiar."
+      ]
+    },
+    {
+      "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_universitarios_q02",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "coordinates",
+        "similar_triangles"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia explicada en la solución.",
+        "Dificultad editorial relativa a Universidad: aplicación directa de una idea familiar."
+      ]
+    },
+    {
+      "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_universitarios_q03",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "logic",
+        "truth_and_lies"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia explicada en la solución.",
+        "Dificultad editorial relativa a Universidad: aplicación directa de una idea familiar."
+      ]
+    },
+    {
+      "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_universitarios_q04",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "noncrossing_matchings",
+        "catalan_numbers"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia explicada en la solución.",
+        "Dificultad editorial relativa a Universidad: modelado o combinación de pasos con una inferencia."
+      ]
+    },
+    {
+      "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_universitarios_q05",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "rolling_circles",
+        "rotations",
+        "circumference"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia explicada en la solución.",
+        "Dificultad editorial relativa a Universidad: aplicación directa de una idea familiar."
+      ]
+    },
+    {
+      "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_universitarios_q06",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "perfect_squares",
+        "prime_factorization",
+        "parity"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia explicada en la solución.",
+        "Dificultad editorial relativa a Universidad: modelado o combinación de pasos con una inferencia."
+      ]
+    },
+    {
+      "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_universitarios_q07",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "remainders",
+        "last_digit",
+        "perfect_squares"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia explicada en la solución.",
+        "Dificultad editorial relativa a Universidad: aplicación directa de una idea familiar."
+      ]
+    },
+    {
+      "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_universitarios_q08",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "scale_factor",
+        "perimeter"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia explicada en la solución.",
+        "Dificultad editorial relativa a Universidad: aplicación directa de una idea familiar."
+      ]
+    },
+    {
+      "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_universitarios_q09",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "intervals",
+        "digits",
+        "counting"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia explicada en la solución.",
+        "Dificultad editorial relativa a Universidad: aplicación directa de una idea familiar."
+      ]
+    },
+    {
+      "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_universitarios_q10",
+      "primary_area": "probability",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "conditional_probability",
+        "sample_space"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia explicada en la solución.",
+        "Dificultad editorial relativa a Universidad: modelado o combinación de pasos con una inferencia."
+      ]
+    }
+  ]
+}

@@ -5,9 +5,9 @@
   "counts": {
     "recovered_occurrences": 881,
     "legacy_statement_groups": 441,
-    "published_occurrences": 423,
+    "published_occurrences": 513,
     "alternate_source_occurrences": 42,
-    "pending_occurrences": 416
+    "pending_occurrences": 326
   },
   "notes": [
     "Agrupaciones heredadas: su normalizador eliminaba signos matemáticos; no equivalen a duplicados certificados.",
@@ -14223,12 +14223,14 @@
         }
       ],
       "legacy_statement_group": 241,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "465",
       "inherited_solution_unverified": "El total acumulado es 1+2+...+30=30·31/2=465 ositos.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/5.º de primaria/FUSION_2024_eliminatoria-estatal_5-de-primaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_5-de-primaria_q02",
@@ -14264,12 +14266,14 @@
         }
       ],
       "legacy_statement_group": 242,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "6",
       "inherited_solution_unverified": "Hay tres elecciones para el primer perro, dos para el segundo y una para el tercero. Total 3·2·1=6 órdenes.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/5.º de primaria/FUSION_2024_eliminatoria-estatal_5-de-primaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_5-de-primaria_q03",
@@ -14305,12 +14309,14 @@
         }
       ],
       "legacy_statement_group": 243,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "C;opciónc",
-      "checkpoint_notes_unverified": "mover(5,1) a(4,2)"
+      "checkpoint_notes_unverified": "mover(5,1) a(4,2)",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/5.º de primaria/FUSION_2024_eliminatoria-estatal_5-de-primaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_5-de-primaria_q04",
@@ -14346,12 +14352,14 @@
         }
       ],
       "legacy_statement_group": 244,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "14",
       "inherited_solution_unverified": "Si Abel tiene a, Manuel tiene a+12 y Sarahi 2 a. La suma 4 a+12=40 da a=7; Sarahi tiene 14.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/5.º de primaria/FUSION_2024_eliminatoria-estatal_5-de-primaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_5-de-primaria_q05",
@@ -14366,12 +14374,14 @@
       "problem_text": "El diagrama mostrado se construyó con la regla de que dos cuadritos vecinos jamás pueden tener el\nmismo número. ¿Cuál pieza se puede colocar en el hueco del tablero de manera que se siga cumpliendo\nla regla?",
       "options": [],
       "legacy_statement_group": 245,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "d;opciónd",
-      "checkpoint_notes_unverified": "superior2,inferior3,1,4;lasotrascolisionan"
+      "checkpoint_notes_unverified": "superior2,inferior3,1,4;lasotrascolisionan",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/5.º de primaria/FUSION_2024_eliminatoria-estatal_5-de-primaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_5-de-primaria_q06",
@@ -14386,12 +14396,14 @@
       "problem_text": "ABDE es un rectángulo. BCD y AEF son triángulos equiláteros iguales. El perímetro del polígono\nABCDEF es de 520 m. Si el perímetro del triángulo AEF es de 144 m. ¿Cuál es la longitud de DE?",
       "options": [],
       "legacy_statement_group": 246,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "164 m",
       "inherited_solution_unverified": "Cada lado de los triángulos equiláteros mide 144/3=48 m. El contorno exterior incluye cuatro de esos lados y dos lados largos del rectángulo. Por eso 2·DE+4·48=520 y DE=164 m.",
       "inherited_source_solution_unverified": "Solución.",
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/5.º de primaria/FUSION_2024_eliminatoria-estatal_5-de-primaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_5-de-primaria_q07",
@@ -14406,12 +14418,14 @@
       "problem_text": "Eduardo llenó una cuadrícula con números, como se muestra en la figura, de forma que, cuando suma\nlos números en cada columna y los números en cada fila, el resultado es el mismo. Sin embargo,\nEduardo se equivocó. Para obtener el mismo resultado en cada una de las seis sumas, debe cambiar\nun número. ¿Qué número debe cambiar Eduardo?",
       "options": [],
       "legacy_statement_group": 247,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": "Solución.",
       "checkpoint_calculation_unverified": "cambiar3 por2",
-      "checkpoint_notes_unverified": "fila2,columna1;restaurarmatrizLaTeX"
+      "checkpoint_notes_unverified": "fila2,columna1;restaurarmatrizLaTeX",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/5.º de primaria/FUSION_2024_eliminatoria-estatal_5-de-primaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_5-de-primaria_q08",
@@ -14426,12 +14440,14 @@
       "problem_text": "A Miguel Ramón le gusta dibujar banderas y tiene 7 diferentes; una verde, una blanca, una roja otras 3\nde dos colores cada una: verde y blanca; verde y roja; blanca y roja; además de una tricolor verde,\nblanca y roja. ¿De cuántas maneras puede escoger 4 banderas de modo que cada par de banderas\ncomparta por lo menos un color?",
       "options": [],
       "legacy_statement_group": 248,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "4",
       "inherited_solution_unverified": "Si se incluye una bandera de un solo color, las otras tres deben contener ese color; para cada uno de los tres colores existe exactamente una selección así. Si no se incluye ninguna de un solo color, deben tomarse las tres bicolores y la tricolor, que forman una cuarta selección. Total 4.",
       "inherited_source_solution_unverified": "Solución.",
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/5.º de primaria/FUSION_2024_eliminatoria-estatal_5-de-primaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_5-de-primaria_q09",
@@ -14446,12 +14462,14 @@
       "problem_text": "Una pirámide se construye a partir de cubos. Todos los cubos tienen una longitud de lado de 10 cm. Una\nhormiga se arrastra a lo largo de la línea trazada a través de la pirámide como se muestra en el diagrama.\n¿Qué longitud tiene el camino que recorre la hormiga?",
       "options": [],
       "legacy_statement_group": 249,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": "Solución.",
       "checkpoint_calculation_unverified": "90cm",
-      "checkpoint_notes_unverified": "revisar6tramosverticales+3horizontales"
+      "checkpoint_notes_unverified": "revisar6tramosverticales+3horizontales",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/5.º de primaria/FUSION_2024_eliminatoria-estatal_5-de-primaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_5-de-primaria_q10",
@@ -14466,12 +14484,14 @@
       "problem_text": "Mayte y Alex fueron a comprar algunas cosas al supermercado cada uno llevaba $100. Mayte compró 4\nkg de jamón y dos panes. Para poder pagar tuvo que pedirle $8 prestados a Alex. Alex compró 2kg de\njamón y dos panes del mismo precio que el de Mayte; después de pagar y prestarle a Mayte los $8, le\nquedaron $32. ¿Cuánto costaba un pan?",
       "options": [],
       "legacy_statement_group": 250,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "$6",
       "inherited_solution_unverified": "Mayte gastó 108 pesos:4 j+2 p=108. Alex gastó 100-8-32=60:2 j+2 p=60. Al restar 2 j=48, j=24. Entonces 2 p=60-48=12 y cada pan costó 6 pesos.",
       "inherited_source_solution_unverified": "Solución.",
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/5.º de primaria/FUSION_2024_eliminatoria-estatal_5-de-primaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q01",
@@ -14507,12 +14527,14 @@
         }
       ],
       "legacy_statement_group": 243,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "C;opciónc",
-      "checkpoint_notes_unverified": "mover(5,1) a(4,2)"
+      "checkpoint_notes_unverified": "mover(5,1) a(4,2)",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/6.º de primaria/FUSION_2024_eliminatoria-estatal_6-de-primaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q02",
@@ -14548,12 +14570,14 @@
         }
       ],
       "legacy_statement_group": 251,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "14",
       "inherited_solution_unverified": "Si Abel tiene a, Manuel tiene a+12 y Sarahi 2 a. La suma 4 a+12=40 da a=7; Sarahi tiene 14.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/6.º de primaria/FUSION_2024_eliminatoria-estatal_6-de-primaria_classified.json",
+      "reviewed_status": "ambiguous_source_object_name"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q03",
@@ -14568,12 +14592,14 @@
       "problem_text": "El diagrama mostrado se construyó con la regla de que dos cuadritos vecinos jamás pueden tener el\nmismo número. ¿Cuál pieza se puede colocar en el hueco del tablero de manera que se siga cumpliendo\nla regla?",
       "options": [],
       "legacy_statement_group": 245,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "d;opciónd",
-      "checkpoint_notes_unverified": "superior2,inferior3,1,4;lasotrascolisionan"
+      "checkpoint_notes_unverified": "superior2,inferior3,1,4;lasotrascolisionan",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/6.º de primaria/FUSION_2024_eliminatoria-estatal_6-de-primaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q04",
@@ -14609,12 +14635,14 @@
         }
       ],
       "legacy_statement_group": 252,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "48m²;opcióne",
-      "checkpoint_notes_unverified": "sombreado1/16"
+      "checkpoint_notes_unverified": "sombreado1/16",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/6.º de primaria/FUSION_2024_eliminatoria-estatal_6-de-primaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q05",
@@ -14650,12 +14678,14 @@
         }
       ],
       "legacy_statement_group": 253,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": "Cada equipo juega dos partidos y puede sumar 0,1,2,3,4 o 6 puntos. Entre las opciones,8,5 y 7 son todos imposibles. El reactivo de opción única tiene tres respuestas válidas y debe corregirse.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/6.º de primaria/FUSION_2024_eliminatoria-estatal_6-de-primaria_classified.json",
+      "reviewed_status": "invalid_source_multiple_correct_options"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q06",
@@ -14670,12 +14700,14 @@
       "problem_text": "A Miguel Ramón le gusta dibujar banderas y tiene 7 diferentes; una verde, una blanca, una roja otras 3\nde dos colores cada una: verde y blanca; verde y roja; blanca y roja; además de una tricolor verde,\nblanca y roja. ¿De cuántas maneras puede escoger 4 banderas de modo que cada par de banderas\ncomparta por lo menos un color?",
       "options": [],
       "legacy_statement_group": 248,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "4",
       "inherited_solution_unverified": "Si se incluye una bandera de un solo color, las otras tres deben contener ese color; para cada uno de los tres colores existe exactamente una selección así. Si no se incluye ninguna de un solo color, deben tomarse las tres bicolores y la tricolor, que forman una cuarta selección. Total 4.",
       "inherited_source_solution_unverified": "Solución.",
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/6.º de primaria/FUSION_2024_eliminatoria-estatal_6-de-primaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q07",
@@ -14690,12 +14722,14 @@
       "problem_text": "Una pirámide se construye a partir de cubos. Todos los cubos tienen una longitud de lado de 10 cm. Una\nhormiga se arrastra a lo largo de la línea trazada a través de la pirámide como se muestra en el diagrama.\n¿Qué longitud tiene el camino que recorre la hormiga?",
       "options": [],
       "legacy_statement_group": 249,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": "Solución.",
       "checkpoint_calculation_unverified": "90cm",
-      "checkpoint_notes_unverified": "revisar6tramosverticales+3horizontales"
+      "checkpoint_notes_unverified": "revisar6tramosverticales+3horizontales",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/6.º de primaria/FUSION_2024_eliminatoria-estatal_6-de-primaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q08",
@@ -14710,12 +14744,14 @@
       "problem_text": "Mayte y Alex fueron a comprar algunas cosas al supermercado cada uno llevaba $100.Mayte compró 4\nkg de jamón y dos panes. Para poder pagar tuvo que pedirle $8 prestados a Alex. Alex compró 2kg de\njamón y dos panes del mismo precio que el de Mayte; después de pagar y prestarle a Mayte los $8, le\nquedaron $32. ¿Cuánto costaba un pan?",
       "options": [],
       "legacy_statement_group": 250,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "$6",
       "inherited_solution_unverified": "Mayte gastó 108 pesos:4 j+2 p=108. Alex gastó 100-8-32=60:2 j+2 p=60. Al restar 2 j=48, j=24. Entonces 2 p=60-48=12 y cada pan costó 6 pesos.",
       "inherited_source_solution_unverified": "Solución.",
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/6.º de primaria/FUSION_2024_eliminatoria-estatal_6-de-primaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q09",
@@ -14730,12 +14766,14 @@
       "problem_text": "Naty dobla dos veces a la mitad una hoja de papel que tiene los números del 1 al 36 como se muestra\na continuación.\nLuego le hace un hoyo que atraviesa las cuatro capas al mismo tiempo (como se muestra en la\nimagen). ¿Cuáles cuatro números perfora cuando hace el agujero?",
       "options": [],
       "legacy_statement_group": 254,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": "Solución.",
       "checkpoint_calculation_unverified": "14,17,20,23",
-      "checkpoint_notes_unverified": "filas3,4 ycolumnas2,5"
+      "checkpoint_notes_unverified": "filas3,4 ycolumnas2,5",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/6.º de primaria/FUSION_2024_eliminatoria-estatal_6-de-primaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q10",
@@ -14750,12 +14788,14 @@
       "problem_text": "¿Cuál es el área sombreada?",
       "options": [],
       "legacy_statement_group": 255,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": "Solución.",
       "checkpoint_calculation_unverified": "25pi/2",
-      "checkpoint_notes_unverified": "mitadde círculo"
+      "checkpoint_notes_unverified": "mitadde círculo",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/6.º de primaria/FUSION_2024_eliminatoria-estatal_6-de-primaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-secundaria_q01",
@@ -14770,12 +14810,14 @@
       "problem_text": "El diagrama mostrado se construyó con la regla de que dos cuadritos vecinos jamás pueden tener el\nmismo número. ¿Cuál pieza se puede colocar en el hueco del tablero de manera que se siga cumpliendo\nla regla?",
       "options": [],
       "legacy_statement_group": 245,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "d;opciónd",
-      "checkpoint_notes_unverified": "superior2,inferior3,1,4;lasotrascolisionan"
+      "checkpoint_notes_unverified": "superior2,inferior3,1,4;lasotrascolisionan",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/1.º de secundaria/FUSION_2024_eliminatoria-estatal_1-de-secundaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-secundaria_q02",
@@ -14811,12 +14853,14 @@
         }
       ],
       "legacy_statement_group": 252,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "48m²;opcióne",
-      "checkpoint_notes_unverified": "sombreado1/16"
+      "checkpoint_notes_unverified": "sombreado1/16",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/1.º de secundaria/FUSION_2024_eliminatoria-estatal_1-de-secundaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-secundaria_q03",
@@ -14852,12 +14896,14 @@
         }
       ],
       "legacy_statement_group": 253,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": "Cada equipo juega dos partidos y puede sumar 0,1,2,3,4 o 6 puntos. Entre las opciones,8,5 y 7 son todos imposibles. El reactivo de opción única tiene tres respuestas válidas y debe corregirse.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/1.º de secundaria/FUSION_2024_eliminatoria-estatal_1-de-secundaria_classified.json",
+      "reviewed_status": "invalid_source_multiple_correct_options"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-secundaria_q04",
@@ -14893,12 +14939,14 @@
         }
       ],
       "legacy_statement_group": 256,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "9",
       "inherited_solution_unverified": "Si terminan en 0, los números son 220,230,320,330. Si terminan en 2, son 202,232,302,322,332;222 no se permite porque solo hay dos cifras 2. Hay 4+5=9.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/1.º de secundaria/FUSION_2024_eliminatoria-estatal_1-de-secundaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-secundaria_q05",
@@ -14934,12 +14982,14 @@
         }
       ],
       "legacy_statement_group": 257,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "3figuras;opcióna",
-      "checkpoint_notes_unverified": "cuadradogrisgrande,círculogrispequeño,círculoblancogrande"
+      "checkpoint_notes_unverified": "cuadradogrisgrande,círculogrispequeño,círculoblancogrande",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/1.º de secundaria/FUSION_2024_eliminatoria-estatal_1-de-secundaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-secundaria_q06",
@@ -14954,12 +15004,14 @@
       "problem_text": "Mayte y Alex fueron a comprar algunas cosas al supermercado cada uno llevaba $100. Mayte compró 4\nkg de jamón y dos panes. Para poder pagar tuvo que pedirle $8 prestados a Alex. Alex compró 2kg de\njamón y dos panes del mismo precio que el de Mayte; después de pagar y prestarle a Mayte los $8, le\nquedaron $32. ¿Cuánto costaba un pan?",
       "options": [],
       "legacy_statement_group": 250,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "$6",
       "inherited_solution_unverified": "Mayte gastó 108 pesos:4 j+2 p=108. Alex gastó 100-8-32=60:2 j+2 p=60. Al restar 2 j=48, j=24. Entonces 2 p=60-48=12 y cada pan costó 6 pesos.",
       "inherited_source_solution_unverified": "Solución.",
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/1.º de secundaria/FUSION_2024_eliminatoria-estatal_1-de-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-secundaria_q07",
@@ -14974,12 +15026,14 @@
       "problem_text": "Naty dobla dos veces a la mitad una hoja de papel que tiene los números del 1 al 36 como se muestra\na continuación.\nLuego le hace un hoyo que atraviesa las cuatro capas al mismo tiempo (como se muestra en la\nimagen). ¿Cuáles cuatro números perfora cuando hace el agujero?",
       "options": [],
       "legacy_statement_group": 254,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": "Solución.",
       "checkpoint_calculation_unverified": "14,17,20,23",
-      "checkpoint_notes_unverified": "filas3,4 ycolumnas2,5"
+      "checkpoint_notes_unverified": "filas3,4 ycolumnas2,5",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/1.º de secundaria/FUSION_2024_eliminatoria-estatal_1-de-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-secundaria_q08",
@@ -14994,12 +15048,14 @@
       "problem_text": "¿Cuál es el área sombreada?",
       "options": [],
       "legacy_statement_group": 255,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": "Solución.",
       "checkpoint_calculation_unverified": "25pi/2",
-      "checkpoint_notes_unverified": "mitadde círculo"
+      "checkpoint_notes_unverified": "mitadde círculo",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/1.º de secundaria/FUSION_2024_eliminatoria-estatal_1-de-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-secundaria_q09",
@@ -15014,12 +15070,14 @@
       "problem_text": "Debajo de las cartas del mismo color, siempre se encuentra el mismo número. Si se suman los tres\nnúmeros ocultos en una fila, se obtiene el número a la derecha de la fila. ¿Qué número está escondido\ndebajo de la tarjeta negra?",
       "options": [],
       "legacy_statement_group": 258,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": "Solución.",
       "checkpoint_calculation_unverified": "12",
-      "checkpoint_notes_unverified": "gris6,blanco14;no usarlecturapreliminar14/12/16"
+      "checkpoint_notes_unverified": "gris6,blanco14;no usarlecturapreliminar14/12/16",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/1.º de secundaria/FUSION_2024_eliminatoria-estatal_1-de-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-secundaria_q10",
@@ -15034,12 +15092,14 @@
       "problem_text": "Jorge el Guerrero dibujó un triángulo equilátero y marcó sus puntos medios A, B, C, después unió los 3\npuntos medios con líneas rectas formando otro triangulo interior y cada punto medio A, B, C, con el\nvértice opuesto correspondiente al triángulo original, ¿cuántos triángulos se pueden observar en el dibujo\nde Jorge?",
       "options": [],
       "legacy_statement_group": 259,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": "Solución.",
       "checkpoint_calculation_unverified": "47",
-      "checkpoint_notes_unverified": "coordenadas racionales;10vértices;ternasexactas"
+      "checkpoint_notes_unverified": "coordenadas racionales;10vértices;ternasexactas",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/1.º de secundaria/FUSION_2024_eliminatoria-estatal_1-de-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-secundaria_q01",
@@ -15075,12 +15135,14 @@
         }
       ],
       "legacy_statement_group": 253,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": "Cada equipo juega dos partidos y puede sumar 0,1,2,3,4 o 6 puntos. Entre las opciones,8,5 y 7 son todos imposibles. El reactivo de opción única tiene tres respuestas válidas y debe corregirse.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/2.º de secundaria/FUSION_2024_eliminatoria-estatal_2-de-secundaria_classified.json",
+      "reviewed_status": "invalid_source_multiple_correct_options"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-secundaria_q02",
@@ -15116,12 +15178,14 @@
         }
       ],
       "legacy_statement_group": 256,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "9",
       "inherited_solution_unverified": "Si terminan en 0, los números son 220,230,320,330. Si terminan en 2, son 202,232,302,322,332;222 no se permite porque solo hay dos cifras 2. Hay 4+5=9.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/2.º de secundaria/FUSION_2024_eliminatoria-estatal_2-de-secundaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-secundaria_q03",
@@ -15157,12 +15221,14 @@
         }
       ],
       "legacy_statement_group": 257,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "3figuras;opcióna",
-      "checkpoint_notes_unverified": "cuadradogrisgrande,círculogrispequeño,círculoblancogrande"
+      "checkpoint_notes_unverified": "cuadradogrisgrande,círculogrispequeño,círculoblancogrande",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/2.º de secundaria/FUSION_2024_eliminatoria-estatal_2-de-secundaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-secundaria_q04",
@@ -15198,12 +15264,14 @@
         }
       ],
       "legacy_statement_group": 260,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "$0.40",
       "inherited_solution_unverified": "La docena debe venderse a 3.60+1.20=4.80 pesos. Cada limón cuesta 4.80/12=0.40 pesos.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/2.º de secundaria/FUSION_2024_eliminatoria-estatal_2-de-secundaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-secundaria_q05",
@@ -15239,12 +15307,14 @@
         }
       ],
       "legacy_statement_group": 261,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "3;opciónc",
-      "checkpoint_notes_unverified": "mcm20,30=60"
+      "checkpoint_notes_unverified": "mcm20,30=60",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/2.º de secundaria/FUSION_2024_eliminatoria-estatal_2-de-secundaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-secundaria_q06",
@@ -15259,12 +15329,14 @@
       "problem_text": "¿Cuál es el área sombreada?",
       "options": [],
       "legacy_statement_group": 255,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": "Solución.",
       "checkpoint_calculation_unverified": "25pi/2",
-      "checkpoint_notes_unverified": "mitadde círculo"
+      "checkpoint_notes_unverified": "mitadde círculo",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/2.º de secundaria/FUSION_2024_eliminatoria-estatal_2-de-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-secundaria_q07",
@@ -15279,12 +15351,14 @@
       "problem_text": "Debajo de las cartas del mismo color, siempre se encuentra el mismo número. Si se suman los tres\nnúmeros ocultos en una fila, se obtiene el número a la derecha de la fila. ¿Qué número está escondido\ndebajo de la tarjeta negra?",
       "options": [],
       "legacy_statement_group": 258,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": "Solución.",
       "checkpoint_calculation_unverified": "12",
-      "checkpoint_notes_unverified": "gris6,blanco14;no usarlecturapreliminar14/12/16"
+      "checkpoint_notes_unverified": "gris6,blanco14;no usarlecturapreliminar14/12/16",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/2.º de secundaria/FUSION_2024_eliminatoria-estatal_2-de-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-secundaria_q08",
@@ -15299,12 +15373,14 @@
       "problem_text": "Jorge el Guerrero dibujó un triángulo equilátero y marcó sus puntos medios A, B, C, después unió los 3\npuntos medios con líneas rectas formando otro triangulo interior y cada punto medio A, B, C, con el\nvértice opuesto correspondiente al triángulo original, ¿cuántos triángulos se pueden observar en el dibujo\nde Jorge?",
       "options": [],
       "legacy_statement_group": 259,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": "Solución.",
       "checkpoint_calculation_unverified": "47",
-      "checkpoint_notes_unverified": "coordenadas racionales;10vértices;ternasexactas"
+      "checkpoint_notes_unverified": "coordenadas racionales;10vértices;ternasexactas",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/2.º de secundaria/FUSION_2024_eliminatoria-estatal_2-de-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-secundaria_q09",
@@ -15319,12 +15395,14 @@
       "problem_text": "El cubo grande se compone de tres tipos diferentes de bloques de construcción como se muestra en la\nfigura. ¿Cuántos de los pequeños cubos blancos se necesitan para este cubo grande?",
       "options": [],
       "legacy_statement_group": 262,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": "Solución.",
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/2.º de secundaria/FUSION_2024_eliminatoria-estatal_2-de-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-secundaria_q10",
@@ -15339,12 +15417,14 @@
       "problem_text": "Charlitos está en casa de su abuelita y su amigo el Profe Alex en el parque de los olivos, distantes entre\nsí 20 km. Planearon encontrarse una mañana. Los dos salieron a las 9 a.m., Charlitos caminaba a 5\nkm/h y el profe Alex a 7 km/h. ¿A qué hora y a qué distancia de la casa de la abuelita de Charlitos se\nencontraron?",
       "options": [],
       "legacy_statement_group": 263,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "10:40 a.m.; 25/3 km de la casa",
       "inherited_solution_unverified": "Al caminar uno hacia el otro la velocidad relativa es 5+7=12 km/h. Tardan 20/12=5/3 horas, es decir 1 hora 40 minutos, y se encuentran a las 10:40. Charlitos recorrió 5·5/3=25/3 km desde su casa.",
       "inherited_source_solution_unverified": "Solución.",
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/2.º de secundaria/FUSION_2024_eliminatoria-estatal_2-de-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_3-de-secundaria_q01",
@@ -15380,12 +15460,14 @@
         }
       ],
       "legacy_statement_group": 257,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "3figuras;opcióna",
-      "checkpoint_notes_unverified": "cuadradogrisgrande,círculogrispequeño,círculoblancogrande"
+      "checkpoint_notes_unverified": "cuadradogrisgrande,círculogrispequeño,círculoblancogrande",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/3.º de secundaria/FUSION_2024_eliminatoria-estatal_3-de-secundaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_3-de-secundaria_q02",
@@ -15421,12 +15503,14 @@
         }
       ],
       "legacy_statement_group": 260,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "$0.40",
       "inherited_solution_unverified": "La docena debe venderse a 3.60+1.20=4.80 pesos. Cada limón cuesta 4.80/12=0.40 pesos.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/3.º de secundaria/FUSION_2024_eliminatoria-estatal_3-de-secundaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_3-de-secundaria_q03",
@@ -15462,12 +15546,14 @@
         }
       ],
       "legacy_statement_group": 261,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "3;opciónc",
-      "checkpoint_notes_unverified": "mcm20,30=60"
+      "checkpoint_notes_unverified": "mcm20,30=60",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/3.º de secundaria/FUSION_2024_eliminatoria-estatal_3-de-secundaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_3-de-secundaria_q04",
@@ -15503,12 +15589,14 @@
         }
       ],
       "legacy_statement_group": 264,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "135grados;opciónc",
-      "checkpoint_notes_unverified": "B=D;(360-90)/2"
+      "checkpoint_notes_unverified": "B=D;(360-90)/2",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/3.º de secundaria/FUSION_2024_eliminatoria-estatal_3-de-secundaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_3-de-secundaria_q05",
@@ -15544,12 +15632,14 @@
         }
       ],
       "legacy_statement_group": 265,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "699",
       "inherited_solution_unverified": "Para minimizar una concatenación se coloca X antes de Y cuando XY<YX. El orden mínimo de las tarjetas es 113,4,51,5,67,69,9, que forma 113451567699. Sus últimos tres dígitos son 699.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/3.º de secundaria/FUSION_2024_eliminatoria-estatal_3-de-secundaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_3-de-secundaria_q06",
@@ -15564,12 +15654,14 @@
       "problem_text": "Jorge el Guerrero dibujó un triángulo equilátero y marcó sus puntos medios A, B, C, después unió los 3\npuntos medios con líneas rectas formando otro triangulo interior y cada punto medio A, B, C, con el\nvértice opuesto correspondiente al triángulo original, ¿cuántos triángulos se pueden observar en el\ndibujo de Jorge?",
       "options": [],
       "legacy_statement_group": 259,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": "Solución.",
       "checkpoint_calculation_unverified": "47",
-      "checkpoint_notes_unverified": "coordenadas racionales;10vértices;ternasexactas"
+      "checkpoint_notes_unverified": "coordenadas racionales;10vértices;ternasexactas",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/3.º de secundaria/FUSION_2024_eliminatoria-estatal_3-de-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_3-de-secundaria_q07",
@@ -15584,12 +15676,14 @@
       "problem_text": "El cubo grande se compone de tres tipos diferentes de bloques de construcción como se muestra en la\nfigura. ¿Cuántos de los pequeños cubos blancos se necesitan para este cubo grande?",
       "options": [],
       "legacy_statement_group": 262,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": "Solución.",
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/3.º de secundaria/FUSION_2024_eliminatoria-estatal_3-de-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_3-de-secundaria_q08",
@@ -15604,12 +15698,14 @@
       "problem_text": "Charlitos está en casa de su abuelita y su amigo el Profe Alex en el parque de los olivos, distantes entre\nsí 20 km. Planearon encontrarse una mañana. Los dos salieron a las 9 a.m., Charlitos caminaba a 5\nkm/h y el profe Alex a 7 km/h. ¿A qué hora y a qué distancia de la casa de la abuelita de Charlitos se\nencontraron?",
       "options": [],
       "legacy_statement_group": 263,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "10:40 a.m.; 25/3 km de la casa",
       "inherited_solution_unverified": "Al caminar uno hacia el otro la velocidad relativa es 5+7=12 km/h. Tardan 20/12=5/3 horas, es decir 1 hora 40 minutos, y se encuentran a las 10:40. Charlitos recorrió 5·5/3=25/3 km desde su casa.",
       "inherited_source_solution_unverified": "Solución.",
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/3.º de secundaria/FUSION_2024_eliminatoria-estatal_3-de-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_3-de-secundaria_q09",
@@ -15624,12 +15720,14 @@
       "problem_text": "El año 2022 tiene tres dígitos iguales. Esta es la tercera vez que la tortuga Adriana experimenta un año\nen el que el mismo dígito aparece tres veces. ¿Cuál es la edad de la tortuga Adriana?",
       "options": [],
       "legacy_statement_group": 266,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": "Los años 1999,2000 y 2022 tienen tres cifras iguales. Una tortuga nacida en 1998 o en 1999 experimentaría exactamente esos tres años hasta 2022, pero tendría edades diferentes. El dato no determina una edad única.",
       "inherited_source_solution_unverified": "Solución.",
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/3.º de secundaria/FUSION_2024_eliminatoria-estatal_3-de-secundaria_classified.json",
+      "reviewed_status": "ambiguous_source_age_not_unique"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_3-de-secundaria_q10",
@@ -15644,12 +15742,14 @@
       "problem_text": "Ernesto dibujó Sobre una recta los puntos A, B, C, y D en ese orden. M es el punto medio del segmento\nAB, N es el punto medio del segmento CD, MN = 7cm. ¿Cuál es la longitud de la suma de los segmentos\nAC + AD + BD + BC?",
       "options": [],
       "legacy_statement_group": 267,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "28 cm",
       "inherited_solution_unverified": "Si AB=u, BC=v y CD=w, la distancia entre los puntos medios es MN=u/2+v+w/2. La suma solicitada es(u+v)+(u+v+w)+(v+w)+v=2 u+4 v+2 w=4 MN=28 cm.",
       "inherited_source_solution_unverified": "Solución.",
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/3.º de secundaria/FUSION_2024_eliminatoria-estatal_3-de-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-preparatoria_q01",
@@ -15685,12 +15785,14 @@
         }
       ],
       "legacy_statement_group": 261,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "3;opciónc",
-      "checkpoint_notes_unverified": "mcm20,30=60"
+      "checkpoint_notes_unverified": "mcm20,30=60",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/1.º de preparatoria/FUSION_2024_eliminatoria-estatal_1-de-preparatoria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-preparatoria_q02",
@@ -15726,12 +15828,14 @@
         }
       ],
       "legacy_statement_group": 264,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "135grados;opciónc",
-      "checkpoint_notes_unverified": "B=D;(360-90)/2"
+      "checkpoint_notes_unverified": "B=D;(360-90)/2",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/1.º de preparatoria/FUSION_2024_eliminatoria-estatal_1-de-preparatoria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-preparatoria_q03",
@@ -15767,12 +15871,14 @@
         }
       ],
       "legacy_statement_group": 268,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "2 kg",
       "inherited_solution_unverified": "El más pesado tiene al menos 29 kg. Los otros dos, enteros positivos distintos, pesan al menos 2 y 1 kg. Ya suman 29+28+2+1=60, así solo ese reparto es posible. El tercero pesa 2 kg.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/1.º de preparatoria/FUSION_2024_eliminatoria-estatal_1-de-preparatoria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-preparatoria_q04",
@@ -15808,12 +15914,14 @@
         }
       ],
       "legacy_statement_group": 269,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "2/9",
       "inherited_solution_unverified": "Los cuadrados que usan solo cifras de 1 a 6 son 16,25,36 y 64. Cada uno puede aparecer en dos órdenes de los dados, dando 8 resultados favorables de 36 equiprobables. La probabilidad es 8/36=2/9.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/1.º de preparatoria/FUSION_2024_eliminatoria-estatal_1-de-preparatoria_classified.json",
+      "reviewed_status": "ambiguous_source_digit_order"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-preparatoria_q05",
@@ -15849,12 +15957,14 @@
         }
       ],
       "legacy_statement_group": 270,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "c;opciónc",
-      "checkpoint_notes_unverified": "sLsLLsLsL;intercalacionesa,b,d,e posibles"
+      "checkpoint_notes_unverified": "sLsLLsLsL;intercalacionesa,b,d,e posibles",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/1.º de preparatoria/FUSION_2024_eliminatoria-estatal_1-de-preparatoria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-preparatoria_q06",
@@ -15869,12 +15979,14 @@
       "problem_text": "Charlitos está en casa de su abuelita y su amigo el Profe Alex en el parque de los olivos, distantes entre\nsí 20 km. Planearon encontrarse una mañana. Los dos salieron a las 9 a.m., Charlitos caminaba a 5\nkm/h y el profe Alex a 7 km/h. ¿A qué hora y a qué distancia de la casa de la abuelita de Charlitos se\nencontraron?",
       "options": [],
       "legacy_statement_group": 263,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "10:40 a.m.; 25/3 km de la casa",
       "inherited_solution_unverified": "Al caminar uno hacia el otro la velocidad relativa es 5+7=12 km/h. Tardan 20/12=5/3 horas, es decir 1 hora 40 minutos, y se encuentran a las 10:40. Charlitos recorrió 5·5/3=25/3 km desde su casa.",
       "inherited_source_solution_unverified": "Solución.",
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/1.º de preparatoria/FUSION_2024_eliminatoria-estatal_1-de-preparatoria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-preparatoria_q07",
@@ -15889,12 +16001,14 @@
       "problem_text": "El año 2022 tiene tres dígitos iguales. Esta es la tercera vez que la tortuga Adriana experimenta un año\nen el que el mismo dígito aparece tres veces. ¿Cuál es la edad de la tortuga Adriana?",
       "options": [],
       "legacy_statement_group": 266,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": "Los años 1999,2000 y 2022 tienen tres cifras iguales. Una tortuga nacida en 1998 o en 1999 experimentaría exactamente esos tres años hasta 2022, pero tendría edades diferentes. El dato no determina una edad única.",
       "inherited_source_solution_unverified": "Solución.",
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/1.º de preparatoria/FUSION_2024_eliminatoria-estatal_1-de-preparatoria_classified.json",
+      "reviewed_status": "ambiguous_source_age_not_unique"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-preparatoria_q08",
@@ -15909,12 +16023,14 @@
       "problem_text": "Ernesto dibujó Sobre una recta los puntos A, B, C, y D en ese orden. M es el punto medio del segmento\nAB, N es el punto medio del segmento CD, MN = 7cm. ¿Cuál es la longitud de la suma de los segmentos\nAC + AD + BD + BC?",
       "options": [],
       "legacy_statement_group": 267,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "28 cm",
       "inherited_solution_unverified": "Si AB=u, BC=v y CD=w, la distancia entre los puntos medios es MN=u/2+v+w/2. La suma solicitada es(u+v)+(u+v+w)+(v+w)+v=2 u+4 v+2 w=4 MN=28 cm.",
       "inherited_source_solution_unverified": "Solución.",
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/1.º de preparatoria/FUSION_2024_eliminatoria-estatal_1-de-preparatoria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-preparatoria_q09",
@@ -15929,12 +16045,14 @@
       "problem_text": "Cada animal en la imagen de representa un número entero positivo. Diferentes animales representan un\nnúmero diferente. La suma de los dos números de cada columna se escribe debajo de cada columna.\n¿Cuál es el valor máximo que puede tener la suma de los cuatro números de la fila superior?",
       "options": [],
       "legacy_statement_group": 271,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": "Solución.",
       "checkpoint_calculation_unverified": "máximofila20",
-      "checkpoint_notes_unverified": "parejas7/8,5/6,1/2,3/4"
+      "checkpoint_notes_unverified": "parejas7/8,5/6,1/2,3/4",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/1.º de preparatoria/FUSION_2024_eliminatoria-estatal_1-de-preparatoria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-preparatoria_q10",
@@ -15949,12 +16067,14 @@
       "problem_text": "Damaso juega con 3 fichas (una verde, una blanca y una roja) las cuales debe acomodar en una\ncuadrícula de 3x3 de tal forma que una ficha no tenga a su alrededor ninguna otra ficha. ¿De cuántas\nmaneras distintas se puede hacer?",
       "options": [],
       "legacy_statement_group": 272,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": "Solución.",
       "checkpoint_calculation_unverified": "48",
-      "checkpoint_notes_unverified": "8conjuntoscasillas*6órdenes"
+      "checkpoint_notes_unverified": "8conjuntoscasillas*6órdenes",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/1.º de preparatoria/FUSION_2024_eliminatoria-estatal_1-de-preparatoria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-preparatoria_q01",
@@ -15990,12 +16110,14 @@
         }
       ],
       "legacy_statement_group": 268,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "2 kg",
       "inherited_solution_unverified": "El más pesado tiene al menos 29 kg. Los otros dos, enteros positivos distintos, pesan al menos 2 y 1 kg. Ya suman 29+28+2+1=60, así solo ese reparto es posible. El tercero pesa 2 kg.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/2.º de preparatoria/FUSION_2024_eliminatoria-estatal_2-de-preparatoria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-preparatoria_q02",
@@ -16031,12 +16153,14 @@
         }
       ],
       "legacy_statement_group": 269,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "2/9",
       "inherited_solution_unverified": "Los cuadrados que usan solo cifras de 1 a 6 son 16,25,36 y 64. Cada uno puede aparecer en dos órdenes de los dados, dando 8 resultados favorables de 36 equiprobables. La probabilidad es 8/36=2/9.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/2.º de preparatoria/FUSION_2024_eliminatoria-estatal_2-de-preparatoria_classified.json",
+      "reviewed_status": "ambiguous_source_digit_order"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-preparatoria_q03",
@@ -16072,12 +16196,14 @@
         }
       ],
       "legacy_statement_group": 270,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "c;opciónc",
-      "checkpoint_notes_unverified": "sLsLLsLsL;intercalacionesa,b,d,e posibles"
+      "checkpoint_notes_unverified": "sLsLLsLsL;intercalacionesa,b,d,e posibles",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/2.º de preparatoria/FUSION_2024_eliminatoria-estatal_2-de-preparatoria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-preparatoria_q04",
@@ -16113,12 +16239,14 @@
         }
       ],
       "legacy_statement_group": 273,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "2 minutos",
       "inherited_solution_unverified": "Las tasas son 1/10,2/10 y 2/10 bicicleta por minuto. Juntos lavan 1/2 bicicleta por minuto y tardan 2 minutos.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/2.º de preparatoria/FUSION_2024_eliminatoria-estatal_2-de-preparatoria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-preparatoria_q05",
@@ -16154,12 +16282,14 @@
         }
       ],
       "legacy_statement_group": 274,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "7",
       "inherited_solution_unverified": "El producto de los cinco números es 3·4·5·6·7=2520. Al dividir entre el producto exterior 360 queda el número interior 2520/360=7.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/2.º de preparatoria/FUSION_2024_eliminatoria-estatal_2-de-preparatoria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-preparatoria_q06",
@@ -16174,12 +16304,14 @@
       "problem_text": "Ernesto dibujó Sobre una recta los puntos A, B, C, y D en ese orden. M es el punto medio del segmento\nAB, N es el punto medio del segmento CD, MN = 7cm. ¿Cuál es la longitud de la suma de los segmentos\nAC + AD + BD + BC?",
       "options": [],
       "legacy_statement_group": 267,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "28 cm",
       "inherited_solution_unverified": "Si AB=u, BC=v y CD=w, la distancia entre los puntos medios es MN=u/2+v+w/2. La suma solicitada es(u+v)+(u+v+w)+(v+w)+v=2 u+4 v+2 w=4 MN=28 cm.",
       "inherited_source_solution_unverified": "Solución.",
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/2.º de preparatoria/FUSION_2024_eliminatoria-estatal_2-de-preparatoria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-preparatoria_q07",
@@ -16194,12 +16326,14 @@
       "problem_text": "Cada animal en la imagen representa un número entero positivo. Diferentes animales representan un\nnúmero diferente. La suma de los dos números de cada columna se escribe debajo de cada columna.\n¿Cuál es el valor máximo que puede tener la suma de los cuatro números de la fila superior?",
       "options": [],
       "legacy_statement_group": 275,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": "Solución.",
       "checkpoint_calculation_unverified": "20",
-      "checkpoint_notes_unverified": "seleccionarmayores8+6+2+4"
+      "checkpoint_notes_unverified": "seleccionarmayores8+6+2+4",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/2.º de preparatoria/FUSION_2024_eliminatoria-estatal_2-de-preparatoria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-preparatoria_q08",
@@ -16214,12 +16348,14 @@
       "problem_text": "Damaso juega con 3 fichas (una verde, una blanca y una roja) las cuales debe acomodar en una\ncuadrícula de 3x3 de tal forma que una ficha no tenga a su alrededor ninguna otra ficha. ¿De cuántas\nmaneras distintas se puede hacer?",
       "options": [],
       "legacy_statement_group": 272,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": "Solución.",
       "checkpoint_calculation_unverified": "48",
-      "checkpoint_notes_unverified": "8conjuntoscasillas*6órdenes"
+      "checkpoint_notes_unverified": "8conjuntoscasillas*6órdenes",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/2.º de preparatoria/FUSION_2024_eliminatoria-estatal_2-de-preparatoria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-preparatoria_q09",
@@ -16234,12 +16370,14 @@
       "problem_text": "Dos ladrillos idénticos se pueden colocar uno al lado de otro de tres maneras diferentes, como se\nmuestra en la figura. Para envolver con papel cada una de las figuras resultantes necesitamos 72, 96 y\n102 centímetros cuadrados de papel. ¿Cuánto papel en centímetros cuadrados se necesita para\nenvolver un ladrillo?",
       "options": [],
       "legacy_statement_group": 276,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "54 cm²",
       "inherited_solution_unverified": "Sean a,b,c las dimensiones de un ladrillo. Las superficies de los tres bloques dobles son 4 ab+4 ac+2 bc,4 ab+2 ac+4 bc y 2 ab+4 ac+4 bc. Su suma 270 es 10(ab+ac+bc). La superficie de un solo ladrillo es 2(ab+ac+bc)=270/5=54 cm².",
       "inherited_source_solution_unverified": "Solución.",
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/2.º de preparatoria/FUSION_2024_eliminatoria-estatal_2-de-preparatoria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-preparatoria_q10",
@@ -16254,12 +16392,14 @@
       "problem_text": "¿Para cuántos enteros \\(k\\), con \\(1\\le k\\le100\\), el número \\(k^k\\) es un cuadrado perfecto?",
       "options": [],
       "legacy_statement_group": 277,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "55",
       "inherited_solution_unverified": "La expresión del PDF es k^k. Todo k par produce un cuadrado: hay 50. Para k impar, k^k es cuadrado exactamente cuando k lo es. Los cuadrados impares hasta 100 son 1,9,25,49,81, cinco más. Total 55.",
       "inherited_source_solution_unverified": "Solución.",
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/2.º de preparatoria/FUSION_2024_eliminatoria-estatal_2-de-preparatoria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_3-de-preparatoria_q01",
@@ -16295,12 +16435,14 @@
         }
       ],
       "legacy_statement_group": 270,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "c;opciónc",
-      "checkpoint_notes_unverified": "sLsLLsLsL;intercalacionesa,b,d,e posibles"
+      "checkpoint_notes_unverified": "sLsLLsLsL;intercalacionesa,b,d,e posibles",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/3.º de preparatoria/FUSION_2024_eliminatoria-estatal_3-de-preparatoria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_3-de-preparatoria_q02",
@@ -16336,12 +16478,14 @@
         }
       ],
       "legacy_statement_group": 273,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "2 minutos",
       "inherited_solution_unverified": "Las tasas son 1/10,2/10 y 2/10 bicicleta por minuto. Juntos lavan 1/2 bicicleta por minuto y tardan 2 minutos.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/3.º de preparatoria/FUSION_2024_eliminatoria-estatal_3-de-preparatoria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_3-de-preparatoria_q03",
@@ -16377,12 +16521,14 @@
         }
       ],
       "legacy_statement_group": 274,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "7",
       "inherited_solution_unverified": "El producto de los cinco números es 3·4·5·6·7=2520. Al dividir entre el producto exterior 360 queda el número interior 2520/360=7.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/3.º de preparatoria/FUSION_2024_eliminatoria-estatal_3-de-preparatoria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_3-de-preparatoria_q04",
@@ -16418,12 +16564,14 @@
         }
       ],
       "legacy_statement_group": 278,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "20/7",
       "inherited_solution_unverified": "Toma A=(0,0),B=(4,0),C=(4,4),D=(0,4),M=(1,0). Un punto de MC es(1+3 t,4 t); para estar en DB debe cumplir x+y=4, así 1+7 t=4 y t=3/7. Como MC=5, PC=(1-3/7)·5=20/7.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/3.º de preparatoria/FUSION_2024_eliminatoria-estatal_3-de-preparatoria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_3-de-preparatoria_q05",
@@ -16459,12 +16607,14 @@
         }
       ],
       "legacy_statement_group": 279,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "jueves",
       "inherited_solution_unverified": "En jueves el oso dice la verdad y ayer miércoles fue un día de mentira para él. La pantera miente en jueves y ayer miércoles no fue uno de sus días de mentira. Ambas afirmaciones cumplen así su patrón. Al comprobar los otros seis días no hay otra coincidencia.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/3.º de preparatoria/FUSION_2024_eliminatoria-estatal_3-de-preparatoria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_3-de-preparatoria_q06",
@@ -16479,12 +16629,14 @@
       "problem_text": "Damaso juega con 3 fichas (una verde, una blanca y una roja) las cuales debe acomodar en una\ncuadrícula de 3x3 de tal forma que una ficha no tenga a su alrededor ninguna otra ficha. ¿De cuántas\nmaneras distintas se puede hacer?",
       "options": [],
       "legacy_statement_group": 272,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": "Solución.",
       "checkpoint_calculation_unverified": "48",
-      "checkpoint_notes_unverified": "8conjuntoscasillas*6órdenes"
+      "checkpoint_notes_unverified": "8conjuntoscasillas*6órdenes",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/3.º de preparatoria/FUSION_2024_eliminatoria-estatal_3-de-preparatoria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_3-de-preparatoria_q07",
@@ -16499,12 +16651,14 @@
       "problem_text": "Dos ladrillos idénticos se pueden colocar uno al lado de otro de tres maneras diferentes, como se\nmuestra en la figura. Para envolver con papel cada una de las figuras resultantes necesitamos 72, 96 y\n102 centímetros cuadrados de papel. ¿Cuánto papel en centímetros cuadrados se necesita para\nenvolver un ladrillo?",
       "options": [],
       "legacy_statement_group": 276,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "54 cm²",
       "inherited_solution_unverified": "Sean a,b,c las dimensiones de un ladrillo. Las superficies de los tres bloques dobles son 4 ab+4 ac+2 bc,4 ab+2 ac+4 bc y 2 ab+4 ac+4 bc. Su suma 270 es 10(ab+ac+bc). La superficie de un solo ladrillo es 2(ab+ac+bc)=270/5=54 cm².",
       "inherited_source_solution_unverified": "Solución.",
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/3.º de preparatoria/FUSION_2024_eliminatoria-estatal_3-de-preparatoria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_3-de-preparatoria_q08",
@@ -16519,12 +16673,14 @@
       "problem_text": "¿Para cuántos enteros \\(k\\), con \\(1\\le k\\le100\\), el número \\(k^k\\) es un cuadrado perfecto?",
       "options": [],
       "legacy_statement_group": 277,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "55",
       "inherited_solution_unverified": "La expresión del PDF es k^k. Todo k par produce un cuadrado: hay 50. Para k impar, k^k es cuadrado exactamente cuando k lo es. Los cuadrados impares hasta 100 son 1,9,25,49,81, cinco más. Total 55.",
       "inherited_source_solution_unverified": "Solución.",
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/3.º de preparatoria/FUSION_2024_eliminatoria-estatal_3-de-preparatoria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_3-de-preparatoria_q09",
@@ -16539,12 +16695,14 @@
       "problem_text": "Eduardo escribe la suma de los cuadrados de dos números. Desafortunadamente, se chorreó un poco\nde tinta y, por lo tanto, no podemos leer todos los dígitos. ¿Cuál es el último dígito del primer número?",
       "options": [],
       "legacy_statement_group": 280,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": "Solución.",
       "checkpoint_calculation_unverified": "últimodígito5",
-      "checkpoint_notes_unverified": "2385²+1202²;símbolosborrados se transcriben comoletras"
+      "checkpoint_notes_unverified": "2385²+1202²;símbolosborrados se transcriben comoletras",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/3.º de preparatoria/FUSION_2024_eliminatoria-estatal_3-de-preparatoria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_3-de-preparatoria_q10",
@@ -16559,12 +16717,14 @@
       "problem_text": "Rosa Angelica dibuja un rectángulo y los divide en 9 rectángulos iguales trazando 2 rectas paralelas a\nun par de lados y 2 rectas paralelas al otro par de lados. Uno de estos 9 rectángulos se divide en 4\nrectángulos iguales trazando 1 recta paralela a un par de lados y una recta paralela al otro par de lados.\nEl perímetro de cada uno de los rectángulos más pequeños es de 5 cm. ¿Cuál es el perímetro del primer\nrectángulo que dibujó Rosa Angélica?",
       "options": [],
       "legacy_statement_group": 281,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "30 cm",
       "inherited_solution_unverified": "Cada rectángulo pequeño tiene las dimensiones del original divididas por 6: primero por 3 y luego por 2. El perímetro también se divide por 6. El perímetro original es 6·5=30 cm.",
       "inherited_source_solution_unverified": "Solución.",
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/3.º de preparatoria/FUSION_2024_eliminatoria-estatal_3-de-preparatoria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_universitarios_q01",
@@ -16600,12 +16760,14 @@
         }
       ],
       "legacy_statement_group": 274,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "7",
       "inherited_solution_unverified": "El producto de los cinco números es 3·4·5·6·7=2520. Al dividir entre el producto exterior 360 queda el número interior 2520/360=7.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/Universitarios/FUSION_2024_eliminatoria-estatal_universitarios_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_universitarios_q02",
@@ -16641,12 +16803,14 @@
         }
       ],
       "legacy_statement_group": 278,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "20/7",
       "inherited_solution_unverified": "Toma A=(0,0),B=(4,0),C=(4,4),D=(0,4),M=(1,0). Un punto de MC es(1+3 t,4 t); para estar en DB debe cumplir x+y=4, así 1+7 t=4 y t=3/7. Como MC=5, PC=(1-3/7)·5=20/7.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/Universitarios/FUSION_2024_eliminatoria-estatal_universitarios_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_universitarios_q03",
@@ -16682,12 +16846,14 @@
         }
       ],
       "legacy_statement_group": 279,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "jueves",
       "inherited_solution_unverified": "En jueves el oso dice la verdad y ayer miércoles fue un día de mentira para él. La pantera miente en jueves y ayer miércoles no fue uno de sus días de mentira. Ambas afirmaciones cumplen así su patrón. Al comprobar los otros seis días no hay otra coincidencia.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/Universitarios/FUSION_2024_eliminatoria-estatal_universitarios_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_universitarios_q04",
@@ -16723,12 +16889,14 @@
         }
       ],
       "legacy_statement_group": 282,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "5",
       "inherited_solution_unverified": "Numera los seis puntos en orden. El primer punto puede unirse al segundo, cuarto o sexto para dejar un número par de puntos a cada lado. Los casos correspondientes permiten 2,1 y 2 emparejamientos sin cruces: total 5.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/Universitarios/FUSION_2024_eliminatoria-estatal_universitarios_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_universitarios_q05",
@@ -16764,12 +16932,14 @@
         }
       ],
       "legacy_statement_group": 283,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "e;opcióne",
-      "checkpoint_notes_unverified": "media vueltaadicional;blancoabajo,negroarribaizq,grisarribader"
+      "checkpoint_notes_unverified": "media vueltaadicional;blancoabajo,negroarribaizq,grisarribader",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/Universitarios/FUSION_2024_eliminatoria-estatal_universitarios_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_universitarios_q06",
@@ -16784,12 +16954,14 @@
       "problem_text": "¿Para cuántos enteros \\(k\\), con \\(1\\le k\\le100\\), el número \\(k^k\\) es un cuadrado perfecto?",
       "options": [],
       "legacy_statement_group": 277,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "55",
       "inherited_solution_unverified": "La expresión del PDF es k^k. Todo k par produce un cuadrado: hay 50. Para k impar, k^k es cuadrado exactamente cuando k lo es. Los cuadrados impares hasta 100 son 1,9,25,49,81, cinco más. Total 55.",
       "inherited_source_solution_unverified": "Solución.",
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/Universitarios/FUSION_2024_eliminatoria-estatal_universitarios_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_universitarios_q07",
@@ -16804,12 +16976,14 @@
       "problem_text": "Eduardo escribe la suma de los cuadrados de dos números. Desafortunadamente, se chorreó un poco\nde tinta y, por lo tanto, no podemos leer todos los dígitos. ¿Cuál es el último dígito del primer número?",
       "options": [],
       "legacy_statement_group": 280,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": "Solución.",
       "checkpoint_calculation_unverified": "últimodígito5",
-      "checkpoint_notes_unverified": "2385²+1202²;símbolosborrados se transcriben comoletras"
+      "checkpoint_notes_unverified": "2385²+1202²;símbolosborrados se transcriben comoletras",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/Universitarios/FUSION_2024_eliminatoria-estatal_universitarios_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_universitarios_q08",
@@ -16824,12 +16998,14 @@
       "problem_text": "Rosa Angélica dibuja un rectángulo y los divide en 9 rectángulos iguales trazando 2 rectas paralelas a\nun par de lados y 2 rectas paralelas al otro par de lados. Uno de estos 9 rectángulos se divide en 4\nrectángulos iguales trazando 1 recta paralela a un par de lados y una recta paralela al otro par de lados.\nEl perímetro de cada uno de los rectángulos más pequeños es de 5 cm. ¿Cuál es el perímetro del primer\nrectángulo que dibujó Rosa Angelica?",
       "options": [],
       "legacy_statement_group": 281,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "30 cm",
       "inherited_solution_unverified": "Cada rectángulo pequeño tiene las dimensiones del original divididas por 6: primero por 3 y luego por 2. El perímetro también se divide por 6. El perímetro original es 6·5=30 cm.",
       "inherited_source_solution_unverified": "Solución.",
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/Universitarios/FUSION_2024_eliminatoria-estatal_universitarios_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_universitarios_q09",
@@ -16844,12 +17020,14 @@
       "problem_text": "Cuántos enteros positivos n tienen la propiedad de que exactamente uno de los dos números n y n+20\ntiene cuatro dígitos.",
       "options": [],
       "legacy_statement_group": 284,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "40",
       "inherited_solution_unverified": "Si n no tiene cuatro cifras pero n+20 sí, n va de 980 a 999:20 valores. Si n tiene cuatro cifras pero n+20 no, n va de 9980 a 9999:20 valores. Total 40.",
       "inherited_source_solution_unverified": "Solución.",
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/Universitarios/FUSION_2024_eliminatoria-estatal_universitarios_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_universitarios_q10",
@@ -16864,12 +17042,14 @@
       "problem_text": "Marco lanza un dado tres veces. Si el número de puntos obtenido en el tercer lanzamiento es igual a la\nsuma de los dos números de puntos obtenidos en los lanzamientos anteriores, ¿cuál es la probabilidad\nde que el 2 haya aparecido al menos una vez, en los lanzamientos de Marco?",
       "options": [],
       "legacy_statement_group": 285,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "8/15",
       "inherited_solution_unverified": "Condicionado a que el tercer resultado sea la suma de los dos primeros, hay 15 parejas ordenadas con suma≤6. El 2 aparece en 4 parejas con primer resultado 2 y 4 con segundo resultado 2, restando una intersección (2,2); además aparece como tercer resultado en(1,1). Son 8 casos y la probabilidad es 8/15.",
       "inherited_source_solution_unverified": "Solución.",
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/Universitarios/FUSION_2024_eliminatoria-estatal_universitarios_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion5_examenes-selectivos-estatales_4-de-primaria_q01",

@@ -1,0 +1,183 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2024/Selectivo Estatal/Multinivel/FUSION_2024_selectivo-estatal_multinivel_evaluacion-selectivos-estatales-fusion-2024_original.pdf",
+  "source_sha256": "fec19769e5b5743aa2eafc767fbfbceaea6280914f8e0c1be2c53ecbff219635",
+  "bank_sha256": "57094b33252a8585090da619ab736030498c23235d0b605b79962eab45dc5ee3",
+  "rubric": "Editorial L1/L2/L3 relative to source school grade; primary area follows decisive reasoning, not picture context.",
+  "problems": [
+    {
+      "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-preparatoria_q01",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "integer_bounds",
+        "integer_solutions"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia explicada en la solución.",
+        "Dificultad editorial relativa a Segundo año de preparatoria: aplicación directa de una idea familiar."
+      ]
+    },
+    {
+      "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-preparatoria_q02",
+      "primary_area": "probability",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "sample_space",
+        "perfect_squares",
+        "digits"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia explicada en la solución.",
+        "Dificultad editorial relativa a Segundo año de preparatoria: aplicación directa de una idea familiar."
+      ]
+    },
+    {
+      "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-preparatoria_q03",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "subsequences",
+        "constraints"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia explicada en la solución.",
+        "Dificultad editorial relativa a Segundo año de preparatoria: modelado o combinación de pasos con una inferencia."
+      ]
+    },
+    {
+      "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-preparatoria_q04",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "rates",
+        "work"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia explicada en la solución.",
+        "Dificultad editorial relativa a Segundo año de preparatoria: aplicación directa de una idea familiar."
+      ]
+    },
+    {
+      "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-preparatoria_q05",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "multiplication",
+        "division"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia explicada en la solución.",
+        "Dificultad editorial relativa a Segundo año de preparatoria: aplicación directa de una idea familiar."
+      ]
+    },
+    {
+      "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-preparatoria_q06",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "midpoints",
+        "lengths",
+        "algebraic_identities"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia explicada en la solución.",
+        "Dificultad editorial relativa a Segundo año de preparatoria: aplicación directa de una idea familiar."
+      ]
+    },
+    {
+      "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-preparatoria_q07",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "distinct_integers",
+        "pair_sums",
+        "optimization"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia explicada en la solución.",
+        "Dificultad editorial relativa a Segundo año de preparatoria: modelado o combinación de pasos con una inferencia."
+      ]
+    },
+    {
+      "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-preparatoria_q08",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "independent_sets",
+        "counting",
+        "permutations"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia explicada en la solución.",
+        "Dificultad editorial relativa a Segundo año de preparatoria: modelado o combinación de pasos con una inferencia."
+      ]
+    },
+    {
+      "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-preparatoria_q09",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "surface_area",
+        "systems"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia explicada en la solución.",
+        "Dificultad editorial relativa a Segundo año de preparatoria: modelado o combinación de pasos con una inferencia."
+      ]
+    },
+    {
+      "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-preparatoria_q10",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "perfect_squares",
+        "prime_factorization",
+        "parity"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia explicada en la solución.",
+        "Dificultad editorial relativa a Segundo año de preparatoria: modelado o combinación de pasos con una inferencia."
+      ]
+    }
+  ]
+}

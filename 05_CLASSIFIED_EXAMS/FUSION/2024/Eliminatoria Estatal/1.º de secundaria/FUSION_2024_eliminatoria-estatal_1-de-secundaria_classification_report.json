@@ -1,0 +1,181 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2024/Selectivo Estatal/Multinivel/FUSION_2024_selectivo-estatal_multinivel_evaluacion-selectivos-estatales-fusion-2024_original.pdf",
+  "source_sha256": "fec19769e5b5743aa2eafc767fbfbceaea6280914f8e0c1be2c53ecbff219635",
+  "bank_sha256": "02d58f691ab6c40fd785e707e7ea5ee3a155903f97d17a6610c8f05537156294",
+  "rubric": "Editorial L1/L2/L3 relative to source school grade; primary area follows decisive reasoning, not picture context.",
+  "problems": [
+    {
+      "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-secundaria_q01",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "constraints",
+        "grids"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia explicada en la solución.",
+        "Dificultad editorial relativa a Primer año de secundaria: modelado o combinación de pasos con una inferencia."
+      ]
+    },
+    {
+      "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-secundaria_q02",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "area",
+        "midpoints",
+        "triangles"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia explicada en la solución.",
+        "Dificultad editorial relativa a Primer año de secundaria: modelado o combinación de pasos con una inferencia."
+      ]
+    },
+    {
+      "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-secundaria_q03",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "counting",
+        "sets"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia explicada en la solución.",
+        "Dificultad editorial relativa a Primer año de secundaria: aplicación directa de una idea familiar."
+      ]
+    },
+    {
+      "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-secundaria_q04",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "counting",
+        "parity",
+        "digits"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia explicada en la solución.",
+        "Dificultad editorial relativa a Primer año de secundaria: modelado o combinación de pasos con una inferencia."
+      ]
+    },
+    {
+      "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-secundaria_q05",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "sets",
+        "constraints"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia explicada en la solución.",
+        "Dificultad editorial relativa a Primer año de secundaria: modelado o combinación de pasos con una inferencia."
+      ]
+    },
+    {
+      "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-secundaria_q06",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "systems",
+        "subtraction"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia explicada en la solución.",
+        "Dificultad editorial relativa a Primer año de secundaria: modelado o combinación de pasos con una inferencia."
+      ]
+    },
+    {
+      "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-secundaria_q07",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "symmetry",
+        "reflections"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia explicada en la solución.",
+        "Dificultad editorial relativa a Primer año de secundaria: modelado o combinación de pasos con una inferencia."
+      ]
+    },
+    {
+      "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-secundaria_q08",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "area",
+        "circles",
+        "symmetry"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia explicada en la solución.",
+        "Dificultad editorial relativa a Primer año de secundaria: modelado o combinación de pasos con una inferencia."
+      ]
+    },
+    {
+      "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-secundaria_q09",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "systems",
+        "substitution"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia explicada en la solución.",
+        "Dificultad editorial relativa a Primer año de secundaria: modelado o combinación de pasos con una inferencia."
+      ]
+    },
+    {
+      "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-secundaria_q10",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L3",
+      "tags": [
+        "triangle_counting",
+        "geometry_counting"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia explicada en la solución.",
+        "Dificultad editorial relativa a Primer año de secundaria: conteo exhaustivo o construcción no rutinaria."
+      ]
+    }
+  ]
+}

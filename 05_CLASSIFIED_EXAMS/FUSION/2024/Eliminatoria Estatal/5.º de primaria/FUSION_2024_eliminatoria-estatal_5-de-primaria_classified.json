@@ -1,0 +1,744 @@
+{
+  "schema_version": "1.0",
+  "source_format_reference": "Cuantly public practice; original multiple_choice and open_answer preserved",
+  "exam": {
+    "competition": "FUSION",
+    "source_competition": "Campeonato de Olimpiadas Matemáticas FUSION COM 24",
+    "edition": null,
+    "source_archive_family": "FUSION4",
+    "year": 2024,
+    "year_status": "confirmed",
+    "year_evidence": "Los encabezados imprimen ELIMINATORIA ESTATAL FUSION COM24 y el grado; el nombre del PDF confirma 2024. No se infiere número de edición del nombre de la carpeta FUSION4.",
+    "phase": "Eliminatoria Estatal",
+    "level": "5.º de primaria",
+    "school_level": "Quinto año de primaria",
+    "problem_count": 10,
+    "source_file": "FUSION_2024_selectivo-estatal_multinivel_evaluacion-selectivos-estatales-fusion-2024_original.pdf",
+    "source_pdf_path": "01_RAW_PDFs/FUSION/2024/Selectivo Estatal/Multinivel/FUSION_2024_selectivo-estatal_multinivel_evaluacion-selectivos-estatales-fusion-2024_original.pdf",
+    "source_sha256": "fec19769e5b5743aa2eafc767fbfbceaea6280914f8e0c1be2c53ecbff219635",
+    "image_policy": "Original embedded figures byte for byte; arithmetic layouts and option matrices transcribed as LaTeX; no headers or blank answer boxes.",
+    "classification_phase": "completed",
+    "difficulty_phase": "completed"
+  },
+  "validation_summary": {
+    "verified_problems": 10,
+    "needs_review_or_invalid": 0,
+    "needs_review_problem_numbers": [],
+    "notes": "90 apariciones cotejadas con las 28 páginas del PDF. Se preservan monedas/Pokebolas, puntuaciones múltiples, edad no única y orden de dados sin calificación automática. Fichas: 48; animales: 20, pese a discrepancias de la clave."
+  },
+  "problems": [
+    {
+      "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_5-de-primaria_q01",
+      "collection": "FUSION",
+      "subcategory": "2024 / Eliminatoria Estatal / 5.º de primaria",
+      "problem_number": 1,
+      "source_question_label": "1",
+      "source_page": 1,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "En cada cumpleaños Isabel recibe tantos ositos de peluche como años cumple ese día. Para su primer\ncumpleaños recibió un osito, para su segundo cumpleaños recibió dos ositos y así sucesivamente.\n¿Cuántos ositos tendrá Isabel en total el día después de su trigésimo cumpleaños?",
+      "options": [
+        {
+          "label": "a",
+          "text": "475 ositos"
+        },
+        {
+          "label": "b",
+          "text": "455 ositos"
+        },
+        {
+          "label": "c",
+          "text": "445 ositos"
+        },
+        {
+          "label": "d",
+          "text": "465 ositos"
+        },
+        {
+          "label": "e",
+          "text": "ninguna de las anteriores"
+        }
+      ],
+      "correct_answer": "465 ositos",
+      "correct_option_label": "d",
+      "solution_text": "1. Isabel conserva los regalos de sus 30 cumpleaños: hay que sumar 1, 2, ..., 30.\n2. Emparejamos primero con último: \\(1+30=2+29=cdots=15+16=31\\). Son 15 parejas.\n3. El total es \\(15\\cdot31=\\mathbf{465}\\) ositos, opción **d**. Como comprobación, \\(30\\cdot31/2=465\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "No cumple el resultado o la restricción requerida; el análisis completo de la solución obtiene 465 ositos."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "No cumple el resultado o la restricción requerida; el análisis completo de la solución obtiene 465 ositos."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "No cumple el resultado o la restricción requerida; el análisis completo de la solución obtiene 465 ositos."
+        },
+        {
+          "label": "d",
+          "is_correct": true,
+          "reason": "Cumple el resultado y todas las condiciones comprobadas en la solución: 465 ositos."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "No cumple el resultado o la restricción requerida; el análisis completo de la solución obtiene 465 ositos."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada desde el enunciado y las figuras; la clave impresa no sustituye la comprobación."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2024/Selectivo Estatal/Multinivel/FUSION_2024_selectivo-estatal_multinivel_evaluacion-selectivos-estatales-fusion-2024_original.pdf",
+      "source_pdf_sha256": "fec19769e5b5743aa2eafc767fbfbceaea6280914f8e0c1be2c53ecbff219635",
+      "classification": {
+        "primary_area": "arithmetic",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "sequences",
+          "addition"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia explicada en la solución.",
+          "Dificultad editorial relativa a Quinto año de primaria: aplicación directa de una idea familiar."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_5-de-primaria_q02",
+      "collection": "FUSION",
+      "subcategory": "2024 / Eliminatoria Estatal / 5.º de primaria",
+      "problem_number": 2,
+      "source_question_label": "2",
+      "source_page": 1,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Saúl tiene 3 perritos: Chip, Rocky, y Groot, el día sábado piensa bañar a los 3, ¿De cuantas maneras\ndiferentes podría bañarlos en orden?",
+      "options": [
+        {
+          "label": "a",
+          "text": "3 maneras"
+        },
+        {
+          "label": "b",
+          "text": "una manera"
+        },
+        {
+          "label": "c",
+          "text": "12 maneras"
+        },
+        {
+          "label": "d",
+          "text": "6 maneras"
+        },
+        {
+          "label": "e",
+          "text": "ninguna de las anteriores"
+        }
+      ],
+      "correct_answer": "6 maneras",
+      "correct_option_label": "d",
+      "solution_text": "1. Para el primer baño hay tres perros posibles; después quedan dos y finalmente uno.\n2. La regla del producto da \\(3\\cdot2\\cdot1=\\mathbf6\\), opción **d**.\n3. Podemos comprobarlo listando C-R-G, C-G-R, R-C-G, R-G-C, G-C-R y G-R-C, donde C, R y G representan Chip, Rocky y Groot. No se repite ningún orden. Como 6 sí aparece, «ninguna» tampoco es correcta.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "No cumple el resultado o la restricción requerida; el análisis completo de la solución obtiene 6 maneras."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "No cumple el resultado o la restricción requerida; el análisis completo de la solución obtiene 6 maneras."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "No cumple el resultado o la restricción requerida; el análisis completo de la solución obtiene 6 maneras."
+        },
+        {
+          "label": "d",
+          "is_correct": true,
+          "reason": "Cumple el resultado y todas las condiciones comprobadas en la solución: 6 maneras."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "No cumple el resultado o la restricción requerida; el análisis completo de la solución obtiene 6 maneras."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada desde el enunciado y las figuras; la clave impresa no sustituye la comprobación."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2024/Selectivo Estatal/Multinivel/FUSION_2024_selectivo-estatal_multinivel_evaluacion-selectivos-estatales-fusion-2024_original.pdf",
+      "source_pdf_sha256": "fec19769e5b5743aa2eafc767fbfbceaea6280914f8e0c1be2c53ecbff219635",
+      "classification": {
+        "primary_area": "combinatorics",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "permutations",
+          "counting"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia explicada en la solución.",
+          "Dificultad editorial relativa a Quinto año de primaria: aplicación directa de una idea familiar."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_5-de-primaria_q03",
+      "collection": "FUSION",
+      "subcategory": "2024 / Eliminatoria Estatal / 5.º de primaria",
+      "problem_number": 3,
+      "source_question_label": "3",
+      "source_page": 1,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Una de las cinco monedas A, B, C, D ó E debe moverse a un cuadrito vacío para que en el tablero haya\nexactamente dos monedas en cada columna y dos monedas en cada fila. ¿Cuál moneda debe moverse?",
+      "options": [
+        {
+          "label": "a",
+          "text": "A"
+        },
+        {
+          "label": "b",
+          "text": "B"
+        },
+        {
+          "label": "c",
+          "text": "C"
+        },
+        {
+          "label": "d",
+          "text": "D"
+        },
+        {
+          "label": "e",
+          "text": "E"
+        }
+      ],
+      "correct_answer": "La moneda C",
+      "correct_option_label": "c",
+      "solution_text": "1. Las filas, de arriba abajo, contienen 2, 2, 2, 1 y 3 monedas. Las columnas, de izquierda a derecha, contienen 3, 1, 2, 2 y 2.\n2. Debemos sacar una moneda de la quinta fila y la primera columna: su intersección contiene **C**. Debemos ponerla en la cuarta fila y segunda columna, que está vacía.\n3. Ese movimiento deja dos monedas en cada fila y columna. A y B no están en la fila sobrante; D y E no están simultáneamente en la fila y columna sobrantes. Por tanto solo sirve la opción **c**.",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Figura del problema",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "09b8da237df31f9b0ad8919558ce0d6c84efe897a0dc80de5c14f11e30de2c14",
+          "source": "pdf_embedded_image",
+          "original_filename": "page1_Image24.png",
+          "width_px": 136,
+          "height_px": 142
+        }
+      ],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "No cumple el resultado o la restricción requerida; el análisis completo de la solución obtiene La moneda C."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "No cumple el resultado o la restricción requerida; el análisis completo de la solución obtiene La moneda C."
+        },
+        {
+          "label": "c",
+          "is_correct": true,
+          "reason": "Cumple el resultado y todas las condiciones comprobadas en la solución: La moneda C."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "No cumple el resultado o la restricción requerida; el análisis completo de la solución obtiene La moneda C."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "No cumple el resultado o la restricción requerida; el análisis completo de la solución obtiene La moneda C."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada desde el enunciado y las figuras; la clave impresa no sustituye la comprobación."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2024/Selectivo Estatal/Multinivel/FUSION_2024_selectivo-estatal_multinivel_evaluacion-selectivos-estatales-fusion-2024_original.pdf",
+      "source_pdf_sha256": "fec19769e5b5743aa2eafc767fbfbceaea6280914f8e0c1be2c53ecbff219635",
+      "classification": {
+        "primary_area": "combinatorics",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "constraints",
+          "invariants"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia explicada en la solución.",
+          "Dificultad editorial relativa a Quinto año de primaria: modelado o combinación de pasos con una inferencia."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_5-de-primaria_q04",
+      "collection": "FUSION",
+      "subcategory": "2024 / Eliminatoria Estatal / 5.º de primaria",
+      "problem_number": 4,
+      "source_question_label": "4",
+      "source_page": 1,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Sarahi, Manuel y Abel tienen 40 Pokebolas, entre los 3. Manuel tiene 12 más que Abel. Abel tiene la\nmitad de las que tiene Sarahi. ¿Cuántas pokebolas tiene Sarahi?",
+      "options": [
+        {
+          "label": "a",
+          "text": "28"
+        },
+        {
+          "label": "b",
+          "text": "21"
+        },
+        {
+          "label": "c",
+          "text": "7"
+        },
+        {
+          "label": "d",
+          "text": "14"
+        },
+        {
+          "label": "e",
+          "text": "12"
+        }
+      ],
+      "correct_answer": "14 pokebolas",
+      "correct_option_label": "d",
+      "solution_text": "1. Sea \\(a\\) el número de Pokebolas de Abel. Sarahi tiene \\(2a\\) y Manuel \\(a+12\\).\n2. Sumando: \\(a+2a+(a+12)=40\\), luego \\(4a=28\\) y \\(a=7\\).\n3. Sarahi tiene \\(2\\cdot7=\\mathbf{14}\\), opción **d**. Comprobación: Abel 7, Manuel 19 y Sarahi 14 suman 40; 19 supera a 7 en 12. Las otras cantidades no cumplen simultáneamente estas condiciones.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "No cumple el resultado o la restricción requerida; el análisis completo de la solución obtiene 14 pokebolas."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "No cumple el resultado o la restricción requerida; el análisis completo de la solución obtiene 14 pokebolas."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "No cumple el resultado o la restricción requerida; el análisis completo de la solución obtiene 14 pokebolas."
+        },
+        {
+          "label": "d",
+          "is_correct": true,
+          "reason": "Cumple el resultado y todas las condiciones comprobadas en la solución: 14 pokebolas."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "No cumple el resultado o la restricción requerida; el análisis completo de la solución obtiene 14 pokebolas."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada desde el enunciado y las figuras; la clave impresa no sustituye la comprobación."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2024/Selectivo Estatal/Multinivel/FUSION_2024_selectivo-estatal_multinivel_evaluacion-selectivos-estatales-fusion-2024_original.pdf",
+      "source_pdf_sha256": "fec19769e5b5743aa2eafc767fbfbceaea6280914f8e0c1be2c53ecbff219635",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "equations",
+          "substitution"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia explicada en la solución.",
+          "Dificultad editorial relativa a Quinto año de primaria: modelado o combinación de pasos con una inferencia."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_5-de-primaria_q05",
+      "collection": "FUSION",
+      "subcategory": "2024 / Eliminatoria Estatal / 5.º de primaria",
+      "problem_number": 5,
+      "source_question_label": "5",
+      "source_page": 2,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "El diagrama mostrado se construyó con la regla de que dos cuadritos vecinos jamás pueden tener el\nmismo número. ¿Cuál pieza se puede colocar en el hueco del tablero de manera que se siga cumpliendo\nla regla?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(\\begin{array}{ccc}4& & \\\\ 1&2&3\\end{array}\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(\\begin{array}{ccc}1& & \\\\ 3&4&2\\end{array}\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(\\begin{array}{ccc}2& & \\\\ 4&1&3\\end{array}\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(\\begin{array}{ccc}2& & \\\\ 3&1&4\\end{array}\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(\\begin{array}{ccc}3& & \\\\ 2&1&4\\end{array}\\)"
+        }
+      ],
+      "correct_answer": "La pieza d",
+      "correct_option_label": "d",
+      "solution_text": "1. Conservamos la orientación dibujada: la pieza tiene una casilla arriba y tres abajo. Hay que comprobar cada contacto con las casillas existentes y entre sus propias casillas.\n2. La pieza **d**, con 2 arriba y 3, 1, 4 abajo, deja distintas todas las casillas vecinas. También cumple si se consideran contactos por vértices.\n3. **a** falla porque el 1 inferior izquierdo toca otro 1 a su izquierda; **b**, porque el 2 inferior derecho toca el 2 que tiene encima; **c**, porque el 4 inferior izquierdo toca el 4 de abajo; **e**, porque el 3 superior toca el 3 de arriba. Solo **d** cumple la regla.",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Figura del problema",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "0814be489873cf4aa9e7efa7593c1385efdae5101978f6d36a77677c503eeb79",
+          "source": "pdf_embedded_image",
+          "original_filename": "page2_Image38.png",
+          "width_px": 120,
+          "height_px": 122
+        }
+      ],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "El 1 inferior izquierdo toca otro 1 a la izquierda."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "El 2 inferior derecho toca otro 2 encima."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "El 4 inferior izquierdo toca otro 4 debajo."
+        },
+        {
+          "label": "d",
+          "is_correct": true,
+          "reason": "Todos los contactos tienen valores distintos."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "El 3 superior toca otro 3 encima."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada desde el enunciado y las figuras; la clave impresa no sustituye la comprobación."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2024/Selectivo Estatal/Multinivel/FUSION_2024_selectivo-estatal_multinivel_evaluacion-selectivos-estatales-fusion-2024_original.pdf",
+      "source_pdf_sha256": "fec19769e5b5743aa2eafc767fbfbceaea6280914f8e0c1be2c53ecbff219635",
+      "classification": {
+        "primary_area": "combinatorics",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "constraints",
+          "grids"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia explicada en la solución.",
+          "Dificultad editorial relativa a Quinto año de primaria: modelado o combinación de pasos con una inferencia."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_5-de-primaria_q06",
+      "collection": "FUSION",
+      "subcategory": "2024 / Eliminatoria Estatal / 5.º de primaria",
+      "problem_number": 6,
+      "source_question_label": "6",
+      "source_page": 2,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "ABDE es un rectángulo. BCD y AEF son triángulos equiláteros iguales. El perímetro del polígono\nABCDEF es de 520 m. Si el perímetro del triángulo AEF es de 144 m. ¿Cuál es la longitud de DE?",
+      "options": [],
+      "correct_answer": "164 m",
+      "correct_option_label": null,
+      "solution_text": "1. Los tres lados de AEF son iguales. Cada uno mide \\(144/3=48\\) m. El triángulo BCD, igual a AEF, tiene también lados de 48 m.\n2. El contorno ABCDEF contiene cuatro de esos lados: AF, FE, BC y CD. Los otros dos son AB y DE, iguales por ser lados opuestos del rectángulo.\n3. Si \\(x=DE=AB\\), entonces \\(2x+4\\cdot48=520\\). Así, \\(2x=328\\) y \\(x=\\mathbf{164}\\) m.\n4. Comprobación: \\(164+48+48+164+48+48=520\\). Los lados AE y BD son interiores, por lo que no se suman al perímetro exterior.",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Figura del problema",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "f4e4182e119b3428682aa570317629abc22cbf948bde5ee5d01bc60886422428",
+          "source": "pdf_embedded_image",
+          "original_filename": "page2_Image37.png",
+          "width_px": 373,
+          "height_px": 151
+        }
+      ],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada desde el enunciado y las figuras; la clave impresa no sustituye la comprobación."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2024/Selectivo Estatal/Multinivel/FUSION_2024_selectivo-estatal_multinivel_evaluacion-selectivos-estatales-fusion-2024_original.pdf",
+      "source_pdf_sha256": "fec19769e5b5743aa2eafc767fbfbceaea6280914f8e0c1be2c53ecbff219635",
+      "classification": {
+        "primary_area": "geometry",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "perimeter",
+          "equilateral_triangles"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia explicada en la solución.",
+          "Dificultad editorial relativa a Quinto año de primaria: modelado o combinación de pasos con una inferencia."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_5-de-primaria_q07",
+      "collection": "FUSION",
+      "subcategory": "2024 / Eliminatoria Estatal / 5.º de primaria",
+      "problem_number": 7,
+      "source_question_label": "7",
+      "source_page": 2,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Eduardo llenó una cuadrícula con números, como se muestra en la figura, de forma que, cuando suma\nlos números en cada columna y los números en cada fila, el resultado es el mismo. Sin embargo,\nEduardo se equivocó. Para obtener el mismo resultado en cada una de las seis sumas, debe cambiar\nun número. ¿Qué número debe cambiar Eduardo?\n\n\\[\\begin{array}{|c|c|c|}\\hline9&1&5\\\\\\hline3&7&6\\\\\\hline4&7&4\\\\\\hline\\end{array}\\]",
+      "options": [],
+      "correct_answer": "Cambiar el 3 por un 2",
+      "correct_option_label": null,
+      "solution_text": "1. Las filas suman 15, 16 y 15; las columnas suman 16, 15 y 15.\n2. La única fila y columna que sobran en 1 se cruzan en la casilla del **3**, segunda fila y primera columna.\n3. Cambiar ese 3 por 2 reduce ambas sumas a 15 y deja las otras cuatro intactas. La cuadrícula queda \\(9,1,5; 2,7,6; 4,7,4\\), con las seis sumas iguales a 15.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada desde el enunciado y las figuras; la clave impresa no sustituye la comprobación."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2024/Selectivo Estatal/Multinivel/FUSION_2024_selectivo-estatal_multinivel_evaluacion-selectivos-estatales-fusion-2024_original.pdf",
+      "source_pdf_sha256": "fec19769e5b5743aa2eafc767fbfbceaea6280914f8e0c1be2c53ecbff219635",
+      "classification": {
+        "primary_area": "arithmetic",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "grids",
+          "addition"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia explicada en la solución.",
+          "Dificultad editorial relativa a Quinto año de primaria: modelado o combinación de pasos con una inferencia."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_5-de-primaria_q08",
+      "collection": "FUSION",
+      "subcategory": "2024 / Eliminatoria Estatal / 5.º de primaria",
+      "problem_number": 8,
+      "source_question_label": "8",
+      "source_page": 3,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "A Miguel Ramón le gusta dibujar banderas y tiene 7 diferentes; una verde, una blanca, una roja otras 3\nde dos colores cada una: verde y blanca; verde y roja; blanca y roja; además de una tricolor verde,\nblanca y roja. ¿De cuántas maneras puede escoger 4 banderas de modo que cada par de banderas\ncomparta por lo menos un color?",
+      "options": [],
+      "correct_answer": "4 maneras",
+      "correct_option_label": null,
+      "solution_text": "1. Denotamos los colores por V, B y R. Las siete banderas distintas son V, B, R, VB, VR, BR y VBR.\n2. Si escogemos una bandera de un solo color, todas las otras deben contenerlo. Para V solo sirven VB, VR y VBR, así que hay una selección. Lo mismo ocurre para B y R: tres selecciones en total.\n3. Si no escogemos ninguna de un solo color, necesariamente elegimos las cuatro restantes: VB, VR, BR y VBR. Todas sus parejas comparten un color.\n4. No puede haber dos banderas de un solo color porque serían disjuntas. Estos casos agotan las posibilidades: \\(3+1=\\mathbf4\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada desde el enunciado y las figuras; la clave impresa no sustituye la comprobación."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2024/Selectivo Estatal/Multinivel/FUSION_2024_selectivo-estatal_multinivel_evaluacion-selectivos-estatales-fusion-2024_original.pdf",
+      "source_pdf_sha256": "fec19769e5b5743aa2eafc767fbfbceaea6280914f8e0c1be2c53ecbff219635",
+      "classification": {
+        "primary_area": "combinatorics",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "sets",
+          "counting"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia explicada en la solución.",
+          "Dificultad editorial relativa a Quinto año de primaria: conteo exhaustivo o construcción no rutinaria."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_5-de-primaria_q09",
+      "collection": "FUSION",
+      "subcategory": "2024 / Eliminatoria Estatal / 5.º de primaria",
+      "problem_number": 9,
+      "source_question_label": "9",
+      "source_page": 3,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Una pirámide se construye a partir de cubos. Todos los cubos tienen una longitud de lado de 10 cm. Una\nhormiga se arrastra a lo largo de la línea trazada a través de la pirámide como se muestra en el diagrama.\n¿Qué longitud tiene el camino que recorre la hormiga?",
+      "options": [],
+      "correct_answer": "90 cm",
+      "correct_option_label": null,
+      "solution_text": "1. Seguimos únicamente la línea marcada, contando aristas de un cubo. Al subir hay tres tramos verticales de 10 cm y al bajar otros tres.\n2. Los tramos horizontales suman tres lados de cubo: en la vista superior recorren el ancho completo, de 30 cm.\n3. La longitud es \\(3\\cdot10+3\\cdot10+3\\cdot10=\\mathbf{90}\\) cm. La vista superior permite comprobar los 30 cm horizontales; los 60 cm restantes son las subidas y bajadas que esa vista aplana.",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Figura del problema",
+          "mime_type": "image/jpeg",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "c3b8afe4caaa7aa3c3f4411de585409dd85cc3acf135317fb6e2b917311b5622",
+          "source": "pdf_embedded_image",
+          "original_filename": "page3_Image57.jpg",
+          "width_px": 257,
+          "height_px": 133
+        }
+      ],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada desde el enunciado y las figuras; la clave impresa no sustituye la comprobación."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2024/Selectivo Estatal/Multinivel/FUSION_2024_selectivo-estatal_multinivel_evaluacion-selectivos-estatales-fusion-2024_original.pdf",
+      "source_pdf_sha256": "fec19769e5b5743aa2eafc767fbfbceaea6280914f8e0c1be2c53ecbff219635",
+      "classification": {
+        "primary_area": "geometry",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "lengths",
+          "spatial_reasoning"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia explicada en la solución.",
+          "Dificultad editorial relativa a Quinto año de primaria: modelado o combinación de pasos con una inferencia."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion4_evaluacion-selectivos-estatales-fusion-2024_5-de-primaria_q10",
+      "collection": "FUSION",
+      "subcategory": "2024 / Eliminatoria Estatal / 5.º de primaria",
+      "problem_number": 10,
+      "source_question_label": "10",
+      "source_page": 3,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Mayte y Alex fueron a comprar algunas cosas al supermercado cada uno llevaba $100. Mayte compró 4\nkg de jamón y dos panes. Para poder pagar tuvo que pedirle $8 prestados a Alex. Alex compró 2kg de\njamón y dos panes del mismo precio que el de Mayte; después de pagar y prestarle a Mayte los $8, le\nquedaron $32. ¿Cuánto costaba un pan?",
+      "options": [],
+      "correct_answer": "$6 por pan",
+      "correct_option_label": null,
+      "solution_text": "1. Mayte gasta \\(100+8=108\\) pesos. Alex gasta \\(100-8-32=60\\) pesos: los 8 prestados no forman parte de su compra.\n2. Si \\(j\\) es el precio de un kg de jamón y \\(p\\) el de un pan, tenemos \\(4j+2p=108\\) y \\(2j+2p=60\\).\n3. Restar las ecuaciones da \\(2j=48\\), por lo que \\(j=24\\). Sustituyendo: \\(48+2p=60\\), así que \\(p=\\mathbf6\\) pesos.\n4. Comprobación: Mayte paga \\(4\\cdot24+2\\cdot6=108\\); Alex paga 60 y conserva \\(100-60-8=32\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta recalculada desde el enunciado y las figuras; la clave impresa no sustituye la comprobación."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2024/Selectivo Estatal/Multinivel/FUSION_2024_selectivo-estatal_multinivel_evaluacion-selectivos-estatales-fusion-2024_original.pdf",
+      "source_pdf_sha256": "fec19769e5b5743aa2eafc767fbfbceaea6280914f8e0c1be2c53ecbff219635",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "systems",
+          "subtraction"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia explicada en la solución.",
+          "Dificultad editorial relativa a Quinto año de primaria: modelado o combinación de pasos con una inferencia."
+        ]
+      }
+    }
+  ]
+}
