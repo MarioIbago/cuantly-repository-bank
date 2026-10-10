@@ -1,0 +1,145 @@
+{
+  "schema_version": "1.0",
+  "source_format_reference": "Cuantly public practice; open_answer extension with manual solution comparison",
+  "exam": {
+    "competition": "FUSION",
+    "edition": 3,
+    "year": 2020,
+    "phase": "Torneo 3",
+    "level": "Primaria",
+    "school_level": "Primaria (sin grado indicado)",
+    "problem_count": 4,
+    "source_file": "FUSION_2020_torneo-3_multinivel_examen-3_original.pdf",
+    "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Torneo 3/Multinivel/FUSION_2020_torneo-3_multinivel_examen-3_original.pdf",
+    "source_sha256": "2ad4a60cbdb05cf65e37a55d2969f91e1647c857e7007e722968e17eef99e50c",
+    "image_policy": "Exact original PDF embedded problem diagrams in Base64. Cryptarithms and formulas are transcribed as LaTeX; no page or question-snippet images.",
+    "classification_phase": "not_started",
+    "difficulty_phase": "not_started"
+  },
+  "validation_summary": {
+    "verified_problems": 3,
+    "needs_review_or_invalid": 1,
+    "needs_review_problem_numbers": [
+      2
+    ],
+    "notes": "Original statements retained, including source defects and explicitly described probability assumptions. No fabricated options or automatic grading for open answers."
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-3_primaria_q01",
+      "collection": "FUSION",
+      "subcategory": "2020 / Torneo 3 / Primaria",
+      "problem_number": 1,
+      "source_page": 1,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Sean A y B. si sabes que el producto de los números de tres dígitos 2A5 y 13B, es divisible entre 36 ¿Cuáles son los posibles valores para la pareja (A, B)?",
+      "options": [],
+      "correct_answer": "(A,B) = (2,2), (2,6), (5,2) o (8,2)",
+      "correct_option_label": null,
+      "solution_text": "1. **Dos condiciones.** Como \\(36=4\\cdot9\\) y 4 y 9 son coprimos, el producto debe ser divisible por ambos.\n2. **Divisibilidad por 4.** El número \\(\\overline{2A5}\\) es impar. Por eso \\(\\overline{13B}\\) debe ser divisible por 4. Sus dos últimas cifras son 30+B: solo \\(B=2\\) o \\(B=6\\) funcionan.\n3. **Si B=2.** \\(132=4\\cdot3\\cdot11\\) aporta un factor 3, pero no dos. Falta que \\(\\overline{2A5}\\) sea divisible por 3. La suma de sus cifras es \\(A+7\\), así que \\(A=2,5,8\\).\n4. **Si B=6.** \\(136=8\\cdot17\\) no aporta factores 3. Entonces \\(\\overline{2A5}\\) debe ser divisible por 9: \\(A+7=9\\), y \\(A=2\\).\n5. **Respuesta y comprobación.** Las parejas son **(2,2), (2,6), (5,2), (8,2)**. Los productos son 29700, 30600, 33660 y 37620; divididos entre 36 dan 825, 850, 935 y 1045. No se exige que A y B sean distintas.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta: solución revisada; comparación manual sin calificación automática."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Torneo 3/Multinivel/FUSION_2020_torneo-3_multinivel_examen-3_original.pdf",
+      "source_pdf_sha256": "2ad4a60cbdb05cf65e37a55d2969f91e1647c857e7007e722968e17eef99e50c"
+    },
+    {
+      "source_id": "fusion1_examen-3_primaria_q02",
+      "collection": "FUSION",
+      "subcategory": "2020 / Torneo 3 / Primaria",
+      "problem_number": 2,
+      "source_page": 1,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Un niño rompe su alcancía que contiene monedas de $10, $5, $2 y $1. En total son\n101 monedas y $315. La cantidad de monedas de $1 es el triple de la cantidad de\nmonedas de $10 y la cantidad de monedad de $2 es más que el doble de monedas\nde $5. ¿cuántas monedas de $1 tiene?",
+      "options": [],
+      "correct_answer": "39, 48, 57 o 66 monedas de $1; no hay respuesta única",
+      "correct_option_label": null,
+      "solution_text": "1. **Incógnitas.** Sean a, b y c las cantidades de monedas de $10, $5 y $2. Hay \\(3a\\) monedas de $1.\n2. **Condiciones.** El número de monedas da \\(4a+b+c=101\\); el valor da \\(13a+5b+2c=315\\). Además, \\(c>2b\\) y todas las cantidades son enteros no negativos.\n3. **Reducir.** Restamos dos veces la primera ecuación de la segunda: \\(5a+3b=113\\). De ahí \\(b=(113-5a)/3\\) y \\(c=(190-7a)/3\\).\n4. **Acotar.** La desigualdad \\(c>2b\\) equivale a \\(a>12\\), y \\(b\\ge0\\) implica \\(a\\le22\\). La integridad exige \\(a\\equiv1\\pmod3\\). Por tanto, \\(a=13,16,19,22\\).\n5. **Soluciones.** Las cantidades (monedas de $10, $5, $2, $1) son (13,16,33,39), (16,11,26,48), (19,6,19,57) y (22,1,12,66).\n6. **Comprobación y límite.** Cada fila suma 101 monedas, vale $315 y tiene más monedas de $2 que el doble de las de $5. Las monedas de $1 pueden ser **39, 48, 57 o 66**; el original necesita otra condición para determinar una sola cantidad.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "ambiguous_multiple_solutions",
+        "answer_checked": false,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Las restricciones permiten cuatro cantidades distintas de monedas de $1. Todas satisfacen el número de monedas, el valor total y la desigualdad."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Torneo 3/Multinivel/FUSION_2020_torneo-3_multinivel_examen-3_original.pdf",
+      "source_pdf_sha256": "2ad4a60cbdb05cf65e37a55d2969f91e1647c857e7007e722968e17eef99e50c"
+    },
+    {
+      "source_id": "fusion1_examen-3_primaria_q03",
+      "collection": "FUSION",
+      "subcategory": "2020 / Torneo 3 / Primaria",
+      "problem_number": 3,
+      "source_page": 1,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "¿Cuántos enteros positivos de 5 dígitos existen tales que el producto de sus dígitos\nes igual a 2000?",
+      "options": [],
+      "correct_answer": "30",
+      "correct_option_label": null,
+      "solution_text": "1. **Factorización.** \\(2000=2^4\\cdot5^3\\). Ninguna cifra puede ser 0. Entre las cifras de 1 a 9, solo 5 contiene el factor primo 5.\n2. **Tres cincos.** Debe haber exactamente tres cifras 5. Las otras dos cifras deben multiplicarse para dar 16.\n3. **Dos tipos.** Las únicas parejas de cifras posibles son 2 y 8, o 4 y 4. Los multiconjuntos son \\(\\{5,5,5,2,8\\}\\) y \\(\\{5,5,5,4,4\\}\\).\n4. **Permutaciones.** El primero produce \\(5!/3!=20\\) números; el segundo, \\(5!/(3!2!)=10\\).\n5. **Respuesta y comprobación.** Hay **30**. Ambos tipos tienen cinco cifras y producto 2000; son disjuntos y cubren todas las factorizaciones en cinco cifras.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta: solución revisada; comparación manual sin calificación automática."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Torneo 3/Multinivel/FUSION_2020_torneo-3_multinivel_examen-3_original.pdf",
+      "source_pdf_sha256": "2ad4a60cbdb05cf65e37a55d2969f91e1647c857e7007e722968e17eef99e50c"
+    },
+    {
+      "source_id": "fusion1_examen-3_primaria_q04",
+      "collection": "FUSION",
+      "subcategory": "2020 / Torneo 3 / Primaria",
+      "problem_number": 4,
+      "source_page": 1,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Calcula el área del triángulo ABC si conoces las tres áreas marcadas.",
+      "options": [],
+      "correct_answer": "300 unidades de área",
+      "correct_option_label": null,
+      "solution_text": "1. **Nombrar puntos auxiliares.** Llamamos O al cruce de las rectas interiores, D al punto de BC sobre la recta AO y F al punto de AB sobre la recta CO. Son nombres auxiliares para las posiciones que muestra la figura.\n2. **Áreas del lado izquierdo.** \\([AFO]=20\\), \\([BFO]=30\\) y \\([BDO]=50\\). Los dos primeros triángulos comparten altura desde O hacia AB, así que \\(AF/FB=20/30=2/3\\).\n3. **Punto medio.** \\([ABO]=20+30=50=[BDO]\\). Estos dos triángulos comparten altura desde B hacia AD; por tanto \\(AO=OD\\). Además, \\([ABD]=100\\).\n4. **Menelao.** En el triángulo ABD, la transversal F–O–C corta AB, AD y la prolongación de BD. En longitudes positivas, \\(\\frac{AF}{FB}\\frac{BC}{CD}\\frac{DO}{OA}=1\\). Sustituyendo: \\(\\frac23\\frac{BC}{CD}=1\\), de donde \\(BC/CD=3/2\\).\n5. **Base total.** Como \\(BC=BD+DC\\), resulta \\(BD=DC/2\\) y \\(BC=3BD\\).\n6. **Respuesta y comprobación.** ABC y ABD comparten altura desde A hacia BC. Así, \\([ABC]=3[ABD]=\\mathbf{300}\\). Las razones recuperan \\(AO=OD\\), \\(AF:FB=2:3\\) y las tres áreas 20, 30 y 50.",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Triángulo ABC con tres regiones de áreas 20, 30 y 50",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "0f8eb7068e79b45732709267e5132e5b2a23451be9f1648bafaf6592543a72e1",
+          "source": "pdf_embedded_image",
+          "original_filename": "torneo3_page1_Image16.png",
+          "width_px": 374,
+          "height_px": 220
+        }
+      ],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta: solución revisada; comparación manual sin calificación automática."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Torneo 3/Multinivel/FUSION_2020_torneo-3_multinivel_examen-3_original.pdf",
+      "source_pdf_sha256": "2ad4a60cbdb05cf65e37a55d2969f91e1647c857e7007e722968e17eef99e50c"
+    }
+  ]
+}

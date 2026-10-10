@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.0",
+  "source_format_reference": "Cuantly public practice; open_answer extension with manual solution comparison",
+  "exam": {
+    "competition": "FUSION",
+    "edition": 2,
+    "year": 2020,
+    "phase": "Torneo 2",
+    "level": "Primaria",
+    "school_level": "Primaria (sin grado indicado)",
+    "problem_count": 4,
+    "source_file": "FUSION_2020_torneo-2_multinivel_examen-2_original.pdf",
+    "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Torneo 2/Multinivel/FUSION_2020_torneo-2_multinivel_examen-2_original.pdf",
+    "source_sha256": "e307a24fa83d543413e4794fc753c4a6866adecbf888ec9150b32dc8cbe9a7e4",
+    "image_policy": "Exact original PDF embedded problem diagrams in Base64. Cryptarithms and formulas are transcribed as LaTeX; no page or question-snippet images.",
+    "classification_phase": "not_started",
+    "difficulty_phase": "not_started"
+  },
+  "validation_summary": {
+    "verified_problems": 2,
+    "needs_review_or_invalid": 2,
+    "needs_review_problem_numbers": [
+      2,
+      4
+    ],
+    "notes": "Original statements retained, including source defects and explicitly described probability assumptions. No fabricated options or automatic grading for open answers."
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-2_primaria_q01",
+      "collection": "FUSION",
+      "subcategory": "2020 / Torneo 2 / Primaria",
+      "problem_number": 1,
+      "source_page": 1,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "En la siguiente suma cada letra representa un digito distinto. ¿cuál es el menor\nvalor posible de A?\n\n\\[\\overline{AB}+\\overline{BA}=\\overline{CDC}.\\]",
+      "options": [],
+      "correct_answer": "3",
+      "correct_option_label": null,
+      "solution_text": "1. **Datos.** Cada letra es una cifra distinta; A, B y C no son cero porque encabezan números de dos o tres cifras.\n2. **Ecuación.** La suma se escribe \\(11(A+B)=101C+10D\\). El resultado tiene tres cifras y es menor que 200, por lo que \\(C=1\\).\n3. **Divisibilidad.** \\(101+10D\\) debe ser múltiplo de 11. Al reducir módulo 11 obtenemos \\(2-D\\equiv0\\), de modo que \\(D=2\\). Entonces \\(A+B=11\\).\n4. **Mínimo.** A no puede ser 1 ni 2, porque ya representan C y D. El siguiente candidato es \\(A=3\\), que da \\(B=8\\).\n5. **Comprobación y respuesta.** \\(38+83=121\\), y 3, 8, 1 y 2 son distintas. El menor valor de **A es 3**.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta: solución revisada; comparación manual sin calificación automática."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Torneo 2/Multinivel/FUSION_2020_torneo-2_multinivel_examen-2_original.pdf",
+      "source_pdf_sha256": "e307a24fa83d543413e4794fc753c4a6866adecbf888ec9150b32dc8cbe9a7e4"
+    },
+    {
+      "source_id": "fusion1_examen-2_primaria_q02",
+      "collection": "FUSION",
+      "subcategory": "2020 / Torneo 2 / Primaria",
+      "problem_number": 2,
+      "source_page": 1,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Sea M un punto dentro del cuadrado ABCD de tal manera que el triángulo AMD es\nequilátero. Sean Q y R puntos de CD y BC, respectivamente, talles que AQ es\nmediatriz de MD y AR es bisectriz del ángulo <BMA. Demuestre que los puntos R,\nM y Q son colineales.",
+      "options": [],
+      "correct_answer": null,
+      "correct_option_label": null,
+      "solution_text": "**Hay un error en la condición sobre la bisectriz.**\n1. En el ángulo BMA, la letra central M es el vértice. Su bisectriz debe ser una semirrecta con origen en M.\n2. El original pide que AR sea esa bisectriz, pero AR tiene origen en A. La fuente incluye además la definición de bisectriz como semirrecta que parte del vértice.\n3. No basta reinterpretar AR como una recta que pasa por M: en ese caso MA sería uno de los lados del ángulo y no su bisectriz interior, salvo un ángulo degenerado que no corresponde a la construcción.\n4. Una posible errata sería escribir BAM, cuyo vértice sí es A. No sustituimos el ángulo del original sin una corrección respaldada.\n5. **Práctica guiada.** Hace falta aclarar esa condición antes de demostrar la colinealidad. No se publica una demostración de un enunciado distinto. Las soluciones impresas que hablan de áreas de dos cuadrados no resuelven esta pregunta.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "source_error",
+        "answer_checked": false,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "AR parte de A, pero la bisectriz del ángulo BMA debe partir de M. La definición impresa de bisectriz también exige ese vértice. La solución de algunas versiones trata un problema distinto."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Torneo 2/Multinivel/FUSION_2020_torneo-2_multinivel_examen-2_original.pdf",
+      "source_pdf_sha256": "e307a24fa83d543413e4794fc753c4a6866adecbf888ec9150b32dc8cbe9a7e4"
+    },
+    {
+      "source_id": "fusion1_examen-2_primaria_q03",
+      "collection": "FUSION",
+      "subcategory": "2020 / Torneo 2 / Primaria",
+      "problem_number": 3,
+      "source_page": 1,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "En una clase el 40% de los alumnos tienen vista deficiente: el 70% de los que\ntienen vista deficiente llevan lentes y el 30% restantes utilizan lentes de contacto.\nSi 21 alumnos de la clase usan lentes, ¿cuántos utilizan lentes de contacto?",
+      "options": [],
+      "correct_answer": "9 alumnos",
+      "correct_option_label": null,
+      "solution_text": "1. **Grupo relevante.** Los 21 alumnos que usan lentes representan el 70 % del grupo con vista deficiente, no el 70 % de toda la clase.\n2. **Total del grupo.** Si \\(d\\) es ese total, \\(0.70d=21\\), por lo que \\(d=30\\).\n3. **Lentes de contacto.** El otro 30 % corresponde a \\(0.30\\cdot30=9\\) alumnos.\n4. **Respuesta y comprobación.** **9 alumnos** usan lentes de contacto. Los grupos suman \\(21+9=30\\), y sus porcentajes son 70 % y 30 %. El 40 % dado inicialmente es compatible con una clase de \\(30/0.4=75\\) alumnos.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta: solución revisada; comparación manual sin calificación automática."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Torneo 2/Multinivel/FUSION_2020_torneo-2_multinivel_examen-2_original.pdf",
+      "source_pdf_sha256": "e307a24fa83d543413e4794fc753c4a6866adecbf888ec9150b32dc8cbe9a7e4"
+    },
+    {
+      "source_id": "fusion1_examen-2_primaria_q04",
+      "collection": "FUSION",
+      "subcategory": "2020 / Torneo 2 / Primaria",
+      "problem_number": 4,
+      "source_page": 1,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "¿Cuál es la probabilidad de que un número de cuatro dígitos, que usa cifras (1, 2, 3\ny 4), sea divisible entre 11?",
+      "options": [],
+      "correct_answer": "1/3 sin repetición; 11/64 permitiendo repetición (selección uniforme)",
+      "correct_option_label": null,
+      "solution_text": "**La probabilidad depende de cómo se elige el número.**\n1. Un número de cuatro cifras es divisible por 11 cuando las sumas de las cifras de posiciones alternadas difieren en un múltiplo de 11. Usando cifras de 1 a 4, esa diferencia está entre -6 y 6; por tanto debe ser cero.\n2. **Usando 1, 2, 3 y 4 una sola vez.** Hay \\(4!=24\\) números. Ambas sumas alternadas deben valer 5. Las parejas son \\(\\{1,4\\}\\) y \\(\\{2,3\\}\\); hay dos maneras de asignarlas a las posiciones y dos órdenes para cada pareja: \\(2\\cdot2\\cdot2=8\\). Bajo selección uniforme, la probabilidad es \\(8/24=1/3\\).\n3. **Permitiendo repetición.** Hay \\(4^4=256\\) números. Dos cifras elegidas de 1 a 4 pueden sumar 2, 3, 4, 5, 6, 7 u 8 de 1, 2, 3, 4, 3, 2 y 1 maneras, respectivamente. Hacer iguales las dos sumas alternadas da \\(1^2+2^2+3^2+4^2+3^2+2^2+1^2=44\\) números. La probabilidad uniforme es \\(44/256=11/64\\).\n4. **Límite de la fuente.** La redacción no fija expresamente repetición ni selección aleatoria. Por eso se conservan las interpretaciones y no se atribuye una probabilidad única sin indicar el modelo.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "ambiguous_probability_model",
+        "answer_checked": false,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "El original no explicita si se usan las cuatro cifras una vez o si pueden repetirse, ni el mecanismo aleatorio. Las dos selecciones uniformes dan resultados distintos."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Torneo 2/Multinivel/FUSION_2020_torneo-2_multinivel_examen-2_original.pdf",
+      "source_pdf_sha256": "e307a24fa83d543413e4794fc753c4a6866adecbf888ec9150b32dc8cbe9a7e4"
+    }
+  ]
+}

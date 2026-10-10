@@ -1,0 +1,171 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2020/Torneo 3/Multinivel/FUSION_2020_torneo-3_multinivel_examen-3_original.pdf",
+  "source_sha256": "2ad4a60cbdb05cf65e37a55d2969f91e1647c857e7007e722968e17eef99e50c",
+  "pages": [
+    1
+  ],
+  "source_visual_review": "All problem pages compared with rendered original PDF. Stable recovered source IDs and original numbering preserved.",
+  "duplicate_sources": [],
+  "figure_review": [
+    {
+      "source_id": "fusion1_examen-3_primaria_q04",
+      "page": 1,
+      "pdf_image_object": "Image16.png",
+      "bbox_top_left_pdf_points": [
+        186,
+        549.12,
+        425.76,
+        690.24
+      ],
+      "sha256": "0f8eb7068e79b45732709267e5132e5b2a23451be9f1648bafaf6592543a72e1",
+      "method": "Exact PDF embedded bytes extracted and visually compared; no neighboring text or solution boxes."
+    }
+  ],
+  "transcription_corrections": [
+    {
+      "source_id": "fusion1_examen-3_primaria_q01",
+      "note": "Restored (A, B)? from PDF and removed false OCR option b:?; original is open answer."
+    }
+  ],
+  "latex_rendering": {
+    "engine": "KaTeX 0.16.47",
+    "expressions": 47,
+    "errors": []
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-3_primaria_q01",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "pairs": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            8,
+            2
+          ]
+        ]
+      },
+      "notes": "Respuesta abierta: solución revisada; comparación manual sin calificación automática."
+    },
+    {
+      "source_id": "fusion1_examen-3_primaria_q02",
+      "status": "ambiguous_multiple_solutions",
+      "independent_check": {
+        "coinCounts": [
+          {
+            "tens": 13,
+            "fives": 16,
+            "twos": 33,
+            "ones": 39
+          },
+          {
+            "tens": 16,
+            "fives": 11,
+            "twos": 26,
+            "ones": 48
+          },
+          {
+            "tens": 19,
+            "fives": 6,
+            "twos": 19,
+            "ones": 57
+          },
+          {
+            "tens": 22,
+            "fives": 1,
+            "twos": 12,
+            "ones": 66
+          }
+        ]
+      },
+      "notes": "Las restricciones permiten cuatro cantidades distintas de monedas de $1. Todas satisfacen el número de monedas, el valor total y la desigualdad."
+    },
+    {
+      "source_id": "fusion1_examen-3_primaria_q03",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "enumerationCount": 30
+      },
+      "notes": "Respuesta abierta: solución revisada; comparación manual sin calificación automática."
+    },
+    {
+      "source_id": "fusion1_examen-3_primaria_q04",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "AO_over_OD": 1,
+        "AF_over_FB": 0.6666666666666666,
+        "BC_over_CD": 1.5,
+        "ABD_area": 100,
+        "ABC_area": 300
+      },
+      "notes": "Respuesta abierta: solución revisada; comparación manual sin calificación automática."
+    }
+  ],
+  "structural_validation": [
+    {
+      "path": "02_JSON_EXAMS/FUSION/2020/Torneo 3/Primaria/FUSION_2020_torneo-3_primaria_verified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "b4f035dd0bd2b65f909862096e942e98acf84ca4c6704b675c544318dd6b329d",
+        "bytes": 15552,
+        "problems": 4,
+        "verified": 3,
+        "guided": 1,
+        "images": 1,
+        "figures": [
+          {
+            "source_id": "fusion1_examen-3_primaria_q04",
+            "figure": 1,
+            "sha256": "0f8eb7068e79b45732709267e5132e5b2a23451be9f1648bafaf6592543a72e1",
+            "width": 374,
+            "height": 220
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 3/Primaria/FUSION_2020_torneo-3_primaria_classified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "9ba3c7f6acd4fd3bb1c837ef130b5209dd2954e5ff91a67b29b773c8da0b732e",
+        "bytes": 17497,
+        "problems": 4,
+        "verified": 3,
+        "guided": 1,
+        "images": 1,
+        "figures": [
+          {
+            "source_id": "fusion1_examen-3_primaria_q04",
+            "figure": 1,
+            "sha256": "0f8eb7068e79b45732709267e5132e5b2a23451be9f1648bafaf6592543a72e1",
+            "width": 374,
+            "height": 220
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    }
+  ]
+}

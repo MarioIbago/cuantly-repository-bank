@@ -1,0 +1,78 @@
+{
+  "school_level": "Preparatoria y universitarios",
+  "policy": "Editorial difficulty relative to source school level; source defects do not establish a unique answer.",
+  "problems": [
+    {
+      "source_id": "fusion1_examen-3_elite-preparatoria-universitarios_q01",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "divisibility",
+        "place_value",
+        "extrema"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Usar paridad y suma de cifras para descartar centenas mayores."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-3_elite-preparatoria-universitarios_q02",
+      "primary_area": "algebra",
+      "secondary_areas": [
+        "number_theory"
+      ],
+      "mixed": true,
+      "difficulty": "L3",
+      "tags": [
+        "equations",
+        "integer_solutions",
+        "inequalities"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Combinar relaciones entre medias con una búsqueda entera finita y recuperar las raíces."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-3_elite-preparatoria-universitarios_q03",
+      "primary_area": "combinatorics",
+      "secondary_areas": [
+        "number_theory"
+      ],
+      "mixed": true,
+      "difficulty": "L3",
+      "tags": [
+        "counting",
+        "parity",
+        "divisibility"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Separar los productos cero y contar paridades de exponentes primos."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-3_elite-preparatoria-universitarios_q04",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L3",
+      "tags": [
+        "angles",
+        "triangles",
+        "ratios"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Combinar leyes de senos y ángulos complementarios para obtener una razón exacta."
+      ]
+    }
+  ]
+}

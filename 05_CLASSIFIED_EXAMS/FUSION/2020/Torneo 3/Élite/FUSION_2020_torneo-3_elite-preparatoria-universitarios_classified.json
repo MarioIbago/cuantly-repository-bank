@@ -1,0 +1,199 @@
+{
+  "schema_version": "1.0",
+  "source_format_reference": "Cuantly public practice; open_answer extension with manual solution comparison",
+  "exam": {
+    "competition": "FUSION",
+    "edition": 3,
+    "year": 2020,
+    "phase": "Torneo 3",
+    "level": "Élite",
+    "school_level": "Preparatoria y universitarios",
+    "problem_count": 4,
+    "source_file": "FUSION_2020_torneo-3_multinivel_examen-3_original.pdf",
+    "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Torneo 3/Multinivel/FUSION_2020_torneo-3_multinivel_examen-3_original.pdf",
+    "source_sha256": "2ad4a60cbdb05cf65e37a55d2969f91e1647c857e7007e722968e17eef99e50c",
+    "image_policy": "Exact original PDF embedded problem diagrams in Base64. Cryptarithms and formulas are transcribed as LaTeX; no page or question-snippet images.",
+    "classification_phase": "completed",
+    "difficulty_phase": "completed"
+  },
+  "validation_summary": {
+    "verified_problems": 4,
+    "needs_review_or_invalid": 0,
+    "needs_review_problem_numbers": [],
+    "notes": "Original statements retained, including source defects and explicitly described probability assumptions. No fabricated options or automatic grading for open answers."
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-3_elite-preparatoria-universitarios_q01",
+      "collection": "FUSION",
+      "subcategory": "2020 / Torneo 3 / Élite",
+      "problem_number": 1,
+      "source_page": 3,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Sea N un número de tres dígitos múltiplo de 9. Si a N le quitamos el dígito de las\nunidades nos queda un número par y si le quitamos el dígito de las centenas nos\nqueda un número primo. ¿Cuál es el mayor valor que puede tener N?",
+      "options": [],
+      "correct_answer": "783",
+      "correct_option_label": null,
+      "solution_text": "1. **Cifras.** Escribamos \\(N=\\overline{abc}\\). La condición sobre el número al quitar unidades exige b par. La de divisibilidad por 9 exige \\(a+b+c\\equiv0\\pmod9\\).\n2. **Descartar centena 9.** Entonces \\(b+c\\) es múltiplo de 9, así que el número \\(\\overline{bc}\\) también lo es. Ningún resultado posible es primo: es 0 o un múltiplo positivo de 9.\n3. **Descartar centena 8.** Se necesita \\(b+c=1\\) o 10. Con b par, la primera posibilidad solo da 01, que no es primo. Las otras dan 28, 46, 64 u 82, todos compuestos.\n4. **Centena 7.** La decena par más grande es 8. Entre 780 y 789, la única suma de cifras múltiplo de 9 ocurre con \\(c=3\\), dando 783. Una decena menor ya produce un número menor.\n5. **Comprobación y respuesta.** \\(7+8+3=18\\), 78 es par y 83 es primo (no es divisible por 2, 3, 5 ni 7). El máximo es **783**.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta: solución revisada; comparación manual sin calificación automática."
+      },
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "divisibility",
+          "place_value",
+          "extrema"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Usar paridad y suma de cifras para descartar centenas mayores."
+        ]
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Torneo 3/Multinivel/FUSION_2020_torneo-3_multinivel_examen-3_original.pdf",
+      "source_pdf_sha256": "2ad4a60cbdb05cf65e37a55d2969f91e1647c857e7007e722968e17eef99e50c"
+    },
+    {
+      "source_id": "fusion1_examen-3_elite-preparatoria-universitarios_q02",
+      "collection": "FUSION",
+      "subcategory": "2020 / Torneo 3 / Élite",
+      "problem_number": 2,
+      "source_page": 3,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Hallar los números resales positivos x, y sabiendo que las 4 igualdades: \\[a=\\frac{x+y}{2},\\qquad g=\\sqrt{xy},\\qquad h=\\frac{2xy}{x+y},\\qquad k=\\sqrt{\\frac{x^2+y^2}{2}}\\] son números naturales cuya suma es 66.",
+      "options": [],
+      "correct_answer": "\\(x=25+10\\sqrt6,\\ y=25-10\\sqrt6\\), o intercambiados",
+      "correct_option_label": null,
+      "solution_text": "1. **Relaciones.** De las definiciones, \\(g^2=ah\\) y \\(k^2=2a^2-g^2\\). Todas las medias son positivas. Además, \\(g\\le a\\) por la desigualdad aritmético-geométrica y \\(k\\ge a\\).\n2. **Cotas enteras.** Como \\(g,h\\ge1\\) y \\(k\\ge a\\), \\(66=a+g+h+k\\ge2a+2\\); por tanto \\(1\\le a\\le32\\). Para cada a solo hay que revisar \\(1\\le g\\le a\\).\n3. **Búsqueda exhaustiva reproducible.** Para cada par (a,g) de esos rangos, conservamos únicamente los que tienen \\(a\\mid g^2\\). Calculamos \\(h=g^2/a\\) y \\(k=66-a-g-h\\). Pedimos \\(k>0\\) y \\(k^2=2a^2-g^2\\). Al revisar esos 528 pares, la única cuaterna es \\((a,g,h,k)=(25,5,1,35)\\). Las cotas garantizan que no se omiten posibilidades.\n4. **Recuperar x e y.** Tenemos \\(x+y=50\\) y \\(xy=25\\). Son las raíces de \\(t^2-50t+25=0\\), es decir, \\(25\\pm10\\sqrt6\\).\n5. **Comprobación.** Ambas raíces son positivas, su suma es 50 y su producto es 25. Dan \\(a=25\\), \\(g=5\\), \\(h=2\\cdot25/50=1\\) y \\(k=\\sqrt{(2500-50)/2}=35\\); la suma es 66.\n6. **Respuesta.** **\\(25+10\\sqrt6\\) y \\(25-10\\sqrt6\\)**, en cualquiera de los dos órdenes.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta: solución revisada; comparación manual sin calificación automática."
+      },
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [
+          "number_theory"
+        ],
+        "mixed": true,
+        "difficulty": "L3",
+        "tags": [
+          "equations",
+          "integer_solutions",
+          "inequalities"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Combinar relaciones entre medias con una búsqueda entera finita y recuperar las raíces."
+        ]
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Torneo 3/Multinivel/FUSION_2020_torneo-3_multinivel_examen-3_original.pdf",
+      "source_pdf_sha256": "2ad4a60cbdb05cf65e37a55d2969f91e1647c857e7007e722968e17eef99e50c"
+    },
+    {
+      "source_id": "fusion1_examen-3_elite-preparatoria-universitarios_q03",
+      "collection": "FUSION",
+      "subcategory": "2020 / Torneo 3 / Élite",
+      "problem_number": 3,
+      "source_page": 3,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "¿Cuántos números de cuatro cifras cumplen la propiedad de que el producto de\ndichas cifras es un cuadrado perfecto?",
+      "options": [],
+      "correct_answer": "3248",
+      "correct_option_label": null,
+      "solution_text": "1. **Productos cero.** El 0 es un cuadrado perfecto. De los 9000 números de cuatro cifras, \\(9^4=6561\\) no contienen ceros; los otros \\(9000-6561=2439\\) tienen producto cero.\n2. **Productos positivos.** Solo usamos cifras de 1 a 9. Un producto es cuadrado si los exponentes de 2, 3, 5 y 7 son todos pares. Cada cifra se representa por esas cuatro paridades; 1, 4 y 9 tienen todas pares, 2 y 8 tienen impar solo la de 2, 3 solo la de 3, 5 solo la de 5, 6 las de 2 y 3, y 7 solo la de 7.\n3. **Agrupar en dos pares.** Las cuatro cifras forman dos pares ordenados. El producto total es cuadrado exactamente cuando ambos pares tienen el mismo vector de paridades.\n4. **Conteo comprobable.** En los 81 pares de cifras de 1 a 9, las cantidades para los 16 vectores son \\(17,14,10,10,6,4,2,2,6,4,2,2,2,0,0,0\\). Suman 81. Para combinar dos pares del mismo vector, sumamos los cuadrados de esas cantidades: se obtienen 809 productos cuadrados positivos.\n5. **Respuesta y comprobación.** El total es **\\(2439+809=3248\\)**. Una enumeración independiente de 1000 a 9999, comprobando si la raíz cuadrada del producto es entera, da el mismo resultado.\n6. **Convención explícita.** El texto no excluye el cuadrado 0. Si se exigiera producto cuadrado positivo, serían 809; aquí se conserva la definición matemática que incluye 0.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta: solución revisada; comparación manual sin calificación automática."
+      },
+      "classification": {
+        "primary_area": "combinatorics",
+        "secondary_areas": [
+          "number_theory"
+        ],
+        "mixed": true,
+        "difficulty": "L3",
+        "tags": [
+          "counting",
+          "parity",
+          "divisibility"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Separar los productos cero y contar paridades de exponentes primos."
+        ]
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Torneo 3/Multinivel/FUSION_2020_torneo-3_multinivel_examen-3_original.pdf",
+      "source_pdf_sha256": "2ad4a60cbdb05cf65e37a55d2969f91e1647c857e7007e722968e17eef99e50c"
+    },
+    {
+      "source_id": "fusion1_examen-3_elite-preparatoria-universitarios_q04",
+      "collection": "FUSION",
+      "subcategory": "2020 / Torneo 3 / Élite",
+      "problem_number": 4,
+      "source_page": 3,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Sea ABC un triángulo tal que <B=100° y <C=62°. En los lados AB y AC se toman los\npuntos M y N, respectivamente, tales que <MCB=52° y <NBC =80° calcule, en\ngrados, el ángulo <CMN.",
+      "options": [],
+      "correct_answer": "28°",
+      "correct_option_label": null,
+      "solution_text": "1. **Ángulos iniciales.** \\(\\angle A=180°-100°-62°=18°\\). Como \\(\\angle MCB=52°\\), \\(\\angle ACM=10°\\) y \\(\\angle AMC=152°\\). Como \\(\\angle NBC=80°\\), \\(\\angle ABN=20°\\) y \\(\\angle ANB=142°\\).\n2. **Ley de senos.** En AMC, \\(\\frac{AM}{AC}=\\frac{\\sin10°}{\\sin28°}\\). En ABN, \\(\\frac{AN}{AB}=\\frac{\\sin20°}{\\sin38°}\\). En ABC, \\(\\frac{AB}{AC}=\\frac{\\sin62°}{\\sin100°}\\).\n3. **Razón de lados en AMN.** Combinando: \\(\\frac{AM}{AN}=\\frac{\\sin10°\\sin38°\\sin100°}{\\sin28°\\sin20°\\sin62°}\\).\n4. **Simplificar exactamente.** \\(\\sin100°=\\cos10°\\), \\(\\sin62°=\\cos28°\\) y \\(\\sin20°=2\\sin10°\\cos10°\\). La razón queda \\(\\frac{\\sin38°}{2\\sin28°\\cos28°}=\\frac{\\sin38°}{\\sin56°}=\\frac{\\sin38°}{\\sin124°}\\).\n5. **Determinar AMN.** Su ángulo incluido MAN es 18°. Esa razón de los dos lados y el ángulo incluido determinan el triángulo hasta semejanza. Los ángulos ANM=38° y AMN=124° suman 162° y cumplen la razón de senos; son los correspondientes.\n6. **Respuesta y comprobación.** \\(\\angle CMN=\\angle CMA-\\angle NMA=152°-124°=\\mathbf{28°}\\). Una construcción independiente por intersección de rectas y cálculo de producto escalar también da 28°, sin medir una figura.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta: solución revisada; comparación manual sin calificación automática."
+      },
+      "classification": {
+        "primary_area": "geometry",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "angles",
+          "triangles",
+          "ratios"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Combinar leyes de senos y ángulos complementarios para obtener una razón exacta."
+        ]
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Torneo 3/Multinivel/FUSION_2020_torneo-3_multinivel_examen-3_original.pdf",
+      "source_pdf_sha256": "2ad4a60cbdb05cf65e37a55d2969f91e1647c857e7007e722968e17eef99e50c"
+    }
+  ]
+}

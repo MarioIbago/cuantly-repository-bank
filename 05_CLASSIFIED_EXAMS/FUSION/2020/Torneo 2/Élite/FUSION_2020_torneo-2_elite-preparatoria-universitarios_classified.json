@@ -1,0 +1,204 @@
+{
+  "schema_version": "1.0",
+  "source_format_reference": "Cuantly public practice; open_answer extension with manual solution comparison",
+  "exam": {
+    "competition": "FUSION",
+    "edition": 2,
+    "year": 2020,
+    "phase": "Torneo 2",
+    "level": "Élite",
+    "school_level": "Preparatoria y universitarios",
+    "problem_count": 4,
+    "source_file": "FUSION_2020_torneo-2_multinivel_examen-2_original.pdf",
+    "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Torneo 2/Multinivel/FUSION_2020_torneo-2_multinivel_examen-2_original.pdf",
+    "source_sha256": "e307a24fa83d543413e4794fc753c4a6866adecbf888ec9150b32dc8cbe9a7e4",
+    "image_policy": "Exact original PDF embedded problem diagrams in Base64. Cryptarithms and formulas are transcribed as LaTeX; no page or question-snippet images.",
+    "classification_phase": "completed",
+    "difficulty_phase": "completed"
+  },
+  "validation_summary": {
+    "verified_problems": 1,
+    "needs_review_or_invalid": 3,
+    "needs_review_problem_numbers": [
+      1,
+      2,
+      4
+    ],
+    "notes": "Original statements retained, including source defects and explicitly described probability assumptions. No fabricated options or automatic grading for open answers."
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-2_elite-preparatoria-universitarios_q01",
+      "collection": "FUSION",
+      "subcategory": "2020 / Torneo 2 / Élite",
+      "problem_number": 1,
+      "source_page": 3,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "¿Cuántos pares de números que no contienen ceros dan 90,000 al multiplicarse\nentre sí?",
+      "options": [],
+      "correct_answer": "3 pares de enteros positivos sin orden; 6 pares ordenados",
+      "correct_option_label": null,
+      "solution_text": "1. **Lectura de enteros positivos.** Buscamos divisores \\(d\\) de 90000, con \\(d\\le\\sqrt{90000}=300\\), y revisamos que ni d ni \\(90000/d\\) contengan la cifra 0. La factorización \\(90000=2^4\\cdot3^2\\cdot5^4\\) permite generar todos esos divisores.\n2. **Pares que cumplen.** Se obtienen \\((16,5625)\\), \\((48,1875)\\) y \\((144,625)\\).\n3. **Comprobación.** Los tres productos valen 90000 y ninguno de sus factores contiene ceros.\n4. **Según el orden.** Si intercambiar los factores no cambia el par, hay **3**. Si se cuentan pares ordenados, cada uno admite dos órdenes, de modo que hay **6**.\n5. **Límite de la redacción.** Tampoco se declara que los números deban ser enteros positivos. Por ejemplo, admitir dos factores negativos añade los pares de ambos negativos. La respuesta debe acompañarse del dominio y de la convención de orden; no se fija una única sin esas aclaraciones.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "ambiguous_source",
+        "answer_checked": false,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "El texto no fija expresamente el dominio de los números ni si el orden de los factores distingue los pares."
+      },
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [
+          "combinatorics"
+        ],
+        "mixed": true,
+        "difficulty": "L2",
+        "tags": [
+          "divisibility",
+          "counting",
+          "integer_solutions"
+        ],
+        "classification_confidence": 0.8,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Enumerar divisores sin ceros y distinguir pares ordenados y no ordenados."
+        ]
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Torneo 2/Multinivel/FUSION_2020_torneo-2_multinivel_examen-2_original.pdf",
+      "source_pdf_sha256": "e307a24fa83d543413e4794fc753c4a6866adecbf888ec9150b32dc8cbe9a7e4"
+    },
+    {
+      "source_id": "fusion1_examen-2_elite-preparatoria-universitarios_q02",
+      "collection": "FUSION",
+      "subcategory": "2020 / Torneo 2 / Élite",
+      "problem_number": 2,
+      "source_page": 3,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Sea M un punto dentro del cuadrado ABCD de tal manera que el triángulo AMD es\nequilátero. Sean Q y R puntos de CD y BC, respectivamente, talles que AQ es\nmediatriz de MD y AR es bisectriz del ángulo <BMA. Demuestre que los puntos R,\nM y Q son colineales.",
+      "options": [],
+      "correct_answer": null,
+      "correct_option_label": null,
+      "solution_text": "**Hay un error en la condición sobre la bisectriz.**\n1. En el ángulo BMA, la letra central M es el vértice. Su bisectriz debe ser una semirrecta con origen en M.\n2. El original pide que AR sea esa bisectriz, pero AR tiene origen en A. La fuente incluye además la definición de bisectriz como semirrecta que parte del vértice.\n3. No basta reinterpretar AR como una recta que pasa por M: en ese caso MA sería uno de los lados del ángulo y no su bisectriz interior, salvo un ángulo degenerado que no corresponde a la construcción.\n4. Una posible errata sería escribir BAM, cuyo vértice sí es A. No sustituimos el ángulo del original sin una corrección respaldada.\n5. **Práctica guiada.** Hace falta aclarar esa condición antes de demostrar la colinealidad. No se publica una demostración de un enunciado distinto. Las soluciones impresas que hablan de áreas de dos cuadrados no resuelven esta pregunta.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "source_error",
+        "answer_checked": false,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "AR parte de A, pero la bisectriz del ángulo BMA debe partir de M. La definición impresa de bisectriz también exige ese vértice. La solución de algunas versiones trata un problema distinto."
+      },
+      "classification": {
+        "primary_area": "geometry",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "angles",
+          "equilateral_triangles",
+          "perpendicular_lines"
+        ],
+        "classification_confidence": 0.8,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Construcción geométrica cuyo dato sobre la bisectriz es incompatible con su vértice."
+        ]
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Torneo 2/Multinivel/FUSION_2020_torneo-2_multinivel_examen-2_original.pdf",
+      "source_pdf_sha256": "e307a24fa83d543413e4794fc753c4a6866adecbf888ec9150b32dc8cbe9a7e4"
+    },
+    {
+      "source_id": "fusion1_examen-2_elite-preparatoria-universitarios_q03",
+      "collection": "FUSION",
+      "subcategory": "2020 / Torneo 2 / Élite",
+      "problem_number": 3,
+      "source_page": 3,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "¿cuántos enteros positivos menores de 2020 existen tales que si su ultimo dígito\nes borrado, el entero es divisible por el nuevo número?",
+      "options": [],
+      "correct_answer": "224",
+      "correct_option_label": null,
+      "solution_text": "1. **Representación.** Escribimos \\(N=10q+r\\), con \\(0\\le r\\le9\\). Al borrar la última cifra queda q. Excluimos los números de una sola cifra porque borrarla no deja un entero positivo divisor.\n2. **Rango.** \\(N<2020\\) implica \\(1\\le q\\le201\\). La condición \\(q\\mid N\\) equivale a \\(q\\mid r\\).\n3. **Última cifra cero.** Si \\(r=0\\), todos los q del rango sirven: 201 números.\n4. **Última cifra de 1 a 9.** Para cada r sirven sus divisores positivos. Sus cantidades son, respectivamente, \\(1,2,2,3,2,4,2,4,3\\); suman 23. Todos estos divisores están en el rango permitido.\n5. **Respuesta y comprobación.** Hay **\\(201+23=224\\)** números. Por ejemplo, 2010 es divisible por 201 y 121 es divisible por 12 solo si 12 divide a 1, lo que es falso: el criterio distingue correctamente ambos casos.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta: solución revisada; comparación manual sin calificación automática."
+      },
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [
+          "combinatorics"
+        ],
+        "mixed": true,
+        "difficulty": "L2",
+        "tags": [
+          "divisibility",
+          "counting",
+          "remainders"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Expresar el borrado de la cifra como cociente y resto y contar divisores pequeños."
+        ]
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Torneo 2/Multinivel/FUSION_2020_torneo-2_multinivel_examen-2_original.pdf",
+      "source_pdf_sha256": "e307a24fa83d543413e4794fc753c4a6866adecbf888ec9150b32dc8cbe9a7e4"
+    },
+    {
+      "source_id": "fusion1_examen-2_elite-preparatoria-universitarios_q04",
+      "collection": "FUSION",
+      "subcategory": "2020 / Torneo 2 / Élite",
+      "problem_number": 4,
+      "source_page": 3,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "¿Cuál es la probabilidad de que un número de cuatro dígitos, que usa cifras (1, 2, 3\ny 4), sea divisible entre 11?",
+      "options": [],
+      "correct_answer": "1/3 sin repetición; 11/64 permitiendo repetición (selección uniforme)",
+      "correct_option_label": null,
+      "solution_text": "**La probabilidad depende de cómo se elige el número.**\n1. Un número de cuatro cifras es divisible por 11 cuando las sumas de las cifras de posiciones alternadas difieren en un múltiplo de 11. Usando cifras de 1 a 4, esa diferencia está entre -6 y 6; por tanto debe ser cero.\n2. **Usando 1, 2, 3 y 4 una sola vez.** Hay \\(4!=24\\) números. Ambas sumas alternadas deben valer 5. Las parejas son \\(\\{1,4\\}\\) y \\(\\{2,3\\}\\); hay dos maneras de asignarlas a las posiciones y dos órdenes para cada pareja: \\(2\\cdot2\\cdot2=8\\). Bajo selección uniforme, la probabilidad es \\(8/24=1/3\\).\n3. **Permitiendo repetición.** Hay \\(4^4=256\\) números. Dos cifras elegidas de 1 a 4 pueden sumar 2, 3, 4, 5, 6, 7 u 8 de 1, 2, 3, 4, 3, 2 y 1 maneras, respectivamente. Hacer iguales las dos sumas alternadas da \\(1^2+2^2+3^2+4^2+3^2+2^2+1^2=44\\) números. La probabilidad uniforme es \\(44/256=11/64\\).\n4. **Límite de la fuente.** La redacción no fija expresamente repetición ni selección aleatoria. Por eso se conservan las interpretaciones y no se atribuye una probabilidad única sin indicar el modelo.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "ambiguous_probability_model",
+        "answer_checked": false,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "El original no explicita si se usan las cuatro cifras una vez o si pueden repetirse, ni el mecanismo aleatorio. Las dos selecciones uniformes dan resultados distintos."
+      },
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [
+          "combinatorics"
+        ],
+        "mixed": true,
+        "difficulty": "L2",
+        "tags": [
+          "counting",
+          "divisibility"
+        ],
+        "classification_confidence": 0.8,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Definir el espacio muestral y contar las cifras alternadas que suman lo mismo."
+        ]
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Torneo 2/Multinivel/FUSION_2020_torneo-2_multinivel_examen-2_original.pdf",
+      "source_pdf_sha256": "e307a24fa83d543413e4794fc753c4a6866adecbf888ec9150b32dc8cbe9a7e4"
+    }
+  ]
+}

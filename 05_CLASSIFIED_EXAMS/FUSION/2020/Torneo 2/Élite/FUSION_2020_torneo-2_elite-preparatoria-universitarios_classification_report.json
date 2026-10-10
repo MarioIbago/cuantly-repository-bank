@@ -1,0 +1,79 @@
+{
+  "school_level": "Preparatoria y universitarios",
+  "policy": "Editorial difficulty relative to source school level; source defects do not establish a unique answer.",
+  "problems": [
+    {
+      "source_id": "fusion1_examen-2_elite-preparatoria-universitarios_q01",
+      "primary_area": "number_theory",
+      "secondary_areas": [
+        "combinatorics"
+      ],
+      "mixed": true,
+      "difficulty": "L2",
+      "tags": [
+        "divisibility",
+        "counting",
+        "integer_solutions"
+      ],
+      "classification_confidence": 0.8,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Enumerar divisores sin ceros y distinguir pares ordenados y no ordenados."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-2_elite-preparatoria-universitarios_q02",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L3",
+      "tags": [
+        "angles",
+        "equilateral_triangles",
+        "perpendicular_lines"
+      ],
+      "classification_confidence": 0.8,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Construcción geométrica cuyo dato sobre la bisectriz es incompatible con su vértice."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-2_elite-preparatoria-universitarios_q03",
+      "primary_area": "number_theory",
+      "secondary_areas": [
+        "combinatorics"
+      ],
+      "mixed": true,
+      "difficulty": "L2",
+      "tags": [
+        "divisibility",
+        "counting",
+        "remainders"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Expresar el borrado de la cifra como cociente y resto y contar divisores pequeños."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-2_elite-preparatoria-universitarios_q04",
+      "primary_area": "probability",
+      "secondary_areas": [
+        "combinatorics"
+      ],
+      "mixed": true,
+      "difficulty": "L2",
+      "tags": [
+        "counting",
+        "divisibility"
+      ],
+      "classification_confidence": 0.8,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Definir el espacio muestral y contar las cifras alternadas que suman lo mismo."
+      ]
+    }
+  ]
+}

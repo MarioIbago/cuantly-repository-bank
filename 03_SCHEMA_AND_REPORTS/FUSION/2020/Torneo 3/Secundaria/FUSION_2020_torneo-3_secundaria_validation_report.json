@@ -1,0 +1,205 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2020/Torneo 3/Multinivel/FUSION_2020_torneo-3_multinivel_examen-3_original.pdf",
+  "source_sha256": "2ad4a60cbdb05cf65e37a55d2969f91e1647c857e7007e722968e17eef99e50c",
+  "pages": [
+    2
+  ],
+  "source_visual_review": "All problem pages compared with rendered original PDF. Stable recovered source IDs and original numbering preserved.",
+  "duplicate_sources": [],
+  "figure_review": [],
+  "transcription_corrections": [],
+  "latex_rendering": {
+    "engine": "KaTeX 0.16.47",
+    "expressions": 39,
+    "errors": []
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-3_secundaria_q01",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "days": [
+          218
+        ],
+        "day217": 1996,
+        "day218": 2006,
+        "day219": 2016
+      },
+      "notes": "Respuesta abierta: solución revisada; comparación manual sin calificación automática."
+    },
+    {
+      "source_id": "fusion1_examen-3_secundaria_q02",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "identityExpandedCoefficients": {
+          "a": 1,
+          "b": -2
+        },
+        "secondIdentityExpandedCoefficients": {
+          "a": 10,
+          "b": -20
+        }
+      },
+      "notes": "Respuesta abierta: solución revisada; comparación manual sin calificación automática."
+    },
+    {
+      "source_id": "fusion1_examen-3_secundaria_q03",
+      "status": "ambiguous_probability_model",
+      "independent_check": {
+        "triples": [
+          [
+            1,
+            5,
+            9
+          ],
+          [
+            1,
+            6,
+            8
+          ],
+          [
+            2,
+            4,
+            9
+          ],
+          [
+            2,
+            5,
+            8
+          ],
+          [
+            2,
+            6,
+            7
+          ],
+          [
+            3,
+            4,
+            8
+          ],
+          [
+            3,
+            5,
+            7
+          ],
+          [
+            4,
+            5,
+            6
+          ]
+        ],
+        "favorable": 4
+      },
+      "notes": "La fuente no especifica un mecanismo aleatorio. El resultado 1/2 corresponde a selección uniforme entre ternas distintas cuya suma es 15."
+    },
+    {
+      "source_id": "fusion1_examen-3_secundaria_q04",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "samples": [
+          {
+            "alpha": 20,
+            "O": [
+              0.5,
+              0.18198511713310123
+            ],
+            "K": [
+              0.8152074690959047,
+              0
+            ],
+            "angle": 150.00000000000003
+          },
+          {
+            "alpha": 40,
+            "O": [
+              0.5,
+              0.08816349035423253
+            ],
+            "K": [
+              0.6527036446661394,
+              0
+            ],
+            "angle": 150.00000000000003
+          },
+          {
+            "alpha": 60,
+            "O": [
+              0.5,
+              0
+            ],
+            "K": [
+              0.5,
+              0
+            ],
+            "angle": "undefined"
+          },
+          {
+            "alpha": 80,
+            "O": [
+              0.5,
+              -0.08816349035423246
+            ],
+            "K": [
+              0.3472963553338607,
+              0
+            ],
+            "angle": 30.000000000000004
+          },
+          {
+            "alpha": 100,
+            "O": [
+              0.5,
+              -0.18198511713310117
+            ],
+            "K": [
+              0.18479253090409542,
+              0
+            ],
+            "angle": 30.000000000000004
+          }
+        ]
+      },
+      "notes": "Los valores definidos son 30° y 150°. Para A=60° coinciden O y K, y CKO no está definido; esa excepción se conserva explícitamente."
+    }
+  ],
+  "structural_validation": [
+    {
+      "path": "02_JSON_EXAMS/FUSION/2020/Torneo 3/Secundaria/FUSION_2020_torneo-3_secundaria_verified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "d68d5dc864ee527ffbb2b6ff06d711b10b2a0bd6bd288bba8bc353f73cb21592",
+        "bytes": 9778,
+        "problems": 4,
+        "verified": 3,
+        "guided": 1,
+        "images": 0,
+        "figures": [],
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 3/Secundaria/FUSION_2020_torneo-3_secundaria_classified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "d380f4d4e2e95c0b59569065cf377925db57d2e8ae26f5abc0247a10c5ec2f1b",
+        "bytes": 11667,
+        "problems": 4,
+        "verified": 3,
+        "guided": 1,
+        "images": 0,
+        "figures": [],
+        "errors": [],
+        "warnings": []
+      }
+    }
+  ]
+}

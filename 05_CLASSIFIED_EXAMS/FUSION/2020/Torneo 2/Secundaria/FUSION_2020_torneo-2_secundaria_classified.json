@@ -1,0 +1,211 @@
+{
+  "schema_version": "1.0",
+  "source_format_reference": "Cuantly public practice; open_answer extension with manual solution comparison",
+  "exam": {
+    "competition": "FUSION",
+    "edition": 2,
+    "year": 2020,
+    "phase": "Torneo 2",
+    "level": "Secundaria",
+    "school_level": "Secundaria (sin grado indicado)",
+    "problem_count": 4,
+    "source_file": "FUSION_2020_torneo-2_multinivel_examen-2_original.pdf",
+    "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Torneo 2/Multinivel/FUSION_2020_torneo-2_multinivel_examen-2_original.pdf",
+    "source_sha256": "e307a24fa83d543413e4794fc753c4a6866adecbf888ec9150b32dc8cbe9a7e4",
+    "image_policy": "Exact original PDF embedded problem diagrams in Base64. Cryptarithms and formulas are transcribed as LaTeX; no page or question-snippet images.",
+    "classification_phase": "completed",
+    "difficulty_phase": "completed"
+  },
+  "validation_summary": {
+    "verified_problems": 3,
+    "needs_review_or_invalid": 1,
+    "needs_review_problem_numbers": [
+      4
+    ],
+    "notes": "Original statements retained, including source defects and explicitly described probability assumptions. No fabricated options or automatic grading for open answers."
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-2_secundaria_q01",
+      "collection": "FUSION",
+      "subcategory": "2020 / Torneo 2 / Secundaria",
+      "problem_number": 1,
+      "source_page": 2,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Encuentra los tres dígitos que componen un número, sabiendo que:\n- 123 no tiene un solo digito común.\n- 456 tiene un dígito común y, además, situado en el lugar.\n- 612 tiene un dígito común, pero mal situado.\n- 547 tiene un dígito común pero mal situado.\n- 843 tiene un dígito común y, además, situado en su lugar.",
+      "options": [],
+      "correct_answer": "876",
+      "correct_option_label": null,
+      "solution_text": "1. **Descartar cifras.** La pista 123 excluye 1, 2 y 3.\n2. **Situar el 6.** En 612, la única cifra que puede ser común es 6. En 456 también debe ser la única común, así que 4 y 5 quedan excluidos. Además, ahí está bien situada: el 6 ocupa la tercera posición.\n3. **Situar el 8.** En 843, ni 4 ni 3 pueden aparecer. La cifra común es 8 y está bien situada: ocupa la primera posición.\n4. **Situar el 7.** En 547, 5 y 4 están descartados. El 7 aparece, pero no en la tercera posición. Solo queda la segunda.\n5. **Respuesta y comprobación.** El número es **876**. No comparte cifras con 123; el 6 está en su sitio en 456 y fuera de sitio en 612; el 7 está fuera de sitio en 547; el 8 está en su sitio en 843. La lectura de «un dígito común» como exactamente uno satisface todas las pistas.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta: solución revisada; comparación manual sin calificación automática."
+      },
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "integer_solutions",
+          "place_value",
+          "substitution"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Encadenar restricciones de presencia y posición de cifras."
+        ]
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Torneo 2/Multinivel/FUSION_2020_torneo-2_multinivel_examen-2_original.pdf",
+      "source_pdf_sha256": "e307a24fa83d543413e4794fc753c4a6866adecbf888ec9150b32dc8cbe9a7e4"
+    },
+    {
+      "source_id": "fusion1_examen-2_secundaria_q02",
+      "collection": "FUSION",
+      "subcategory": "2020 / Torneo 2 / Secundaria",
+      "problem_number": 2,
+      "source_page": 2,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Charlitos en su viaje a España siguió, en un velero, el siguiente trayecto. ¿cuánto mide el\nángulo x? Nota:  no puedes usar transportador.",
+      "options": [],
+      "correct_answer": "80°",
+      "correct_option_label": null,
+      "solution_text": "1. **Leer la figura.** El trayecto forma un polígono de siete vértices. El ángulo marcado 50° es exterior, así que el interior correspondiente mide \\(180°-50°=130°\\).\n2. **Ángulos cóncavos.** Dos marcas x están en las pequeñas aberturas exteriores de las entrantes. Cada ángulo interior reflejo mide \\(360°-x\\). La tercera marca x sí es un ángulo interior convexo.\n3. **Suma interior.** Un polígono simple de siete lados tiene suma interior \\((7-2)180°=900°\\).\n4. **Ecuación.** \\(30°+40°+60°+130°+x+(360°-x)+(360°-x)=900°\\). Esto da \\(980°-x=900°\\).\n5. **Respuesta y comprobación.** **\\(x=80°\\)**. Al sustituir, los dos reflejos miden 280° y la suma es \\(30+40+60+130+80+280+280=900\\) grados. No se midió el dibujo con transportador.",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Trayecto del velero con ángulos 30°, 40°, 50°, 60° y tres ángulos x",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "76edc4ff538e979d0c489fdb9159565c731790a9012b7aea5d0da4264bd71742",
+          "source": "pdf_embedded_image",
+          "original_filename": "torneo2_page2_Image29.png",
+          "width_px": 381,
+          "height_px": 249
+        }
+      ],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta: solución revisada; comparación manual sin calificación automática."
+      },
+      "classification": {
+        "primary_area": "geometry",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "angles",
+          "polygons"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Identificar ángulos reflejos y un exterior en un polígono cóncavo."
+        ]
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Torneo 2/Multinivel/FUSION_2020_torneo-2_multinivel_examen-2_original.pdf",
+      "source_pdf_sha256": "e307a24fa83d543413e4794fc753c4a6866adecbf888ec9150b32dc8cbe9a7e4"
+    },
+    {
+      "source_id": "fusion1_examen-2_secundaria_q03",
+      "collection": "FUSION",
+      "subcategory": "2020 / Torneo 2 / Secundaria",
+      "problem_number": 3,
+      "source_page": 2,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Una alberca rectangular de ancho igual a 2/3 de longitud está rodeada por una sola\nbarda. Entre la barda y la alberca hay 1m de jardín alrededor de todo el perímetro de la\nalberca. Si el perímetro de la barda es de 58m, ¿Cuáles son las dimensiones de la\nalberca?",
+      "options": [],
+      "correct_answer": "15 m de longitud y 10 m de ancho",
+      "correct_option_label": null,
+      "solution_text": "1. **Incógnitas.** Sea \\(l\\) la longitud de la alberca. Su ancho es \\(2l/3\\).\n2. **Jardín alrededor.** Hay 1 m a cada lado. La barda encierra un rectángulo de dimensiones \\(l+2\\) y \\(2l/3+2\\).\n3. **Perímetro.** \\(2(l+2)+2(2l/3+2)=58\\). Al simplificar, \\(10l/3+8=58\\), por lo que \\(l=15\\).\n4. **Ancho.** \\(2\\cdot15/3=10\\).\n5. **Respuesta y comprobación.** La alberca mide **15 m por 10 m**. La barda mide 17 m por 12 m y su perímetro es \\(2(17+12)=58\\) m.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta: solución revisada; comparación manual sin calificación automática."
+      },
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [
+          "geometry"
+        ],
+        "mixed": true,
+        "difficulty": "L2",
+        "tags": [
+          "linear_equations",
+          "perimeter",
+          "ratios"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Distinguir dimensiones interiores y exteriores al modelar el perímetro."
+        ]
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Torneo 2/Multinivel/FUSION_2020_torneo-2_multinivel_examen-2_original.pdf",
+      "source_pdf_sha256": "e307a24fa83d543413e4794fc753c4a6866adecbf888ec9150b32dc8cbe9a7e4"
+    },
+    {
+      "source_id": "fusion1_examen-2_secundaria_q04",
+      "collection": "FUSION",
+      "subcategory": "2020 / Torneo 2 / Secundaria",
+      "problem_number": 4,
+      "source_page": 2,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "¿Cuál es la probabilidad de que un número de cuatro dígitos, que usa cifras (1, 2, 3 y 4),\nsea divisible entre 11?",
+      "options": [],
+      "correct_answer": "1/3 sin repetición; 11/64 permitiendo repetición (selección uniforme)",
+      "correct_option_label": null,
+      "solution_text": "**La probabilidad depende de cómo se elige el número.**\n1. Un número de cuatro cifras es divisible por 11 cuando las sumas de las cifras de posiciones alternadas difieren en un múltiplo de 11. Usando cifras de 1 a 4, esa diferencia está entre -6 y 6; por tanto debe ser cero.\n2. **Usando 1, 2, 3 y 4 una sola vez.** Hay \\(4!=24\\) números. Ambas sumas alternadas deben valer 5. Las parejas son \\(\\{1,4\\}\\) y \\(\\{2,3\\}\\); hay dos maneras de asignarlas a las posiciones y dos órdenes para cada pareja: \\(2\\cdot2\\cdot2=8\\). Bajo selección uniforme, la probabilidad es \\(8/24=1/3\\).\n3. **Permitiendo repetición.** Hay \\(4^4=256\\) números. Dos cifras elegidas de 1 a 4 pueden sumar 2, 3, 4, 5, 6, 7 u 8 de 1, 2, 3, 4, 3, 2 y 1 maneras, respectivamente. Hacer iguales las dos sumas alternadas da \\(1^2+2^2+3^2+4^2+3^2+2^2+1^2=44\\) números. La probabilidad uniforme es \\(44/256=11/64\\).\n4. **Límite de la fuente.** La redacción no fija expresamente repetición ni selección aleatoria. Por eso se conservan las interpretaciones y no se atribuye una probabilidad única sin indicar el modelo.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "ambiguous_probability_model",
+        "answer_checked": false,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "El original no explicita si se usan las cuatro cifras una vez o si pueden repetirse, ni el mecanismo aleatorio. Las dos selecciones uniformes dan resultados distintos."
+      },
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [
+          "combinatorics"
+        ],
+        "mixed": true,
+        "difficulty": "L2",
+        "tags": [
+          "counting",
+          "divisibility"
+        ],
+        "classification_confidence": 0.8,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Definir el espacio muestral y contar las cifras alternadas que suman lo mismo."
+        ]
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Torneo 2/Multinivel/FUSION_2020_torneo-2_multinivel_examen-2_original.pdf",
+      "source_pdf_sha256": "e307a24fa83d543413e4794fc753c4a6866adecbf888ec9150b32dc8cbe9a7e4"
+    }
+  ]
+}

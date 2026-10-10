@@ -1,0 +1,145 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2020/Torneo 2/Multinivel/FUSION_2020_torneo-2_multinivel_examen-2_original.pdf",
+  "source_sha256": "e307a24fa83d543413e4794fc753c4a6866adecbf888ec9150b32dc8cbe9a7e4",
+  "pages": [
+    1
+  ],
+  "source_visual_review": "All problem pages compared with rendered original PDF. Stable recovered source IDs and original numbering preserved.",
+  "duplicate_sources": [
+    {
+      "path": "01_RAW_PDFs/FUSION/2020/Torneo 2/Multinivel/FUSION_2020_torneo-2_multinivel_examen-2-primaria_original.pdf",
+      "sha256": "8bc8714ff2ea01ad0ea75effceb072b5c7920f55e2a9ca5cda953b563c8a87b6"
+    },
+    {
+      "path": "01_RAW_PDFs/FUSION/2020/Torneo 2/Multinivel/FUSION_2020_torneo-2_multinivel_examen-2-secundaria_original.pdf",
+      "sha256": "ba4f2a8b775f64d1d3f19a62721ffb12bb765ced8fac4b3c163800da9a045ca2"
+    }
+  ],
+  "figure_review": [],
+  "transcription_corrections": [
+    {
+      "source_id": "fusion1_examen-2_primaria_q01",
+      "note": "Transcribed embedded cryptarithm AB + BA = CDC as LaTeX."
+    }
+  ],
+  "latex_rendering": {
+    "engine": "KaTeX 0.16.47",
+    "expressions": 24,
+    "errors": []
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-2_primaria_q01",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "minimumA": 3,
+        "solutions": [
+          {
+            "A": 3,
+            "B": 8,
+            "C": 1,
+            "D": 2
+          },
+          {
+            "A": 4,
+            "B": 7,
+            "C": 1,
+            "D": 2
+          },
+          {
+            "A": 5,
+            "B": 6,
+            "C": 1,
+            "D": 2
+          },
+          {
+            "A": 6,
+            "B": 5,
+            "C": 1,
+            "D": 2
+          },
+          {
+            "A": 7,
+            "B": 4,
+            "C": 1,
+            "D": 2
+          },
+          {
+            "A": 8,
+            "B": 3,
+            "C": 1,
+            "D": 2
+          }
+        ]
+      },
+      "notes": "Respuesta abierta: solución revisada; comparación manual sin calificación automática."
+    },
+    {
+      "source_id": "fusion1_examen-2_primaria_q02",
+      "status": "source_error",
+      "independent_check": "Direct inverse calculation and source defect analysis recorded in solution.",
+      "notes": "AR parte de A, pero la bisectriz del ángulo BMA debe partir de M. La definición impresa de bisectriz también exige ese vértice. La solución de algunas versiones trata un problema distinto."
+    },
+    {
+      "source_id": "fusion1_examen-2_primaria_q03",
+      "status": "verified_open_answer",
+      "independent_check": "Direct inverse calculation and source defect analysis recorded in solution.",
+      "notes": "Respuesta abierta: solución revisada; comparación manual sin calificación automática."
+    },
+    {
+      "source_id": "fusion1_examen-2_primaria_q04",
+      "status": "ambiguous_probability_model",
+      "independent_check": {
+        "withoutRepetition": {
+          "favorable": 8,
+          "total": 24
+        },
+        "withRepetition": {
+          "favorable": 44,
+          "total": 256
+        }
+      },
+      "notes": "El original no explicita si se usan las cuatro cifras una vez o si pueden repetirse, ni el mecanismo aleatorio. Las dos selecciones uniformes dan resultados distintos."
+    }
+  ],
+  "structural_validation": [
+    {
+      "path": "02_JSON_EXAMS/FUSION/2020/Torneo 2/Primaria/FUSION_2020_torneo-2_primaria_verified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "1683dd9a56a9b7cbba468c78d536b318b2ae275fea8e659a4525251162535568",
+        "bytes": 9431,
+        "problems": 4,
+        "verified": 2,
+        "guided": 2,
+        "images": 0,
+        "figures": [],
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 2/Primaria/FUSION_2020_torneo-2_primaria_classified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "5c6fd497f1882594b83650ae908e18ad44bda66c6216ffed3ae4997cc9110d95",
+        "bytes": 11295,
+        "problems": 4,
+        "verified": 2,
+        "guided": 2,
+        "images": 0,
+        "figures": [],
+        "errors": [],
+        "warnings": []
+      }
+    }
+  ]
+}

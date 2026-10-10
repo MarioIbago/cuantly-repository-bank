@@ -1,0 +1,74 @@
+{
+  "school_level": "Primaria (sin grado indicado)",
+  "policy": "Editorial difficulty relative to source school level; source defects do not establish a unique answer.",
+  "problems": [
+    {
+      "source_id": "fusion1_examen-2_primaria_q01",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "equations",
+        "place_value",
+        "integer_solutions"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Traducir un criptaritmo a una ecuación con cifras distintas."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-2_primaria_q02",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L3",
+      "tags": [
+        "angles",
+        "equilateral_triangles",
+        "perpendicular_lines"
+      ],
+      "classification_confidence": 0.8,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Construcción geométrica cuyo dato sobre la bisectriz es incompatible con su vértice."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-2_primaria_q03",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "percentages",
+        "ratios"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Reconstruir el total de un subgrupo a partir de su porcentaje."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-2_primaria_q04",
+      "primary_area": "probability",
+      "secondary_areas": [
+        "combinatorics"
+      ],
+      "mixed": true,
+      "difficulty": "L2",
+      "tags": [
+        "counting",
+        "divisibility"
+      ],
+      "classification_confidence": 0.8,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Definir el espacio muestral y contar las cifras alternadas que suman lo mismo."
+      ]
+    }
+  ]
+}

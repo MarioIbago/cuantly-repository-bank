@@ -15,7 +15,7 @@
   "files": [
     {
       "path": "01_RAW_PDFs/FUSION/2020/Torneo 1/Multinivel/FUSION_2020_torneo-1_multinivel_examen-1_original.pdf",
-      "original_archive_path": "SELECTIVOS ESTATALES/FUSION1/EXAMEN #1.pdf",
+      "original_archive_path": "SELECTIVOS ESTATALES/FUS1ON/EXAMEN #1.pdf",
       "pages": 3,
       "bytes": 711832,
       "sha256": "3b336421705a37b7fc31bd2269e31749bc7ee5b95bbcd3b835c6a32b060d97c6",
@@ -25,7 +25,7 @@
     },
     {
       "path": "01_RAW_PDFs/FUSION/2020/Torneo 2/Multinivel/FUSION_2020_torneo-2_multinivel_examen-2-primaria_original.pdf",
-      "original_archive_path": "SELECTIVOS ESTATALES/FUSION1/EXAMEN #2 primaria.pdf",
+      "original_archive_path": "SELECTIVOS ESTATALES/FUS1ON/EXAMEN #2 primaria.pdf",
       "pages": 5,
       "bytes": 848825,
       "sha256": "8bc8714ff2ea01ad0ea75effceb072b5c7920f55e2a9ca5cda953b563c8a87b6",
@@ -35,7 +35,7 @@
     },
     {
       "path": "01_RAW_PDFs/FUSION/2020/Torneo 2/Multinivel/FUSION_2020_torneo-2_multinivel_examen-2-secundaria_original.pdf",
-      "original_archive_path": "SELECTIVOS ESTATALES/FUSION1/EXAMEN #2 secundaria.pdf",
+      "original_archive_path": "SELECTIVOS ESTATALES/FUS1ON/EXAMEN #2 secundaria.pdf",
       "pages": 6,
       "bytes": 916621,
       "sha256": "ba4f2a8b775f64d1d3f19a62721ffb12bb765ced8fac4b3c163800da9a045ca2",
@@ -45,7 +45,7 @@
     },
     {
       "path": "01_RAW_PDFs/FUSION/2020/Torneo 2/Multinivel/FUSION_2020_torneo-2_multinivel_examen-2_original.pdf",
-      "original_archive_path": "SELECTIVOS ESTATALES/FUSION1/EXAMEN #2.pdf",
+      "original_archive_path": "SELECTIVOS ESTATALES/FUS1ON/EXAMEN #2.pdf",
       "pages": 4,
       "bytes": 680933,
       "sha256": "e307a24fa83d543413e4794fc753c4a6866adecbf888ec9150b32dc8cbe9a7e4",
@@ -55,7 +55,7 @@
     },
     {
       "path": "01_RAW_PDFs/FUSION/2020/Torneo 3/Multinivel/FUSION_2020_torneo-3_multinivel_examen-3_original.pdf",
-      "original_archive_path": "SELECTIVOS ESTATALES/FUSION1/EXAMEN #3.pdf",
+      "original_archive_path": "SELECTIVOS ESTATALES/FUS1ON/EXAMEN #3.pdf",
       "pages": 3,
       "bytes": 781222,
       "sha256": "2ad4a60cbdb05cf65e37a55d2969f91e1647c857e7007e722968e17eef99e50c",
@@ -65,7 +65,7 @@
     },
     {
       "path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11-pdf_original.pdf",
-      "original_archive_path": "SELECTIVOS ESTATALES/FUSION1/EXAMEN ELIMINATORIO CEOM11 PDF.pdf",
+      "original_archive_path": "SELECTIVOS ESTATALES/FUS1ON/EXAMEN ELIMINATORIO CEOM11 PDF.pdf",
       "pages": 6,
       "bytes": 235961,
       "sha256": "7ac63005300d3e466797a6e5a614cb388118319d7ed52c45c53c7c2d30e90c6c",
@@ -75,7 +75,7 @@
     },
     {
       "path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11_original.pdf",
-      "original_archive_path": "SELECTIVOS ESTATALES/FUSION1/EXAMEN ELIMINATORIO CEOM11.pdf",
+      "original_archive_path": "SELECTIVOS ESTATALES/FUS1ON/EXAMEN ELIMINATORIO CEOM11.pdf",
       "pages": 6,
       "bytes": 238358,
       "sha256": "684a7471d3f7fef78cbad4a82741a4252521ce37f8952e6406856f14b00a1055",
@@ -85,7 +85,7 @@
     },
     {
       "path": "01_RAW_PDFs/FUSION/2020/Eliminatorio CEOM12/Multinivel/FUSION_2020_eliminatorio-ceom12_multinivel_examen-eliminatorio-ceom12_original.pdf",
-      "original_archive_path": "SELECTIVOS ESTATALES/FUSION1/EXAMEN ELIMINATORIO CEOM12.pdf",
+      "original_archive_path": "SELECTIVOS ESTATALES/FUS1ON/EXAMEN ELIMINATORIO CEOM12.pdf",
       "pages": 7,
       "bytes": 804958,
       "sha256": "a29b5c46c62ea6f19d0b9f420f03ded03bced2dede70d339ed8e5841069869e7",
@@ -95,7 +95,7 @@
     },
     {
       "path": "01_RAW_PDFs/FUSION/2020/Estatal CEOM12/Multinivel/FUSION_2020_estatal-ceom12_multinivel_examen-estatal-ceom12_original.pdf",
-      "original_archive_path": "SELECTIVOS ESTATALES/FUSION1/EXAMEN ESTATAL CEOM12.pdf",
+      "original_archive_path": "SELECTIVOS ESTATALES/FUS1ON/EXAMEN ESTATAL CEOM12.pdf",
       "pages": 7,
       "bytes": 665374,
       "sha256": "377197ef1ecc29123c205951e30c3063642e585df47a40a8497f902c1253fd4b",
@@ -105,7 +105,7 @@
     },
     {
       "path": "01_RAW_PDFs/FUSION/2018/Final CEOM10/Multinivel/FUSION_2018_final-ceom10_multinivel_examen-final-ceom10_original.pdf",
-      "original_archive_path": "SELECTIVOS ESTATALES/FUSION1/EXAMEN FINAL CEOM10.pdf",
+      "original_archive_path": "SELECTIVOS ESTATALES/FUS1ON/EXAMEN FINAL CEOM10.pdf",
       "pages": 6,
       "bytes": 277964,
       "sha256": "ae1e470b3945aa17cb1f7ad9a053dc345bece4196035a854ae38bf45c3c48456",
@@ -115,7 +115,7 @@
     },
     {
       "path": "01_RAW_PDFs/FUSION/Sin fecha/Final CEOM9/Multinivel/FUSION_sin-fecha_final-ceom9_multinivel_examen-final-ceom9_original.pdf",
-      "original_archive_path": "SELECTIVOS ESTATALES/FUSION1/EXAMEN FINAL CEOM9.pdf",
+      "original_archive_path": "SELECTIVOS ESTATALES/FUS1ON/EXAMEN FINAL CEOM9.pdf",
       "pages": 6,
       "bytes": 635098,
       "sha256": "861b22efaadf8b782064a7abfc97fd3b98f3c02f67b0f2267705dabc3deded30",
@@ -125,7 +125,7 @@
     },
     {
       "path": "01_RAW_PDFs/FUSION/2018/Eliminatorio CEOM10/Multinivel/FUSION_2018_eliminatorio-ceom10_multinivel_examen-eliminatorio-ceom10-docx-corregido_original.pdf",
-      "original_archive_path": "SELECTIVOS ESTATALES/FUSION1/EXAMEN-ELIMINATORIO-CEOM10.docx.Corregido .pdf",
+      "original_archive_path": "SELECTIVOS ESTATALES/FUS1ON/EXAMEN-ELIMINATORIO-CEOM10.docx.Corregido .pdf",
       "pages": 6,
       "bytes": 152183,
       "sha256": "4088166913929e7a8662a1006d66523d4dd85b5d2ccf1f74880536b41b8e2a52",
@@ -135,7 +135,7 @@
     },
     {
       "path": "04_REFERENCE_SOURCES/FUSION/2020/Torneo 1/Multinivel/FUSION_2020_torneo-1_multinivel_soluciones-todas-las-categorias-torneo-1_original.pdf",
-      "original_archive_path": "SELECTIVOS ESTATALES/FUSION1/soluciones todas las categorias torneo #1.pdf",
+      "original_archive_path": "SELECTIVOS ESTATALES/FUS1ON/soluciones todas las categorias torneo #1.pdf",
       "pages": 7,
       "bytes": 967516,
       "sha256": "7c46cff44eefff11c2112911625917a18ba383ea52e1b222838d631a0fcd5353",

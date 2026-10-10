@@ -1,0 +1,76 @@
+{
+  "school_level": "Secundaria (sin grado indicado)",
+  "policy": "Editorial difficulty relative to source school level; source defects do not establish a unique answer.",
+  "problems": [
+    {
+      "source_id": "fusion1_examen-2_secundaria_q01",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "integer_solutions",
+        "place_value",
+        "substitution"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Encadenar restricciones de presencia y posición de cifras."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-2_secundaria_q02",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "angles",
+        "polygons"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Identificar ángulos reflejos y un exterior en un polígono cóncavo."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-2_secundaria_q03",
+      "primary_area": "algebra",
+      "secondary_areas": [
+        "geometry"
+      ],
+      "mixed": true,
+      "difficulty": "L2",
+      "tags": [
+        "linear_equations",
+        "perimeter",
+        "ratios"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Distinguir dimensiones interiores y exteriores al modelar el perímetro."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-2_secundaria_q04",
+      "primary_area": "probability",
+      "secondary_areas": [
+        "combinatorics"
+      ],
+      "mixed": true,
+      "difficulty": "L2",
+      "tags": [
+        "counting",
+        "divisibility"
+      ],
+      "classification_confidence": 0.8,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Definir el espacio muestral y contar las cifras alternadas que suman lo mismo."
+      ]
+    }
+  ]
+}

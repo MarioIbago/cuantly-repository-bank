@@ -1,0 +1,141 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2020/Torneo 2/Multinivel/FUSION_2020_torneo-2_multinivel_examen-2_original.pdf",
+  "source_sha256": "e307a24fa83d543413e4794fc753c4a6866adecbf888ec9150b32dc8cbe9a7e4",
+  "pages": [
+    2
+  ],
+  "source_visual_review": "All problem pages compared with rendered original PDF. Stable recovered source IDs and original numbering preserved.",
+  "duplicate_sources": [
+    {
+      "path": "01_RAW_PDFs/FUSION/2020/Torneo 2/Multinivel/FUSION_2020_torneo-2_multinivel_examen-2-primaria_original.pdf",
+      "sha256": "8bc8714ff2ea01ad0ea75effceb072b5c7920f55e2a9ca5cda953b563c8a87b6"
+    },
+    {
+      "path": "01_RAW_PDFs/FUSION/2020/Torneo 2/Multinivel/FUSION_2020_torneo-2_multinivel_examen-2-secundaria_original.pdf",
+      "sha256": "ba4f2a8b775f64d1d3f19a62721ffb12bb765ced8fac4b3c163800da9a045ca2"
+    }
+  ],
+  "figure_review": [
+    {
+      "source_id": "fusion1_examen-2_secundaria_q02",
+      "page": 2,
+      "pdf_image_object": "Image29.png",
+      "bbox_top_left_pdf_points": [
+        210,
+        387.12,
+        402,
+        511.92
+      ],
+      "sha256": "76edc4ff538e979d0c489fdb9159565c731790a9012b7aea5d0da4264bd71742",
+      "method": "Exact PDF embedded bytes extracted and visually compared; no neighboring text or solution boxes."
+    }
+  ],
+  "transcription_corrections": [],
+  "latex_rendering": {
+    "engine": "KaTeX 0.16.47",
+    "expressions": 24,
+    "errors": []
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-2_secundaria_q01",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "possibleCodes": [
+          876
+        ]
+      },
+      "notes": "Respuesta abierta: solución revisada; comparación manual sin calificación automática."
+    },
+    {
+      "source_id": "fusion1_examen-2_secundaria_q02",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "interiorAngleSum": 900,
+        "expected": 900
+      },
+      "notes": "Respuesta abierta: solución revisada; comparación manual sin calificación automática."
+    },
+    {
+      "source_id": "fusion1_examen-2_secundaria_q03",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "length": 15,
+        "width": 10,
+        "outerPerimeter": 58
+      },
+      "notes": "Respuesta abierta: solución revisada; comparación manual sin calificación automática."
+    },
+    {
+      "source_id": "fusion1_examen-2_secundaria_q04",
+      "status": "ambiguous_probability_model",
+      "independent_check": {
+        "withoutRepetition": {
+          "favorable": 8,
+          "total": 24
+        },
+        "withRepetition": {
+          "favorable": 44,
+          "total": 256
+        }
+      },
+      "notes": "El original no explicita si se usan las cuatro cifras una vez o si pueden repetirse, ni el mecanismo aleatorio. Las dos selecciones uniformes dan resultados distintos."
+    }
+  ],
+  "structural_validation": [
+    {
+      "path": "02_JSON_EXAMS/FUSION/2020/Torneo 2/Secundaria/FUSION_2020_torneo-2_secundaria_verified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "8e3bc3e73808e4e058461c7900a871ae56dffc6c7e9d98ef2a9bc09a5016fe06",
+        "bytes": 15429,
+        "problems": 4,
+        "verified": 3,
+        "guided": 1,
+        "images": 1,
+        "figures": [
+          {
+            "source_id": "fusion1_examen-2_secundaria_q02",
+            "figure": 1,
+            "sha256": "76edc4ff538e979d0c489fdb9159565c731790a9012b7aea5d0da4264bd71742",
+            "width": 381,
+            "height": 249
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 2/Secundaria/FUSION_2020_torneo-2_secundaria_classified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "67e7729214b04701fbf708d6e9bb8867a82ee774d132d93641e815123168104b",
+        "bytes": 17295,
+        "problems": 4,
+        "verified": 3,
+        "guided": 1,
+        "images": 1,
+        "figures": [
+          {
+            "source_id": "fusion1_examen-2_secundaria_q02",
+            "figure": 1,
+            "sha256": "76edc4ff538e979d0c489fdb9159565c731790a9012b7aea5d0da4264bd71742",
+            "width": 381,
+            "height": 249
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "school_level": "Secundaria (sin grado indicado)",
+  "policy": "Editorial difficulty relative to source school level; source defects do not establish a unique answer.",
+  "problems": [
+    {
+      "source_id": "fusion1_examen-3_secundaria_q01",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "sequences",
+        "cycles",
+        "integer_solutions"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Modelar aportaciones diarias y retiros periódicos con parte entera."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-3_secundaria_q02",
+      "primary_area": "number_theory",
+      "secondary_areas": [
+        "algebra"
+      ],
+      "mixed": true,
+      "difficulty": "L2",
+      "tags": [
+        "divisibility",
+        "equivalent_expressions"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Construir una identidad que expresa la segunda cantidad como múltiplo de 7."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-3_secundaria_q03",
+      "primary_area": "probability",
+      "secondary_areas": [
+        "combinatorics"
+      ],
+      "mixed": true,
+      "difficulty": "L2",
+      "tags": [
+        "counting"
+      ],
+      "classification_confidence": 0.8,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Enumerar el espacio condicionado y explicitar la equiprobabilidad necesaria."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-3_secundaria_q04",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L3",
+      "tags": [
+        "angles",
+        "circles",
+        "triangles"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Relacionar bisectriz, circuncentro y orientación; controlar el caso degenerado del ángulo pedido."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0",
+  "source_format_reference": "Cuantly public practice; open_answer extension with manual solution comparison",
+  "exam": {
+    "competition": "FUSION",
+    "edition": 3,
+    "year": 2020,
+    "phase": "Torneo 3",
+    "level": "Secundaria",
+    "school_level": "Secundaria (sin grado indicado)",
+    "problem_count": 4,
+    "source_file": "FUSION_2020_torneo-3_multinivel_examen-3_original.pdf",
+    "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Torneo 3/Multinivel/FUSION_2020_torneo-3_multinivel_examen-3_original.pdf",
+    "source_sha256": "2ad4a60cbdb05cf65e37a55d2969f91e1647c857e7007e722968e17eef99e50c",
+    "image_policy": "Exact original PDF embedded problem diagrams in Base64. Cryptarithms and formulas are transcribed as LaTeX; no page or question-snippet images.",
+    "classification_phase": "not_started",
+    "difficulty_phase": "not_started"
+  },
+  "validation_summary": {
+    "verified_problems": 3,
+    "needs_review_or_invalid": 1,
+    "needs_review_problem_numbers": [
+      3
+    ],
+    "notes": "Original statements retained, including source defects and explicitly described probability assumptions. No fabricated options or automatic grading for open answers."
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-3_secundaria_q01",
+      "collection": "FUSION",
+      "subcategory": "2020 / Torneo 3 / Secundaria",
+      "problem_number": 1,
+      "source_page": 2,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Charlitos guarda monedas en una caja. Un día cuenta 15 monedas y a partir de ese día:\n- Cada día pone 10 monedas más en la caja.\n- Cada 4 días saca 3 monedas y se las regala a Aarón.\n- Cada 8 días saca, además, 1 moneda y se la regala a Jaden.\n¿Después de cuántos días habrá 2006 monedas en la caja?",
+      "options": [],
+      "correct_answer": "218 días",
+      "correct_option_label": null,
+      "solution_text": "1. **Origen del conteo.** En el día 0 hay 15 monedas. Tras d días, habrá recibido \\(10d\\) monedas.\n2. **Retiros.** En ese periodo se completan \\(\\lfloor d/4\\rfloor\\) retiros de 3 monedas y \\(\\lfloor d/8\\rfloor\\) retiros adicionales de una.\n3. **Modelo.** \\(T(d)=15+10d-3\\lfloor d/4\\rfloor-\\lfloor d/8\\rfloor\\).\n4. **Resolver y comprobar.** Para \\(d=218\\), \\(T(218)=15+2180-3\\cdot54-27=2006\\).\n5. **Unicidad.** Cada día el total aumenta 10, 7 o 6 monedas, según los retiros; siempre crece. Los días vecinos dan \\(T(217)=1996\\) y \\(T(219)=2016\\).\n6. **Respuesta.** Habrá 2006 monedas después de **218 días**.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta: solución revisada; comparación manual sin calificación automática."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Torneo 3/Multinivel/FUSION_2020_torneo-3_multinivel_examen-3_original.pdf",
+      "source_pdf_sha256": "2ad4a60cbdb05cf65e37a55d2969f91e1647c857e7007e722968e17eef99e50c"
+    },
+    {
+      "source_id": "fusion1_examen-3_secundaria_q02",
+      "collection": "FUSION",
+      "subcategory": "2020 / Torneo 3 / Secundaria",
+      "problem_number": 2,
+      "source_page": 2,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Sean a y b enteros tales que 10a + b es divisible entre 7. ¿será el número a – 2b\ndivisible entre 7?",
+      "options": [],
+      "correct_answer": "Sí, siempre es divisible entre 7",
+      "correct_option_label": null,
+      "solution_text": "1. **Hipótesis.** Como \\(10a+b\\) es divisible por 7, existe un entero t tal que \\(10a+b=7t\\).\n2. **Identidad.** \\(a-2b=5(10a+b)-7(7a+b)\\).\n3. **Sustituir.** \\(a-2b=35t-7(7a+b)=7(5t-7a-b)\\). El factor entre paréntesis es entero.\n4. **Respuesta.** **Sí**, \\(a-2b\\) siempre es divisible entre 7.\n5. **Comprobación independiente.** \\(10(a-2b)=(10a+b)-21b\\) también es múltiplo de 7. Como 10 y 7 son coprimos, 7 divide a \\(a-2b\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta: solución revisada; comparación manual sin calificación automática."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Torneo 3/Multinivel/FUSION_2020_torneo-3_multinivel_examen-3_original.pdf",
+      "source_pdf_sha256": "2ad4a60cbdb05cf65e37a55d2969f91e1647c857e7007e722968e17eef99e50c"
+    },
+    {
+      "source_id": "fusion1_examen-3_secundaria_q03",
+      "collection": "FUSION",
+      "subcategory": "2020 / Torneo 3 / Secundaria",
+      "problem_number": 3,
+      "source_page": 2,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Escoge tres números diferentes del conjunto (1, 2, 3, 4, 5, 6, 7, 8, 9) de manera que\nsumen 15. ¿Cuál es la probabilidad de que el 5 sea uno de los 3 números?",
+      "options": [],
+      "correct_answer": "1/2 bajo selección uniforme entre las ternas válidas",
+      "correct_option_label": null,
+      "solution_text": "1. **Modelo usual.** Supongamos que todas las ternas de números distintos que suman 15 tienen la misma probabilidad. Es también lo que ocurre al elegir tres números distintos uniformemente y condicionar a que sumen 15.\n2. **Enumeración sin orden.** En orden creciente, las ocho ternas son (1,5,9), (1,6,8), (2,4,9), (2,5,8), (2,6,7), (3,4,8), (3,5,7) y (4,5,6).\n3. **Casos favorables.** Contienen 5 las ternas (1,5,9), (2,5,8), (3,5,7) y (4,5,6): cuatro.\n4. **Probabilidad y comprobación.** Bajo ese modelo, \\(P=4/8=\\mathbf{1/2}\\). Si se distinguiera el orden y todos los órdenes fueran equiprobables, cada terna tendría seis órdenes y el cociente sería \\(24/48=1/2\\).\n5. **Límite del original.** «Escoge» no define por sí solo un sorteo. Sin el supuesto de selección uniforme, la probabilidad puede cambiar. Se presenta 1/2 con su modelo explícito y se conserva como práctica guiada.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "ambiguous_probability_model",
+        "answer_checked": false,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "La fuente no especifica un mecanismo aleatorio. El resultado 1/2 corresponde a selección uniforme entre ternas distintas cuya suma es 15."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Torneo 3/Multinivel/FUSION_2020_torneo-3_multinivel_examen-3_original.pdf",
+      "source_pdf_sha256": "2ad4a60cbdb05cf65e37a55d2969f91e1647c857e7007e722968e17eef99e50c"
+    },
+    {
+      "source_id": "fusion1_examen-3_secundaria_q04",
+      "collection": "FUSION",
+      "subcategory": "2020 / Torneo 3 / Secundaria",
+      "problem_number": 4,
+      "source_page": 2,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "En el triángulo ABC, el  ángulo <B=60° y la bisectriz del ángulo <A intersecta a BC en el\npunto M. En el lado AC se toma el punto K de modo que el ángulo <AMK=30°.\nEncuentra, en grados, los valores que puede tomar <CKO, donde O es el centro de la\ncircunferencia circunscrita al triángulo AMC.",
+      "options": [],
+      "correct_answer": "30° o 150° cuando el ángulo está definido; si A = 60°, O = K",
+      "correct_option_label": null,
+      "solution_text": "1. **Ángulos.** Escribamos \\(\\angle A=\\alpha\\), con \\(0<\\alpha<120°\\). La bisectriz da \\(\\angle MAC=\\alpha/2\\), y en AMC se obtiene \\(\\theta=\\angle AMC=60°+\\alpha/2\\).\n2. **Coordenadas.** Podemos tomar \\(A=(0,0)\\), \\(C=(1,0)\\) y M por encima de AC. El circuncentro de AMC es \\(O=(1/2,h)\\), donde \\(h=\\frac12\\cot\\theta\\). La coordenada horizontal sale de la mediatriz de AC; la vertical sale de la relación entre la cuerda AC y el ángulo inscrito \\(\\theta\\).\n3. **Posición de K.** En AMK, los ángulos son \\(\\alpha/2\\), 30° y \\(150°-\\alpha/2\\). Por la ley de senos en AMK y AMC, \\(AK=\\frac{\\sin(120°-\\alpha)}{2\\sin(30°+\\alpha/2)\\sin(60°+\\alpha/2)}=\\frac{\\cos(30°+\\alpha/2)}{\\sin(60°+\\alpha/2)}=\\frac12+\\frac{\\sqrt3}{2}\\cot\\theta\\).\n4. **Dirección.** Por tanto \\(K=(1/2+\\sqrt3h,0)\\) y \\(\\overrightarrow{KO}=(-\\sqrt3h,h)\\). Como K está en AC, KC apunta hacia la derecha. Si \\(\\alpha<60°\\), entonces \\(h>0\\) y el ángulo con KC es 150°. Si \\(\\alpha>60°\\), \\(h<0\\) y el ángulo es 30°.\n5. **Caso que debe señalarse.** Si \\(\\alpha=60°\\), \\(h=0\\) y \\(O=K=(1/2,0)\\); el rayo KO y el ángulo CKO no están definidos.\n6. **Respuesta y comprobación.** Los valores definidos son **150° y 30°**. La razón de las componentes de KO tiene magnitudes \\(\\sqrt3:1\\), que corresponde a un ángulo de referencia de 30°; su orientación explica los dos valores.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Los valores definidos son 30° y 150°. Para A=60° coinciden O y K, y CKO no está definido; esa excepción se conserva explícitamente."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Torneo 3/Multinivel/FUSION_2020_torneo-3_multinivel_examen-3_original.pdf",
+      "source_pdf_sha256": "2ad4a60cbdb05cf65e37a55d2969f91e1647c857e7007e722968e17eef99e50c"
+    }
+  ]
+}

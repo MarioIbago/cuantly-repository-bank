@@ -1,0 +1,78 @@
+{
+  "school_level": "Primaria (sin grado indicado)",
+  "policy": "Editorial difficulty relative to source school level; source defects do not establish a unique answer.",
+  "problems": [
+    {
+      "source_id": "fusion1_examen-3_primaria_q01",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L3",
+      "tags": [
+        "divisibility",
+        "integer_solutions",
+        "place_value"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Combinar los criterios de divisibilidad por 4 y por 9 sin exigir cifras distintas."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-3_primaria_q02",
+      "primary_area": "algebra",
+      "secondary_areas": [
+        "number_theory"
+      ],
+      "mixed": true,
+      "difficulty": "L3",
+      "tags": [
+        "systems",
+        "integer_solutions",
+        "coin_counts"
+      ],
+      "classification_confidence": 0.8,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Resolver un sistema diofántico con desigualdad y reconocer que la solución no es única."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-3_primaria_q03",
+      "primary_area": "combinatorics",
+      "secondary_areas": [
+        "number_theory"
+      ],
+      "mixed": true,
+      "difficulty": "L3",
+      "tags": [
+        "counting",
+        "divisibility",
+        "place_value"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Factorizar el producto y contar permutaciones con cifras repetidas."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-3_primaria_q04",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L3",
+      "tags": [
+        "area",
+        "triangles",
+        "ratios"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Obtener razones de segmentos de áreas y aplicar Menelao."
+      ]
+    }
+  ]
+}

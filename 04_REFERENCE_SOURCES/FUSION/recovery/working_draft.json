@@ -5,8 +5,9 @@
   "counts": {
     "recovered_occurrences": 881,
     "legacy_statement_groups": 441,
-    "published_occurrences": 12,
-    "pending_occurrences": 869
+    "published_occurrences": 36,
+    "alternate_source_occurrences": 24,
+    "pending_occurrences": 821
   },
   "notes": [
     "Agrupaciones heredadas: su normalizador eliminaba signos matemáticos; no equivalen a duplicados certificados.",
@@ -258,7 +259,9 @@
       "inherited_solution_unverified": "La palabra entero incluye los negativos. El menor es el negativo con mayor valor absoluto. Para maximizar sus 12 cifras con suma 80 se colocan ocho 9 (suma 72), después un 8 y tres 0. Así se obtiene -999999998000, con ocho cifras 9. Si se exigiera un entero positivo, sería 100799999999; el enunciado no exige positividad.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "ambiguo",
-      "checkpoint_notes_unverified": "100799999999 positivo; -999999998000 permitiendo negativos; ambos8 nueves"
+      "checkpoint_notes_unverified": "100799999999 positivo; -999999998000 permitiendo negativos; ambos8 nueves",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 1/Primaria/FUSION_2020_torneo-1_primaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-1_primaria_q02",
@@ -278,7 +281,9 @@
       "inherited_solution_unverified": "Sean D la distancia total y t el tiempo en bicicleta. La rapidez en bicicleta es (2 D/3)/t y la rapidez a pie es (D/3)/(2 t). Su cociente es 4: en bicicleta va cuatro veces más rápido.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 1/Primaria/FUSION_2020_torneo-1_primaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-1_primaria_q03",
@@ -298,7 +303,9 @@
       "inherited_solution_unverified": "Si a, b y c bloques se alinean por sus lados de 7, 13 y 25 mm, entonces 7 a+13 b+25 c=1560 y a+b+c≤70. Se necesita 55≤c≤62. Al revisar esos ocho valores, las soluciones son (1,6,59), (3,3,60) y (5,0,61). En los tres casos quedan 66 bloques; utilizó 70-66=4.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "4",
-      "checkpoint_notes_unverified": "las únicas cantidades(a,b,c) son(1,6,59),(3,3,60),(5,0,61);66 usados"
+      "checkpoint_notes_unverified": "las únicas cantidades(a,b,c) son(1,6,59),(3,3,60),(5,0,61);66 usados",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 1/Primaria/FUSION_2020_torneo-1_primaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-1_primaria_q04",
@@ -318,7 +325,9 @@
       "inherited_solution_unverified": "Escribe diez unos seguidos. En cada uno de los nueve espacios intermedios puedes cortar o no cortar para formar los sumandos. Las decisiones son independientes y dan 2^9=512 composiciones ordenadas, incluida la de un solo sumando.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 1/Primaria/FUSION_2020_torneo-1_primaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-1_secundaria_q01",
@@ -338,7 +347,9 @@
       "inherited_solution_unverified": "Escribe N=1000 k+388 con 1000≤k≤9999. Para que 388 divida a N debe dividir 1000 k. Como mcd(388,1000)=4, esto equivale a 97|k. Hay floor(9999/97)-ceil(1000/97)+1=103-11+1=93. La solución impresa de 23 usa erróneamente 388|k.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 1/Secundaria/FUSION_2020_torneo-1_secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-1_secundaria_q02",
@@ -358,7 +369,9 @@
       "inherited_solution_unverified": "Ambos extremos tienen tres cifras. Hay 90 a+9 b-97 números y 3(90 a+9 b-97)=1000+100 a+10 b+1. De aquí 170 a+17 b=1292, o 10 a+b=76; por tanto a=7, b=6. Ya se escribió hasta 762 inclusive y falta escribir del 763 al 776: 14 números de tres cifras, 42 dígitos. La clave de 45 cuenta 762 dos veces.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 1/Secundaria/FUSION_2020_torneo-1_secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-1_secundaria_q03",
@@ -378,7 +391,9 @@
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "ambiguo",
-      "checkpoint_notes_unverified": "orden de vértices y semiplanos sin fijar"
+      "checkpoint_notes_unverified": "orden de vértices y semiplanos sin fijar",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 1/Secundaria/FUSION_2020_torneo-1_secundaria_classified.json",
+      "reviewed_status": "ambiguous_source"
     },
     {
       "source_id": "fusion1_examen-1_secundaria_q04",
@@ -398,7 +413,9 @@
       "inherited_solution_unverified": "Como 4104=2^3·3^3·19, alguna variable es múltiplo de 19 y menor que 77: 19,38 o 57. Para 19, las otras son 4 y 54; para 38, 3 y 36; para 57, producto 72 y suma 20 no tienen raíces enteras. Cada una de las dos ternas distintas tiene 3!=6 permutaciones: 12.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 1/Secundaria/FUSION_2020_torneo-1_secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-1_elite-preparatoria-universitarios_q01",
@@ -418,7 +435,9 @@
       "inherited_solution_unverified": "La expresión del PDF es 2^16-1. Se factoriza como (2^8+1)(2^4+1)(2^2+1)(2^2-1)=257·17·5·3. Los cuatro factores son primos y suman 282.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 1/Élite/FUSION_2020_torneo-1_elite-preparatoria-universitarios_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-1_elite-preparatoria-universitarios_q02",
@@ -438,7 +457,9 @@
       "inherited_solution_unverified": "Ambos extremos tienen tres cifras. Hay 90 a+9 b-97 números y 3(90 a+9 b-97)=1000+100 a+10 b+1. De aquí 170 a+17 b=1292, o 10 a+b=76; por tanto a=7, b=6. Ya se escribió hasta 762 inclusive y falta escribir del 763 al 776: 14 números de tres cifras, 42 dígitos. La clave de 45 cuenta 762 dos veces.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 1/Élite/FUSION_2020_torneo-1_elite-preparatoria-universitarios_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-1_elite-preparatoria-universitarios_q03",
@@ -458,7 +479,9 @@
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "ambiguo",
-      "checkpoint_notes_unverified": "orden de vértices y semiplanos sin fijar"
+      "checkpoint_notes_unverified": "orden de vértices y semiplanos sin fijar",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 1/Élite/FUSION_2020_torneo-1_elite-preparatoria-universitarios_classified.json",
+      "reviewed_status": "ambiguous_source"
     },
     {
       "source_id": "fusion1_examen-1_elite-preparatoria-universitarios_q04",
@@ -478,7 +501,9 @@
       "inherited_solution_unverified": "Como 4104=2^3·3^3·19, alguna variable es múltiplo de 19 y menor que 77: 19,38 o 57. Para 19, las otras son 4 y 54; para 38, 3 y 36; para 57, producto 72 y suma 20 no tienen raíces enteras. Cada una de las dos ternas distintas tiene 3!=6 permutaciones: 12.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 1/Élite/FUSION_2020_torneo-1_elite-preparatoria-universitarios_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-2-primaria_primaria_q01",
@@ -493,12 +518,13 @@
       "problem_text": "En la siguiente suma cada letra representa un digito distinto. ¿cuál es el menor\nvalor posible de A?",
       "options": [],
       "legacy_statement_group": 10,
-      "publication_status": "pending",
+      "publication_status": "alternate_source_variant",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": "Solucion: observemos que C=1, entonces A+B=11 y D=2. Los posibles valores para A son entonces\n2,3,4,5,6,7,8,9. El menor de estos es 2, pero como D=2 y D≠A, entonces el menor valor posibles para A es 3.",
       "checkpoint_calculation_unverified": "3",
-      "checkpoint_notes_unverified": "C=1,D=2,B=8;11(A+B)=121"
+      "checkpoint_notes_unverified": "C=1,D=2,B=8;11(A+B)=121",
+      "canonical_source_id": "fusion1_examen-2_primaria_q01"
     },
     {
       "source_id": "fusion1_examen-2-primaria_primaria_q02",
@@ -513,12 +539,13 @@
       "problem_text": "Sea M un punto dentro del cuadrado ABCD de tal manera que el triángulo AMD es\nequilátero. Sean Q y R puntos de CD y BC, respectivamente, talles que AQ es\nmediatriz de MD y AR es bisectriz del ángulo <BMA. Demuestre que los puntos R,\nM y Q son colineales.",
       "options": [],
       "legacy_statement_group": 11,
-      "publication_status": "pending",
+      "publication_status": "alternate_source_variant",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": "Solución: si X es le lado del cuadrado menor, su área es X^{2}. Si el perímetro del cuadrado grande mide 20m,\nentonces el lado mide 5m. como el área del cuadrado mayor es el doble del área del cuadrado menor,\n5\n5√2\ntenemos que 2x^{2} =25, de donde, x=\n√2 =\n2 m. por lo tanto, el perímetro del cuadrado menor es 4x = 10√2m.",
       "checkpoint_calculation_unverified": "error_fuente",
-      "checkpoint_notes_unverified": "bisectriz con vérticeM frente a rectaAR; posibleBAM"
+      "checkpoint_notes_unverified": "bisectriz con vérticeM frente a rectaAR; posibleBAM",
+      "canonical_source_id": "fusion1_examen-2_primaria_q02"
     },
     {
       "source_id": "fusion1_examen-2-primaria_primaria_q03",
@@ -533,12 +560,13 @@
       "problem_text": "En una clase el 40% de los alumnos tienen vista deficiente: el 70% de los que\ntienen vista deficiente llevan lentes y el 30% restantes utilizan lentes de contacto.\nSi 21 alumnos de la clase usan lentes, ¿cuántos utilizan lentes de contacto?",
       "options": [],
       "legacy_statement_group": 12,
-      "publication_status": "pending",
+      "publication_status": "alternate_source_variant",
       "inherited_answer_unverified": "9",
       "inherited_solution_unverified": "Los 21 alumnos con lentes son el 70% de los alumnos con vista deficiente. Ese grupo tiene 21/0.7=30 alumnos. El 30% usa lentes de contacto: 0.3·30=9.",
       "inherited_source_solution_unverified": "Solución: Como <BAM =<BAD - >MAD =30° y AR es bisectriz del <BAM luego <BAR=<RAM =15°, asi los\ntriángulos BAR y MAR son congruentes, por el criterio LAL, ya que comparten el lado AR y tienen AB=AM, en\nconsecuencia <RBA=>AMR=90°. Como AQ es mediatriz de MD, se tiene que QM=QD, entonces MQD es un\ntriángulo isósceles con <MDQ=<QMD=30°, por lo tanto <QMA=<QMD + <DMA=60° + 30° =90° y <QMA + <AMR\n=90° + 90° =180° es decir, los puntos R, M y Q son colineales.",
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "canonical_source_id": "fusion1_examen-2_primaria_q03"
     },
     {
       "source_id": "fusion1_examen-2-primaria_primaria_q04",
@@ -553,12 +581,13 @@
       "problem_text": "¿Cuál es la probabilidad de que un número de cuatro dígitos, que usa cifras (1, 2, 3\ny 4), sea divisible entre 11?",
       "options": [],
       "legacy_statement_group": 13,
-      "publication_status": "pending",
+      "publication_status": "alternate_source_variant",
       "inherited_answer_unverified": "1/3",
       "inherited_solution_unverified": "Se usan una vez las cifras 1,2,3,4, dando 4!=24 números. La divisibilidad por 11 exige igualdad de las sumas de cifras alternadas, ambas 5. Las parejas son {1,4} y{2,3}; hay 2 maneras de asignarlas a las posiciones alternadas y 2 órdenes para cada pareja. Son 8 casos favorables y 8/24=1/3.",
       "inherited_source_solution_unverified": "Solución: numeros de 4 cifras que usan al 1,2,3 y 4 hay 4!=24. Recordemos que un numero abcd es divisible\npor 11 si (a+b)- (b+d) es divisible entre 11. En nuestro caso, como a+b+c+d son siempremenores que 11\nentonces, a+c =b+d. esto sucede cuando (a,c)=(1,4) y (b.d)=(2,3) o (a,c)=(2,3) y (b.d)=(1,4). Estas parejas se\npueden acomodar de 8 maneras diferentes:\n1234   4213   2134   3124\n1342   4312   2431   3421\nLuego la probabilidad de que el numero de 4 cifras sea divisible entre 11 es 8/24 =1/3.",
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "canonical_source_id": "fusion1_examen-2_primaria_q04"
     },
     {
       "source_id": "fusion1_examen-2-primaria_secundaria_q01",
@@ -573,12 +602,13 @@
       "problem_text": "Encuentra los tres dígitos que componen un número, sabiendo que:\n 123 no tiene un solo digito común.\n 456 tiene un dígito común y, además, situado en el lugar.\n 612 tiene un dígito común, pero mal situado.\n 547 tiene un dígito común pero mal situado.\n 843 tiene un dígito común y, además, situado en su lugar.",
       "options": [],
       "legacy_statement_group": 14,
-      "publication_status": "pending",
+      "publication_status": "alternate_source_variant",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "876",
-      "checkpoint_notes_unverified": "descartar123;6 tercera posición;8 primera;7 segunda"
+      "checkpoint_notes_unverified": "descartar123;6 tercera posición;8 primera;7 segunda",
+      "canonical_source_id": "fusion1_examen-2_secundaria_q01"
     },
     {
       "source_id": "fusion1_examen-2-primaria_secundaria_q02",
@@ -593,12 +623,13 @@
       "problem_text": "Charlitos en su viaje a España siguió, en un velero, el siguiente trayecto. ¿cuánto mide el\nángulo x? Nota:  no puedes usar transportador.",
       "options": [],
       "legacy_statement_group": 15,
-      "publication_status": "pending",
+      "publication_status": "alternate_source_variant",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "80 grados",
-      "checkpoint_notes_unverified": "50 exterior implica130 interior;dos reflejos360-x;sumar900"
+      "checkpoint_notes_unverified": "50 exterior implica130 interior;dos reflejos360-x;sumar900",
+      "canonical_source_id": "fusion1_examen-2_secundaria_q02"
     },
     {
       "source_id": "fusion1_examen-2-primaria_secundaria_q03",
@@ -613,12 +644,13 @@
       "problem_text": "Una alberca rectangular de ancho igual a 2/3 de longitud está rodeada por una sola\nbarda. Entre la barda y la alberca hay 1m de jardín alrededor de todo el perímetro de la\nalberca. Si el perímetro de la barda es de 58m, ¿Cuáles son las dimensiones de la\nalberca?",
       "options": [],
       "legacy_statement_group": 16,
-      "publication_status": "pending",
+      "publication_status": "alternate_source_variant",
       "inherited_answer_unverified": "15 m y 10 m",
       "inherited_solution_unverified": "Si la longitud es x, el ancho es 2 x/3. El jardín aumenta 2 m cada dimensión, por lo que 2(x+2)+2(2 x/3+2)=58. Entonces 10 x/3=50, x=15 y el ancho es 10.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "canonical_source_id": "fusion1_examen-2_secundaria_q03"
     },
     {
       "source_id": "fusion1_examen-2-primaria_secundaria_q04",
@@ -633,12 +665,13 @@
       "problem_text": "¿Cuál es la probabilidad de que un número de cuatro dígitos, que usa cifras (1, 2, 3 y 4),\nsea divisible entre 11?",
       "options": [],
       "legacy_statement_group": 13,
-      "publication_status": "pending",
+      "publication_status": "alternate_source_variant",
       "inherited_answer_unverified": "1/3",
       "inherited_solution_unverified": "Se usan una vez las cifras 1,2,3,4, dando 4!=24 números. La divisibilidad por 11 exige igualdad de las sumas de cifras alternadas, ambas 5. Las parejas son {1,4} y{2,3}; hay 2 maneras de asignarlas a las posiciones alternadas y 2 órdenes para cada pareja. Son 8 casos favorables y 8/24=1/3.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "canonical_source_id": "fusion1_examen-2_secundaria_q04"
     },
     {
       "source_id": "fusion1_examen-2-primaria_elite-preparatoria-universitarios_q01",
@@ -653,12 +686,13 @@
       "problem_text": "¿Cuántos pares de números que no contienen ceros dan 90,000 al multiplicarse\nentre sí?",
       "options": [],
       "legacy_statement_group": 17,
-      "publication_status": "pending",
+      "publication_status": "alternate_source_variant",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "3 sin orden;6 ordenadas",
-      "checkpoint_notes_unverified": "(16,5625),(48,1875),(144,625)"
+      "checkpoint_notes_unverified": "(16,5625),(48,1875),(144,625)",
+      "canonical_source_id": "fusion1_examen-2_elite-preparatoria-universitarios_q01"
     },
     {
       "source_id": "fusion1_examen-2-primaria_elite-preparatoria-universitarios_q02",
@@ -673,12 +707,13 @@
       "problem_text": "Sea M un punto dentro del cuadrado ABCD de tal manera que el triángulo AMD es\nequilátero. Sean Q y R puntos de CD y BC, respectivamente, talles que AQ es\nmediatriz de MD y AR es bisectriz del ángulo <BMA. Demuestre que los puntos R,\nM y Q son colineales.",
       "options": [],
       "legacy_statement_group": 11,
-      "publication_status": "pending",
+      "publication_status": "alternate_source_variant",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "error_fuente",
-      "checkpoint_notes_unverified": "bisectriz con vérticeM frente a rectaAR; posibleBAM"
+      "checkpoint_notes_unverified": "bisectriz con vérticeM frente a rectaAR; posibleBAM",
+      "canonical_source_id": "fusion1_examen-2_elite-preparatoria-universitarios_q02"
     },
     {
       "source_id": "fusion1_examen-2-primaria_elite-preparatoria-universitarios_q03",
@@ -693,12 +728,13 @@
       "problem_text": "¿cuántos enteros positivos menores de 2020 existen tales que si su ultimo dígito\nes borrado, el entero es divisible por el nuevo número?",
       "options": [],
       "legacy_statement_group": 18,
-      "publication_status": "pending",
+      "publication_status": "alternate_source_variant",
       "inherited_answer_unverified": "224",
       "inherited_solution_unverified": "Para N=10 q+r, con 1≤q≤201 y 0≤r≤9, se requiere q|r. Hay 201 soluciones conr=0. Para r=1,...,9 hay τ(r) divisores positivos:1,2,2,3,2,4,2,4,3, cuya suma es 23. El total es 201+23=224. Los enteros de una cifra se excluyen porque al borrar su cifra no queda un número positivo divisor.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "canonical_source_id": "fusion1_examen-2_elite-preparatoria-universitarios_q03"
     },
     {
       "source_id": "fusion1_examen-2-primaria_elite-preparatoria-universitarios_q04",
@@ -713,12 +749,13 @@
       "problem_text": "¿Cuál es la probabilidad de que un número de cuatro dígitos, que usa cifras (1, 2, 3\ny 4), sea divisible entre 11?",
       "options": [],
       "legacy_statement_group": 13,
-      "publication_status": "pending",
+      "publication_status": "alternate_source_variant",
       "inherited_answer_unverified": "1/3",
       "inherited_solution_unverified": "Se usan una vez las cifras 1,2,3,4, dando 4!=24 números. La divisibilidad por 11 exige igualdad de las sumas de cifras alternadas, ambas 5. Las parejas son {1,4} y{2,3}; hay 2 maneras de asignarlas a las posiciones alternadas y 2 órdenes para cada pareja. Son 8 casos favorables y 8/24=1/3.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "canonical_source_id": "fusion1_examen-2_elite-preparatoria-universitarios_q04"
     },
     {
       "source_id": "fusion1_examen-2-secundaria_primaria_q01",
@@ -733,12 +770,13 @@
       "problem_text": "En la siguiente suma cada letra representa un digito distinto. ¿cuál es el menor\nvalor posible de A?",
       "options": [],
       "legacy_statement_group": 10,
-      "publication_status": "pending",
+      "publication_status": "alternate_source_variant",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": "Solucion: observemos que C=1, entonces A+B=11 y D=2. Los posibles valores para A son entonces\n2,3,4,5,6,7,8,9. El menor de estos es 2, pero como D=2 y D≠A, entonces el menor valor posibles para A es 3.",
       "checkpoint_calculation_unverified": "3",
-      "checkpoint_notes_unverified": "C=1,D=2,B=8;11(A+B)=121"
+      "checkpoint_notes_unverified": "C=1,D=2,B=8;11(A+B)=121",
+      "canonical_source_id": "fusion1_examen-2_primaria_q01"
     },
     {
       "source_id": "fusion1_examen-2-secundaria_primaria_q02",
@@ -753,12 +791,13 @@
       "problem_text": "Sea M un punto dentro del cuadrado ABCD de tal manera que el triángulo AMD es\nequilátero. Sean Q y R puntos de CD y BC, respectivamente, talles que AQ es\nmediatriz de MD y AR es bisectriz del ángulo <BMA. Demuestre que los puntos R,\nM y Q son colineales.",
       "options": [],
       "legacy_statement_group": 11,
-      "publication_status": "pending",
+      "publication_status": "alternate_source_variant",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": "Solución: si X es le lado del cuadrado menor, su área es X^{2}. Si el perímetro del cuadrado grande mide 20m,\nentonces el lado mide 5m. como el área del cuadrado mayor es el doble del área del cuadrado menor,\n5\n5√2\ntenemos que 2x^{2} =25, de donde, x=\n√2 =\n2 m. por lo tanto, el perímetro del cuadrado menor es 4x = 10√2m.",
       "checkpoint_calculation_unverified": "error_fuente",
-      "checkpoint_notes_unverified": "bisectriz con vérticeM frente a rectaAR; posibleBAM"
+      "checkpoint_notes_unverified": "bisectriz con vérticeM frente a rectaAR; posibleBAM",
+      "canonical_source_id": "fusion1_examen-2_primaria_q02"
     },
     {
       "source_id": "fusion1_examen-2-secundaria_primaria_q03",
@@ -773,12 +812,13 @@
       "problem_text": "En una clase el 40% de los alumnos tienen vista deficiente: el 70% de los que\ntienen vista deficiente llevan lentes y el 30% restantes utilizan lentes de contacto.\nSi 21 alumnos de la clase usan lentes, ¿cuántos utilizan lentes de contacto?",
       "options": [],
       "legacy_statement_group": 12,
-      "publication_status": "pending",
+      "publication_status": "alternate_source_variant",
       "inherited_answer_unverified": "9",
       "inherited_solution_unverified": "Los 21 alumnos con lentes son el 70% de los alumnos con vista deficiente. Ese grupo tiene 21/0.7=30 alumnos. El 30% usa lentes de contacto: 0.3·30=9.",
       "inherited_source_solution_unverified": "Solución: Como <BAM =<BAD - >MAD =30° y AR es bisectriz del <BAM luego <BAR=<RAM =15°, asi los\ntriángulos BAR y MAR son congruentes, por el criterio LAL, ya que comparten el lado AR y tienen AB=AM, en\nconsecuencia <RBA=>AMR=90°. Como AQ es mediatriz de MD, se tiene que QM=QD, entonces MQD es un\ntriángulo isósceles con <MDQ=<QMD=30°, por lo tanto <QMA=<QMD + <DMA=60° + 30° =90° y <QMA + <AMR\n=90° + 90° =180° es decir, los puntos R, M y Q son colineales.",
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "canonical_source_id": "fusion1_examen-2_primaria_q03"
     },
     {
       "source_id": "fusion1_examen-2-secundaria_primaria_q04",
@@ -793,12 +833,13 @@
       "problem_text": "¿Cuál es la probabilidad de que un número de cuatro dígitos, que usa cifras (1, 2, 3\ny 4), sea divisible entre 11?",
       "options": [],
       "legacy_statement_group": 13,
-      "publication_status": "pending",
+      "publication_status": "alternate_source_variant",
       "inherited_answer_unverified": "1/3",
       "inherited_solution_unverified": "Se usan una vez las cifras 1,2,3,4, dando 4!=24 números. La divisibilidad por 11 exige igualdad de las sumas de cifras alternadas, ambas 5. Las parejas son {1,4} y{2,3}; hay 2 maneras de asignarlas a las posiciones alternadas y 2 órdenes para cada pareja. Son 8 casos favorables y 8/24=1/3.",
       "inherited_source_solution_unverified": "Solución: numeros de 4 cifras que usan al 1,2,3 y 4 hay 4!=24. Recordemos que un numero abcd es divisible\npor 11 si (a+b)- (b+d) es divisible entre 11. En nuestro caso, como a+b+c+d son siempremenores que 11\nentonces, a+c =b+d. esto sucede cuando (a,c)=(1,4) y (b.d)=(2,3) o (a,c)=(2,3) y (b.d)=(1,4). Estas parejas se\npueden acomodar de 8 maneras diferentes:\n1234   4213   2134   3124\n1342   4312   2431   3421\nLuego la probabilidad de que el numero de 4 cifras sea divisible entre 11 es 8/24 =1/3.",
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "canonical_source_id": "fusion1_examen-2_primaria_q04"
     },
     {
       "source_id": "fusion1_examen-2-secundaria_secundaria_q01",
@@ -813,12 +854,13 @@
       "problem_text": "Encuentra los tres dígitos que componen un número, sabiendo que:\n 123 no tiene un solo digito común.\n 456 tiene un dígito común y, además, situado en el lugar.\n 612 tiene un dígito común, pero mal situado.\n 547 tiene un dígito común pero mal situado.\n 843 tiene un dígito común y, además, situado en su lugar.",
       "options": [],
       "legacy_statement_group": 14,
-      "publication_status": "pending",
+      "publication_status": "alternate_source_variant",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": "Solución: considerando las primeras 3 condiciones tenemos que: el 6 ocupa el lugar de las unidades del\nnumero buscado y los numeros1, 2, 3, 4 y 5 no forman parte del numero buscado. Las dos ultimas condiciones\nindican que, en el numero buscado, el 7 ocupa el lugar de las decenas y el 8 el de las centenas. Por lo tanto, el\nnumero  es 876.",
       "checkpoint_calculation_unverified": "876",
-      "checkpoint_notes_unverified": "descartar123;6 tercera posición;8 primera;7 segunda"
+      "checkpoint_notes_unverified": "descartar123;6 tercera posición;8 primera;7 segunda",
+      "canonical_source_id": "fusion1_examen-2_secundaria_q01"
     },
     {
       "source_id": "fusion1_examen-2-secundaria_secundaria_q02",
@@ -833,12 +875,13 @@
       "problem_text": "Charlitos en su viaje a España siguió, en un velero, el siguiente trayecto. ¿cuánto mide el ángulo x? Nota:  no\npuedes usar transportador.",
       "options": [],
       "legacy_statement_group": 15,
-      "publication_status": "pending",
+      "publication_status": "alternate_source_variant",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": "Solución: dividamos el heptágono en 5 triángulos. La suma de los ángulos interiores del heptágono es, 5x180°\n= 900°.\nTenemos entonces que:\n(180° -50°) + x +60° + (360°-x) + 30° + (360°-x) +40° =900°\nDespejando tenemos que x=80°",
       "checkpoint_calculation_unverified": "80 grados",
-      "checkpoint_notes_unverified": "50 exterior implica130 interior;dos reflejos360-x;sumar900"
+      "checkpoint_notes_unverified": "50 exterior implica130 interior;dos reflejos360-x;sumar900",
+      "canonical_source_id": "fusion1_examen-2_secundaria_q02"
     },
     {
       "source_id": "fusion1_examen-2-secundaria_secundaria_q03",
@@ -853,12 +896,13 @@
       "problem_text": "Una alberca rectangular de ancho igual a 2/3 de longitud está rodeada por una sola\nbarda. Entre la barda y la alberca hay 1m de jardín alrededor de todo el perímetro de la\nalberca. Si el perímetro de la barda es de 58m, ¿Cuáles son las dimensiones de la\nalberca?",
       "options": [],
       "legacy_statement_group": 16,
-      "publication_status": "pending",
+      "publication_status": "alternate_source_variant",
       "inherited_answer_unverified": "15 m y 10 m",
       "inherited_solution_unverified": "Si la longitud es x, el ancho es 2 x/3. El jardín aumenta 2 m cada dimensión, por lo que 2(x+2)+2(2 x/3+2)=58. Entonces 10 x/3=50, x=15 y el ancho es 10.",
       "inherited_source_solution_unverified": "Solución: denotemos por x a la longitud de la alberca. Entonces como el perímetro de la barda es 58m,\ntenemos que:\n2𝑥\n3 + 2) = 58\n2(x+2) + 2(\n4𝑥\n2x + 4 +\n3  + 4 = 58\n10𝑥\n= 50\n3\nX=15\nPor lo tanto, la longitud de la alberca es de 15m y el ancho de 10m",
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "canonical_source_id": "fusion1_examen-2_secundaria_q03"
     },
     {
       "source_id": "fusion1_examen-2-secundaria_secundaria_q04",
@@ -873,12 +917,13 @@
       "problem_text": "¿Cuál es la probabilidad de que un número de cuatro dígitos, que usa cifras (1, 2, 3 y 4),\nsea divisible entre 11?",
       "options": [],
       "legacy_statement_group": 13,
-      "publication_status": "pending",
+      "publication_status": "alternate_source_variant",
       "inherited_answer_unverified": "1/3",
       "inherited_solution_unverified": "Se usan una vez las cifras 1,2,3,4, dando 4!=24 números. La divisibilidad por 11 exige igualdad de las sumas de cifras alternadas, ambas 5. Las parejas son {1,4} y{2,3}; hay 2 maneras de asignarlas a las posiciones alternadas y 2 órdenes para cada pareja. Son 8 casos favorables y 8/24=1/3.",
       "inherited_source_solution_unverified": "Solución: numeros de 4 cifras que usan al 1,2,3 y 4 hay 4!=24. Recordemos que un numero abcd es divisible\npor 11 si (a+b)- (b+d) es divisible entre 11. En nuestro caso, como a+b+c+d son siempremenores que 11\nentonces, a+c =b+d. esto sucede cuando (a,c)=(1,4) y (b.d)=(2,3) o (a,c)=(2,3) y (b.d)=(1,4). Estas parejas se\npueden acomodar de 8 maneras diferentes:\n1234   4213   2134   3124\n1342   4312   2431   3421\nLuego la probabilidad de que el numero de 4 cifras sea divisible entre 11 es 8/24 =1/3.",
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "canonical_source_id": "fusion1_examen-2_secundaria_q04"
     },
     {
       "source_id": "fusion1_examen-2-secundaria_elite-preparatoria-universitarios_q01",
@@ -893,12 +938,13 @@
       "problem_text": "¿Cuántos pares de números que no contienen ceros dan 90,000 al multiplicarse\nentre sí?",
       "options": [],
       "legacy_statement_group": 17,
-      "publication_status": "pending",
+      "publication_status": "alternate_source_variant",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "3 sin orden;6 ordenadas",
-      "checkpoint_notes_unverified": "(16,5625),(48,1875),(144,625)"
+      "checkpoint_notes_unverified": "(16,5625),(48,1875),(144,625)",
+      "canonical_source_id": "fusion1_examen-2_elite-preparatoria-universitarios_q01"
     },
     {
       "source_id": "fusion1_examen-2-secundaria_elite-preparatoria-universitarios_q02",
@@ -913,12 +959,13 @@
       "problem_text": "Sea M un punto dentro del cuadrado ABCD de tal manera que el triángulo AMD es\nequilátero. Sean Q y R puntos de CD y BC, respectivamente, talles que AQ es\nmediatriz de MD y AR es bisectriz del ángulo <BMA. Demuestre que los puntos R,\nM y Q son colineales.",
       "options": [],
       "legacy_statement_group": 11,
-      "publication_status": "pending",
+      "publication_status": "alternate_source_variant",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "error_fuente",
-      "checkpoint_notes_unverified": "bisectriz con vérticeM frente a rectaAR; posibleBAM"
+      "checkpoint_notes_unverified": "bisectriz con vérticeM frente a rectaAR; posibleBAM",
+      "canonical_source_id": "fusion1_examen-2_elite-preparatoria-universitarios_q02"
     },
     {
       "source_id": "fusion1_examen-2-secundaria_elite-preparatoria-universitarios_q03",
@@ -933,12 +980,13 @@
       "problem_text": "¿cuántos enteros positivos menores de 2020 existen tales que si su ultimo dígito\nes borrado, el entero es divisible por el nuevo número?",
       "options": [],
       "legacy_statement_group": 18,
-      "publication_status": "pending",
+      "publication_status": "alternate_source_variant",
       "inherited_answer_unverified": "224",
       "inherited_solution_unverified": "Para N=10 q+r, con 1≤q≤201 y 0≤r≤9, se requiere q|r. Hay 201 soluciones conr=0. Para r=1,...,9 hay τ(r) divisores positivos:1,2,2,3,2,4,2,4,3, cuya suma es 23. El total es 201+23=224. Los enteros de una cifra se excluyen porque al borrar su cifra no queda un número positivo divisor.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "canonical_source_id": "fusion1_examen-2_elite-preparatoria-universitarios_q03"
     },
     {
       "source_id": "fusion1_examen-2-secundaria_elite-preparatoria-universitarios_q04",
@@ -953,12 +1001,13 @@
       "problem_text": "¿Cuál es la probabilidad de que un número de cuatro dígitos, que usa cifras (1, 2, 3\ny 4), sea divisible entre 11?",
       "options": [],
       "legacy_statement_group": 13,
-      "publication_status": "pending",
+      "publication_status": "alternate_source_variant",
       "inherited_answer_unverified": "1/3",
       "inherited_solution_unverified": "Se usan una vez las cifras 1,2,3,4, dando 4!=24 números. La divisibilidad por 11 exige igualdad de las sumas de cifras alternadas, ambas 5. Las parejas son {1,4} y{2,3}; hay 2 maneras de asignarlas a las posiciones alternadas y 2 órdenes para cada pareja. Son 8 casos favorables y 8/24=1/3.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "canonical_source_id": "fusion1_examen-2_elite-preparatoria-universitarios_q04"
     },
     {
       "source_id": "fusion1_examen-2_primaria_q01",
@@ -973,12 +1022,14 @@
       "problem_text": "En la siguiente suma cada letra representa un digito distinto. ¿cuál es el menor\nvalor posible de A?",
       "options": [],
       "legacy_statement_group": 10,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "3",
-      "checkpoint_notes_unverified": "C=1,D=2,B=8;11(A+B)=121"
+      "checkpoint_notes_unverified": "C=1,D=2,B=8;11(A+B)=121",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 2/Primaria/FUSION_2020_torneo-2_primaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-2_primaria_q02",
@@ -993,12 +1044,14 @@
       "problem_text": "Sea M un punto dentro del cuadrado ABCD de tal manera que el triángulo AMD es\nequilátero. Sean Q y R puntos de CD y BC, respectivamente, talles que AQ es\nmediatriz de MD y AR es bisectriz del ángulo <BMA. Demuestre que los puntos R,\nM y Q son colineales.",
       "options": [],
       "legacy_statement_group": 11,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "error_fuente",
-      "checkpoint_notes_unverified": "bisectriz con vérticeM frente a rectaAR; posibleBAM"
+      "checkpoint_notes_unverified": "bisectriz con vérticeM frente a rectaAR; posibleBAM",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 2/Primaria/FUSION_2020_torneo-2_primaria_classified.json",
+      "reviewed_status": "source_error"
     },
     {
       "source_id": "fusion1_examen-2_primaria_q03",
@@ -1013,12 +1066,14 @@
       "problem_text": "En una clase el 40% de los alumnos tienen vista deficiente: el 70% de los que\ntienen vista deficiente llevan lentes y el 30% restantes utilizan lentes de contacto.\nSi 21 alumnos de la clase usan lentes, ¿cuántos utilizan lentes de contacto?",
       "options": [],
       "legacy_statement_group": 12,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "9",
       "inherited_solution_unverified": "Los 21 alumnos con lentes son el 70% de los alumnos con vista deficiente. Ese grupo tiene 21/0.7=30 alumnos. El 30% usa lentes de contacto: 0.3·30=9.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 2/Primaria/FUSION_2020_torneo-2_primaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-2_primaria_q04",
@@ -1033,12 +1088,14 @@
       "problem_text": "¿Cuál es la probabilidad de que un número de cuatro dígitos, que usa cifras (1, 2, 3\ny 4), sea divisible entre 11?",
       "options": [],
       "legacy_statement_group": 13,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "1/3",
       "inherited_solution_unverified": "Se usan una vez las cifras 1,2,3,4, dando 4!=24 números. La divisibilidad por 11 exige igualdad de las sumas de cifras alternadas, ambas 5. Las parejas son {1,4} y{2,3}; hay 2 maneras de asignarlas a las posiciones alternadas y 2 órdenes para cada pareja. Son 8 casos favorables y 8/24=1/3.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 2/Primaria/FUSION_2020_torneo-2_primaria_classified.json",
+      "reviewed_status": "ambiguous_probability_model"
     },
     {
       "source_id": "fusion1_examen-2_secundaria_q01",
@@ -1053,12 +1110,14 @@
       "problem_text": "Encuentra los tres dígitos que componen un número, sabiendo que:\n 123 no tiene un solo digito común.\n 456 tiene un dígito común y, además, situado en el lugar.\n 612 tiene un dígito común, pero mal situado.\n 547 tiene un dígito común pero mal situado.\n 843 tiene un dígito común y, además, situado en su lugar.",
       "options": [],
       "legacy_statement_group": 14,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "876",
-      "checkpoint_notes_unverified": "descartar123;6 tercera posición;8 primera;7 segunda"
+      "checkpoint_notes_unverified": "descartar123;6 tercera posición;8 primera;7 segunda",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 2/Secundaria/FUSION_2020_torneo-2_secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-2_secundaria_q02",
@@ -1073,12 +1132,14 @@
       "problem_text": "Charlitos en su viaje a España siguió, en un velero, el siguiente trayecto. ¿cuánto mide el\nángulo x? Nota:  no puedes usar transportador.",
       "options": [],
       "legacy_statement_group": 15,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "80 grados",
-      "checkpoint_notes_unverified": "50 exterior implica130 interior;dos reflejos360-x;sumar900"
+      "checkpoint_notes_unverified": "50 exterior implica130 interior;dos reflejos360-x;sumar900",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 2/Secundaria/FUSION_2020_torneo-2_secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-2_secundaria_q03",
@@ -1093,12 +1154,14 @@
       "problem_text": "Una alberca rectangular de ancho igual a 2/3 de longitud está rodeada por una sola\nbarda. Entre la barda y la alberca hay 1m de jardín alrededor de todo el perímetro de la\nalberca. Si el perímetro de la barda es de 58m, ¿Cuáles son las dimensiones de la\nalberca?",
       "options": [],
       "legacy_statement_group": 16,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "15 m y 10 m",
       "inherited_solution_unverified": "Si la longitud es x, el ancho es 2 x/3. El jardín aumenta 2 m cada dimensión, por lo que 2(x+2)+2(2 x/3+2)=58. Entonces 10 x/3=50, x=15 y el ancho es 10.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 2/Secundaria/FUSION_2020_torneo-2_secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-2_secundaria_q04",
@@ -1113,12 +1176,14 @@
       "problem_text": "¿Cuál es la probabilidad de que un número de cuatro dígitos, que usa cifras (1, 2, 3 y 4),\nsea divisible entre 11?",
       "options": [],
       "legacy_statement_group": 13,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "1/3",
       "inherited_solution_unverified": "Se usan una vez las cifras 1,2,3,4, dando 4!=24 números. La divisibilidad por 11 exige igualdad de las sumas de cifras alternadas, ambas 5. Las parejas son {1,4} y{2,3}; hay 2 maneras de asignarlas a las posiciones alternadas y 2 órdenes para cada pareja. Son 8 casos favorables y 8/24=1/3.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 2/Secundaria/FUSION_2020_torneo-2_secundaria_classified.json",
+      "reviewed_status": "ambiguous_probability_model"
     },
     {
       "source_id": "fusion1_examen-2_elite-preparatoria-universitarios_q01",
@@ -1133,12 +1198,14 @@
       "problem_text": "¿Cuántos pares de números que no contienen ceros dan 90,000 al multiplicarse\nentre sí?",
       "options": [],
       "legacy_statement_group": 17,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "3 sin orden;6 ordenadas",
-      "checkpoint_notes_unverified": "(16,5625),(48,1875),(144,625)"
+      "checkpoint_notes_unverified": "(16,5625),(48,1875),(144,625)",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 2/Élite/FUSION_2020_torneo-2_elite-preparatoria-universitarios_classified.json",
+      "reviewed_status": "ambiguous_source"
     },
     {
       "source_id": "fusion1_examen-2_elite-preparatoria-universitarios_q02",
@@ -1153,12 +1220,14 @@
       "problem_text": "Sea M un punto dentro del cuadrado ABCD de tal manera que el triángulo AMD es\nequilátero. Sean Q y R puntos de CD y BC, respectivamente, talles que AQ es\nmediatriz de MD y AR es bisectriz del ángulo <BMA. Demuestre que los puntos R,\nM y Q son colineales.",
       "options": [],
       "legacy_statement_group": 11,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "error_fuente",
-      "checkpoint_notes_unverified": "bisectriz con vérticeM frente a rectaAR; posibleBAM"
+      "checkpoint_notes_unverified": "bisectriz con vérticeM frente a rectaAR; posibleBAM",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 2/Élite/FUSION_2020_torneo-2_elite-preparatoria-universitarios_classified.json",
+      "reviewed_status": "source_error"
     },
     {
       "source_id": "fusion1_examen-2_elite-preparatoria-universitarios_q03",
@@ -1173,12 +1242,14 @@
       "problem_text": "¿cuántos enteros positivos menores de 2020 existen tales que si su ultimo dígito\nes borrado, el entero es divisible por el nuevo número?",
       "options": [],
       "legacy_statement_group": 18,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "224",
       "inherited_solution_unverified": "Para N=10 q+r, con 1≤q≤201 y 0≤r≤9, se requiere q|r. Hay 201 soluciones conr=0. Para r=1,...,9 hay τ(r) divisores positivos:1,2,2,3,2,4,2,4,3, cuya suma es 23. El total es 201+23=224. Los enteros de una cifra se excluyen porque al borrar su cifra no queda un número positivo divisor.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 2/Élite/FUSION_2020_torneo-2_elite-preparatoria-universitarios_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-2_elite-preparatoria-universitarios_q04",
@@ -1193,12 +1264,14 @@
       "problem_text": "¿Cuál es la probabilidad de que un número de cuatro dígitos, que usa cifras (1, 2, 3\ny 4), sea divisible entre 11?",
       "options": [],
       "legacy_statement_group": 13,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "1/3",
       "inherited_solution_unverified": "Se usan una vez las cifras 1,2,3,4, dando 4!=24 números. La divisibilidad por 11 exige igualdad de las sumas de cifras alternadas, ambas 5. Las parejas son {1,4} y{2,3}; hay 2 maneras de asignarlas a las posiciones alternadas y 2 órdenes para cada pareja. Son 8 casos favorables y 8/24=1/3.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 2/Élite/FUSION_2020_torneo-2_elite-preparatoria-universitarios_classified.json",
+      "reviewed_status": "ambiguous_probability_model"
     },
     {
       "source_id": "fusion1_examen-3_primaria_q01",
@@ -1218,12 +1291,14 @@
         }
       ],
       "legacy_statement_group": 19,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "(2,2), (5,2), (8,2), (2,6)",
       "inherited_solution_unverified": "Como 2 A 5 es impar, para obtener el factor 4 debe ser 13 B divisible por 4: B=2 o 6. Si B=2,132 aporta un factor 3 y se necesita A+7 divisible por 3: A=2,5,8. Si B=6,136 no aporta factor 3 y 2 A 5 debe ser divisible por 9: A+7=9, de donde A=2.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "(2,2),(2,6),(5,2),(8,2)",
-      "checkpoint_notes_unverified": "A,B pueden repetirse;comprobar módulos4 y9"
+      "checkpoint_notes_unverified": "A,B pueden repetirse;comprobar módulos4 y9",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 3/Primaria/FUSION_2020_torneo-3_primaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-3_primaria_q02",
@@ -1238,12 +1313,14 @@
       "problem_text": "Un niño rompe su alcancía que contiene monedas de $10, $5, $2 y $1. En total son\n101 monedas y $315. La cantidad de monedas de $1 es el triple de la cantidad de\nmonedas de $10 y la cantidad de monedad de $2 es más que el doble de monedas\nde $5. ¿cuántas monedas de $1 tiene?",
       "options": [],
       "legacy_statement_group": 20,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": "Sean a,b,c las cantidades de monedas de 10,5 y 2 pesos. Las de 1 son 3 a. Entonces 4 a+b+c=101 y 13 a+5 b+2 c=315, de donde 5 a+3 b=113. Con c>2 b se obtienen (a,b,c)=(13,16,33),(16,11,26),(19,6,19),(22,1,12). Las monedas de 1 pueden ser 39,48,57 o 66: no hay respuesta única.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 3/Primaria/FUSION_2020_torneo-3_primaria_classified.json",
+      "reviewed_status": "ambiguous_multiple_solutions"
     },
     {
       "source_id": "fusion1_examen-3_primaria_q03",
@@ -1258,12 +1335,14 @@
       "problem_text": "¿Cuántos enteros positivos de 5 dígitos existen tales que el producto de sus dígitos\nes igual a 2000?",
       "options": [],
       "legacy_statement_group": 21,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "30",
       "inherited_solution_unverified": "2000=2^4·5^3. Son necesarias tres cifras 5. Las otras dos tienen producto 16 y solo pueden ser 2 y 8, o 4 y 4. Las permutaciones son 5!/3!=20 y 5!/(3!2!)=10. Total 30.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 3/Primaria/FUSION_2020_torneo-3_primaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-3_primaria_q04",
@@ -1278,12 +1357,14 @@
       "problem_text": "Calcula el área del triángulo ABC si conoces las tres áreas marcadas.",
       "options": [],
       "legacy_statement_group": 22,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "300",
-      "checkpoint_notes_unverified": "AO=OD;AF/FB=2/3;Menelao daBC/CD=3/2"
+      "checkpoint_notes_unverified": "AO=OD;AF/FB=2/3;Menelao daBC/CD=3/2",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 3/Primaria/FUSION_2020_torneo-3_primaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-3_secundaria_q01",
@@ -1298,12 +1379,14 @@
       "problem_text": "Charlitos guarda monedas en una caja. Un día cuenta 15 monedas y a partir de ese día:\n Cada día pone 10 monedas más en la caja.\n Cada 4 días saca 3 monedas y se las regala a Aarón.\n Cada 8 días saca, además, 1 moneda y se la regala a Jaden.\n¿Después de cuántos días habrá 2006 monedas en la caja?",
       "options": [],
       "legacy_statement_group": 23,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "218 días",
       "inherited_solution_unverified": "Después de d días hay 15+10 d-3 floor(d/4)-floor(d/8) monedas. Para d=218, da 15+2180-162-27=2006. La cantidad aumenta al menos 6 monedas cada día, por lo que la solución es única.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 3/Secundaria/FUSION_2020_torneo-3_secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-3_secundaria_q02",
@@ -1318,12 +1401,14 @@
       "problem_text": "Sean a y b enteros tales que 10a + b es divisible entre 7. ¿será el número a – 2b\ndivisible entre 7?",
       "options": [],
       "legacy_statement_group": 24,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "Sí",
       "inherited_solution_unverified": "La identidad a-2 b=3(10 a+b)-7(4 a+b) demuestra que a-2 b es divisible por 7 siempre que 10 a+b lo sea.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 3/Secundaria/FUSION_2020_torneo-3_secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-3_secundaria_q03",
@@ -1338,12 +1423,14 @@
       "problem_text": "Escoge tres números diferentes del conjunto (1, 2, 3, 4, 5, 6, 7, 8, 9) de manera que\nsumen 15. ¿Cuál es la probabilidad de que el 5 sea uno de los 3 números?",
       "options": [],
       "legacy_statement_group": 25,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "1/2",
       "inherited_solution_unverified": "Las ocho ternas no ordenadas son(1,5,9),(1,6,8),(2,4,9),(2,5,8),(2,6,7),(3,4,8),(3,5,7),(4,5,6). Cuatro contienen 5, así que la probabilidad es 4/8=1/2.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 3/Secundaria/FUSION_2020_torneo-3_secundaria_classified.json",
+      "reviewed_status": "ambiguous_probability_model"
     },
     {
       "source_id": "fusion1_examen-3_secundaria_q04",
@@ -1358,12 +1445,14 @@
       "problem_text": "En el triángulo ABC, el  ángulo <B=60° y la bisectriz del ángulo <A intersecta a BC en el\npunto M. En el lado AC se toma el punto K de modo que el ángulo <AMK=30°.\nEncuentra, en grados, los valores que puede tomar <CKO, donde O es el centro de la\ncircunferencia circunscrita al triángulo AMC.",
       "options": [],
       "legacy_statement_group": 26,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "150 siA<60;30 siA>60;indefinidoA=60",
-      "checkpoint_notes_unverified": "O=K en caso equilátero"
+      "checkpoint_notes_unverified": "O=K en caso equilátero",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 3/Secundaria/FUSION_2020_torneo-3_secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-3_elite-preparatoria-universitarios_q01",
@@ -1378,12 +1467,14 @@
       "problem_text": "Sea N un número de tres dígitos múltiplo de 9. Si a N le quitamos el dígito de las\nunidades nos queda un número par y si le quitamos el dígito de las centenas nos\nqueda un número primo. ¿Cuál es el mayor valor que puede tener N?",
       "options": [],
       "legacy_statement_group": 27,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "783",
       "inherited_solution_unverified": "Para superar 783, la cifra de centenas sería 8 o 9, o sería 7 con las dos últimas cifras mayores que 83. Si la centena es 9 y las decenas forman un número par, el final primo exige decena par y unidad 1,3,7,9; la suma de las dos últimas cifras debe ser 9 o 18 y no da un primo válido. Para centena 8, los finales candidatos por la suma divisible por 9 son 19,37,73,91, con decenas impares salvo 91, que no es primo. Con centena 7,783 sí cumple:78 es par,83 es primo y 7+8+3=18. Una enumeración de los múltiplos de 9 confirma el máximo.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 3/Élite/FUSION_2020_torneo-3_elite-preparatoria-universitarios_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-3_elite-preparatoria-universitarios_q02",
@@ -1398,12 +1489,14 @@
       "problem_text": "Hallar los números resales positivos x, y sabiendo que las 4 igualdades:\n𝑥+𝑦\n2𝑥𝑦\n𝑥2+𝑦2\n2 ,       g=√𝑥𝑦,      h=\na=\n𝑥+𝑦,      k=√\n2\nson números naturales cuya suma es 66.",
       "options": [],
       "legacy_statement_group": 28,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "25+10sqrt6 y25-10sqrt6",
-      "checkpoint_notes_unverified": "(a,g,h,k)=(25,5,1,35);x+y50,xy25"
+      "checkpoint_notes_unverified": "(a,g,h,k)=(25,5,1,35);x+y50,xy25",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 3/Élite/FUSION_2020_torneo-3_elite-preparatoria-universitarios_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-3_elite-preparatoria-universitarios_q03",
@@ -1418,12 +1511,14 @@
       "problem_text": "¿Cuántos números de cuatro cifras cumplen la propiedad de que el producto de\ndichas cifras es un cuadrado perfecto?",
       "options": [],
       "legacy_statement_group": 29,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "3248",
-      "checkpoint_notes_unverified": "2439 productos0 y809 cuadrados positivos"
+      "checkpoint_notes_unverified": "2439 productos0 y809 cuadrados positivos",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 3/Élite/FUSION_2020_torneo-3_elite-preparatoria-universitarios_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-3_elite-preparatoria-universitarios_q04",
@@ -1438,12 +1533,14 @@
       "problem_text": "Sea ABC un triángulo tal que <B=100° y <C=62°. En los lados AB y AC se toman los\npuntos M y N, respectivamente, tales que <MCB=52° y <NBC =80° calcule, en\ngrados, el ángulo <CMN.",
       "options": [],
       "legacy_statement_group": 30,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "28 grados",
-      "checkpoint_notes_unverified": "CM dirección128;BN80;verificación trigonométrica;corregir respuesta preliminar30"
+      "checkpoint_notes_unverified": "CM dirección128;BN80;verificación trigonométrica;corregir respuesta preliminar30",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 3/Élite/FUSION_2020_torneo-3_elite-preparatoria-universitarios_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_kids-3ro_q01",

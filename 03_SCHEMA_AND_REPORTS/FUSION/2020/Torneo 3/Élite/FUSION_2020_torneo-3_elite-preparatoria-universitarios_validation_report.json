@@ -1,0 +1,157 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2020/Torneo 3/Multinivel/FUSION_2020_torneo-3_multinivel_examen-3_original.pdf",
+  "source_sha256": "2ad4a60cbdb05cf65e37a55d2969f91e1647c857e7007e722968e17eef99e50c",
+  "pages": [
+    3
+  ],
+  "source_visual_review": "All problem pages compared with rendered original PDF. Stable recovered source IDs and original numbering preserved.",
+  "duplicate_sources": [],
+  "figure_review": [],
+  "transcription_corrections": [
+    {
+      "source_id": "fusion1_examen-3_elite-preparatoria-universitarios_q02",
+      "note": "Restored four original fractions/radicals from visual PDF; preserved source wording resales."
+    }
+  ],
+  "latex_rendering": {
+    "engine": "KaTeX 0.16.47",
+    "expressions": 54,
+    "errors": []
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-3_elite-preparatoria-universitarios_q01",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "maximum": 783,
+        "candidates": [
+          189,
+          207,
+          243,
+          261,
+          405,
+          423,
+          441,
+          567,
+          603,
+          702,
+          729,
+          747,
+          783
+        ]
+      },
+      "notes": "Respuesta abierta: solución revisada; comparación manual sin calificación automática."
+    },
+    {
+      "source_id": "fusion1_examen-3_elite-preparatoria-universitarios_q02",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "integerMeans": [
+          {
+            "a": 25,
+            "g": 5,
+            "h": 1,
+            "k": 35
+          }
+        ]
+      },
+      "notes": "Respuesta abierta: solución revisada; comparación manual sin calificación automática."
+    },
+    {
+      "source_id": "fusion1_examen-3_elite-preparatoria-universitarios_q03",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "pairParityCounts": [
+          17,
+          14,
+          10,
+          10,
+          6,
+          4,
+          2,
+          2,
+          6,
+          4,
+          2,
+          2,
+          2,
+          0,
+          0,
+          0
+        ],
+        "positiveSquareProducts": 809,
+        "zeroProducts": 2439,
+        "total": 3248
+      },
+      "notes": "Respuesta abierta: solución revisada; comparación manual sin calificación automática."
+    },
+    {
+      "source_id": "fusion1_examen-3_elite-preparatoria-universitarios_q04",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "coordinateAngleDegrees": 28.000000000000064,
+        "A": [
+          -0.4961611926408202,
+          2.813869951423724
+        ],
+        "B": [
+          0,
+          0
+        ],
+        "C": [
+          1,
+          0
+        ],
+        "M": [
+          -0.29146947801001954,
+          1.653005551611688
+        ],
+        "N": [
+          0.2490365998526296,
+          1.412356741163628
+        ]
+      },
+      "notes": "Respuesta abierta: solución revisada; comparación manual sin calificación automática."
+    }
+  ],
+  "structural_validation": [
+    {
+      "path": "02_JSON_EXAMS/FUSION/2020/Torneo 3/Élite/FUSION_2020_torneo-3_elite-preparatoria-universitarios_verified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "003586510358a508f24925b9fe811b4e6aa5e60c7e9d0bbe5ab05c7702ed9f09",
+        "bytes": 10673,
+        "problems": 4,
+        "verified": 4,
+        "guided": 0,
+        "images": 0,
+        "figures": [],
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 3/Élite/FUSION_2020_torneo-3_elite-preparatoria-universitarios_classified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "572ff4d402a8c97a0a8b656fa017df571729f98b5c7e817330fc82e201fa81e1",
+        "bytes": 12613,
+        "problems": 4,
+        "verified": 4,
+        "guided": 0,
+        "images": 0,
+        "figures": [],
+        "errors": [],
+        "warnings": []
+      }
+    }
+  ]
+}
