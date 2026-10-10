@@ -1,0 +1,65 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2020/Eliminatorio CEOM12/Multinivel/FUSION_2020_eliminatorio-ceom12_multinivel_examen-eliminatorio-ceom12_original.pdf",
+  "source_sha256": "a29b5c46c62ea6f19d0b9f420f03ded03bced2dede70d339ed8e5841069869e7",
+  "school_level": "Preparatoria o bachillerato",
+  "rubric": "Primary solving idea; L1 direct familiar steps, L2 combines ideas, L3 non-routine argument relative to the printed school level.",
+  "problems": [
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_olimpicos-bachillerarto-o-preratoria_q01",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "remainders",
+        "least_common_multiple",
+        "divisibility"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Combinar varios residuos mediante el mínimo común múltiplo.",
+        "Dificultad relativa a Preparatoria o bachillerato."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_olimpicos-bachillerarto-o-preratoria_q02",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "area",
+        "ratios",
+        "quadrilaterals"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Descomponer el polígono en cuatro triángulos y escalar una altura.",
+        "Dificultad relativa a Preparatoria o bachillerato."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_olimpicos-bachillerarto-o-preratoria_q03",
+      "primary_area": "combinatorics",
+      "secondary_areas": [
+        "number_theory"
+      ],
+      "mixed": true,
+      "difficulty": "L2",
+      "tags": [
+        "counting",
+        "divisibility",
+        "digits",
+        "casework"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Separar casos por la cifra de centenas y contar finales divisibles.",
+        "Dificultad relativa a Preparatoria o bachillerato."
+      ]
+    }
+  ]
+}

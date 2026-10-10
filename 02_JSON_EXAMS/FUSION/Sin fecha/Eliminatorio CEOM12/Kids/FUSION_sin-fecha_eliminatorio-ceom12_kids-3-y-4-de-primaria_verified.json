@@ -1,0 +1,942 @@
+{
+  "schema_version": "1.0",
+  "source_format_reference": "Cuantly public practice; original multiple_choice and open_answer preserved",
+  "exam": {
+    "competition": "FUSION",
+    "source_competition": "CEOM12",
+    "edition": 12,
+    "year": null,
+    "year_status": "not_confirmed",
+    "year_evidence": "No exam year is printed in the seven original headers. A question mentions 2020; this does not confirm the exam date. The imported PDF directory uses the previous inferred 2020 label, documented in source_manifest; the bank does not adopt that inference.",
+    "phase": "Eliminatorio CEOM12",
+    "level": "Kids",
+    "school_level": "3.º y 4.º de primaria",
+    "problem_count": 12,
+    "source_file": "FUSION_2020_eliminatorio-ceom12_multinivel_examen-eliminatorio-ceom12_original.pdf",
+    "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Eliminatorio CEOM12/Multinivel/FUSION_2020_eliminatorio-ceom12_multinivel_examen-eliminatorio-ceom12_original.pdf",
+    "source_sha256": "a29b5c46c62ea6f19d0b9f420f03ded03bced2dede70d339ed8e5841069869e7",
+    "image_policy": "Exact mathematical figures embedded as Base64. The subtraction is faithfully transcribed as LaTeX; no question screenshots, source logos or header crops.",
+    "classification_phase": "not_started",
+    "difficulty_phase": "not_started"
+  },
+  "validation_summary": {
+    "verified_problems": 12,
+    "needs_review_or_invalid": 0,
+    "needs_review_problem_numbers": [],
+    "notes": "Original Kids multiple-choice format and labels retained, with every option checked. Other levels remain open answers. Exam year is not inferred; independent checks correct the octagon area from the old note."
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q01",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Eliminatorio CEOM12 / Kids",
+      "problem_number": 1,
+      "source_page": 1,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "¿Cuánto hay que sumarle a 1986 para obtener 2020?",
+      "options": [
+        {
+          "label": "a",
+          "text": "4"
+        },
+        {
+          "label": "b",
+          "text": "14"
+        },
+        {
+          "label": "c",
+          "text": "24"
+        },
+        {
+          "label": "d",
+          "text": "34"
+        },
+        {
+          "label": "e",
+          "text": "44"
+        }
+      ],
+      "correct_answer": "34",
+      "correct_option_label": "d",
+      "solution_text": "1. **Qué falta.** Buscamos la diferencia entre el resultado y el número inicial.\n2. **Cálculo.** \\(2020-1986=34\\).\n3. **Respuesta y comprobación.** Hay que sumar **34**, opción **d**, porque \\(1986+34=2020\\).\n4. **Las otras opciones.** Sumar 4, 14, 24 o 44 produce 1990, 2000, 2010 o 2030; ninguna da 2020.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "1986+4=1990, no 2020."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "1986+14=2000, no 2020."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "1986+24=2010, no 2020."
+        },
+        {
+          "label": "d",
+          "is_correct": true,
+          "reason": "1986+34=2020."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "1986+44=2030, no 2020."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y cinco opciones contrastados con la fuente; una sola opción correcta."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Eliminatorio CEOM12/Multinivel/FUSION_2020_eliminatorio-ceom12_multinivel_examen-eliminatorio-ceom12_original.pdf",
+      "source_pdf_sha256": "a29b5c46c62ea6f19d0b9f420f03ded03bced2dede70d339ed8e5841069869e7"
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q02",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Eliminatorio CEOM12 / Kids",
+      "problem_number": 2,
+      "source_page": 1,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "¿Cuántos ladrillos le faltan al iglú?",
+      "options": [
+        {
+          "label": "a",
+          "text": "8"
+        },
+        {
+          "label": "b",
+          "text": "9"
+        },
+        {
+          "label": "c",
+          "text": "10"
+        },
+        {
+          "label": "d",
+          "text": "11"
+        },
+        {
+          "label": "e",
+          "text": "12"
+        }
+      ],
+      "correct_answer": "10 ladrillos",
+      "correct_option_label": "c",
+      "solution_text": "1. **Mirar la cuadrícula de ladrillos.** Seguimos las líneas horizontales y la alternancia de las juntas de cada fila alrededor del hueco.\n2. **Contar por filas.** De arriba abajo faltan 2, 3, 4 y 1 ladrillos.\n3. **Total.** \\(2+3+4+1=\\mathbf{10}\\).\n4. **Respuesta y comprobación.** Faltan **10 ladrillos**, opción **c**. Agrupar \\(2+3=5\\) y \\(4+1=5\\) confirma el total. Las opciones 8 y 9 se quedan cortas; 11 y 12 cuentan de más.",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Iglú con ladrillos faltantes",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "2d6367eef5a034739996f20e46459079c262206ad34e0c6d41ea8bc9b85720c6",
+          "source": "pdf_embedded_image",
+          "original_filename": "ceom12_elim_page1_Image16.png",
+          "width_px": 173,
+          "height_px": 104
+        }
+      ],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "Las cuatro filas suman 10; 8 omite dos ladrillos."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "Las cuatro filas suman 10; 9 omite un ladrillo."
+        },
+        {
+          "label": "c",
+          "is_correct": true,
+          "reason": "2+3+4+1=10."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "11 supera en uno los ladrillos faltantes."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "12 supera en dos los ladrillos faltantes."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y cinco opciones contrastados con la fuente; una sola opción correcta."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Eliminatorio CEOM12/Multinivel/FUSION_2020_eliminatorio-ceom12_multinivel_examen-eliminatorio-ceom12_original.pdf",
+      "source_pdf_sha256": "a29b5c46c62ea6f19d0b9f420f03ded03bced2dede70d339ed8e5841069869e7"
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q03",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Eliminatorio CEOM12 / Kids",
+      "problem_number": 3,
+      "source_page": 1,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Marcela tiene 20 pesos. Cada una de sus cuatro hermanas tiene 10 pesos. ¿Cuántos pesos tiene que darle\nMarcela a cada una de sus hermanas para que todas tengan la misma cantidad?",
+      "options": [
+        {
+          "label": "a",
+          "text": "2"
+        },
+        {
+          "label": "b",
+          "text": "4"
+        },
+        {
+          "label": "c",
+          "text": "5"
+        },
+        {
+          "label": "d",
+          "text": "7"
+        },
+        {
+          "label": "e",
+          "text": "10"
+        }
+      ],
+      "correct_answer": "2 pesos a cada hermana",
+      "correct_option_label": "a",
+      "solution_text": "1. **Cuántas personas.** Son Marcela y sus cuatro hermanas: cinco.\n2. **Dinero total.** Tienen \\(20+4\\cdot10=60\\) pesos. Para que todas tengan lo mismo, a cada una le corresponden \\(60/5=12\\).\n3. **Transferencia.** Cada hermana necesita \\(12-10=2\\) pesos.\n4. **Respuesta y comprobación.** Marcela debe dar **2 pesos a cada hermana**, opción **a**. Ella entrega \\(4\\cdot2=8\\) y conserva \\(20-8=12\\); cada hermana termina con \\(10+2=12\\).\n5. **Descartar las demás.** Si entrega 4 a cada una, Marcela queda con 4 y sus hermanas con 14. Si entrega 5, queda con 0 frente a 15. Las transferencias de 7 o 10 a cada hermana incluso exceden sus 20 pesos.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": true,
+          "reason": "Marcela conserva 12 y cada hermana tiene 12."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "Marcela tendría 4 y cada hermana 14; no son iguales."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "Marcela tendría 0 y cada hermana 15."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "Necesitaría entregar 28 pesos y solo tiene 20."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "Necesitaría entregar 40 pesos y solo tiene 20."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y cinco opciones contrastados con la fuente; una sola opción correcta."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Eliminatorio CEOM12/Multinivel/FUSION_2020_eliminatorio-ceom12_multinivel_examen-eliminatorio-ceom12_original.pdf",
+      "source_pdf_sha256": "a29b5c46c62ea6f19d0b9f420f03ded03bced2dede70d339ed8e5841069869e7"
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q04",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Eliminatorio CEOM12 / Kids",
+      "problem_number": 4,
+      "source_page": 1,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "El diagrama muestra dos rectángulos cuyos lados son paralelos. ¿Cuál es la diferencia de los perímetros de los\ndos rectángulos?",
+      "options": [
+        {
+          "label": "a",
+          "text": "12"
+        },
+        {
+          "label": "b",
+          "text": "16"
+        },
+        {
+          "label": "c",
+          "text": "20"
+        },
+        {
+          "label": "d",
+          "text": "21"
+        },
+        {
+          "label": "e",
+          "text": "24"
+        }
+      ],
+      "correct_answer": "24 m",
+      "correct_option_label": "e",
+      "solution_text": "1. **Anchos.** El rectángulo exterior supera al interior en las dos separaciones laterales: \\(3+4=7\\) metros.\n2. **Alturas.** La diferencia es la suma de las separaciones de arriba y abajo: \\(2+3=5\\) metros.\n3. **Perímetros.** El perímetro cuenta dos veces el ancho y dos la altura. La diferencia es\n\\[2\\cdot7+2\\cdot5=14+10=\\mathbf{24}\\text{ m}.\\]\n4. **Respuesta y comprobación.** La opción correcta es **e**. También se obtiene \\(2(3+4+2+3)=24\\). Los valores 12, 16, 20 y 21 no son esa diferencia.",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Rectángulos paralelos con separaciones de 3, 4, 2 y 3 metros",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "95fa621430eeb8f5d0f9ade51ba167a501e0b88d9a41d8076af48b78222f9f6b",
+          "source": "pdf_embedded_image",
+          "original_filename": "ceom12_elim_page1_Image17.png",
+          "width_px": 182,
+          "height_px": 99
+        }
+      ],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "12 suma las separaciones una vez; el perímetro exige duplicarlas."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "No coincide con 2(7+5)=24."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "No coincide con 2(7+5)=24."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "No coincide con 2(7+5)=24."
+        },
+        {
+          "label": "e",
+          "is_correct": true,
+          "reason": "2((3+4)+(2+3))=24 metros."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y cinco opciones contrastados con la fuente; una sola opción correcta."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Eliminatorio CEOM12/Multinivel/FUSION_2020_eliminatorio-ceom12_multinivel_examen-eliminatorio-ceom12_original.pdf",
+      "source_pdf_sha256": "a29b5c46c62ea6f19d0b9f420f03ded03bced2dede70d339ed8e5841069869e7"
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q05",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Eliminatorio CEOM12 / Kids",
+      "problem_number": 5,
+      "source_page": 1,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "El número de cada casilla corresponde a la suma de los números de las dos casillas inferiores que la tocan. ¿qué\nnumero aparecerá en la casilla de hasta arriba?",
+      "options": [
+        {
+          "label": "a",
+          "text": "33"
+        },
+        {
+          "label": "b",
+          "text": "30"
+        },
+        {
+          "label": "c",
+          "text": "20"
+        },
+        {
+          "label": "d",
+          "text": "13"
+        },
+        {
+          "label": "e",
+          "text": "32"
+        }
+      ],
+      "correct_answer": "33",
+      "correct_option_label": "a",
+      "solution_text": "1. **Base.** Los cuatro números son 2, 3, 5 y 7.\n2. **Segunda fila.** \\(2+3=5\\), \\(3+5=8\\) y \\(5+7=12\\). El 8 coincide con el bloque ya impreso.\n3. **Tercera fila.** \\(5+8=13\\) y \\(8+12=20\\).\n4. **Cima.** \\(13+20=\\mathbf{33}\\), opción **a**.\n5. **Comprobación independiente.** Al expandir las sumas, el número de arriba es \\(2+3\\cdot3+3\\cdot5+7=33\\). Las opciones 13 y 20 corresponden a bloques de la fila anterior; 30 y 32 no satisfacen la última suma.",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Pirámide de sumas con base 2, 3, 5, 7",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "e5657628dab72786501229ceff52779dbf104f8004ede58b430efb330133d5ca",
+          "source": "pdf_embedded_image",
+          "original_filename": "ceom12_elim_page1_Image18.png",
+          "width_px": 216,
+          "height_px": 151
+        }
+      ],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": true,
+          "reason": "La cima vale 13+20=33."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "13+20 no es 30."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "20 es el bloque derecho de la penúltima fila, no la cima."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "13 es el bloque izquierdo de la penúltima fila."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "13+20 no es 32."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y cinco opciones contrastados con la fuente; una sola opción correcta."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Eliminatorio CEOM12/Multinivel/FUSION_2020_eliminatorio-ceom12_multinivel_examen-eliminatorio-ceom12_original.pdf",
+      "source_pdf_sha256": "a29b5c46c62ea6f19d0b9f420f03ded03bced2dede70d339ed8e5841069869e7"
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q06",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Eliminatorio CEOM12 / Kids",
+      "problem_number": 6,
+      "source_page": 2,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Según un estudio, cada niño puede inflar 3 globos en un minuto, ¿Cuántos globos puede un grupo de 5 niños\ninflar en dos minutos?",
+      "options": [
+        {
+          "label": "a",
+          "text": "5"
+        },
+        {
+          "label": "b",
+          "text": "15"
+        },
+        {
+          "label": "c",
+          "text": "18"
+        },
+        {
+          "label": "d",
+          "text": "36"
+        },
+        {
+          "label": "e",
+          "text": "30"
+        }
+      ],
+      "correct_answer": "30 globos",
+      "correct_option_label": "e",
+      "solution_text": "1. **Un niño.** En dos minutos infla \\(3\\cdot2=6\\) globos.\n2. **Cinco niños.** En ese tiempo inflan \\(5\\cdot6=\\mathbf{30}\\) globos.\n3. **Respuesta.** La opción correcta es **e**.\n4. **Comprobación.** Entre los cinco inflan \\(5\\cdot3=15\\) por minuto; en dos minutos son 30. La opción 15 cuenta solo un minuto y 5, 18 y 36 no coinciden con la tasa dada.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "5 no corresponde a 3 globos por niño y minuto durante dos minutos."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "15 es lo que inflan en un solo minuto."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "El producto de los datos es 3·5·2=30, no 18."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "El producto de los datos es 30, no 36."
+        },
+        {
+          "label": "e",
+          "is_correct": true,
+          "reason": "3·5·2=30 globos."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y cinco opciones contrastados con la fuente; una sola opción correcta."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Eliminatorio CEOM12/Multinivel/FUSION_2020_eliminatorio-ceom12_multinivel_examen-eliminatorio-ceom12_original.pdf",
+      "source_pdf_sha256": "a29b5c46c62ea6f19d0b9f420f03ded03bced2dede70d339ed8e5841069869e7"
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q07",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Eliminatorio CEOM12 / Kids",
+      "problem_number": 7,
+      "source_page": 2,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Jaden tiene 12 años. Fer tiene la mitad de la edad de Jaden y Aarón 13 años más que Fer ¿Qué edad tiene\nAarón?",
+      "options": [
+        {
+          "label": "a",
+          "text": "6"
+        },
+        {
+          "label": "b",
+          "text": "19"
+        },
+        {
+          "label": "c",
+          "text": "13"
+        },
+        {
+          "label": "d",
+          "text": "25"
+        },
+        {
+          "label": "e",
+          "text": "12"
+        }
+      ],
+      "correct_answer": "19 años",
+      "correct_option_label": "b",
+      "solution_text": "1. **Edad de Fer.** Tiene la mitad de los 12 años de Jaden: \\(12/2=6\\).\n2. **Edad de Aarón.** Tiene 13 más que Fer: \\(6+13=\\mathbf{19}\\).\n3. **Respuesta y comprobación.** Aarón tiene **19 años**, opción **b**. \\(19-13=6\\) y \\(2\\cdot6=12\\), como exige el texto.\n4. **Otras opciones.** 6 es la edad de Fer, 12 la de Jaden y 13 es la diferencia; 25 resultaría de sumar 13 a Jaden, que no es la comparación pedida.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "6 es la edad de Fer, no la de Aarón."
+        },
+        {
+          "label": "b",
+          "is_correct": true,
+          "reason": "12/2+13=19."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "13 es cuánto supera Aarón a Fer."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "25 suma 13 a Jaden en vez de a Fer."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "12 es la edad de Jaden."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y cinco opciones contrastados con la fuente; una sola opción correcta."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Eliminatorio CEOM12/Multinivel/FUSION_2020_eliminatorio-ceom12_multinivel_examen-eliminatorio-ceom12_original.pdf",
+      "source_pdf_sha256": "a29b5c46c62ea6f19d0b9f420f03ded03bced2dede70d339ed8e5841069869e7"
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q08",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Eliminatorio CEOM12 / Kids",
+      "problem_number": 8,
+      "source_page": 2,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Al lanzar dos dados cuyas caras están numeradas del 1 al 6, Charlitos suma las dos caras superiores y obtiene 9.\n¿Cuál de los siguientes números no puede aparecer entre los números que sumó Charlitos?",
+      "options": [
+        {
+          "label": "a",
+          "text": "2"
+        },
+        {
+          "label": "b",
+          "text": "3"
+        },
+        {
+          "label": "c",
+          "text": "4"
+        },
+        {
+          "label": "d",
+          "text": "5"
+        },
+        {
+          "label": "e",
+          "text": "6"
+        }
+      ],
+      "correct_answer": "2",
+      "correct_option_label": "a",
+      "solution_text": "1. **Parejas posibles.** Con caras de 1 a 6, las sumas que dan 9 son \\(3+6\\), \\(4+5\\), \\(5+4\\) y \\(6+3\\).\n2. **Caras que aparecen.** Solo pueden aparecer 3, 4, 5 y 6.\n3. **Respuesta.** El **2**, opción **a**, no puede aparecer: necesitaría un 7 en el otro dado y no existe esa cara.\n4. **Comprobación de todas las opciones.** El 3 puede acompañarse de 6; el 4 de 5; el 5 de 4 y el 6 de 3. Entre las opciones impresas, solo 2 queda excluido.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": true,
+          "reason": "2 necesitaría 7, una cara que no está en el dado; por eso es la respuesta."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "3 sí puede aparecer junto a 6."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "4 sí puede aparecer junto a 5."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "5 sí puede aparecer junto a 4."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "6 sí puede aparecer junto a 3."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y cinco opciones contrastados con la fuente; una sola opción correcta."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Eliminatorio CEOM12/Multinivel/FUSION_2020_eliminatorio-ceom12_multinivel_examen-eliminatorio-ceom12_original.pdf",
+      "source_pdf_sha256": "a29b5c46c62ea6f19d0b9f420f03ded03bced2dede70d339ed8e5841069869e7"
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q09",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Eliminatorio CEOM12 / Kids",
+      "problem_number": 9,
+      "source_page": 2,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Si hoy es sábado dentro de 20 días será:",
+      "options": [
+        {
+          "label": "a",
+          "text": "Viernes"
+        },
+        {
+          "label": "b",
+          "text": "Jueves"
+        },
+        {
+          "label": "c",
+          "text": "Sábado"
+        },
+        {
+          "label": "d",
+          "text": "Domingo"
+        },
+        {
+          "label": "e",
+          "text": "Miércoles"
+        }
+      ],
+      "correct_answer": "Viernes",
+      "correct_option_label": "a",
+      "solution_text": "1. **Semanas completas.** \\(20=2\\cdot7+6\\). Después de dos semanas vuelve a ser sábado.\n2. **Seis días más.** Domingo, lunes, martes, miércoles, jueves y **viernes**.\n3. **Respuesta.** Dentro de 20 días será **viernes**, opción **a**.\n4. **Comprobación.** 21 días después sería sábado; 20 días después es el día anterior. Jueves corresponde a un resto 5, sábado a 0, domingo a 1 y miércoles a 4; el resto requerido es 6.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": true,
+          "reason": "Viernes está seis días después de sábado y 20 deja resto 6 al dividir entre 7."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "Jueves requeriría resto 5, no 6."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "Sábado requeriría resto 0."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "Domingo requeriría resto 1."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "Miércoles requeriría resto 4."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y cinco opciones contrastados con la fuente; una sola opción correcta."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Eliminatorio CEOM12/Multinivel/FUSION_2020_eliminatorio-ceom12_multinivel_examen-eliminatorio-ceom12_original.pdf",
+      "source_pdf_sha256": "a29b5c46c62ea6f19d0b9f420f03ded03bced2dede70d339ed8e5841069869e7"
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q10",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Eliminatorio CEOM12 / Kids",
+      "problem_number": 10,
+      "source_page": 2,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "El contador electrónico de los visitantes de un museo marca que han entrado 1879564 personas a dicho lugar,\neste es un número que no tiene ninguna cifra repetida, ¿Cuántos visitantes tienen que entrar como mínimo para\nque se vuelva a repetir esta circunstancia?",
+      "options": [
+        {
+          "label": "a",
+          "text": "13"
+        },
+        {
+          "label": "b",
+          "text": "323"
+        },
+        {
+          "label": "c",
+          "text": "2020"
+        },
+        {
+          "label": "d",
+          "text": "321"
+        },
+        {
+          "label": "e",
+          "text": "38"
+        }
+      ],
+      "correct_answer": "38 visitantes",
+      "correct_option_label": "e",
+      "solution_text": "1. **Buscar un número mayor.** El contador está en 1879564. Hay que hallar el menor número posterior cuyas siete cifras sigan siendo distintas.\n2. **Hasta 1879599.** Conservando el prefijo 18795, las decenas 6 permiten unidades mayores que 4, pero 5, 6, 7, 8 y 9 repiten una cifra. Las decenas siguientes, 7, 8 o 9, ya repiten una cifra del prefijo.\n3. **Nuevo prefijo.** Se llega a 1879600. Sus dos últimas cifras 00 se repiten; 1879601 repite el 1. En cambio, **1879602** contiene 1, 8, 7, 9, 6, 0 y 2, todas diferentes.\n4. **Cuántos visitantes.** \\(1879602-1879564=\\mathbf{38}\\), opción **e**.\n5. **Comprobación independiente.** Se revisaron los 37 valores intermedios: ninguno tiene todas sus cifras distintas. Las otras opciones llevan a 1879577, 1879887, 1881584 y 1879885, que repiten cifras.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "13 visitantes dan 1879577, que repite 7."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "323 dan 1879887, que repite 8 y 7."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "2020 dan 1881584, que repite 1 y 8."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "321 dan 1879885, que repite 8."
+        },
+        {
+          "label": "e",
+          "is_correct": true,
+          "reason": "38 dan 1879602; todas sus cifras son distintas y ningún incremento menor funciona."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y cinco opciones contrastados con la fuente; una sola opción correcta."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Eliminatorio CEOM12/Multinivel/FUSION_2020_eliminatorio-ceom12_multinivel_examen-eliminatorio-ceom12_original.pdf",
+      "source_pdf_sha256": "a29b5c46c62ea6f19d0b9f420f03ded03bced2dede70d339ed8e5841069869e7"
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q11",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Eliminatorio CEOM12 / Kids",
+      "problem_number": 11,
+      "source_page": 2,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "En la siguiente resta. ¿Qué letra tiene el mayor valor?\n\\[\\begin{array}{rrrrrr}\n &a&4&b&7&c\\\\\n -&5&d&8&e&6\\\\ \\hline\n &2&8&4&9&9\n\\end{array}\\]",
+      "options": [
+        {
+          "label": "a",
+          "text": "a"
+        },
+        {
+          "label": "b",
+          "text": "b"
+        },
+        {
+          "label": "c",
+          "text": "c"
+        },
+        {
+          "label": "d",
+          "text": "d"
+        },
+        {
+          "label": "e",
+          "text": "e"
+        }
+      ],
+      "correct_answer": "La letra a, con valor 8",
+      "correct_option_label": "a",
+      "solution_text": "1. **Unidades.** Para obtener 9 al restar 6, hay que pedir prestado: \\(c+10-6=9\\), de donde c=5.\n2. **Decenas.** El 7 quedó en 6. Se vuelve a pedir prestado: \\(6+10-e=9\\), así que e=7.\n3. **Centenas.** Después del préstamo, \\(b-1+10-8=4\\). Resulta b=3.\n4. **Millares.** El 4 quedó en 3; \\(3+10-d=8\\), luego d=5.\n5. **Decenas de millar.** \\(a-1-5=2\\), así que a=8.\n6. **Respuesta y comprobación.** Los valores son **a=8, b=3, c=5, d=5, e=7**. La letra de mayor valor es **a**, opción **a**, y \\(84375-55876=28499\\) confirma toda la resta. Las letras c y d pueden valer lo mismo: la fuente no exige dígitos distintos.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": true,
+          "reason": "a=8 supera a b=3, c=5, d=5 y e=7."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "b=3 es menor que a=8."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "c=5 es menor que a=8."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "d=5 es menor que a=8."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "e=7 es menor que a=8."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y cinco opciones contrastados con la fuente; una sola opción correcta."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Eliminatorio CEOM12/Multinivel/FUSION_2020_eliminatorio-ceom12_multinivel_examen-eliminatorio-ceom12_original.pdf",
+      "source_pdf_sha256": "a29b5c46c62ea6f19d0b9f420f03ded03bced2dede70d339ed8e5841069869e7"
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q12",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Eliminatorio CEOM12 / Kids",
+      "problem_number": 12,
+      "source_page": 2,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Si Jaden tiene el doble de canicas que Fer entonces entre los dos pueden tener:",
+      "options": [
+        {
+          "label": "a",
+          "text": "131"
+        },
+        {
+          "label": "b",
+          "text": "850"
+        },
+        {
+          "label": "c",
+          "text": "540"
+        },
+        {
+          "label": "d",
+          "text": "739"
+        },
+        {
+          "label": "e",
+          "text": "2020"
+        }
+      ],
+      "correct_answer": "540 canicas",
+      "correct_option_label": "c",
+      "solution_text": "1. **Representar las cantidades.** Si Fer tiene f canicas, Jaden tiene 2f.\n2. **Total.** Entre los dos tienen \\(f+2f=3f\\), un múltiplo de 3.\n3. **Revisar las opciones.** Los residuos de 131, 850, 540, 739 y 2020 al dividir entre 3 son 2, 1, 0, 1 y 1. Solo 540 es múltiplo de 3.\n4. **Respuesta y comprobación.** Pueden tener **540 canicas**, opción **c**: Fer tendría 180 y Jaden 360. Se cumple \\(360=2\\cdot180\\) y \\(180+360=540\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "131 deja residuo 2 al dividir entre 3; no puede ser 3f."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "850 deja residuo 1 al dividir entre 3."
+        },
+        {
+          "label": "c",
+          "is_correct": true,
+          "reason": "540=3·180; Fer puede tener 180 y Jaden 360."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "739 deja residuo 1 al dividir entre 3."
+        },
+        {
+          "label": "e",
+          "is_correct": false,
+          "reason": "2020 deja residuo 1 al dividir entre 3."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y cinco opciones contrastados con la fuente; una sola opción correcta."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Eliminatorio CEOM12/Multinivel/FUSION_2020_eliminatorio-ceom12_multinivel_examen-eliminatorio-ceom12_original.pdf",
+      "source_pdf_sha256": "a29b5c46c62ea6f19d0b9f420f03ded03bced2dede70d339ed8e5841069869e7"
+    }
+  ]
+}

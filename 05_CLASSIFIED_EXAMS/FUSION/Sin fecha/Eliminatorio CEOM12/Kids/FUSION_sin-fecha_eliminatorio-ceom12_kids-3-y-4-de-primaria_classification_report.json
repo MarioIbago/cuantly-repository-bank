@@ -1,0 +1,217 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2020/Eliminatorio CEOM12/Multinivel/FUSION_2020_eliminatorio-ceom12_multinivel_examen-eliminatorio-ceom12_original.pdf",
+  "source_sha256": "a29b5c46c62ea6f19d0b9f420f03ded03bced2dede70d339ed8e5841069869e7",
+  "school_level": "3.º y 4.º de primaria",
+  "rubric": "Primary solving idea; L1 direct familiar steps, L2 combines ideas, L3 non-routine argument relative to the printed school level.",
+  "problems": [
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q01",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "subtraction",
+        "addition"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Encontrar un sumando mediante una resta.",
+        "Dificultad relativa a 3.º y 4.º de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q02",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "counting",
+        "addition"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Completar y contar por filas el hueco de una pared.",
+        "Dificultad relativa a 3.º y 4.º de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q03",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "equal_shares",
+        "addition",
+        "subtraction"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Conservar el dinero total al igualar cinco cantidades.",
+        "Dificultad relativa a 3.º y 4.º de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q04",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "perimeter",
+        "quadrilaterals",
+        "addition"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Usar las diferencias de ancho y altura sin conocer los tamaños completos.",
+        "Dificultad relativa a 3.º y 4.º de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q05",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "addition",
+        "patterns"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Aplicar repetidamente la regla de suma de bloques contiguos.",
+        "Dificultad relativa a 3.º y 4.º de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q06",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "multiplication",
+        "rates"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Multiplicar una tasa por personas y tiempo.",
+        "Dificultad relativa a 3.º y 4.º de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q07",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "division",
+        "addition"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Calcular una mitad y después sumar una diferencia de edades.",
+        "Dificultad relativa a 3.º y 4.º de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q08",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "addition",
+        "casework"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Enumerar todas las parejas de caras que suman nueve.",
+        "Dificultad relativa a 3.º y 4.º de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q09",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "remainders",
+        "calendar"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Reducir el avance de días módulo siete.",
+        "Dificultad relativa a 3.º y 4.º de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q10",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L3",
+      "tags": [
+        "digits",
+        "place_value",
+        "extrema"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Encontrar el siguiente número con todas sus cifras distintas.",
+        "Dificultad relativa a 3.º y 4.º de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q11",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L3",
+      "tags": [
+        "digits",
+        "place_value",
+        "subtraction"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Recuperar dígitos con préstamos de una resta.",
+        "Dificultad relativa a 3.º y 4.º de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q12",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "divisibility",
+        "multiples",
+        "ratios"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Reconocer que la suma de una cantidad y su doble es múltiplo de tres.",
+        "Dificultad relativa a 3.º y 4.º de primaria."
+      ]
+    }
+  ]
+}

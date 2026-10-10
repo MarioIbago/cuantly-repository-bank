@@ -1,0 +1,444 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2020/Eliminatorio CEOM12/Multinivel/FUSION_2020_eliminatorio-ceom12_multinivel_examen-eliminatorio-ceom12_original.pdf",
+  "source_sha256": "a29b5c46c62ea6f19d0b9f420f03ded03bced2dede70d339ed8e5841069869e7",
+  "metadata_evidence": "No exam year is printed in the seven original headers. A question mentions 2020; this does not confirm the exam date. The imported PDF directory uses the previous inferred 2020 label, documented in source_manifest; the bank does not adopt that inference.",
+  "school_level_evidence": "Printed category on each original page, including explicit Bachillerato/Preparatoria for Olímpicos.",
+  "source_review": "All seven PDF pages rendered and visually compared. Original statements, numbering, five Kids options and stable recovered IDs retained.",
+  "pages": [
+    1,
+    2
+  ],
+  "figure_review": [
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q02",
+      "page": 1,
+      "pdf_image_object": "Image16.png",
+      "bbox_top_left_pdf_points": [
+        264.48,
+        265.67999999999995,
+        335.76,
+        308.4
+      ],
+      "sha256": "2d6367eef5a034739996f20e46459079c262206ad34e0c6d41ea8bc9b85720c6",
+      "method": "Exact embedded mathematical figure, visually compared with the original PDF."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q04",
+      "page": 1,
+      "pdf_image_object": "Image17.png",
+      "bbox_top_left_pdf_points": [
+        326.4,
+        471.12,
+        431.03999999999996,
+        528
+      ],
+      "sha256": "95fa621430eeb8f5d0f9ade51ba167a501e0b88d9a41d8076af48b78222f9f6b",
+      "method": "Exact embedded mathematical figure, visually compared with the original PDF."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q05",
+      "page": 1,
+      "pdf_image_object": "Image18.png",
+      "bbox_top_left_pdf_points": [
+        365.76,
+        599.28,
+        443.76,
+        653.76
+      ],
+      "sha256": "e5657628dab72786501229ceff52779dbf104f8004ede58b430efb330133d5ca",
+      "method": "Exact embedded mathematical figure, visually compared with the original PDF."
+    }
+  ],
+  "transcription_corrections": [
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q05",
+      "kind": "header_footer_removal",
+      "details": "Removed the next page running heading CEOM12; it is not part of the question."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q11",
+      "kind": "symbolic_transcription",
+      "details": "Restored the original subtraction as LaTeX; the five letter options remain unchanged."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q11",
+      "kind": "equation_image_to_latex",
+      "page": 2,
+      "pdf_image_object": "Image32.png",
+      "bbox_top_left_pdf_points": [
+        344.88,
+        498.96,
+        449.52,
+        548.16
+      ],
+      "source_image_sha256": "c6ec8e81a119ec76f2520d25ede71d75aa7b55b62eac445c49d93ca9da068576"
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q12",
+      "kind": "header_footer_removal",
+      "details": "Removed the next page running heading CEOM12; it is not part of the question."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q12",
+      "kind": "false_diagram_flag",
+      "details": "Legacy crop contains source branding or header; original question has no mathematical diagram. Excluded from problem_images."
+    }
+  ],
+  "latex_rendering": {
+    "engine": "KaTeX 0.16.47",
+    "expressions": 45,
+    "errors": []
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q01",
+      "status": "verified",
+      "independent_check": {
+        "difference": 34,
+        "optionSums": [
+          {
+            "added": 4,
+            "result": 1990
+          },
+          {
+            "added": 14,
+            "result": 2000
+          },
+          {
+            "added": 24,
+            "result": 2010
+          },
+          {
+            "added": 34,
+            "result": 2020
+          },
+          {
+            "added": 44,
+            "result": 2030
+          }
+        ]
+      },
+      "notes": "Enunciado y cinco opciones contrastados con la fuente; una sola opción correcta."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q02",
+      "status": "verified",
+      "independent_check": {
+        "missingRows": [
+          2,
+          3,
+          4,
+          1
+        ],
+        "total": 10
+      },
+      "notes": "Enunciado y cinco opciones contrastados con la fuente; una sola opción correcta."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q03",
+      "status": "verified",
+      "independent_check": {
+        "people": 5,
+        "total": 60,
+        "equalShare": 12,
+        "perSisterTransfer": 2,
+        "options": [
+          {
+            "transfer": 2,
+            "Marcela": 12,
+            "eachSister": 12
+          },
+          {
+            "transfer": 4,
+            "Marcela": 4,
+            "eachSister": 14
+          },
+          {
+            "transfer": 5,
+            "Marcela": 0,
+            "eachSister": 15
+          },
+          {
+            "transfer": 7,
+            "Marcela": -8,
+            "eachSister": 17
+          },
+          {
+            "transfer": 10,
+            "Marcela": -20,
+            "eachSister": 20
+          }
+        ]
+      },
+      "notes": "Enunciado y cinco opciones contrastados con la fuente; una sola opción correcta."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q04",
+      "status": "verified",
+      "independent_check": {
+        "widthDifference": 7,
+        "heightDifference": 5,
+        "perimeterDifference": 24
+      },
+      "notes": "Enunciado y cinco opciones contrastados con la fuente; una sola opción correcta."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q05",
+      "status": "verified",
+      "independent_check": {
+        "rows": [
+          [
+            2,
+            3,
+            5,
+            7
+          ],
+          [
+            5,
+            8,
+            12
+          ],
+          [
+            13,
+            20
+          ],
+          [
+            33
+          ]
+        ],
+        "expandedTop": 33
+      },
+      "notes": "Enunciado y cinco opciones contrastados con la fuente; una sola opción correcta."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q06",
+      "status": "verified",
+      "independent_check": {
+        "children": 5,
+        "minutes": 2,
+        "rate": 3,
+        "total": 30
+      },
+      "notes": "Enunciado y cinco opciones contrastados con la fuente; una sola opción correcta."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q07",
+      "status": "verified",
+      "independent_check": {
+        "Jaden": 12,
+        "Fer": 6,
+        "Aaron": 19
+      },
+      "notes": "Enunciado y cinco opciones contrastados con la fuente; una sola opción correcta."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q08",
+      "status": "verified",
+      "independent_check": {
+        "orderedPairs": [
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            6,
+            3
+          ]
+        ],
+        "impossibleOption": 2
+      },
+      "notes": "Enunciado y cinco opciones contrastados con la fuente; una sola opción correcta."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q09",
+      "status": "verified",
+      "independent_check": {
+        "days": 20,
+        "wholeWeeks": 2,
+        "remainder": 6,
+        "result": "Viernes"
+      },
+      "notes": "Enunciado y cinco opciones contrastados con la fuente; una sola opción correcta."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q10",
+      "status": "verified",
+      "independent_check": {
+        "start": 1879564,
+        "next": 1879602,
+        "extra": 38,
+        "earlierCandidatesChecked": 37,
+        "options": [
+          {
+            "extra": 13,
+            "counter": 1879577,
+            "uniqueDigits": false
+          },
+          {
+            "extra": 323,
+            "counter": 1879887,
+            "uniqueDigits": false
+          },
+          {
+            "extra": 2020,
+            "counter": 1881584,
+            "uniqueDigits": false
+          },
+          {
+            "extra": 321,
+            "counter": 1879885,
+            "uniqueDigits": false
+          },
+          {
+            "extra": 38,
+            "counter": 1879602,
+            "uniqueDigits": true
+          }
+        ]
+      },
+      "notes": "Enunciado y cinco opciones contrastados con la fuente; una sola opción correcta."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q11",
+      "status": "verified",
+      "independent_check": {
+        "letters": {
+          "a": 8,
+          "b": 3,
+          "c": 5,
+          "d": 5,
+          "e": 7
+        },
+        "minuend": 84375,
+        "subtrahend": 55876,
+        "difference": 28499,
+        "greatest": "a"
+      },
+      "notes": "Enunciado y cinco opciones contrastados con la fuente; una sola opción correcta."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q12",
+      "status": "verified",
+      "independent_check": {
+        "total": 540,
+        "Fer": 180,
+        "Jaden": 360,
+        "optionRemainders": [
+          {
+            "total": 131,
+            "remainderModulo3": 2
+          },
+          {
+            "total": 850,
+            "remainderModulo3": 1
+          },
+          {
+            "total": 540,
+            "remainderModulo3": 0
+          },
+          {
+            "total": 739,
+            "remainderModulo3": 1
+          },
+          {
+            "total": 2020,
+            "remainderModulo3": 1
+          }
+        ]
+      },
+      "notes": "Enunciado y cinco opciones contrastados con la fuente; una sola opción correcta."
+    }
+  ],
+  "structural_validation": [
+    {
+      "path": "02_JSON_EXAMS/FUSION/Sin fecha/Eliminatorio CEOM12/Kids/FUSION_sin-fecha_eliminatorio-ceom12_kids-3-y-4-de-primaria_verified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "8fbeccd0735361763744872b1ca349f11ef8042a7d38416bfa1a54cf674f9554",
+        "bytes": 47291,
+        "problems": 12,
+        "verified": 12,
+        "guided": 0,
+        "images": 3,
+        "figures": [
+          {
+            "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q02",
+            "figure": 1,
+            "sha256": "2d6367eef5a034739996f20e46459079c262206ad34e0c6d41ea8bc9b85720c6",
+            "width": 173,
+            "height": 104
+          },
+          {
+            "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q04",
+            "figure": 1,
+            "sha256": "95fa621430eeb8f5d0f9ade51ba167a501e0b88d9a41d8076af48b78222f9f6b",
+            "width": 182,
+            "height": 99
+          },
+          {
+            "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q05",
+            "figure": 1,
+            "sha256": "e5657628dab72786501229ceff52779dbf104f8004ede58b430efb330133d5ca",
+            "width": 216,
+            "height": 151
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Eliminatorio CEOM12/Kids/FUSION_sin-fecha_eliminatorio-ceom12_kids-3-y-4-de-primaria_classified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "462ec9122fa123f6ac140dd5fc0553cff4f116f7a92cc066f0f505e134dd59a4",
+        "bytes": 53209,
+        "problems": 12,
+        "verified": 12,
+        "guided": 0,
+        "images": 3,
+        "figures": [
+          {
+            "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q02",
+            "figure": 1,
+            "sha256": "2d6367eef5a034739996f20e46459079c262206ad34e0c6d41ea8bc9b85720c6",
+            "width": 173,
+            "height": 104
+          },
+          {
+            "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q04",
+            "figure": 1,
+            "sha256": "95fa621430eeb8f5d0f9ade51ba167a501e0b88d9a41d8076af48b78222f9f6b",
+            "width": 182,
+            "height": 99
+          },
+          {
+            "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q05",
+            "figure": 1,
+            "sha256": "e5657628dab72786501229ceff52779dbf104f8004ede58b430efb330133d5ca",
+            "width": 216,
+            "height": 151
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    }
+  ]
+}

@@ -5,9 +5,9 @@
   "counts": {
     "recovered_occurrences": 881,
     "legacy_statement_groups": 441,
-    "published_occurrences": 126,
+    "published_occurrences": 153,
     "alternate_source_occurrences": 42,
-    "pending_occurrences": 713
+    "pending_occurrences": 686
   },
   "notes": [
     "Agrupaciones heredadas: su normalizador eliminaba signos matemáticos; no equivalen a duplicados certificados.",
@@ -2350,12 +2350,14 @@
         }
       ],
       "legacy_statement_group": 39,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "34",
       "inherited_solution_unverified": "La diferencia es 2020-1986=34.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Eliminatorio CEOM12/Kids/FUSION_sin-fecha_eliminatorio-ceom12_kids-3-y-4-de-primaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q02",
@@ -2391,12 +2393,14 @@
         }
       ],
       "legacy_statement_group": 40,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "10;opciónc",
-      "checkpoint_notes_unverified": "filas2+3+4+1"
+      "checkpoint_notes_unverified": "filas2+3+4+1",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Eliminatorio CEOM12/Kids/FUSION_sin-fecha_eliminatorio-ceom12_kids-3-y-4-de-primaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q03",
@@ -2432,12 +2436,14 @@
         }
       ],
       "legacy_statement_group": 41,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "$2 a cada hermana",
       "inherited_solution_unverified": "En total hay 20+4·10=60 pesos, a repartir por igual entre cinco hermanas:12 pesos cada una. Marcela entrega 2 a cada hermana,8 en total, y se queda con 12.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Eliminatorio CEOM12/Kids/FUSION_sin-fecha_eliminatorio-ceom12_kids-3-y-4-de-primaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q04",
@@ -2473,12 +2479,14 @@
         }
       ],
       "legacy_statement_group": 42,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "24 m;opcióne",
-      "checkpoint_notes_unverified": "2((3+4)+(2+3))"
+      "checkpoint_notes_unverified": "2((3+4)+(2+3))",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Eliminatorio CEOM12/Kids/FUSION_sin-fecha_eliminatorio-ceom12_kids-3-y-4-de-primaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q05",
@@ -2514,12 +2522,14 @@
         }
       ],
       "legacy_statement_group": 43,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "33;opcióna",
-      "checkpoint_notes_unverified": "5,8,12;13,20;33"
+      "checkpoint_notes_unverified": "5,8,12;13,20;33",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Eliminatorio CEOM12/Kids/FUSION_sin-fecha_eliminatorio-ceom12_kids-3-y-4-de-primaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q06",
@@ -2555,12 +2565,14 @@
         }
       ],
       "legacy_statement_group": 44,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "30",
       "inherited_solution_unverified": "Cinco niños inflan 5·3=15 globos por minuto. En dos minutos inflan 30.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Eliminatorio CEOM12/Kids/FUSION_sin-fecha_eliminatorio-ceom12_kids-3-y-4-de-primaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q07",
@@ -2596,12 +2608,14 @@
         }
       ],
       "legacy_statement_group": 45,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "19 años",
       "inherited_solution_unverified": "Fer tiene 12/2=6 años y Aarón tiene 6+13=19.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Eliminatorio CEOM12/Kids/FUSION_sin-fecha_eliminatorio-ceom12_kids-3-y-4-de-primaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q08",
@@ -2637,12 +2651,14 @@
         }
       ],
       "legacy_statement_group": 46,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "2",
       "inherited_solution_unverified": "Para sumar 9, las parejas ordenadas posibles son(3,6),(4,5),(5,4),(6,3). Las cifras que pueden aparecer son 3,4,5,6. Entre las opciones 2,3,4,5,6, la única imposible es 2.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Eliminatorio CEOM12/Kids/FUSION_sin-fecha_eliminatorio-ceom12_kids-3-y-4-de-primaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q09",
@@ -2678,12 +2694,14 @@
         }
       ],
       "legacy_statement_group": 47,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "viernes",
       "inherited_solution_unverified": "20 deja residuo 6 al dividirse por 7. Seis días después del sábado es viernes.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Eliminatorio CEOM12/Kids/FUSION_sin-fecha_eliminatorio-ceom12_kids-3-y-4-de-primaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q10",
@@ -2719,12 +2737,14 @@
         }
       ],
       "legacy_statement_group": 48,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "38 visitantes",
       "inherited_solution_unverified": "El primer número posterior con siete cifras distintas es 1879602. Desde 1879564 faltan 1879602-1879564=38 visitantes. Se comprueba que los anteriores aún repiten una cifra.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Eliminatorio CEOM12/Kids/FUSION_sin-fecha_eliminatorio-ceom12_kids-3-y-4-de-primaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q11",
@@ -2760,12 +2780,14 @@
         }
       ],
       "legacy_statement_group": 49,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "a8;opcióna",
-      "checkpoint_notes_unverified": "c5,e7,b3,d5,a8;la fórmula es texto"
+      "checkpoint_notes_unverified": "c5,e7,b3,d5,a8;la fórmula es texto",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Eliminatorio CEOM12/Kids/FUSION_sin-fecha_eliminatorio-ceom12_kids-3-y-4-de-primaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q12",
@@ -2801,12 +2823,14 @@
         }
       ],
       "legacy_statement_group": 50,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "540;opciónc",
-      "checkpoint_notes_unverified": "única cantidad múltiplo3"
+      "checkpoint_notes_unverified": "única cantidad múltiplo3",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Eliminatorio CEOM12/Kids/FUSION_sin-fecha_eliminatorio-ceom12_kids-3-y-4-de-primaria_classified.json",
+      "reviewed_status": "verified"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom12_primaria-5-y-6_q01",
@@ -2821,12 +2845,14 @@
       "problem_text": "Los 96 alumnos de quinto grado saldrán de excursión. El precio total de la excursión es de $672\n(por todos los alumnos). La tercera parte de los chicos, como pagó por adelantado, pagó solo $5. ¿cuánto\npagó cada uno de los otros chicos, por haber pagado tarde?",
       "options": [],
       "legacy_statement_group": 51,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "8 dólares",
-      "checkpoint_notes_unverified": "(672-160)/64"
+      "checkpoint_notes_unverified": "(672-160)/64",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Eliminatorio CEOM12/Primaria/FUSION_sin-fecha_eliminatorio-ceom12_primaria-5-y-6_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom12_primaria-5-y-6_q02",
@@ -2841,12 +2867,14 @@
       "problem_text": "Charlitos tiene un juego con muchas piezas cuadradas iguales entre sí y muchas piezas rectangulares\ntodas iguales entre sí. Con dos piezas cuadradas se arma una pieza rectangular. Con las piezas del juego\narma esta figura formada por 4 piezas rectangulares y 2 piezas cuadradas. Una pieza rectangular tiene 24\ncm de perímetro. ¿Cuál es el perímetro de la figura?",
       "options": [],
       "legacy_statement_group": 52,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "88 cm",
-      "checkpoint_notes_unverified": "lado pequeño4;contorno22 lados"
+      "checkpoint_notes_unverified": "lado pequeño4;contorno22 lados",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Eliminatorio CEOM12/Primaria/FUSION_sin-fecha_eliminatorio-ceom12_primaria-5-y-6_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom12_primaria-5-y-6_q03",
@@ -2861,12 +2889,14 @@
       "problem_text": "En la primera fila del teatro hay 5 asientos. Para la función de esta noche Jaden compró las 5\nentradas de la primera fila para él y sus amigos: Ana, Dani, Edu y Fer. Si Ana y Fer se sientan una al lado\nde la otra. ¿de cuántas maneras distintas podrán sentarse los 5 chicos?\nELIMINATORIA REGIONAL\nCEOM 12",
       "options": [],
       "legacy_statement_group": 53,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "48",
-      "checkpoint_notes_unverified": "2*4!"
+      "checkpoint_notes_unverified": "2*4!",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Eliminatorio CEOM12/Primaria/FUSION_sin-fecha_eliminatorio-ceom12_primaria-5-y-6_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom12_1-secundaria_q01",
@@ -2881,12 +2911,14 @@
       "problem_text": "En una clase de educación física el profesor divide a los chicos en equipos de distinto número\nsegún la actividad. Si forma equipos de 7, no sobra ningún chico, cuando forma equipos de 3, de 4 o de 6\nsiempre sobra un chico. ¿cuál es el menor número posible de chicos de esa clase?",
       "options": [],
       "legacy_statement_group": 54,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "49",
-      "checkpoint_notes_unverified": "12k+1"
+      "checkpoint_notes_unverified": "12k+1",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Eliminatorio CEOM12/1.º de secundaria/FUSION_sin-fecha_eliminatorio-ceom12_1-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom12_1-secundaria_q02",
@@ -2901,12 +2933,14 @@
       "problem_text": "Charlitos tiene un juego con muchas piezas cuadradas iguales entre sí y muchas piezas rectangulares\ntodas iguales entre sí. Con dos piezas cuadradas se arma una pieza rectangular. Con las piezas del juego\narma esta figura formada por 4 piezas rectangulares y 2 piezas cuadradas. Una pieza rectangular tiene 24\ncm de perímetro. ¿Cuál es el perímetro de la figura?",
       "options": [],
       "legacy_statement_group": 52,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "88 cm",
-      "checkpoint_notes_unverified": "lado pequeño4;contorno22 lados"
+      "checkpoint_notes_unverified": "lado pequeño4;contorno22 lados",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Eliminatorio CEOM12/1.º de secundaria/FUSION_sin-fecha_eliminatorio-ceom12_1-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom12_1-secundaria_q03",
@@ -2921,12 +2955,14 @@
       "problem_text": "En la primera fila del teatro hay 5 asientos. Para la función de esta noche Jaden compró las 5\nentradas de la primera fila para él y sus amigos: Ana, Dani, Edu y Fer. Si Ana y Fer se sientan una al lado\nde la otra. ¿de cuántas maneras distintas podrán sentarse los 5 chicos?\nELIMINATORIA REGIONAL\nCEOM 12",
       "options": [],
       "legacy_statement_group": 53,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "48",
-      "checkpoint_notes_unverified": "2*4!"
+      "checkpoint_notes_unverified": "2*4!",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Eliminatorio CEOM12/1.º de secundaria/FUSION_sin-fecha_eliminatorio-ceom12_1-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom12_2-secundaria_q01",
@@ -2941,12 +2977,14 @@
       "problem_text": "Los 96 alumnos de quinto grado saldrán de excursión. El precio total de la excursión es de $672\n(por todos los alumnos). La tercera parte de los chicos, como pagó por adelantado, pagó solo $5. ¿cuánto\npagó cada uno de los otros chicos, por haber pagado tarde?",
       "options": [],
       "legacy_statement_group": 51,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "8 dólares",
-      "checkpoint_notes_unverified": "(672-160)/64"
+      "checkpoint_notes_unverified": "(672-160)/64",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Eliminatorio CEOM12/2.º de secundaria/FUSION_sin-fecha_eliminatorio-ceom12_2-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom12_2-secundaria_q02",
@@ -2961,12 +2999,14 @@
       "problem_text": "En el cuadrado ABCD, las diagonales AC y BD se cortan en el punto O sobre las prolongaciones de\nlas diagonales se marcan puntos E, F, G y H de modo que OE = OF = OG = OH.\nEl área del triángulo BOC es de 72cm^{2}y OB =3/4 OF. ¿cuál es el área de la figura de vértices AFBGCHDE?",
       "options": [],
       "legacy_statement_group": 55,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "768",
-      "checkpoint_notes_unverified": "OB²144;área4OB*OF"
+      "checkpoint_notes_unverified": "OB²144;área4OB*OF",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Eliminatorio CEOM12/2.º de secundaria/FUSION_sin-fecha_eliminatorio-ceom12_2-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom12_2-secundaria_q03",
@@ -2981,12 +3021,14 @@
       "problem_text": "Con los dígitos 1, 2, 3, 4 Y 6 Jaden escribe solo los números de 4 cifras distintas en los cuales el\nnúmero formado por las dos últimas cifras (decenas y unidades) es divisible por el digito que ocupa el\nlugar de las centenas. ¿Cuántos números distintos puede escribir Jaden? Por ejemplo: Jaden sí escribe\nel número 6123 ya que 1 divide a 23, y no escribe al 6423 ya que 4 no divide a 23.\nELIMINATORIA REGIONAL\nCEOM 12",
       "options": [],
       "legacy_statement_group": 56,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "58",
-      "checkpoint_notes_unverified": "enumerar120 permutaciones;no dividir entre número de dos cifras"
+      "checkpoint_notes_unverified": "enumerar120 permutaciones;no dividir entre número de dos cifras",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Eliminatorio CEOM12/2.º de secundaria/FUSION_sin-fecha_eliminatorio-ceom12_2-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom12_3-secundaria_q01",
@@ -3001,12 +3043,14 @@
       "problem_text": "En una clase de educación física el profesor divide a los chicos en equipos de distinto número\nsegún la actividad. Si forma equipos de 7, no sobra ningún chico, cuando forma equipos de 3, de 4 o de 6\nsiempre sobra un chico. ¿cuál es el menor número posible de chicos de esa clase?",
       "options": [],
       "legacy_statement_group": 54,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "49",
-      "checkpoint_notes_unverified": "12k+1"
+      "checkpoint_notes_unverified": "12k+1",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Eliminatorio CEOM12/3.º de secundaria/FUSION_sin-fecha_eliminatorio-ceom12_3-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom12_3-secundaria_q02",
@@ -3021,12 +3065,14 @@
       "problem_text": "En el cuadrado ABCD, las diagonales AC y BD se cortan en el punto O sobre las prolongaciones de\nlas diagonales se marcan puntos E, F, G y H de modo que OE = OF = OG = OH.\nEl área del triángulo BOC es de 72cm^{2}y OB =3/4 OF. ¿cuál es el área de la figura de vértices AFBGCHDE?",
       "options": [],
       "legacy_statement_group": 55,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "768",
-      "checkpoint_notes_unverified": "OB²144;área4OB*OF"
+      "checkpoint_notes_unverified": "OB²144;área4OB*OF",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Eliminatorio CEOM12/3.º de secundaria/FUSION_sin-fecha_eliminatorio-ceom12_3-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom12_3-secundaria_q03",
@@ -3041,12 +3087,14 @@
       "problem_text": "Con los dígitos 1, 2, 3, 4 Y 6 Jaden escribe solo los números de 4 cifras distintas en los cuales el\nnúmero formado por las dos últimas cifras (decenas y unidades) es divisible por el digito que ocupa el\nlugar de las centenas. ¿Cuántos números distintos puede escribir Jaden? Por ejemplo: Jaden sí escribe\nel número 6123 ya que 1 divide a 23, y no escribe al 6423 ya que 4 no divide a 23.\nELIMINATORIA REGIONAL\nCEOM 12",
       "options": [],
       "legacy_statement_group": 56,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "58",
-      "checkpoint_notes_unverified": "enumerar120 permutaciones;no dividir entre número de dos cifras"
+      "checkpoint_notes_unverified": "enumerar120 permutaciones;no dividir entre número de dos cifras",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Eliminatorio CEOM12/3.º de secundaria/FUSION_sin-fecha_eliminatorio-ceom12_3-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom12_olimpicos-bachillerarto-o-preratoria_q01",
@@ -3061,12 +3109,14 @@
       "problem_text": "En una clase de educación física el profesor divide a los chicos en equipos de distinto número\nsegún la actividad. Si forma equipos de 7, no sobra ningún chico, cuando forma equipos de 3, de 4 o de 6\nsiempre sobra un chico. ¿cuál es el menor número posible de chicos de esa clase?",
       "options": [],
       "legacy_statement_group": 54,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "49",
-      "checkpoint_notes_unverified": "12k+1"
+      "checkpoint_notes_unverified": "12k+1",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Eliminatorio CEOM12/Olímpicos/FUSION_sin-fecha_eliminatorio-ceom12_olimpicos-bachillerarto-o-preratoria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom12_olimpicos-bachillerarto-o-preratoria_q02",
@@ -3081,12 +3131,14 @@
       "problem_text": "En el cuadrado ABCD, las diagonales AC y BD se cortan en el punto O sobre las prolongaciones de\nlas diagonales se marcan puntos E, F, G y H de modo que OE = OF = OG = OH.\nEl área del triángulo BOC es de 72cm^{2}y OB =3/4 OF. ¿cuál es el área de la figura de vértices AFBGCHDE?",
       "options": [],
       "legacy_statement_group": 55,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "768",
-      "checkpoint_notes_unverified": "OB²144;área4OB*OF"
+      "checkpoint_notes_unverified": "OB²144;área4OB*OF",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Eliminatorio CEOM12/Olímpicos/FUSION_sin-fecha_eliminatorio-ceom12_olimpicos-bachillerarto-o-preratoria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom12_olimpicos-bachillerarto-o-preratoria_q03",
@@ -3101,12 +3153,14 @@
       "problem_text": "Con los dígitos 1, 2, 3, 4 Y 6 Jaden escribe solo los números de 4 cifras distintas en los cuales el\nnúmero formado por las dos últimas cifras (decenas y unidades) es divisible por el digito que ocupa el\nlugar de las centenas. ¿Cuántos números distintos puede escribir Jaden? Por ejemplo: Jaden sí escribe\nel número 6123 ya que 1 divide a 23, y no escribe al 6423 ya que 4 no divide a 23.",
       "options": [],
       "legacy_statement_group": 57,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "58",
-      "checkpoint_notes_unverified": "mismo resultado;no usar conteos preliminares7"
+      "checkpoint_notes_unverified": "mismo resultado;no usar conteos preliminares7",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Eliminatorio CEOM12/Olímpicos/FUSION_sin-fecha_eliminatorio-ceom12_olimpicos-bachillerarto-o-preratoria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q01",

@@ -1,0 +1,171 @@
+{
+  "schema_version": "1.0",
+  "source_format_reference": "Cuantly public practice; original multiple_choice and open_answer preserved",
+  "exam": {
+    "competition": "FUSION",
+    "source_competition": "CEOM12",
+    "edition": 12,
+    "year": null,
+    "year_status": "not_confirmed",
+    "year_evidence": "No exam year is printed in the seven original headers. A question mentions 2020; this does not confirm the exam date. The imported PDF directory uses the previous inferred 2020 label, documented in source_manifest; the bank does not adopt that inference.",
+    "phase": "Eliminatorio CEOM12",
+    "level": "Primaria",
+    "school_level": "5.º y 6.º de primaria",
+    "problem_count": 3,
+    "source_file": "FUSION_2020_eliminatorio-ceom12_multinivel_examen-eliminatorio-ceom12_original.pdf",
+    "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Eliminatorio CEOM12/Multinivel/FUSION_2020_eliminatorio-ceom12_multinivel_examen-eliminatorio-ceom12_original.pdf",
+    "source_sha256": "a29b5c46c62ea6f19d0b9f420f03ded03bced2dede70d339ed8e5841069869e7",
+    "image_policy": "Exact mathematical figures embedded as Base64. The subtraction is faithfully transcribed as LaTeX; no question screenshots, source logos or header crops.",
+    "classification_phase": "completed",
+    "difficulty_phase": "completed"
+  },
+  "validation_summary": {
+    "verified_problems": 3,
+    "needs_review_or_invalid": 0,
+    "needs_review_problem_numbers": [],
+    "notes": "Original Kids multiple-choice format and labels retained, with every option checked. Other levels remain open answers. Exam year is not inferred; independent checks correct the octagon area from the old note."
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_primaria-5-y-6_q01",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Eliminatorio CEOM12 / Primaria",
+      "problem_number": 1,
+      "source_page": 3,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Los 96 alumnos de quinto grado saldrán de excursión. El precio total de la excursión es de $672\n(por todos los alumnos). La tercera parte de los chicos, como pagó por adelantado, pagó solo $5. ¿cuánto\npagó cada uno de los otros chicos, por haber pagado tarde?",
+      "options": [],
+      "correct_answer": "$8 por cada alumno que pagó tarde",
+      "correct_option_label": null,
+      "solution_text": "1. **Quienes pagaron antes.** La tercera parte de 96 es \\(96/3=32\\) alumnos.\n2. **Dinero adelantado.** Aportaron \\(32\\cdot5=160\\), en la moneda indicada con $ en el enunciado.\n3. **Grupo restante.** Son \\(96-32=64\\) alumnos. Deben cubrir \\(672-160=512\\).\n4. **Precio individual.** Cada uno pagó \\(512/64=\\mathbf8\\).\n5. **Respuesta y comprobación.** Cada alumno que pagó tarde aportó **$8**. \\(32\\cdot5+64\\cdot8=160+512=672\\), exactamente el costo de la excursión. La fuente no nombra la moneda; no se le asigna una distinta.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta revisada; comparación manual."
+      },
+      "classification": {
+        "primary_area": "arithmetic",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "fractions",
+          "division",
+          "money"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Separar dos grupos de alumnos y repartir el costo restante.",
+          "Dificultad relativa a 5.º y 6.º de primaria."
+        ]
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Eliminatorio CEOM12/Multinivel/FUSION_2020_eliminatorio-ceom12_multinivel_examen-eliminatorio-ceom12_original.pdf",
+      "source_pdf_sha256": "a29b5c46c62ea6f19d0b9f420f03ded03bced2dede70d339ed8e5841069869e7"
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_primaria-5-y-6_q02",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Eliminatorio CEOM12 / Primaria",
+      "problem_number": 2,
+      "source_page": 3,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Charlitos tiene un juego con muchas piezas cuadradas iguales entre sí y muchas piezas rectangulares\ntodas iguales entre sí. Con dos piezas cuadradas se arma una pieza rectangular. Con las piezas del juego\narma esta figura formada por 4 piezas rectangulares y 2 piezas cuadradas. Una pieza rectangular tiene 24\ncm de perímetro. ¿Cuál es el perímetro de la figura?",
+      "options": [],
+      "correct_answer": "88 cm",
+      "correct_option_label": null,
+      "solution_text": "1. **Lado básico.** Si un cuadrado tiene lado s, el rectángulo formado por dos cuadrados mide s por 2s. Su perímetro es \\(2(s+2s)=6s=24\\), así que s=4 cm.\n2. **Leer la figura.** Las cuatro piezas rectangulares y dos cuadradas equivalen a diez cuadrados básicos. De arriba abajo, las casillas ocupadas están en las columnas 0,1,2,3; después 0,3; y abajo -1,0,3,4. Esta numeración solo ayuda a contar el dibujo original.\n3. **Bordes compartidos.** Hay 5 lados compartidos dentro de las filas y 4 entre filas: 9 en total. Cada uno desaparece dos veces al unir las casillas.\n4. **Contorno.** Las diez casillas aportan \\(10\\cdot4=40\\) lados antes de unirlas. Quedan \\(40-2\\cdot9=22\\) lados exteriores.\n5. **Respuesta y comprobación.** El perímetro es \\(22\\cdot4=\\mathbf{88}\\) cm. Un recorrido del borde confirma 22 lados básicos, y el rectángulo original mide 4 por 8, cuyo perímetro sí es 24.",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Figura de cuatro rectángulos y dos cuadrados",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "iVBORw0KGgoAAAANSUhEUgAAAVMAAACWCAIAAADse/yQAAACQ0lEQVR4nO3aQWrDMBBAUU/x/a+s7roIDZSWxnL+e9tsxoKPRpBZax1AzMfVAwAXUD4UKR+KlA9Fyoci5UOR8qFI+VB0HnczM1ePQN26///f3PlQpHwout+2/04b1ybvJicZfGm686FI+VCkfChSPhQpH4qUD0XKhyLlQ5HyoUj5UKR8KFI+FCkfipQPRcqHIuVDkfKhSPlQpHwoUj4UKR+KlA9Fyoci5UOR8qFI+VCkfChSPhQpH4qUD0XKhyLlQ5HyoUj5UKR8KFI+FCkfipQPRcqHovO4rZm5eoQ34SSD3PlQpHwouvG2v9Y69l6et51wZzuf3rzRA9OdD0XKhyLlQ5HyoUj5UKR8KFI+FCkfipQPRcqHIuVDkfKhSPlQpHwoUj4UKR+KlA9Fyoci5UOR8qFI+VCkfChSPhQpH4qUD0XKhyLlQ5HyoUj5UKR8KFI+FCkfipQPRcqHIuVDkfKhSPlQdF49AHxvZrY9mtl4tgdrrR+Vf6NPutGosBvbPhTZ9tnLWutrm3u2qfL3jfhp+Q791zxD2J9tH4qUD0XKhyLlQ5HyoUj5UKR8KFI+FCkfipQPRcqHIuVDkfKhSPlQpHwoUj4UKR+KlA9Fyoci5UOR8qFI+VCkfChSPhQpH4qUD0XKhyLlQ5HyoUj5UKR8KFI+FCkfipQPRcqHIuVDkfKh6Hz2w8y8dhJgg/Lhcq6f/2Pbh6LHO3+tddEkwOuM1CHItg9Fyoci5UOR8qFI+VCkfChSPhQpH4qUD0XKhyPoE+4BKE1Z4ER+AAAAAElFTkSuQmCC",
+          "sha256": "625cf800e807c5f538fb5b5565cc4ec745f0f4f29629097fc74bc374546ad64e",
+          "source": "pdf_embedded_image",
+          "original_filename": "ceom12_elim_page3_Image42.png",
+          "width_px": 339,
+          "height_px": 150
+        }
+      ],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta revisada; comparación manual."
+      },
+      "classification": {
+        "primary_area": "geometry",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "perimeter",
+          "quadrilaterals",
+          "counting"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Convertir el contorno de una figura en lados de sus cuadrados básicos.",
+          "Dificultad relativa a 5.º y 6.º de primaria."
+        ]
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Eliminatorio CEOM12/Multinivel/FUSION_2020_eliminatorio-ceom12_multinivel_examen-eliminatorio-ceom12_original.pdf",
+      "source_pdf_sha256": "a29b5c46c62ea6f19d0b9f420f03ded03bced2dede70d339ed8e5841069869e7"
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_primaria-5-y-6_q03",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Eliminatorio CEOM12 / Primaria",
+      "problem_number": 3,
+      "source_page": 3,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "En la primera fila del teatro hay 5 asientos. Para la función de esta noche Jaden compró las 5\nentradas de la primera fila para él y sus amigos: Ana, Dani, Edu y Fer. Si Ana y Fer se sientan una al lado\nde la otra. ¿de cuántas maneras distintas podrán sentarse los 5 chicos?",
+      "options": [],
+      "correct_answer": "48 maneras",
+      "correct_option_label": null,
+      "solution_text": "1. **Crear un bloque.** Tratamos a Ana y Fer como una unidad, porque deben quedar juntas.\n2. **Ordenar cuatro unidades.** Se acomodan el bloque, Jaden, Dani y Edu. Hay \\(4!=24\\) órdenes.\n3. **Orden interno.** Dentro del bloque pueden sentarse Ana–Fer o Fer–Ana: dos posibilidades.\n4. **Respuesta.** Hay \\(24\\cdot2=\\mathbf{48}\\) formas.\n5. **Comprobación independiente.** El par de asientos consecutivos se puede elegir en 4 posiciones; Ana y Fer se ordenan de 2 maneras y los demás de \\(3!=6\\). Así \\(4\\cdot2\\cdot6=48\\). La enumeración de las 120 permutaciones de los cinco nombres confirma 48 con Ana y Fer adyacentes.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta revisada; comparación manual."
+      },
+      "classification": {
+        "primary_area": "combinatorics",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "permutations",
+          "counting",
+          "multiplication"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Agrupar a dos personas que deben ocupar asientos consecutivos.",
+          "Dificultad relativa a 5.º y 6.º de primaria."
+        ]
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Eliminatorio CEOM12/Multinivel/FUSION_2020_eliminatorio-ceom12_multinivel_examen-eliminatorio-ceom12_original.pdf",
+      "source_pdf_sha256": "a29b5c46c62ea6f19d0b9f420f03ded03bced2dede70d339ed8e5841069869e7"
+    }
+  ]
+}

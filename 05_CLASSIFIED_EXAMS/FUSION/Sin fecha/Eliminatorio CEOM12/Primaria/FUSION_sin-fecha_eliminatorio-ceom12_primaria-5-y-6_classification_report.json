@@ -1,0 +1,62 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2020/Eliminatorio CEOM12/Multinivel/FUSION_2020_eliminatorio-ceom12_multinivel_examen-eliminatorio-ceom12_original.pdf",
+  "source_sha256": "a29b5c46c62ea6f19d0b9f420f03ded03bced2dede70d339ed8e5841069869e7",
+  "school_level": "5.º y 6.º de primaria",
+  "rubric": "Primary solving idea; L1 direct familiar steps, L2 combines ideas, L3 non-routine argument relative to the printed school level.",
+  "problems": [
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_primaria-5-y-6_q01",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "fractions",
+        "division",
+        "money"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Separar dos grupos de alumnos y repartir el costo restante.",
+        "Dificultad relativa a 5.º y 6.º de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_primaria-5-y-6_q02",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "perimeter",
+        "quadrilaterals",
+        "counting"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Convertir el contorno de una figura en lados de sus cuadrados básicos.",
+        "Dificultad relativa a 5.º y 6.º de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_primaria-5-y-6_q03",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "permutations",
+        "counting",
+        "multiplication"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Agrupar a dos personas que deben ocupar asientos consecutivos.",
+        "Dificultad relativa a 5.º y 6.º de primaria."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.0",
+  "source_format_reference": "Cuantly public practice; original multiple_choice and open_answer preserved",
+  "exam": {
+    "competition": "FUSION",
+    "source_competition": "CEOM12",
+    "edition": 12,
+    "year": null,
+    "year_status": "not_confirmed",
+    "year_evidence": "No exam year is printed in the seven original headers. A question mentions 2020; this does not confirm the exam date. The imported PDF directory uses the previous inferred 2020 label, documented in source_manifest; the bank does not adopt that inference.",
+    "phase": "Eliminatorio CEOM12",
+    "level": "Olímpicos",
+    "school_level": "Preparatoria o bachillerato",
+    "problem_count": 3,
+    "source_file": "FUSION_2020_eliminatorio-ceom12_multinivel_examen-eliminatorio-ceom12_original.pdf",
+    "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Eliminatorio CEOM12/Multinivel/FUSION_2020_eliminatorio-ceom12_multinivel_examen-eliminatorio-ceom12_original.pdf",
+    "source_sha256": "a29b5c46c62ea6f19d0b9f420f03ded03bced2dede70d339ed8e5841069869e7",
+    "image_policy": "Exact mathematical figures embedded as Base64. The subtraction is faithfully transcribed as LaTeX; no question screenshots, source logos or header crops.",
+    "classification_phase": "not_started",
+    "difficulty_phase": "not_started"
+  },
+  "validation_summary": {
+    "verified_problems": 3,
+    "needs_review_or_invalid": 0,
+    "needs_review_problem_numbers": [],
+    "notes": "Original Kids multiple-choice format and labels retained, with every option checked. Other levels remain open answers. Exam year is not inferred; independent checks correct the octagon area from the old note."
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_olimpicos-bachillerarto-o-preratoria_q01",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Eliminatorio CEOM12 / Olímpicos",
+      "problem_number": 1,
+      "source_page": 7,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "En una clase de educación física el profesor divide a los chicos en equipos de distinto número\nsegún la actividad. Si forma equipos de 7, no sobra ningún chico, cuando forma equipos de 3, de 4 o de 6\nsiempre sobra un chico. ¿cuál es el menor número posible de chicos de esa clase?",
+      "options": [],
+      "correct_answer": "49 chicos",
+      "correct_option_label": null,
+      "solution_text": "1. **Un chico sobrante.** Si N es el número de chicos, N-1 debe ser divisible entre 3, 4 y 6.\n2. **Condición común.** El mínimo común múltiplo de esos tres números es 12, por lo que \\(N=12k+1\\).\n3. **Divisibilidad entre 7.** Los primeros valores positivos de esa forma son 1, 13, 25, 37 y 49. El primero divisible entre 7 es 49.\n4. **Respuesta y comprobación.** El menor número es **49 chicos**: \\(49=7\\cdot7=3\\cdot16+1=4\\cdot12+1=6\\cdot8+1\\).\n5. **Por qué es el menor.** Se revisaron todos los candidatos anteriores de la forma requerida; ninguno es múltiplo de 7. Una búsqueda independiente de los enteros positivos también encuentra 49 primero.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta revisada; comparación manual."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Eliminatorio CEOM12/Multinivel/FUSION_2020_eliminatorio-ceom12_multinivel_examen-eliminatorio-ceom12_original.pdf",
+      "source_pdf_sha256": "a29b5c46c62ea6f19d0b9f420f03ded03bced2dede70d339ed8e5841069869e7"
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_olimpicos-bachillerarto-o-preratoria_q02",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Eliminatorio CEOM12 / Olímpicos",
+      "problem_number": 2,
+      "source_page": 7,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "En el cuadrado ABCD, las diagonales AC y BD se cortan en el punto O sobre las prolongaciones de las diagonales se marcan puntos E, F, G y H de modo que OE = OF = OG = OH.\nEl área del triángulo BOC es de \\(72\\,\\mathrm{cm}^2\\) y \\(OB=\\tfrac34 OF\\). ¿cuál es el área de la figura de vértices AFBGCHDE?",
+      "options": [],
+      "correct_answer": "\\(384\\,\\mathrm{cm}^2\\)",
+      "correct_option_label": null,
+      "solution_text": "1. **Diagonales del cuadrado.** OA, OB, OC y OD tienen la misma longitud y los ejes AC y BD son perpendiculares. Los puntos exteriores tienen igual distancia al centro. Del dato \\(OB=\\tfrac34OF\\), obtenemos \\(OF=\\tfrac43OB\\).\n2. **Partición.** Al unir O con los vértices, la figura AFBGCHDE queda cubierta por los cuatro triángulos OAF, OBG, OCH y ODE, sin superponer sus interiores.\n3. **Área de uno.** El triángulo BOC tiene área 72. OAF conserva una base de la misma longitud, OA=OC, pero su altura OF es \\(4/3\\) de OB. Entonces\n\\[[OAF]=72\\cdot\\tfrac43=96.\\]\n4. **Suma.** Los cuatro triángulos son de igual área por las distancias dadas. El total es \\(4\\cdot96=\\mathbf{384}\\ \\mathrm{cm}^2\\).\n5. **Comprobación independiente.** Si \\(OB=r\\), \\(r^2/2=72\\), así que r=12 y OF=16. El polígono, en el orden impreso, tiene coordenadas \\((-12,0),(0,-16),(0,-12),(16,0),(12,0),(0,16),(0,12),(-16,0)\\). La fórmula de áreas por coordenadas da \\(4(12\\cdot16)/2=384\\). También es el cuadrado de área 288 más cuatro puntas de área \\(12\\cdot4/2=24\\), total \\(288+4\\cdot24=384\\). El valor 768 de la nota recuperada olvidaba dividir entre dos.",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Cuadrado ABCD y vértices E, F, G, H sobre las prolongaciones de las diagonales",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "1724f387971b5a03f200a1bf1f325407da8d22bb8276fb0160a7631b004c0443",
+          "source": "pdf_embedded_image",
+          "original_filename": "ceom12_elim_page7_Image74.png",
+          "width_px": 394,
+          "height_px": 390
+        }
+      ],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "La revisión independiente corrige la nota recuperada de 768 a 384 cm². El área de cada triángulo es base por altura dividido entre dos."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Eliminatorio CEOM12/Multinivel/FUSION_2020_eliminatorio-ceom12_multinivel_examen-eliminatorio-ceom12_original.pdf",
+      "source_pdf_sha256": "a29b5c46c62ea6f19d0b9f420f03ded03bced2dede70d339ed8e5841069869e7"
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_olimpicos-bachillerarto-o-preratoria_q03",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Eliminatorio CEOM12 / Olímpicos",
+      "problem_number": 3,
+      "source_page": 7,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Con los dígitos 1, 2, 3, 4 Y 6 Jaden escribe solo los números de 4 cifras distintas en los cuales el\nnúmero formado por las dos últimas cifras (decenas y unidades) es divisible por el digito que ocupa el\nlugar de las centenas. ¿Cuántos números distintos puede escribir Jaden? Por ejemplo: Jaden sí escribe\nel número 6123 ya que 1 divide a 23, y no escribe al 6423 ya que 4 no divide a 23.",
+      "options": [],
+      "correct_answer": "58 números",
+      "correct_option_label": null,
+      "solution_text": "1. **Organizar el conteo.** Llamamos b a la cifra de centenas. Las dos últimas cifras deben ser distintas entre sí, no pueden usar b y deben formar un múltiplo de b.\n2. **Finales posibles.** Para cada final válido, la cifra de millares se elige entre los dos dígitos que aún no se han usado. Ninguno es cero.\n\n| Centenas b | Finales de dos cifras permitidos | Finales | Números |\n| --- | --- | --- | --- |\n| 1 | 23, 24, 26, 32, 34, 36, 42, 43, 46, 62, 63, 64 | 12 | 24 |\n| 2 | 14, 16, 34, 36, 46, 64 | 6 | 12 |\n| 3 | 12, 21, 24, 42 | 4 | 8 |\n| 4 | 12, 16, 32, 36 | 4 | 8 |\n| 6 | 12, 24, 42 | 3 | 6 |\n\n3. **Total.** \\(24+12+8+8+6=\\mathbf{58}\\).\n4. **Por qué no se duplica.** Cada número tiene una sola cifra de centenas, un solo final y una sola cifra de millares. La tabla separa esos datos.\n5. **Comprobación independiente.** Hay \\(5\\cdot4\\cdot3\\cdot2=120\\) números de cuatro cifras distintas con estos cinco dígitos. Al enumerarlos y comprobar que el final sea divisible por la cifra de centenas, quedan 58. Se verifica también el ejemplo: en 6123 las centenas son 1 y \\(1\\mid23\\); en 6423 son 4 y \\(4\\nmid23\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta revisada; comparación manual."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Eliminatorio CEOM12/Multinivel/FUSION_2020_eliminatorio-ceom12_multinivel_examen-eliminatorio-ceom12_original.pdf",
+      "source_pdf_sha256": "a29b5c46c62ea6f19d0b9f420f03ded03bced2dede70d339ed8e5841069869e7"
+    }
+  ]
+}

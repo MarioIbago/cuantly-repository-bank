@@ -1,0 +1,186 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2020/Eliminatorio CEOM12/Multinivel/FUSION_2020_eliminatorio-ceom12_multinivel_examen-eliminatorio-ceom12_original.pdf",
+  "source_sha256": "a29b5c46c62ea6f19d0b9f420f03ded03bced2dede70d339ed8e5841069869e7",
+  "metadata_evidence": "No exam year is printed in the seven original headers. A question mentions 2020; this does not confirm the exam date. The imported PDF directory uses the previous inferred 2020 label, documented in source_manifest; the bank does not adopt that inference.",
+  "school_level_evidence": "Printed category on each original page, including explicit Bachillerato/Preparatoria for Olímpicos.",
+  "source_review": "All seven PDF pages rendered and visually compared. Original statements, numbering, five Kids options and stable recovered IDs retained.",
+  "pages": [
+    4
+  ],
+  "figure_review": [
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_1-secundaria_q02",
+      "page": 4,
+      "pdf_image_object": "Image50.png",
+      "bbox_top_left_pdf_points": [
+        226.8,
+        430.79999999999995,
+        385.20000000000005,
+        500.4
+      ],
+      "sha256": "625cf800e807c5f538fb5b5565cc4ec745f0f4f29629097fc74bc374546ad64e",
+      "method": "Exact embedded mathematical figure, visually compared with the original PDF."
+    }
+  ],
+  "transcription_corrections": [
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_1-secundaria_q03",
+      "kind": "header_footer_removal",
+      "details": "Removed the next page running heading CEOM12; it is not part of the question."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_1-secundaria_q03",
+      "kind": "false_diagram_flag",
+      "details": "Legacy crop contains source branding or header; original question has no mathematical diagram. Excluded from problem_images."
+    }
+  ],
+  "latex_rendering": {
+    "engine": "KaTeX 0.16.47",
+    "expressions": 10,
+    "errors": []
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_1-secundaria_q01",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "minimum": 49,
+        "remainder7": 0,
+        "otherRemainders": [
+          {
+            "divisor": 3,
+            "remainder": 1
+          },
+          {
+            "divisor": 4,
+            "remainder": 1
+          },
+          {
+            "divisor": 6,
+            "remainder": 1
+          }
+        ]
+      },
+      "notes": "Respuesta abierta revisada; comparación manual."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_1-secundaria_q02",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "unitSide": 4,
+        "unitCells": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            -1,
+            2
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "unitEdges": 22,
+        "perimeter": 88,
+        "rectanglePerimeter": 24
+      },
+      "notes": "Respuesta abierta revisada; comparación manual."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_1-secundaria_q03",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "allSeatings": 120,
+        "adjacentSeatings": 48,
+        "blockCalculation": 48
+      },
+      "notes": "Respuesta abierta revisada; comparación manual."
+    }
+  ],
+  "structural_validation": [
+    {
+      "path": "02_JSON_EXAMS/FUSION/Sin fecha/Eliminatorio CEOM12/1.º de secundaria/FUSION_sin-fecha_eliminatorio-ceom12_1-secundaria_verified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "2ed3015751811575958f08173eda1370ee94491339631d062f71a502cb5e6c00",
+        "bytes": 9270,
+        "problems": 3,
+        "verified": 3,
+        "guided": 0,
+        "images": 1,
+        "figures": [
+          {
+            "source_id": "fusion1_examen-eliminatorio-ceom12_1-secundaria_q02",
+            "figure": 1,
+            "sha256": "625cf800e807c5f538fb5b5565cc4ec745f0f4f29629097fc74bc374546ad64e",
+            "width": 339,
+            "height": 150
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Eliminatorio CEOM12/1.º de secundaria/FUSION_sin-fecha_eliminatorio-ceom12_1-secundaria_classified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "c9055984abcd196ca3f542557e492e402f684ca5c601c44a2fef126bf741f044",
+        "bytes": 10854,
+        "problems": 3,
+        "verified": 3,
+        "guided": 0,
+        "images": 1,
+        "figures": [
+          {
+            "source_id": "fusion1_examen-eliminatorio-ceom12_1-secundaria_q02",
+            "figure": 1,
+            "sha256": "625cf800e807c5f538fb5b5565cc4ec745f0f4f29629097fc74bc374546ad64e",
+            "width": 339,
+            "height": 150
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    }
+  ]
+}

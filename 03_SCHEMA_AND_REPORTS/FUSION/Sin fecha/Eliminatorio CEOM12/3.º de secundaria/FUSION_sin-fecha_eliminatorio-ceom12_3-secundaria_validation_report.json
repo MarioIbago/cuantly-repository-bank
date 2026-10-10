@@ -1,0 +1,263 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2020/Eliminatorio CEOM12/Multinivel/FUSION_2020_eliminatorio-ceom12_multinivel_examen-eliminatorio-ceom12_original.pdf",
+  "source_sha256": "a29b5c46c62ea6f19d0b9f420f03ded03bced2dede70d339ed8e5841069869e7",
+  "metadata_evidence": "No exam year is printed in the seven original headers. A question mentions 2020; this does not confirm the exam date. The imported PDF directory uses the previous inferred 2020 label, documented in source_manifest; the bank does not adopt that inference.",
+  "school_level_evidence": "Printed category on each original page, including explicit Bachillerato/Preparatoria for Olímpicos.",
+  "source_review": "All seven PDF pages rendered and visually compared. Original statements, numbering, five Kids options and stable recovered IDs retained.",
+  "pages": [
+    6
+  ],
+  "figure_review": [
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_3-secundaria_q02",
+      "page": 6,
+      "pdf_image_object": "Image66.png",
+      "bbox_top_left_pdf_points": [
+        241.44,
+        399.59999999999997,
+        370.56,
+        527.28
+      ],
+      "sha256": "1724f387971b5a03f200a1bf1f325407da8d22bb8276fb0160a7631b004c0443",
+      "method": "Exact embedded mathematical figure, visually compared with the original PDF."
+    }
+  ],
+  "transcription_corrections": [
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_3-secundaria_q02",
+      "kind": "symbolic_transcription",
+      "details": "Typeset the printed area and ratio as LaTeX without changing their values."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_3-secundaria_q02",
+      "kind": "mathematical_recovery_correction",
+      "before": "768 cm²",
+      "after": "384 cm²",
+      "details": "Four right triangles each have area OB·OF/2=96. Confirmed independently by shoelace and square-plus-four-tips decomposition."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_3-secundaria_q03",
+      "kind": "header_footer_removal",
+      "details": "Removed the next page running heading CEOM12; it is not part of the question."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_3-secundaria_q03",
+      "kind": "false_diagram_flag",
+      "details": "Legacy crop contains source branding or header; original question has no mathematical diagram. Excluded from problem_images."
+    }
+  ],
+  "latex_rendering": {
+    "engine": "KaTeX 0.16.47",
+    "expressions": 20,
+    "errors": []
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_3-secundaria_q01",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "minimum": 49,
+        "remainder7": 0,
+        "otherRemainders": [
+          {
+            "divisor": 3,
+            "remainder": 1
+          },
+          {
+            "divisor": 4,
+            "remainder": 1
+          },
+          {
+            "divisor": 6,
+            "remainder": 1
+          }
+        ]
+      },
+      "notes": "Respuesta abierta revisada; comparación manual."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_3-secundaria_q02",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "OB": 12,
+        "OF": 16,
+        "BOCArea": 72,
+        "octagonVerticesInPrintedOrder": [
+          [
+            -12,
+            0
+          ],
+          [
+            0,
+            -16
+          ],
+          [
+            0,
+            -12
+          ],
+          [
+            16,
+            0
+          ],
+          [
+            12,
+            0
+          ],
+          [
+            0,
+            16
+          ],
+          [
+            0,
+            12
+          ],
+          [
+            -16,
+            0
+          ]
+        ],
+        "shoelaceArea": 384,
+        "fourTriangleArea": 384,
+        "squarePlusFourTips": 384,
+        "recoveredAnswerCorrection": {
+          "before": 768,
+          "after": 384
+        }
+      },
+      "notes": "La revisión independiente corrige la nota recuperada de 768 a 384 cm². El área de cada triángulo es base por altura dividido entre dos."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom12_3-secundaria_q03",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "allDistinctFourDigitChoices": 120,
+        "total": 58,
+        "byHundreds": [
+          {
+            "hundreds": 1,
+            "endings": [
+              23,
+              24,
+              26,
+              32,
+              34,
+              36,
+              42,
+              43,
+              46,
+              62,
+              63,
+              64
+            ],
+            "thousandsChoicesPerEnding": 2,
+            "count": 24
+          },
+          {
+            "hundreds": 2,
+            "endings": [
+              14,
+              16,
+              34,
+              36,
+              46,
+              64
+            ],
+            "thousandsChoicesPerEnding": 2,
+            "count": 12
+          },
+          {
+            "hundreds": 3,
+            "endings": [
+              12,
+              21,
+              24,
+              42
+            ],
+            "thousandsChoicesPerEnding": 2,
+            "count": 8
+          },
+          {
+            "hundreds": 4,
+            "endings": [
+              12,
+              16,
+              32,
+              36
+            ],
+            "thousandsChoicesPerEnding": 2,
+            "count": 8
+          },
+          {
+            "hundreds": 6,
+            "endings": [
+              12,
+              24,
+              42
+            ],
+            "thousandsChoicesPerEnding": 2,
+            "count": 6
+          }
+        ],
+        "exampleValid": 6123,
+        "exampleInvalid": 6423
+      },
+      "notes": "Respuesta abierta revisada; comparación manual."
+    }
+  ],
+  "structural_validation": [
+    {
+      "path": "02_JSON_EXAMS/FUSION/Sin fecha/Eliminatorio CEOM12/3.º de secundaria/FUSION_sin-fecha_eliminatorio-ceom12_3-secundaria_verified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "474f87e30e0aef4f1def2f941090d1cfb6aa4279c919b0bcf5b36b18d1d803a1",
+        "bytes": 16451,
+        "problems": 3,
+        "verified": 3,
+        "guided": 0,
+        "images": 1,
+        "figures": [
+          {
+            "source_id": "fusion1_examen-eliminatorio-ceom12_3-secundaria_q02",
+            "figure": 1,
+            "sha256": "1724f387971b5a03f200a1bf1f325407da8d22bb8276fb0160a7631b004c0443",
+            "width": 394,
+            "height": 390
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Eliminatorio CEOM12/3.º de secundaria/FUSION_sin-fecha_eliminatorio-ceom12_3-secundaria_classified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "14eb9dbc8c4ae41111940c3da3b114826778bbeafc2bda97d4f0d7ff7548eaff",
+        "bytes": 18078,
+        "problems": 3,
+        "verified": 3,
+        "guided": 0,
+        "images": 1,
+        "figures": [
+          {
+            "source_id": "fusion1_examen-eliminatorio-ceom12_3-secundaria_q02",
+            "figure": 1,
+            "sha256": "1724f387971b5a03f200a1bf1f325407da8d22bb8276fb0160a7631b004c0443",
+            "width": 394,
+            "height": 390
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    }
+  ]
+}
