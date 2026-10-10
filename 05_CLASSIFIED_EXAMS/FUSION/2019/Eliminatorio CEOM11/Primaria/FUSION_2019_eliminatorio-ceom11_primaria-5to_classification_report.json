@@ -1,0 +1,54 @@
+{
+  "school_level": "5.º y 6.º de primaria",
+  "policy": "Editorial difficulty relative to the actual category printed in source.",
+  "problems": [
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_primaria-5to_q01",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "equations",
+        "substitution",
+        "order_of_operations"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Resolver sucesivamente tres igualdades y distinguir la multiplicación de la suma."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_primaria-5to_q02",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "counting"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Aplicar el principio multiplicativo a cuatro personas distintas, incluyendo a Elías."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_primaria-5to_q03",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "addition",
+        "patterns"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Aplicar una regla de suma a cada par de bloques adyacentes."
+      ]
+    }
+  ]
+}

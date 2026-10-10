@@ -1,0 +1,224 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11-pdf_original.pdf",
+  "source_sha256": "7ac63005300d3e466797a6e5a614cb388118319d7ed52c45c53c7c2d30e90c6c",
+  "metadata_evidence": "MARZO DE 2019 and category printed on each original page.",
+  "pages": [
+    6
+  ],
+  "source_review": "All six original PDF problem pages rendered and visually compared. Numbering and stable recovered IDs retained.",
+  "alternate_source": {
+    "path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11_original.pdf",
+    "sha256": "684a7471d3f7fef78cbad4a82741a4252521ce37f8952e6406856f14b00a1055",
+    "evidence": "All statements and problem image bytes match; published once per category."
+  },
+  "figure_review": [
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_olimpicos-preparatoria_q02",
+      "page": 6,
+      "pdf_image_object": "Image39.png",
+      "bbox_top_left_pdf_points": [
+        250.4,
+        404.93999999999994,
+        346.4,
+        499.43999999999994
+      ],
+      "sha256": "3ad15d59043e5ec58338ef50542e88ad05d565883f2c04c729d34719058243eb",
+      "method": "Exact embedded bytes; visually compared with original problem figure."
+    }
+  ],
+  "transcription_corrections": [
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_olimpicos-preparatoria_q03",
+      "note": "Restored 1/a + 1/b from the original displayed fractions."
+    }
+  ],
+  "latex_rendering": {
+    "engine": "KaTeX 0.16.47",
+    "expressions": 27,
+    "errors": []
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_olimpicos-preparatoria_q01",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "breakfast": 14,
+        "drink": 9,
+        "friday": 1548,
+        "saturday": 1332
+      },
+      "notes": "Respuesta abierta con solución revisada; comparación manual."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_olimpicos-preparatoria_q02",
+      "status": "source_error",
+      "independent_check": {
+        "model": "Visible partial 4 by 4 grid; text note contradicts minimum-square count.",
+        "counts": {
+          "1": 8,
+          "2": 5,
+          "3": 0,
+          "4": 1
+        },
+        "locations": [
+          {
+            "x": 0,
+            "y": 0,
+            "size": 1
+          },
+          {
+            "x": 0,
+            "y": 1,
+            "size": 1
+          },
+          {
+            "x": 1,
+            "y": 0,
+            "size": 1
+          },
+          {
+            "x": 1,
+            "y": 1,
+            "size": 1
+          },
+          {
+            "x": 1,
+            "y": 2,
+            "size": 1
+          },
+          {
+            "x": 1,
+            "y": 3,
+            "size": 1
+          },
+          {
+            "x": 2,
+            "y": 0,
+            "size": 1
+          },
+          {
+            "x": 2,
+            "y": 1,
+            "size": 1
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "size": 2
+          },
+          {
+            "x": 0,
+            "y": 2,
+            "size": 2
+          },
+          {
+            "x": 1,
+            "y": 0,
+            "size": 2
+          },
+          {
+            "x": 2,
+            "y": 0,
+            "size": 2
+          },
+          {
+            "x": 2,
+            "y": 2,
+            "size": 2
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "size": 4
+          }
+        ],
+        "total": 14
+      },
+      "notes": "La figura dibuja ocho cuadrados mínimos, pero la nota dice cuatro. Se muestra el conteo de la retícula visible sin corregir silenciosamente la nota."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_olimpicos-preparatoria_q03",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "examples": [
+          {
+            "a": 2,
+            "b": -1,
+            "c": -2,
+            "reciprocalSum": -0.5
+          },
+          {
+            "a": 0.5,
+            "b": 0.5,
+            "c": 0.25,
+            "reciprocalSum": 4
+          }
+        ],
+        "excludedCase": {
+          "c": 0,
+          "roots": [
+            0,
+            1
+          ]
+        }
+      },
+      "notes": "El resultado 1/c requiere c distinto de cero. Si c=0, una raíz es cero y el recíproco no existe."
+    }
+  ],
+  "structural_validation": [
+    {
+      "path": "02_JSON_EXAMS/FUSION/2019/Eliminatorio CEOM11/Olímpicos/FUSION_2019_eliminatorio-ceom11_olimpicos-preparatoria_verified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "773c1ba60a0804aa7fa54255d4c73be029e31cd478abaf1476fe4c5dc8b7f07e",
+        "bytes": 9313,
+        "problems": 3,
+        "verified": 2,
+        "guided": 1,
+        "images": 1,
+        "figures": [
+          {
+            "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_olimpicos-preparatoria_q02",
+            "figure": 1,
+            "sha256": "3ad15d59043e5ec58338ef50542e88ad05d565883f2c04c729d34719058243eb",
+            "width": 128,
+            "height": 126
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2019/Eliminatorio CEOM11/Olímpicos/FUSION_2019_eliminatorio-ceom11_olimpicos-preparatoria_classified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "ba05da066c098ddbd618e368e3a412d74cfd93fc5bf476789dd9fe02048f5b67",
+        "bytes": 10812,
+        "problems": 3,
+        "verified": 2,
+        "guided": 1,
+        "images": 1,
+        "figures": [
+          {
+            "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_olimpicos-preparatoria_q02",
+            "figure": 1,
+            "sha256": "3ad15d59043e5ec58338ef50542e88ad05d565883f2c04c729d34719058243eb",
+            "width": 128,
+            "height": 126
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "school_level": "3.º y 4.º de primaria",
+  "policy": "Editorial difficulty relative to the actual category printed in source.",
+  "problems": [
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_kids-3ro_q01",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "addition",
+        "subtraction"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Calcular una diferencia y comprobarla mediante la suma."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_kids-3ro_q02",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "counting"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Aplicar el principio multiplicativo a cuatro personas distintas, incluyendo a Elías."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_kids-3ro_q03",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "addition",
+        "patterns"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Aplicar una regla de suma a cada par de bloques adyacentes."
+      ]
+    }
+  ]
+}

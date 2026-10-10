@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.0",
+  "source_format_reference": "Cuantly public practice; open_answer with manual comparison",
+  "exam": {
+    "competition": "FUSION",
+    "source_competition": "CEOM11",
+    "edition": 11,
+    "year": 2019,
+    "phase": "Eliminatorio CEOM11",
+    "level": "Olímpicos",
+    "school_level": "Preparatoria",
+    "problem_count": 3,
+    "source_file": "FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11-pdf_original.pdf",
+    "source_pdf_path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11-pdf_original.pdf",
+    "source_sha256": "7ac63005300d3e466797a6e5a614cb388118319d7ed52c45c53c7c2d30e90c6c",
+    "image_policy": "Exact embedded PDF diagrams in Base64; symbolic equations transcribed as LaTeX. No source page, logos or question screenshots.",
+    "classification_phase": "not_started",
+    "difficulty_phase": "not_started"
+  },
+  "validation_summary": {
+    "verified_problems": 2,
+    "needs_review_or_invalid": 1,
+    "needs_review_problem_numbers": [
+      2
+    ],
+    "notes": "March 2019 and school level are printed in source headers. Retained original wording and source defects. No automatic grading for open answers."
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_olimpicos-preparatoria_q01",
+      "collection": "FUSION",
+      "subcategory": "2019 / Eliminatorio CEOM11 / Olímpicos",
+      "problem_number": 1,
+      "source_page": 6,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "En el colegio Miguel Alemán Valdés se organizó el CHALLENGE4  y en la cafetería el  viernes se vendieron,\n72 desayunos y 60 bebidas por un total de $1548;  en la premiación, el sábado, 72 desayunos y 36 bebidas\npor un total de $1332. ¿A cuánto se vendió cada desayuno?  ¿A cuánto se vendió cada bebida?\nNota: toma en cuenta que cada desayuno y cada bebida cuestan igual, respectivamente.",
+      "options": [],
+      "correct_answer": "Cada desayuno costó $14 y cada bebida $9",
+      "correct_option_label": null,
+      "solution_text": "1. **Comparar las ventas.** Ambos días se vendieron 72 desayunos. El viernes hubo \\(60-36=24\\) bebidas adicionales y se recaudaron \\(1548-1332=216\\) pesos más.\n2. **Precio de una bebida.** Como el precio por tipo no cambió entre días, esas 24 bebidas explican toda la diferencia: \\(216/24=9\\). Cada bebida costó $9.\n3. **Desayunos.** El sábado, las 36 bebidas valieron \\(36\\cdot9=324\\). Quedan \\(1332-324=1008\\) para los 72 desayunos, así que \\(1008/72=14\\).\n4. **Respuesta.** Cada desayuno costó **$14** y cada bebida **$9**.\n5. **Comprobación.** El viernes: \\(72\\cdot14+60\\cdot9=1548\\). El sábado: \\(72\\cdot14+36\\cdot9=1332\\). «Cuestan igual, respectivamente» se interpreta como precio constante de cada tipo, tal como requieren ambos totales.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta con solución revisada; comparación manual."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11-pdf_original.pdf",
+      "source_pdf_sha256": "7ac63005300d3e466797a6e5a614cb388118319d7ed52c45c53c7c2d30e90c6c"
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_olimpicos-preparatoria_q02",
+      "collection": "FUSION",
+      "subcategory": "2019 / Eliminatorio CEOM11 / Olímpicos",
+      "problem_number": 2,
+      "source_page": 6,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "En la siguiente figura, ¿cuántos cuadrados  aparecen? Nota: considera cuadrados de todos los tamaños y\nque la figura completa está formada por  4 cuadritos pequeños iguales, por 2 rectángulos, en los cuales\ncabrían exactamente 2 cuadritos pequeños, y un cuadrado grande  en el cual cabrían exactamente 2\nrectángulos.",
+      "options": [],
+      "correct_answer": "14 cuadrados según la retícula dibujada; la nota de la fuente es inconsistente",
+      "correct_option_label": null,
+      "solution_text": "**El dibujo y la nota no describen la misma subdivisión.**\n1. **Según la retícula visible.** Tomamos como unidad el lado de un cuadrado mínimo. El marco exterior tiene lado 4. Hay seis cuadrados mínimos en las dos filas superiores de las tres primeras columnas y otros dos en la columna central inferior: **8 de lado 1**.\n2. **Lado 2.** Hay tres cuadrados en la franja superior (empezando en las columnas 0, 1 y 2) y dos en la inferior, uno a la izquierda y otro a la derecha: **5 de lado 2**.\n3. **Otros tamaños.** Ningún contorno de lado 3 está completo. El marco exterior aporta **1 de lado 4**.\n4. **Conteo del dibujo.** \\(8+5+0+1=\\mathbf{14}\\). Solo se cuentan contornos completos formados por los segmentos azules.\n5. **Salvedad.** La nota impresa dice que hay cuatro cuadritos pequeños, mientras el dibujo presenta ocho. No se modifica la imagen ni la nota para ocultar esa diferencia. Se ofrece **14 según la figura**, con práctica guiada hasta aclarar qué descripción debe prevalecer.",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Cuadrado azul subdividido en una retícula parcial",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "iVBORw0KGgoAAAANSUhEUgAAAIAAAAB+CAIAAABjxI71AAACa0lEQVR4nO3dTU6DQABAYTDuehBd6wWsO+3WW+rSn6VeQN16mzFpE0JhoAMp8yC8b1UtIvpSoB06LUMIhTgX4O+WAZb5CKj2Wu0bIxaL6l+yZ82JP5huur/x4LL+xd3D99Dt0yBfH7eN73gMgBkAZgCYAWBHB+GTR4yDEEJZltEb7cUaB/audTZEV1i/d/v4U//O5/tNz5Ykrja6qSl/Y89iJ89rfATADAAzAMwAMAPADAAzAMwAMAPADAAzAMwAMAPADAAzAMwAMAPADAAzAMwAMAPADAAzwIyvC5riWt2Jrv/dHl8mtCA+AmAGmPEuaOXC/q0W532DRnVvdfmiATpV/6P2jRGLdd3lxbnwG4Q8BsAMADMAzAAwA8AMADMAzAAwA8AMADMAzAAwA8AMAOt7ObprbGHojFkp62wYOvHVFDNm8QMyKQMLiYMVKescveRh4ZTxkHEbMOmAjLsgmAFgBoAZAGYAmAFgZf281Ylbp+bErbPjLghmAJgBYNNeG9p438Tby/Vms5ntxK2jJ6d14tYFcxcEM8CaBmTC3iIGZMI0H9OSe0Cm/VMOyBTH3AXBDAAzAMwAMAPAPA2N8zS08Log5eAxAGYAmAFgBoAZAGYAmAFgPhOO85lwsZJnwlnnjNs9/eX8dYvgMQBmAJgBYAZY02no6/PVua4Nvd/99m9S/5anbEDKmr0uaPGnoe6CYAaAGQBmAJgBYAaAGQBmAJgDMnE+Ey5WMiDjLghmAJgBYAaAGQDmaWicp6GFp6HKwWMAzAAwp63MymkrZ8cPdM7KT9SG+WrovA/Cys/TUJgBYAaAGaBg/QO4C3aZ9tw7gwAAAABJRU5ErkJggg==",
+          "sha256": "3ad15d59043e5ec58338ef50542e88ad05d565883f2c04c729d34719058243eb",
+          "source": "pdf_embedded_image",
+          "original_filename": "ceom11_page4_Image39.png",
+          "width_px": 128,
+          "height_px": 126
+        }
+      ],
+      "option_analysis": [],
+      "verification": {
+        "status": "source_error",
+        "answer_checked": false,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "La figura dibuja ocho cuadrados mínimos, pero la nota dice cuatro. Se muestra el conteo de la retícula visible sin corregir silenciosamente la nota."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11-pdf_original.pdf",
+      "source_pdf_sha256": "7ac63005300d3e466797a6e5a614cb388118319d7ed52c45c53c7c2d30e90c6c"
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_olimpicos-preparatoria_q03",
+      "collection": "FUSION",
+      "subcategory": "2019 / Eliminatorio CEOM11 / Olímpicos",
+      "problem_number": 3,
+      "source_page": 6,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Si a y b son raíces de \\(x^2-x+c=0\\), ¿cuál es el valor de \\(\\frac1a+\\frac1b\\)?",
+      "options": [],
+      "correct_answer": "\\(\\frac1c\\), si \\(c\\ne0\\); para \\(c=0\\), la expresión no está definida",
+      "correct_option_label": null,
+      "solution_text": "1. **Relaciones de las raíces.** Por las fórmulas de Viète para \\(x^2-x+c=0\\), \\(a+b=1\\) y \\(ab=c\\).\n2. **Sumar recíprocos.** Si ambas raíces son distintas de cero, \\(\\frac1a+\\frac1b=\\frac{a+b}{ab}=\\frac1c\\).\n3. **Dominio.** Esto requiere \\(c\\ne0\\). Si \\(c=0\\), la ecuación es \\(x(x-1)=0\\): una raíz es 0 y la expresión pedida no está definida.\n4. **Respuesta.** **\\(1/c\\)** cuando \\(c\\ne0\\).\n5. **Comprobación.** Para \\(c=-2\\), las raíces son 2 y -1; sus recíprocos suman \\(1/2-1=-1/2=1/c\\). Para \\(c=1/4\\), ambas raíces son 1/2 y la suma de recíprocos es \\(2+2=4=1/c\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "El resultado 1/c requiere c distinto de cero. Si c=0, una raíz es cero y el recíproco no existe."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11-pdf_original.pdf",
+      "source_pdf_sha256": "7ac63005300d3e466797a6e5a614cb388118319d7ed52c45c53c7c2d30e90c6c"
+    }
+  ]
+}

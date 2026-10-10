@@ -1,0 +1,55 @@
+{
+  "school_level": "Primer año de secundaria",
+  "policy": "Editorial difficulty relative to the actual category printed in source.",
+  "problems": [
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_1ro-secundaria_q01",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "equations",
+        "substitution",
+        "order_of_operations"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Resolver sucesivamente tres igualdades y distinguir la multiplicación de la suma."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_1ro-secundaria_q02",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "counting"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Aplicar el principio multiplicativo a cuatro personas distintas, incluyendo a Elías."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_1ro-secundaria_q03",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "multiples",
+        "cycles",
+        "remainders"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Combinar mínimo común múltiplo y congruencias para identificar un turno."
+      ]
+    }
+  ]
+}

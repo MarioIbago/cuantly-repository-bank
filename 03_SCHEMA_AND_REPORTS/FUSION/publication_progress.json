@@ -4,12 +4,12 @@
   "source_pages": 226,
   "recovered_occurrences": 881,
   "legacy_statement_groups": 441,
-  "published_banks": 9,
-  "published_occurrences": 36,
-  "verified_answer_occurrences": 26,
-  "guided_occurrences": 10,
-  "alternate_source_occurrences": 24,
-  "pending_occurrences": 821,
+  "published_banks": 15,
+  "published_occurrences": 54,
+  "verified_answer_occurrences": 41,
+  "guided_occurrences": 13,
+  "alternate_source_occurrences": 42,
+  "pending_occurrences": 785,
   "working_draft": "04_REFERENCE_SOURCES/FUSION/recovery/working_draft.json",
   "reviewed_banks": [
     "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 1/Primaria/FUSION_2020_torneo-1_primaria_classified.json",
@@ -20,6 +20,12 @@
     "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 2/Élite/FUSION_2020_torneo-2_elite-preparatoria-universitarios_classified.json",
     "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 3/Primaria/FUSION_2020_torneo-3_primaria_classified.json",
     "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 3/Secundaria/FUSION_2020_torneo-3_secundaria_classified.json",
-    "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 3/Élite/FUSION_2020_torneo-3_elite-preparatoria-universitarios_classified.json"
+    "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 3/Élite/FUSION_2020_torneo-3_elite-preparatoria-universitarios_classified.json",
+    "05_CLASSIFIED_EXAMS/FUSION/2019/Eliminatorio CEOM11/Kids/FUSION_2019_eliminatorio-ceom11_kids-3ro_classified.json",
+    "05_CLASSIFIED_EXAMS/FUSION/2019/Eliminatorio CEOM11/Primaria/FUSION_2019_eliminatorio-ceom11_primaria-5to_classified.json",
+    "05_CLASSIFIED_EXAMS/FUSION/2019/Eliminatorio CEOM11/1.º de secundaria/FUSION_2019_eliminatorio-ceom11_1ro-secundaria_classified.json",
+    "05_CLASSIFIED_EXAMS/FUSION/2019/Eliminatorio CEOM11/2.º de secundaria/FUSION_2019_eliminatorio-ceom11_2do-secundaria_classified.json",
+    "05_CLASSIFIED_EXAMS/FUSION/2019/Eliminatorio CEOM11/3.º de secundaria/FUSION_2019_eliminatorio-ceom11_3ro-secundaria_classified.json",
+    "05_CLASSIFIED_EXAMS/FUSION/2019/Eliminatorio CEOM11/Olímpicos/FUSION_2019_eliminatorio-ceom11_olimpicos-preparatoria_classified.json"
   ]
 }

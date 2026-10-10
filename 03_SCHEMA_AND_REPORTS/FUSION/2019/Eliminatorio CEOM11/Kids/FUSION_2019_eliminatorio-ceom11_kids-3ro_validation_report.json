@@ -1,0 +1,135 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11-pdf_original.pdf",
+  "source_sha256": "7ac63005300d3e466797a6e5a614cb388118319d7ed52c45c53c7c2d30e90c6c",
+  "metadata_evidence": "MARZO DE 2019 and category printed on each original page.",
+  "pages": [
+    1
+  ],
+  "source_review": "All six original PDF problem pages rendered and visually compared. Numbering and stable recovered IDs retained.",
+  "alternate_source": {
+    "path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11_original.pdf",
+    "sha256": "684a7471d3f7fef78cbad4a82741a4252521ce37f8952e6406856f14b00a1055",
+    "evidence": "All statements and problem image bytes match; published once per category."
+  },
+  "figure_review": [
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_kids-3ro_q03",
+      "page": 1,
+      "pdf_image_object": "Image25.png",
+      "bbox_top_left_pdf_points": [
+        246.65,
+        532.0799999999999,
+        349.5,
+        611.5799999999999
+      ],
+      "sha256": "ce45968ceea15cce8485793bf27806b031555d9228fef29fe4d258bc9d709b53",
+      "method": "Exact embedded bytes; visually compared with original problem figure."
+    }
+  ],
+  "transcription_corrections": [],
+  "latex_rendering": {
+    "engine": "KaTeX 0.16.47",
+    "expressions": 11,
+    "errors": []
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_kids-3ro_q01",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "difference": 11,
+        "inverse": 2019
+      },
+      "notes": "Respuesta abierta con solución revisada; comparación manual."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_kids-3ro_q02",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "permutations": 24,
+        "byFirstPerson": 24
+      },
+      "notes": "Respuesta abierta con solución revisada; comparación manual."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_kids-3ro_q03",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "base": [
+          379,
+          262,
+          177,
+          323
+        ],
+        "second": [
+          641,
+          439,
+          500
+        ],
+        "third": [
+          1080,
+          939
+        ],
+        "top": 2019,
+        "weightedBaseCheck": 2019
+      },
+      "notes": "Respuesta abierta con solución revisada; comparación manual."
+    }
+  ],
+  "structural_validation": [
+    {
+      "path": "02_JSON_EXAMS/FUSION/2019/Eliminatorio CEOM11/Kids/FUSION_2019_eliminatorio-ceom11_kids-3ro_verified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "352e19511cc50c559469de4a240ee3b31e78100c5209f65f154fce47a6af3b15",
+        "bytes": 8354,
+        "problems": 3,
+        "verified": 3,
+        "guided": 0,
+        "images": 1,
+        "figures": [
+          {
+            "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_kids-3ro_q03",
+            "figure": 1,
+            "sha256": "ce45968ceea15cce8485793bf27806b031555d9228fef29fe4d258bc9d709b53",
+            "width": 137,
+            "height": 106
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2019/Eliminatorio CEOM11/Kids/FUSION_2019_eliminatorio-ceom11_kids-3ro_classified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "5e79a1af62afce5035bd617fa82f79c80353e69831329a7e097bede46139a372",
+        "bytes": 9634,
+        "problems": 3,
+        "verified": 3,
+        "guided": 0,
+        "images": 1,
+        "figures": [
+          {
+            "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_kids-3ro_q03",
+            "figure": 1,
+            "sha256": "ce45968ceea15cce8485793bf27806b031555d9228fef29fe4d258bc9d709b53",
+            "width": 137,
+            "height": 106
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    }
+  ]
+}

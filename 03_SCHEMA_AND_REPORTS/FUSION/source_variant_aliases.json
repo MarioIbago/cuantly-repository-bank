@@ -1,5 +1,5 @@
 {
-  "policy": "Alternate source PDFs are preserved. Same exam/category is published once; repeat appearances in different grades or tournaments remain separate.",
+  "policy": "Preserve alternate original PDFs but publish each identical exam/category once; repeats across different categories remain separate.",
   "aliases": [
     {
       "source_id": "fusion1_examen-2-primaria_primaria_q01",
@@ -168,6 +168,132 @@
       "source_pdf_path": "01_RAW_PDFs/FUSION/2020/Torneo 2/Multinivel/FUSION_2020_torneo-2_multinivel_examen-2-secundaria_original.pdf",
       "canonical_pdf_path": "01_RAW_PDFs/FUSION/2020/Torneo 2/Multinivel/FUSION_2020_torneo-2_multinivel_examen-2_original.pdf",
       "reason": "Same statement/options after whitespace normalization; all problem diagrams and the cryptarithm match exact embedded image hashes. Alternate PDF adds printed solutions."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11_kids-3ro_q01",
+      "canonical_source_id": "fusion1_examen-eliminatorio-ceom11-pdf_kids-3ro_q01",
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11_original.pdf",
+      "canonical_pdf_path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11-pdf_original.pdf",
+      "reason": "Same statement after whitespace normalization; all problem image bytes match the canonical PDF."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11_kids-3ro_q02",
+      "canonical_source_id": "fusion1_examen-eliminatorio-ceom11-pdf_kids-3ro_q02",
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11_original.pdf",
+      "canonical_pdf_path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11-pdf_original.pdf",
+      "reason": "Same statement after whitespace normalization; all problem image bytes match the canonical PDF."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11_kids-3ro_q03",
+      "canonical_source_id": "fusion1_examen-eliminatorio-ceom11-pdf_kids-3ro_q03",
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11_original.pdf",
+      "canonical_pdf_path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11-pdf_original.pdf",
+      "reason": "Same statement after whitespace normalization; all problem image bytes match the canonical PDF."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11_primaria-5to_q01",
+      "canonical_source_id": "fusion1_examen-eliminatorio-ceom11-pdf_primaria-5to_q01",
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11_original.pdf",
+      "canonical_pdf_path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11-pdf_original.pdf",
+      "reason": "Same statement after whitespace normalization; all problem image bytes match the canonical PDF."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11_primaria-5to_q02",
+      "canonical_source_id": "fusion1_examen-eliminatorio-ceom11-pdf_primaria-5to_q02",
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11_original.pdf",
+      "canonical_pdf_path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11-pdf_original.pdf",
+      "reason": "Same statement after whitespace normalization; all problem image bytes match the canonical PDF."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11_primaria-5to_q03",
+      "canonical_source_id": "fusion1_examen-eliminatorio-ceom11-pdf_primaria-5to_q03",
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11_original.pdf",
+      "canonical_pdf_path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11-pdf_original.pdf",
+      "reason": "Same statement after whitespace normalization; all problem image bytes match the canonical PDF."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11_1ro-secundaria_q01",
+      "canonical_source_id": "fusion1_examen-eliminatorio-ceom11-pdf_1ro-secundaria_q01",
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11_original.pdf",
+      "canonical_pdf_path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11-pdf_original.pdf",
+      "reason": "Same statement after whitespace normalization; all problem image bytes match the canonical PDF."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11_1ro-secundaria_q02",
+      "canonical_source_id": "fusion1_examen-eliminatorio-ceom11-pdf_1ro-secundaria_q02",
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11_original.pdf",
+      "canonical_pdf_path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11-pdf_original.pdf",
+      "reason": "Same statement after whitespace normalization; all problem image bytes match the canonical PDF."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11_1ro-secundaria_q03",
+      "canonical_source_id": "fusion1_examen-eliminatorio-ceom11-pdf_1ro-secundaria_q03",
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11_original.pdf",
+      "canonical_pdf_path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11-pdf_original.pdf",
+      "reason": "Same statement after whitespace normalization; all problem image bytes match the canonical PDF."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11_2do-secundaria_q01",
+      "canonical_source_id": "fusion1_examen-eliminatorio-ceom11-pdf_2do-secundaria_q01",
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11_original.pdf",
+      "canonical_pdf_path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11-pdf_original.pdf",
+      "reason": "Same statement after whitespace normalization; all problem image bytes match the canonical PDF."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11_2do-secundaria_q02",
+      "canonical_source_id": "fusion1_examen-eliminatorio-ceom11-pdf_2do-secundaria_q02",
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11_original.pdf",
+      "canonical_pdf_path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11-pdf_original.pdf",
+      "reason": "Same statement after whitespace normalization; all problem image bytes match the canonical PDF."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11_2do-secundaria_q03",
+      "canonical_source_id": "fusion1_examen-eliminatorio-ceom11-pdf_2do-secundaria_q03",
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11_original.pdf",
+      "canonical_pdf_path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11-pdf_original.pdf",
+      "reason": "Same statement after whitespace normalization; all problem image bytes match the canonical PDF."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11_3ro-secundaria_q01",
+      "canonical_source_id": "fusion1_examen-eliminatorio-ceom11-pdf_3ro-secundaria_q01",
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11_original.pdf",
+      "canonical_pdf_path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11-pdf_original.pdf",
+      "reason": "Same statement after whitespace normalization; all problem image bytes match the canonical PDF."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11_3ro-secundaria_q02",
+      "canonical_source_id": "fusion1_examen-eliminatorio-ceom11-pdf_3ro-secundaria_q02",
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11_original.pdf",
+      "canonical_pdf_path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11-pdf_original.pdf",
+      "reason": "Same statement after whitespace normalization; all problem image bytes match the canonical PDF."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11_3ro-secundaria_q03",
+      "canonical_source_id": "fusion1_examen-eliminatorio-ceom11-pdf_3ro-secundaria_q03",
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11_original.pdf",
+      "canonical_pdf_path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11-pdf_original.pdf",
+      "reason": "Same statement after whitespace normalization; all problem image bytes match the canonical PDF."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11_olimpicos-preparatoria_q01",
+      "canonical_source_id": "fusion1_examen-eliminatorio-ceom11-pdf_olimpicos-preparatoria_q01",
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11_original.pdf",
+      "canonical_pdf_path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11-pdf_original.pdf",
+      "reason": "Same statement after whitespace normalization; all problem image bytes match the canonical PDF."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11_olimpicos-preparatoria_q02",
+      "canonical_source_id": "fusion1_examen-eliminatorio-ceom11-pdf_olimpicos-preparatoria_q02",
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11_original.pdf",
+      "canonical_pdf_path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11-pdf_original.pdf",
+      "reason": "Same statement after whitespace normalization; all problem image bytes match the canonical PDF."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11_olimpicos-preparatoria_q03",
+      "canonical_source_id": "fusion1_examen-eliminatorio-ceom11-pdf_olimpicos-preparatoria_q03",
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11_original.pdf",
+      "canonical_pdf_path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11-pdf_original.pdf",
+      "reason": "Same statement after whitespace normalization; all problem image bytes match the canonical PDF."
     }
   ]
 }

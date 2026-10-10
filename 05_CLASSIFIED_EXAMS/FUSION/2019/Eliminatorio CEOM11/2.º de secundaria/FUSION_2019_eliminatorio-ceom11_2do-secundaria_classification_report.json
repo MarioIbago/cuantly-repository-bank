@@ -1,0 +1,60 @@
+{
+  "school_level": "Segundo año de secundaria",
+  "policy": "Editorial difficulty relative to the actual category printed in source.",
+  "problems": [
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_2do-secundaria_q01",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "subtraction",
+        "division",
+        "money",
+        "unit_rate"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Comparar dos ventas con igual número de desayunos para aislar el precio de las bebidas."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_2do-secundaria_q02",
+      "primary_area": "geometry",
+      "secondary_areas": [
+        "combinatorics"
+      ],
+      "mixed": true,
+      "difficulty": "L2",
+      "tags": [
+        "grid_geometry",
+        "counting",
+        "quadrilaterals"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Contar cuadrados por tamaños en una retícula parcial y contrastar la descripción escrita."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_2do-secundaria_q03",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "multiples",
+        "cycles",
+        "remainders"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Combinar mínimo común múltiplo y congruencias para identificar un turno."
+      ]
+    }
+  ]
+}

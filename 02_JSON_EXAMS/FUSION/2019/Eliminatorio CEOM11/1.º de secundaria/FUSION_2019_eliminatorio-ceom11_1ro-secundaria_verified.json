@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.0",
+  "source_format_reference": "Cuantly public practice; open_answer with manual comparison",
+  "exam": {
+    "competition": "FUSION",
+    "source_competition": "CEOM11",
+    "edition": 11,
+    "year": 2019,
+    "phase": "Eliminatorio CEOM11",
+    "level": "1.º de secundaria",
+    "school_level": "Primer año de secundaria",
+    "problem_count": 3,
+    "source_file": "FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11-pdf_original.pdf",
+    "source_pdf_path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11-pdf_original.pdf",
+    "source_sha256": "7ac63005300d3e466797a6e5a614cb388118319d7ed52c45c53c7c2d30e90c6c",
+    "image_policy": "Exact embedded PDF diagrams in Base64; symbolic equations transcribed as LaTeX. No source page, logos or question screenshots.",
+    "classification_phase": "not_started",
+    "difficulty_phase": "not_started"
+  },
+  "validation_summary": {
+    "verified_problems": 3,
+    "needs_review_or_invalid": 0,
+    "needs_review_problem_numbers": [],
+    "notes": "March 2019 and school level are printed in source headers. Retained original wording and source defects. No automatic grading for open answers."
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_1ro-secundaria_q01",
+      "collection": "FUSION",
+      "subcategory": "2019 / Eliminatorio CEOM11 / 1.º de secundaria",
+      "problem_number": 1,
+      "source_page": 3,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Según las tres primeras igualdades, ¿Cuál es el valor del triangulo?\n\n\\[\\bigcirc+\\bigcirc=10,\\qquad \\bigcirc\\times\\square+\\square=12,\\qquad \\bigcirc\\times\\square-\\triangle\\times\\bigcirc=\\bigcirc.\\]\\[\\triangle=?\\]",
+      "options": [],
+      "correct_answer": "1",
+      "correct_option_label": null,
+      "solution_text": "1. **Nombrar los valores.** Sean c el círculo, s el cuadrado y t el triángulo. Las figuras representan el mismo valor cada vez que aparecen.\n2. **Primera igualdad.** \\(c+c=10\\), por lo que \\(c=5\\).\n3. **Segunda igualdad.** \\(cs+s=12\\). Al sustituir, \\(5s+s=12\\), de donde \\(s=2\\).\n4. **Tercera igualdad.** \\(cs-tc=c\\). Sustituyendo los valores conocidos: \\(5\\cdot2-5t=5\\), así que \\(t=1\\).\n5. **Respuesta y comprobación.** El triángulo vale **1**. Las tres igualdades quedan \\(5+5=10\\), \\(5\\cdot2+2=12\\) y \\(5\\cdot2-1\\cdot5=5\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta con solución revisada; comparación manual."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11-pdf_original.pdf",
+      "source_pdf_sha256": "7ac63005300d3e466797a6e5a614cb388118319d7ed52c45c53c7c2d30e90c6c"
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_1ro-secundaria_q02",
+      "collection": "FUSION",
+      "subcategory": "2019 / Eliminatorio CEOM11 / 1.º de secundaria",
+      "problem_number": 2,
+      "source_page": 3,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Elías tiene 3 amigos y van a formar un equipo para exponer en español, ¿de cuantas formas o turnos  diferentes\npueden pasar a exponer, si siempre debe estar solo un alumno exponiendo y solo expondrán una vez cada uno?",
+      "options": [],
+      "correct_answer": "24 órdenes",
+      "correct_option_label": null,
+      "solution_text": "1. **Cuántas personas.** Son Elías y sus tres amigos: cuatro personas distintas.\n2. **Elegir el orden.** Hay 4 opciones para quien expone primero. Después quedan 3 para el segundo turno, 2 para el tercero y 1 para el último.\n3. **Conteo.** Por el principio multiplicativo, \\(4\\cdot3\\cdot2\\cdot1=24\\).\n4. **Por qué no se duplica.** Cada orden elige una persona distinta en cada posición y cada una expone exactamente una vez.\n5. **Respuesta y comprobación.** Hay **24 órdenes**. Otra forma de organizar el conteo es fijar al primero: para cada una de las cuatro personas, las otras tres tienen seis órdenes; \\(4\\cdot6=24\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta con solución revisada; comparación manual."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11-pdf_original.pdf",
+      "source_pdf_sha256": "7ac63005300d3e466797a6e5a614cb388118319d7ed52c45c53c7c2d30e90c6c"
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_1ro-secundaria_q03",
+      "collection": "FUSION",
+      "subcategory": "2019 / Eliminatorio CEOM11 / 1.º de secundaria",
+      "problem_number": 3,
+      "source_page": 3,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Charlitos tiene 3 amigos, Alberto, Benito y Dimitrio, los 4 se colocan en una mesa circular de la siguiente manera,\nEllos van a jugar a contar en forma descendente, comenzando con Alberto el cual dice en voz alta 2019,  después\nBenito dice   2018,   Charlitos 2017, Dimitrio 2016,  Alberto  2015,  y así sucesivamente ….   Gana el que menciona al\nnúmero alfa. Un número alfa es triple del menor  múltiplo de 4,  9 y 33.",
+      "options": [],
+      "correct_answer": "Dimitrio",
+      "correct_option_label": null,
+      "solution_text": "1. **Número alfa.** El mínimo común múltiplo positivo de 4, 9 y 33 es \\(2^2\\cdot3^2\\cdot11=396\\). Su triple es \\(\\alpha=1188\\).\n2. **Posición del turno.** Entre 2019 y 1188 hay \\(2019-1188=831\\) descensos. El primero, Alberto, tiene índice 0; Benito 1; Charlitos 2; Dimitrio 3. El patrón se repite cada cuatro turnos.\n3. **Resto.** \\(831=4\\cdot207+3\\), así que corresponde el índice 3.\n4. **Respuesta.** Gana **Dimitrio**.\n5. **Comprobación independiente.** Dimitrio comienza con 2016, que es múltiplo de 4, y sus siguientes números son 2012, 2008, etc. Todo número alfa es múltiplo de 4 por su definición; por eso le toca a Dimitrio. Esto confirma la persona ganadora incluso sin calcular el mínimo común múltiplo.",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Mesa circular: Alberto arriba, Benito a la derecha, Charlitos abajo y Dimitrio a la izquierda",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "iVBORw0KGgoAAAANSUhEUgAAAZIAAAD+CAIAAACfoRQ4AAAPZklEQVR4nO3dP3baTNuAcfGcdyngIscrwCuANK7cpsMlNOlSpktjSujSpnJjWIFZgU+KmL34PZoBLIkZgaSRNPfM9Wu+741B/JMuRjOyn8HHx0cCAHL81/cTAIBqyBYAYcgWAGHIFgBhyBYAYcgWAGHIFgBhyBYAYcgWAGHIVuT2y7vBYDC4W+7Pf7Z9tP3k9NOiwq0PW7d53JZsKneL0hud3dT42NYXAnHIVtz2L3926f/dLX4Vjvp6douR0z6sp2c5uoIq1mixO3tqtCsMZCtq21+LXTLbbGZJsn6u063x0/tHRrqh8wTONh9mq4l9U6fNrX/qDE5WmZ+8P42L9zhubL+808XK/1jdI20Xoy75yFbMts/rJJndTyb3s888NDFZqdK8/XMz3tKb2/19r1pilazX+TDz78P5q06Xq4El+kO2InasVpKobu3+vDg6u7u9yQajS/vlz3U6vvuRS9bRcP47DZeLQKNPZCta+ghX1UqSyfensYNubR+nn9tsrvrm3v+qodZ32z2GXx/GVcdv8A7Zinsy/pQEdTxXP39S89yfpuv09Cw3ZaXn1U0Kk0yFTR02l8w2xc2Vvah/b1fdztVZLPpBtmKuVnZYosch9Sbms3aLUY21PyM1lV8hWogF2Yp5rJUb4Ojlt4rzPmfLf2pRcpoPl2UlMT9lXtiU3k7VVb/hza3nk29wgWxFSS+3GTWc4NKLf80HbZNVuuy3W3yrFq7Rl/K1Qp3r8ZdRw6eHXpGtaJcQDddJqTGOkwsEHEweDec/qi9v6judjfcO9stvaa4t64wQg2xFW62Hr+fHrroQotFYSS/+GTdeWa3LMtSaqFoGyJ9hplfOq/PgknVGSGG5fhnB0peLm8ZaKXW56GE2Sv//58p/mp3M0o+VXLqh2pRt9GecGzNcJX/2Ek2sd4EkjLaio68itw2H9GDFcpJ1jbQxzlb/DqO/qpeHplfEn7VLFauwDACZBvx3EgHIwmgLgDBkC4AwZAuAMGQLgDBkC4AwZAuAMGQLgDBkC4AwZAuAMP/r+wkgfIPBoMnd+UUOFPDLPfCoUNejZTEjWxAQqYuoWFTIFlpPVZOmdPxwEIFswWU7ukmGb88HHSNbaFQHT7pw8al68jzhBNlCtQT4f/xLf/64iGzhqgNe4tEe2MvBCdlC+Id38C8wNmQrarbjOdSDObbXGyqyFSnjARzP0Rv5y5eObEWHI5a3QjqyFRGCxdsSBrIVabA4IeJdkotsBY5g8Y6Fh7+3FTKaVcP5OHSguPlI4AKjrTARLN7DgJGt8JvFNJbDN5P30wdkKygEizc2BsxthYNmtacwYmWqq1+MtkJAsHiro8JoSzya1SWGXT4gW7LRrO59KLaPAB3gJFGw7AHDcmG/7z8fQZcYbYlUuACSZvWCE8a+kC15+JL3B+XqBdkShmb5hqmu7pEtSQonhpwb+oNJ+i6RLTGYzPIc5eoM2ZKBZolAubpBtgSgWYJQrg6QLd/RLHEoV9vIltdollCUq1Vky180SzTK1R6y5SmaFQDK1RKy5SOaFQzK1Qay5R2aFRjK5RzZ8hcXwQeDj9ItsuUX/nhT8PiImyNbHuH0MGCcKjpEtnxBs4JHuVwhW16gWZGgXE6QLb8wdxs8PuLmyFb/mKONFh99PWTLI3wPR4JTxYbIli/ftzQrKnzcTZCtPnGOAHaDGsiWF/jujRCnirWRrd5wegi+ruohW/3g9BDsErWRrZ7xfRs5doAayFYPGGqBHaMJstUnvmnBblAD2eoaQy2wezREtnrDUAvsDPWQrU4x1AI7SXNkqx8MtcAuURvZ6g5DLbCrOEG2esBQC+wYTZAtAMKQrY7wG4ioNBJnSqEE2QIgDNnqAt+cYLdxiGx1isl4sJM0R7YACEO2WsdkPKpiYr4c2QIgDNkCIAzZahdriGAXco5sdYQ1RLDDuEK2AAhDtgAIQ7ZaxKUPaILLIGzIFgBhyBYAYcgWAGHIFiAAFwBmka22MB+P5rjcz4hsARCGbAEQhmwBEIZsARCGbAHh2D4Ozt0t99nb7Jd3gxKP29zNCnfOPMzxJ+qG+n8YH96wbdtTMT6YAdlqFytBcLUL1b4GYrcYXR0Ew52/1b1rKVWs0WJXeLDRVe0iW63gKhv0Z/z0/pGxmakg/MqPdGabD7PVpLC5s7vaTVaZDb0/jYvP5bjt/fJOFyv/Y3WPtF2XykW2gLBNVipcb//qDJpms1mSrKfFs7tmtr/SZqXJep0PM/8+nL/qdF0qJdkConB7ky3E1e5V9FyGa7/8uU6D+COXrKPh/HcarvXPsgEX2QLCtn2crpNkdl88+as2WnMXrve/aqj13fZ8hl8f0gHX3/fus2VeUjAuJOQWJKzLCWc/rbx+Yb9V9mnlnlLzJQ+gc7t0YvvTdJ2ejxWnrNZT47Fg3LGdhmv/7+2q25Wd1HY72krfqssH/O7Py9lN9i9/dm0+rZIPpNGSB+CB3WLULDmuR1wN/dfhisZxSaP0HRyPx4bxoapW+qNG6xeGp3R8VrZT6aZLHkDnxsWd3JQcy0pifo68jXANb24bz8V1OtqarPTxXjbddvvwME7Wz9vz0+Hxw8NtO88q/TzMp9KNlzyA/k10copHVb2tNA7X6Ev5gaPPrMZfRv5MyQ/nP2bm08CjmzTGhXd4+7xOxg9fb5JuOVjyALzxVusSCFO4nps3wNa//fJbOlSwHHS9rSRO7q1jm8wNct06VKvW+m2ThRYHSx5A/7ZqF3dxCB3CtV4328p3Ncmynhamh9NpZDUnU3LQ9XoBRFn4i91yWa3CIsthoSWZbc6uDXaz5AF0blfcydNdvDh+sawkGtb7jRevNjOcv56mhzOPfJpGts6w+XzdVr5babXqXit3BTU1aYgWEIzZxuE+7iRcanr4sLRVWEy41KxesqXHMOUZynZLVav+tXKliyz6TN22GuhiyQPo0mR1+fcMVTBKHG6sb2aMnX6UY17UDQ2tsf17yVO5olg9ZUtPGJUtE+S65bZaxYdZpbm3/o67gyUPAM7918vi3OWZqmO3Wq3WpZVNB0seAGRna/uoJ92uOdJ1t6bNfpvq+pVNyxUZjZc8AMjKVnFFQy1oGH49yp6TVLvVOnbLcipYc8mDvw4IBDLaunadINettqt1fCDrZaONljz4e4Fwhe/CkwHvRUv4z7uCHaklXl63BQB2ZAuAMGQLgDBkC4AwZMvf/7wdwMKOEdkCIAzZAiAM2QIgDNkCIAzZahGz8miC+XgbsgVAGLIFQBiy1RGu3gJcIVvt4g9soB4mtkqQLQDCkC0AwpCt1nEZBKpiJrQc2QL8xdyoEdnqFN+iYCdpjmx1ge9MsNs4RLYACEO2OsLEPK7BNMI1yBbgIyYWSpCtHvCNCnaMJshWd/j+BLuKE2SrHwy4wC5RG9nqFAMusJM0R7Z6w4AL7Az1kK2uMeACu0dDZKtPDLjAblAD2eoBAy6wYzRBtnrGgCty7AA1kK1+MOACu0RtZKt/fN9Gi4++HrLlxYCL3TdC2Q+d0XclZKtP7KxgN6iBbPmCAVdU+LibIFs941QxQpweNkS2+sepYrT46OshW37h3CF4fMTNkS0vcKoYCU4PnSBbvqBcwaNZrpAtj1CugNEsh8iWX5ijBS4iW/5i7jYYDLXcIlve4VQxMDTLObLlI8oVDJrVBrLlKcoVAJrVErLlL8olGs1qD9nyGuUSima1imz5jnKJQ7PaRrYEoFyC0KwOkC0ZKJcINKsbZEsMyuU5mtUZsiW4XFxG7w+a1SWyJfuXFilX7wrfH/xWaQfIljyUyx+Frw2a1Q2yJRLl8gHN6suA7wfROHJ8eOc5iDrGaEs2hl3dYzKrd2RLPMrVJYa3PuAkMRwcUby9kWC0FQ6GXe3hK8ErjLYCxDHW3pvJBLwPyFaYONh4DwNGtoJlvICepXreugCQrcAx7OIdCw/ZigLx4l0KCdmKCKeNvC1hIFvRIV68FdKRrUhFHq/IX750ZCtqtj/XFfABTLACQLZQ9rcGg+lXhIEOGNlCyP0K7xWBbMGg/A89+3+0S3/+uIjRFmoe/14lQNBTRXNkCw6i0H0aPHxK6AzZQiu9cNiOqo9IqoJHttBpwlpCqqJCtiCyYnQqZmQLvreMQqGAbAEQhr8lD0AYsgVAGLIFQBiyBUAYsgVAGLIFQBiyBUAYsgVAGLIVte3jIOtuuc/+dL+8GwwGj1vrPQu3z9zJ+KPiw2XkHsS67dP29Q/tmzNs9POp2V6u9YbW26EnZCtW6tCcrnP/tluMbJm6erMvf3Z6U7+qbGc9bfi417za0UI9tfzLLTYpvWXhhuntSJdPyFacto/60Bw/vX982sxUQRoEZPtrsUtmm3RD62fzZvIPmXncn1UHNZNVZhvvT+PitlcTfbv98s70atU90iZlk6ReQP6G6na7xTfGXN4gWzHaL3+mw6zZ5uN1Psz8+2SlDtHqATnaPq+TZHY/mdzPqmxmskrDtfv7Xu9RLz2pU4nyr3Y4fz0m6TQyVC9g/PQ7e8Ph/FU9vT8vnCt6gmxFSJ/IzTbH0UjhUP4oHN7Vq5UkqlteHOjHRP8wvqbh/Hcu1KMvY1M/1biu7rsC58hWhN7/pqOPL6NWAqGqlSST70/jq7u1fZx+3rOVF/v03bbt4deHTKn0/1pPrUsR8AHZis/+31uSJLc3V44d1DF8pjCZ/zmGO7ZHBcA0Ma8mws83Zhz8uXqxl73904Edzl/1nFf2dVMwz5AtuKGqlR3VHAYulon5rNkmM3/eP32ifFwpOBaMpUSPkK34DG9uM8OL66Jy5nRI58ZauZGUXr07m5g/X7xcT9trgn6xl5kGn8eVSpYSfUO2ImSZd26+WmdUPsGlFy9bvLxAv1j7VWS6t6UzfSwl+oZsReg472yYstHXh1ce/ByuGzi7IEsNpi5ceTqc/2hz1VFv3nY12n75Le3tYZ3xwqu/ejoQLSNbMTodyoVD9HARquVigUvVevhqOM9KL4S4NMHV8tUSalHT8GpP18OfZuQOq4r5C1DVDdNFA/drr6jLNG+BCBzWy8rmsvRNSua29PhK38w01jrd8LCRzJ3sNzqfN8s9M8PV8J9P1vYk7K+2eBfrDa2bRvcYbcVKrZcVAqEOzapLeoeL0E1jrc+xzoXfGDoMympfnX/dqy0mSb3cwkWkprfFcIU9esV/cAyAMIy2AAhDtgAIQ7YACEO2AAhDtgAIQ7YACEO2AAhDtgAIQ7YACEO2AAhDtgAIQ7YAJLL8HwsmQuX+3r36AAAAAElFTkSuQmCC",
+          "sha256": "8c04774318eeb32341e0362a83c474b2cc8c9f7b03a313c4b42bc3a30e1f0bf3",
+          "source": "pdf_embedded_image",
+          "original_filename": "ceom11_page3_Image36.png",
+          "width_px": 402,
+          "height_px": 254
+        }
+      ],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta con solución revisada; comparación manual."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11-pdf_original.pdf",
+      "source_pdf_sha256": "7ac63005300d3e466797a6e5a614cb388118319d7ed52c45c53c7c2d30e90c6c"
+    }
+  ]
+}

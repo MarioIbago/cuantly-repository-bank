@@ -1,0 +1,162 @@
+{
+  "schema_version": "1.0",
+  "source_format_reference": "Cuantly public practice; open_answer with manual comparison",
+  "exam": {
+    "competition": "FUSION",
+    "source_competition": "CEOM11",
+    "edition": 11,
+    "year": 2019,
+    "phase": "Eliminatorio CEOM11",
+    "level": "Kids",
+    "school_level": "3.º y 4.º de primaria",
+    "problem_count": 3,
+    "source_file": "FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11-pdf_original.pdf",
+    "source_pdf_path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11-pdf_original.pdf",
+    "source_sha256": "7ac63005300d3e466797a6e5a614cb388118319d7ed52c45c53c7c2d30e90c6c",
+    "image_policy": "Exact embedded PDF diagrams in Base64; symbolic equations transcribed as LaTeX. No source page, logos or question screenshots.",
+    "classification_phase": "completed",
+    "difficulty_phase": "completed"
+  },
+  "validation_summary": {
+    "verified_problems": 3,
+    "needs_review_or_invalid": 0,
+    "needs_review_problem_numbers": [],
+    "notes": "March 2019 and school level are printed in source headers. Retained original wording and source defects. No automatic grading for open answers."
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_kids-3ro_q01",
+      "collection": "FUSION",
+      "subcategory": "2019 / Eliminatorio CEOM11 / Kids",
+      "problem_number": 1,
+      "source_page": 1,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "¿Cuánto hay que sumarle a 2008 para que el resultado sea 2019?",
+      "options": [],
+      "correct_answer": "11",
+      "correct_option_label": null,
+      "solution_text": "1. **Objetivo.** Buscamos cuánto falta de 2008 a 2019.\n2. **Cálculo.** \\(2019-2008=11\\).\n3. **Respuesta y comprobación.** Hay que sumar **11**, porque \\(2008+11=2019\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta con solución revisada; comparación manual."
+      },
+      "classification": {
+        "primary_area": "arithmetic",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "addition",
+          "subtraction"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Calcular una diferencia y comprobarla mediante la suma."
+        ]
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11-pdf_original.pdf",
+      "source_pdf_sha256": "7ac63005300d3e466797a6e5a614cb388118319d7ed52c45c53c7c2d30e90c6c"
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_kids-3ro_q02",
+      "collection": "FUSION",
+      "subcategory": "2019 / Eliminatorio CEOM11 / Kids",
+      "problem_number": 2,
+      "source_page": 1,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Elías tiene 3 amigos y van a formar un equipo para exponer en español, ¿de cuantas formas o turnos  diferentes\npueden pasar a exponer, si siempre debe estar solo un alumno exponiendo y solo expondrán una vez cada uno?",
+      "options": [],
+      "correct_answer": "24 órdenes",
+      "correct_option_label": null,
+      "solution_text": "1. **Cuántas personas.** Son Elías y sus tres amigos: cuatro personas distintas.\n2. **Elegir el orden.** Hay 4 opciones para quien expone primero. Después quedan 3 para el segundo turno, 2 para el tercero y 1 para el último.\n3. **Conteo.** Por el principio multiplicativo, \\(4\\cdot3\\cdot2\\cdot1=24\\).\n4. **Por qué no se duplica.** Cada orden elige una persona distinta en cada posición y cada una expone exactamente una vez.\n5. **Respuesta y comprobación.** Hay **24 órdenes**. Otra forma de organizar el conteo es fijar al primero: para cada una de las cuatro personas, las otras tres tienen seis órdenes; \\(4\\cdot6=24\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta con solución revisada; comparación manual."
+      },
+      "classification": {
+        "primary_area": "combinatorics",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "counting"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Aplicar el principio multiplicativo a cuatro personas distintas, incluyendo a Elías."
+        ]
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11-pdf_original.pdf",
+      "source_pdf_sha256": "7ac63005300d3e466797a6e5a614cb388118319d7ed52c45c53c7c2d30e90c6c"
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_kids-3ro_q03",
+      "collection": "FUSION",
+      "subcategory": "2019 / Eliminatorio CEOM11 / Kids",
+      "problem_number": 3,
+      "source_page": 1,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Jaden coloca 10 blocks como lo muestra la figura y a cada block le escribe un número, pero estos son mágicos, ya\nque cada block,  que se encuentra a partir en la segunda fila es la suma de los blocks que lo sostiene abajo, por\nejemplo el 500 se obtuvo  de la suma de los dos blocks que lo sostienen abajo 177 + 323.  Única el valor\ncorrespondiente a cada block.",
+      "options": [],
+      "correct_answer": "De abajo arriba: 379, 262, 177, 323 / 641, 439, 500 / 1080, 939 / 2019",
+      "correct_option_label": null,
+      "solution_text": "1. **Regla.** Cada bloque es la suma de los dos que lo sostienen. La base es 379, 262, 177 y 323.\n2. **Segunda fila.** \\(379+262=641\\), \\(262+177=439\\) y \\(177+323=500\\), que coincide con el bloque dado.\n3. **Tercera fila.** \\(641+439=1080\\) y \\(439+500=939\\).\n4. **Cima.** \\(1080+939=2019\\).\n5. **Respuesta.** Las filas completas, de abajo hacia arriba, son **379, 262, 177, 323; 641, 439, 500; 1080, 939; 2019**.\n6. **Comprobación independiente.** Al expandir las sumas, la cima también vale \\(379+3\\cdot262+3\\cdot177+323=2019\\). Cada bloque recupera la regla y el 500 del ejemplo.",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Pirámide de diez bloques: base 379, 262, 177, 323; bloque 500 dado",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "iVBORw0KGgoAAAANSUhEUgAAAIkAAABqCAIAAAAHluWyAAAD10lEQVR4nO2dMXLbMBBFwYyOIrvw+ATUCeQ0rtKmo0tfRS6jI7hyE+oE9gkyKULdhRlRpAiQuyQ0BsQv+r8mEgxtADwBYLAYJynL0hBIvk3dAKJCN7jQDS50gwvd4EI3uNANLnSDy8JcCUmSRI0P+G9wzhtc6AaXxXUtaGXolSf2UvkZOG9woRtc6AYXusGFbnChG1zoBhe6wYVucKEbXOgGF7rBhW5woRtc6AYXusGFbnChG1zoBpdk8rs/yBl7kYuN2MTz5urEXBKuabgsZrlQJNV0xI85DOcNLnSDC93gQje40A0udIML3eBCN7jQDS50gwvd4EI3uNANLnSDC93gQje40M1XusvBKwAmUHo08LyhmIBwTft6dznw71Ek8DE5b3ChG1zoBhe6wYVubHZPic3T7li8f1k1RauXvRkoDEsZlKhhy+gx88wYk+VOWbFJm8Lqx9VLsTB0OzlvRtj/fv0wJntcG2PWjwcP27edWGhCQzcjFH8/2jc3d6leGBy66bF96Gw3U0E3Nutf9iazfZjWDt2ILG/vD3/8+bd3VqxqLUvvbsRCE5wyKFHDlrFj5lm6KepXhx9W77qPZHph6HbSjcNxzCsaTSdTFe0DtlQY1k3g3FqkX4CewJ8Zx4jJ/QYXusFlfE1jmjkSoyPPeYML3czivoDP44fncxr+MxJCzMB3OSb/zUVzgmsaLnSDC93Mz42VWa8P0ju59lMWvV/TI+bKysALxUpNkTqvf6ontlNrvGfftSb5911k9MRNqFls0uPxXn002Mmwd/Pq1smtfl6bZ00YJ2jez+ArNaXuyEeXQjuVQiGm2HexScooeQ671zn0oEWpd5YF6yjdkTPcvrZmcVI7VlMbR5NucvtboXxYKRxsp2hWjOrU9Hfzuf1m97Y1zZ2GhuM9h/TH96WbV6/TVR4cP3V/u6xfvf7UFpq2psjy+b18f1aSXnY7hwv9+y43Sak5zqg9saa1WIhLQv29sb9EvvOml9ZKex+X/io9pjg/Oh9WCsWYet+7AcSaF17Tehmn9r3VvIoRN+7SXNijaq+P0lZ3npvRrWY4pth3Zfft1LyYG/mL0m9dZ2yVgL2xyTPFjTC057gR2ykUDo+j23d5++nXjOymzau7/R5SYw+zfqfS67EiF0fhDDe+aobvFNhxpSYpoxR93ogPp/oXtFNRaF937TNur601Qasp9LlftQrh8YCmtlPsu9YkcZT83ZyRWwt4jjm/M+MYMXlmgwvd4EI3uPAuxzRwv7lupv//b4gG9xtc6AYXusGFbnChG1zoBhe6wYVucKEbA8t/BKfMEFEWUhsAAAAASUVORK5CYII=",
+          "sha256": "ce45968ceea15cce8485793bf27806b031555d9228fef29fe4d258bc9d709b53",
+          "source": "pdf_embedded_image",
+          "original_filename": "ceom11_page1_Image25.png",
+          "width_px": 137,
+          "height_px": 106
+        }
+      ],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta con solución revisada; comparación manual."
+      },
+      "classification": {
+        "primary_area": "arithmetic",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "addition",
+          "patterns"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Aplicar una regla de suma a cada par de bloques adyacentes."
+        ]
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11-pdf_original.pdf",
+      "source_pdf_sha256": "7ac63005300d3e466797a6e5a614cb388118319d7ed52c45c53c7c2d30e90c6c"
+    }
+  ]
+}

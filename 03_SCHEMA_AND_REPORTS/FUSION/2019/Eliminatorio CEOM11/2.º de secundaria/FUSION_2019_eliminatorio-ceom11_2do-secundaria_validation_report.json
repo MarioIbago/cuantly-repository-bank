@@ -1,0 +1,230 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11-pdf_original.pdf",
+  "source_sha256": "7ac63005300d3e466797a6e5a614cb388118319d7ed52c45c53c7c2d30e90c6c",
+  "metadata_evidence": "MARZO DE 2019 and category printed on each original page.",
+  "pages": [
+    4
+  ],
+  "source_review": "All six original PDF problem pages rendered and visually compared. Numbering and stable recovered IDs retained.",
+  "alternate_source": {
+    "path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11_original.pdf",
+    "sha256": "684a7471d3f7fef78cbad4a82741a4252521ce37f8952e6406856f14b00a1055",
+    "evidence": "All statements and problem image bytes match; published once per category."
+  },
+  "figure_review": [
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_2do-secundaria_q02",
+      "page": 4,
+      "pdf_image_object": "Image39.png",
+      "bbox_top_left_pdf_points": [
+        250.4,
+        396.52,
+        346.4,
+        491.02
+      ],
+      "sha256": "3ad15d59043e5ec58338ef50542e88ad05d565883f2c04c729d34719058243eb",
+      "method": "Exact embedded bytes; visually compared with original problem figure."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_2do-secundaria_q03",
+      "page": 4,
+      "pdf_image_object": "Image36.png",
+      "bbox_top_left_pdf_points": [
+        234.66,
+        542.3499999999999,
+        361.81,
+        622.9
+      ],
+      "sha256": "8c04774318eeb32341e0362a83c474b2cc8c9f7b03a313c4b42bc3a30e1f0bf3",
+      "method": "Exact embedded bytes; visually compared with original problem figure."
+    }
+  ],
+  "transcription_corrections": [],
+  "latex_rendering": {
+    "engine": "KaTeX 0.16.47",
+    "expressions": 13,
+    "errors": []
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_2do-secundaria_q01",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "breakfast": 14,
+        "drink": 9,
+        "friday": 1548,
+        "saturday": 1332
+      },
+      "notes": "Respuesta abierta con solución revisada; comparación manual."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_2do-secundaria_q02",
+      "status": "source_error",
+      "independent_check": {
+        "model": "Visible partial 4 by 4 grid; text note contradicts minimum-square count.",
+        "counts": {
+          "1": 8,
+          "2": 5,
+          "3": 0,
+          "4": 1
+        },
+        "locations": [
+          {
+            "x": 0,
+            "y": 0,
+            "size": 1
+          },
+          {
+            "x": 0,
+            "y": 1,
+            "size": 1
+          },
+          {
+            "x": 1,
+            "y": 0,
+            "size": 1
+          },
+          {
+            "x": 1,
+            "y": 1,
+            "size": 1
+          },
+          {
+            "x": 1,
+            "y": 2,
+            "size": 1
+          },
+          {
+            "x": 1,
+            "y": 3,
+            "size": 1
+          },
+          {
+            "x": 2,
+            "y": 0,
+            "size": 1
+          },
+          {
+            "x": 2,
+            "y": 1,
+            "size": 1
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "size": 2
+          },
+          {
+            "x": 0,
+            "y": 2,
+            "size": 2
+          },
+          {
+            "x": 1,
+            "y": 0,
+            "size": 2
+          },
+          {
+            "x": 2,
+            "y": 0,
+            "size": 2
+          },
+          {
+            "x": 2,
+            "y": 2,
+            "size": 2
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "size": 4
+          }
+        ],
+        "total": 14
+      },
+      "notes": "La figura dibuja ocho cuadrados mínimos, pero la nota dice cuatro. Se muestra el conteo de la retícula visible sin corregir silenciosamente la nota."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_2do-secundaria_q03",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "lcm": 396,
+        "alpha": 1188,
+        "descendingSteps": 831,
+        "turnResidue": 3,
+        "winner": "Dimitrio"
+      },
+      "notes": "Respuesta abierta con solución revisada; comparación manual."
+    }
+  ],
+  "structural_validation": [
+    {
+      "path": "02_JSON_EXAMS/FUSION/2019/Eliminatorio CEOM11/2.º de secundaria/FUSION_2019_eliminatorio-ceom11_2do-secundaria_verified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "010665cbddae65084939044f962ff0ae90b6e0fa063b4b885f911623b25fd4bd",
+        "bytes": 15505,
+        "problems": 3,
+        "verified": 2,
+        "guided": 1,
+        "images": 2,
+        "figures": [
+          {
+            "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_2do-secundaria_q02",
+            "figure": 1,
+            "sha256": "3ad15d59043e5ec58338ef50542e88ad05d565883f2c04c729d34719058243eb",
+            "width": 128,
+            "height": 126
+          },
+          {
+            "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_2do-secundaria_q03",
+            "figure": 1,
+            "sha256": "8c04774318eeb32341e0362a83c474b2cc8c9f7b03a313c4b42bc3a30e1f0bf3",
+            "width": 402,
+            "height": 254
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2019/Eliminatorio CEOM11/2.º de secundaria/FUSION_2019_eliminatorio-ceom11_2do-secundaria_classified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "7a9a92d0f82ebb87fe92fac0bd6243f86707d384f0eda9462427606b20cd8965",
+        "bytes": 16993,
+        "problems": 3,
+        "verified": 2,
+        "guided": 1,
+        "images": 2,
+        "figures": [
+          {
+            "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_2do-secundaria_q02",
+            "figure": 1,
+            "sha256": "3ad15d59043e5ec58338ef50542e88ad05d565883f2c04c729d34719058243eb",
+            "width": 128,
+            "height": 126
+          },
+          {
+            "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_2do-secundaria_q03",
+            "figure": 1,
+            "sha256": "8c04774318eeb32341e0362a83c474b2cc8c9f7b03a313c4b42bc3a30e1f0bf3",
+            "width": 402,
+            "height": 254
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    }
+  ]
+}

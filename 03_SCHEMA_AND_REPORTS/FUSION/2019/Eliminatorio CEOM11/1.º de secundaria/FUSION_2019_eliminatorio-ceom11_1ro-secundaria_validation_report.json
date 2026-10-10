@@ -1,0 +1,134 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11-pdf_original.pdf",
+  "source_sha256": "7ac63005300d3e466797a6e5a614cb388118319d7ed52c45c53c7c2d30e90c6c",
+  "metadata_evidence": "MARZO DE 2019 and category printed on each original page.",
+  "pages": [
+    3
+  ],
+  "source_review": "All six original PDF problem pages rendered and visually compared. Numbering and stable recovered IDs retained.",
+  "alternate_source": {
+    "path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11_original.pdf",
+    "sha256": "684a7471d3f7fef78cbad4a82741a4252521ce37f8952e6406856f14b00a1055",
+    "evidence": "All statements and problem image bytes match; published once per category."
+  },
+  "figure_review": [
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_1ro-secundaria_q03",
+      "page": 3,
+      "pdf_image_object": "Image36.png",
+      "bbox_top_left_pdf_points": [
+        234.66,
+        565.39,
+        361.81,
+        645.9399999999999
+      ],
+      "sha256": "8c04774318eeb32341e0362a83c474b2cc8c9f7b03a313c4b42bc3a30e1f0bf3",
+      "method": "Exact embedded bytes; visually compared with original problem figure."
+    }
+  ],
+  "transcription_corrections": [
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_1ro-secundaria_q01",
+      "note": "Transcribed circle/square/triangle equations as faithful LaTeX; no bitmap of equations."
+    }
+  ],
+  "latex_rendering": {
+    "engine": "KaTeX 0.16.47",
+    "expressions": 19,
+    "errors": []
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_1ro-secundaria_q01",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "c": 5,
+        "s": 2,
+        "t": 1,
+        "equationValues": [
+          10,
+          12,
+          5
+        ]
+      },
+      "notes": "Respuesta abierta con solución revisada; comparación manual."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_1ro-secundaria_q02",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "permutations": 24,
+        "byFirstPerson": 24
+      },
+      "notes": "Respuesta abierta con solución revisada; comparación manual."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_1ro-secundaria_q03",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "lcm": 396,
+        "alpha": 1188,
+        "descendingSteps": 831,
+        "turnResidue": 3,
+        "winner": "Dimitrio"
+      },
+      "notes": "Respuesta abierta con solución revisada; comparación manual."
+    }
+  ],
+  "structural_validation": [
+    {
+      "path": "02_JSON_EXAMS/FUSION/2019/Eliminatorio CEOM11/1.º de secundaria/FUSION_2019_eliminatorio-ceom11_1ro-secundaria_verified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "02cb61845593b84fbcfd0d1f184569fe9628e3923307da6cf607e4ebd23ac70d",
+        "bytes": 13101,
+        "problems": 3,
+        "verified": 3,
+        "guided": 0,
+        "images": 1,
+        "figures": [
+          {
+            "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_1ro-secundaria_q03",
+            "figure": 1,
+            "sha256": "8c04774318eeb32341e0362a83c474b2cc8c9f7b03a313c4b42bc3a30e1f0bf3",
+            "width": 402,
+            "height": 254
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2019/Eliminatorio CEOM11/1.º de secundaria/FUSION_2019_eliminatorio-ceom11_1ro-secundaria_classified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "45fe1b1c623283b21a78b7fd83f794c2b8d4716ac51b3e9fe7e471882f8b3943",
+        "bytes": 14482,
+        "problems": 3,
+        "verified": 3,
+        "guided": 0,
+        "images": 1,
+        "figures": [
+          {
+            "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_1ro-secundaria_q03",
+            "figure": 1,
+            "sha256": "8c04774318eeb32341e0362a83c474b2cc8c9f7b03a313c4b42bc3a30e1f0bf3",
+            "width": 402,
+            "height": 254
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    }
+  ]
+}

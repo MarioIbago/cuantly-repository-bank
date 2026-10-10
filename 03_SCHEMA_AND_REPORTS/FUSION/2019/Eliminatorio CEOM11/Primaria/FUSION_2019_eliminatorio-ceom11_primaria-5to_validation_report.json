@@ -1,0 +1,146 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11-pdf_original.pdf",
+  "source_sha256": "7ac63005300d3e466797a6e5a614cb388118319d7ed52c45c53c7c2d30e90c6c",
+  "metadata_evidence": "MARZO DE 2019 and category printed on each original page.",
+  "pages": [
+    2
+  ],
+  "source_review": "All six original PDF problem pages rendered and visually compared. Numbering and stable recovered IDs retained.",
+  "alternate_source": {
+    "path": "01_RAW_PDFs/FUSION/2019/Eliminatorio CEOM11/Multinivel/FUSION_2019_eliminatorio-ceom11_multinivel_examen-eliminatorio-ceom11_original.pdf",
+    "sha256": "684a7471d3f7fef78cbad4a82741a4252521ce37f8952e6406856f14b00a1055",
+    "evidence": "All statements and problem image bytes match; published once per category."
+  },
+  "figure_review": [
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_primaria-5to_q03",
+      "page": 2,
+      "pdf_image_object": "Image25.png",
+      "bbox_top_left_pdf_points": [
+        246.65,
+        576.6199999999999,
+        349.5,
+        656.1199999999999
+      ],
+      "sha256": "ce45968ceea15cce8485793bf27806b031555d9228fef29fe4d258bc9d709b53",
+      "method": "Exact embedded bytes; visually compared with original problem figure."
+    }
+  ],
+  "transcription_corrections": [
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_primaria-5to_q01",
+      "note": "Transcribed circle/square/triangle equations as faithful LaTeX; no bitmap of equations."
+    }
+  ],
+  "latex_rendering": {
+    "engine": "KaTeX 0.16.47",
+    "expressions": 22,
+    "errors": []
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_primaria-5to_q01",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "c": 5,
+        "s": 2,
+        "t": 1,
+        "equationValues": [
+          10,
+          12,
+          5
+        ]
+      },
+      "notes": "Respuesta abierta con solución revisada; comparación manual."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_primaria-5to_q02",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "permutations": 24,
+        "byFirstPerson": 24
+      },
+      "notes": "Respuesta abierta con solución revisada; comparación manual."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_primaria-5to_q03",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "base": [
+          379,
+          262,
+          177,
+          323
+        ],
+        "second": [
+          641,
+          439,
+          500
+        ],
+        "third": [
+          1080,
+          939
+        ],
+        "top": 2019,
+        "weightedBaseCheck": 2019
+      },
+      "notes": "Respuesta abierta con solución revisada; comparación manual."
+    }
+  ],
+  "structural_validation": [
+    {
+      "path": "02_JSON_EXAMS/FUSION/2019/Eliminatorio CEOM11/Primaria/FUSION_2019_eliminatorio-ceom11_primaria-5to_verified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "636c5218d2a8f1ca71674d80f68699d28ac29e5f15ff60653dc09625efa50488",
+        "bytes": 8940,
+        "problems": 3,
+        "verified": 3,
+        "guided": 0,
+        "images": 1,
+        "figures": [
+          {
+            "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_primaria-5to_q03",
+            "figure": 1,
+            "sha256": "ce45968ceea15cce8485793bf27806b031555d9228fef29fe4d258bc9d709b53",
+            "width": 137,
+            "height": 106
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2019/Eliminatorio CEOM11/Primaria/FUSION_2019_eliminatorio-ceom11_primaria-5to_classified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "6ee16003c1c115fff457cd03417f2daf5070d8ed0eba794255c46db1bb442213",
+        "bytes": 10279,
+        "problems": 3,
+        "verified": 3,
+        "guided": 0,
+        "images": 1,
+        "figures": [
+          {
+            "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_primaria-5to_q03",
+            "figure": 1,
+            "sha256": "ce45968ceea15cce8485793bf27806b031555d9228fef29fe4d258bc9d709b53",
+            "width": 137,
+            "height": 106
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    }
+  ]
+}

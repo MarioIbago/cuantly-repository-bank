@@ -5,9 +5,9 @@
   "counts": {
     "recovered_occurrences": 881,
     "legacy_statement_groups": 441,
-    "published_occurrences": 36,
-    "alternate_source_occurrences": 24,
-    "pending_occurrences": 821
+    "published_occurrences": 54,
+    "alternate_source_occurrences": 42,
+    "pending_occurrences": 785
   },
   "notes": [
     "Agrupaciones heredadas: su normalizador eliminaba signos matemáticos; no equivalen a duplicados certificados.",
@@ -1555,12 +1555,14 @@
       "problem_text": "¿Cuánto hay que sumarle a 2008 para que el resultado sea 2019?",
       "options": [],
       "legacy_statement_group": 31,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "11",
       "inherited_solution_unverified": "La diferencia es 2019-2008=11.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2019/Eliminatorio CEOM11/Kids/FUSION_2019_eliminatorio-ceom11_kids-3ro_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_kids-3ro_q02",
@@ -1575,12 +1577,14 @@
       "problem_text": "Elías tiene 3 amigos y van a formar un equipo para exponer en español, ¿de cuantas formas o turnos  diferentes\npueden pasar a exponer, si siempre debe estar solo un alumno exponiendo y solo expondrán una vez cada uno?",
       "options": [],
       "legacy_statement_group": 32,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "24",
       "inherited_solution_unverified": "Participan Elías y sus tres amigos: cuatro alumnos distintos. Los órdenes posibles son 4!=4·3·2·1=24.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2019/Eliminatorio CEOM11/Kids/FUSION_2019_eliminatorio-ceom11_kids-3ro_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_kids-3ro_q03",
@@ -1595,12 +1599,14 @@
       "problem_text": "Jaden coloca 10 blocks como lo muestra la figura y a cada block le escribe un número, pero estos son mágicos, ya\nque cada block,  que se encuentra a partir en la segunda fila es la suma de los blocks que lo sostiene abajo, por\nejemplo el 500 se obtuvo  de la suma de los dos blocks que lo sostienen abajo 177 + 323.  Única el valor\ncorrespondiente a cada block.",
       "options": [],
       "legacy_statement_group": 33,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "2019",
-      "checkpoint_notes_unverified": "641,439,500;1080,939;2019"
+      "checkpoint_notes_unverified": "641,439,500;1080,939;2019",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2019/Eliminatorio CEOM11/Kids/FUSION_2019_eliminatorio-ceom11_kids-3ro_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_primaria-5to_q01",
@@ -1615,12 +1621,14 @@
       "problem_text": "Según las tres primeras igualdades, ¿Cuál es el valor del triangulo?",
       "options": [],
       "legacy_statement_group": 34,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "triángulo1",
-      "checkpoint_notes_unverified": "c+c10;cs+s12;cs-tc=c;c5,s2,t1;transcribir sin imagen"
+      "checkpoint_notes_unverified": "c+c10;cs+s12;cs-tc=c;c5,s2,t1;transcribir sin imagen",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2019/Eliminatorio CEOM11/Primaria/FUSION_2019_eliminatorio-ceom11_primaria-5to_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_primaria-5to_q02",
@@ -1635,12 +1643,14 @@
       "problem_text": "Elías tiene 3 amigos y van a formar un equipo para exponer en español, ¿de cuantas formas o turnos  diferentes\npueden pasar a exponer, si siempre debe estar solo un alumno exponiendo y solo expondrán una vez cada uno?",
       "options": [],
       "legacy_statement_group": 32,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "24",
       "inherited_solution_unverified": "Participan Elías y sus tres amigos: cuatro alumnos distintos. Los órdenes posibles son 4!=4·3·2·1=24.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2019/Eliminatorio CEOM11/Primaria/FUSION_2019_eliminatorio-ceom11_primaria-5to_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_primaria-5to_q03",
@@ -1655,12 +1665,14 @@
       "problem_text": "Jaden coloca 10 blocks como lo muestra la figura y a cada block le escribe un número, pero estos son mágicos, ya\nque cada block,  que se encuentra a partir en la segunda fila es la suma de los blocks que lo sostiene abajo, por\nejemplo el 500 se obtuvo  de la suma de los dos blocks que lo sostienen abajo 177 + 323.  Única el valor\ncorrespondiente a cada block.",
       "options": [],
       "legacy_statement_group": 33,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "2019",
-      "checkpoint_notes_unverified": "641,439,500;1080,939;2019"
+      "checkpoint_notes_unverified": "641,439,500;1080,939;2019",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2019/Eliminatorio CEOM11/Primaria/FUSION_2019_eliminatorio-ceom11_primaria-5to_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_1ro-secundaria_q01",
@@ -1675,12 +1687,14 @@
       "problem_text": "Según las tres primeras igualdades, ¿Cuál es el valor del triangulo?",
       "options": [],
       "legacy_statement_group": 34,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "triángulo1",
-      "checkpoint_notes_unverified": "c+c10;cs+s12;cs-tc=c;c5,s2,t1;transcribir sin imagen"
+      "checkpoint_notes_unverified": "c+c10;cs+s12;cs-tc=c;c5,s2,t1;transcribir sin imagen",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2019/Eliminatorio CEOM11/1.º de secundaria/FUSION_2019_eliminatorio-ceom11_1ro-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_1ro-secundaria_q02",
@@ -1695,12 +1709,14 @@
       "problem_text": "Elías tiene 3 amigos y van a formar un equipo para exponer en español, ¿de cuantas formas o turnos  diferentes\npueden pasar a exponer, si siempre debe estar solo un alumno exponiendo y solo expondrán una vez cada uno?",
       "options": [],
       "legacy_statement_group": 32,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "24",
       "inherited_solution_unverified": "Participan Elías y sus tres amigos: cuatro alumnos distintos. Los órdenes posibles son 4!=4·3·2·1=24.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2019/Eliminatorio CEOM11/1.º de secundaria/FUSION_2019_eliminatorio-ceom11_1ro-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_1ro-secundaria_q03",
@@ -1715,12 +1731,14 @@
       "problem_text": "Charlitos tiene 3 amigos, Alberto, Benito y Dimitrio, los 4 se colocan en una mesa circular de la siguiente manera,\nEllos van a jugar a contar en forma descendente, comenzando con Alberto el cual dice en voz alta 2019,  después\nBenito dice   2018,   Charlitos 2017, Dimitrio 2016,  Alberto  2015,  y así sucesivamente ….   Gana el que menciona al\nnúmero alfa. Un número alfa es triple del menor  múltiplo de 4,  9 y 33.",
       "options": [],
       "legacy_statement_group": 35,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "Dimitrio",
       "inherited_solution_unverified": "El menor múltiplo común positivo es mcm(4,9,33)=396 y alfa=1188. La diferencia 2019-1188=831 es congruente con 3 módulo 4. Los turnos de residuos 0,1,2,3 corresponden a Alberto,Benito,Charlitos,Dimitrio; gana Dimitrio.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2019/Eliminatorio CEOM11/1.º de secundaria/FUSION_2019_eliminatorio-ceom11_1ro-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_2do-secundaria_q01",
@@ -1735,12 +1753,14 @@
       "problem_text": "En el colegio Miguel Alemán Valdés se organizó el CHALLENGE4  y en la cafetería el  viernes se vendieron,\n72 desayunos y 60 bebidas por un total de $1548;  en la premiación, el sábado, 72 desayunos y 36 bebidas\npor un total de $1332. ¿A cuánto se vendió cada desayuno?  ¿A cuánto se vendió cada bebida?\nNota: toma en cuenta que cada desayuno y cada bebida cuestan igual, respectivamente.",
       "options": [],
       "legacy_statement_group": 36,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "Desayuno $14; bebida $9",
       "inherited_solution_unverified": "Al restar 72 d+60 b=1548 y 72 d+36 b=1332 resulta 24 b=216, b=9. Luego 72 d=1332-36·9=1008, de donde d=14.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2019/Eliminatorio CEOM11/2.º de secundaria/FUSION_2019_eliminatorio-ceom11_2do-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_2do-secundaria_q02",
@@ -1755,12 +1775,14 @@
       "problem_text": "En la siguiente figura, ¿cuántos cuadrados  aparecen? Nota: considera cuadrados de todos los tamaños y\nque la figura completa está formada por  4 cuadritos pequeños iguales, por 2 rectángulos, en los cuales\ncabrían exactamente 2 cuadritos pequeños, y un cuadrado grande  en el cual cabrían exactamente 2\nrectángulos.",
       "options": [],
       "legacy_statement_group": 37,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "error_fuente;14 según dibujo",
-      "checkpoint_notes_unverified": "ocho de lado1,cinco de lado2,uno de lado4;nota dice cuatro pequeños"
+      "checkpoint_notes_unverified": "ocho de lado1,cinco de lado2,uno de lado4;nota dice cuatro pequeños",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2019/Eliminatorio CEOM11/2.º de secundaria/FUSION_2019_eliminatorio-ceom11_2do-secundaria_classified.json",
+      "reviewed_status": "source_error"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_2do-secundaria_q03",
@@ -1775,12 +1797,14 @@
       "problem_text": "Charlitos tiene 3 amigos, Alberto, Benito y Dimitrio, los 4 se colocan en una mesa circular de la siguiente manera,\nEllos van a jugar a contar en forma descendente, comenzando con Alberto el cual dice en voz alta 2019,  después\nBenito dice   2018,   Charlitos 2017, Dimitrio 2016,  Alberto  2015,  y así sucesivamente ….   Gana el que menciona al\nnúmero alfa. Un número alfa es triple del menor  múltiplo de 4,  9 y 33.",
       "options": [],
       "legacy_statement_group": 35,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "Dimitrio",
       "inherited_solution_unverified": "El menor múltiplo común positivo es mcm(4,9,33)=396 y alfa=1188. La diferencia 2019-1188=831 es congruente con 3 módulo 4. Los turnos de residuos 0,1,2,3 corresponden a Alberto,Benito,Charlitos,Dimitrio; gana Dimitrio.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2019/Eliminatorio CEOM11/2.º de secundaria/FUSION_2019_eliminatorio-ceom11_2do-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_3ro-secundaria_q01",
@@ -1795,12 +1819,14 @@
       "problem_text": "En el colegio Miguel Alemán Valdés se organizó el CHALLENGE4  y en la cafetería el  viernes se vendieron,\n72 desayunos y 60 bebidas por un total de $1548;  en la premiación, el sábado, 72 desayunos y 36 bebidas\npor un total de $1332. ¿A cuánto se vendió cada desayuno?  ¿A cuánto se vendió cada bebida?\nNota: toma en cuenta que cada desayuno y cada bebida cuestan igual, respectivamente.",
       "options": [],
       "legacy_statement_group": 36,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "Desayuno $14; bebida $9",
       "inherited_solution_unverified": "Al restar 72 d+60 b=1548 y 72 d+36 b=1332 resulta 24 b=216, b=9. Luego 72 d=1332-36·9=1008, de donde d=14.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2019/Eliminatorio CEOM11/3.º de secundaria/FUSION_2019_eliminatorio-ceom11_3ro-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_3ro-secundaria_q02",
@@ -1815,12 +1841,14 @@
       "problem_text": "En la siguiente figura, ¿cuántos cuadrados  aparecen? Nota: considera cuadrados de todos los tamaños y\nque la figura completa está formada por  4 cuadritos pequeños iguales, por 2 rectángulos, en los cuales\ncabrían exactamente 2 cuadritos pequeños, y un cuadrado grande  en el cual cabrían exactamente 2\nrectángulos.",
       "options": [],
       "legacy_statement_group": 37,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "error_fuente;14 según dibujo",
-      "checkpoint_notes_unverified": "ocho de lado1,cinco de lado2,uno de lado4;nota dice cuatro pequeños"
+      "checkpoint_notes_unverified": "ocho de lado1,cinco de lado2,uno de lado4;nota dice cuatro pequeños",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2019/Eliminatorio CEOM11/3.º de secundaria/FUSION_2019_eliminatorio-ceom11_3ro-secundaria_classified.json",
+      "reviewed_status": "source_error"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_3ro-secundaria_q03",
@@ -1835,12 +1863,14 @@
       "problem_text": "1\n1\nSi a y b son raíces de  x^{2} – x + c = 0, ¿cuál es el valor de\n𝑎^{+}\n𝑏?",
       "options": [],
       "legacy_statement_group": 38,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "1/c",
-      "checkpoint_notes_unverified": "Vieta;a+b1,ab=c;c distinto0"
+      "checkpoint_notes_unverified": "Vieta;a+b1,ab=c;c distinto0",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2019/Eliminatorio CEOM11/3.º de secundaria/FUSION_2019_eliminatorio-ceom11_3ro-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_olimpicos-preparatoria_q01",
@@ -1855,12 +1885,14 @@
       "problem_text": "En el colegio Miguel Alemán Valdés se organizó el CHALLENGE4  y en la cafetería el  viernes se vendieron,\n72 desayunos y 60 bebidas por un total de $1548;  en la premiación, el sábado, 72 desayunos y 36 bebidas\npor un total de $1332. ¿A cuánto se vendió cada desayuno?  ¿A cuánto se vendió cada bebida?\nNota: toma en cuenta que cada desayuno y cada bebida cuestan igual, respectivamente.",
       "options": [],
       "legacy_statement_group": 36,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "Desayuno $14; bebida $9",
       "inherited_solution_unverified": "Al restar 72 d+60 b=1548 y 72 d+36 b=1332 resulta 24 b=216, b=9. Luego 72 d=1332-36·9=1008, de donde d=14.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2019/Eliminatorio CEOM11/Olímpicos/FUSION_2019_eliminatorio-ceom11_olimpicos-preparatoria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_olimpicos-preparatoria_q02",
@@ -1875,12 +1907,14 @@
       "problem_text": "En la siguiente figura, ¿cuántos cuadrados  aparecen? Nota: considera cuadrados de todos los tamaños y\nque la figura completa está formada por  4 cuadritos pequeños iguales, por 2 rectángulos, en los cuales\ncabrían exactamente 2 cuadritos pequeños, y un cuadrado grande  en el cual cabrían exactamente 2\nrectángulos.",
       "options": [],
       "legacy_statement_group": 37,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "error_fuente;14 según dibujo",
-      "checkpoint_notes_unverified": "ocho de lado1,cinco de lado2,uno de lado4;nota dice cuatro pequeños"
+      "checkpoint_notes_unverified": "ocho de lado1,cinco de lado2,uno de lado4;nota dice cuatro pequeños",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2019/Eliminatorio CEOM11/Olímpicos/FUSION_2019_eliminatorio-ceom11_olimpicos-preparatoria_classified.json",
+      "reviewed_status": "source_error"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_olimpicos-preparatoria_q03",
@@ -1895,12 +1929,14 @@
       "problem_text": "1\n1\nSi a y b son raíces de  x^{2} – x + c = 0, ¿cuál es el valor de\n𝑎^{+}\n𝑏?",
       "options": [],
       "legacy_statement_group": 38,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "1/c",
-      "checkpoint_notes_unverified": "Vieta;a+b1,ab=c;c distinto0"
+      "checkpoint_notes_unverified": "Vieta;a+b1,ab=c;c distinto0",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2019/Eliminatorio CEOM11/Olímpicos/FUSION_2019_eliminatorio-ceom11_olimpicos-preparatoria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom11_kids-3ro_q01",
@@ -1915,12 +1951,13 @@
       "problem_text": "¿Cuánto hay que sumarle a 2008 para que el resultado sea 2019?",
       "options": [],
       "legacy_statement_group": 31,
-      "publication_status": "pending",
+      "publication_status": "alternate_source_variant",
       "inherited_answer_unverified": "11",
       "inherited_solution_unverified": "La diferencia es 2019-2008=11.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "canonical_source_id": "fusion1_examen-eliminatorio-ceom11-pdf_kids-3ro_q01"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom11_kids-3ro_q02",
@@ -1935,12 +1972,13 @@
       "problem_text": "Elías tiene 3 amigos y van a formar un equipo para exponer en español, ¿de cuantas formas o turnos  diferentes\npueden pasar a exponer, si siempre debe estar solo un alumno exponiendo y solo expondrán una vez cada uno?",
       "options": [],
       "legacy_statement_group": 32,
-      "publication_status": "pending",
+      "publication_status": "alternate_source_variant",
       "inherited_answer_unverified": "24",
       "inherited_solution_unverified": "Participan Elías y sus tres amigos: cuatro alumnos distintos. Los órdenes posibles son 4!=4·3·2·1=24.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "canonical_source_id": "fusion1_examen-eliminatorio-ceom11-pdf_kids-3ro_q02"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom11_kids-3ro_q03",
@@ -1955,12 +1993,13 @@
       "problem_text": "Jaden coloca 10 blocks como lo muestra la figura y a cada block le escribe un número, pero estos son mágicos, ya\nque cada block,  que se encuentra a partir en la segunda fila es la suma de los blocks que lo sostiene abajo, por\nejemplo el 500 se obtuvo  de la suma de los dos blocks que lo sostienen abajo 177 + 323.  Única el valor\ncorrespondiente a cada block.",
       "options": [],
       "legacy_statement_group": 33,
-      "publication_status": "pending",
+      "publication_status": "alternate_source_variant",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "2019",
-      "checkpoint_notes_unverified": "641,439,500;1080,939;2019"
+      "checkpoint_notes_unverified": "641,439,500;1080,939;2019",
+      "canonical_source_id": "fusion1_examen-eliminatorio-ceom11-pdf_kids-3ro_q03"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom11_primaria-5to_q01",
@@ -1975,12 +2014,13 @@
       "problem_text": "Según las tres primeras igualdades, ¿Cuál es el valor del triangulo?",
       "options": [],
       "legacy_statement_group": 34,
-      "publication_status": "pending",
+      "publication_status": "alternate_source_variant",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "triángulo1",
-      "checkpoint_notes_unverified": "c+c10;cs+s12;cs-tc=c;c5,s2,t1;transcribir sin imagen"
+      "checkpoint_notes_unverified": "c+c10;cs+s12;cs-tc=c;c5,s2,t1;transcribir sin imagen",
+      "canonical_source_id": "fusion1_examen-eliminatorio-ceom11-pdf_primaria-5to_q01"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom11_primaria-5to_q02",
@@ -1995,12 +2035,13 @@
       "problem_text": "Elías tiene 3 amigos y van a formar un equipo para exponer en español, ¿de cuantas formas o turnos  diferentes\npueden pasar a exponer, si siempre debe estar solo un alumno exponiendo y solo expondrán una vez cada uno?",
       "options": [],
       "legacy_statement_group": 32,
-      "publication_status": "pending",
+      "publication_status": "alternate_source_variant",
       "inherited_answer_unverified": "24",
       "inherited_solution_unverified": "Participan Elías y sus tres amigos: cuatro alumnos distintos. Los órdenes posibles son 4!=4·3·2·1=24.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "canonical_source_id": "fusion1_examen-eliminatorio-ceom11-pdf_primaria-5to_q02"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom11_primaria-5to_q03",
@@ -2015,12 +2056,13 @@
       "problem_text": "Jaden coloca 10 blocks como lo muestra la figura y a cada block le escribe un número, pero estos son mágicos, ya\nque cada block,  que se encuentra a partir en la segunda fila es la suma de los blocks que lo sostiene abajo, por\nejemplo el 500 se obtuvo  de la suma de los dos blocks que lo sostienen abajo 177 + 323.  Única el valor\ncorrespondiente a cada block.",
       "options": [],
       "legacy_statement_group": 33,
-      "publication_status": "pending",
+      "publication_status": "alternate_source_variant",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "2019",
-      "checkpoint_notes_unverified": "641,439,500;1080,939;2019"
+      "checkpoint_notes_unverified": "641,439,500;1080,939;2019",
+      "canonical_source_id": "fusion1_examen-eliminatorio-ceom11-pdf_primaria-5to_q03"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom11_1ro-secundaria_q01",
@@ -2035,12 +2077,13 @@
       "problem_text": "Según las tres primeras igualdades, ¿Cuál es el valor del triangulo?",
       "options": [],
       "legacy_statement_group": 34,
-      "publication_status": "pending",
+      "publication_status": "alternate_source_variant",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "triángulo1",
-      "checkpoint_notes_unverified": "c+c10;cs+s12;cs-tc=c;c5,s2,t1;transcribir sin imagen"
+      "checkpoint_notes_unverified": "c+c10;cs+s12;cs-tc=c;c5,s2,t1;transcribir sin imagen",
+      "canonical_source_id": "fusion1_examen-eliminatorio-ceom11-pdf_1ro-secundaria_q01"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom11_1ro-secundaria_q02",
@@ -2055,12 +2098,13 @@
       "problem_text": "Elías tiene 3 amigos y van a formar un equipo para exponer en español, ¿de cuantas formas o turnos  diferentes\npueden pasar a exponer, si siempre debe estar solo un alumno exponiendo y solo expondrán una vez cada uno?",
       "options": [],
       "legacy_statement_group": 32,
-      "publication_status": "pending",
+      "publication_status": "alternate_source_variant",
       "inherited_answer_unverified": "24",
       "inherited_solution_unverified": "Participan Elías y sus tres amigos: cuatro alumnos distintos. Los órdenes posibles son 4!=4·3·2·1=24.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "canonical_source_id": "fusion1_examen-eliminatorio-ceom11-pdf_1ro-secundaria_q02"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom11_1ro-secundaria_q03",
@@ -2075,12 +2119,13 @@
       "problem_text": "Charlitos tiene 3 amigos, Alberto, Benito y Dimitrio, los 4 se colocan en una mesa circular de la siguiente manera,\nEllos van a jugar a contar en forma descendente, comenzando con Alberto el cual dice en voz alta 2019,  después\nBenito dice   2018,   Charlitos 2017, Dimitrio 2016,  Alberto  2015,  y así sucesivamente ….   Gana el que menciona al\nnúmero alfa. Un número alfa es triple del menor  múltiplo de 4,  9 y 33.",
       "options": [],
       "legacy_statement_group": 35,
-      "publication_status": "pending",
+      "publication_status": "alternate_source_variant",
       "inherited_answer_unverified": "Dimitrio",
       "inherited_solution_unverified": "El menor múltiplo común positivo es mcm(4,9,33)=396 y alfa=1188. La diferencia 2019-1188=831 es congruente con 3 módulo 4. Los turnos de residuos 0,1,2,3 corresponden a Alberto,Benito,Charlitos,Dimitrio; gana Dimitrio.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "canonical_source_id": "fusion1_examen-eliminatorio-ceom11-pdf_1ro-secundaria_q03"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom11_2do-secundaria_q01",
@@ -2095,12 +2140,13 @@
       "problem_text": "En el colegio Miguel Alemán Valdés se organizó el CHALLENGE4  y en la cafetería el  viernes se vendieron,\n72 desayunos y 60 bebidas por un total de $1548;  en la premiación, el sábado, 72 desayunos y 36 bebidas\npor un total de $1332. ¿A cuánto se vendió cada desayuno?  ¿A cuánto se vendió cada bebida?\nNota: toma en cuenta que cada desayuno y cada bebida cuestan igual, respectivamente.",
       "options": [],
       "legacy_statement_group": 36,
-      "publication_status": "pending",
+      "publication_status": "alternate_source_variant",
       "inherited_answer_unverified": "Desayuno $14; bebida $9",
       "inherited_solution_unverified": "Al restar 72 d+60 b=1548 y 72 d+36 b=1332 resulta 24 b=216, b=9. Luego 72 d=1332-36·9=1008, de donde d=14.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "canonical_source_id": "fusion1_examen-eliminatorio-ceom11-pdf_2do-secundaria_q01"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom11_2do-secundaria_q02",
@@ -2115,12 +2161,13 @@
       "problem_text": "En la siguiente figura, ¿cuántos cuadrados  aparecen? Nota: considera cuadrados de todos los tamaños y\nque la figura completa está formada por  4 cuadritos pequeños iguales, por 2 rectángulos, en los cuales\ncabrían exactamente 2 cuadritos pequeños, y un cuadrado grande  en el cual cabrían exactamente 2\nrectángulos.",
       "options": [],
       "legacy_statement_group": 37,
-      "publication_status": "pending",
+      "publication_status": "alternate_source_variant",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "error_fuente;14 según dibujo",
-      "checkpoint_notes_unverified": "ocho de lado1,cinco de lado2,uno de lado4;nota dice cuatro pequeños"
+      "checkpoint_notes_unverified": "ocho de lado1,cinco de lado2,uno de lado4;nota dice cuatro pequeños",
+      "canonical_source_id": "fusion1_examen-eliminatorio-ceom11-pdf_2do-secundaria_q02"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom11_2do-secundaria_q03",
@@ -2135,12 +2182,13 @@
       "problem_text": "Charlitos tiene 3 amigos, Alberto, Benito y Dimitrio, los 4 se colocan en una mesa circular de la siguiente manera,\nEllos van a jugar a contar en forma descendente, comenzando con Alberto el cual dice en voz alta 2019,  después\nBenito dice   2018,   Charlitos 2017, Dimitrio 2016,  Alberto  2015,  y así sucesivamente ….   Gana el que menciona al\nnúmero alfa. Un número alfa es triple del menor  múltiplo de 4,  9 y 33.",
       "options": [],
       "legacy_statement_group": 35,
-      "publication_status": "pending",
+      "publication_status": "alternate_source_variant",
       "inherited_answer_unverified": "Dimitrio",
       "inherited_solution_unverified": "El menor múltiplo común positivo es mcm(4,9,33)=396 y alfa=1188. La diferencia 2019-1188=831 es congruente con 3 módulo 4. Los turnos de residuos 0,1,2,3 corresponden a Alberto,Benito,Charlitos,Dimitrio; gana Dimitrio.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "canonical_source_id": "fusion1_examen-eliminatorio-ceom11-pdf_2do-secundaria_q03"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom11_3ro-secundaria_q01",
@@ -2155,12 +2203,13 @@
       "problem_text": "En el colegio Miguel Alemán Valdés se organizó el CHALLENGE4  y en la cafetería el  viernes se vendieron,\n72 desayunos y 60 bebidas por un total de $1548;  en la premiación, el sábado, 72 desayunos y 36 bebidas\npor un total de $1332. ¿A cuánto se vendió cada desayuno?  ¿A cuánto se vendió cada bebida?\nNota: toma en cuenta que cada desayuno y cada bebida cuestan igual, respectivamente.",
       "options": [],
       "legacy_statement_group": 36,
-      "publication_status": "pending",
+      "publication_status": "alternate_source_variant",
       "inherited_answer_unverified": "Desayuno $14; bebida $9",
       "inherited_solution_unverified": "Al restar 72 d+60 b=1548 y 72 d+36 b=1332 resulta 24 b=216, b=9. Luego 72 d=1332-36·9=1008, de donde d=14.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "canonical_source_id": "fusion1_examen-eliminatorio-ceom11-pdf_3ro-secundaria_q01"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom11_3ro-secundaria_q02",
@@ -2175,12 +2224,13 @@
       "problem_text": "En la siguiente figura, ¿cuántos cuadrados  aparecen? Nota: considera cuadrados de todos los tamaños y\nque la figura completa está formada por  4 cuadritos pequeños iguales, por 2 rectángulos, en los cuales\ncabrían exactamente 2 cuadritos pequeños, y un cuadrado grande  en el cual cabrían exactamente 2\nrectángulos.",
       "options": [],
       "legacy_statement_group": 37,
-      "publication_status": "pending",
+      "publication_status": "alternate_source_variant",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "error_fuente;14 según dibujo",
-      "checkpoint_notes_unverified": "ocho de lado1,cinco de lado2,uno de lado4;nota dice cuatro pequeños"
+      "checkpoint_notes_unverified": "ocho de lado1,cinco de lado2,uno de lado4;nota dice cuatro pequeños",
+      "canonical_source_id": "fusion1_examen-eliminatorio-ceom11-pdf_3ro-secundaria_q02"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom11_3ro-secundaria_q03",
@@ -2195,12 +2245,13 @@
       "problem_text": "1\n1\nSi a y b son raíces de  x^{2} – x + c = 0, ¿cuál es el valor de\n𝑎^{+}\n𝑏?",
       "options": [],
       "legacy_statement_group": 38,
-      "publication_status": "pending",
+      "publication_status": "alternate_source_variant",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "1/c",
-      "checkpoint_notes_unverified": "Vieta;a+b1,ab=c;c distinto0"
+      "checkpoint_notes_unverified": "Vieta;a+b1,ab=c;c distinto0",
+      "canonical_source_id": "fusion1_examen-eliminatorio-ceom11-pdf_3ro-secundaria_q03"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom11_olimpicos-preparatoria_q01",
@@ -2215,12 +2266,13 @@
       "problem_text": "En el colegio Miguel Alemán Valdés se organizó el CHALLENGE4  y en la cafetería el  viernes se vendieron,\n72 desayunos y 60 bebidas por un total de $1548;  en la premiación, el sábado, 72 desayunos y 36 bebidas\npor un total de $1332. ¿A cuánto se vendió cada desayuno?  ¿A cuánto se vendió cada bebida?\nNota: toma en cuenta que cada desayuno y cada bebida cuestan igual, respectivamente.",
       "options": [],
       "legacy_statement_group": 36,
-      "publication_status": "pending",
+      "publication_status": "alternate_source_variant",
       "inherited_answer_unverified": "Desayuno $14; bebida $9",
       "inherited_solution_unverified": "Al restar 72 d+60 b=1548 y 72 d+36 b=1332 resulta 24 b=216, b=9. Luego 72 d=1332-36·9=1008, de donde d=14.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "canonical_source_id": "fusion1_examen-eliminatorio-ceom11-pdf_olimpicos-preparatoria_q01"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom11_olimpicos-preparatoria_q02",
@@ -2235,12 +2287,13 @@
       "problem_text": "En la siguiente figura, ¿cuántos cuadrados  aparecen? Nota: considera cuadrados de todos los tamaños y\nque la figura completa está formada por  4 cuadritos pequeños iguales, por 2 rectángulos, en los cuales\ncabrían exactamente 2 cuadritos pequeños, y un cuadrado grande  en el cual cabrían exactamente 2\nrectángulos.",
       "options": [],
       "legacy_statement_group": 37,
-      "publication_status": "pending",
+      "publication_status": "alternate_source_variant",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "error_fuente;14 según dibujo",
-      "checkpoint_notes_unverified": "ocho de lado1,cinco de lado2,uno de lado4;nota dice cuatro pequeños"
+      "checkpoint_notes_unverified": "ocho de lado1,cinco de lado2,uno de lado4;nota dice cuatro pequeños",
+      "canonical_source_id": "fusion1_examen-eliminatorio-ceom11-pdf_olimpicos-preparatoria_q02"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom11_olimpicos-preparatoria_q03",
@@ -2255,12 +2308,13 @@
       "problem_text": "1\n1\nSi a y b son raíces de  x^{2} – x + c = 0, ¿cuál es el valor de\n𝑎^{+}\n𝑏?",
       "options": [],
       "legacy_statement_group": 38,
-      "publication_status": "pending",
+      "publication_status": "alternate_source_variant",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "1/c",
-      "checkpoint_notes_unverified": "Vieta;a+b1,ab=c;c distinto0"
+      "checkpoint_notes_unverified": "Vieta;a+b1,ab=c;c distinto0",
+      "canonical_source_id": "fusion1_examen-eliminatorio-ceom11-pdf_olimpicos-preparatoria_q03"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q01",
