@@ -1,0 +1,609 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+  "source_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed",
+  "pages_cotejadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
+  ],
+  "metadata_evidence": "Los encabezados dicen SELECTIVOS ESTATALES FUSION25 y el grado. La publicación institucional del anfitrión American School Foundation of Chiapas relaciona COMFUSION25 con Fusión 2025; esa correspondencia confirma 2025. No se infiere una edición del nombre FUSION5. Referencia: https://www.linkedin.com/posts/american-school-foundation-of-chiapas_proudtobeasfc-gobulldogs-worldready-activity-7377353761121492992-xrcg",
+  "method": "Rendered all 29 pages; independently solved86 models across 150 appearances; evaluated every option; compared decoded figures with printed orientation; actual KaTeX rendering.",
+  "printed_key_review": {
+    "page": 29,
+    "note": "Blank answer sheet; no printed answer key."
+  },
+  "problems": [
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_4-de-primaria_q01",
+      "source_page": 1,
+      "legacy_group_for_navigation_only": 286,
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Recalculado independientemente: 14. Desarrollo y comparación de opciones en solution_text."
+      },
+      "figures": [],
+      "transcription_notes": [
+        "Original wording and numerical data retained."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_4-de-primaria_q02",
+      "source_page": 1,
+      "legacy_group_for_navigation_only": 287,
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Recalculado independientemente: 5. Desarrollo y comparación de opciones en solution_text."
+      },
+      "figures": [],
+      "transcription_notes": [
+        "Original wording and numerical data retained."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_4-de-primaria_q03",
+      "source_page": 1,
+      "legacy_group_for_navigation_only": 288,
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Recalculado independientemente: 6. Desarrollo y comparación de opciones en solution_text."
+      },
+      "figures": [],
+      "transcription_notes": [
+        "Original wording and numerical data retained."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_4-de-primaria_q04",
+      "source_page": 1,
+      "legacy_group_for_navigation_only": 289,
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Recalculado independientemente: 12. Desarrollo y comparación de opciones en solution_text."
+      },
+      "figures": [],
+      "transcription_notes": [
+        "Layout and formula restored from rendered original; no mathematical data altered."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_4-de-primaria_q05",
+      "source_page": 1,
+      "legacy_group_for_navigation_only": 290,
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Recalculado independientemente: 24. Desarrollo y comparación de opciones en solution_text."
+      },
+      "figures": [],
+      "transcription_notes": [
+        "Original wording and numerical data retained."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_4-de-primaria_q06",
+      "source_page": 1,
+      "legacy_group_for_navigation_only": 291,
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Recalculado independientemente: 6. Desarrollo y comparación de opciones en solution_text."
+      },
+      "figures": [],
+      "transcription_notes": [
+        "Original wording and numerical data retained."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_4-de-primaria_q07",
+      "source_page": 1,
+      "legacy_group_for_navigation_only": 292,
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Recalculado independientemente: 53. Desarrollo y comparación de opciones en solution_text."
+      },
+      "figures": [],
+      "transcription_notes": [
+        "Original wording and numerical data retained."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_4-de-primaria_q08",
+      "source_page": 2,
+      "legacy_group_for_navigation_only": 293,
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Recalculado independientemente: 120000. Desarrollo y comparación de opciones en solution_text."
+      },
+      "figures": [],
+      "transcription_notes": [
+        "Original wording and numerical data retained."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_4-de-primaria_q09",
+      "source_page": 2,
+      "legacy_group_for_navigation_only": 294,
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Recalculado independientemente: 336. Desarrollo y comparación de opciones en solution_text."
+      },
+      "figures": [],
+      "transcription_notes": [
+        "Original wording and numerical data retained."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_4-de-primaria_q10",
+      "source_page": 2,
+      "legacy_group_for_navigation_only": 295,
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Recalculado independientemente: 42. Desarrollo y comparación de opciones en solution_text."
+      },
+      "figures": [
+        {
+          "page": 2,
+          "object": "Image26.png",
+          "box": [
+            164.25,
+            322.9,
+            288,
+            424.9
+          ],
+          "sha256": "747d5ba804fc5e29db17ce3640d7f08906f147ac41d0ebb5f7c8e62cabaea8fe",
+          "width_px": 165,
+          "height_px": 136,
+          "source": "pdf_embedded_image"
+        }
+      ],
+      "transcription_notes": [
+        "Original wording and numerical data retained."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_4-de-primaria_q11",
+      "source_page": 2,
+      "legacy_group_for_navigation_only": 296,
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Recalculado independientemente: 5. Desarrollo y comparación de opciones en solution_text."
+      },
+      "figures": [
+        {
+          "page": 2,
+          "object": "Image34.png",
+          "box": [
+            231.37,
+            471.79,
+            380.59000000000003,
+            578.84
+          ],
+          "sha256": "8b2756249680fd29ca1f00b4735328e756718cbe1dd607ea2360cfe5e843491b",
+          "width_px": 262,
+          "height_px": 188,
+          "source": "pdf_embedded_image"
+        }
+      ],
+      "transcription_notes": [
+        "Original wording and numerical data retained."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_4-de-primaria_q12",
+      "source_page": 2,
+      "legacy_group_for_navigation_only": 297,
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Recalculado independientemente: 9. Desarrollo y comparación de opciones en solution_text."
+      },
+      "figures": [
+        {
+          "page": 2,
+          "object": "Image35.png",
+          "box": [
+            198.48,
+            646.638,
+            413.53,
+            733.635
+          ],
+          "sha256": "58ac34420f87f2b1780cb87bcca28627f5b6aee4135131d7d339c9685b40fd74",
+          "width_px": 417,
+          "height_px": 169,
+          "source": "pdf_embedded_image"
+        }
+      ],
+      "transcription_notes": [
+        "Original wording and numerical data retained."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_4-de-primaria_q13",
+      "source_page": 3,
+      "legacy_group_for_navigation_only": 298,
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Recalculado independientemente: 5. Desarrollo y comparación de opciones en solution_text."
+      },
+      "figures": [
+        {
+          "page": 3,
+          "object": "Image40.png",
+          "box": [
+            241.12,
+            166.30000000000007,
+            406.85,
+            276.45000000000005
+          ],
+          "sha256": "e888665683b484399298723546b0450553e4c47476cc17d2a6cbc11ad4a72247",
+          "width_px": 311,
+          "height_px": 207,
+          "source": "pdf_embedded_image"
+        }
+      ],
+      "transcription_notes": [
+        "Original wording and numerical data retained."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_4-de-primaria_q14",
+      "source_page": 3,
+      "legacy_group_for_navigation_only": 299,
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Recalculado independientemente: 8. Desarrollo y comparación de opciones en solution_text."
+      },
+      "figures": [
+        {
+          "page": 3,
+          "object": "Image41.jpg",
+          "box": [
+            258.37,
+            332.99,
+            389.59000000000003,
+            451.09
+          ],
+          "sha256": "e54a741a4ff356b1f1e1ec73c8a02626b2d5afa27a1a7b4d0e39e921831c815a",
+          "width_px": 171,
+          "height_px": 154,
+          "source": "pdf_embedded_image"
+        }
+      ],
+      "transcription_notes": [
+        "Original wording and numerical data retained."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_4-de-primaria_q15",
+      "source_page": 3,
+      "legacy_group_for_navigation_only": 300,
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Recalculado independientemente: 32. Desarrollo y comparación de opciones en solution_text."
+      },
+      "figures": [
+        {
+          "page": 3,
+          "object": "Image42.png",
+          "box": [
+            72,
+            506.6,
+            275.95,
+            597.35
+          ],
+          "sha256": "3f608ac71d5669ad924a022a82bc305b93860f90f8c1ab8198cd77e554c8c7af",
+          "width_px": 283,
+          "height_px": 126,
+          "source": "pdf_embedded_image"
+        },
+        {
+          "page": 3,
+          "object": "Image43.png",
+          "box": [
+            276,
+            493.6,
+            479.95,
+            597.35
+          ],
+          "sha256": "3dbe85c507fe32b1a22fc0cf6249b2607014a73f2d413a0e540b1490564c71f5",
+          "width_px": 283,
+          "height_px": 144,
+          "source": "pdf_embedded_image"
+        }
+      ],
+      "transcription_notes": [
+        "Original wording and numerical data retained."
+      ]
+    }
+  ],
+  "bank_sha256": "4a72599d04119f47043654ab9ee48ec1c9b10b4477a5e22fd7013aace59e9fbc",
+  "classified_bank_sha256": "b9efaec11d6b08913e26a43ced7fc2738ca23ecd39c885e0d6c7159efb129693",
+  "counts": {
+    "verified_problems": 15,
+    "needs_review_or_invalid": 0,
+    "needs_review_problem_numbers": [],
+    "notes": "Se cotejaron las 29 páginas: 150 preguntas y hoja final de respuestas en blanco, sin clave oficial. Ambigüedades conservadas con práctica guiada. Fórmulas desordenadas restauradas del PDF y figuras respetan su orientación impresa."
+  },
+  "latex_rendering": {
+    "engine": "KaTeX",
+    "throwOnError": true,
+    "fields": "problem_text, correct_answer, solution_text, options, option_analysis"
+  },
+  "structural_validation": {
+    "verified": {
+      "ok": true,
+      "scope": "structure_options_image_decoding_hashes_classification_only",
+      "mathematical_verification": "not_performed_by_this_script",
+      "visual_source_comparison": "not_performed_by_this_script",
+      "latex_rendering": "not_performed_by_this_script",
+      "bank_sha256": "4a72599d04119f47043654ab9ee48ec1c9b10b4477a5e22fd7013aace59e9fbc",
+      "bytes": 102195,
+      "problems": 15,
+      "verified": 15,
+      "guided": 0,
+      "images": 7,
+      "figures": [
+        {
+          "source_id": "fusion5_examenes-selectivos-estatales_4-de-primaria_q10",
+          "figure": 1,
+          "sha256": "747d5ba804fc5e29db17ce3640d7f08906f147ac41d0ebb5f7c8e62cabaea8fe",
+          "width": 165,
+          "height": 136
+        },
+        {
+          "source_id": "fusion5_examenes-selectivos-estatales_4-de-primaria_q11",
+          "figure": 1,
+          "sha256": "8b2756249680fd29ca1f00b4735328e756718cbe1dd607ea2360cfe5e843491b",
+          "width": 262,
+          "height": 188
+        },
+        {
+          "source_id": "fusion5_examenes-selectivos-estatales_4-de-primaria_q12",
+          "figure": 1,
+          "sha256": "58ac34420f87f2b1780cb87bcca28627f5b6aee4135131d7d339c9685b40fd74",
+          "width": 417,
+          "height": 169
+        },
+        {
+          "source_id": "fusion5_examenes-selectivos-estatales_4-de-primaria_q13",
+          "figure": 1,
+          "sha256": "e888665683b484399298723546b0450553e4c47476cc17d2a6cbc11ad4a72247",
+          "width": 311,
+          "height": 207
+        },
+        {
+          "source_id": "fusion5_examenes-selectivos-estatales_4-de-primaria_q14",
+          "figure": 1,
+          "sha256": "e54a741a4ff356b1f1e1ec73c8a02626b2d5afa27a1a7b4d0e39e921831c815a",
+          "width": 171,
+          "height": 154
+        },
+        {
+          "source_id": "fusion5_examenes-selectivos-estatales_4-de-primaria_q15",
+          "figure": 1,
+          "sha256": "3f608ac71d5669ad924a022a82bc305b93860f90f8c1ab8198cd77e554c8c7af",
+          "width": 283,
+          "height": 126
+        },
+        {
+          "source_id": "fusion5_examenes-selectivos-estatales_4-de-primaria_q15",
+          "figure": 2,
+          "sha256": "3dbe85c507fe32b1a22fc0cf6249b2607014a73f2d413a0e540b1490564c71f5",
+          "width": 283,
+          "height": 144
+        }
+      ],
+      "errors": [],
+      "warnings": []
+    },
+    "classified": {
+      "ok": true,
+      "scope": "structure_options_image_decoding_hashes_classification_only",
+      "mathematical_verification": "not_performed_by_this_script",
+      "visual_source_comparison": "not_performed_by_this_script",
+      "latex_rendering": "not_performed_by_this_script",
+      "bank_sha256": "b9efaec11d6b08913e26a43ced7fc2738ca23ecd39c885e0d6c7159efb129693",
+      "bytes": 110287,
+      "problems": 15,
+      "verified": 15,
+      "guided": 0,
+      "images": 7,
+      "figures": [
+        {
+          "source_id": "fusion5_examenes-selectivos-estatales_4-de-primaria_q10",
+          "figure": 1,
+          "sha256": "747d5ba804fc5e29db17ce3640d7f08906f147ac41d0ebb5f7c8e62cabaea8fe",
+          "width": 165,
+          "height": 136
+        },
+        {
+          "source_id": "fusion5_examenes-selectivos-estatales_4-de-primaria_q11",
+          "figure": 1,
+          "sha256": "8b2756249680fd29ca1f00b4735328e756718cbe1dd607ea2360cfe5e843491b",
+          "width": 262,
+          "height": 188
+        },
+        {
+          "source_id": "fusion5_examenes-selectivos-estatales_4-de-primaria_q12",
+          "figure": 1,
+          "sha256": "58ac34420f87f2b1780cb87bcca28627f5b6aee4135131d7d339c9685b40fd74",
+          "width": 417,
+          "height": 169
+        },
+        {
+          "source_id": "fusion5_examenes-selectivos-estatales_4-de-primaria_q13",
+          "figure": 1,
+          "sha256": "e888665683b484399298723546b0450553e4c47476cc17d2a6cbc11ad4a72247",
+          "width": 311,
+          "height": 207
+        },
+        {
+          "source_id": "fusion5_examenes-selectivos-estatales_4-de-primaria_q14",
+          "figure": 1,
+          "sha256": "e54a741a4ff356b1f1e1ec73c8a02626b2d5afa27a1a7b4d0e39e921831c815a",
+          "width": 171,
+          "height": 154
+        },
+        {
+          "source_id": "fusion5_examenes-selectivos-estatales_4-de-primaria_q15",
+          "figure": 1,
+          "sha256": "3f608ac71d5669ad924a022a82bc305b93860f90f8c1ab8198cd77e554c8c7af",
+          "width": 283,
+          "height": 126
+        },
+        {
+          "source_id": "fusion5_examenes-selectivos-estatales_4-de-primaria_q15",
+          "figure": 2,
+          "sha256": "3dbe85c507fe32b1a22fc0cf6249b2607014a73f2d413a0e540b1490564c71f5",
+          "width": 283,
+          "height": 144
+        }
+      ],
+      "errors": [],
+      "warnings": []
+    }
+  }
+}

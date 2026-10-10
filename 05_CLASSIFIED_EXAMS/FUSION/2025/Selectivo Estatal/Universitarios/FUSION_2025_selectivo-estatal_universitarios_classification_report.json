@@ -1,0 +1,272 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+  "source_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed",
+  "bank_sha256": "4ce88f09b25d14f727b301de7fa891e289abc206a723752a1f90740d1ec84207",
+  "rubric": "Editorial L1/L2/L3 relative to source school grade; primary area follows decisive reasoning, not picture context.",
+  "problems": [
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_universitarios_q01",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "similar_triangles",
+        "midpoints",
+        "angles"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Universidad: combina pasos, modelado o enumeración con una inferencia."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_universitarios_q02",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "area",
+        "circles",
+        "complements"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Universidad: combina pasos, modelado o enumeración con una inferencia."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_universitarios_q03",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "primes",
+        "parity",
+        "vieta_formulas"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Universidad: aplicación directa o rutina breve."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_universitarios_q04",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "angle_bisector",
+        "pythagorean_theorem"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Universidad: combina pasos, modelado o enumeración con una inferencia."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_universitarios_q05",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "quadratic_equations",
+        "vieta_formulas"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Universidad: aplicación directa o rutina breve."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_universitarios_q06",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "polygons",
+        "diagonals"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Universidad: aplicación directa o rutina breve."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_universitarios_q07",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "graphs",
+        "quadratic_functions",
+        "counting"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Universidad: combina pasos, modelado o enumeración con una inferencia."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_universitarios_q08",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "trigonometric_functions",
+        "periodicity"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Universidad: aplicación directa o rutina breve."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_universitarios_q09",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "coordinates",
+        "midpoints",
+        "linear_equations"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Universidad: aplicación directa o rutina breve."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_universitarios_q10",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "domain",
+        "factorization",
+        "rational_expressions"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Universidad: aplicación directa o rutina breve."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_universitarios_q11",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "divisibility",
+        "equations"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Universidad: aplicación directa o rutina breve."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_universitarios_q12",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "primes",
+        "divisibility"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Universidad: aplicación directa o rutina breve."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_universitarios_q13",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "digits",
+        "divisibility",
+        "multiplication_principle"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Universidad: aplicación directa o rutina breve."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_universitarios_q14",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L3",
+      "tags": [
+        "counting",
+        "casework",
+        "integer_solutions"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Universidad: combina pasos, modelado o enumeración con una inferencia."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_universitarios_q15",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "least_common_multiple",
+        "remainders",
+        "minimization"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Universidad: combina pasos, modelado o enumeración con una inferencia."
+      ]
+    }
+  ]
+}

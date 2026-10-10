@@ -1,0 +1,842 @@
+{
+  "schema_version": "1.0",
+  "source_format_reference": "Cuantly public practice; original multiple_choice and open_answer preserved",
+  "exam": {
+    "competition": "FUSION",
+    "source_competition": "Campeonato de Olimpiadas Matemáticas FUSION25",
+    "edition": null,
+    "source_archive_family": "FUSION5",
+    "year": 2025,
+    "year_status": "confirmed",
+    "year_evidence": "Los encabezados dicen SELECTIVOS ESTATALES FUSION25 y el grado. La publicación institucional del anfitrión American School Foundation of Chiapas relaciona COMFUSION25 con Fusión 2025; esa correspondencia confirma 2025. No se infiere una edición del nombre FUSION5. Referencia: https://www.linkedin.com/posts/american-school-foundation-of-chiapas_proudtobeasfc-gobulldogs-worldready-activity-7377353761121492992-xrcg",
+    "phase": "Selectivo Estatal",
+    "level": "6.º de primaria",
+    "school_level": "Sexto año de primaria",
+    "problem_count": 15,
+    "source_file": "FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+    "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+    "source_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed",
+    "image_policy": "Original embedded mathematical figures byte for byte, except the three rotated appearances of group356: tight figure-only PDF renders preserve the printed 180-degree orientation. Formulas transcribed as LaTeX; no headers or answer sheets."
+  },
+  "validation_summary": {
+    "verified_problems": 12,
+    "needs_review_or_invalid": 3,
+    "needs_review_problem_numbers": [
+      5,
+      7,
+      10
+    ],
+    "notes": "Se cotejaron las 29 páginas: 150 preguntas y hoja final de respuestas en blanco, sin clave oficial. Ambigüedades conservadas con práctica guiada. Fórmulas desordenadas restauradas del PDF y figuras respetan su orientación impresa."
+  },
+  "problems": [
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_6-de-primaria_q01",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 6.º de primaria",
+      "problem_number": 1,
+      "source_question_label": "1",
+      "source_page": 7,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "La edad de Abigail es de 31 años, la de Mario es de 59 y la diferencia de las edades de Carmen y Clara es de 37\naños, ¿en cuánto excede la suma de las edades de Abigail y Mario a la diferencia de las de Carmen y Clara?",
+      "options": [
+        {
+          "label": "a",
+          "text": "22"
+        },
+        {
+          "label": "b",
+          "text": "65"
+        },
+        {
+          "label": "c",
+          "text": "9"
+        },
+        {
+          "label": "d",
+          "text": "53"
+        }
+      ],
+      "correct_answer": "53 años",
+      "correct_option_label": "d",
+      "solution_text": "1. La suma de las edades de Abigail y Mario es \\(31+59=90\\) años.\n2. Para saber cuánto excede esa suma a la diferencia 37, restamos: \\(90-37=\\mathbf{53}\\), opción **d**.\n3. Comprobación: \\(37+53=90\\). No se necesitan las edades individuales de Carmen y Clara porque ya conocemos su diferencia.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 53 años obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 53 años obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 53 años obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "d",
+          "is_correct": true,
+          "reason": "Coincide con el resultado 53 años."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed"
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_6-de-primaria_q02",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 6.º de primaria",
+      "problem_number": 2,
+      "source_question_label": "2",
+      "source_page": 7,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Determinar la suma de la mayor y menor de las siguientes fracciones:\n\n\\[\\frac59,\\quad\\frac75,\\quad\\frac{13}{15},\\quad\\frac{21}{11},\\quad\\frac35,\\quad\\frac97.\\]",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(\\frac{244}{99}\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(\\frac{302}{135}\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(\\frac{83}{55}\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(\\frac{302}{105}\\)"
+        }
+      ],
+      "correct_answer": "\\(244/99\\)",
+      "correct_option_label": "a",
+      "solution_text": "1. Las fracciones son \\(5/9,7/5,13/15,21/11,3/5,9/7\\). La menor es \\(5/9\\), pues \\(5/9<3/5<13/15<1\\). Las otras tres superan 1.\n2. La mayor es \\(21/11\\): \\(21\\cdot5>7\\cdot11\\) y \\(21\\cdot7>9\\cdot11\\).\n3. Sumamos \\(21/11+5/9=(189+55)/99=\\mathbf{244/99}\\), opción **a**.\n4. Las otras opciones no son equivalentes a 244/99; se comprueba multiplicando en cruz. Las aproximaciones 0.556 y 1.909 también confirman los extremos elegidos.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": true,
+          "reason": "Coincide con el resultado \\(244/99\\)."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "No coincide con el resultado \\(244/99\\) obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "No coincide con el resultado \\(244/99\\) obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "No coincide con el resultado \\(244/99\\) obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed"
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_6-de-primaria_q03",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 6.º de primaria",
+      "problem_number": 3,
+      "source_question_label": "3",
+      "source_page": 7,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Charlitos ha resuelto un banco de problemas de matemáticas en varios días de la siguiente manera: el primer día\nla mitad, el segundo la tercera parte de lo que faltaba, el tercero la cuarta parte de los que faltaba y el cuarto día\nuna quinta parte del nuevo resto y el quinto día los 24 que faltaban ¿Cuántos problemas habían originalmente\nen el banco de problemas?",
+      "options": [
+        {
+          "label": "a",
+          "text": "60"
+        },
+        {
+          "label": "b",
+          "text": "90"
+        },
+        {
+          "label": "c",
+          "text": "120"
+        },
+        {
+          "label": "d",
+          "text": "150"
+        }
+      ],
+      "correct_answer": "120 problemas",
+      "correct_option_label": "c",
+      "solution_text": "1. Si al principio hay N problemas, después del primer día queda \\(N/2\\).\n2. Luego queda \\((N/2)(2/3)=N/3\\), después \\((N/3)(3/4)=N/4\\), y tras el cuarto día \\((N/4)(4/5)=N/5\\).\n3. Ese resto es 24: \\(N/5=24\\), luego \\(N=\\mathbf{120}\\), opción **c**.\n4. Comprobación: resuelve 60, luego 20, luego 10 y después 6; quedan 24. La suma \\(60+20+10+6+24=120\\) recupera el total.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 120 problemas obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 120 problemas obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "c",
+          "is_correct": true,
+          "reason": "Coincide con el resultado 120 problemas."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 120 problemas obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed"
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_6-de-primaria_q04",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 6.º de primaria",
+      "problem_number": 4,
+      "source_question_label": "4",
+      "source_page": 7,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Se tiene un terreno cuadrado de 11025 m² de área, si en el perímetro del terreno se siembran árboles cada 5m\nde tal forma que se plante un árbol en cada esquina; calcula dicha cantidad de árboles:",
+      "options": [
+        {
+          "label": "a",
+          "text": "72"
+        },
+        {
+          "label": "b",
+          "text": "76"
+        },
+        {
+          "label": "c",
+          "text": "82"
+        },
+        {
+          "label": "d",
+          "text": "84"
+        }
+      ],
+      "correct_answer": "84 árboles",
+      "correct_option_label": "d",
+      "solution_text": "1. El lado del terreno mide \\(\\sqrt{11025}=105\\) m, porque \\(105^2=11025\\).\n2. Cada lado contiene \\(105/5=21\\) intervalos entre árboles. Los cuatro lados forman un circuito de \\(4\\cdot21=84\\) intervalos.\n3. En un circuito cerrado hay tantos árboles como intervalos: **84**, opción **d**. Contar 22 árboles por lado y restar las cuatro esquinas duplicadas da también \\(4\\cdot22-4=84\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 84 árboles obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 84 árboles obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 84 árboles obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "d",
+          "is_correct": true,
+          "reason": "Coincide con el resultado 84 árboles."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed"
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_6-de-primaria_q05",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 6.º de primaria",
+      "problem_number": 5,
+      "source_question_label": "5",
+      "source_page": 7,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Rigoberta envasó 120 litros de aceite y 70 de leche en la menor cantidad de recipientes iguales en los cuales es\nposible hacerlo son que se derrame liquido y sin hacer ninguna mezcla ¿Cuánto recaudó al vender cada envase\nde aceite en $15 y cada envase de leche en $10?",
+      "options": [
+        {
+          "label": "a",
+          "text": "$120"
+        },
+        {
+          "label": "b",
+          "text": "$250"
+        },
+        {
+          "label": "c",
+          "text": "$350"
+        },
+        {
+          "label": "d",
+          "text": "$380"
+        }
+      ],
+      "correct_answer": "$250 si los recipientes deben llenarse por completo",
+      "correct_option_label": null,
+      "solution_text": "1. Si se exige que todos los recipientes estén **llenos**, su capacidad debe dividir tanto 120 como 70. La mayor capacidad común es \\(\\operatorname{mcd}(120,70)=10\\) litros.\n2. En ese modelo hay 12 envases de aceite y 7 de leche; recauda \\(12\\cdot15+7\\cdot10=\\mathbf{250}\\) pesos, opción b.\n3. El original solo dice que los recipientes sean iguales, sin derrames ni mezclas; no exige llenarlos. Con capacidad de 120 litros bastan dos recipientes, uno de aceite y otro parcialmente lleno de leche. Se recaudarían $25 si se cobra por esos envases.\n4. Por esta omisión conservamos el resultado de $250 como condicional y desactivamos la calificación automática.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": null,
+          "reason": "1. Si se exige que todos los recipientes estén **llenos**, su capacidad debe dividir tanto 120 como 70. La mayor capacidad común es \\(\\operatorname{mcd}(120,70)=10\\) litros.\n2. En ese modelo hay 12 envases de aceite y 7 de leche; recauda \\(12\\cdot15+7\\cdot10=\\mathbf{250}\\) pesos, opción b.\n3. El original solo dice que los recipientes sean iguales, sin derrames ni mezclas; no exige llenarlos. Con capacidad de 120 litros bastan dos recipientes, uno de aceite y otro parcialmente lleno de leche. Se recaudarían $25 si se cobra por esos envases.\n4. Por esta omisión conservamos el resultado de $250 como condicional y desactivamos la calificación automática."
+        },
+        {
+          "label": "b",
+          "is_correct": null,
+          "reason": "1. Si se exige que todos los recipientes estén **llenos**, su capacidad debe dividir tanto 120 como 70. La mayor capacidad común es \\(\\operatorname{mcd}(120,70)=10\\) litros.\n2. En ese modelo hay 12 envases de aceite y 7 de leche; recauda \\(12\\cdot15+7\\cdot10=\\mathbf{250}\\) pesos, opción b.\n3. El original solo dice que los recipientes sean iguales, sin derrames ni mezclas; no exige llenarlos. Con capacidad de 120 litros bastan dos recipientes, uno de aceite y otro parcialmente lleno de leche. Se recaudarían $25 si se cobra por esos envases.\n4. Por esta omisión conservamos el resultado de $250 como condicional y desactivamos la calificación automática."
+        },
+        {
+          "label": "c",
+          "is_correct": null,
+          "reason": "1. Si se exige que todos los recipientes estén **llenos**, su capacidad debe dividir tanto 120 como 70. La mayor capacidad común es \\(\\operatorname{mcd}(120,70)=10\\) litros.\n2. En ese modelo hay 12 envases de aceite y 7 de leche; recauda \\(12\\cdot15+7\\cdot10=\\mathbf{250}\\) pesos, opción b.\n3. El original solo dice que los recipientes sean iguales, sin derrames ni mezclas; no exige llenarlos. Con capacidad de 120 litros bastan dos recipientes, uno de aceite y otro parcialmente lleno de leche. Se recaudarían $25 si se cobra por esos envases.\n4. Por esta omisión conservamos el resultado de $250 como condicional y desactivamos la calificación automática."
+        },
+        {
+          "label": "d",
+          "is_correct": null,
+          "reason": "1. Si se exige que todos los recipientes estén **llenos**, su capacidad debe dividir tanto 120 como 70. La mayor capacidad común es \\(\\operatorname{mcd}(120,70)=10\\) litros.\n2. En ese modelo hay 12 envases de aceite y 7 de leche; recauda \\(12\\cdot15+7\\cdot10=\\mathbf{250}\\) pesos, opción b.\n3. El original solo dice que los recipientes sean iguales, sin derrames ni mezclas; no exige llenarlos. Con capacidad de 120 litros bastan dos recipientes, uno de aceite y otro parcialmente lleno de leche. Se recaudarían $25 si se cobra por esos envases.\n4. Por esta omisión conservamos el resultado de $250 como condicional y desactivamos la calificación automática."
+        }
+      ],
+      "verification": {
+        "status": "ambiguous_source_container_filling",
+        "answer_checked": false,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "1. Si se exige que todos los recipientes estén **llenos**, su capacidad debe dividir tanto 120 como 70. La mayor capacidad común es \\(\\operatorname{mcd}(120,70)=10\\) litros.\n2. En ese modelo hay 12 envases de aceite y 7 de leche; recauda \\(12\\cdot15+7\\cdot10=\\mathbf{250}\\) pesos, opción b.\n3. El original solo dice que los recipientes sean iguales, sin derrames ni mezclas; no exige llenarlos. Con capacidad de 120 litros bastan dos recipientes, uno de aceite y otro parcialmente lleno de leche. Se recaudarían $25 si se cobra por esos envases.\n4. Por esta omisión conservamos el resultado de $250 como condicional y desactivamos la calificación automática."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed"
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_6-de-primaria_q06",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 6.º de primaria",
+      "problem_number": 6,
+      "source_question_label": "6",
+      "source_page": 8,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "80 alumnos presentaron 3 exámenes Algebra, Biología y Cálculo observándose que:\n•\nTodos los que aprobaron álgebra también aprobaron Biología.\n•\nTodos los que Aprobaron el examen de Biología aprobaron el examen de Cálculo.\n•\nTodos los que aprobaron el examen de Cálculo aprobaron el de Álgebra.\n•\n20 desaprobaron los 3 exámenes.\nCalcular cuántos aprobaron los 3 exámenes.",
+      "options": [
+        {
+          "label": "a",
+          "text": "60"
+        },
+        {
+          "label": "b",
+          "text": "40"
+        },
+        {
+          "label": "c",
+          "text": "20"
+        },
+        {
+          "label": "d",
+          "text": "75"
+        }
+      ],
+      "correct_answer": "60 alumnos",
+      "correct_option_label": "a",
+      "solution_text": "1. Denotamos por A, B y C los conjuntos de quienes aprobaron Álgebra, Biología y Cálculo.\n2. Las condiciones dan \\(A\\subseteq B\\subseteq C\\subseteq A\\). Por tanto los tres conjuntos son iguales: cada alumno aprobó los tres o ninguno.\n3. Si 20 de los 80 no aprobaron ninguno, aprobaron los tres \\(80-20=\\mathbf{60}\\), opción **a**.\n4. Comprobación: 60 en el conjunto común y 20 fuera satisfacen todas las inclusiones y el total de 80.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": true,
+          "reason": "Coincide con el resultado 60 alumnos."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 60 alumnos obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 60 alumnos obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 60 alumnos obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed"
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_6-de-primaria_q07",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 6.º de primaria",
+      "problem_number": 7,
+      "source_question_label": "7",
+      "source_page": 8,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Charlitos nació el 3 de mayo de 1903 y Romualdo el 7 de junio de 1911. ¿En que fecha la edad de Charlitos será\nel quíntuplo de la de Romualdo ?",
+      "options": [
+        {
+          "label": "a",
+          "text": "15 junio 1913"
+        },
+        {
+          "label": "b",
+          "text": "14 de junio de 1913"
+        },
+        {
+          "label": "c",
+          "text": "13 de junio de 1913"
+        },
+        {
+          "label": "d",
+          "text": "16 de junio de 1913"
+        }
+      ],
+      "correct_answer": "Depende de cómo se mida la edad",
+      "correct_option_label": null,
+      "solution_text": "1. Con edades cumplidas en años enteros, Charlitos tiene 10 años y Romualdo 2 desde el 7 de junio de 1913 hasta antes del 3 de mayo de 1914. En todo ese intervalo se cumple \\(10=5\\cdot2\\).\n2. Por tanto las cuatro fechas ofrecidas, del 13 al 16 de junio de 1913, satisfacen la condición con edades cumplidas.\n3. Si se interpreta edad como tiempo continuo transcurrido y se toman los nacimientos a medianoche, la separación es 2957 días. La edad del menor debe ser \\(2957/4=739.25\\) días: llega al quíntuplo el 15 de junio de 1913 a las 6:00.\n4. El documento no fija esa convención ni las horas de nacimiento. No hay una fecha única bajo la lectura usual de años cumplidos, por lo que el reactivo queda guiado.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": null,
+          "reason": "1. Con edades cumplidas en años enteros, Charlitos tiene 10 años y Romualdo 2 desde el 7 de junio de 1913 hasta antes del 3 de mayo de 1914. En todo ese intervalo se cumple \\(10=5\\cdot2\\).\n2. Por tanto las cuatro fechas ofrecidas, del 13 al 16 de junio de 1913, satisfacen la condición con edades cumplidas.\n3. Si se interpreta edad como tiempo continuo transcurrido y se toman los nacimientos a medianoche, la separación es 2957 días. La edad del menor debe ser \\(2957/4=739.25\\) días: llega al quíntuplo el 15 de junio de 1913 a las 6:00.\n4. El documento no fija esa convención ni las horas de nacimiento. No hay una fecha única bajo la lectura usual de años cumplidos, por lo que el reactivo queda guiado."
+        },
+        {
+          "label": "b",
+          "is_correct": null,
+          "reason": "1. Con edades cumplidas en años enteros, Charlitos tiene 10 años y Romualdo 2 desde el 7 de junio de 1913 hasta antes del 3 de mayo de 1914. En todo ese intervalo se cumple \\(10=5\\cdot2\\).\n2. Por tanto las cuatro fechas ofrecidas, del 13 al 16 de junio de 1913, satisfacen la condición con edades cumplidas.\n3. Si se interpreta edad como tiempo continuo transcurrido y se toman los nacimientos a medianoche, la separación es 2957 días. La edad del menor debe ser \\(2957/4=739.25\\) días: llega al quíntuplo el 15 de junio de 1913 a las 6:00.\n4. El documento no fija esa convención ni las horas de nacimiento. No hay una fecha única bajo la lectura usual de años cumplidos, por lo que el reactivo queda guiado."
+        },
+        {
+          "label": "c",
+          "is_correct": null,
+          "reason": "1. Con edades cumplidas en años enteros, Charlitos tiene 10 años y Romualdo 2 desde el 7 de junio de 1913 hasta antes del 3 de mayo de 1914. En todo ese intervalo se cumple \\(10=5\\cdot2\\).\n2. Por tanto las cuatro fechas ofrecidas, del 13 al 16 de junio de 1913, satisfacen la condición con edades cumplidas.\n3. Si se interpreta edad como tiempo continuo transcurrido y se toman los nacimientos a medianoche, la separación es 2957 días. La edad del menor debe ser \\(2957/4=739.25\\) días: llega al quíntuplo el 15 de junio de 1913 a las 6:00.\n4. El documento no fija esa convención ni las horas de nacimiento. No hay una fecha única bajo la lectura usual de años cumplidos, por lo que el reactivo queda guiado."
+        },
+        {
+          "label": "d",
+          "is_correct": null,
+          "reason": "1. Con edades cumplidas en años enteros, Charlitos tiene 10 años y Romualdo 2 desde el 7 de junio de 1913 hasta antes del 3 de mayo de 1914. En todo ese intervalo se cumple \\(10=5\\cdot2\\).\n2. Por tanto las cuatro fechas ofrecidas, del 13 al 16 de junio de 1913, satisfacen la condición con edades cumplidas.\n3. Si se interpreta edad como tiempo continuo transcurrido y se toman los nacimientos a medianoche, la separación es 2957 días. La edad del menor debe ser \\(2957/4=739.25\\) días: llega al quíntuplo el 15 de junio de 1913 a las 6:00.\n4. El documento no fija esa convención ni las horas de nacimiento. No hay una fecha única bajo la lectura usual de años cumplidos, por lo que el reactivo queda guiado."
+        }
+      ],
+      "verification": {
+        "status": "ambiguous_source_age_convention",
+        "answer_checked": false,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "1. Con edades cumplidas en años enteros, Charlitos tiene 10 años y Romualdo 2 desde el 7 de junio de 1913 hasta antes del 3 de mayo de 1914. En todo ese intervalo se cumple \\(10=5\\cdot2\\).\n2. Por tanto las cuatro fechas ofrecidas, del 13 al 16 de junio de 1913, satisfacen la condición con edades cumplidas.\n3. Si se interpreta edad como tiempo continuo transcurrido y se toman los nacimientos a medianoche, la separación es 2957 días. La edad del menor debe ser \\(2957/4=739.25\\) días: llega al quíntuplo el 15 de junio de 1913 a las 6:00.\n4. El documento no fija esa convención ni las horas de nacimiento. No hay una fecha única bajo la lectura usual de años cumplidos, por lo que el reactivo queda guiado."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed"
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_6-de-primaria_q08",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 6.º de primaria",
+      "problem_number": 8,
+      "source_question_label": "8",
+      "source_page": 8,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Un Libro costó $120, ¿A qué precio debe venderse, sabiendo que aun haciendo 2 descuentos sucesivos del 10% y\n20% se ganaría el 20% del costo?",
+      "options": [],
+      "correct_answer": "$200",
+      "correct_option_label": null,
+      "solution_text": "1. Ganar el 20% sobre un costo de $120 requiere cobrar finalmente \\(120\\cdot1.20=144\\) pesos.\n2. Los descuentos sucesivos dejan el \\(90\\%\\) y después el \\(80\\%\\) de ese importe: si P es el precio marcado, se cobra \\(P\\cdot0.9\\cdot0.8=0.72P\\).\n3. De \\(0.72P=144\\) resulta \\(P=\\mathbf{200}\\) pesos.\n4. Comprobación: $200 baja a $180 y después a $144; la ganancia es $24, que es el 20% de $120. No se suman los porcentajes de descuento.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed"
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_6-de-primaria_q09",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 6.º de primaria",
+      "problem_number": 9,
+      "source_question_label": "9",
+      "source_page": 8,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "En un aula de 65 alumnos de 6° de primaria luego de los exámenes trimestrales se observó que en los cursos de\nEspañol, Matemáticas e Ingles aprobaron 42, 48 y 48 alumnos respectivamente; además 7 aprobaron Español\npero no Matemáticas, mientras que 6 aprobaron solo Ingles. ¿cuántos desaprobaron los 3 cursos?",
+      "options": [],
+      "correct_answer": "4 alumnos",
+      "correct_option_label": null,
+      "solution_text": "1. Los 48 que aprobaron Matemáticas, junto con los siete que aprobaron Español pero no Matemáticas, forman 55 alumnos que aprobaron al menos una de esas dos materias.\n2. Fuera de esos dos conjuntos, los que aprobaron Inglés son precisamente los seis de «solo Inglés». Por tanto aprobaron alguna materia \\(55+6=61\\) alumnos.\n3. De los 65, no aprobaron ninguna \\(65-61=\\mathbf4\\).\n4. Comprobación: Español tiene 42, de los cuales \\(42-7=35\\) están también en Matemáticas. Así, \\(42+48-35=55\\), el mismo total inicial; el dato Inglés=48 es compatible con 42 dentro y seis fuera.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed"
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_6-de-primaria_q10",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 6.º de primaria",
+      "problem_number": 10,
+      "source_question_label": "10",
+      "source_page": 8,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "En una fiesta familiar en Mi pueblo se observa que el número de hombres es 5 a 3 con respecto a las mujeres.\nAdemás de cada 6 mujeres 1 tiene sombrero. Si todas las mujeres están bailando y 15 de ellas usan sombrero.\n¿Cuántos asistentes a la fiesta no están bailando?",
+      "options": [],
+      "correct_answer": "60 si se baila en parejas de un hombre y una mujer",
+      "correct_option_label": null,
+      "solution_text": "1. Si una de cada seis mujeres tiene sombrero y hay 15 con sombrero, hay \\(15\\cdot6=90\\) mujeres. La razón 5:3 da \\(90\\cdot5/3=150\\) hombres.\n2. Si todas bailan en parejas de un hombre y una mujer, bailan 90 hombres y quedan \\(150-90=\\mathbf{60}\\) personas sin bailar.\n3. El enunciado no especifica parejas de ese tipo ni cuántos hombres bailan. Saber que todas las mujeres bailan no determina por sí solo quién más lo hace.\n4. Conservamos 60 como resultado condicional, pero el dato omitido impide una respuesta única al original.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "ambiguous_source_dancing_pairs",
+        "answer_checked": false,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "1. Si una de cada seis mujeres tiene sombrero y hay 15 con sombrero, hay \\(15\\cdot6=90\\) mujeres. La razón 5:3 da \\(90\\cdot5/3=150\\) hombres.\n2. Si todas bailan en parejas de un hombre y una mujer, bailan 90 hombres y quedan \\(150-90=\\mathbf{60}\\) personas sin bailar.\n3. El enunciado no especifica parejas de ese tipo ni cuántos hombres bailan. Saber que todas las mujeres bailan no determina por sí solo quién más lo hace.\n4. Conservamos 60 como resultado condicional, pero el dato omitido impide una respuesta única al original."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed"
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_6-de-primaria_q11",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 6.º de primaria",
+      "problem_number": 11,
+      "source_question_label": "11",
+      "source_page": 8,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "En la figura, ABCD y EFGH son rectángulos superpuestos (uno encima del otro) de lados enteros y de la misma\nárea. AB = 10, BC = 4, y x,y,z representan las áreas de los rectángulos sombreados en la figura. De los siguientes\nnúmeros, sólo uno no puede ser el valor de z. ¿Cuál es?",
+      "options": [
+        {
+          "label": "a",
+          "text": "36"
+        },
+        {
+          "label": "b",
+          "text": "32"
+        },
+        {
+          "label": "c",
+          "text": "24"
+        },
+        {
+          "label": "d",
+          "text": "16"
+        }
+      ],
+      "correct_answer": "16",
+      "correct_option_label": "d",
+      "solution_text": "1. El rectángulo vertical tiene área \\(10\\cdot4=40\\). El horizontal tiene la misma área y lados enteros. Sea h su altura y w su ancho; \\(hw=40\\).\n2. Según la superposición del dibujo, \\(0<h<10\\) y \\(w>4\\). La parte común mide \\(4h\\), por lo que \\(z=40-4h\\).\n3. Las alturas enteras que dividen 40 y son menores que 10 son 1, 2, 4, 5 y 8. Producen z=36, 32, 24, 20 y 8.\n4. **16**, opción **d**, exigiría h=6 y \\(w=40/6\\), que no es entero. En cambio 36, 32 y 24 corresponden a h=1, 2 y 4, con anchos enteros 40, 20 y 10.",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Figura del problema",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "02abbb9354ff5b02fa295aaa3ab757cb60b780b22dc53381320b7437b18a684b",
+          "source": "pdf_embedded_image",
+          "original_filename": "page8_Image71.png",
+          "width_px": 97,
+          "height_px": 87
+        }
+      ],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 16 obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 16 obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 16 obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "d",
+          "is_correct": true,
+          "reason": "Coincide con el resultado 16."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed"
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_6-de-primaria_q12",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 6.º de primaria",
+      "problem_number": 12,
+      "source_question_label": "12",
+      "source_page": 9,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Hace dos años, la suma de las edades de Charlitos  y Pepita era 15 años. Ahora Charlitos tiene 13 años. ¿Dentro\nde cuántos años tendrá 9 años Pepita?",
+      "options": [
+        {
+          "label": "a",
+          "text": "1"
+        },
+        {
+          "label": "b",
+          "text": "2"
+        },
+        {
+          "label": "c",
+          "text": "3"
+        },
+        {
+          "label": "d",
+          "text": "4"
+        }
+      ],
+      "correct_answer": "3 años",
+      "correct_option_label": "c",
+      "solution_text": "1. Hace dos años Charlitos tenía \\(13-2=11\\) años. Como las dos edades sumaban 15, Pepita tenía \\(15-11=4\\).\n2. Ahora Pepita tiene \\(4+2=6\\). Para cumplir 9 faltan \\(9-6=\\mathbf3\\) años, opción **c**.\n3. Comprobación: dentro de tres años tendrán 16 y 9; las edades de hace dos años eran 11 y 4, cuya suma es 15.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 3 años obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 3 años obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "c",
+          "is_correct": true,
+          "reason": "Coincide con el resultado 3 años."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 3 años obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed"
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_6-de-primaria_q13",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 6.º de primaria",
+      "problem_number": 13,
+      "source_question_label": "13",
+      "source_page": 9,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Pita va a repartir a partes iguales entre un grupo de amigos una gran cantidad de manzanas.  Charlitos llega tarde\na la reunión y hace que haya que repartir de nuevo. Ahora Pita recibe 1/6 de manzanas menos que lo que le\ncorrespondía antes de llegar Charlitos. ¿Cuántas personas (Pita incluida) había en el grupo antes de que llegara\nCharlitos?",
+      "options": [
+        {
+          "label": "a",
+          "text": "6"
+        },
+        {
+          "label": "b",
+          "text": "5"
+        },
+        {
+          "label": "c",
+          "text": "4"
+        },
+        {
+          "label": "d",
+          "text": "3"
+        }
+      ],
+      "correct_answer": "5 personas",
+      "correct_option_label": "b",
+      "solution_text": "1. Sea N el número inicial de personas y T la cantidad total de manzanas. Cada una recibía \\(T/N\\).\n2. Con Charlitos reciben \\(T/(N+1)\\). La reducción relativa de la porción es \\(\\frac{T/N-T/(N+1)}{T/N}=1/(N+1)\\).\n3. Esa reducción es 1/6, de modo que \\(N+1=6\\) y \\(N=\\mathbf5\\), opción **b**.\n4. Comprobación con 30 manzanas: cinco personas recibían seis; con seis personas reciben cinco. La pérdida de una es un sexto de la porción anterior.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 5 personas obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "b",
+          "is_correct": true,
+          "reason": "Coincide con el resultado 5 personas."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 5 personas obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 5 personas obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed"
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_6-de-primaria_q14",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 6.º de primaria",
+      "problem_number": 14,
+      "source_question_label": "14",
+      "source_page": 9,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "¿Cuántos rectángulos con algún vértice en A hay en la figura?",
+      "options": [],
+      "correct_answer": "26 rectángulos",
+      "correct_option_label": null,
+      "solution_text": "1. Numeramos las líneas verticales de la franja horizontal de 0 a 9. La franja vertical ocupa de x=3 a x=5; A está en x=3, sobre el borde superior de la franja horizontal.\n2. Elegir el vértice opuesto determina un rectángulo con vértice A. Si la otra vertical es x=4 o x=5, hay seis niveles horizontales distintos de A en la franja vertical: \\(2\\cdot6=12\\).\n3. Las otras siete verticales solo permiten los dos niveles inferiores de la franja horizontal: \\(7\\cdot2=14\\).\n4. Total \\(12+14=\\mathbf{26}\\). Cada pareja de una vertical y un nivel se cuenta una sola vez; las combinaciones restantes saldrían del dibujo.",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Figura del problema",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "iVBORw0KGgoAAAANSUhEUgAAAWcAAACHCAIAAABF6Q/sAAAEyUlEQVR4nO3csU9TaxjA4Z5bFokOLgaCCWLAiYF/gIkVEyY2ExcW6v8hbk4EQ0yYOjEyMJroJAsBQwISKgnEhQEMjQGBOtwbQ673Gl84/SznPM9kGtIPv8KP9uvpm7VarQrAb/vr978UQDWAMM81gBjVAGJUA4hRDSBGNYCYruDXc10DAwNl2MRGo/GnvwXaJXOVV2JZliX+jRoYGEi/op+rAlON5Duepd7zMqxISs41gBjVAGJUA4hRDSBGNYAY1QBiVAOIUQ0gRjWAGNUAYlQDiFENIEY1gBjVAGJUA4hRDSBGNYAYc0NLMTq0JMNKScOkttTMDeWmU43kO16CKZ7mhhabcw0gRjVys7Gx8fjx42fPnuV3l9CJnIbmo9lsPn/+/P3798fHxzndJXQozzXyUa/Xd3d3x8bGzs/Pc7pL6FCqkYP19fX5+fnp6el79+7lcX/Q0VTjuprN5osXL0ZGRsbHxy8uLnJ5VKCTOde4rnq9/vHjx9evX9++ffvs7CyXRwU6mes1rmV9fX1ycrLZbA4PD1er1Q8fPty/f//t27clv3rC9RrF5rnG1TWbzZmZmUePHo2NjVWr1Uqlcnh4mONjA51JNa6uXq9vbW3Nz88PDg7+fcvKysr29nZejw10JtW4orW1tbm5uVqtNjw83NX1zzb++AcUmHONKzo5OTk4OLh79253d/ePGw8ODr59+9bb21vyUwbnGsWmGsl3vAS/w6pRbK7XAGK8Dk/k6OhocXFxc3OzUqns7+/39fWlWhly5hVKCo1GY3Jycmdn5/T09Pj4+OHDhwsLC6Ojo0kW9wqFnKlGChMTE0tLSz8+2JZl2dDQ0Orq6q1btxKs7lyDfDnXaLu9vb3l5eXLn4VttVrb29tv3rxp/+KQ8FzDfNq8nJ2dnZyc/OvGi4uLp0+fXn7Xtq3MN+ZqGo1G4BVKGYbipln0/Px8dHT08+fPl2+sVqvv3r3r6empFHFjrViYXf3PPvyqGmV4kz/Boq1W69WrV7Va7fLn6Gu12suXL9NcS1qGh9KKKXfVO69tl2XZkydPuru7Z2dnNzc3Dw8PZ2ZmpqamXH7ODeW5RqK/il+/fj06Ojo9Pe3v7//y5cudO3cqqfg7bFfz/clRDc+l86dTxd5V77wCMaoBxKgGEKMaQIxqADGqAcSoBhCjGkCMagAxqgHEqAYQoxpAjGoAMaoBxPxqKk9Jhk2W4b9pRbuaI3NDzdTMn7mh7WBuaInmhlrRrhbsZ9W5BhCjGkCMagAxqgHEqAYQoxpAjGoAMaoBxKgGEKMaQIxqADGqAcSoBhCjGkCMagAxqgHEqAYQY26omZptYVJpYQbr/ux/Z4p9+vQp+TdTCmZqcoM8ePDg5xv/wKjOkuuc6Y9FWpGUnGsAMaoBxKgGEKMaQIxqADGqAcSoBhCjGkCMagAxqgHEqAYQoxpAjGoAMaoBxKgGEKMaQIxqADGqAeQ3bZg2KcMkXgrMfMfkO55ljUaj8PONzQ0tMNVIvuMlmP1r2nCxOdcAYlQDiFENIEY1gBjVAGJUA4hRDSBGNYAY1QBiVAOIUQ0gRjWAGNUAYlQDiFENIEY1gBjVAGLMDf0DzA3lRlON1BKP8ITcmRsKxDjXAGJUA6iEfAcEHDkLd/0HRwAAAABJRU5ErkJggg==",
+          "sha256": "0856a146f7f5cbf4ad017bbdb220a9579b1faf9123b1b0479e485bbc57637833",
+          "source": "pdf_embedded_image",
+          "original_filename": "page9_Image74.png",
+          "width_px": 359,
+          "height_px": 135
+        }
+      ],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed"
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_6-de-primaria_q15",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 6.º de primaria",
+      "problem_number": 15,
+      "source_question_label": "15",
+      "source_page": 9,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Un Abarrotero compró 28 rejas de frutas. Cada reja contiene 8kg. Pago $2 por cada kg y $21.40 por el traslado de\ntodas las rejas. Por la venta del total obtuvo una ganancia de $90.60. ¿A qué precio vendió el kilo de fruta?",
+      "options": [],
+      "correct_answer": "$2.50 por kg",
+      "correct_option_label": null,
+      "solution_text": "1. Compró \\(28\\cdot8=224\\) kg. La fruta costó \\(224\\cdot2=448\\) pesos y el costo total con traslado fue \\(448+21.40=469.40\\).\n2. Para obtener una ganancia de $90.60 ingresó \\(469.40+90.60=560\\) pesos.\n3. El precio por kg fue \\(560/224=\\mathbf{2.50}\\) pesos.\n4. Comprobación: \\(224\\cdot2.50-448-21.40=90.60\\). El traslado se incluye antes de calcular la ganancia.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed"
+    }
+  ]
+}

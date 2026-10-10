@@ -4,12 +4,12 @@
   "source_pages": 226,
   "recovered_occurrences": 881,
   "legacy_statement_groups": 441,
-  "published_banks": 70,
-  "published_occurrences": 513,
-  "verified_answer_occurrences": 455,
-  "guided_occurrences": 58,
+  "published_banks": 80,
+  "published_occurrences": 663,
+  "verified_answer_occurrences": 585,
+  "guided_occurrences": 78,
   "alternate_source_occurrences": 42,
-  "pending_occurrences": 326,
+  "pending_occurrences": 176,
   "working_draft": "04_REFERENCE_SOURCES/FUSION/recovery/working_draft.json",
   "reviewed_banks": [
     "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 1/Primaria/FUSION_2020_torneo-1_primaria_classified.json",
@@ -81,6 +81,16 @@
     "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/1.º de preparatoria/FUSION_2024_eliminatoria-estatal_1-de-preparatoria_classified.json",
     "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/2.º de preparatoria/FUSION_2024_eliminatoria-estatal_2-de-preparatoria_classified.json",
     "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/3.º de preparatoria/FUSION_2024_eliminatoria-estatal_3-de-preparatoria_classified.json",
-    "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/Universitarios/FUSION_2024_eliminatoria-estatal_universitarios_classified.json"
+    "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/Universitarios/FUSION_2024_eliminatoria-estatal_universitarios_classified.json",
+    "05_CLASSIFIED_EXAMS/FUSION/2025/Selectivo Estatal/4.º de primaria/FUSION_2025_selectivo-estatal_4-de-primaria_classified.json",
+    "05_CLASSIFIED_EXAMS/FUSION/2025/Selectivo Estatal/5.º de primaria/FUSION_2025_selectivo-estatal_5-de-primaria_classified.json",
+    "05_CLASSIFIED_EXAMS/FUSION/2025/Selectivo Estatal/6.º de primaria/FUSION_2025_selectivo-estatal_6-de-primaria_classified.json",
+    "05_CLASSIFIED_EXAMS/FUSION/2025/Selectivo Estatal/1.º de secundaria/FUSION_2025_selectivo-estatal_1-de-secundaria_classified.json",
+    "05_CLASSIFIED_EXAMS/FUSION/2025/Selectivo Estatal/2.º de secundaria/FUSION_2025_selectivo-estatal_2-de-secundaria_classified.json",
+    "05_CLASSIFIED_EXAMS/FUSION/2025/Selectivo Estatal/3.º de secundaria/FUSION_2025_selectivo-estatal_3-de-secundaria_classified.json",
+    "05_CLASSIFIED_EXAMS/FUSION/2025/Selectivo Estatal/1.º de preparatoria/FUSION_2025_selectivo-estatal_1-de-preparatoria_classified.json",
+    "05_CLASSIFIED_EXAMS/FUSION/2025/Selectivo Estatal/2.º de preparatoria/FUSION_2025_selectivo-estatal_2-de-preparatoria_classified.json",
+    "05_CLASSIFIED_EXAMS/FUSION/2025/Selectivo Estatal/3.º de preparatoria/FUSION_2025_selectivo-estatal_3-de-preparatoria_classified.json",
+    "05_CLASSIFIED_EXAMS/FUSION/2025/Selectivo Estatal/Universitarios/FUSION_2025_selectivo-estatal_universitarios_classified.json"
   ]
 }

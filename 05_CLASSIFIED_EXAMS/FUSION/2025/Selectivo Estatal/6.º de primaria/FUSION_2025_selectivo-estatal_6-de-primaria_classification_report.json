@@ -1,0 +1,267 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+  "source_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed",
+  "bank_sha256": "f657f615e25b3f405f1b49f541657768f433a691d95cb65c08cd3442896378b7",
+  "rubric": "Editorial L1/L2/L3 relative to source school grade; primary area follows decisive reasoning, not picture context.",
+  "problems": [
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_6-de-primaria_q01",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "addition",
+        "subtraction"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Sexto año de primaria: aplicación directa o rutina breve."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_6-de-primaria_q02",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "fractions",
+        "comparison",
+        "fraction_addition"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Sexto año de primaria: combina pasos, modelado o enumeración con una inferencia."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_6-de-primaria_q03",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "fractions",
+        "reverse_operations"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Sexto año de primaria: combina pasos, modelado o enumeración con una inferencia."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_6-de-primaria_q04",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "square_roots",
+        "perimeter",
+        "counting"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Sexto año de primaria: combina pasos, modelado o enumeración con una inferencia."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_6-de-primaria_q05",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "gcd",
+        "unit_rate"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Sexto año de primaria: combina pasos, modelado o enumeración con una inferencia."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_6-de-primaria_q06",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "sets",
+        "logic"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Sexto año de primaria: aplicación directa o rutina breve."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_6-de-primaria_q07",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "ages",
+        "calendar",
+        "equations"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Sexto año de primaria: combina pasos, modelado o enumeración con una inferencia."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_6-de-primaria_q08",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "successive_percent_changes",
+        "profit"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Sexto año de primaria: combina pasos, modelado o enumeración con una inferencia."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_6-de-primaria_q09",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "sets",
+        "inclusion_exclusion"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Sexto año de primaria: combina pasos, modelado o enumeración con una inferencia."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_6-de-primaria_q10",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "ratios",
+        "proportions"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Sexto año de primaria: combina pasos, modelado o enumeración con una inferencia."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_6-de-primaria_q11",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "area",
+        "integer_solutions",
+        "divisors"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Sexto año de primaria: combina pasos, modelado o enumeración con una inferencia."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_6-de-primaria_q12",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "ages",
+        "equations"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Sexto año de primaria: aplicación directa o rutina breve."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_6-de-primaria_q13",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "fractions",
+        "equal_sharing"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Sexto año de primaria: combina pasos, modelado o enumeración con una inferencia."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_6-de-primaria_q14",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "grid_geometry",
+        "counting"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Sexto año de primaria: combina pasos, modelado o enumeración con una inferencia."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_6-de-primaria_q15",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "profit",
+        "unit_rate"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Sexto año de primaria: combina pasos, modelado o enumeración con una inferencia."
+      ]
+    }
+  ]
+}

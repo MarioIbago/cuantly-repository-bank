@@ -1,0 +1,1094 @@
+{
+  "schema_version": "1.0",
+  "source_format_reference": "Cuantly public practice; original multiple_choice and open_answer preserved",
+  "exam": {
+    "competition": "FUSION",
+    "source_competition": "Campeonato de Olimpiadas Matemáticas FUSION25",
+    "edition": null,
+    "source_archive_family": "FUSION5",
+    "year": 2025,
+    "year_status": "confirmed",
+    "year_evidence": "Los encabezados dicen SELECTIVOS ESTATALES FUSION25 y el grado. La publicación institucional del anfitrión American School Foundation of Chiapas relaciona COMFUSION25 con Fusión 2025; esa correspondencia confirma 2025. No se infiere una edición del nombre FUSION5. Referencia: https://www.linkedin.com/posts/american-school-foundation-of-chiapas_proudtobeasfc-gobulldogs-worldready-activity-7377353761121492992-xrcg",
+    "phase": "Selectivo Estatal",
+    "level": "1.º de preparatoria",
+    "school_level": "Primer año de preparatoria",
+    "problem_count": 15,
+    "source_file": "FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+    "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+    "source_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed",
+    "image_policy": "Original embedded mathematical figures byte for byte, except the three rotated appearances of group356: tight figure-only PDF renders preserve the printed 180-degree orientation. Formulas transcribed as LaTeX; no headers or answer sheets.",
+    "classification_phase": "completed",
+    "difficulty_phase": "completed"
+  },
+  "validation_summary": {
+    "verified_problems": 11,
+    "needs_review_or_invalid": 4,
+    "needs_review_problem_numbers": [
+      1,
+      3,
+      5,
+      6
+    ],
+    "notes": "Se cotejaron las 29 páginas: 150 preguntas y hoja final de respuestas en blanco, sin clave oficial. Ambigüedades conservadas con práctica guiada. Fórmulas desordenadas restauradas del PDF y figuras respetan su orientación impresa."
+  },
+  "problems": [
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-preparatoria_q01",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 1.º de preparatoria",
+      "problem_number": 1,
+      "source_question_label": "1",
+      "source_page": 19,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Charlitos nació el 3 de mayo de 1903 y Romualdo el 7 de junio de 1911. ¿En que fecha la edad de Charlitos será\nel quíntuplo de la de Romualdo?",
+      "options": [
+        {
+          "label": "a",
+          "text": "15 junio 1913"
+        },
+        {
+          "label": "b",
+          "text": "14 de junio de 1913"
+        },
+        {
+          "label": "c",
+          "text": "13 de junio de 1913"
+        },
+        {
+          "label": "d",
+          "text": "16 de junio de 1913"
+        }
+      ],
+      "correct_answer": "Depende de cómo se mida la edad",
+      "correct_option_label": null,
+      "solution_text": "1. Con edades cumplidas en años enteros, Charlitos tiene 10 años y Romualdo 2 desde el 7 de junio de 1913 hasta antes del 3 de mayo de 1914. En todo ese intervalo se cumple \\(10=5\\cdot2\\).\n2. Por tanto las cuatro fechas ofrecidas, del 13 al 16 de junio de 1913, satisfacen la condición con edades cumplidas.\n3. Si se interpreta edad como tiempo continuo transcurrido y se toman los nacimientos a medianoche, la separación es 2957 días. La edad del menor debe ser \\(2957/4=739.25\\) días: llega al quíntuplo el 15 de junio de 1913 a las 6:00.\n4. El documento no fija esa convención ni las horas de nacimiento. No hay una fecha única bajo la lectura usual de años cumplidos, por lo que el reactivo queda guiado.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": null,
+          "reason": "1. Con edades cumplidas en años enteros, Charlitos tiene 10 años y Romualdo 2 desde el 7 de junio de 1913 hasta antes del 3 de mayo de 1914. En todo ese intervalo se cumple \\(10=5\\cdot2\\).\n2. Por tanto las cuatro fechas ofrecidas, del 13 al 16 de junio de 1913, satisfacen la condición con edades cumplidas.\n3. Si se interpreta edad como tiempo continuo transcurrido y se toman los nacimientos a medianoche, la separación es 2957 días. La edad del menor debe ser \\(2957/4=739.25\\) días: llega al quíntuplo el 15 de junio de 1913 a las 6:00.\n4. El documento no fija esa convención ni las horas de nacimiento. No hay una fecha única bajo la lectura usual de años cumplidos, por lo que el reactivo queda guiado."
+        },
+        {
+          "label": "b",
+          "is_correct": null,
+          "reason": "1. Con edades cumplidas en años enteros, Charlitos tiene 10 años y Romualdo 2 desde el 7 de junio de 1913 hasta antes del 3 de mayo de 1914. En todo ese intervalo se cumple \\(10=5\\cdot2\\).\n2. Por tanto las cuatro fechas ofrecidas, del 13 al 16 de junio de 1913, satisfacen la condición con edades cumplidas.\n3. Si se interpreta edad como tiempo continuo transcurrido y se toman los nacimientos a medianoche, la separación es 2957 días. La edad del menor debe ser \\(2957/4=739.25\\) días: llega al quíntuplo el 15 de junio de 1913 a las 6:00.\n4. El documento no fija esa convención ni las horas de nacimiento. No hay una fecha única bajo la lectura usual de años cumplidos, por lo que el reactivo queda guiado."
+        },
+        {
+          "label": "c",
+          "is_correct": null,
+          "reason": "1. Con edades cumplidas en años enteros, Charlitos tiene 10 años y Romualdo 2 desde el 7 de junio de 1913 hasta antes del 3 de mayo de 1914. En todo ese intervalo se cumple \\(10=5\\cdot2\\).\n2. Por tanto las cuatro fechas ofrecidas, del 13 al 16 de junio de 1913, satisfacen la condición con edades cumplidas.\n3. Si se interpreta edad como tiempo continuo transcurrido y se toman los nacimientos a medianoche, la separación es 2957 días. La edad del menor debe ser \\(2957/4=739.25\\) días: llega al quíntuplo el 15 de junio de 1913 a las 6:00.\n4. El documento no fija esa convención ni las horas de nacimiento. No hay una fecha única bajo la lectura usual de años cumplidos, por lo que el reactivo queda guiado."
+        },
+        {
+          "label": "d",
+          "is_correct": null,
+          "reason": "1. Con edades cumplidas en años enteros, Charlitos tiene 10 años y Romualdo 2 desde el 7 de junio de 1913 hasta antes del 3 de mayo de 1914. En todo ese intervalo se cumple \\(10=5\\cdot2\\).\n2. Por tanto las cuatro fechas ofrecidas, del 13 al 16 de junio de 1913, satisfacen la condición con edades cumplidas.\n3. Si se interpreta edad como tiempo continuo transcurrido y se toman los nacimientos a medianoche, la separación es 2957 días. La edad del menor debe ser \\(2957/4=739.25\\) días: llega al quíntuplo el 15 de junio de 1913 a las 6:00.\n4. El documento no fija esa convención ni las horas de nacimiento. No hay una fecha única bajo la lectura usual de años cumplidos, por lo que el reactivo queda guiado."
+        }
+      ],
+      "verification": {
+        "status": "ambiguous_source_age_convention",
+        "answer_checked": false,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "1. Con edades cumplidas en años enteros, Charlitos tiene 10 años y Romualdo 2 desde el 7 de junio de 1913 hasta antes del 3 de mayo de 1914. En todo ese intervalo se cumple \\(10=5\\cdot2\\).\n2. Por tanto las cuatro fechas ofrecidas, del 13 al 16 de junio de 1913, satisfacen la condición con edades cumplidas.\n3. Si se interpreta edad como tiempo continuo transcurrido y se toman los nacimientos a medianoche, la separación es 2957 días. La edad del menor debe ser \\(2957/4=739.25\\) días: llega al quíntuplo el 15 de junio de 1913 a las 6:00.\n4. El documento no fija esa convención ni las horas de nacimiento. No hay una fecha única bajo la lectura usual de años cumplidos, por lo que el reactivo queda guiado."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "ages",
+          "calendar",
+          "equations"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia de la solución.",
+          "Dificultad editorial relativa a Primer año de preparatoria: combina pasos, modelado o enumeración con una inferencia."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-preparatoria_q02",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 1.º de preparatoria",
+      "problem_number": 2,
+      "source_question_label": "2",
+      "source_page": 19,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Hallar la suma de las cifras del término que sigue en la siguiente sucesión:\n1, 2, 6, 24, 120, ….",
+      "options": [
+        {
+          "label": "a",
+          "text": "9"
+        },
+        {
+          "label": "b",
+          "text": "10"
+        },
+        {
+          "label": "c",
+          "text": "8"
+        },
+        {
+          "label": "d",
+          "text": "12"
+        }
+      ],
+      "correct_answer": "9",
+      "correct_option_label": "a",
+      "solution_text": "1. El patrón multiplica sucesivamente por 2, 3, 4 y 5. Son los factoriales \\(1!,2!,3!,4!,5!\\).\n2. Siguiendo ese patrón, el siguiente término es \\(120\\cdot6=720\\).\n3. Su suma de cifras es \\(7+2+0=\\mathbf9\\), opción **a**. Comprobación: \\(6!=720\\). La respuesta se refiere a la regla factorial indicada por los términos, como es habitual en este tipo de sucesión.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": true,
+          "reason": "Coincide con el resultado 9."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 9 obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 9 obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 9 obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed",
+      "classification": {
+        "primary_area": "combinatorics",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "factorials",
+          "sequences",
+          "digits"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia de la solución.",
+          "Dificultad editorial relativa a Primer año de preparatoria: aplicación directa o rutina breve."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-preparatoria_q03",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 1.º de preparatoria",
+      "problem_number": 3,
+      "source_question_label": "3",
+      "source_page": 19,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Al descomponer en factores primos al número 3450  la suma de dichos factores primos es:",
+      "options": [
+        {
+          "label": "a",
+          "text": "13"
+        },
+        {
+          "label": "b",
+          "text": "33"
+        },
+        {
+          "label": "c",
+          "text": "23"
+        },
+        {
+          "label": "d",
+          "text": "37"
+        }
+      ],
+      "correct_answer": "33 para primos distintos; 38 contando repeticiones",
+      "correct_option_label": null,
+      "solution_text": "1. La descomposición es \\(3450=2\\cdot3\\cdot5^2\\cdot23\\).\n2. Los divisores primos distintos son 2, 3, 5 y 23; suman 33, que aparece en b.\n3. Si «dichos factores» se refiere a los factores de la descomposición contando cada repetición, la suma es \\(2+3+5+5+23=38\\), que no aparece.\n4. El original no aclara si se cuentan repeticiones. Se conservan ambas lecturas y se practica sin imponer una etiqueta correcta única. La multiplicación \\(2\\cdot3\\cdot25\\cdot23=3450\\) comprueba la factorización.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": null,
+          "reason": "1. La descomposición es \\(3450=2\\cdot3\\cdot5^2\\cdot23\\).\n2. Los divisores primos distintos son 2, 3, 5 y 23; suman 33, que aparece en b.\n3. Si «dichos factores» se refiere a los factores de la descomposición contando cada repetición, la suma es \\(2+3+5+5+23=38\\), que no aparece.\n4. El original no aclara si se cuentan repeticiones. Se conservan ambas lecturas y se practica sin imponer una etiqueta correcta única. La multiplicación \\(2\\cdot3\\cdot25\\cdot23=3450\\) comprueba la factorización."
+        },
+        {
+          "label": "b",
+          "is_correct": null,
+          "reason": "1. La descomposición es \\(3450=2\\cdot3\\cdot5^2\\cdot23\\).\n2. Los divisores primos distintos son 2, 3, 5 y 23; suman 33, que aparece en b.\n3. Si «dichos factores» se refiere a los factores de la descomposición contando cada repetición, la suma es \\(2+3+5+5+23=38\\), que no aparece.\n4. El original no aclara si se cuentan repeticiones. Se conservan ambas lecturas y se practica sin imponer una etiqueta correcta única. La multiplicación \\(2\\cdot3\\cdot25\\cdot23=3450\\) comprueba la factorización."
+        },
+        {
+          "label": "c",
+          "is_correct": null,
+          "reason": "1. La descomposición es \\(3450=2\\cdot3\\cdot5^2\\cdot23\\).\n2. Los divisores primos distintos son 2, 3, 5 y 23; suman 33, que aparece en b.\n3. Si «dichos factores» se refiere a los factores de la descomposición contando cada repetición, la suma es \\(2+3+5+5+23=38\\), que no aparece.\n4. El original no aclara si se cuentan repeticiones. Se conservan ambas lecturas y se practica sin imponer una etiqueta correcta única. La multiplicación \\(2\\cdot3\\cdot25\\cdot23=3450\\) comprueba la factorización."
+        },
+        {
+          "label": "d",
+          "is_correct": null,
+          "reason": "1. La descomposición es \\(3450=2\\cdot3\\cdot5^2\\cdot23\\).\n2. Los divisores primos distintos son 2, 3, 5 y 23; suman 33, que aparece en b.\n3. Si «dichos factores» se refiere a los factores de la descomposición contando cada repetición, la suma es \\(2+3+5+5+23=38\\), que no aparece.\n4. El original no aclara si se cuentan repeticiones. Se conservan ambas lecturas y se practica sin imponer una etiqueta correcta única. La multiplicación \\(2\\cdot3\\cdot25\\cdot23=3450\\) comprueba la factorización."
+        }
+      ],
+      "verification": {
+        "status": "ambiguous_source_prime_multiplicity",
+        "answer_checked": false,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "1. La descomposición es \\(3450=2\\cdot3\\cdot5^2\\cdot23\\).\n2. Los divisores primos distintos son 2, 3, 5 y 23; suman 33, que aparece en b.\n3. Si «dichos factores» se refiere a los factores de la descomposición contando cada repetición, la suma es \\(2+3+5+5+23=38\\), que no aparece.\n4. El original no aclara si se cuentan repeticiones. Se conservan ambas lecturas y se practica sin imponer una etiqueta correcta única. La multiplicación \\(2\\cdot3\\cdot25\\cdot23=3450\\) comprueba la factorización."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "prime_factorization",
+          "addition"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia de la solución.",
+          "Dificultad editorial relativa a Primer año de preparatoria: combina pasos, modelado o enumeración con una inferencia."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-preparatoria_q04",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 1.º de preparatoria",
+      "problem_number": 4,
+      "source_question_label": "4",
+      "source_page": 19,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Se sabe que en un salón de clases, la cantidad de alumnos que toca trompeta es 100, la cantidad de\nalumnos que tocan guitarra es 80 y la cantidad de alumnos que toca la flauta es 95. Si en el aula se\ntienen 120 alumnos. ¿Cuál es la mínima cantidad e alumnos que pueden tocar los 3 instrumentos?",
+      "options": [
+        {
+          "label": "a",
+          "text": "80"
+        },
+        {
+          "label": "b",
+          "text": "10"
+        },
+        {
+          "label": "c",
+          "text": "30"
+        },
+        {
+          "label": "d",
+          "text": "35"
+        }
+      ],
+      "correct_answer": "35 alumnos",
+      "correct_option_label": "d",
+      "solution_text": "1. Las pertenencias totales a los tres grupos son \\(100+80+95=275\\).\n2. Si t alumnos tocan los tres instrumentos, los otros 120−t aportan como máximo dos pertenencias cada uno. Por tanto \\(275\\le3t+2(120-t)=240+t\\), de donde \\(t\\ge35\\).\n3. Se alcanza 35: 35 tocan los tres, 25 solo trompeta y guitarra, 40 solo trompeta y flauta, y 20 solo guitarra y flauta.\n4. Comprobación: hay \\(35+25+40+20=120\\) alumnos; trompeta suma 100, guitarra 80 y flauta 95. El mínimo es **35**, opción **d**; la construcción descarta que la cota sea solo teórica.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 35 alumnos obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 35 alumnos obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 35 alumnos obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "d",
+          "is_correct": true,
+          "reason": "Coincide con el resultado 35 alumnos."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed",
+      "classification": {
+        "primary_area": "combinatorics",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "inclusion_exclusion",
+          "extremal_principle"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia de la solución.",
+          "Dificultad editorial relativa a Primer año de preparatoria: combina pasos, modelado o enumeración con una inferencia."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-preparatoria_q05",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 1.º de preparatoria",
+      "problem_number": 5,
+      "source_question_label": "5",
+      "source_page": 19,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "En la siguiente imagen O es le centro, calcula el valor de x.",
+      "options": [
+        {
+          "label": "a",
+          "text": "30°"
+        },
+        {
+          "label": "b",
+          "text": "45°"
+        },
+        {
+          "label": "c",
+          "text": "60°"
+        },
+        {
+          "label": "d",
+          "text": "37°"
+        }
+      ],
+      "correct_answer": "45° si los diámetros indicados son perpendiculares",
+      "correct_option_label": null,
+      "solution_text": "1. Llamamos P y U a las intersecciones de las circunferencias, L al extremo izquierdo del diámetro horizontal pequeño, Q al punto del diámetro por P que está en la circunferencia grande, y R al vértice del ángulo x.\n2. En la circunferencia grande, los ángulos PRQ y PUQ subtienen el mismo arco PQ. Como L, Q y U están alineados, \\(\\angle PUQ=\\angle PUL\\).\n3. En la circunferencia pequeña, \\(\\angle PUL\\) es la mitad del ángulo central POL. Si \\(OP\\perp OL\\), este vale 90° y \\(x=45^\\circ\\), opción b.\n4. El original solo dice que O es centro: no imprime el ángulo de 90° ni una marca de perpendicularidad. Sin ese dato, el argumento solo obtiene \\(x=\\angle POL/2\\), no un número fijo. Por ello el resultado 45° se conserva como condicional y no se califica automáticamente.",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Figura del problema",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "600586384d30df2d054de15e78d7512a2af6b73b4872ead696f17dad3cb056c7",
+          "source": "pdf_embedded_image",
+          "original_filename": "page19_Image93.png",
+          "width_px": 308,
+          "height_px": 240
+        }
+      ],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": null,
+          "reason": "1. Llamamos P y U a las intersecciones de las circunferencias, L al extremo izquierdo del diámetro horizontal pequeño, Q al punto del diámetro por P que está en la circunferencia grande, y R al vértice del ángulo x.\n2. En la circunferencia grande, los ángulos PRQ y PUQ subtienen el mismo arco PQ. Como L, Q y U están alineados, \\(\\angle PUQ=\\angle PUL\\).\n3. En la circunferencia pequeña, \\(\\angle PUL\\) es la mitad del ángulo central POL. Si \\(OP\\perp OL\\), este vale 90° y \\(x=45^\\circ\\), opción b.\n4. El original solo dice que O es centro: no imprime el ángulo de 90° ni una marca de perpendicularidad. Sin ese dato, el argumento solo obtiene \\(x=\\angle POL/2\\), no un número fijo. Por ello el resultado 45° se conserva como condicional y no se califica automáticamente."
+        },
+        {
+          "label": "b",
+          "is_correct": null,
+          "reason": "1. Llamamos P y U a las intersecciones de las circunferencias, L al extremo izquierdo del diámetro horizontal pequeño, Q al punto del diámetro por P que está en la circunferencia grande, y R al vértice del ángulo x.\n2. En la circunferencia grande, los ángulos PRQ y PUQ subtienen el mismo arco PQ. Como L, Q y U están alineados, \\(\\angle PUQ=\\angle PUL\\).\n3. En la circunferencia pequeña, \\(\\angle PUL\\) es la mitad del ángulo central POL. Si \\(OP\\perp OL\\), este vale 90° y \\(x=45^\\circ\\), opción b.\n4. El original solo dice que O es centro: no imprime el ángulo de 90° ni una marca de perpendicularidad. Sin ese dato, el argumento solo obtiene \\(x=\\angle POL/2\\), no un número fijo. Por ello el resultado 45° se conserva como condicional y no se califica automáticamente."
+        },
+        {
+          "label": "c",
+          "is_correct": null,
+          "reason": "1. Llamamos P y U a las intersecciones de las circunferencias, L al extremo izquierdo del diámetro horizontal pequeño, Q al punto del diámetro por P que está en la circunferencia grande, y R al vértice del ángulo x.\n2. En la circunferencia grande, los ángulos PRQ y PUQ subtienen el mismo arco PQ. Como L, Q y U están alineados, \\(\\angle PUQ=\\angle PUL\\).\n3. En la circunferencia pequeña, \\(\\angle PUL\\) es la mitad del ángulo central POL. Si \\(OP\\perp OL\\), este vale 90° y \\(x=45^\\circ\\), opción b.\n4. El original solo dice que O es centro: no imprime el ángulo de 90° ni una marca de perpendicularidad. Sin ese dato, el argumento solo obtiene \\(x=\\angle POL/2\\), no un número fijo. Por ello el resultado 45° se conserva como condicional y no se califica automáticamente."
+        },
+        {
+          "label": "d",
+          "is_correct": null,
+          "reason": "1. Llamamos P y U a las intersecciones de las circunferencias, L al extremo izquierdo del diámetro horizontal pequeño, Q al punto del diámetro por P que está en la circunferencia grande, y R al vértice del ángulo x.\n2. En la circunferencia grande, los ángulos PRQ y PUQ subtienen el mismo arco PQ. Como L, Q y U están alineados, \\(\\angle PUQ=\\angle PUL\\).\n3. En la circunferencia pequeña, \\(\\angle PUL\\) es la mitad del ángulo central POL. Si \\(OP\\perp OL\\), este vale 90° y \\(x=45^\\circ\\), opción b.\n4. El original solo dice que O es centro: no imprime el ángulo de 90° ni una marca de perpendicularidad. Sin ese dato, el argumento solo obtiene \\(x=\\angle POL/2\\), no un número fijo. Por ello el resultado 45° se conserva como condicional y no se califica automáticamente."
+        }
+      ],
+      "verification": {
+        "status": "ambiguous_source_unmarked_perpendicularity",
+        "answer_checked": false,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "1. Llamamos P y U a las intersecciones de las circunferencias, L al extremo izquierdo del diámetro horizontal pequeño, Q al punto del diámetro por P que está en la circunferencia grande, y R al vértice del ángulo x.\n2. En la circunferencia grande, los ángulos PRQ y PUQ subtienen el mismo arco PQ. Como L, Q y U están alineados, \\(\\angle PUQ=\\angle PUL\\).\n3. En la circunferencia pequeña, \\(\\angle PUL\\) es la mitad del ángulo central POL. Si \\(OP\\perp OL\\), este vale 90° y \\(x=45^\\circ\\), opción b.\n4. El original solo dice que O es centro: no imprime el ángulo de 90° ni una marca de perpendicularidad. Sin ese dato, el argumento solo obtiene \\(x=\\angle POL/2\\), no un número fijo. Por ello el resultado 45° se conserva como condicional y no se califica automáticamente."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed",
+      "classification": {
+        "primary_area": "geometry",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "inscribed_angles",
+          "circles",
+          "angles"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia de la solución.",
+          "Dificultad editorial relativa a Primer año de preparatoria: combina pasos, modelado o enumeración con una inferencia."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-preparatoria_q06",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 1.º de preparatoria",
+      "problem_number": 6,
+      "source_question_label": "6",
+      "source_page": 20,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "En el triangulo ABC, en AB se ubica el punto E, luego se traza EH perpendicular a BC (H en BC). Calcular\nel área de la región cuadrangular AEHC. Si AE=5, EH=4 y <BAC=<BCA=53°.",
+      "options": [
+        {
+          "label": "a",
+          "text": "32"
+        },
+        {
+          "label": "b",
+          "text": "46"
+        },
+        {
+          "label": "c",
+          "text": "30"
+        },
+        {
+          "label": "d",
+          "text": "38"
+        }
+      ],
+      "correct_answer": "\\(20+(25/2)\\sin74^\\circ\\approx32.01577\\)",
+      "correct_option_label": null,
+      "solution_text": "1. Como \\(\\angle A=\\angle C=53^\\circ\\), los lados AB y BC son iguales; llamamos L a esa longitud. El ángulo B es \\(180^\\circ-106^\\circ=74^\\circ\\).\n2. Si \\(BE=t\\), entonces \\(t\\sin74^\\circ=EH=4\\), de modo que \\(t=4/\\sin74^\\circ\\). Además \\(AE=L-t=5\\), por lo que L=t+5.\n3. Restamos el triángulo BEH al triángulo ABC:\n\\[\n [AEHC]=\\tfrac12(L^2-t^2)\\sin74^\\circ\n =\\tfrac12(10t+25)\\sin74^\\circ\n =20+\\tfrac{25}{2}\\sin74^\\circ\\approx32.01577.\n\\]\n4. Ninguna opción es exactamente ese valor. El 32 de a aparece si se sustituye el ángulo 53° por el ángulo aproximado de un triángulo 3–4–5, que es \\(53.130102\\ldots^\\circ\\). Esa sustitución no está declarada en el original.\n5. La figura no aporta un dato que justifique redondear a 32. Conservamos el resultado exacto y el reactivo queda guiado, sin cambiar los 53° impresos.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "1. Como \\(\\angle A=\\angle C=53^\\circ\\), los lados AB y BC son iguales; llamamos L a esa longitud. El ángulo B es \\(180^\\circ-106^\\circ=74^\\circ\\).\n2. Si \\(BE=t\\), entonces \\(t\\sin74^\\circ=EH=4\\), de modo que \\(t=4/\\sin74^\\circ\\). Además \\(AE=L-t=5\\), por lo que L=t+5.\n3. Restamos el triángulo BEH al triángulo ABC:\n\\[\n [AEHC]=\\tfrac12(L^2-t^2)\\sin74^\\circ\n =\\tfrac12(10t+25)\\sin74^\\circ\n =20+\\tfrac{25}{2}\\sin74^\\circ\\approx32.01577.\n\\]\n4. Ninguna opción es exactamente ese valor. El 32 de a aparece si se sustituye el ángulo 53° por el ángulo aproximado de un triángulo 3–4–5, que es \\(53.130102\\ldots^\\circ\\). Esa sustitución no está declarada en el original.\n5. La figura no aporta un dato que justifique redondear a 32. Conservamos el resultado exacto y el reactivo queda guiado, sin cambiar los 53° impresos."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "1. Como \\(\\angle A=\\angle C=53^\\circ\\), los lados AB y BC son iguales; llamamos L a esa longitud. El ángulo B es \\(180^\\circ-106^\\circ=74^\\circ\\).\n2. Si \\(BE=t\\), entonces \\(t\\sin74^\\circ=EH=4\\), de modo que \\(t=4/\\sin74^\\circ\\). Además \\(AE=L-t=5\\), por lo que L=t+5.\n3. Restamos el triángulo BEH al triángulo ABC:\n\\[\n [AEHC]=\\tfrac12(L^2-t^2)\\sin74^\\circ\n =\\tfrac12(10t+25)\\sin74^\\circ\n =20+\\tfrac{25}{2}\\sin74^\\circ\\approx32.01577.\n\\]\n4. Ninguna opción es exactamente ese valor. El 32 de a aparece si se sustituye el ángulo 53° por el ángulo aproximado de un triángulo 3–4–5, que es \\(53.130102\\ldots^\\circ\\). Esa sustitución no está declarada en el original.\n5. La figura no aporta un dato que justifique redondear a 32. Conservamos el resultado exacto y el reactivo queda guiado, sin cambiar los 53° impresos."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "1. Como \\(\\angle A=\\angle C=53^\\circ\\), los lados AB y BC son iguales; llamamos L a esa longitud. El ángulo B es \\(180^\\circ-106^\\circ=74^\\circ\\).\n2. Si \\(BE=t\\), entonces \\(t\\sin74^\\circ=EH=4\\), de modo que \\(t=4/\\sin74^\\circ\\). Además \\(AE=L-t=5\\), por lo que L=t+5.\n3. Restamos el triángulo BEH al triángulo ABC:\n\\[\n [AEHC]=\\tfrac12(L^2-t^2)\\sin74^\\circ\n =\\tfrac12(10t+25)\\sin74^\\circ\n =20+\\tfrac{25}{2}\\sin74^\\circ\\approx32.01577.\n\\]\n4. Ninguna opción es exactamente ese valor. El 32 de a aparece si se sustituye el ángulo 53° por el ángulo aproximado de un triángulo 3–4–5, que es \\(53.130102\\ldots^\\circ\\). Esa sustitución no está declarada en el original.\n5. La figura no aporta un dato que justifique redondear a 32. Conservamos el resultado exacto y el reactivo queda guiado, sin cambiar los 53° impresos."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "1. Como \\(\\angle A=\\angle C=53^\\circ\\), los lados AB y BC son iguales; llamamos L a esa longitud. El ángulo B es \\(180^\\circ-106^\\circ=74^\\circ\\).\n2. Si \\(BE=t\\), entonces \\(t\\sin74^\\circ=EH=4\\), de modo que \\(t=4/\\sin74^\\circ\\). Además \\(AE=L-t=5\\), por lo que L=t+5.\n3. Restamos el triángulo BEH al triángulo ABC:\n\\[\n [AEHC]=\\tfrac12(L^2-t^2)\\sin74^\\circ\n =\\tfrac12(10t+25)\\sin74^\\circ\n =20+\\tfrac{25}{2}\\sin74^\\circ\\approx32.01577.\n\\]\n4. Ninguna opción es exactamente ese valor. El 32 de a aparece si se sustituye el ángulo 53° por el ángulo aproximado de un triángulo 3–4–5, que es \\(53.130102\\ldots^\\circ\\). Esa sustitución no está declarada en el original.\n5. La figura no aporta un dato que justifique redondear a 32. Conservamos el resultado exacto y el reactivo queda guiado, sin cambiar los 53° impresos."
+        }
+      ],
+      "verification": {
+        "status": "no_matching_option_exact_source_angle",
+        "answer_checked": false,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "1. Como \\(\\angle A=\\angle C=53^\\circ\\), los lados AB y BC son iguales; llamamos L a esa longitud. El ángulo B es \\(180^\\circ-106^\\circ=74^\\circ\\).\n2. Si \\(BE=t\\), entonces \\(t\\sin74^\\circ=EH=4\\), de modo que \\(t=4/\\sin74^\\circ\\). Además \\(AE=L-t=5\\), por lo que L=t+5.\n3. Restamos el triángulo BEH al triángulo ABC:\n\\[\n [AEHC]=\\tfrac12(L^2-t^2)\\sin74^\\circ\n =\\tfrac12(10t+25)\\sin74^\\circ\n =20+\\tfrac{25}{2}\\sin74^\\circ\\approx32.01577.\n\\]\n4. Ninguna opción es exactamente ese valor. El 32 de a aparece si se sustituye el ángulo 53° por el ángulo aproximado de un triángulo 3–4–5, que es \\(53.130102\\ldots^\\circ\\). Esa sustitución no está declarada en el original.\n5. La figura no aporta un dato que justifique redondear a 32. Conservamos el resultado exacto y el reactivo queda guiado, sin cambiar los 53° impresos."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed",
+      "classification": {
+        "primary_area": "geometry",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "area",
+          "trigonometry",
+          "isosceles_triangles"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia de la solución.",
+          "Dificultad editorial relativa a Primer año de preparatoria: combina pasos, modelado o enumeración con una inferencia."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-preparatoria_q07",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 1.º de preparatoria",
+      "problem_number": 7,
+      "source_question_label": "7",
+      "source_page": 20,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "En un triángulo ABC se traza la mediana BM. Calcular la razón de AB y MC, si la medida  del ángulo\nexterior en el vértice B es igual a la medida del ángulo BMC.",
+      "options": [
+        {
+          "label": "a",
+          "text": "√3"
+        },
+        {
+          "label": "b",
+          "text": "2 √2"
+        },
+        {
+          "label": "c",
+          "text": "3 √2"
+        },
+        {
+          "label": "d",
+          "text": "√2"
+        }
+      ],
+      "correct_answer": "\\(\\sqrt2\\)",
+      "correct_option_label": "d",
+      "solution_text": "1. Sea \\(\\beta=\\angle ABC\\). El ángulo exterior en B mide \\(180^\\circ-\\beta\\), y por la condición también es \\(\\angle BMC\\).\n2. Como A, M y C están alineados, \\(\\angle AMB=\\beta\\). Los triángulos ABM y ACB comparten el ángulo en A y tienen esos otros ángulos iguales: son semejantes.\n3. La semejanza da \\(AB/AC=AM/AB\\), de donde \\(AB^2=AC\\cdot AM\\). Por ser BM mediana, \\(AC=2AM\\).\n4. Entonces \\(AB^2=2AM^2\\) y \\(AB/MC=AB/AM=\\mathbf{\\sqrt2}\\), opción **d**. La comprobación vuelve a la igualdad de productos; las otras tres razones no tienen cuadrado 2.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "No coincide con el resultado \\(\\sqrt2\\) obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "No coincide con el resultado \\(\\sqrt2\\) obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "No coincide con el resultado \\(\\sqrt2\\) obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "d",
+          "is_correct": true,
+          "reason": "Coincide con el resultado \\(\\sqrt2\\)."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed",
+      "classification": {
+        "primary_area": "geometry",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "similar_triangles",
+          "midpoints",
+          "angles"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia de la solución.",
+          "Dificultad editorial relativa a Primer año de preparatoria: combina pasos, modelado o enumeración con una inferencia."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-preparatoria_q08",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 1.º de preparatoria",
+      "problem_number": 8,
+      "source_question_label": "8",
+      "source_page": 20,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "¿Cuál es el MCD de los números 75, 76 y 77?",
+      "options": [],
+      "correct_answer": "1",
+      "correct_option_label": null,
+      "solution_text": "1. Todo divisor común de 75 y 76 divide su diferencia \\(76-75=1\\).\n2. Por tanto su máximo divisor común es 1; agregar 77 no puede aumentarlo.\n3. El MCD pedido es **1**. Comprobación: 1 divide los tres números y ningún entero mayor puede dividir dos números consecutivos.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "gcd",
+          "divisibility"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia de la solución.",
+          "Dificultad editorial relativa a Primer año de preparatoria: aplicación directa o rutina breve."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-preparatoria_q09",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 1.º de preparatoria",
+      "problem_number": 9,
+      "source_question_label": "9",
+      "source_page": 20,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Se desea obtener 100 litros de alcohol de 74° mezclando 30 litros de alcohol de 80°, con cantidades\nconvenientes de alcohol puro y agua. ¿Qué cantidad de agua será necesaria?",
+      "options": [],
+      "correct_answer": "20 litros de agua",
+      "correct_option_label": null,
+      "solution_text": "1. El volumen final debe contener 74 litros de alcohol puro. Los 30 litros al 80% ya contienen \\(30\\cdot0.8=24\\) litros de alcohol.\n2. Hay que añadir \\(74-24=50\\) litros de alcohol puro.\n3. Para completar 100 litros, se añaden \\(100-30-50=\\mathbf{20}\\) litros de agua.\n4. Comprobación del modelo de mezcla del problema: volumen \\(30+50+20=100\\); alcohol \\(24+50=74\\), es decir, 74%. Se usa la aditividad de volúmenes prevista por el ejercicio.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "mixtures",
+          "percentages",
+          "systems"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia de la solución.",
+          "Dificultad editorial relativa a Primer año de preparatoria: combina pasos, modelado o enumeración con una inferencia."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-preparatoria_q10",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 1.º de preparatoria",
+      "problem_number": 10,
+      "source_question_label": "10",
+      "source_page": 20,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "En t segundos la altura h, en metros sobre el nivel del suelo, de un proyectil está dada por la ecuación\nh = 80t - 5t², ¿Cuánto tardará el proyectil en llegar a 320 m sobre el nivel del suelo?",
+      "options": [],
+      "correct_answer": "8 segundos",
+      "correct_option_label": null,
+      "solution_text": "1. Igualamos la altura dada a 320: \\(80t-5t^2=320\\).\n2. Reordenando y dividiendo entre 5: \\(t^2-16t+64=0\\), es decir, \\((t-8)^2=0\\).\n3. El proyectil alcanza 320 m a los **8 segundos**. Es su altura máxima, por eso no hay dos tiempos distintos.\n4. Comprobación: \\(80\\cdot8-5\\cdot8^2=640-320=320\\). Escribir \\(h=320-5(t-8)^2\\) confirma la unicidad.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "quadratic_equations",
+          "completing_the_square"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia de la solución.",
+          "Dificultad editorial relativa a Primer año de preparatoria: aplicación directa o rutina breve."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-preparatoria_q11",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 1.º de preparatoria",
+      "problem_number": 11,
+      "source_question_label": "11",
+      "source_page": 20,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Dos circunferencias son tangentes interiores y la menor pasa por el centro de la mayor. El área del\ncírculo mayor es 2010 cm². ¿Cuál es el área de la región sombreada?",
+      "options": [
+        {
+          "label": "a",
+          "text": "mas de 1500"
+        },
+        {
+          "label": "b",
+          "text": "1,340"
+        },
+        {
+          "label": "c",
+          "text": "1206"
+        },
+        {
+          "label": "d",
+          "text": "1005"
+        }
+      ],
+      "correct_answer": "1507.5 cm², más de 1500",
+      "correct_option_label": "a",
+      "solution_text": "1. Sean R y r los radios mayor y menor. La tangencia interior da distancia entre centros \\(R-r\\).\n2. Como la circunferencia menor pasa por el centro mayor, esa misma distancia es r. Por tanto \\(R-r=r\\) y \\(r=R/2\\).\n3. Su área es un cuarto de la mayor. El área sombreada vale \\((3/4)\\cdot2010=\\mathbf{1507.5}\\) cm².\n4. La única alternativa verdadera es **a**, «más de 1500». Las opciones numéricas 1340, 1206 y 1005 son distintas de 1507.5. Sumando 1507.5 y 502.5 se recupera 2010.",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Figura del problema",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "056ba3e0776ea103053639d90dfd79034e1425c98617d2beb30f545b8bd2073d",
+          "source": "pdf_embedded_image",
+          "original_filename": "page20_Image94.png",
+          "width_px": 152,
+          "height_px": 154
+        }
+      ],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": true,
+          "reason": "Coincide con el resultado 1507.5 cm², más de 1500."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 1507.5 cm², más de 1500 obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 1507.5 cm², más de 1500 obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 1507.5 cm², más de 1500 obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed",
+      "classification": {
+        "primary_area": "geometry",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "circles",
+          "area",
+          "tangency"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia de la solución.",
+          "Dificultad editorial relativa a Primer año de preparatoria: combina pasos, modelado o enumeración con una inferencia."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-preparatoria_q12",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 1.º de preparatoria",
+      "problem_number": 12,
+      "source_question_label": "12",
+      "source_page": 20,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Charlitos tarda 18 minutos en hacer una correa uniendo tres correas menores con hilos extras. ¿Cuánto\ntiempo tardará en hacer otra correa, uniendo seis correas menores y siguiendo el mismo método?",
+      "options": [
+        {
+          "label": "a",
+          "text": "45 min"
+        },
+        {
+          "label": "b",
+          "text": "40 min"
+        },
+        {
+          "label": "c",
+          "text": "36 min"
+        },
+        {
+          "label": "d",
+          "text": "30 min"
+        }
+      ],
+      "correct_answer": "45 minutos",
+      "correct_option_label": "a",
+      "solution_text": "1. Para unir tres correas en una sola cadena se necesitan dos uniones. Si tardan 18 minutos, cada unión del mismo método toma 9.\n2. Para unir seis correas se necesitan cinco uniones: \\(5\\cdot9=\\mathbf{45}\\) minutos, opción **a**.\n3. Comprobación: comenzar con seis piezas y realizar cinco uniones reduce el número de piezas \\(6-5=1\\). Duplicar 18 a 36 contaría cuatro uniones y dejaría dos piezas.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": true,
+          "reason": "Coincide con el resultado 45 minutos."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 45 minutos obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 45 minutos obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 45 minutos obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed",
+      "classification": {
+        "primary_area": "arithmetic",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "rates",
+          "work",
+          "counting"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia de la solución.",
+          "Dificultad editorial relativa a Primer año de preparatoria: aplicación directa o rutina breve."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-preparatoria_q13",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 1.º de preparatoria",
+      "problem_number": 13,
+      "source_question_label": "13",
+      "source_page": 21,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "En 18 pedazos de papel se escriben los números 4 y 5 (un número en cada pedazo). La suma de todos\nlos números escritos es un número divisible por 17. ¿En cuántos cartones se escribió el número 4?",
+      "options": [
+        {
+          "label": "a",
+          "text": "4"
+        },
+        {
+          "label": "b",
+          "text": "5"
+        },
+        {
+          "label": "c",
+          "text": "6"
+        },
+        {
+          "label": "d",
+          "text": "8"
+        }
+      ],
+      "correct_answer": "5 cartones",
+      "correct_option_label": "b",
+      "solution_text": "1. Si x papeles tienen 4, los otros 18−x tienen 5. La suma es \\(4x+5(18-x)=90-x\\).\n2. Como \\(0\\le x\\le18\\), la suma está entre 72 y 90. El único múltiplo de 17 en ese intervalo es 85.\n3. De \\(90-x=85\\) resulta \\(x=\\mathbf5\\), opción **b**.\n4. Comprobación: cinco 4 y trece 5 suman \\(20+65=85=5\\cdot17\\). Las opciones 4, 6 y 8 producen 86, 84 y 82, que no son múltiplos de 17.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 5 cartones obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "b",
+          "is_correct": true,
+          "reason": "Coincide con el resultado 5 cartones."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 5 cartones obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 5 cartones obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "divisibility",
+          "equations"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia de la solución.",
+          "Dificultad editorial relativa a Primer año de preparatoria: aplicación directa o rutina breve."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-preparatoria_q14",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 1.º de preparatoria",
+      "problem_number": 14,
+      "source_question_label": "14",
+      "source_page": 21,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Chamita tiene 5 primas: Ani, Bibi, Ceci, Gabi y Mili y 4 primos: Dani, Edu, Seba y Tomi. Quiere invitar a 2\nprimas y a 3 primos para el próximo sábado. ¿De cuántas maneras distintas puede armar Chamita su\ngrupo de invitados?",
+      "options": [],
+      "correct_answer": "40 grupos",
+      "correct_option_label": null,
+      "solution_text": "1. Hay \\(\\binom52=10\\) maneras de elegir dos de las cinco primas. El orden de invitación no crea otro grupo.\n2. Hay \\(\\binom43=4\\) maneras de elegir tres de los cuatro primos: equivale a elegir al único que no se invita.\n3. Las decisiones son independientes, así que \\(10\\cdot4=\\mathbf{40}\\) grupos.\n4. Comprobación: listar los diez pares de primas y combinar cada uno con las cuatro ternas de primos da 40 selecciones sin repeticiones.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed",
+      "classification": {
+        "primary_area": "combinatorics",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "combinations",
+          "multiplication_principle"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia de la solución.",
+          "Dificultad editorial relativa a Primer año de preparatoria: aplicación directa o rutina breve."
+        ]
+      }
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-preparatoria_q15",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 1.º de preparatoria",
+      "problem_number": 15,
+      "source_question_label": "15",
+      "source_page": 21,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Se eligen algunas de las cifras del número 21734 y con ellas se arman números impares, que sean\nmúltiplos de 3 y no tengan cifras repetidas. ¿Cuántos de estos números se pueden armar? ¿Cuál es el\nmayor de estos números?",
+      "options": [],
+      "correct_answer": "35 números; el mayor es 7431",
+      "correct_option_label": null,
+      "solution_text": "1. Una cifra final impar debe ser 1, 3 o 7. Para ser múltiplo de 3, la suma de las cifras elegidas debe ser divisible por 3.\n2. Por cantidad de cifras hay: una posibilidad de una cifra (3); dos de dos cifras (21 y 27); catorce de tres cifras; dieciocho de cuatro; ninguna de cinco porque \\(2+1+7+3+4=17\\).\n3. Las ternas válidas de cifras son {1,2,3}, {1,4,7}, {2,3,4} y {2,3,7}. Cada cifra impar posible al final deja \\(2!\\) órdenes; aportan 4, 4, 2 y 4 números: 14.\n4. La única selección válida de cuatro cifras es {1,3,4,7}. Hay tres elecciones impares finales y \\(3!=6\\) órdenes previos: 18. El total es \\(1+2+14+18=\\mathbf{35}\\).\n5. Para maximizar, usamos cuatro cifras y las ordenamos de mayor a menor manteniendo final impar: **7431**. Es impar, sus cifras suman 15 y no se repiten. La enumeración de todos los subconjuntos y órdenes confirma el total y el máximo.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed",
+      "classification": {
+        "primary_area": "combinatorics",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "divisibility",
+          "digits",
+          "permutations"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Área basada en la estrategia de la solución.",
+          "Dificultad editorial relativa a Primer año de preparatoria: combina pasos, modelado o enumeración con una inferencia."
+        ]
+      }
+    }
+  ]
+}

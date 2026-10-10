@@ -1,0 +1,832 @@
+{
+  "schema_version": "1.0",
+  "source_format_reference": "Cuantly public practice; original multiple_choice and open_answer preserved",
+  "exam": {
+    "competition": "FUSION",
+    "source_competition": "Campeonato de Olimpiadas Matemáticas FUSION25",
+    "edition": null,
+    "source_archive_family": "FUSION5",
+    "year": 2025,
+    "year_status": "confirmed",
+    "year_evidence": "Los encabezados dicen SELECTIVOS ESTATALES FUSION25 y el grado. La publicación institucional del anfitrión American School Foundation of Chiapas relaciona COMFUSION25 con Fusión 2025; esa correspondencia confirma 2025. No se infiere una edición del nombre FUSION5. Referencia: https://www.linkedin.com/posts/american-school-foundation-of-chiapas_proudtobeasfc-gobulldogs-worldready-activity-7377353761121492992-xrcg",
+    "phase": "Selectivo Estatal",
+    "level": "2.º de secundaria",
+    "school_level": "Segundo año de secundaria",
+    "problem_count": 15,
+    "source_file": "FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+    "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+    "source_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed",
+    "image_policy": "Original embedded mathematical figures byte for byte, except the three rotated appearances of group356: tight figure-only PDF renders preserve the printed 180-degree orientation. Formulas transcribed as LaTeX; no headers or answer sheets."
+  },
+  "validation_summary": {
+    "verified_problems": 10,
+    "needs_review_or_invalid": 5,
+    "needs_review_problem_numbers": [
+      1,
+      3,
+      6,
+      8,
+      13
+    ],
+    "notes": "Se cotejaron las 29 páginas: 150 preguntas y hoja final de respuestas en blanco, sin clave oficial. Ambigüedades conservadas con práctica guiada. Fórmulas desordenadas restauradas del PDF y figuras respetan su orientación impresa."
+  },
+  "problems": [
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_2-de-secundaria_q01",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 2.º de secundaria",
+      "problem_number": 1,
+      "source_question_label": "1",
+      "source_page": 13,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Charlitos nació el 3 de mayo de 1903 y Romualdo el 7 de junio de 1911. ¿En que fecha la edad de Charlitos será\nel quíntuplo de la de Romualdo?",
+      "options": [
+        {
+          "label": "a",
+          "text": "15 junio 1913"
+        },
+        {
+          "label": "b",
+          "text": "14 de junio de 1913"
+        },
+        {
+          "label": "c",
+          "text": "13 de junio de 1913"
+        },
+        {
+          "label": "d",
+          "text": "16 de junio de 1913"
+        }
+      ],
+      "correct_answer": "Depende de cómo se mida la edad",
+      "correct_option_label": null,
+      "solution_text": "1. Con edades cumplidas en años enteros, Charlitos tiene 10 años y Romualdo 2 desde el 7 de junio de 1913 hasta antes del 3 de mayo de 1914. En todo ese intervalo se cumple \\(10=5\\cdot2\\).\n2. Por tanto las cuatro fechas ofrecidas, del 13 al 16 de junio de 1913, satisfacen la condición con edades cumplidas.\n3. Si se interpreta edad como tiempo continuo transcurrido y se toman los nacimientos a medianoche, la separación es 2957 días. La edad del menor debe ser \\(2957/4=739.25\\) días: llega al quíntuplo el 15 de junio de 1913 a las 6:00.\n4. El documento no fija esa convención ni las horas de nacimiento. No hay una fecha única bajo la lectura usual de años cumplidos, por lo que el reactivo queda guiado.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": null,
+          "reason": "1. Con edades cumplidas en años enteros, Charlitos tiene 10 años y Romualdo 2 desde el 7 de junio de 1913 hasta antes del 3 de mayo de 1914. En todo ese intervalo se cumple \\(10=5\\cdot2\\).\n2. Por tanto las cuatro fechas ofrecidas, del 13 al 16 de junio de 1913, satisfacen la condición con edades cumplidas.\n3. Si se interpreta edad como tiempo continuo transcurrido y se toman los nacimientos a medianoche, la separación es 2957 días. La edad del menor debe ser \\(2957/4=739.25\\) días: llega al quíntuplo el 15 de junio de 1913 a las 6:00.\n4. El documento no fija esa convención ni las horas de nacimiento. No hay una fecha única bajo la lectura usual de años cumplidos, por lo que el reactivo queda guiado."
+        },
+        {
+          "label": "b",
+          "is_correct": null,
+          "reason": "1. Con edades cumplidas en años enteros, Charlitos tiene 10 años y Romualdo 2 desde el 7 de junio de 1913 hasta antes del 3 de mayo de 1914. En todo ese intervalo se cumple \\(10=5\\cdot2\\).\n2. Por tanto las cuatro fechas ofrecidas, del 13 al 16 de junio de 1913, satisfacen la condición con edades cumplidas.\n3. Si se interpreta edad como tiempo continuo transcurrido y se toman los nacimientos a medianoche, la separación es 2957 días. La edad del menor debe ser \\(2957/4=739.25\\) días: llega al quíntuplo el 15 de junio de 1913 a las 6:00.\n4. El documento no fija esa convención ni las horas de nacimiento. No hay una fecha única bajo la lectura usual de años cumplidos, por lo que el reactivo queda guiado."
+        },
+        {
+          "label": "c",
+          "is_correct": null,
+          "reason": "1. Con edades cumplidas en años enteros, Charlitos tiene 10 años y Romualdo 2 desde el 7 de junio de 1913 hasta antes del 3 de mayo de 1914. En todo ese intervalo se cumple \\(10=5\\cdot2\\).\n2. Por tanto las cuatro fechas ofrecidas, del 13 al 16 de junio de 1913, satisfacen la condición con edades cumplidas.\n3. Si se interpreta edad como tiempo continuo transcurrido y se toman los nacimientos a medianoche, la separación es 2957 días. La edad del menor debe ser \\(2957/4=739.25\\) días: llega al quíntuplo el 15 de junio de 1913 a las 6:00.\n4. El documento no fija esa convención ni las horas de nacimiento. No hay una fecha única bajo la lectura usual de años cumplidos, por lo que el reactivo queda guiado."
+        },
+        {
+          "label": "d",
+          "is_correct": null,
+          "reason": "1. Con edades cumplidas en años enteros, Charlitos tiene 10 años y Romualdo 2 desde el 7 de junio de 1913 hasta antes del 3 de mayo de 1914. En todo ese intervalo se cumple \\(10=5\\cdot2\\).\n2. Por tanto las cuatro fechas ofrecidas, del 13 al 16 de junio de 1913, satisfacen la condición con edades cumplidas.\n3. Si se interpreta edad como tiempo continuo transcurrido y se toman los nacimientos a medianoche, la separación es 2957 días. La edad del menor debe ser \\(2957/4=739.25\\) días: llega al quíntuplo el 15 de junio de 1913 a las 6:00.\n4. El documento no fija esa convención ni las horas de nacimiento. No hay una fecha única bajo la lectura usual de años cumplidos, por lo que el reactivo queda guiado."
+        }
+      ],
+      "verification": {
+        "status": "ambiguous_source_age_convention",
+        "answer_checked": false,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "1. Con edades cumplidas en años enteros, Charlitos tiene 10 años y Romualdo 2 desde el 7 de junio de 1913 hasta antes del 3 de mayo de 1914. En todo ese intervalo se cumple \\(10=5\\cdot2\\).\n2. Por tanto las cuatro fechas ofrecidas, del 13 al 16 de junio de 1913, satisfacen la condición con edades cumplidas.\n3. Si se interpreta edad como tiempo continuo transcurrido y se toman los nacimientos a medianoche, la separación es 2957 días. La edad del menor debe ser \\(2957/4=739.25\\) días: llega al quíntuplo el 15 de junio de 1913 a las 6:00.\n4. El documento no fija esa convención ni las horas de nacimiento. No hay una fecha única bajo la lectura usual de años cumplidos, por lo que el reactivo queda guiado."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed"
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_2-de-secundaria_q02",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 2.º de secundaria",
+      "problem_number": 2,
+      "source_question_label": "2",
+      "source_page": 13,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Hallar la suma de las cifras del término que sigue en la siguiente sucesión:\n1, 2, 6, 24, 120, ….",
+      "options": [
+        {
+          "label": "a",
+          "text": "9"
+        },
+        {
+          "label": "b",
+          "text": "10"
+        },
+        {
+          "label": "c",
+          "text": "8"
+        },
+        {
+          "label": "d",
+          "text": "12"
+        }
+      ],
+      "correct_answer": "9",
+      "correct_option_label": "a",
+      "solution_text": "1. El patrón multiplica sucesivamente por 2, 3, 4 y 5. Son los factoriales \\(1!,2!,3!,4!,5!\\).\n2. Siguiendo ese patrón, el siguiente término es \\(120\\cdot6=720\\).\n3. Su suma de cifras es \\(7+2+0=\\mathbf9\\), opción **a**. Comprobación: \\(6!=720\\). La respuesta se refiere a la regla factorial indicada por los términos, como es habitual en este tipo de sucesión.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": true,
+          "reason": "Coincide con el resultado 9."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 9 obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 9 obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 9 obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed"
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_2-de-secundaria_q03",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 2.º de secundaria",
+      "problem_number": 3,
+      "source_question_label": "3",
+      "source_page": 13,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Al descomponer en factores primos al número 3450  la suma de dichos factores primos es:",
+      "options": [
+        {
+          "label": "a",
+          "text": "13"
+        },
+        {
+          "label": "b",
+          "text": "33"
+        },
+        {
+          "label": "c",
+          "text": "23"
+        },
+        {
+          "label": "d",
+          "text": "37"
+        }
+      ],
+      "correct_answer": "33 para primos distintos; 38 contando repeticiones",
+      "correct_option_label": null,
+      "solution_text": "1. La descomposición es \\(3450=2\\cdot3\\cdot5^2\\cdot23\\).\n2. Los divisores primos distintos son 2, 3, 5 y 23; suman 33, que aparece en b.\n3. Si «dichos factores» se refiere a los factores de la descomposición contando cada repetición, la suma es \\(2+3+5+5+23=38\\), que no aparece.\n4. El original no aclara si se cuentan repeticiones. Se conservan ambas lecturas y se practica sin imponer una etiqueta correcta única. La multiplicación \\(2\\cdot3\\cdot25\\cdot23=3450\\) comprueba la factorización.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": null,
+          "reason": "1. La descomposición es \\(3450=2\\cdot3\\cdot5^2\\cdot23\\).\n2. Los divisores primos distintos son 2, 3, 5 y 23; suman 33, que aparece en b.\n3. Si «dichos factores» se refiere a los factores de la descomposición contando cada repetición, la suma es \\(2+3+5+5+23=38\\), que no aparece.\n4. El original no aclara si se cuentan repeticiones. Se conservan ambas lecturas y se practica sin imponer una etiqueta correcta única. La multiplicación \\(2\\cdot3\\cdot25\\cdot23=3450\\) comprueba la factorización."
+        },
+        {
+          "label": "b",
+          "is_correct": null,
+          "reason": "1. La descomposición es \\(3450=2\\cdot3\\cdot5^2\\cdot23\\).\n2. Los divisores primos distintos son 2, 3, 5 y 23; suman 33, que aparece en b.\n3. Si «dichos factores» se refiere a los factores de la descomposición contando cada repetición, la suma es \\(2+3+5+5+23=38\\), que no aparece.\n4. El original no aclara si se cuentan repeticiones. Se conservan ambas lecturas y se practica sin imponer una etiqueta correcta única. La multiplicación \\(2\\cdot3\\cdot25\\cdot23=3450\\) comprueba la factorización."
+        },
+        {
+          "label": "c",
+          "is_correct": null,
+          "reason": "1. La descomposición es \\(3450=2\\cdot3\\cdot5^2\\cdot23\\).\n2. Los divisores primos distintos son 2, 3, 5 y 23; suman 33, que aparece en b.\n3. Si «dichos factores» se refiere a los factores de la descomposición contando cada repetición, la suma es \\(2+3+5+5+23=38\\), que no aparece.\n4. El original no aclara si se cuentan repeticiones. Se conservan ambas lecturas y se practica sin imponer una etiqueta correcta única. La multiplicación \\(2\\cdot3\\cdot25\\cdot23=3450\\) comprueba la factorización."
+        },
+        {
+          "label": "d",
+          "is_correct": null,
+          "reason": "1. La descomposición es \\(3450=2\\cdot3\\cdot5^2\\cdot23\\).\n2. Los divisores primos distintos son 2, 3, 5 y 23; suman 33, que aparece en b.\n3. Si «dichos factores» se refiere a los factores de la descomposición contando cada repetición, la suma es \\(2+3+5+5+23=38\\), que no aparece.\n4. El original no aclara si se cuentan repeticiones. Se conservan ambas lecturas y se practica sin imponer una etiqueta correcta única. La multiplicación \\(2\\cdot3\\cdot25\\cdot23=3450\\) comprueba la factorización."
+        }
+      ],
+      "verification": {
+        "status": "ambiguous_source_prime_multiplicity",
+        "answer_checked": false,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "1. La descomposición es \\(3450=2\\cdot3\\cdot5^2\\cdot23\\).\n2. Los divisores primos distintos son 2, 3, 5 y 23; suman 33, que aparece en b.\n3. Si «dichos factores» se refiere a los factores de la descomposición contando cada repetición, la suma es \\(2+3+5+5+23=38\\), que no aparece.\n4. El original no aclara si se cuentan repeticiones. Se conservan ambas lecturas y se practica sin imponer una etiqueta correcta única. La multiplicación \\(2\\cdot3\\cdot25\\cdot23=3450\\) comprueba la factorización."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed"
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_2-de-secundaria_q04",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 2.º de secundaria",
+      "problem_number": 4,
+      "source_question_label": "4",
+      "source_page": 13,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "¿Cuántos números compuestos existen entre 10 y 25?",
+      "options": [
+        {
+          "label": "a",
+          "text": "7"
+        },
+        {
+          "label": "b",
+          "text": "9"
+        },
+        {
+          "label": "c",
+          "text": "10"
+        },
+        {
+          "label": "d",
+          "text": "8"
+        }
+      ],
+      "correct_answer": "9 números compuestos",
+      "correct_option_label": "b",
+      "solution_text": "1. En el intervalo entre 10 y 25, sin incluir los extremos, hay 14 enteros: del 11 al 24.\n2. Los primos son 11, 13, 17, 19 y 23. Los otros nueve son 12, 14, 15, 16, 18, 20, 21, 22 y 24.\n3. Por tanto la respuesta es **9**, opción **b**. Cada número de la lista tiene un divisor distinto de 1 y de sí mismo; \\(14-5=9\\) confirma el conteo. Si se incluyeran ambos extremos, también serían compuestos 10 y 25 y el total sería 11; la solución explicita el intervalo usado.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 9 números compuestos obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "b",
+          "is_correct": true,
+          "reason": "Coincide con el resultado 9 números compuestos."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 9 números compuestos obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 9 números compuestos obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed"
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_2-de-secundaria_q05",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 2.º de secundaria",
+      "problem_number": 5,
+      "source_question_label": "5",
+      "source_page": 13,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "¿cuántos divisores tiene el número 3400?",
+      "options": [
+        {
+          "label": "a",
+          "text": "15"
+        },
+        {
+          "label": "b",
+          "text": "24"
+        },
+        {
+          "label": "c",
+          "text": "18"
+        },
+        {
+          "label": "d",
+          "text": "36"
+        }
+      ],
+      "correct_answer": "24 divisores",
+      "correct_option_label": "b",
+      "solution_text": "1. Factorizamos \\(3400=34\\cdot100=2^3\\cdot5^2\\cdot17\\).\n2. Un divisor positivo se forma eligiendo el exponente de 2 entre 0 y 3, el de 5 entre 0 y 2 y el de 17 entre 0 y 1.\n3. Hay \\(4\\cdot3\\cdot2=\\mathbf{24}\\) elecciones, opción **b**.\n4. Comprobación: enumerar los enteros positivos hasta 3400 que lo dividen exactamente da esos 24; no se cuentan divisores negativos.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 24 divisores obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "b",
+          "is_correct": true,
+          "reason": "Coincide con el resultado 24 divisores."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 24 divisores obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 24 divisores obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed"
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_2-de-secundaria_q06",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 2.º de secundaria",
+      "problem_number": 6,
+      "source_question_label": "6",
+      "source_page": 13,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Un padre decide repartir el interés que produce un capital de $60,000 al cabo de un año, 3 meses, 21\ndías a una tasa del 36% anual; a 4 de sus hijos proporcionalmente a sus edades que son los primeros 4\nnúmeros primos de dos cifras. Calcular cuanto le corresponde al mayor de los hermanos.",
+      "options": [
+        {
+          "label": "a",
+          "text": "$8,949"
+        },
+        {
+          "label": "b",
+          "text": "$28260"
+        },
+        {
+          "label": "c",
+          "text": "$471"
+        },
+        {
+          "label": "d",
+          "text": "$5,181"
+        }
+      ],
+      "correct_answer": "$8,949 bajo interés simple y año comercial",
+      "correct_option_label": null,
+      "solution_text": "1. Los cuatro primeros primos de dos cifras son 11, 13, 17 y 19; suman 60. Al mayor le corresponde \\(19/60\\) del interés.\n2. Con interés simple y año comercial de 360 días, el tiempo es \\(1+3/12+21/360\\) años. El interés resulta \\(60000\\cdot0.36\\cdot(1+3/12+21/360)=28260\\).\n3. La parte mayor es \\(28260\\cdot19/60=\\mathbf{8949}\\) pesos, opción a. $28,260 es el interés completo; $471 es una unidad de reparto y $5,181 corresponde al hijo de 11 años.\n4. El original no declara interés simple ni la base de días. Otros convenios producen otro interés. El resultado se conserva como condicional, con práctica guiada.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": null,
+          "reason": "1. Los cuatro primeros primos de dos cifras son 11, 13, 17 y 19; suman 60. Al mayor le corresponde \\(19/60\\) del interés.\n2. Con interés simple y año comercial de 360 días, el tiempo es \\(1+3/12+21/360\\) años. El interés resulta \\(60000\\cdot0.36\\cdot(1+3/12+21/360)=28260\\).\n3. La parte mayor es \\(28260\\cdot19/60=\\mathbf{8949}\\) pesos, opción a. $28,260 es el interés completo; $471 es una unidad de reparto y $5,181 corresponde al hijo de 11 años.\n4. El original no declara interés simple ni la base de días. Otros convenios producen otro interés. El resultado se conserva como condicional, con práctica guiada."
+        },
+        {
+          "label": "b",
+          "is_correct": null,
+          "reason": "1. Los cuatro primeros primos de dos cifras son 11, 13, 17 y 19; suman 60. Al mayor le corresponde \\(19/60\\) del interés.\n2. Con interés simple y año comercial de 360 días, el tiempo es \\(1+3/12+21/360\\) años. El interés resulta \\(60000\\cdot0.36\\cdot(1+3/12+21/360)=28260\\).\n3. La parte mayor es \\(28260\\cdot19/60=\\mathbf{8949}\\) pesos, opción a. $28,260 es el interés completo; $471 es una unidad de reparto y $5,181 corresponde al hijo de 11 años.\n4. El original no declara interés simple ni la base de días. Otros convenios producen otro interés. El resultado se conserva como condicional, con práctica guiada."
+        },
+        {
+          "label": "c",
+          "is_correct": null,
+          "reason": "1. Los cuatro primeros primos de dos cifras son 11, 13, 17 y 19; suman 60. Al mayor le corresponde \\(19/60\\) del interés.\n2. Con interés simple y año comercial de 360 días, el tiempo es \\(1+3/12+21/360\\) años. El interés resulta \\(60000\\cdot0.36\\cdot(1+3/12+21/360)=28260\\).\n3. La parte mayor es \\(28260\\cdot19/60=\\mathbf{8949}\\) pesos, opción a. $28,260 es el interés completo; $471 es una unidad de reparto y $5,181 corresponde al hijo de 11 años.\n4. El original no declara interés simple ni la base de días. Otros convenios producen otro interés. El resultado se conserva como condicional, con práctica guiada."
+        },
+        {
+          "label": "d",
+          "is_correct": null,
+          "reason": "1. Los cuatro primeros primos de dos cifras son 11, 13, 17 y 19; suman 60. Al mayor le corresponde \\(19/60\\) del interés.\n2. Con interés simple y año comercial de 360 días, el tiempo es \\(1+3/12+21/360\\) años. El interés resulta \\(60000\\cdot0.36\\cdot(1+3/12+21/360)=28260\\).\n3. La parte mayor es \\(28260\\cdot19/60=\\mathbf{8949}\\) pesos, opción a. $28,260 es el interés completo; $471 es una unidad de reparto y $5,181 corresponde al hijo de 11 años.\n4. El original no declara interés simple ni la base de días. Otros convenios producen otro interés. El resultado se conserva como condicional, con práctica guiada."
+        }
+      ],
+      "verification": {
+        "status": "ambiguous_source_interest_convention",
+        "answer_checked": false,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "1. Los cuatro primeros primos de dos cifras son 11, 13, 17 y 19; suman 60. Al mayor le corresponde \\(19/60\\) del interés.\n2. Con interés simple y año comercial de 360 días, el tiempo es \\(1+3/12+21/360\\) años. El interés resulta \\(60000\\cdot0.36\\cdot(1+3/12+21/360)=28260\\).\n3. La parte mayor es \\(28260\\cdot19/60=\\mathbf{8949}\\) pesos, opción a. $28,260 es el interés completo; $471 es una unidad de reparto y $5,181 corresponde al hijo de 11 años.\n4. El original no declara interés simple ni la base de días. Otros convenios producen otro interés. El resultado se conserva como condicional, con práctica guiada."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed"
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_2-de-secundaria_q07",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 2.º de secundaria",
+      "problem_number": 7,
+      "source_question_label": "7",
+      "source_page": 14,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Se sabe que en un salón de clases, la cantidad de alumnos que toca trompeta es 100, la cantidad de\nalumnos que tocan guitarra es 80 y la cantidad de alumnos que toca la flauta es 95. Si en el aula se\ntienen 120 alumnos. ¿Cuál es la mínima cantidad e alumnos que pueden tocar los 3 instrumentos?",
+      "options": [
+        {
+          "label": "a",
+          "text": "80"
+        },
+        {
+          "label": "b",
+          "text": "10"
+        },
+        {
+          "label": "c",
+          "text": "30"
+        },
+        {
+          "label": "d",
+          "text": "35"
+        }
+      ],
+      "correct_answer": "35 alumnos",
+      "correct_option_label": "d",
+      "solution_text": "1. Las pertenencias totales a los tres grupos son \\(100+80+95=275\\).\n2. Si t alumnos tocan los tres instrumentos, los otros 120−t aportan como máximo dos pertenencias cada uno. Por tanto \\(275\\le3t+2(120-t)=240+t\\), de donde \\(t\\ge35\\).\n3. Se alcanza 35: 35 tocan los tres, 25 solo trompeta y guitarra, 40 solo trompeta y flauta, y 20 solo guitarra y flauta.\n4. Comprobación: hay \\(35+25+40+20=120\\) alumnos; trompeta suma 100, guitarra 80 y flauta 95. El mínimo es **35**, opción **d**; la construcción descarta que la cota sea solo teórica.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 35 alumnos obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 35 alumnos obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 35 alumnos obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "d",
+          "is_correct": true,
+          "reason": "Coincide con el resultado 35 alumnos."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed"
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_2-de-secundaria_q08",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 2.º de secundaria",
+      "problem_number": 8,
+      "source_question_label": "8",
+      "source_page": 14,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Las edades de 4 hermanos son cantidades enteras y consecutivas. Se reparte una suma de dinero\nproporcionalmente a sus edades, de tal manera que el menor recibe los 4/5 del mayor. ¿Cuánto recibe\nel mayor, si el segundo recibe $140?",
+      "options": [],
+      "correct_answer": "$150 o \\(2100/13\\), según qué signifique «segundo»",
+      "correct_option_label": null,
+      "solution_text": "1. Si la edad menor es n, las cuatro son n, n+1, n+2 y n+3. La proporción menor/mayor es \\(n/(n+3)=4/5\\), por lo que \\(5n=4n+12\\) y n=12.\n2. Las edades son 12, 13, 14 y 15. Si «segundo» significa segundo mayor, tiene 14 y recibe $140: cada año vale $10 y el mayor recibe $150.\n3. Si significa segundo al ordenar de menor a mayor, tiene 13 y el mayor recibe \\(140\\cdot15/13=2100/13\\) pesos.\n4. El original no indica el sentido del orden. Ambas reparticiones respetan las edades y la proporción 4/5; por eso se conserva sin respuesta única.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "ambiguous_source_sibling_order",
+        "answer_checked": false,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "1. Si la edad menor es n, las cuatro son n, n+1, n+2 y n+3. La proporción menor/mayor es \\(n/(n+3)=4/5\\), por lo que \\(5n=4n+12\\) y n=12.\n2. Las edades son 12, 13, 14 y 15. Si «segundo» significa segundo mayor, tiene 14 y recibe $140: cada año vale $10 y el mayor recibe $150.\n3. Si significa segundo al ordenar de menor a mayor, tiene 13 y el mayor recibe \\(140\\cdot15/13=2100/13\\) pesos.\n4. El original no indica el sentido del orden. Ambas reparticiones respetan las edades y la proporción 4/5; por eso se conserva sin respuesta única."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed"
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_2-de-secundaria_q09",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 2.º de secundaria",
+      "problem_number": 9,
+      "source_question_label": "9",
+      "source_page": 14,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Se desea obtener 100 litros de alcohol de 74° mezclando 30 litros de alcohol de 80°, con cantidades\nconvenientes de alcohol puro y agua. ¿Qué cantidad de agua será necesaria?",
+      "options": [],
+      "correct_answer": "20 litros de agua",
+      "correct_option_label": null,
+      "solution_text": "1. El volumen final debe contener 74 litros de alcohol puro. Los 30 litros al 80% ya contienen \\(30\\cdot0.8=24\\) litros de alcohol.\n2. Hay que añadir \\(74-24=50\\) litros de alcohol puro.\n3. Para completar 100 litros, se añaden \\(100-30-50=\\mathbf{20}\\) litros de agua.\n4. Comprobación del modelo de mezcla del problema: volumen \\(30+50+20=100\\); alcohol \\(24+50=74\\), es decir, 74%. Se usa la aditividad de volúmenes prevista por el ejercicio.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed"
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_2-de-secundaria_q10",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 2.º de secundaria",
+      "problem_number": 10,
+      "source_question_label": "10",
+      "source_page": 14,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Calcular el resultado de:\n\n\\[\\frac{(2^8+2^7+2^6)\\cdot3-2^2\\cdot11}{(\\frac{78}{2}\\cdot3)(\\frac{75}{5}\\cdot3)}.\\]",
+      "options": [],
+      "correct_answer": "\\(260/1053\\)",
+      "correct_option_label": null,
+      "solution_text": "1. En el numerador, \\(2^8+2^7+2^6=256+128+64=448\\). El 3 que sigue al paréntesis está en la línea base: multiplica, no es un exponente.\n2. El numerador vale \\(448\\cdot3-2^2\\cdot11=1344-44=1300\\).\n3. El denominador es \\((78/2\\cdot3)(75/5\\cdot3)=(39\\cdot3)(15\\cdot3)=117\\cdot45=5265\\).\n4. El cociente es \\(1300/5265=\\mathbf{260/1053}\\), después de dividir entre 5. Multiplicar 260/1053 por 5265 recupera 1300; numerador y denominador simplificados no tienen factores comunes.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed"
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_2-de-secundaria_q11",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 2.º de secundaria",
+      "problem_number": 11,
+      "source_question_label": "11",
+      "source_page": 14,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Un entrenador da clases todos los martes todos los viernes y todos los días impares. ¿Cuál es el mayor\nnúmero de días sucesivos que puede tener que dar entrenamientos?",
+      "options": [
+        {
+          "label": "a",
+          "text": "3"
+        },
+        {
+          "label": "b",
+          "text": "4"
+        },
+        {
+          "label": "c",
+          "text": "5"
+        },
+        {
+          "label": "d",
+          "text": "6"
+        }
+      ],
+      "correct_answer": "6 días",
+      "correct_option_label": "d",
+      "solution_text": "1. Dentro de un mes, los días alternan impar/par. Un día par solo tiene entrenamiento si cae en martes o viernes.\n2. En el cambio de un mes de 31 días al siguiente aparecen dos impares consecutivos: 31 y 1. Esto permite una racha más larga.\n3. Si el 30 cae en martes, la racha es lunes 29, martes 30, miércoles 31, jueves 1, viernes 2 y sábado 3: **seis días**, opción **d**. El domingo 4 es par y corta la racha.\n4. No puede haber siete: aun cruzando ese cambio, siete días incluirían al menos tres fechas pares; solo dos días de una semana, martes y viernes, las habilitan. Los cambios tras meses de longitud par no alargan la alternancia. La construcción alcanza la cota de seis.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 6 días obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 6 días obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 6 días obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "d",
+          "is_correct": true,
+          "reason": "Coincide con el resultado 6 días."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed"
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_2-de-secundaria_q12",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 2.º de secundaria",
+      "problem_number": 12,
+      "source_question_label": "12",
+      "source_page": 14,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Si x y y son dos números enteros positivos tales que 75x = y^{3} , ¿Cuál es el menor valor posible de\nposible de x + y?",
+      "options": [
+        {
+          "label": "a",
+          "text": "15"
+        },
+        {
+          "label": "b",
+          "text": "30"
+        },
+        {
+          "label": "c",
+          "text": "50"
+        },
+        {
+          "label": "d",
+          "text": "60"
+        }
+      ],
+      "correct_answer": "60",
+      "correct_option_label": "d",
+      "solution_text": "1. De \\(75x=y^3\\), con \\(75=3\\cdot5^2\\), se deduce que y debe ser múltiplo de 3 y de 5, es decir, de 15.\n2. El menor y positivo es 15. Entonces \\(x=15^3/75=3375/75=45\\).\n3. La suma mínima es \\(45+15=\\mathbf{60}\\), opción **d**. Para y=15t, \\(x=45t^3\\), y ambos crecen al aumentar el entero positivo t.\n4. Comprobación: \\(75\\cdot45=3375=15^3\\). Las otras sumas no pueden corresponder a un y múltiplo positivo de 15 con x entero.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 60 obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 60 obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 60 obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "d",
+          "is_correct": true,
+          "reason": "Coincide con el resultado 60."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed"
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_2-de-secundaria_q13",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 2.º de secundaria",
+      "problem_number": 13,
+      "source_question_label": "13",
+      "source_page": 15,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "El hexágono interior tiene sus vértices en los puntos medios de los lados del hexágono exterior. Si el\ngrande tiene un área de 20 cm², ¿Cuál es el área del pequeño?",
+      "options": [
+        {
+          "label": "a",
+          "text": "14"
+        },
+        {
+          "label": "b",
+          "text": "12"
+        },
+        {
+          "label": "c",
+          "text": "15"
+        },
+        {
+          "label": "d",
+          "text": "16"
+        }
+      ],
+      "correct_answer": "15 cm² si el hexágono exterior es regular",
+      "correct_option_label": null,
+      "solution_text": "1. Si el hexágono exterior es regular, sus seis triángulos formados con el centro son iguales. Cada esquina eliminada por los puntos medios es un triángulo semejante, de escala 1/2 respecto al triángulo que forman tres vértices consecutivos.\n2. En el caso regular, las seis esquinas suman un cuarto del área exterior. El hexágono de puntos medios conserva \\(3/4\\): \\(20\\cdot3/4=15\\) cm², opción c.\n3. Sin regularidad, unir puntos medios de un hexágono no fija siempre esa proporción. El enunciado no dice «regular» y la figura no marca igualdad de lados o ángulos.\n4. Conservamos 15 como resultado condicional. No usamos la apariencia del dibujo como prueba de regularidad, y el problema queda guiado.",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Figura del problema",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "49aa93c121e7daa82ee61457c4a35c950173e739e4ac71084d645980a2e19077",
+          "source": "pdf_embedded_image",
+          "original_filename": "page15_Image88.png",
+          "width_px": 156,
+          "height_px": 148
+        }
+      ],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": null,
+          "reason": "1. Si el hexágono exterior es regular, sus seis triángulos formados con el centro son iguales. Cada esquina eliminada por los puntos medios es un triángulo semejante, de escala 1/2 respecto al triángulo que forman tres vértices consecutivos.\n2. En el caso regular, las seis esquinas suman un cuarto del área exterior. El hexágono de puntos medios conserva \\(3/4\\): \\(20\\cdot3/4=15\\) cm², opción c.\n3. Sin regularidad, unir puntos medios de un hexágono no fija siempre esa proporción. El enunciado no dice «regular» y la figura no marca igualdad de lados o ángulos.\n4. Conservamos 15 como resultado condicional. No usamos la apariencia del dibujo como prueba de regularidad, y el problema queda guiado."
+        },
+        {
+          "label": "b",
+          "is_correct": null,
+          "reason": "1. Si el hexágono exterior es regular, sus seis triángulos formados con el centro son iguales. Cada esquina eliminada por los puntos medios es un triángulo semejante, de escala 1/2 respecto al triángulo que forman tres vértices consecutivos.\n2. En el caso regular, las seis esquinas suman un cuarto del área exterior. El hexágono de puntos medios conserva \\(3/4\\): \\(20\\cdot3/4=15\\) cm², opción c.\n3. Sin regularidad, unir puntos medios de un hexágono no fija siempre esa proporción. El enunciado no dice «regular» y la figura no marca igualdad de lados o ángulos.\n4. Conservamos 15 como resultado condicional. No usamos la apariencia del dibujo como prueba de regularidad, y el problema queda guiado."
+        },
+        {
+          "label": "c",
+          "is_correct": null,
+          "reason": "1. Si el hexágono exterior es regular, sus seis triángulos formados con el centro son iguales. Cada esquina eliminada por los puntos medios es un triángulo semejante, de escala 1/2 respecto al triángulo que forman tres vértices consecutivos.\n2. En el caso regular, las seis esquinas suman un cuarto del área exterior. El hexágono de puntos medios conserva \\(3/4\\): \\(20\\cdot3/4=15\\) cm², opción c.\n3. Sin regularidad, unir puntos medios de un hexágono no fija siempre esa proporción. El enunciado no dice «regular» y la figura no marca igualdad de lados o ángulos.\n4. Conservamos 15 como resultado condicional. No usamos la apariencia del dibujo como prueba de regularidad, y el problema queda guiado."
+        },
+        {
+          "label": "d",
+          "is_correct": null,
+          "reason": "1. Si el hexágono exterior es regular, sus seis triángulos formados con el centro son iguales. Cada esquina eliminada por los puntos medios es un triángulo semejante, de escala 1/2 respecto al triángulo que forman tres vértices consecutivos.\n2. En el caso regular, las seis esquinas suman un cuarto del área exterior. El hexágono de puntos medios conserva \\(3/4\\): \\(20\\cdot3/4=15\\) cm², opción c.\n3. Sin regularidad, unir puntos medios de un hexágono no fija siempre esa proporción. El enunciado no dice «regular» y la figura no marca igualdad de lados o ángulos.\n4. Conservamos 15 como resultado condicional. No usamos la apariencia del dibujo como prueba de regularidad, y el problema queda guiado."
+        }
+      ],
+      "verification": {
+        "status": "ambiguous_source_hexagon_regularity",
+        "answer_checked": false,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "1. Si el hexágono exterior es regular, sus seis triángulos formados con el centro son iguales. Cada esquina eliminada por los puntos medios es un triángulo semejante, de escala 1/2 respecto al triángulo que forman tres vértices consecutivos.\n2. En el caso regular, las seis esquinas suman un cuarto del área exterior. El hexágono de puntos medios conserva \\(3/4\\): \\(20\\cdot3/4=15\\) cm², opción c.\n3. Sin regularidad, unir puntos medios de un hexágono no fija siempre esa proporción. El enunciado no dice «regular» y la figura no marca igualdad de lados o ángulos.\n4. Conservamos 15 como resultado condicional. No usamos la apariencia del dibujo como prueba de regularidad, y el problema queda guiado."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed"
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_2-de-secundaria_q14",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 2.º de secundaria",
+      "problem_number": 14,
+      "source_question_label": "14",
+      "source_page": 15,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "En la primera fila del teatro hay 5 asientos. Para la función de esta noche Juan compró las 5 entradas de\nla primera fila para él y sus amigos: Ana, Dani, Edu y Mar. Si Ana y Mar se sientan una al lado de la otra,\n¿de cuántas maneras distintas podrán sentarse los 5 chicos?",
+      "options": [],
+      "correct_answer": "48 maneras",
+      "correct_option_label": null,
+      "solution_text": "1. Tratamos a Ana y Mar como un bloque. Junto con Juan, Dani y Edu hay cuatro objetos distintos para ordenar.\n2. Esos cuatro objetos se acomodan de \\(4!=24\\) maneras. Dentro del bloque hay dos órdenes: Ana–Mar o Mar–Ana.\n3. El total es \\(24\\cdot2=\\mathbf{48}\\).\n4. Comprobación: el bloque puede empezar en cuatro posiciones; elegida una, los otros tres se ordenan de seis maneras y el bloque de dos: \\(4\\cdot6\\cdot2=48\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed"
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_2-de-secundaria_q15",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 2.º de secundaria",
+      "problem_number": 15,
+      "source_question_label": "15",
+      "source_page": 15,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "El lunes se vendieron el 30% de los paquetes de galletitas que había en el depósito. El martes se vendió\nla cuarta parte de lo que quedaba. Aún quedan 945 paquetes. ¿Cuántos paquetes había al comienzo?",
+      "options": [],
+      "correct_answer": "1800 paquetes",
+      "correct_option_label": null,
+      "solution_text": "1. Después del lunes queda el 70% de la cantidad inicial N.\n2. El martes se vende un cuarto de ese resto y queda \\(3/4\\). Entonces \\(N\\cdot0.70\\cdot3/4=945\\).\n3. El producto de fracciones es \\(21/40\\), así que \\(N=945\\cdot40/21=\\mathbf{1800}\\).\n4. Comprobación: el lunes vende 540 y quedan 1260; el martes vende 315 y quedan 945.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed"
+    }
+  ]
+}

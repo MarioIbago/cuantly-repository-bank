@@ -1,0 +1,269 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+  "source_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed",
+  "bank_sha256": "59370bf5dd21e05455ed75a963ea6a0c975672b031d4f6cc6113838c56f60a02",
+  "rubric": "Editorial L1/L2/L3 relative to source school grade; primary area follows decisive reasoning, not picture context.",
+  "problems": [
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-secundaria_q01",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "square_roots",
+        "perimeter",
+        "counting"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Primer año de secundaria: combina pasos, modelado o enumeración con una inferencia."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-secundaria_q02",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "gcd",
+        "unit_rate"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Primer año de secundaria: combina pasos, modelado o enumeración con una inferencia."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-secundaria_q03",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "sets",
+        "logic"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Primer año de secundaria: aplicación directa o rutina breve."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-secundaria_q04",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "ages",
+        "calendar",
+        "equations"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Primer año de secundaria: combina pasos, modelado o enumeración con una inferencia."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-secundaria_q05",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "factorials",
+        "sequences",
+        "digits"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Primer año de secundaria: aplicación directa o rutina breve."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-secundaria_q06",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "prime_factorization",
+        "addition"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Primer año de secundaria: combina pasos, modelado o enumeración con una inferencia."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-secundaria_q07",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "primes",
+        "counting"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Primer año de secundaria: aplicación directa o rutina breve."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-secundaria_q08",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "gcd",
+        "divisibility"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Primer año de secundaria: aplicación directa o rutina breve."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-secundaria_q09",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "fractions",
+        "equations"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Primer año de secundaria: aplicación directa o rutina breve."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-secundaria_q10",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "divisibility",
+        "fractions",
+        "least_common_multiple"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Primer año de secundaria: combina pasos, modelado o enumeración con una inferencia."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-secundaria_q11",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "absolute_difference",
+        "casework"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Primer año de secundaria: combina pasos, modelado o enumeración con una inferencia."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-secundaria_q12",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "perimeter",
+        "area",
+        "ratios"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Primer año de secundaria: combina pasos, modelado o enumeración con una inferencia."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-secundaria_q13",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "counting",
+        "line_arrangements"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Primer año de secundaria: combina pasos, modelado o enumeración con una inferencia."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-secundaria_q14",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "equations",
+        "systems"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Primer año de secundaria: aplicación directa o rutina breve."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-secundaria_q15",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "congruences",
+        "remainders",
+        "casework"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Primer año de secundaria: combina pasos, modelado o enumeración con una inferencia."
+      ]
+    }
+  ]
+}

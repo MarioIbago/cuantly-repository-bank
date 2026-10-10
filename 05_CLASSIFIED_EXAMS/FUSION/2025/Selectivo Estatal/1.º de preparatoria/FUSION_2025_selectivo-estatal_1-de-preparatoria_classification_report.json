@@ -1,0 +1,272 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+  "source_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed",
+  "bank_sha256": "5f2dca900ffac8749322592098ea00b01e09cf0be49a596898f2efccbb709f2e",
+  "rubric": "Editorial L1/L2/L3 relative to source school grade; primary area follows decisive reasoning, not picture context.",
+  "problems": [
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-preparatoria_q01",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "ages",
+        "calendar",
+        "equations"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Primer año de preparatoria: combina pasos, modelado o enumeración con una inferencia."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-preparatoria_q02",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "factorials",
+        "sequences",
+        "digits"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Primer año de preparatoria: aplicación directa o rutina breve."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-preparatoria_q03",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "prime_factorization",
+        "addition"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Primer año de preparatoria: combina pasos, modelado o enumeración con una inferencia."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-preparatoria_q04",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "inclusion_exclusion",
+        "extremal_principle"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Primer año de preparatoria: combina pasos, modelado o enumeración con una inferencia."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-preparatoria_q05",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "inscribed_angles",
+        "circles",
+        "angles"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Primer año de preparatoria: combina pasos, modelado o enumeración con una inferencia."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-preparatoria_q06",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L3",
+      "tags": [
+        "area",
+        "trigonometry",
+        "isosceles_triangles"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Primer año de preparatoria: combina pasos, modelado o enumeración con una inferencia."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-preparatoria_q07",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "similar_triangles",
+        "midpoints",
+        "angles"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Primer año de preparatoria: combina pasos, modelado o enumeración con una inferencia."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-preparatoria_q08",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "gcd",
+        "divisibility"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Primer año de preparatoria: aplicación directa o rutina breve."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-preparatoria_q09",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "mixtures",
+        "percentages",
+        "systems"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Primer año de preparatoria: combina pasos, modelado o enumeración con una inferencia."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-preparatoria_q10",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "quadratic_equations",
+        "completing_the_square"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Primer año de preparatoria: aplicación directa o rutina breve."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-preparatoria_q11",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "circles",
+        "area",
+        "tangency"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Primer año de preparatoria: combina pasos, modelado o enumeración con una inferencia."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-preparatoria_q12",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "rates",
+        "work",
+        "counting"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Primer año de preparatoria: aplicación directa o rutina breve."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-preparatoria_q13",
+      "primary_area": "number_theory",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "divisibility",
+        "equations"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Primer año de preparatoria: aplicación directa o rutina breve."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-preparatoria_q14",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "combinations",
+        "multiplication_principle"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Primer año de preparatoria: aplicación directa o rutina breve."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-preparatoria_q15",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "divisibility",
+        "digits",
+        "permutations"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Área basada en la estrategia de la solución.",
+        "Dificultad editorial relativa a Primer año de preparatoria: combina pasos, modelado o enumeración con una inferencia."
+      ]
+    }
+  ]
+}

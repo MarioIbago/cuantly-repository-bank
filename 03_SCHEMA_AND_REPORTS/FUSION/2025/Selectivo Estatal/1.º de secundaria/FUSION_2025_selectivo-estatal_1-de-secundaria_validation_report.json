@@ -1,0 +1,440 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+  "source_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed",
+  "pages_cotejadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
+  ],
+  "metadata_evidence": "Los encabezados dicen SELECTIVOS ESTATALES FUSION25 y el grado. La publicación institucional del anfitrión American School Foundation of Chiapas relaciona COMFUSION25 con Fusión 2025; esa correspondencia confirma 2025. No se infiere una edición del nombre FUSION5. Referencia: https://www.linkedin.com/posts/american-school-foundation-of-chiapas_proudtobeasfc-gobulldogs-worldready-activity-7377353761121492992-xrcg",
+  "method": "Rendered all 29 pages; independently solved86 models across 150 appearances; evaluated every option; compared decoded figures with printed orientation; actual KaTeX rendering.",
+  "printed_key_review": {
+    "page": 29,
+    "note": "Blank answer sheet; no printed answer key."
+  },
+  "problems": [
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-secundaria_q01",
+      "source_page": 10,
+      "legacy_group_for_navigation_only": 303,
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Recalculado independientemente: 84. Desarrollo y comparación de opciones en solution_text."
+      },
+      "figures": [],
+      "transcription_notes": [
+        "Original wording and numerical data retained."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-secundaria_q02",
+      "source_page": 10,
+      "legacy_group_for_navigation_only": 312,
+      "verification": {
+        "status": "ambiguous_source_container_filling",
+        "answer_checked": false,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "1. Si se exige que todos los recipientes estén **llenos**, su capacidad debe dividir tanto 120 como 70. La mayor capacidad común es \\(\\operatorname{mcd}(120,70)=10\\) litros.\n2. En ese modelo hay 12 envases de aceite y 7 de leche; recauda \\(12\\cdot15+7\\cdot10=\\mathbf{250}\\) pesos, opción b.\n3. El original solo dice que los recipientes sean iguales, sin derrames ni mezclas; no exige llenarlos. Con capacidad de 120 litros bastan dos recipientes, uno de aceite y otro parcialmente lleno de leche. Se recaudarían $25 si se cobra por esos envases.\n4. Por esta omisión conservamos el resultado de $250 como condicional y desactivamos la calificación automática."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Recalculado independientemente: 250. Desarrollo y comparación de opciones en solution_text."
+      },
+      "figures": [],
+      "transcription_notes": [
+        "Original wording and numerical data retained."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-secundaria_q03",
+      "source_page": 10,
+      "legacy_group_for_navigation_only": 313,
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Recalculado independientemente: 60. Desarrollo y comparación de opciones en solution_text."
+      },
+      "figures": [],
+      "transcription_notes": [
+        "Original wording and numerical data retained."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-secundaria_q04",
+      "source_page": 10,
+      "legacy_group_for_navigation_only": 314,
+      "verification": {
+        "status": "ambiguous_source_age_convention",
+        "answer_checked": false,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "1. Con edades cumplidas en años enteros, Charlitos tiene 10 años y Romualdo 2 desde el 7 de junio de 1913 hasta antes del 3 de mayo de 1914. En todo ese intervalo se cumple \\(10=5\\cdot2\\).\n2. Por tanto las cuatro fechas ofrecidas, del 13 al 16 de junio de 1913, satisfacen la condición con edades cumplidas.\n3. Si se interpreta edad como tiempo continuo transcurrido y se toman los nacimientos a medianoche, la separación es 2957 días. La edad del menor debe ser \\(2957/4=739.25\\) días: llega al quíntuplo el 15 de junio de 1913 a las 6:00.\n4. El documento no fija esa convención ni las horas de nacimiento. No hay una fecha única bajo la lectura usual de años cumplidos, por lo que el reactivo queda guiado."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Edadescontinuas:15jun1913 06:00. Cumplidas:10y2en lascuatrofechas. Fuente noespecificaconvención."
+      },
+      "figures": [],
+      "transcription_notes": [
+        "Original wording and numerical data retained."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-secundaria_q05",
+      "source_page": 10,
+      "legacy_group_for_navigation_only": 323,
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Recalculado independientemente: 720. Desarrollo y comparación de opciones en solution_text."
+      },
+      "figures": [],
+      "transcription_notes": [
+        "Original wording and numerical data retained."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-secundaria_q06",
+      "source_page": 11,
+      "legacy_group_for_navigation_only": 324,
+      "verification": {
+        "status": "ambiguous_source_prime_multiplicity",
+        "answer_checked": false,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "1. La descomposición es \\(3450=2\\cdot3\\cdot5^2\\cdot23\\).\n2. Los divisores primos distintos son 2, 3, 5 y 23; suman 33, que aparece en b.\n3. Si «dichos factores» se refiere a los factores de la descomposición contando cada repetición, la suma es \\(2+3+5+5+23=38\\), que no aparece.\n4. El original no aclara si se cuentan repeticiones. Se conservan ambas lecturas y se practica sin imponer una etiqueta correcta única. La multiplicación \\(2\\cdot3\\cdot25\\cdot23=3450\\) comprueba la factorización."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Recalculado independientemente: 3450. Desarrollo y comparación de opciones en solution_text."
+      },
+      "figures": [],
+      "transcription_notes": [
+        "Original wording and numerical data retained."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-secundaria_q07",
+      "source_page": 11,
+      "legacy_group_for_navigation_only": 325,
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Compuestosestrictos12,14,15,16,18,20,21,22,24."
+      },
+      "figures": [],
+      "transcription_notes": [
+        "Original wording and numerical data retained."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-secundaria_q08",
+      "source_page": 11,
+      "legacy_group_for_navigation_only": 326,
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "MCD1."
+      },
+      "figures": [],
+      "transcription_notes": [
+        "Original wording and numerical data retained."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-secundaria_q09",
+      "source_page": 11,
+      "legacy_group_for_navigation_only": 327,
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Recalculado independientemente: 21. Desarrollo y comparación de opciones en solution_text."
+      },
+      "figures": [],
+      "transcription_notes": [
+        "Original wording and numerical data retained."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-secundaria_q10",
+      "source_page": 11,
+      "legacy_group_for_navigation_only": 328,
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Únicototal42;nooro30."
+      },
+      "figures": [],
+      "transcription_notes": [
+        "Original wording and numerical data retained."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-secundaria_q11",
+      "source_page": 11,
+      "legacy_group_for_navigation_only": 329,
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Tresdistancias7,5,12."
+      },
+      "figures": [],
+      "transcription_notes": [
+        "Original wording and numerical data retained."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-secundaria_q12",
+      "source_page": 12,
+      "legacy_group_for_navigation_only": 330,
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Recalculado independientemente: 800. Desarrollo y comparación de opciones en solution_text."
+      },
+      "figures": [
+        {
+          "page": 12,
+          "object": "Image81.png",
+          "box": [
+            271.5,
+            119.77999999999997,
+            376.48,
+            179.42999999999995
+          ],
+          "sha256": "dd8d53463efa777374c3c32f7f716dce99fbc4b3403e47e3b02ff39726d7db3b",
+          "width_px": 167,
+          "height_px": 95,
+          "source": "pdf_embedded_image"
+        }
+      ],
+      "transcription_notes": [
+        "Original wording and numerical data retained."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-secundaria_q13",
+      "source_page": 12,
+      "legacy_group_for_navigation_only": 331,
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Recalculado independientemente: 7. Desarrollo y comparación de opciones en solution_text."
+      },
+      "figures": [],
+      "transcription_notes": [
+        "Original wording and numerical data retained."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-secundaria_q14",
+      "source_page": 12,
+      "legacy_group_for_navigation_only": 332,
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Recalculado independientemente: 17. Desarrollo y comparación de opciones en solution_text."
+      },
+      "figures": [],
+      "transcription_notes": [
+        "Original wording and numerical data retained."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_1-de-secundaria_q15",
+      "source_page": 12,
+      "legacy_group_for_navigation_only": 333,
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "BúsquedaexhaustivaN<300:167."
+      },
+      "figures": [],
+      "transcription_notes": [
+        "Original wording and numerical data retained."
+      ]
+    }
+  ],
+  "bank_sha256": "dc9e3d9b602a837c947bf6bf622a1ffc5cf46624c83994cc56fbbfc280c0dd68",
+  "classified_bank_sha256": "59370bf5dd21e05455ed75a963ea6a0c975672b031d4f6cc6113838c56f60a02",
+  "counts": {
+    "verified_problems": 12,
+    "needs_review_or_invalid": 3,
+    "needs_review_problem_numbers": [
+      2,
+      4,
+      6
+    ],
+    "notes": "Se cotejaron las 29 páginas: 150 preguntas y hoja final de respuestas en blanco, sin clave oficial. Ambigüedades conservadas con práctica guiada. Fórmulas desordenadas restauradas del PDF y figuras respetan su orientación impresa."
+  },
+  "latex_rendering": {
+    "engine": "KaTeX",
+    "throwOnError": true,
+    "fields": "problem_text, correct_answer, solution_text, options, option_analysis"
+  },
+  "structural_validation": {
+    "verified": {
+      "ok": true,
+      "scope": "structure_options_image_decoding_hashes_classification_only",
+      "mathematical_verification": "not_performed_by_this_script",
+      "visual_source_comparison": "not_performed_by_this_script",
+      "latex_rendering": "not_performed_by_this_script",
+      "bank_sha256": "dc9e3d9b602a837c947bf6bf622a1ffc5cf46624c83994cc56fbbfc280c0dd68",
+      "bytes": 52692,
+      "problems": 15,
+      "verified": 12,
+      "guided": 3,
+      "images": 1,
+      "figures": [
+        {
+          "source_id": "fusion5_examenes-selectivos-estatales_1-de-secundaria_q12",
+          "figure": 1,
+          "sha256": "dd8d53463efa777374c3c32f7f716dce99fbc4b3403e47e3b02ff39726d7db3b",
+          "width": 167,
+          "height": 95
+        }
+      ],
+      "errors": [],
+      "warnings": []
+    },
+    "classified": {
+      "ok": true,
+      "scope": "structure_options_image_decoding_hashes_classification_only",
+      "mathematical_verification": "not_performed_by_this_script",
+      "visual_source_comparison": "not_performed_by_this_script",
+      "latex_rendering": "not_performed_by_this_script",
+      "bank_sha256": "59370bf5dd21e05455ed75a963ea6a0c975672b031d4f6cc6113838c56f60a02",
+      "bytes": 60981,
+      "problems": 15,
+      "verified": 12,
+      "guided": 3,
+      "images": 1,
+      "figures": [
+        {
+          "source_id": "fusion5_examenes-selectivos-estatales_1-de-secundaria_q12",
+          "figure": 1,
+          "sha256": "dd8d53463efa777374c3c32f7f716dce99fbc4b3403e47e3b02ff39726d7db3b",
+          "width": 167,
+          "height": 95
+        }
+      ],
+      "errors": [],
+      "warnings": []
+    }
+  }
+}

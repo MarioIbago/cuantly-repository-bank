@@ -1,0 +1,838 @@
+{
+  "schema_version": "1.0",
+  "source_format_reference": "Cuantly public practice; original multiple_choice and open_answer preserved",
+  "exam": {
+    "competition": "FUSION",
+    "source_competition": "Campeonato de Olimpiadas Matemáticas FUSION25",
+    "edition": null,
+    "source_archive_family": "FUSION5",
+    "year": 2025,
+    "year_status": "confirmed",
+    "year_evidence": "Los encabezados dicen SELECTIVOS ESTATALES FUSION25 y el grado. La publicación institucional del anfitrión American School Foundation of Chiapas relaciona COMFUSION25 con Fusión 2025; esa correspondencia confirma 2025. No se infiere una edición del nombre FUSION5. Referencia: https://www.linkedin.com/posts/american-school-foundation-of-chiapas_proudtobeasfc-gobulldogs-worldready-activity-7377353761121492992-xrcg",
+    "phase": "Selectivo Estatal",
+    "level": "5.º de primaria",
+    "school_level": "Quinto año de primaria",
+    "problem_count": 15,
+    "source_file": "FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+    "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+    "source_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed",
+    "image_policy": "Original embedded mathematical figures byte for byte, except the three rotated appearances of group356: tight figure-only PDF renders preserve the printed 180-degree orientation. Formulas transcribed as LaTeX; no headers or answer sheets."
+  },
+  "validation_summary": {
+    "verified_problems": 15,
+    "needs_review_or_invalid": 0,
+    "needs_review_problem_numbers": [],
+    "notes": "Se cotejaron las 29 páginas: 150 preguntas y hoja final de respuestas en blanco, sin clave oficial. Ambigüedades conservadas con práctica guiada. Fórmulas desordenadas restauradas del PDF y figuras respetan su orientación impresa."
+  },
+  "problems": [
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_5-de-primaria_q01",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 5.º de primaria",
+      "problem_number": 1,
+      "source_question_label": "1",
+      "source_page": 4,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Ricardiño tiene 5 años menos que su hermano Jaden. Entre los dos suman 29 años, entonces:",
+      "options": [
+        {
+          "label": "a",
+          "text": "Jaden tiene 15 años"
+        },
+        {
+          "label": "b",
+          "text": "Jaden tiene 12 años"
+        },
+        {
+          "label": "c",
+          "text": "Ricardiño tiene 12 años"
+        },
+        {
+          "label": "d",
+          "text": "Ricardiño tiene 17 años"
+        }
+      ],
+      "correct_answer": "Ricardiño tiene 12 años",
+      "correct_option_label": "c",
+      "solution_text": "1. Si quitamos los cinco años de diferencia a la suma 29, quedan \\(29-5=24\\) años repartidos en dos edades iguales a la del menor.\n2. Ricardiño tiene \\(24/2=12\\) y Jaden \\(12+5=17\\).\n3. Solo **c** es verdadera. Comprobación: \\(12+17=29\\) y \\(17-12=5\\). Jaden no tiene 15 ni 12; Ricardiño no tiene 17.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "No coincide con el resultado Ricardiño tiene 12 años obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "No coincide con el resultado Ricardiño tiene 12 años obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "c",
+          "is_correct": true,
+          "reason": "Coincide con el resultado Ricardiño tiene 12 años."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "No coincide con el resultado Ricardiño tiene 12 años obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed"
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_5-de-primaria_q02",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 5.º de primaria",
+      "problem_number": 2,
+      "source_question_label": "2",
+      "source_page": 4,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Charlitos quiere construir un cuadrado cuyos lados midan un número entero, si la mitad de un lado debe medir 3\ncms. ¿Cuánto medirá el perímetro total de dicho cuadrado?",
+      "options": [
+        {
+          "label": "a",
+          "text": "24 cms"
+        },
+        {
+          "label": "b",
+          "text": "12 cms"
+        },
+        {
+          "label": "c",
+          "text": "6 cms"
+        },
+        {
+          "label": "d",
+          "text": "18 cms"
+        }
+      ],
+      "correct_answer": "24 cm",
+      "correct_option_label": "a",
+      "solution_text": "1. Si la mitad de un lado mide 3 cm, el lado completo mide \\(2\\cdot3=6\\) cm.\n2. Un cuadrado tiene cuatro lados iguales. Su perímetro es \\(4\\cdot6=\\mathbf{24}\\) cm, opción **a**.\n3. Comprobación: un cuarto de 24 es 6 y la mitad de 6 es 3. Las otras opciones no recuperan ese dato.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": true,
+          "reason": "Coincide con el resultado 24 cm."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 24 cm obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 24 cm obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 24 cm obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed"
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_5-de-primaria_q03",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 5.º de primaria",
+      "problem_number": 3,
+      "source_question_label": "3",
+      "source_page": 4,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Si a 3 amigos les quiero regalar, una gorra, un reloj y unos tenis, algo diferente a cada uno, ¿De cuántas formas\npodría hacerles los regalos?",
+      "options": [
+        {
+          "label": "a",
+          "text": "9"
+        },
+        {
+          "label": "b",
+          "text": "3"
+        },
+        {
+          "label": "c",
+          "text": "6"
+        },
+        {
+          "label": "d",
+          "text": "5"
+        }
+      ],
+      "correct_answer": "6 formas",
+      "correct_option_label": "c",
+      "solution_text": "1. Los tres regalos son distintos y cada amigo recibe uno. Hay tres posibilidades para el primer amigo, dos para el segundo y una para el tercero.\n2. El producto \\(3\\cdot2\\cdot1=\\mathbf6\\) da la opción **c**.\n3. Listar los seis órdenes de gorra, reloj y tenis comprueba el total. No se cuentan solo los regalos ni se permite dar el mismo regalo a dos personas.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 6 formas obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 6 formas obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "c",
+          "is_correct": true,
+          "reason": "Coincide con el resultado 6 formas."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 6 formas obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed"
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_5-de-primaria_q04",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 5.º de primaria",
+      "problem_number": 4,
+      "source_question_label": "4",
+      "source_page": 4,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "La edad de Abigail es de 31 años, la de Mario es de 59 y la diferencia de las edades de Carmen y Clara es de 37\naños, ¿en cuánto excede la suma de las edades de Abigail y Mario a la diferencia de las de Carmen y Clara?",
+      "options": [
+        {
+          "label": "a",
+          "text": "22"
+        },
+        {
+          "label": "b",
+          "text": "65"
+        },
+        {
+          "label": "c",
+          "text": "9"
+        },
+        {
+          "label": "d",
+          "text": "53"
+        }
+      ],
+      "correct_answer": "53 años",
+      "correct_option_label": "d",
+      "solution_text": "1. La suma de las edades de Abigail y Mario es \\(31+59=90\\) años.\n2. Para saber cuánto excede esa suma a la diferencia 37, restamos: \\(90-37=\\mathbf{53}\\), opción **d**.\n3. Comprobación: \\(37+53=90\\). No se necesitan las edades individuales de Carmen y Clara porque ya conocemos su diferencia.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 53 años obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 53 años obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 53 años obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "d",
+          "is_correct": true,
+          "reason": "Coincide con el resultado 53 años."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed"
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_5-de-primaria_q05",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 5.º de primaria",
+      "problem_number": 5,
+      "source_question_label": "5",
+      "source_page": 4,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Determinar la suma de la mayor y menor de las siguientes fracciones:\n\n\\[\\frac59,\\quad\\frac75,\\quad\\frac{13}{15},\\quad\\frac{21}{11},\\quad\\frac35,\\quad\\frac97.\\]",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(\\frac{244}{99}\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(\\frac{302}{135}\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(\\frac{83}{55}\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(\\frac{302}{105}\\)"
+        }
+      ],
+      "correct_answer": "\\(244/99\\)",
+      "correct_option_label": "a",
+      "solution_text": "1. Las fracciones son \\(5/9,7/5,13/15,21/11,3/5,9/7\\). La menor es \\(5/9\\), pues \\(5/9<3/5<13/15<1\\). Las otras tres superan 1.\n2. La mayor es \\(21/11\\): \\(21\\cdot5>7\\cdot11\\) y \\(21\\cdot7>9\\cdot11\\).\n3. Sumamos \\(21/11+5/9=(189+55)/99=\\mathbf{244/99}\\), opción **a**.\n4. Las otras opciones no son equivalentes a 244/99; se comprueba multiplicando en cruz. Las aproximaciones 0.556 y 1.909 también confirman los extremos elegidos.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": true,
+          "reason": "Coincide con el resultado \\(244/99\\)."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "No coincide con el resultado \\(244/99\\) obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "No coincide con el resultado \\(244/99\\) obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "No coincide con el resultado \\(244/99\\) obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed"
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_5-de-primaria_q06",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 5.º de primaria",
+      "problem_number": 6,
+      "source_question_label": "6",
+      "source_page": 5,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Charlitos ha resuelto un banco de problemas de matemáticas en varios días de la siguiente manera: el primer día\nla mitad, el segundo la tercera parte de lo que faltaba, el tercero la cuarta parte de los que faltaba y el cuarto día\nuna quinta parte del nuevo resto y el quinto día los 24 que faltaban ¿Cuántos problemas habían originalmente\nen el banco de problemas?",
+      "options": [
+        {
+          "label": "a",
+          "text": "60"
+        },
+        {
+          "label": "b",
+          "text": "90"
+        },
+        {
+          "label": "c",
+          "text": "120"
+        },
+        {
+          "label": "d",
+          "text": "150"
+        }
+      ],
+      "correct_answer": "120 problemas",
+      "correct_option_label": "c",
+      "solution_text": "1. Si al principio hay N problemas, después del primer día queda \\(N/2\\).\n2. Luego queda \\((N/2)(2/3)=N/3\\), después \\((N/3)(3/4)=N/4\\), y tras el cuarto día \\((N/4)(4/5)=N/5\\).\n3. Ese resto es 24: \\(N/5=24\\), luego \\(N=\\mathbf{120}\\), opción **c**.\n4. Comprobación: resuelve 60, luego 20, luego 10 y después 6; quedan 24. La suma \\(60+20+10+6+24=120\\) recupera el total.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 120 problemas obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 120 problemas obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "c",
+          "is_correct": true,
+          "reason": "Coincide con el resultado 120 problemas."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 120 problemas obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed"
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_5-de-primaria_q07",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 5.º de primaria",
+      "problem_number": 7,
+      "source_question_label": "7",
+      "source_page": 5,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Se tiene un terreno cuadrado de 11025 m² de área, si en el perímetro del terreno se siembran árboles cada 5m\nde tal forma que se plante un árbol en cada esquina; calcula dicha cantidad de árboles:",
+      "options": [
+        {
+          "label": "a",
+          "text": "72"
+        },
+        {
+          "label": "b",
+          "text": "76"
+        },
+        {
+          "label": "c",
+          "text": "82"
+        },
+        {
+          "label": "d",
+          "text": "84"
+        }
+      ],
+      "correct_answer": "84 árboles",
+      "correct_option_label": "d",
+      "solution_text": "1. El lado del terreno mide \\(\\sqrt{11025}=105\\) m, porque \\(105^2=11025\\).\n2. Cada lado contiene \\(105/5=21\\) intervalos entre árboles. Los cuatro lados forman un circuito de \\(4\\cdot21=84\\) intervalos.\n3. En un circuito cerrado hay tantos árboles como intervalos: **84**, opción **d**. Contar 22 árboles por lado y restar las cuatro esquinas duplicadas da también \\(4\\cdot22-4=84\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 84 árboles obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 84 árboles obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 84 árboles obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "d",
+          "is_correct": true,
+          "reason": "Coincide con el resultado 84 árboles."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed"
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_5-de-primaria_q08",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 5.º de primaria",
+      "problem_number": 8,
+      "source_question_label": "8",
+      "source_page": 5,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Una cuadrilla de obreros concluyo una obra en 20 días, trabajando 6 horas diarias. ¿En cuántos días hubieran\nconcluido dicha obra  trabajando 8 horas diarias?",
+      "options": [],
+      "correct_answer": "15 días",
+      "correct_option_label": null,
+      "solution_text": "1. La misma cuadrilla emplea \\(20\\cdot6=120\\) horas de trabajo para terminar la obra.\n2. A ocho horas diarias necesita \\(120/8=\\mathbf{15}\\) días, manteniendo la misma productividad.\n3. Comprobación: \\(15\\cdot8=20\\cdot6=120\\). Al trabajar más horas cada día, el número de días disminuye.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed"
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_5-de-primaria_q09",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 5.º de primaria",
+      "problem_number": 9,
+      "source_question_label": "9",
+      "source_page": 5,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "La siguiente figura está compuesta con 6 cuadrados iguales, con 4 de ellos formamos un cuadrado de área 9.\n¿Cuál es el perímetro de la figura presentada aquí?",
+      "options": [],
+      "correct_answer": "18 unidades de longitud",
+      "correct_option_label": null,
+      "solution_text": "1. Cuatro cuadrados pequeños forman un cuadrado de área 9, cuyo lado es 3. El lado pequeño es \\(3/2=1.5\\).\n2. Los seis cuadrados tienen 24 lados en total. En las tres filas escalonadas hay seis lados de longitud pequeña compartidos, contando las longitudes de contacto: tres horizontales entre cuadrados de la misma fila y tres entre filas.\n3. Cada contacto elimina dos lados del perímetro. Quedan \\(24-2\\cdot6=12\\) lados pequeños: \\(12\\cdot1.5=\\mathbf{18}\\).\n4. Comprobación por franjas: la base mide 3 lados pequeños y el contorno escalonado suma otros 9. El original no imprime una unidad para el área 9, por lo que no inventamos cm.",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Figura del problema",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "9bf35734b6df003571a748da253b98e176709c000ea5b40f9ad7ab84d6568848",
+          "source": "pdf_embedded_image",
+          "original_filename": "page5_Image53.png",
+          "width_px": 65,
+          "height_px": 78
+        }
+      ],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed"
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_5-de-primaria_q10",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 5.º de primaria",
+      "problem_number": 10,
+      "source_question_label": "10",
+      "source_page": 5,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Escribe tu edad, súmala a la edad que tendrás dentro de un año. Ahora suma 9, divide entre\ndos y resta la edad que tienes ahora. ¿Cuánto es tu respuesta?",
+      "options": [],
+      "correct_answer": "5",
+      "correct_option_label": null,
+      "solution_text": "1. Sea e tu edad actual. Dentro de un año tendrás \\(e+1\\).\n2. La operación pedida es \\([e+(e+1)+9]/2-e=(2e+10)/2-e=e+5-e=\\mathbf5\\).\n3. El resultado no depende de la edad. Comprobación con e=10: \\(10+11+9=30\\), \\(30/2-10=5\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed"
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_5-de-primaria_q11",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 5.º de primaria",
+      "problem_number": 11,
+      "source_question_label": "11",
+      "source_page": 5,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Charlitos tenía 40 caramelos y pierde los 2/5, ¿Cuántos caramelos le quedan?",
+      "options": [
+        {
+          "label": "a",
+          "text": "36"
+        },
+        {
+          "label": "b",
+          "text": "16"
+        },
+        {
+          "label": "c",
+          "text": "24"
+        },
+        {
+          "label": "d",
+          "text": "32"
+        }
+      ],
+      "correct_answer": "24 caramelos",
+      "correct_option_label": "c",
+      "solution_text": "1. Pierde \\((2/5)\\cdot40=16\\) caramelos.\n2. Le quedan \\(40-16=\\mathbf{24}\\), opción **c**.\n3. Comprobación: conserva \\(3/5\\) del total, y \\((3/5)\\cdot40=24\\). La opción 16 cuenta los perdidos, no los restantes.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 24 caramelos obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 24 caramelos obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "c",
+          "is_correct": true,
+          "reason": "Coincide con el resultado 24 caramelos."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 24 caramelos obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed"
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_5-de-primaria_q12",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 5.º de primaria",
+      "problem_number": 12,
+      "source_question_label": "12",
+      "source_page": 6,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Observa el siguiente gráfico. Marca la alternativa correcta:",
+      "options": [
+        {
+          "label": "a",
+          "text": "5 es elemento del conjunto Q y R"
+        },
+        {
+          "label": "b",
+          "text": "8 es elemento del conjunto Q"
+        },
+        {
+          "label": "c",
+          "text": "6 es elemento del conjunto S"
+        },
+        {
+          "label": "d",
+          "text": "3 es elemento del conjunto R"
+        }
+      ],
+      "correct_answer": "5 pertenece a Q y R",
+      "correct_option_label": "a",
+      "solution_text": "1. El 5 está en la zona de intersección de los círculos Q y R. Por tanto pertenece a ambos, como dice **a**.\n2. El 8 está en R y S, fuera de Q: b es falsa. El 6 está solo en R, fuera de S: c es falsa.\n3. El 3 está en Q y fuera de R: d es falsa. La lectura de cada posición confirma que a es la única alternativa correcta.",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Figura del problema",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "6727fb23bb232b198aa21d2078306947c505d30f0e13bea402015968d2df3fa7",
+          "source": "pdf_embedded_image",
+          "original_filename": "page6_Image56.png",
+          "width_px": 319,
+          "height_px": 182
+        }
+      ],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": true,
+          "reason": "Coincide con el resultado 5 pertenece a Q y R."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 5 pertenece a Q y R obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "c",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 5 pertenece a Q y R obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 5 pertenece a Q y R obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed"
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_5-de-primaria_q13",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 5.º de primaria",
+      "problem_number": 13,
+      "source_question_label": "13",
+      "source_page": 6,
+      "language": "es",
+      "format": "multiple_choice",
+      "problem_text": "Un ajolote nadaba los días lunes 120m, martes 140m, miércoles 160m, jueves 180m, viernes 200m,  el sábado y\nel domingo 300m en total, En cuatro semanas, ¿cuánto kilómetros nadará el ajolote?",
+      "options": [
+        {
+          "label": "a",
+          "text": "4, 400km"
+        },
+        {
+          "label": "b",
+          "text": "5,200km"
+        },
+        {
+          "label": "c",
+          "text": "4.4 km"
+        },
+        {
+          "label": "d",
+          "text": "5.5km"
+        }
+      ],
+      "correct_answer": "4.4 km",
+      "correct_option_label": "c",
+      "solution_text": "1. De lunes a viernes nada \\(120+140+160+180+200=800\\) m. Sábado y domingo suman 300 m entre ambos.\n2. Una semana suma \\(800+300=1100\\) m. En cuatro semanas son \\(4400\\) m, equivalentes a \\(4400/1000=\\mathbf{4.4}\\) km, opción **c**.\n3. Las opciones a y b imprimen 4,400 y 5,200 km, con agrupación de millares; no se cambian esas unidades a metros. 5.5 km tampoco coincide con el total.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 4.4 km obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "b",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 4.4 km obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        },
+        {
+          "label": "c",
+          "is_correct": true,
+          "reason": "Coincide con el resultado 4.4 km."
+        },
+        {
+          "label": "d",
+          "is_correct": false,
+          "reason": "No coincide con el resultado 4.4 km obtenido al aplicar todos los datos. Véase la comprobación en la solución."
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed"
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_5-de-primaria_q14",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 5.º de primaria",
+      "problem_number": 14,
+      "source_question_label": "14",
+      "source_page": 6,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "96 MateAtletas  de Nuevo León representarán a su estado en FUSION25 . El precio total del viaje es de 544\nDólares. La tercera parte de los chicos, como pagó por adelantado, pagó sólo 5 dólares . ¿Cuánto pagó cada uno\nde los otros chicos?",
+      "options": [],
+      "correct_answer": "6 dólares",
+      "correct_option_label": null,
+      "solution_text": "1. Un tercio de 96 es 32 alumnos. Ellos pagan \\(32\\cdot5=160\\) dólares.\n2. Quedan \\(96-32=64\\) alumnos y \\(544-160=384\\) dólares por cubrir.\n3. Cada uno de esos alumnos paga \\(384/64=\\mathbf6\\) dólares.\n4. Comprobación: \\(32\\cdot5+64\\cdot6=160+384=544\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed"
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_5-de-primaria_q15",
+      "collection": "FUSION",
+      "subcategory": "2025 / Selectivo Estatal / 5.º de primaria",
+      "problem_number": 15,
+      "source_question_label": "15",
+      "source_page": 6,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "En una clase entrenamiento funcional física el profesor divide a los chicos en equipos de distinto número según\nla actividad. Si forma grupos de 7 no obra ningún chico. Cuando forma equipos de 3, de 4 o de 6 siempre sobra 1\nchico. ¿Cuál es el menor número posible de chicos de esa clase?",
+      "options": [],
+      "correct_answer": "49 chicos",
+      "correct_option_label": null,
+      "solution_text": "1. Si sobra uno al agrupar de 3, 4 o 6, entonces N−1 es múltiplo de su mínimo común múltiplo: \\(\\operatorname{mcm}(3,4,6)=12\\).\n2. Los candidatos son \\(N=12k+1\\). Además N debe ser múltiplo de 7.\n3. Probamos 1, 13, 25, 37 y 49: el primero divisible por 7 es **49**.\n4. Comprobación: \\(49=7\\cdot7=3\\cdot16+1=4\\cdot12+1=6\\cdot8+1\\). Los candidatos anteriores se descartaron, por lo que el número es mínimo.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+      "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed"
+    }
+  ]
+}

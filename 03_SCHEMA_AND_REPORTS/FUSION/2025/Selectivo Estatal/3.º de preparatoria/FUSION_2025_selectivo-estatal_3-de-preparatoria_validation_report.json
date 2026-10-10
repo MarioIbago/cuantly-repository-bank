@@ -1,0 +1,437 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
+  "source_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed",
+  "pages_cotejadas": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
+  ],
+  "metadata_evidence": "Los encabezados dicen SELECTIVOS ESTATALES FUSION25 y el grado. La publicación institucional del anfitrión American School Foundation of Chiapas relaciona COMFUSION25 con Fusión 2025; esa correspondencia confirma 2025. No se infiere una edición del nombre FUSION5. Referencia: https://www.linkedin.com/posts/american-school-foundation-of-chiapas_proudtobeasfc-gobulldogs-worldready-activity-7377353761121492992-xrcg",
+  "method": "Rendered all 29 pages; independently solved86 models across 150 appearances; evaluated every option; compared decoded figures with printed orientation; actual KaTeX rendering.",
+  "printed_key_review": {
+    "page": 29,
+    "note": "Blank answer sheet; no printed answer key."
+  },
+  "problems": [
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_3-de-preparatoria_q01",
+      "source_page": 25,
+      "legacy_group_for_navigation_only": 347,
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "SemejanzaABM~ACB=>AB²=AC·AM=2AM²;MC=AM."
+      },
+      "figures": [],
+      "transcription_notes": [
+        "Original wording and numerical data retained."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_3-de-preparatoria_q02",
+      "source_page": 25,
+      "legacy_group_for_navigation_only": 356,
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Complementos:doscuartosdiscoradiox/2sumanπx²/8igualalsemicírculo;cancelaciónconmitadesdelcuadrado=>x²/2."
+      },
+      "figures": [
+        {
+          "page": 25,
+          "object": "Image107 with PDF transform",
+          "box": [
+            282.5,
+            366.15,
+            364.75,
+            451.4
+          ],
+          "reason": "El objeto embebido está rotado respecto a la página; se conserva la orientación del render original.",
+          "sha256": "192511db7678e261a5360484c693349dd1c93bccc8f95bb4eb248cf4c742b772",
+          "width_px": 246,
+          "height_px": 256,
+          "source": "rendered_pdf_tight_crop"
+        }
+      ],
+      "transcription_notes": [
+        "Layout and formula restored from rendered original; no mathematical data altered."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_3-de-preparatoria_q03",
+      "source_page": 25,
+      "legacy_group_for_navigation_only": 357,
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Recalculado independientemente: 13. Desarrollo y comparación de opciones en solution_text."
+      },
+      "figures": [],
+      "transcription_notes": [
+        "Original wording and numerical data retained."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_3-de-preparatoria_q04",
+      "source_page": 25,
+      "legacy_group_for_navigation_only": 358,
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Bisectrizdividelado3en1y2;AD²=3+1=4."
+      },
+      "figures": [],
+      "transcription_notes": [
+        "Original wording and numerical data retained."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_3-de-preparatoria_q05",
+      "source_page": 25,
+      "legacy_group_for_navigation_only": 364,
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Recalculado independientemente: 9. Desarrollo y comparación de opciones en solution_text."
+      },
+      "figures": [],
+      "transcription_notes": [
+        "Original wording and numerical data retained."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_3-de-preparatoria_q06",
+      "source_page": 26,
+      "legacy_group_for_navigation_only": 365,
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Recalculado independientemente: 14. Desarrollo y comparación de opciones en solution_text."
+      },
+      "figures": [],
+      "transcription_notes": [
+        "Original wording and numerical data retained."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_3-de-preparatoria_q07",
+      "source_page": 26,
+      "legacy_group_for_navigation_only": 366,
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Recalculado independientemente: 8. Desarrollo y comparación de opciones en solution_text."
+      },
+      "figures": [],
+      "transcription_notes": [
+        "Original wording and numerical data retained."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_3-de-preparatoria_q08",
+      "source_page": 26,
+      "legacy_group_for_navigation_only": 367,
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Recalculado independientemente: 3.141592653589793. Desarrollo y comparación de opciones en solution_text."
+      },
+      "figures": [],
+      "transcription_notes": [
+        "Layout and formula restored from rendered original; no mathematical data altered."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_3-de-preparatoria_q09",
+      "source_page": 26,
+      "legacy_group_for_navigation_only": 368,
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Recalculado independientemente: 1. Desarrollo y comparación de opciones en solution_text."
+      },
+      "figures": [],
+      "transcription_notes": [
+        "Layout and formula restored from rendered original; no mathematical data altered."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_3-de-preparatoria_q10",
+      "source_page": 26,
+      "legacy_group_for_navigation_only": 369,
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Denominador(x+1)(x−6),excluir−1y6."
+      },
+      "figures": [],
+      "transcription_notes": [
+        "Layout and formula restored from rendered original; no mathematical data altered."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_3-de-preparatoria_q11",
+      "source_page": 26,
+      "legacy_group_for_navigation_only": 353,
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "90−n4divisible17,0≤n4≤18=>5."
+      },
+      "figures": [],
+      "transcription_notes": [
+        "Original wording and numerical data retained."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_3-de-preparatoria_q12",
+      "source_page": 26,
+      "legacy_group_for_navigation_only": 361,
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Producto dedosprimosescompuesto,nuncaprimo."
+      },
+      "figures": [],
+      "transcription_notes": [
+        "Original wording and numerical data retained."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_3-de-preparatoria_q13",
+      "source_page": 26,
+      "legacy_group_for_navigation_only": 370,
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Recalculado independientemente: 125. Desarrollo y comparación de opciones en solution_text."
+      },
+      "figures": [],
+      "transcription_notes": [
+        "Original wording and numerical data retained."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_3-de-preparatoria_q14",
+      "source_page": 26,
+      "legacy_group_for_navigation_only": 363,
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "Recalculado independientemente: 141. Desarrollo y comparación de opciones en solution_text."
+      },
+      "figures": [],
+      "transcription_notes": [
+        "Original wording and numerical data retained."
+      ]
+    },
+    {
+      "source_id": "fusion5_examenes-selectivos-estatales_3-de-preparatoria_q15",
+      "source_page": 26,
+      "legacy_group_for_navigation_only": 371,
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Enunciado y opciones cotejados con el PDF; respuesta recalculada independientemente."
+      },
+      "second_check": {
+        "passed": true,
+        "method": "independent_calculation_or_complete_enumeration",
+        "detail": "MCM1260;menor1260k−1nodivisible11:1259."
+      },
+      "figures": [],
+      "transcription_notes": [
+        "Original wording and numerical data retained."
+      ]
+    }
+  ],
+  "bank_sha256": "3d65c7bcb0ac04e1274468ee86d9f09ca17868cc2bbcbd26e97df8d55ac22c32",
+  "classified_bank_sha256": "fbe3d6b295af91fc4b21a8f52e9bfd277fafe0354aa05ce5c2b515619f2bffbd",
+  "counts": {
+    "verified_problems": 15,
+    "needs_review_or_invalid": 0,
+    "needs_review_problem_numbers": [],
+    "notes": "Se cotejaron las 29 páginas: 150 preguntas y hoja final de respuestas en blanco, sin clave oficial. Ambigüedades conservadas con práctica guiada. Fórmulas desordenadas restauradas del PDF y figuras respetan su orientación impresa."
+  },
+  "latex_rendering": {
+    "engine": "KaTeX",
+    "throwOnError": true,
+    "fields": "problem_text, correct_answer, solution_text, options, option_analysis"
+  },
+  "structural_validation": {
+    "verified": {
+      "ok": true,
+      "scope": "structure_options_image_decoding_hashes_classification_only",
+      "mathematical_verification": "not_performed_by_this_script",
+      "visual_source_comparison": "not_performed_by_this_script",
+      "latex_rendering": "not_performed_by_this_script",
+      "bank_sha256": "3d65c7bcb0ac04e1274468ee86d9f09ca17868cc2bbcbd26e97df8d55ac22c32",
+      "bytes": 81753,
+      "problems": 15,
+      "verified": 15,
+      "guided": 0,
+      "images": 1,
+      "figures": [
+        {
+          "source_id": "fusion5_examenes-selectivos-estatales_3-de-preparatoria_q02",
+          "figure": 1,
+          "sha256": "192511db7678e261a5360484c693349dd1c93bccc8f95bb4eb248cf4c742b772",
+          "width": 246,
+          "height": 256
+        }
+      ],
+      "errors": [],
+      "warnings": []
+    },
+    "classified": {
+      "ok": true,
+      "scope": "structure_options_image_decoding_hashes_classification_only",
+      "mathematical_verification": "not_performed_by_this_script",
+      "visual_source_comparison": "not_performed_by_this_script",
+      "latex_rendering": "not_performed_by_this_script",
+      "bank_sha256": "fbe3d6b295af91fc4b21a8f52e9bfd277fafe0354aa05ce5c2b515619f2bffbd",
+      "bytes": 90158,
+      "problems": 15,
+      "verified": 15,
+      "guided": 0,
+      "images": 1,
+      "figures": [
+        {
+          "source_id": "fusion5_examenes-selectivos-estatales_3-de-preparatoria_q02",
+          "figure": 1,
+          "sha256": "192511db7678e261a5360484c693349dd1c93bccc8f95bb4eb248cf4c742b772",
+          "width": 246,
+          "height": 256
+        }
+      ],
+      "errors": [],
+      "warnings": []
+    }
+  }
+}
