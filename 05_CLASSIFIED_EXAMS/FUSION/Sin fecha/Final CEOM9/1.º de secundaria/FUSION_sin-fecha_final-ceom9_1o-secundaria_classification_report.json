@@ -1,0 +1,82 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/Sin fecha/Final CEOM9/Multinivel/FUSION_sin-fecha_final-ceom9_multinivel_examen-final-ceom9_original.pdf",
+  "source_sha256": "861b22efaadf8b782064a7abfc97fd3b98f3c02f67b0f2267705dabc3deded30",
+  "school_level": "Primer año de secundaria",
+  "rubric": "Primary solving idea; L1 direct familiar steps, L2 combines ideas, L3 non-routine argument relative to the printed school level. Ambiguity is retained.",
+  "problems": [
+    {
+      "source_id": "fusion1_examen-final-ceom9_1o-secundaria_q01",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "addition",
+        "subtraction",
+        "invariants"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Restar al peso total el peso usado en los tres anillos.",
+        "Dificultad relativa a Primer año de secundaria."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom9_1o-secundaria_q02",
+      "primary_area": "number_theory",
+      "secondary_areas": [
+        "algebra"
+      ],
+      "mixed": true,
+      "difficulty": "L2",
+      "tags": [
+        "place_value",
+        "digits",
+        "integer_solutions"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Usar valor posicional y acarreos de una multiplicación.",
+        "Dificultad relativa a Primer año de secundaria."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom9_1o-secundaria_q03",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "counting",
+        "combinations",
+        "multiplication"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Enumerar parejas sin orden y combinar cada una con tres salsas.",
+        "Dificultad relativa a Primer año de secundaria."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom9_1o-secundaria_q04",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "perimeter",
+        "equilateral_triangles",
+        "quadrilaterals"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Contar únicamente los lados expuestos de tres figuras unidas.",
+        "Dificultad relativa a Primer año de secundaria."
+      ]
+    }
+  ]
+}

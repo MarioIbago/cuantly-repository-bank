@@ -48,3 +48,17 @@ Git no representa directorios vacíos, por lo que los niveles clasificados vací
 - `05_CLASSIFIED_EXAMS`: exámenes clasificados y reportes de clasificación.
 
 La documentación o nuevos concursos deben añadirse sin alterar los archivos fuente importados.
+
+<!-- FUSION_PROGRESS_START -->
+## FUSIÓN: publicación progresiva
+
+Se preservaron los **32 PDF originales (226 páginas)**. El material de recuperación completo se conserva como borrador sin certificar y no se usa como banco de práctica.
+
+Hay **33 colecciones y 126 problemas publicados**: 103 con respuesta abierta revisada y 23 de práctica guiada, con las ambigüedades o defectos de la fuente explicados. Los 150 problemas GAU55 permanecen disponibles.
+
+Quedan **713 apariciones pendientes**. Otras 42 son variantes de fuente documentadas y no se duplican en el catálogo. El año se conserva como nulo cuando no está confirmado; no se deduce de la edición.
+
+Consulta el [avance y las rutas publicadas](03_SCHEMA_AND_REPORTS/FUSION/publication_progress.json), el [inventario de fuentes](03_SCHEMA_AND_REPORTS/FUSION/source_manifest.json), las [variantes de fuente](03_SCHEMA_AND_REPORTS/FUSION/source_variant_aliases.json) y el [contrato de respuestas abiertas](03_SCHEMA_AND_REPORTS/FUSION/OPEN_ANSWER_CONTRACT.md). El [borrador de recuperación](04_REFERENCE_SOURCES/FUSION/recovery/working_draft.json) retiene los registros pendientes con advertencias explícitas.
+
+Los lotes incluyen JSON verificados/clasificados, soluciones didácticas, figuras matemáticas limpias y reportes de comparación visual, comprobación matemática, LaTeX y validación estructural. Un validador estructural no demuestra por sí solo corrección matemática.
+<!-- FUSION_PROGRESS_END -->

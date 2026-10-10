@@ -1,0 +1,216 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/Sin fecha/Final CEOM9/Multinivel/FUSION_sin-fecha_final-ceom9_multinivel_examen-final-ceom9_original.pdf",
+  "source_sha256": "861b22efaadf8b782064a7abfc97fd3b98f3c02f67b0f2267705dabc3deded30",
+  "metadata_evidence": "No year or date is printed in any of the six source exam pages. Edition 9 is printed; it is not used to infer a calendar year.",
+  "school_level_evidence": "Each printed header confirms its category; Kids 3rd–4th primary, primary 5th–6th, secondary 1st–3rd, Olímpicos.",
+  "pages": [
+    1
+  ],
+  "source_review": "All six original PDF pages rendered and visually compared. Original question numbering and stable IDs retained.",
+  "figure_review": [
+    {
+      "source_id": "fusion1_examen-final-ceom9_kids-3o-y-4o-primaria_q04",
+      "page": 1,
+      "pdf_image_object": "Image23.png",
+      "bbox_top_left_pdf_points": [
+        230.16,
+        565.92,
+        366.48,
+        664.0799999999999
+      ],
+      "sha256": "e105d0978c821f20429d0a44f4bdb668604f432c88a3f59ae14d8dd89436ac4d",
+      "method": "Exact embedded bytes; original labels and proportions retained. All four appearances share the same diagram hash."
+    }
+  ],
+  "transcription_corrections": [
+    {
+      "source_id": "fusion1_examen-final-ceom9_kids-3o-y-4o-primaria_q02",
+      "kind": "symbolic_transcription",
+      "details": "Preserved the four original equations in LaTeX."
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom9_kids-3o-y-4o-primaria_q04",
+      "kind": "footer_removal",
+      "details": "Removed publicity footer and logo transcription; all question text preserved."
+    }
+  ],
+  "latex_rendering": {
+    "engine": "KaTeX 0.16.47",
+    "expressions": 29,
+    "errors": []
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-final-ceom9_kids-3o-y-4o-primaria_q01",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "bought": 21,
+        "lost": 5,
+        "remaining": 16,
+        "fractionLost": "5/21",
+        "fractionKept": "16/21"
+      },
+      "notes": "Respuesta abierta con solución revisada; comparación manual."
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom9_kids-3o-y-4o-primaria_q02",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "A": 10,
+        "B": 20,
+        "C": 30,
+        "sum": 60,
+        "originalEquations": [
+          30,
+          60,
+          80
+        ]
+      },
+      "notes": "Respuesta abierta con solución revisada; comparación manual."
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom9_kids-3o-y-4o-primaria_q03",
+      "status": "ambiguous_source",
+      "independent_check": {
+        "distinctFruitPairs": [
+          [
+            "banana",
+            "ciruela"
+          ],
+          [
+            "banana",
+            "kiwi"
+          ],
+          [
+            "banana",
+            "manzana"
+          ],
+          [
+            "banana",
+            "pera"
+          ],
+          [
+            "ciruela",
+            "kiwi"
+          ],
+          [
+            "ciruela",
+            "manzana"
+          ],
+          [
+            "ciruela",
+            "pera"
+          ],
+          [
+            "kiwi",
+            "manzana"
+          ],
+          [
+            "kiwi",
+            "pera"
+          ],
+          [
+            "manzana",
+            "pera"
+          ]
+        ],
+        "distinctFruitDesserts": 30,
+        "identicalFruitPairs": [
+          [
+            "banana",
+            "banana"
+          ],
+          [
+            "ciruela",
+            "ciruela"
+          ],
+          [
+            "kiwi",
+            "kiwi"
+          ],
+          [
+            "manzana",
+            "manzana"
+          ],
+          [
+            "pera",
+            "pera"
+          ]
+        ],
+        "dessertsIfRepetitionAllowed": 45
+      },
+      "notes": "La fuente no precisa si las dos frutas deben ser de tipos distintos. Se enumeran las 30 combinaciones de tipos distintos y las 15 adicionales si se admite repetir."
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom9_kids-3o-y-4o-primaria_q04",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "squarePerimeter": 20,
+        "equilateralPerimeter": 15,
+        "rectanglePerimeter": 30,
+        "sharedSides": [
+          5,
+          5
+        ],
+        "perimeter": 45
+      },
+      "notes": "Respuesta abierta con solución revisada; comparación manual."
+    }
+  ],
+  "structural_validation": [
+    {
+      "path": "02_JSON_EXAMS/FUSION/Sin fecha/Final CEOM9/Kids/FUSION_sin-fecha_final-ceom9_kids-3o-y-4o-primaria_verified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "06bbf00c979a68387d0793bf134b506ef341c106f7c2772edb4404c7e04cf9e8",
+        "bytes": 16259,
+        "problems": 4,
+        "verified": 3,
+        "guided": 1,
+        "images": 1,
+        "figures": [
+          {
+            "source_id": "fusion1_examen-final-ceom9_kids-3o-y-4o-primaria_q04",
+            "figure": 1,
+            "sha256": "e105d0978c821f20429d0a44f4bdb668604f432c88a3f59ae14d8dd89436ac4d",
+            "width": 443,
+            "height": 319
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Final CEOM9/Kids/FUSION_sin-fecha_final-ceom9_kids-3o-y-4o-primaria_classified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "359f17332e9447c37bd109b3c547b4c2fc2d8fddf4882efc6bc657c1743a1d41",
+        "bytes": 18314,
+        "problems": 4,
+        "verified": 3,
+        "guided": 1,
+        "images": 1,
+        "figures": [
+          {
+            "source_id": "fusion1_examen-final-ceom9_kids-3o-y-4o-primaria_q04",
+            "figure": 1,
+            "sha256": "e105d0978c821f20429d0a44f4bdb668604f432c88a3f59ae14d8dd89436ac4d",
+            "width": 443,
+            "height": 319
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    }
+  ]
+}

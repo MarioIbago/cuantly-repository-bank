@@ -57,7 +57,8 @@ def validate_bank(bank, raw, source_pdf=None, allow_unclassified=False):
         return {"ok": False, "errors": errors + ["Missing exam object."], "warnings": notices}
     for field in ("competition", "phase", "level", "school_level", "source_file", "image_policy"):
         check(nonempty(exam.get(field)), f"exam.{field} must be a nonempty string.")
-    check(positive_int(exam.get("year")), "exam.year must be a positive integer.")
+    year = exam.get("year")
+    check(positive_int(year) or ("year" in exam and year is None and exam.get("year_status") == "not_confirmed" and nonempty(exam.get("year_evidence"))), "exam.year must be positive, or explicit null with not_confirmed status and evidence.")
     source_hash = exam.get("source_sha256")
     check(isinstance(source_hash, str) and bool(SHA256.fullmatch(source_hash)), "Invalid PDF SHA-256.")
     if source_pdf is not None:

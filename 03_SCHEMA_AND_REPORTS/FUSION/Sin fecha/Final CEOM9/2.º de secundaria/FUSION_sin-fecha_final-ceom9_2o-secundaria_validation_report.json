@@ -1,0 +1,242 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/Sin fecha/Final CEOM9/Multinivel/FUSION_sin-fecha_final-ceom9_multinivel_examen-final-ceom9_original.pdf",
+  "source_sha256": "861b22efaadf8b782064a7abfc97fd3b98f3c02f67b0f2267705dabc3deded30",
+  "metadata_evidence": "No year or date is printed in any of the six source exam pages. Edition 9 is printed; it is not used to infer a calendar year.",
+  "school_level_evidence": "Each printed header confirms its category; Kids 3rd–4th primary, primary 5th–6th, secondary 1st–3rd, Olímpicos.",
+  "pages": [
+    4
+  ],
+  "source_review": "All six original PDF pages rendered and visually compared. Original question numbering and stable IDs retained.",
+  "figure_review": [
+    {
+      "source_id": "fusion1_examen-final-ceom9_2o-secundaria_q04",
+      "page": 4,
+      "pdf_image_object": "Image46.png",
+      "bbox_top_left_pdf_points": [
+        230.16,
+        590.64,
+        366.48,
+        688.8
+      ],
+      "sha256": "e105d0978c821f20429d0a44f4bdb668604f432c88a3f59ae14d8dd89436ac4d",
+      "method": "Exact embedded bytes; original labels and proportions retained. All four appearances share the same diagram hash."
+    }
+  ],
+  "transcription_corrections": [
+    {
+      "source_id": "fusion1_examen-final-ceom9_2o-secundaria_q03",
+      "kind": "symbolic_transcription",
+      "details": "Restored WXYZ multiplied by 9 equals ZYXW from the exact source equation image."
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom9_2o-secundaria_q03",
+      "kind": "equation_image_to_latex",
+      "page": 4,
+      "pdf_image_object": "Image47.png",
+      "bbox_top_left_pdf_points": [
+        352.56,
+        454.79999999999995,
+        412.56,
+        501.11999999999995
+      ],
+      "source_image_sha256": "3f59022fbee05619ae50dc026188e0d81722461c2e47331ca1ee5c809958f14d",
+      "transcription": "\\overline{WXYZ}\\times9=\\overline{ZYXW}",
+      "details": "All four equation images have identical bytes."
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom9_2o-secundaria_q04",
+      "kind": "footer_removal",
+      "details": "Removed publicity footer and logo transcription; all question text preserved."
+    }
+  ],
+  "latex_rendering": {
+    "engine": "KaTeX 0.16.47",
+    "expressions": 27,
+    "errors": []
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-final-ceom9_2o-secundaria_q01",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "givingOrder": [
+          "Alejandro",
+          "Beatriz",
+          "Cesar",
+          "Delia"
+        ],
+        "recipients": [
+          [
+            "B",
+            "A",
+            "D",
+            "C"
+          ],
+          [
+            "B",
+            "C",
+            "D",
+            "A"
+          ],
+          [
+            "B",
+            "D",
+            "A",
+            "C"
+          ],
+          [
+            "C",
+            "A",
+            "D",
+            "B"
+          ],
+          [
+            "C",
+            "D",
+            "A",
+            "B"
+          ],
+          [
+            "C",
+            "D",
+            "B",
+            "A"
+          ],
+          [
+            "D",
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "D",
+            "C",
+            "A",
+            "B"
+          ],
+          [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        ],
+        "count": 9
+      },
+      "notes": "Respuesta abierta con solución revisada; comparación manual."
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom9_2o-secundaria_q02",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "total": 28,
+        "used": 25,
+        "unused": 3,
+        "feasiblePairs": [
+          [
+            1,
+            7
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            2,
+            5
+          ]
+        ]
+      },
+      "notes": "Respuesta abierta con solución revisada; comparación manual."
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom9_2o-secundaria_q03",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "solutions": [
+          {
+            "number": 1089,
+            "reverse": 9801,
+            "W": 1,
+            "X": 0,
+            "Y": 8,
+            "Z": 9
+          }
+        ],
+        "exhaustiveSearch": "Every four-digit integer checked, requiring the reversed integer also have four digits."
+      },
+      "notes": "Respuesta abierta con solución revisada; comparación manual."
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom9_2o-secundaria_q04",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "squarePerimeter": 20,
+        "equilateralPerimeter": 15,
+        "rectanglePerimeter": 30,
+        "sharedSides": [
+          5,
+          5
+        ],
+        "perimeter": 45
+      },
+      "notes": "Respuesta abierta con solución revisada; comparación manual."
+    }
+  ],
+  "structural_validation": [
+    {
+      "path": "02_JSON_EXAMS/FUSION/Sin fecha/Final CEOM9/2.º de secundaria/FUSION_sin-fecha_final-ceom9_2o-secundaria_verified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "c6414393be3dab3313a44358865aef327a49d28b8f0b13d7fef19098997556cf",
+        "bytes": 15432,
+        "problems": 4,
+        "verified": 4,
+        "guided": 0,
+        "images": 1,
+        "figures": [
+          {
+            "source_id": "fusion1_examen-final-ceom9_2o-secundaria_q04",
+            "figure": 1,
+            "sha256": "e105d0978c821f20429d0a44f4bdb668604f432c88a3f59ae14d8dd89436ac4d",
+            "width": 443,
+            "height": 319
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Final CEOM9/2.º de secundaria/FUSION_sin-fecha_final-ceom9_2o-secundaria_classified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "7400bea70bf217ed638a20a15e7aa3cad9833dca3c9f4c73c62960f54d25a993",
+        "bytes": 17541,
+        "problems": 4,
+        "verified": 4,
+        "guided": 0,
+        "images": 1,
+        "figures": [
+          {
+            "source_id": "fusion1_examen-final-ceom9_2o-secundaria_q04",
+            "figure": 1,
+            "sha256": "e105d0978c821f20429d0a44f4bdb668604f432c88a3f59ae14d8dd89436ac4d",
+            "width": 443,
+            "height": 319
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    }
+  ]
+}

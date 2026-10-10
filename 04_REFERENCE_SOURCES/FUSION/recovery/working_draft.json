@@ -5,9 +5,9 @@
   "counts": {
     "recovered_occurrences": 881,
     "legacy_statement_groups": 441,
-    "published_occurrences": 102,
+    "published_occurrences": 126,
     "alternate_source_occurrences": 42,
-    "pending_occurrences": 737
+    "pending_occurrences": 713
   },
   "notes": [
     "Agrupaciones heredadas: su normalizador eliminaba signos matemáticos; no equivalen a duplicados certificados.",
@@ -4434,12 +4434,14 @@
       "problem_text": "Carolina compro el otro día 7 lápices pero perdió 3, ahora compro otros 14 lápices y perdió 2.\n¿Qué fracción de lápices perdió en total? Y  ¿Qué fracción de lápices tiene carolina ahora?",
       "options": [],
       "legacy_statement_group": 89,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "5/21 perdidos;16/21 restantes",
-      "checkpoint_notes_unverified": "responder ambas partes"
+      "checkpoint_notes_unverified": "responder ambas partes",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Final CEOM9/Kids/FUSION_sin-fecha_final-ceom9_kids-3o-y-4o-primaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-final-ceom9_kids-3o-y-4o-primaria_q02",
@@ -4454,12 +4456,14 @@
       "problem_text": "Encuentra el valor de cada una de las letras siguientes y el de la ultima suma:\nA+A+A=30\nA+A+B+B=60\nB+C+C=80\nA+B+C=?",
       "options": [],
       "legacy_statement_group": 90,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "A10 B20 C30;suma60",
-      "checkpoint_notes_unverified": "restaurar cada letra"
+      "checkpoint_notes_unverified": "restaurar cada letra",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Final CEOM9/Kids/FUSION_sin-fecha_final-ceom9_kids-3o-y-4o-primaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-final-ceom9_kids-3o-y-4o-primaria_q03",
@@ -4474,12 +4478,14 @@
       "problem_text": "Delfo prepara un postre con dos frutas y una salsa. Las frutas pueden ser: banana, ciruela, kiwi,\nmanzana,  pera. La salsa puede ser: de chocolate, de frambuesa, de dulce de leche. ¿Cuántos\npostres distintos puede preparar? Escribe  todas las posibilidades.\nNota: Banana-Ciruela es la misma combinación que  Ciruela-Banana",
       "options": [],
       "legacy_statement_group": 91,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "30",
-      "checkpoint_notes_unverified": "10 parejas frutas por3 salsas;enumerar producto cartesiano"
+      "checkpoint_notes_unverified": "10 parejas frutas por3 salsas;enumerar producto cartesiano",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Final CEOM9/Kids/FUSION_sin-fecha_final-ceom9_kids-3o-y-4o-primaria_classified.json",
+      "reviewed_status": "ambiguous_source"
     },
     {
       "source_id": "fusion1_examen-final-ceom9_kids-3o-y-4o-primaria_q04",
@@ -4494,12 +4500,14 @@
       "problem_text": "Héctor dibuja la siguiente imagen formada por un cuadrado AEFG, un triángulo equilátero ABE  y\nun rectángulo ABCD, si GF  mide 5cm y 2FE=BC ¿cuánto mide el perímetro de la figura completa\nformada por Héctor? Nota: la figura completa es la formada por las 3 imágenes ya unidas.\nOlimpiadas Matemáticas Chiapas CEOM\nCAMPEONATO\nESTATAL DE\nOLIMPIADAS",
       "options": [],
       "legacy_statement_group": 92,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "45 cm",
-      "checkpoint_notes_unverified": "20+15+30-20"
+      "checkpoint_notes_unverified": "20+15+30-20",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Final CEOM9/Kids/FUSION_sin-fecha_final-ceom9_kids-3o-y-4o-primaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-final-ceom9_primaria-5o-y-6o-primaria_q01",
@@ -4514,12 +4522,14 @@
       "problem_text": "Los dígitos W, X, Y, Z se forman los números de cuatro dígitos WXYZ y ZYXW que deben cumplir\nla siguiente relación:\nEncuentra los valores de los cuatro dígitos.",
       "options": [],
       "legacy_statement_group": 93,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "1089 por9=9801",
-      "checkpoint_notes_unverified": "W1 X0 Y8 Z9;noimagen de fórmula"
+      "checkpoint_notes_unverified": "W1 X0 Y8 Z9;noimagen de fórmula",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Final CEOM9/Primaria/FUSION_sin-fecha_final-ceom9_primaria-5o-y-6o-primaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-final-ceom9_primaria-5o-y-6o-primaria_q02",
@@ -4534,12 +4544,14 @@
       "problem_text": "Encuentra el valor de cada una de las letras siguientes y el de la ultima suma:\nA+A+A=30\nA+A+B+B=60\nB+C+C=80\nA+B+C=?",
       "options": [],
       "legacy_statement_group": 90,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "A10 B20 C30;suma60",
-      "checkpoint_notes_unverified": "restaurar cada letra"
+      "checkpoint_notes_unverified": "restaurar cada letra",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Final CEOM9/Primaria/FUSION_sin-fecha_final-ceom9_primaria-5o-y-6o-primaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-final-ceom9_primaria-5o-y-6o-primaria_q03",
@@ -4554,12 +4566,14 @@
       "problem_text": "Delfo prepara un postre con dos frutas y una salsa. Las frutas pueden ser: banana, ciruela, kiwi,\nmanzana,  pera. La salsa puede ser: de chocolate, de frambuesa, de dulce de leche. ¿Cuántos\npostres distintos puede preparar? Escribe  todas las posibilidades.\nNota: Banana-Ciruela es la misma combinación que  Ciruela-Banana",
       "options": [],
       "legacy_statement_group": 91,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "30",
-      "checkpoint_notes_unverified": "10 parejas frutas por3 salsas;enumerar producto cartesiano"
+      "checkpoint_notes_unverified": "10 parejas frutas por3 salsas;enumerar producto cartesiano",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Final CEOM9/Primaria/FUSION_sin-fecha_final-ceom9_primaria-5o-y-6o-primaria_classified.json",
+      "reviewed_status": "ambiguous_source"
     },
     {
       "source_id": "fusion1_examen-final-ceom9_primaria-5o-y-6o-primaria_q04",
@@ -4574,12 +4588,14 @@
       "problem_text": "Héctor dibuja la siguiente imagen formada por un cuadrado AEFG, un triángulo equilátero ABE  y\nun rectángulo ABCD, si GF  mide 5cm y 2FE=BC ¿cuánto mide el perímetro de la figura completa\nformada por Héctor? Nota: la figura completa es la formada por las 3 imágenes ya unidas.\nOlimpiadas Matemáticas Chiapas CEOM\nCAMPEONATO\nESTATAL DE\nOLIMPIADAS",
       "options": [],
       "legacy_statement_group": 92,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "45 cm",
-      "checkpoint_notes_unverified": "20+15+30-20"
+      "checkpoint_notes_unverified": "20+15+30-20",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Final CEOM9/Primaria/FUSION_sin-fecha_final-ceom9_primaria-5o-y-6o-primaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-final-ceom9_1o-secundaria_q01",
@@ -4594,12 +4610,14 @@
       "problem_text": "Ana tiene 7 perlas cuyos pesos eran 1, 2, 3, 4, 5, 6 y 7 gramos respectivamente. Mando a hacer 3 anillos\ncon dos perlas cada uno. Si el peso de las perlas en los anillos es de 8, 10 y 7 gramos, ¿Cuántos gramos\npesa la perla que no utilizo?",
       "options": [],
       "legacy_statement_group": 94,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "ficha3",
-      "checkpoint_notes_unverified": "total28 menos25"
+      "checkpoint_notes_unverified": "total28 menos25",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Final CEOM9/1.º de secundaria/FUSION_sin-fecha_final-ceom9_1o-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-final-ceom9_1o-secundaria_q02",
@@ -4614,12 +4632,14 @@
       "problem_text": "Los dígitos W, X, Y, Z se forman los números de cuatro dígitos WXYZ y ZYXW que deben cumplir\nla siguiente relación:\nEncuentra los valores de los cuatro dígitos.",
       "options": [],
       "legacy_statement_group": 93,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "1089 por9=9801",
-      "checkpoint_notes_unverified": "W1 X0 Y8 Z9;noimagen de fórmula"
+      "checkpoint_notes_unverified": "W1 X0 Y8 Z9;noimagen de fórmula",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Final CEOM9/1.º de secundaria/FUSION_sin-fecha_final-ceom9_1o-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-final-ceom9_1o-secundaria_q03",
@@ -4634,12 +4654,14 @@
       "problem_text": "Delfo prepara un postre con dos frutas y una salsa. Las frutas pueden ser: banana, ciruela, kiwi,\nmanzana,  pera. La salsa puede ser: de chocolate, de frambuesa, de dulce de leche. ¿Cuántos\npostres distintos puede preparar? Escribe  todas las posibilidades.\nNota: Banana-Ciruela es la misma combinación que  Ciruela-Banana",
       "options": [],
       "legacy_statement_group": 91,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "30",
-      "checkpoint_notes_unverified": "10 parejas frutas por3 salsas;enumerar producto cartesiano"
+      "checkpoint_notes_unverified": "10 parejas frutas por3 salsas;enumerar producto cartesiano",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Final CEOM9/1.º de secundaria/FUSION_sin-fecha_final-ceom9_1o-secundaria_classified.json",
+      "reviewed_status": "ambiguous_source"
     },
     {
       "source_id": "fusion1_examen-final-ceom9_1o-secundaria_q04",
@@ -4654,12 +4676,14 @@
       "problem_text": "Héctor dibuja la siguiente imagen formada por un cuadrado AEFG, un triángulo equilátero ABE  y\nun rectángulo ABCD, si GF  mide 5cm y 2FE=BC ¿cuánto mide el perímetro de la figura completa\nformada por Héctor? Nota: la figura completa es la formada por las 3 imágenes ya unidas.\nOlimpiadas Matemáticas Chiapas CEOM\nCAMPEONATO\nESTATAL DE\nOLIMPIADAS",
       "options": [],
       "legacy_statement_group": 92,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "45 cm",
-      "checkpoint_notes_unverified": "20+15+30-20"
+      "checkpoint_notes_unverified": "20+15+30-20",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Final CEOM9/1.º de secundaria/FUSION_sin-fecha_final-ceom9_1o-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-final-ceom9_2o-secundaria_q01",
@@ -4674,12 +4698,14 @@
       "problem_text": "Para la fiesta de navidad Alejandro, Beatriz, Cesar y Delia piensan hacer un inter cambio de regalo, de\nmanera que cada uno dará un regalo  y reciba otro (nadie puede regalarse a sí mismo). ¿De cuantas\nformas es posible hacer la distribución?",
       "options": [],
       "legacy_statement_group": 95,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "9",
-      "checkpoint_notes_unverified": "desarreglo!4"
+      "checkpoint_notes_unverified": "desarreglo!4",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Final CEOM9/2.º de secundaria/FUSION_sin-fecha_final-ceom9_2o-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-final-ceom9_2o-secundaria_q02",
@@ -4694,12 +4720,14 @@
       "problem_text": "Ana tiene 7 perlas cuyos pesos eran 1, 2, 3, 4, 5, 6 y 7 gramos respectivamente. Mando a hacer 3 anillos\ncon dos perlas cada uno. Si el peso de las perlas en los anillos es de 8, 10 y 7 gramos, ¿Cuántos gramos\npesa la perla que no utilizo?",
       "options": [],
       "legacy_statement_group": 94,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "ficha3",
-      "checkpoint_notes_unverified": "total28 menos25"
+      "checkpoint_notes_unverified": "total28 menos25",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Final CEOM9/2.º de secundaria/FUSION_sin-fecha_final-ceom9_2o-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-final-ceom9_2o-secundaria_q03",
@@ -4714,12 +4742,14 @@
       "problem_text": "Los dígitos W, X, Y, Z se forman los números de cuatro dígitos WXYZ y ZYXW que deben cumplir\nla siguiente relación:\nEncuentra los valores de los cuatro dígitos.",
       "options": [],
       "legacy_statement_group": 93,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "1089 por9=9801",
-      "checkpoint_notes_unverified": "W1 X0 Y8 Z9;noimagen de fórmula"
+      "checkpoint_notes_unverified": "W1 X0 Y8 Z9;noimagen de fórmula",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Final CEOM9/2.º de secundaria/FUSION_sin-fecha_final-ceom9_2o-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-final-ceom9_2o-secundaria_q04",
@@ -4734,12 +4764,14 @@
       "problem_text": "Héctor dibuja la siguiente imagen formada por un cuadrado AEFG, un triángulo equilátero ABE  y\nun rectángulo ABCD, si GF  mide 5cm y 2FE=BC ¿cuánto mide el perímetro de la figura completa\nformada por Héctor? Nota: la figura completa es la formada por las 3 imágenes ya unidas.\nOlimpiadas Matemáticas Chiapas CEOM\nCAMPEONATO\nESTATAL DE\nOLIMPIADAS",
       "options": [],
       "legacy_statement_group": 92,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "45 cm",
-      "checkpoint_notes_unverified": "20+15+30-20"
+      "checkpoint_notes_unverified": "20+15+30-20",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Final CEOM9/2.º de secundaria/FUSION_sin-fecha_final-ceom9_2o-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-final-ceom9_3o-secundaria_q01",
@@ -4754,12 +4786,14 @@
       "problem_text": "Considera los paralelogramos ABCD y EFGD de manera que E esta sobre AB y C sobre FG. Demuestra\nque los paralelogramos tienen misma área.",
       "options": [],
       "legacy_statement_group": 96,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "áreas iguales",
-      "checkpoint_notes_unverified": "DEC mitad de ambos"
+      "checkpoint_notes_unverified": "DEC mitad de ambos",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Final CEOM9/3.º de secundaria/FUSION_sin-fecha_final-ceom9_3o-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-final-ceom9_3o-secundaria_q02",
@@ -4774,12 +4808,14 @@
       "problem_text": "Para la fiesta de navidad Alejandro, Beatriz, Cesar y Delia piensan hacer un inter cambio de regalo, de\nmanera que cada uno dará un regalo  y reciba otro (nadie puede regalarse a sí mismo). ¿De cuantas\nformas es posible hacer la distribución?",
       "options": [],
       "legacy_statement_group": 95,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "9",
-      "checkpoint_notes_unverified": "desarreglo!4"
+      "checkpoint_notes_unverified": "desarreglo!4",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Final CEOM9/3.º de secundaria/FUSION_sin-fecha_final-ceom9_3o-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-final-ceom9_3o-secundaria_q03",
@@ -4794,12 +4830,14 @@
       "problem_text": "Ana tiene 7 perlas cuyos pesos eran 1, 2, 3, 4, 5, 6 y 7 gramos respectivamente. Mando a hacer 3 anillos\ncon dos perlas cada uno. Si el peso de las perlas en los anillos es de 8, 10 y 7 gramos, ¿Cuántos gramos\npesa la perla que no utilizo?",
       "options": [],
       "legacy_statement_group": 94,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "ficha3",
-      "checkpoint_notes_unverified": "total28 menos25"
+      "checkpoint_notes_unverified": "total28 menos25",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Final CEOM9/3.º de secundaria/FUSION_sin-fecha_final-ceom9_3o-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-final-ceom9_3o-secundaria_q04",
@@ -4814,12 +4852,14 @@
       "problem_text": "Los dígitos W, X, Y, Z se forman los números de cuatro dígitos WXYZ y ZYXW que deben cumplir\nla siguiente relación:\nEncuentra los valores de los cuatro dígitos.\nOlimpiadas Matemáticas Chiapas CEOM\nCAMPEONATO\nESTATAL DE\nOLIMPIADAS",
       "options": [],
       "legacy_statement_group": 97,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "W1 X0 Y8 Z9",
-      "checkpoint_notes_unverified": "1089*9=9801"
+      "checkpoint_notes_unverified": "1089*9=9801",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Final CEOM9/3.º de secundaria/FUSION_sin-fecha_final-ceom9_3o-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-final-ceom9_olimpicos_q01",
@@ -4834,12 +4874,14 @@
       "problem_text": "Ana tiene 7 perlas cuyos pesos eran 1, 2, 3, 4, 5, 6 y 7 gramos respectivamente. Mando a hacer 3 anillos\ncon dos perlas cada uno. Si el peso de las perlas en los anillos es de 8, 10 y 7 gramos, ¿Cuántos gramos\npesa la perla que no utilizo?",
       "options": [],
       "legacy_statement_group": 94,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "ficha3",
-      "checkpoint_notes_unverified": "total28 menos25"
+      "checkpoint_notes_unverified": "total28 menos25",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Final CEOM9/Olímpicos/FUSION_sin-fecha_final-ceom9_olimpicos_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-final-ceom9_olimpicos_q02",
@@ -4854,12 +4896,14 @@
       "problem_text": "Para la fiesta de navidad Alejandro, Beatriz, Cesar y Delia piensan hacer un inter cambio de regalo, de\nmanera que cada uno dará un regalo  y reciba otro (nadie puede regalarse a sí mismo). ¿De cuantas\nformas es posible hacer la distribución?",
       "options": [],
       "legacy_statement_group": 95,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "9",
-      "checkpoint_notes_unverified": "desarreglo!4"
+      "checkpoint_notes_unverified": "desarreglo!4",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Final CEOM9/Olímpicos/FUSION_sin-fecha_final-ceom9_olimpicos_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-final-ceom9_olimpicos_q03",
@@ -4874,12 +4918,14 @@
       "problem_text": "Considera los paralelogramos ABCD y EFGD de manera que E esta sobre AB y C sobre FG. Demuestra\nque los paralelogramos tienen misma área.",
       "options": [],
       "legacy_statement_group": 96,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "áreas iguales",
-      "checkpoint_notes_unverified": "DEC mitad de ambos"
+      "checkpoint_notes_unverified": "DEC mitad de ambos",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Final CEOM9/Olímpicos/FUSION_sin-fecha_final-ceom9_olimpicos_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-final-ceom9_olimpicos_q04",
@@ -4894,12 +4940,14 @@
       "problem_text": "En una fila para comprar boletos de cine se encuentran formadas 320 personas. El caprichoso vendedor\ndice que va a atender uno no, uno si, uno no, uno si, etc. Los que no atienda deberán irse al final de la fila\n(uno por uno, en orden). ¿En qué lugar está formado al principio el último que va a poder comprar su\nboleto?\nOlimpiadas Matemáticas Chiapas CEOM",
       "options": [],
       "legacy_statement_group": 98,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "129",
-      "checkpoint_notes_unverified": "2(320-256)+1"
+      "checkpoint_notes_unverified": "2(320-256)+1",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Final CEOM9/Olímpicos/FUSION_sin-fecha_final-ceom9_olimpicos_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_kids-3ro_q01",

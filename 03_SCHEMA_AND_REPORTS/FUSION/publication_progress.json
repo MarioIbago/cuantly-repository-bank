@@ -4,12 +4,12 @@
   "source_pages": 226,
   "recovered_occurrences": 881,
   "legacy_statement_groups": 441,
-  "published_banks": 27,
-  "published_occurrences": 102,
-  "verified_answer_occurrences": 82,
-  "guided_occurrences": 20,
+  "published_banks": 33,
+  "published_occurrences": 126,
+  "verified_answer_occurrences": 103,
+  "guided_occurrences": 23,
   "alternate_source_occurrences": 42,
-  "pending_occurrences": 737,
+  "pending_occurrences": 713,
   "working_draft": "04_REFERENCE_SOURCES/FUSION/recovery/working_draft.json",
   "reviewed_banks": [
     "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 1/Primaria/FUSION_2020_torneo-1_primaria_classified.json",
@@ -38,6 +38,12 @@
     "05_CLASSIFIED_EXAMS/FUSION/2018/Eliminatorio CEOM10/1.º de secundaria/FUSION_2018_eliminatorio-ceom10_1ro-secundaria_classified.json",
     "05_CLASSIFIED_EXAMS/FUSION/2018/Eliminatorio CEOM10/2.º de secundaria/FUSION_2018_eliminatorio-ceom10_2do-secundaria_classified.json",
     "05_CLASSIFIED_EXAMS/FUSION/2018/Eliminatorio CEOM10/3.º de secundaria/FUSION_2018_eliminatorio-ceom10_3ro-secundaria_classified.json",
-    "05_CLASSIFIED_EXAMS/FUSION/2018/Eliminatorio CEOM10/Olímpicos/FUSION_2018_eliminatorio-ceom10_olimpicos-preparatoria_classified.json"
+    "05_CLASSIFIED_EXAMS/FUSION/2018/Eliminatorio CEOM10/Olímpicos/FUSION_2018_eliminatorio-ceom10_olimpicos-preparatoria_classified.json",
+    "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Final CEOM9/Kids/FUSION_sin-fecha_final-ceom9_kids-3o-y-4o-primaria_classified.json",
+    "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Final CEOM9/Primaria/FUSION_sin-fecha_final-ceom9_primaria-5o-y-6o-primaria_classified.json",
+    "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Final CEOM9/1.º de secundaria/FUSION_sin-fecha_final-ceom9_1o-secundaria_classified.json",
+    "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Final CEOM9/2.º de secundaria/FUSION_sin-fecha_final-ceom9_2o-secundaria_classified.json",
+    "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Final CEOM9/3.º de secundaria/FUSION_sin-fecha_final-ceom9_3o-secundaria_classified.json",
+    "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Final CEOM9/Olímpicos/FUSION_sin-fecha_final-ceom9_olimpicos_classified.json"
   ]
 }

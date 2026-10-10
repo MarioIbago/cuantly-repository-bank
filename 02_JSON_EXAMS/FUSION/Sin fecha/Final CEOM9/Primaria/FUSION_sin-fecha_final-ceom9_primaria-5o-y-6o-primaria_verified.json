@@ -1,0 +1,148 @@
+{
+  "schema_version": "1.0",
+  "source_format_reference": "Cuantly public practice; open_answer with manual comparison",
+  "exam": {
+    "competition": "FUSION",
+    "source_competition": "CEOM9",
+    "edition": 9,
+    "year": null,
+    "year_status": "not_confirmed",
+    "year_evidence": "No year or date is printed in any of the six source exam pages. Edition 9 is printed; it is not used to infer a calendar year.",
+    "phase": "Final CEOM9",
+    "level": "Primaria",
+    "school_level": "5.º y 6.º de primaria",
+    "problem_count": 4,
+    "source_file": "FUSION_sin-fecha_final-ceom9_multinivel_examen-final-ceom9_original.pdf",
+    "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Final CEOM9/Multinivel/FUSION_sin-fecha_final-ceom9_multinivel_examen-final-ceom9_original.pdf",
+    "source_sha256": "861b22efaadf8b782064a7abfc97fd3b98f3c02f67b0f2267705dabc3deded30",
+    "image_policy": "Exact mathematical diagram embedded as Base64; equations transcribed as LaTeX. No question screenshots, logos or publicity.",
+    "classification_phase": "not_started",
+    "difficulty_phase": "not_started"
+  },
+  "validation_summary": {
+    "verified_problems": 3,
+    "needs_review_or_invalid": 1,
+    "needs_review_problem_numbers": [
+      3
+    ],
+    "notes": "Undated source: do not infer a year from the edition. The fruit-repetition convention is unspecified and explained in the guided solution. Open answers use manual comparison."
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-final-ceom9_primaria-5o-y-6o-primaria_q01",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Final CEOM9 / Primaria",
+      "problem_number": 1,
+      "source_page": 2,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Los dígitos W, X, Y, Z se forman los números de cuatro dígitos WXYZ y ZYXW que deben cumplir la siguiente relación:\n\\[\\overline{WXYZ}\\times9=\\overline{ZYXW}.\\]\nEncuentra los valores de los cuatro dígitos.",
+      "options": [],
+      "correct_answer": "W = 1, X = 0, Y = 8, Z = 9",
+      "correct_option_label": null,
+      "solution_text": "1. **Acotar el número.** Llamamos N al número WXYZ. Tanto N como 9N tienen cuatro cifras, por lo que \\(1000\\le N\\le1111\\). Así, W=1.\n2. **Unidades.** La última cifra de \\(9Z\\) es W=1. Entre los dígitos, solo Z=9 cumple esto: \\(9\\cdot9=81\\). Se escribe 1 y se lleva 8.\n3. **Miles.** Si \\(c_3\\) es el acarreo de centenas a miles, \\(9W+c_3=Z\\). Como W=1 y Z=9, resulta \\(c_3=0\\).\n4. **Decenas y centenas.** Con \\(c_2\\) como acarreo de decenas a centenas, se cumplen\n\\[9Y+8=X+10c_2,\\qquad 9X+c_2=Y.\\]\nSustituyendo la segunda en la primera:\n\\[9(9X+c_2)+8=X+10c_2\\quad\\Longrightarrow\\quad c_2=80X+8.\\]\nUn acarreo al multiplicar por 9 está entre 0 y 8, así que X=0 y \\(c_2=8\\). Por tanto Y=8.\n5. **Respuesta y comprobación.** **W=1, X=0, Y=8, Z=9**, pues \\(1089\\cdot9=9801\\). La enumeración independiente de todos los números de cuatro cifras confirma que es la única solución.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta con solución revisada; comparación manual."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Final CEOM9/Multinivel/FUSION_sin-fecha_final-ceom9_multinivel_examen-final-ceom9_original.pdf",
+      "source_pdf_sha256": "861b22efaadf8b782064a7abfc97fd3b98f3c02f67b0f2267705dabc3deded30"
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom9_primaria-5o-y-6o-primaria_q02",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Final CEOM9 / Primaria",
+      "problem_number": 2,
+      "source_page": 2,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Encuentra el valor de cada una de las letras siguientes y el de la ultima suma:\n\\[A+A+A=30,\\qquad A+A+B+B=60,\\qquad B+C+C=80.\\]\n\\[A+B+C=?\\]",
+      "options": [],
+      "correct_answer": "A = 10, B = 20, C = 30; suma = 60",
+      "correct_option_label": null,
+      "solution_text": "1. **Primera letra.** \\(3A=30\\), así que \\(A=10\\).\n2. **Segunda letra.** Sustituimos: \\(10+10+2B=60\\). Entonces \\(2B=40\\) y \\(B=20\\).\n3. **Tercera letra.** \\(20+2C=80\\), de donde \\(C=30\\).\n4. **Respuesta.** **A=10, B=20 y C=30**; la suma es \\(10+20+30=\\mathbf{60}\\).\n5. **Comprobación.** \\(10+10+10=30\\), \\(10+10+20+20=60\\) y \\(20+30+30=80\\). Se cumplen las tres igualdades originales.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta con solución revisada; comparación manual."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Final CEOM9/Multinivel/FUSION_sin-fecha_final-ceom9_multinivel_examen-final-ceom9_original.pdf",
+      "source_pdf_sha256": "861b22efaadf8b782064a7abfc97fd3b98f3c02f67b0f2267705dabc3deded30"
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom9_primaria-5o-y-6o-primaria_q03",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Final CEOM9 / Primaria",
+      "problem_number": 3,
+      "source_page": 2,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Delfo prepara un postre con dos frutas y una salsa. Las frutas pueden ser: banana, ciruela, kiwi,\nmanzana,  pera. La salsa puede ser: de chocolate, de frambuesa, de dulce de leche. ¿Cuántos\npostres distintos puede preparar? Escribe  todas las posibilidades.\nNota: Banana-Ciruela es la misma combinación que  Ciruela-Banana",
+      "options": [],
+      "correct_answer": "30 si son dos tipos distintos de fruta; 45 si se permite repetir el tipo",
+      "correct_option_label": null,
+      "solution_text": "1. **Aclarar qué se elige.** El orden de las dos frutas no importa, según la nota. Falta precisar si se permite usar dos frutas del mismo tipo. Mostramos ambos conteos.\n2. **Dos tipos distintos.** Las diez parejas son: banana–ciruela, banana–kiwi, banana–manzana, banana–pera, ciruela–kiwi, ciruela–manzana, ciruela–pera, kiwi–manzana, kiwi–pera y manzana–pera.\n3. **Todas las posibilidades con tipos distintos.** En esta tabla, cada celda describe un postre:\n\n| Pareja de frutas | Chocolate | Frambuesa | Dulce de leche |\n| --- | --- | --- | --- |\n| Banana y ciruela | Banana–ciruela con chocolate | Banana–ciruela con frambuesa | Banana–ciruela con dulce de leche |\n| Banana y kiwi | Banana–kiwi con chocolate | Banana–kiwi con frambuesa | Banana–kiwi con dulce de leche |\n| Banana y manzana | Banana–manzana con chocolate | Banana–manzana con frambuesa | Banana–manzana con dulce de leche |\n| Banana y pera | Banana–pera con chocolate | Banana–pera con frambuesa | Banana–pera con dulce de leche |\n| Ciruela y kiwi | Ciruela–kiwi con chocolate | Ciruela–kiwi con frambuesa | Ciruela–kiwi con dulce de leche |\n| Ciruela y manzana | Ciruela–manzana con chocolate | Ciruela–manzana con frambuesa | Ciruela–manzana con dulce de leche |\n| Ciruela y pera | Ciruela–pera con chocolate | Ciruela–pera con frambuesa | Ciruela–pera con dulce de leche |\n| Kiwi y manzana | Kiwi–manzana con chocolate | Kiwi–manzana con frambuesa | Kiwi–manzana con dulce de leche |\n| Kiwi y pera | Kiwi–pera con chocolate | Kiwi–pera con frambuesa | Kiwi–pera con dulce de leche |\n| Manzana y pera | Manzana–pera con chocolate | Manzana–pera con frambuesa | Manzana–pera con dulce de leche |\n\n4. **Conteo y comprobación.** Son \\(10\\cdot3=\\mathbf{30}\\). También hay \\(5\\cdot4/2=10\\) parejas: dividimos entre dos porque cada pareja se contaría en ambos órdenes.\n5. **Si se repite el tipo.** Se añaden banana–banana, ciruela–ciruela, kiwi–kiwi, manzana–manzana y pera–pera, cada una con chocolate, frambuesa o dulce de leche. Son \\(5\\cdot3=15\\) postres más y \\(30+15=\\mathbf{45}\\).\n6. **Conclusión.** La respuesta usual de **30** supone dos tipos distintos. Sin esa condición, el texto también permite **45**; el problema se conserva como práctica guiada.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "ambiguous_source",
+        "answer_checked": false,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "La fuente no precisa si las dos frutas deben ser de tipos distintos. Se enumeran las 30 combinaciones de tipos distintos y las 15 adicionales si se admite repetir."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Final CEOM9/Multinivel/FUSION_sin-fecha_final-ceom9_multinivel_examen-final-ceom9_original.pdf",
+      "source_pdf_sha256": "861b22efaadf8b782064a7abfc97fd3b98f3c02f67b0f2267705dabc3deded30"
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom9_primaria-5o-y-6o-primaria_q04",
+      "collection": "FUSION",
+      "subcategory": "Sin fecha / Final CEOM9 / Primaria",
+      "problem_number": 4,
+      "source_page": 2,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Héctor dibuja la siguiente imagen formada por un cuadrado AEFG, un triángulo equilátero ABE  y\nun rectángulo ABCD, si GF  mide 5cm y 2FE=BC ¿cuánto mide el perímetro de la figura completa\nformada por Héctor? Nota: la figura completa es la formada por las 3 imágenes ya unidas.",
+      "options": [],
+      "correct_answer": "45 cm",
+      "correct_option_label": null,
+      "solution_text": "1. **Lados del cuadrado.** Como GF mide 5 cm, sus cuatro lados miden 5 cm. En particular AE=FE=5.\n2. **Triángulo.** ABE es equilátero, así que AB=BE=AE=5 cm.\n3. **Rectángulo.** El dato \\(2FE=BC\\) da BC=10 cm. Por ser rectángulo, AD=10 y CD=AB=5.\n4. **Borde exterior.** Los lados AE y AB son interiores después de unir las figuras. Recorremos G–F–E–B–C–D–A–G y sumamos:\n\\[5+5+5+10+5+10+5=\\mathbf{45}\\text{ cm}.\\]\n5. **Comprobación independiente.** La suma de los tres perímetros es \\(20+15+30=65\\). Los dos lados compartidos, de 5 cm cada uno, se habían contado dos veces; \\(65-2(5+5)=45\\).",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Cuadrado AEFG, equilátero ABE y rectángulo ABCD unidos por AE y AB",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "e105d0978c821f20429d0a44f4bdb668604f432c88a3f59ae14d8dd89436ac4d",
+          "source": "pdf_embedded_image",
+          "original_filename": "ceom9_final_page2_Image30.png",
+          "width_px": 443,
+          "height_px": 319
+        }
+      ],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta con solución revisada; comparación manual."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/Sin fecha/Final CEOM9/Multinivel/FUSION_sin-fecha_final-ceom9_multinivel_examen-final-ceom9_original.pdf",
+      "source_pdf_sha256": "861b22efaadf8b782064a7abfc97fd3b98f3c02f67b0f2267705dabc3deded30"
+    }
+  ]
+}

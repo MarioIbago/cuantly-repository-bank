@@ -1,0 +1,230 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/Sin fecha/Final CEOM9/Multinivel/FUSION_sin-fecha_final-ceom9_multinivel_examen-final-ceom9_original.pdf",
+  "source_sha256": "861b22efaadf8b782064a7abfc97fd3b98f3c02f67b0f2267705dabc3deded30",
+  "metadata_evidence": "No year or date is printed in any of the six source exam pages. Edition 9 is printed; it is not used to infer a calendar year.",
+  "school_level_evidence": "Each printed header confirms its category; Kids 3rd–4th primary, primary 5th–6th, secondary 1st–3rd, Olímpicos.",
+  "pages": [
+    6
+  ],
+  "source_review": "All six original PDF pages rendered and visually compared. Original question numbering and stable IDs retained.",
+  "figure_review": [],
+  "transcription_corrections": [
+    {
+      "source_id": "fusion1_examen-final-ceom9_olimpicos_q04",
+      "kind": "footer_removal",
+      "details": "Removed publicity footer and logo transcription; all question text preserved."
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom9_olimpicos_q04",
+      "kind": "false_diagram_flag",
+      "details": "Original page contains no mathematical figure for the queue question; legacy crop included only branding, which is not imported."
+    }
+  ],
+  "latex_rendering": {
+    "engine": "KaTeX 0.16.47",
+    "expressions": 19,
+    "errors": []
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-final-ceom9_olimpicos_q01",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "total": 28,
+        "used": 25,
+        "unused": 3,
+        "feasiblePairs": [
+          [
+            1,
+            7
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            2,
+            5
+          ]
+        ]
+      },
+      "notes": "Respuesta abierta con solución revisada; comparación manual."
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom9_olimpicos_q02",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "givingOrder": [
+          "Alejandro",
+          "Beatriz",
+          "Cesar",
+          "Delia"
+        ],
+        "recipients": [
+          [
+            "B",
+            "A",
+            "D",
+            "C"
+          ],
+          [
+            "B",
+            "C",
+            "D",
+            "A"
+          ],
+          [
+            "B",
+            "D",
+            "A",
+            "C"
+          ],
+          [
+            "C",
+            "A",
+            "D",
+            "B"
+          ],
+          [
+            "C",
+            "D",
+            "A",
+            "B"
+          ],
+          [
+            "C",
+            "D",
+            "B",
+            "A"
+          ],
+          [
+            "D",
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "D",
+            "C",
+            "A",
+            "B"
+          ],
+          [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        ],
+        "count": 9
+      },
+      "notes": "Respuesta abierta con solución revisada; comparación manual."
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom9_olimpicos_q03",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "example": {
+          "A": [
+            0,
+            0
+          ],
+          "B": [
+            5,
+            0
+          ],
+          "C": [
+            6,
+            3
+          ],
+          "D": [
+            1,
+            3
+          ],
+          "E": [
+            2,
+            0
+          ],
+          "F": [
+            6.5,
+            1.5
+          ],
+          "G": [
+            5.5,
+            4.5
+          ]
+        },
+        "areaABCD": 15,
+        "areaEFGD": 15,
+        "triangleDEC": 7.5,
+        "proof": "Triangle DEC is half of either parallelogram by parallel bases and equal altitudes."
+      },
+      "notes": "Respuesta abierta con solución revisada; comparación manual."
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom9_olimpicos_q04",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "people": 320,
+        "lastBuyer": 129,
+        "servedCount": 320,
+        "uniqueBuyers": 320,
+        "lastFiveQueue": [
+          1,
+          65,
+          129,
+          193,
+          257
+        ],
+        "lastFiveServed": [
+          65,
+          193,
+          1,
+          257,
+          129
+        ]
+      },
+      "notes": "Respuesta abierta con solución revisada; comparación manual."
+    }
+  ],
+  "structural_validation": [
+    {
+      "path": "02_JSON_EXAMS/FUSION/Sin fecha/Final CEOM9/Olímpicos/FUSION_sin-fecha_final-ceom9_olimpicos_verified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "891f9f8fba9b12fbaa8d343df4f2209fa59b5f6b5a9ba73ff1be20a21240b98c",
+        "bytes": 9899,
+        "problems": 4,
+        "verified": 4,
+        "guided": 0,
+        "images": 0,
+        "figures": [],
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Final CEOM9/Olímpicos/FUSION_sin-fecha_final-ceom9_olimpicos_classified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "237c04021546c5277ce9e888a1386e673adcc72cffc0ee7d8c12fbd8f8df2da7",
+        "bytes": 12083,
+        "problems": 4,
+        "verified": 4,
+        "guided": 0,
+        "images": 0,
+        "figures": [],
+        "errors": [],
+        "warnings": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/Sin fecha/Final CEOM9/Multinivel/FUSION_sin-fecha_final-ceom9_multinivel_examen-final-ceom9_original.pdf",
+  "source_sha256": "861b22efaadf8b782064a7abfc97fd3b98f3c02f67b0f2267705dabc3deded30",
+  "school_level": "Olímpicos (sin grado indicado)",
+  "rubric": "Primary solving idea; L1 direct familiar steps, L2 combines ideas, L3 non-routine argument relative to the printed school level. Ambiguity is retained.",
+  "problems": [
+    {
+      "source_id": "fusion1_examen-final-ceom9_olimpicos_q01",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "addition",
+        "subtraction",
+        "invariants"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Restar al peso total el peso usado en los tres anillos.",
+        "Dificultad relativa al nivel Olímpicos, sin grado escolar impreso."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom9_olimpicos_q02",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "permutations",
+        "counting",
+        "casework"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Clasificar las permutaciones sin puntos fijos por sus ciclos.",
+        "Dificultad relativa al nivel Olímpicos, sin grado escolar impreso."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom9_olimpicos_q03",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "area",
+        "parallel_lines",
+        "quadrilaterals",
+        "proof"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Comparar los dos paralelogramos mediante un mismo triángulo.",
+        "Dificultad relativa al nivel Olímpicos, sin grado escolar impreso."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom9_olimpicos_q04",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "patterns",
+        "recursion",
+        "counting"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Seguir el orden de eliminación y reducir por mitades antes de simular los últimos cinco.",
+        "Dificultad relativa al nivel Olímpicos, sin grado escolar impreso."
+      ]
+    }
+  ]
+}
