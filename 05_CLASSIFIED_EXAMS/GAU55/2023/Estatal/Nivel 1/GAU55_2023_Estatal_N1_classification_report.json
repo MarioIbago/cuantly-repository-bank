@@ -125,5 +125,40 @@
     "This is the first exam classified in Phase 2. Difficulty calibration remains provisional until the remaining exams are compared as a full bank.",
     "No probability or combinatorics problem appears as a primary area in this exam.",
     "Problem 13 is the only mixed-area item in this exam: number theory + algebra."
-  ]
+  ],
+  "bank_sha256": "4f3b3217b21f46770d767b79b1172a0192e5a7e23812f26e826ca5633e76f5dd",
+  "format_audit": {
+    "report": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.json",
+    "csv": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.csv",
+    "status": "passed",
+    "fields_rendered": 324,
+    "source_ids": [
+      "gau55_2023_estatal_n1_p01",
+      "gau55_2023_estatal_n1_p02",
+      "gau55_2023_estatal_n1_p03",
+      "gau55_2023_estatal_n1_p04",
+      "gau55_2023_estatal_n1_p05",
+      "gau55_2023_estatal_n1_p06",
+      "gau55_2023_estatal_n1_p07",
+      "gau55_2023_estatal_n1_p08",
+      "gau55_2023_estatal_n1_p09",
+      "gau55_2023_estatal_n1_p10",
+      "gau55_2023_estatal_n1_p11",
+      "gau55_2023_estatal_n1_p12",
+      "gau55_2023_estatal_n1_p13",
+      "gau55_2023_estatal_n1_p14",
+      "gau55_2023_estatal_n1_p15",
+      "gau55_2023_estatal_n1_p16",
+      "gau55_2023_estatal_n1_p17",
+      "gau55_2023_estatal_n1_p18",
+      "gau55_2023_estatal_n1_p19",
+      "gau55_2023_estatal_n1_p20",
+      "gau55_2023_estatal_n1_p21",
+      "gau55_2023_estatal_n1_p22",
+      "gau55_2023_estatal_n1_p23",
+      "gau55_2023_estatal_n1_p24",
+      "gau55_2023_estatal_n1_p25"
+    ],
+    "scope": "Formatting and structural recheck; prior mathematical/source reviews retained."
+  }
 }

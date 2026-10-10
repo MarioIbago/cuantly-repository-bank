@@ -75,5 +75,19 @@
         "Dificultad relativa a 3.º y 4.º de primaria."
       ]
     }
-  ]
+  ],
+  "bank_sha256": "910ca148e28bcdc47c4d8c8ab09c0067d72673f87ed6bc655a82515bc07a95be",
+  "format_audit": {
+    "report": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.json",
+    "csv": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.csv",
+    "status": "passed",
+    "fields_rendered": 12,
+    "source_ids": [
+      "fusion1_examen-final-ceom9_kids-3o-y-4o-primaria_q01",
+      "fusion1_examen-final-ceom9_kids-3o-y-4o-primaria_q02",
+      "fusion1_examen-final-ceom9_kids-3o-y-4o-primaria_q03",
+      "fusion1_examen-final-ceom9_kids-3o-y-4o-primaria_q04"
+    ],
+    "scope": "Formatting and structural recheck; prior mathematical/source reviews retained."
+  }
 }

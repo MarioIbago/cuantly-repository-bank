@@ -466,88 +466,108 @@
       "notes": "Se usa el modelo del enunciado de cada mañana y tarde como periodo claro o lluvioso; las siete veces son sus siete periodos lluviosos."
     }
   ],
-  "structural_validation": [
-    {
-      "path": "02_JSON_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/2.º de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_2-preparatoria_verified.json",
-      "report": {
-        "ok": true,
-        "scope": "structure_options_image_decoding_hashes_classification_only",
-        "mathematical_verification": "not_performed_by_this_script",
-        "visual_source_comparison": "not_performed_by_this_script",
-        "latex_rendering": "not_performed_by_this_script",
-        "bank_sha256": "899a2d6a6f905870bb89a70ce71ef0fbd73d6a755294a6fb14eb108c41aa8544",
-        "bytes": 60173,
-        "problems": 15,
-        "verified": 15,
-        "guided": 0,
-        "images": 3,
-        "figures": [
-          {
-            "source_id": "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q01",
-            "figure": 1,
-            "sha256": "a8498515ddf617b73df59336fc5e08cd794b187cb4d2a6e19c4451c67750fd8e",
-            "width": 171,
-            "height": 125
-          },
-          {
-            "source_id": "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q07",
-            "figure": 1,
-            "sha256": "5a5a1a54fc696cf8e4d0fe8d889962d6d60550a185cb0e16390646d498d4d9dc",
-            "width": 230,
-            "height": 141
-          },
-          {
-            "source_id": "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q10",
-            "figure": 1,
-            "sha256": "a9738569594cd8f2b2b53adc4d5dc2d22607d92bd40e788dd58ef8d3ea597203",
-            "width": 107,
-            "height": 104
-          }
-        ],
-        "errors": [],
-        "warnings": []
-      }
+  "structural_validation": {
+    "verified": {
+      "ok": true,
+      "scope": "structure_options_image_decoding_hashes_classification_only",
+      "mathematical_verification": "not_performed_by_this_script",
+      "visual_source_comparison": "not_performed_by_this_script",
+      "latex_rendering": "not_performed_by_this_script",
+      "bank_sha256": "fde06c97eb3fd6e8c57381ef8f4cd30bdb62af5bad2ec7b0f18058ab3055e33d",
+      "bytes": 60174,
+      "problems": 15,
+      "verified": 15,
+      "guided": 0,
+      "images": 3,
+      "figures": [
+        {
+          "source_id": "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q01",
+          "figure": 1,
+          "sha256": "a8498515ddf617b73df59336fc5e08cd794b187cb4d2a6e19c4451c67750fd8e",
+          "width": 171,
+          "height": 125
+        },
+        {
+          "source_id": "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q07",
+          "figure": 1,
+          "sha256": "5a5a1a54fc696cf8e4d0fe8d889962d6d60550a185cb0e16390646d498d4d9dc",
+          "width": 230,
+          "height": 141
+        },
+        {
+          "source_id": "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q10",
+          "figure": 1,
+          "sha256": "a9738569594cd8f2b2b53adc4d5dc2d22607d92bd40e788dd58ef8d3ea597203",
+          "width": 107,
+          "height": 104
+        }
+      ],
+      "errors": [],
+      "warnings": []
     },
-    {
-      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/2.º de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_2-preparatoria_classified.json",
-      "report": {
-        "ok": true,
-        "scope": "structure_options_image_decoding_hashes_classification_only",
-        "mathematical_verification": "not_performed_by_this_script",
-        "visual_source_comparison": "not_performed_by_this_script",
-        "latex_rendering": "not_performed_by_this_script",
-        "bank_sha256": "3b65cc968c751195e0165a0af5ab9bec27e4d978d955daa02e676714bd961036",
-        "bytes": 68793,
-        "problems": 15,
-        "verified": 15,
-        "guided": 0,
-        "images": 3,
-        "figures": [
-          {
-            "source_id": "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q01",
-            "figure": 1,
-            "sha256": "a8498515ddf617b73df59336fc5e08cd794b187cb4d2a6e19c4451c67750fd8e",
-            "width": 171,
-            "height": 125
-          },
-          {
-            "source_id": "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q07",
-            "figure": 1,
-            "sha256": "5a5a1a54fc696cf8e4d0fe8d889962d6d60550a185cb0e16390646d498d4d9dc",
-            "width": 230,
-            "height": 141
-          },
-          {
-            "source_id": "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q10",
-            "figure": 1,
-            "sha256": "a9738569594cd8f2b2b53adc4d5dc2d22607d92bd40e788dd58ef8d3ea597203",
-            "width": 107,
-            "height": 104
-          }
-        ],
-        "errors": [],
-        "warnings": []
-      }
+    "classified": {
+      "ok": true,
+      "scope": "structure_options_image_decoding_hashes_classification_only",
+      "mathematical_verification": "not_performed_by_this_script",
+      "visual_source_comparison": "not_performed_by_this_script",
+      "latex_rendering": "not_performed_by_this_script",
+      "bank_sha256": "6cfc8e0d24118cc191fd15bb9d8bff4d19b152c79e87b40902f869d7254707b9",
+      "bytes": 68794,
+      "problems": 15,
+      "verified": 15,
+      "guided": 0,
+      "images": 3,
+      "figures": [
+        {
+          "source_id": "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q01",
+          "figure": 1,
+          "sha256": "a8498515ddf617b73df59336fc5e08cd794b187cb4d2a6e19c4451c67750fd8e",
+          "width": 171,
+          "height": 125
+        },
+        {
+          "source_id": "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q07",
+          "figure": 1,
+          "sha256": "5a5a1a54fc696cf8e4d0fe8d889962d6d60550a185cb0e16390646d498d4d9dc",
+          "width": 230,
+          "height": 141
+        },
+        {
+          "source_id": "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q10",
+          "figure": 1,
+          "sha256": "a9738569594cd8f2b2b53adc4d5dc2d22607d92bd40e788dd58ef8d3ea597203",
+          "width": 107,
+          "height": 104
+        }
+      ],
+      "errors": [],
+      "warnings": []
     }
-  ]
+  },
+  "bank_sha256": "fde06c97eb3fd6e8c57381ef8f4cd30bdb62af5bad2ec7b0f18058ab3055e33d",
+  "classified_bank_sha256": "6cfc8e0d24118cc191fd15bb9d8bff4d19b152c79e87b40902f869d7254707b9",
+  "format_audit": {
+    "report": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.json",
+    "csv": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.csv",
+    "status": "passed",
+    "fields_rendered": 145,
+    "source_ids": [
+      "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q01",
+      "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q02",
+      "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q03",
+      "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q04",
+      "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q05",
+      "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q06",
+      "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q07",
+      "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q08",
+      "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q09",
+      "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q10",
+      "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q11",
+      "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q12",
+      "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q13",
+      "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q14",
+      "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q15"
+    ],
+    "scope": "Formatting and structural recheck; prior mathematical/source reviews retained."
+  }
 }

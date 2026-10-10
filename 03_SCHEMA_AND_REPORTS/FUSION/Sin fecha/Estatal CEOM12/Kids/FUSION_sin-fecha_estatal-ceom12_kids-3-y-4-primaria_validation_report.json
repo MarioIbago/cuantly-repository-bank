@@ -346,102 +346,117 @@
       "notes": "El texto repite pequeños en la lista de tamaños y no dice si doble compara áreas o lados. Las dos lecturas producen valores distintos; el dibujo no se mide para decidir una longitud."
     }
   ],
-  "structural_validation": [
-    {
-      "path": "02_JSON_EXAMS/FUSION/Sin fecha/Estatal CEOM12/Kids/FUSION_sin-fecha_estatal-ceom12_kids-3-y-4-primaria_verified.json",
-      "report": {
-        "ok": true,
-        "scope": "structure_options_image_decoding_hashes_classification_only",
-        "mathematical_verification": "not_performed_by_this_script",
-        "visual_source_comparison": "not_performed_by_this_script",
-        "latex_rendering": "not_performed_by_this_script",
-        "bank_sha256": "c0944cdea710b22414a975e84459774589c01e1b7c4f7b2a076c0bdce4709a07",
-        "bytes": 52722,
-        "problems": 10,
-        "verified": 6,
-        "guided": 4,
-        "images": 4,
-        "figures": [
-          {
-            "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q04",
-            "figure": 1,
-            "sha256": "f7208ace5c27dff3de0d88f8c66623aefc04a1de70d05d1a304c4b30e0fb2746",
-            "width": 388,
-            "height": 119
-          },
-          {
-            "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q06",
-            "figure": 1,
-            "sha256": "8c660b6956d21daba78a57f8a27dce0b5fcb0fae57f93d8b3c6bfdc3a6d1e621",
-            "width": 218,
-            "height": 218
-          },
-          {
-            "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q09",
-            "figure": 1,
-            "sha256": "5a27ff45311a3868f27893107a5e2d09c8d1ff77fdbb1b8306ac51ff8e00aa1d",
-            "width": 118,
-            "height": 101
-          },
-          {
-            "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q10",
-            "figure": 1,
-            "sha256": "aa1016400815981fbfcc2d1274f70bee4727f2071bcba19e91f7228446719319",
-            "width": 323,
-            "height": 279
-          }
-        ],
-        "errors": [],
-        "warnings": []
-      }
+  "structural_validation": {
+    "verified": {
+      "ok": true,
+      "scope": "structure_options_image_decoding_hashes_classification_only",
+      "mathematical_verification": "not_performed_by_this_script",
+      "visual_source_comparison": "not_performed_by_this_script",
+      "latex_rendering": "not_performed_by_this_script",
+      "bank_sha256": "5856d2c4b9b133e79e6169be4831601ac9f2255cac80a553ef683b43cfd4783c",
+      "bytes": 52728,
+      "problems": 10,
+      "verified": 6,
+      "guided": 4,
+      "images": 4,
+      "figures": [
+        {
+          "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q04",
+          "figure": 1,
+          "sha256": "f7208ace5c27dff3de0d88f8c66623aefc04a1de70d05d1a304c4b30e0fb2746",
+          "width": 388,
+          "height": 119
+        },
+        {
+          "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q06",
+          "figure": 1,
+          "sha256": "8c660b6956d21daba78a57f8a27dce0b5fcb0fae57f93d8b3c6bfdc3a6d1e621",
+          "width": 218,
+          "height": 218
+        },
+        {
+          "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q09",
+          "figure": 1,
+          "sha256": "5a27ff45311a3868f27893107a5e2d09c8d1ff77fdbb1b8306ac51ff8e00aa1d",
+          "width": 118,
+          "height": 101
+        },
+        {
+          "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q10",
+          "figure": 1,
+          "sha256": "aa1016400815981fbfcc2d1274f70bee4727f2071bcba19e91f7228446719319",
+          "width": 323,
+          "height": 279
+        }
+      ],
+      "errors": [],
+      "warnings": []
     },
-    {
-      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/Kids/FUSION_sin-fecha_estatal-ceom12_kids-3-y-4-primaria_classified.json",
-      "report": {
-        "ok": true,
-        "scope": "structure_options_image_decoding_hashes_classification_only",
-        "mathematical_verification": "not_performed_by_this_script",
-        "visual_source_comparison": "not_performed_by_this_script",
-        "latex_rendering": "not_performed_by_this_script",
-        "bank_sha256": "b2e8c2dc4368f2b696de6a6bdbb4c351c09526abbb428fd9349f6abc232b37b5",
-        "bytes": 57910,
-        "problems": 10,
-        "verified": 6,
-        "guided": 4,
-        "images": 4,
-        "figures": [
-          {
-            "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q04",
-            "figure": 1,
-            "sha256": "f7208ace5c27dff3de0d88f8c66623aefc04a1de70d05d1a304c4b30e0fb2746",
-            "width": 388,
-            "height": 119
-          },
-          {
-            "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q06",
-            "figure": 1,
-            "sha256": "8c660b6956d21daba78a57f8a27dce0b5fcb0fae57f93d8b3c6bfdc3a6d1e621",
-            "width": 218,
-            "height": 218
-          },
-          {
-            "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q09",
-            "figure": 1,
-            "sha256": "5a27ff45311a3868f27893107a5e2d09c8d1ff77fdbb1b8306ac51ff8e00aa1d",
-            "width": 118,
-            "height": 101
-          },
-          {
-            "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q10",
-            "figure": 1,
-            "sha256": "aa1016400815981fbfcc2d1274f70bee4727f2071bcba19e91f7228446719319",
-            "width": 323,
-            "height": 279
-          }
-        ],
-        "errors": [],
-        "warnings": []
-      }
+    "classified": {
+      "ok": true,
+      "scope": "structure_options_image_decoding_hashes_classification_only",
+      "mathematical_verification": "not_performed_by_this_script",
+      "visual_source_comparison": "not_performed_by_this_script",
+      "latex_rendering": "not_performed_by_this_script",
+      "bank_sha256": "f28529f732d7014a542e08ddba82ac9132fe28c2955a15c1033b090e2a06ccb0",
+      "bytes": 57916,
+      "problems": 10,
+      "verified": 6,
+      "guided": 4,
+      "images": 4,
+      "figures": [
+        {
+          "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q04",
+          "figure": 1,
+          "sha256": "f7208ace5c27dff3de0d88f8c66623aefc04a1de70d05d1a304c4b30e0fb2746",
+          "width": 388,
+          "height": 119
+        },
+        {
+          "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q06",
+          "figure": 1,
+          "sha256": "8c660b6956d21daba78a57f8a27dce0b5fcb0fae57f93d8b3c6bfdc3a6d1e621",
+          "width": 218,
+          "height": 218
+        },
+        {
+          "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q09",
+          "figure": 1,
+          "sha256": "5a27ff45311a3868f27893107a5e2d09c8d1ff77fdbb1b8306ac51ff8e00aa1d",
+          "width": 118,
+          "height": 101
+        },
+        {
+          "source_id": "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q10",
+          "figure": 1,
+          "sha256": "aa1016400815981fbfcc2d1274f70bee4727f2071bcba19e91f7228446719319",
+          "width": 323,
+          "height": 279
+        }
+      ],
+      "errors": [],
+      "warnings": []
     }
-  ]
+  },
+  "bank_sha256": "5856d2c4b9b133e79e6169be4831601ac9f2255cac80a553ef683b43cfd4783c",
+  "classified_bank_sha256": "f28529f732d7014a542e08ddba82ac9132fe28c2955a15c1033b090e2a06ccb0",
+  "format_audit": {
+    "report": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.json",
+    "csv": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.csv",
+    "status": "passed",
+    "fields_rendered": 120,
+    "source_ids": [
+      "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q01",
+      "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q02",
+      "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q03",
+      "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q04",
+      "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q05",
+      "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q06",
+      "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q07",
+      "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q08",
+      "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q09",
+      "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q10"
+    ],
+    "scope": "Formatting and structural recheck; prior mathematical/source reviews retained."
+  }
 }

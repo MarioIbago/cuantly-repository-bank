@@ -1,7 +1,7 @@
 {
   "source_pdf": "01_RAW_PDFs/FUSION/2024/Selectivo Estatal/Multinivel/FUSION_2024_selectivo-estatal_multinivel_evaluacion-selectivos-estatales-fusion-2024_original.pdf",
   "source_sha256": "fec19769e5b5743aa2eafc767fbfbceaea6280914f8e0c1be2c53ecbff219635",
-  "bank_sha256": "ebd0f06260cea602d9f2ee13ba07a319d5cf3c191b11e2d56477e0684fb89d0a",
+  "bank_sha256": "97cd423079ba77cb40e54bfa9a9bc6b926c038e58683c9538a8e5e6d19921dfb",
   "rubric": "Editorial L1/L2/L3 relative to source school grade; primary area follows decisive reasoning, not picture context.",
   "problems": [
     {
@@ -177,5 +177,24 @@
         "Dificultad editorial relativa a Tercer año de secundaria: aplicación directa de una idea familiar."
       ]
     }
-  ]
+  ],
+  "format_audit": {
+    "report": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.json",
+    "csv": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.csv",
+    "status": "passed",
+    "fields_rendered": 80,
+    "source_ids": [
+      "fusion4_evaluacion-selectivos-estatales-fusion-2024_3-de-secundaria_q01",
+      "fusion4_evaluacion-selectivos-estatales-fusion-2024_3-de-secundaria_q02",
+      "fusion4_evaluacion-selectivos-estatales-fusion-2024_3-de-secundaria_q03",
+      "fusion4_evaluacion-selectivos-estatales-fusion-2024_3-de-secundaria_q04",
+      "fusion4_evaluacion-selectivos-estatales-fusion-2024_3-de-secundaria_q05",
+      "fusion4_evaluacion-selectivos-estatales-fusion-2024_3-de-secundaria_q06",
+      "fusion4_evaluacion-selectivos-estatales-fusion-2024_3-de-secundaria_q07",
+      "fusion4_evaluacion-selectivos-estatales-fusion-2024_3-de-secundaria_q08",
+      "fusion4_evaluacion-selectivos-estatales-fusion-2024_3-de-secundaria_q09",
+      "fusion4_evaluacion-selectivos-estatales-fusion-2024_3-de-secundaria_q10"
+    ],
+    "scope": "Formatting and structural recheck; prior mathematical/source reviews retained."
+  }
 }

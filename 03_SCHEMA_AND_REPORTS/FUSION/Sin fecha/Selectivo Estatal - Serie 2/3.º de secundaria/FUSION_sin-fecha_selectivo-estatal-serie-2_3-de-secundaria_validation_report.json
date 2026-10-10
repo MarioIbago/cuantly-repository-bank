@@ -396,44 +396,64 @@
       "notes": "Se usa el modelo del enunciado de cada mañana y tarde como periodo claro o lluvioso; las siete veces son sus siete periodos lluviosos."
     }
   ],
-  "structural_validation": [
-    {
-      "path": "02_JSON_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3.º de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-de-secundaria_verified.json",
-      "report": {
-        "ok": true,
-        "scope": "structure_options_image_decoding_hashes_classification_only",
-        "mathematical_verification": "not_performed_by_this_script",
-        "visual_source_comparison": "not_performed_by_this_script",
-        "latex_rendering": "not_performed_by_this_script",
-        "bank_sha256": "ef56b02dbafb826d98da2722aab4bb2fc4559c302a370310c849c58c868fbc9b",
-        "bytes": 40682,
-        "problems": 15,
-        "verified": 13,
-        "guided": 2,
-        "images": 0,
-        "figures": [],
-        "errors": [],
-        "warnings": []
-      }
+  "structural_validation": {
+    "verified": {
+      "ok": true,
+      "scope": "structure_options_image_decoding_hashes_classification_only",
+      "mathematical_verification": "not_performed_by_this_script",
+      "visual_source_comparison": "not_performed_by_this_script",
+      "latex_rendering": "not_performed_by_this_script",
+      "bank_sha256": "e1068d1b9057dcaa7f6811c255d74835004b44e0f4a3ce38c4c5673055a65772",
+      "bytes": 40683,
+      "problems": 15,
+      "verified": 13,
+      "guided": 2,
+      "images": 0,
+      "figures": [],
+      "errors": [],
+      "warnings": []
     },
-    {
-      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3.º de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-de-secundaria_classified.json",
-      "report": {
-        "ok": true,
-        "scope": "structure_options_image_decoding_hashes_classification_only",
-        "mathematical_verification": "not_performed_by_this_script",
-        "visual_source_comparison": "not_performed_by_this_script",
-        "latex_rendering": "not_performed_by_this_script",
-        "bank_sha256": "fee8c6077ade9871577bd7ee57901762ad5a3227c65d74090cf9933fe352b95c",
-        "bytes": 49046,
-        "problems": 15,
-        "verified": 13,
-        "guided": 2,
-        "images": 0,
-        "figures": [],
-        "errors": [],
-        "warnings": []
-      }
+    "classified": {
+      "ok": true,
+      "scope": "structure_options_image_decoding_hashes_classification_only",
+      "mathematical_verification": "not_performed_by_this_script",
+      "visual_source_comparison": "not_performed_by_this_script",
+      "latex_rendering": "not_performed_by_this_script",
+      "bank_sha256": "b00c60a50178f3498cb8c8c9989b967a5a467656c5717c1faa38d73ed1fdf436",
+      "bytes": 49047,
+      "problems": 15,
+      "verified": 13,
+      "guided": 2,
+      "images": 0,
+      "figures": [],
+      "errors": [],
+      "warnings": []
     }
-  ]
+  },
+  "bank_sha256": "e1068d1b9057dcaa7f6811c255d74835004b44e0f4a3ce38c4c5673055a65772",
+  "classified_bank_sha256": "b00c60a50178f3498cb8c8c9989b967a5a467656c5717c1faa38d73ed1fdf436",
+  "format_audit": {
+    "report": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.json",
+    "csv": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.csv",
+    "status": "passed",
+    "fields_rendered": 145,
+    "source_ids": [
+      "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q01",
+      "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q02",
+      "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q03",
+      "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q04",
+      "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q05",
+      "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q06",
+      "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q07",
+      "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q08",
+      "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q09",
+      "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q10",
+      "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q11",
+      "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q12",
+      "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q13",
+      "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q14",
+      "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q15"
+    ],
+    "scope": "Formatting and structural recheck; prior mathematical/source reviews retained."
+  }
 }

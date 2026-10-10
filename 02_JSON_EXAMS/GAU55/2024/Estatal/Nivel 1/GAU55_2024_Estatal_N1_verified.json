@@ -127,32 +127,32 @@
       "source_page": 1,
       "language": "es",
       "format": "multiple_choice",
-      "problem_text": "En la frutería de Angelito se venden plátanos, sandías y manzanas en \\($10.3\\), \\($8.5\\) y \\($9.7\\) el kilo respectivamente. Si María compra 2 kilos de plátanos, 2 kilos de sandía y 1 kilo de manzana, ¿cuánto le tendrá que cobrar Angelito?",
+      "problem_text": "En la frutería de Angelito se venden plátanos, sandías y manzanas en \\(\\text{\\textdollar}10.3\\), \\(\\text{\\textdollar}8.5\\) y \\(\\text{\\textdollar}9.7\\) el kilo respectivamente. Si María compra 2 kilos de plátanos, 2 kilos de sandía y 1 kilo de manzana, ¿cuánto le tendrá que cobrar Angelito?",
       "options": [
         {
           "label": "a",
-          "text": "$46.9"
+          "text": "\\$46.9"
         },
         {
           "label": "b",
-          "text": "$46.3"
+          "text": "\\$46.3"
         },
         {
           "label": "c",
-          "text": "$46.6"
+          "text": "\\$46.6"
         },
         {
           "label": "d",
-          "text": "$47"
+          "text": "\\$47"
         },
         {
           "label": "e",
-          "text": "$47.3"
+          "text": "\\$47.3"
         }
       ],
-      "correct_answer": "$47.3",
+      "correct_answer": "\\$47.3",
       "correct_option_label": "e",
-      "solution_text": "El costo es \\(2(10.3)+2(8.5)+1(9.7)=20.6+17+9.7=47.3\\). Por tanto, Angelito debe cobrar \\($47.30\\).",
+      "solution_text": "El costo es \\(2(10.3)+2(8.5)+1(9.7)=20.6+17+9.7=47.3\\). Por tanto, Angelito debe cobrar \\(\\text{\\textdollar}47.30\\).",
       "has_diagram": true,
       "problem_images": [
         {
@@ -171,17 +171,17 @@
         {
           "label": "a",
           "is_correct": false,
-          "reason": "Queda \\($0.40\\) por debajo del total correcto."
+          "reason": "Queda \\(\\text{\\textdollar}0.40\\) por debajo del total correcto."
         },
         {
           "label": "b",
           "is_correct": false,
-          "reason": "Queda \\($1.00\\) por debajo del total correcto."
+          "reason": "Queda \\(\\text{\\textdollar}1.00\\) por debajo del total correcto."
         },
         {
           "label": "c",
           "is_correct": false,
-          "reason": "Queda \\($0.70\\) por debajo del total correcto."
+          "reason": "Queda \\(\\text{\\textdollar}0.70\\) por debajo del total correcto."
         },
         {
           "label": "d",
@@ -209,30 +209,30 @@
       "source_page": 1,
       "language": "es",
       "format": "multiple_choice",
-      "problem_text": "Blanca y Pablo deciden salir al cine junto con su hija. Al llegar a la dulcería, compran un combo que incluye unas palomitas gigantes, tres refrescos grandes y dos crepas, cuyo costo total es de $465 pesos. Si deciden dividir el gasto en partes iguales, ¿cuánto pagará cada uno?",
+      "problem_text": "Blanca y Pablo deciden salir al cine junto con su hija. Al llegar a la dulcería, compran un combo que incluye unas palomitas gigantes, tres refrescos grandes y dos crepas, cuyo costo total es de \\$465 pesos. Si deciden dividir el gasto en partes iguales, ¿cuánto pagará cada uno?",
       "options": [
         {
           "label": "a",
-          "text": "$230"
+          "text": "\\$230"
         },
         {
           "label": "b",
-          "text": "$155"
+          "text": "\\$155"
         },
         {
           "label": "c",
-          "text": "$160"
+          "text": "\\$160"
         },
         {
           "label": "d",
-          "text": "$232.5"
+          "text": "\\$232.5"
         },
         {
           "label": "e",
-          "text": "$150"
+          "text": "\\$150"
         }
       ],
-      "correct_answer": "$155",
+      "correct_answer": "\\$155",
       "correct_option_label": "b",
       "solution_text": "Son tres personas: Blanca, Pablo y su hija. Al dividir en partes iguales, \\(465\\div3=155\\).",
       "has_diagram": false,
@@ -251,7 +251,7 @@
         {
           "label": "c",
           "is_correct": false,
-          "reason": "Tres pagos de \\($160\\) sumarían \\($480\\)."
+          "reason": "Tres pagos de \\(\\text{\\textdollar}160\\) sumarían \\(\\text{\\textdollar}480\\)."
         },
         {
           "label": "d",
@@ -261,7 +261,7 @@
         {
           "label": "e",
           "is_correct": false,
-          "reason": "Tres pagos de \\($150\\) sumarían \\($450\\)."
+          "reason": "Tres pagos de \\(\\text{\\textdollar}150\\) sumarían \\(\\text{\\textdollar}450\\)."
         }
       ],
       "verification": {
@@ -279,30 +279,30 @@
       "source_page": 1,
       "language": "es",
       "format": "multiple_choice",
-      "problem_text": "Erick decide invertir su dinero en un banco que ofrece la siguiente garantía: \"El banco multiplicará tu monto inicial por cada mes que dejes el dinero invertido\". Si, al cabo de un año, Erick recibe $48,000 pesos, ¿cuánto dinero invirtió inicialmente?",
+      "problem_text": "Erick decide invertir su dinero en un banco que ofrece la siguiente garantía: \"El banco multiplicará tu monto inicial por cada mes que dejes el dinero invertido\". Si, al cabo de un año, Erick recibe \\$48,000 pesos, ¿cuánto dinero invirtió inicialmente?",
       "options": [
         {
           "label": "a",
-          "text": "$4,800"
+          "text": "\\$4,800"
         },
         {
           "label": "b",
-          "text": "$5,000"
+          "text": "\\$5,000"
         },
         {
           "label": "c",
-          "text": "$4,000"
+          "text": "\\$4,000"
         },
         {
           "label": "d",
-          "text": "$4,200"
+          "text": "\\$4,200"
         },
         {
           "label": "e",
-          "text": "$2,400"
+          "text": "\\$2,400"
         }
       ],
-      "correct_answer": "$4,000",
+      "correct_answer": "\\$4,000",
       "correct_option_label": "c",
       "solution_text": "Interpretando la garantía como que después de \\(m\\) meses se recibe \\(m\\) veces el monto inicial, un año son 12 meses. Si \\(12x=48{,}000\\), entonces \\(x=48{,}000/12=4{,}000\\).",
       "has_diagram": false,
@@ -818,30 +818,30 @@
       "source_page": 2,
       "language": "es",
       "format": "multiple_choice",
-      "problem_text": "Miguel fue a la tienda de abarrotes de su barrio y compró un litro de jugo por $20, dos barras de chocolate por $30 y una bolsa de papas por $15. Si el dueño le ofrece un 10% de descuento en su compra total, ¿cuánto pagará Miguel después del descuento?",
+      "problem_text": "Miguel fue a la tienda de abarrotes de su barrio y compró un litro de jugo por \\$20, dos barras de chocolate por \\$30 y una bolsa de papas por \\$15. Si el dueño le ofrece un 10% de descuento en su compra total, ¿cuánto pagará Miguel después del descuento?",
       "options": [
         {
           "label": "a",
-          "text": "$58.50"
+          "text": "\\$58.50"
         },
         {
           "label": "b",
-          "text": "$60.50"
+          "text": "\\$60.50"
         },
         {
           "label": "c",
-          "text": "$61.00"
+          "text": "\\$61.00"
         },
         {
           "label": "d",
-          "text": "$63.00"
+          "text": "\\$63.00"
         },
         {
           "label": "e",
-          "text": "$65.00"
+          "text": "\\$65.00"
         }
       ],
-      "correct_answer": "$58.50",
+      "correct_answer": "\\$58.50",
       "correct_option_label": "a",
       "solution_text": "La compra suma \\(20+30+15=65\\) pesos. El descuento es \\(0.10(65)=6.50\\). Entonces paga \\(65-6.50=58.50\\) pesos.",
       "has_diagram": false,
@@ -1192,32 +1192,32 @@
       "source_page": 3,
       "language": "es",
       "format": "multiple_choice",
-      "problem_text": "Leopoldo ganó $18.75 en un concurso de matemáticas y decidió dividir el premio equitativamente entre él y sus dos hermanos. ¿Cuánto recibirá cada uno?",
+      "problem_text": "Leopoldo ganó \\$18.75 en un concurso de matemáticas y decidió dividir el premio equitativamente entre él y sus dos hermanos. ¿Cuánto recibirá cada uno?",
       "options": [
         {
           "label": "a",
-          "text": "$6.25"
+          "text": "\\$6.25"
         },
         {
           "label": "b",
-          "text": "$6.15"
+          "text": "\\$6.15"
         },
         {
           "label": "c",
-          "text": "$6.05"
+          "text": "\\$6.05"
         },
         {
           "label": "d",
-          "text": "$6.50"
+          "text": "\\$6.50"
         },
         {
           "label": "e",
-          "text": "$6.75"
+          "text": "\\$6.75"
         }
       ],
-      "correct_answer": "$6.25",
+      "correct_answer": "\\$6.25",
       "correct_option_label": "a",
-      "solution_text": "Son tres personas. \\(18.75\\div3=6.25\\), así que cada uno recibe \\($6.25\\).",
+      "solution_text": "Son tres personas. \\(18.75\\div3=6.25\\), así que cada uno recibe \\(\\text{\\textdollar}6.25\\).",
       "has_diagram": false,
       "problem_images": [],
       "option_analysis": [
@@ -1579,7 +1579,7 @@
       "source_page": 4,
       "language": "es",
       "format": "multiple_choice",
-      "problem_text": "Ruth acaba de romper su alcancía. En total ahorró $154; el 75% del número total de monedas son de $2 y el resto son de $5. ¿Cuántas monedas tiene en total Ruth?",
+      "problem_text": "Ruth acaba de romper su alcancía. En total ahorró \\$154; el 75% del número total de monedas son de \\$2 y el resto son de \\$5. ¿Cuántas monedas tiene en total Ruth?",
       "options": [
         {
           "label": "a",
@@ -1604,14 +1604,14 @@
       ],
       "correct_answer": "56 monedas",
       "correct_option_label": "c",
-      "solution_text": "Sea \\(N\\) el número total de monedas. Hay \\(\\frac34N\\) monedas de $2 y \\(\\frac14N\\) monedas de $5. Entonces \\(2(\\frac34N)+5(\\frac14N)=154\\), es decir, \\(\\frac{11}{4}N=154\\). Por tanto \\(N=154\\cdot\\frac4{11}=56\\).",
+      "solution_text": "Sea \\(N\\) el número total de monedas. Hay \\(\\frac34N\\) monedas de \\$2 y \\(\\frac14N\\) monedas de \\$5. Entonces \\(2(\\frac34N)+5(\\frac14N)=154\\), es decir, \\(\\frac{11}{4}N=154\\). Por tanto \\(N=154\\cdot\\frac4{11}=56\\).",
       "has_diagram": false,
       "problem_images": [],
       "option_analysis": [
         {
           "label": "a",
           "is_correct": false,
-          "reason": "Con 83 monedas no se obtiene $154 respetando la proporción 75%-25%."
+          "reason": "Con 83 monedas no se obtiene \\$154 respetando la proporción 75%-25%."
         },
         {
           "label": "b",
@@ -1732,7 +1732,7 @@
       "source_page": 4,
       "language": "es",
       "format": "multiple_choice",
-      "problem_text": "Sea \\(F\\) el símbolo de flor. Se sabe que \\(F=110\\%\\) de un millar y que \\(F-\\star=\\frac{1}{4}\\) de un millar. ¿Cuánto vale \\(\\star\\)?",
+      "problem_text": "Si el símbolo de flor vale 110% de un millar y en el diagrama se muestra flor menos estrella igual a \\(1/4\\) de millar, ¿cuánto vale la estrella?",
       "options": [
         {
           "label": "a",
@@ -1757,9 +1757,21 @@
       ],
       "correct_answer": "850",
       "correct_option_label": "d",
-      "solution_text": "Como \\(F=110\\%\\) de \\(1000\\), entonces \\(F=1.10(1000)=1100\\). Además, \\(F-\\star=\\frac{1}{4}(1000)=250\\). Por tanto, \\(1100-\\star=250\\) y \\(\\star=850\\).",
-      "has_diagram": false,
-      "problem_images": [],
+      "solution_text": "El símbolo de flor vale \\(110\\%\\) de 1000: \\(1.10(1000)=1100\\). El diagrama indica \\(1100-\\star=\\frac14(1000)=250\\). Entonces \\(\\star=1100-250=850\\).",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Diagrama con los símbolos flor y estrella",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "cd8fe10f813c80be793fd1664dca04057ffb7859b03dff7408d53c12f4c9f7a9",
+          "source": "rendered_pdf_crop",
+          "original_filename": "page-4 crop",
+          "width_px": 540,
+          "height_px": 300
+        }
+      ],
       "option_analysis": [
         {
           "label": "a",
@@ -1791,9 +1803,7 @@
         "status": "verified",
         "answer_checked": true,
         "all_options_checked": true,
-        "latex_checked": true,
-        "symbol_encoding": "latex",
-        "media_audit": "symbol-only crop removed; notation encoded in LaTeX"
+        "latex_checked": true
       }
     },
     {
@@ -1878,35 +1888,35 @@
       "options": [
         {
           "label": "a",
-          "text": "$43,600 Fita y $21,800 Israel"
+          "text": "\\$43,600 Fita y \\$21,800 Israel"
         },
         {
           "label": "b",
-          "text": "$32,700 Fita y $32,700 Israel"
+          "text": "\\$32,700 Fita y \\$32,700 Israel"
         },
         {
           "label": "c",
-          "text": "$32,700 Fita y $32,700 Israel"
+          "text": "\\$32,700 Fita y \\$32,700 Israel"
         },
         {
           "label": "d",
-          "text": "$49,050 Fita y $16,350 Israel"
+          "text": "\\$49,050 Fita y \\$16,350 Israel"
         },
         {
           "label": "e",
-          "text": "$39,240 Fita y $26,160 Israel"
+          "text": "\\$39,240 Fita y \\$26,160 Israel"
         }
       ],
-      "correct_answer": "$43,600 Fita y $21,800 Israel",
+      "correct_answer": "\\$43,600 Fita y \\$21,800 Israel",
       "correct_option_label": "a",
-      "solution_text": "El trabajo está en razón \\(2:1\\), por lo que el total se divide en 3 partes iguales. Cada parte vale \\(65{,}400/3=21{,}800\\). Israel recibe una parte: \\($21{,}800\\), y Fita dos: \\($43{,}600\\).",
+      "solution_text": "El trabajo está en razón \\(2:1\\), por lo que el total se divide en 3 partes iguales. Cada parte vale \\(65{,}400/3=21{,}800\\). Israel recibe una parte: \\(\\text{\\textdollar}21{,}800\\), y Fita dos: \\(\\text{\\textdollar}43{,}600\\).",
       "has_diagram": false,
       "problem_images": [],
       "option_analysis": [
         {
           "label": "a",
           "is_correct": true,
-          "reason": "Mantiene la razón \\(2:1\\) y suma \\($65{,}400\\)."
+          "reason": "Mantiene la razón \\(2:1\\) y suma \\(\\text{\\textdollar}65{,}400\\)."
         },
         {
           "label": "b",

@@ -75,11 +75,11 @@
       "source_page": 1,
       "language": "es",
       "format": "open_answer",
-      "problem_text": "Un niño rompe su alcancía que contiene monedas de $10, $5, $2 y $1. En total son\n101 monedas y $315. La cantidad de monedas de $1 es el triple de la cantidad de\nmonedas de $10 y la cantidad de monedad de $2 es más que el doble de monedas\nde $5. ¿cuántas monedas de $1 tiene?",
+      "problem_text": "Un niño rompe su alcancía que contiene monedas de \\$10, \\$5, \\$2 y \\$1. En total son\n101 monedas y \\$315. La cantidad de monedas de \\$1 es el triple de la cantidad de\nmonedas de \\$10 y la cantidad de monedad de \\$2 es más que el doble de monedas\nde \\$5. ¿cuántas monedas de \\$1 tiene?",
       "options": [],
-      "correct_answer": "39, 48, 57 o 66 monedas de $1; no hay respuesta única",
+      "correct_answer": "39, 48, 57 o 66 monedas de \\$1; no hay respuesta única",
       "correct_option_label": null,
-      "solution_text": "1. **Incógnitas.** Sean a, b y c las cantidades de monedas de $10, $5 y $2. Hay \\(3a\\) monedas de $1.\n2. **Condiciones.** El número de monedas da \\(4a+b+c=101\\); el valor da \\(13a+5b+2c=315\\). Además, \\(c>2b\\) y todas las cantidades son enteros no negativos.\n3. **Reducir.** Restamos dos veces la primera ecuación de la segunda: \\(5a+3b=113\\). De ahí \\(b=(113-5a)/3\\) y \\(c=(190-7a)/3\\).\n4. **Acotar.** La desigualdad \\(c>2b\\) equivale a \\(a>12\\), y \\(b\\ge0\\) implica \\(a\\le22\\). La integridad exige \\(a\\equiv1\\pmod3\\). Por tanto, \\(a=13,16,19,22\\).\n5. **Soluciones.** Las cantidades (monedas de $10, $5, $2, $1) son (13,16,33,39), (16,11,26,48), (19,6,19,57) y (22,1,12,66).\n6. **Comprobación y límite.** Cada fila suma 101 monedas, vale $315 y tiene más monedas de $2 que el doble de las de $5. Las monedas de $1 pueden ser **39, 48, 57 o 66**; el original necesita otra condición para determinar una sola cantidad.",
+      "solution_text": "1. **Incógnitas.** Sean a, b y c las cantidades de monedas de \\$10, \\$5 y \\$2. Hay \\(3a\\) monedas de \\$1.\n2. **Condiciones.** El número de monedas da \\(4a+b+c=101\\); el valor da \\(13a+5b+2c=315\\). Además, \\(c>2b\\) y todas las cantidades son enteros no negativos.\n3. **Reducir.** Restamos dos veces la primera ecuación de la segunda: \\(5a+3b=113\\). De ahí \\(b=(113-5a)/3\\) y \\(c=(190-7a)/3\\).\n4. **Acotar.** La desigualdad \\(c>2b\\) equivale a \\(a>12\\), y \\(b\\ge0\\) implica \\(a\\le22\\). La integridad exige \\(a\\equiv1\\pmod3\\). Por tanto, \\(a=13,16,19,22\\).\n5. **Soluciones.** Las cantidades (monedas de \\$10, \\$5, \\$2, \\$1) son (13,16,33,39), (16,11,26,48), (19,6,19,57) y (22,1,12,66).\n6. **Comprobación y límite.** Cada fila suma 101 monedas, vale \\$315 y tiene más monedas de \\$2 que el doble de las de \\$5. Las monedas de \\$1 pueden ser **39, 48, 57 o 66**; el original necesita otra condición para determinar una sola cantidad.",
       "has_diagram": false,
       "problem_images": [],
       "option_analysis": [],
@@ -88,7 +88,7 @@
         "answer_checked": false,
         "all_options_checked": null,
         "latex_checked": true,
-        "notes": "Las restricciones permiten cuatro cantidades distintas de monedas de $1. Todas satisfacen el número de monedas, el valor total y la desigualdad."
+        "notes": "Las restricciones permiten cuatro cantidades distintas de monedas de \\$1. Todas satisfacen el número de monedas, el valor total y la desigualdad."
       },
       "classification": {
         "primary_area": "algebra",

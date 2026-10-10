@@ -1,7 +1,7 @@
 {
   "source_pdf": "01_RAW_PDFs/FUSION/2024/Selectivo Estatal/Multinivel/FUSION_2024_selectivo-estatal_multinivel_evaluacion-selectivos-estatales-fusion-2024_original.pdf",
   "source_sha256": "fec19769e5b5743aa2eafc767fbfbceaea6280914f8e0c1be2c53ecbff219635",
-  "bank_sha256": "20d21a409e293b6b5bd071143dd58b1d9f8ea1a07f704783ecd9ca3ecd662668",
+  "bank_sha256": "b432fa04477828066de38aa6c65f3c9755b57313e9d9e90fb5d29540aea114bb",
   "rubric": "Editorial L1/L2/L3 relative to source school grade; primary area follows decisive reasoning, not picture context.",
   "problems": [
     {
@@ -178,5 +178,24 @@
         "Dificultad editorial relativa a Universidad: modelado o combinación de pasos con una inferencia."
       ]
     }
-  ]
+  ],
+  "format_audit": {
+    "report": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.json",
+    "csv": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.csv",
+    "status": "passed",
+    "fields_rendered": 80,
+    "source_ids": [
+      "fusion4_evaluacion-selectivos-estatales-fusion-2024_universitarios_q01",
+      "fusion4_evaluacion-selectivos-estatales-fusion-2024_universitarios_q02",
+      "fusion4_evaluacion-selectivos-estatales-fusion-2024_universitarios_q03",
+      "fusion4_evaluacion-selectivos-estatales-fusion-2024_universitarios_q04",
+      "fusion4_evaluacion-selectivos-estatales-fusion-2024_universitarios_q05",
+      "fusion4_evaluacion-selectivos-estatales-fusion-2024_universitarios_q06",
+      "fusion4_evaluacion-selectivos-estatales-fusion-2024_universitarios_q07",
+      "fusion4_evaluacion-selectivos-estatales-fusion-2024_universitarios_q08",
+      "fusion4_evaluacion-selectivos-estatales-fusion-2024_universitarios_q09",
+      "fusion4_evaluacion-selectivos-estatales-fusion-2024_universitarios_q10"
+    ],
+    "scope": "Formatting and structural recheck; prior mathematical/source reviews retained."
+  }
 }

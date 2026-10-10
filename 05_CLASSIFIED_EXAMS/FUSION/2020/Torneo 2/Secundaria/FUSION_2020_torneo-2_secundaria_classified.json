@@ -128,7 +128,7 @@
       "source_page": 2,
       "language": "es",
       "format": "open_answer",
-      "problem_text": "Una alberca rectangular de ancho igual a 2/3 de longitud está rodeada por una sola\nbarda. Entre la barda y la alberca hay 1m de jardín alrededor de todo el perímetro de la\nalberca. Si el perímetro de la barda es de 58m, ¿Cuáles son las dimensiones de la\nalberca?",
+      "problem_text": "Una alberca rectangular de ancho igual a 2/3 de longitud está rodeada por una sola\nbarda. Entre la barda y la alberca hay 1 m de jardín alrededor de todo el perímetro de la\nalberca. Si el perímetro de la barda es de 58 m, ¿Cuáles son las dimensiones de la\nalberca?",
       "options": [],
       "correct_answer": "15 m de longitud y 10 m de ancho",
       "correct_option_label": null,

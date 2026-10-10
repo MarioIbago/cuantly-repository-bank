@@ -157,74 +157,82 @@
       "notes": "Respuesta abierta con solución revisada; comparación manual."
     }
   ],
-  "structural_validation": [
-    {
-      "path": "02_JSON_EXAMS/FUSION/2019/Eliminatorio CEOM11/2.º de secundaria/FUSION_2019_eliminatorio-ceom11_2do-secundaria_verified.json",
-      "report": {
-        "ok": true,
-        "scope": "structure_options_image_decoding_hashes_classification_only",
-        "mathematical_verification": "not_performed_by_this_script",
-        "visual_source_comparison": "not_performed_by_this_script",
-        "latex_rendering": "not_performed_by_this_script",
-        "bank_sha256": "010665cbddae65084939044f962ff0ae90b6e0fa063b4b885f911623b25fd4bd",
-        "bytes": 15505,
-        "problems": 3,
-        "verified": 2,
-        "guided": 1,
-        "images": 2,
-        "figures": [
-          {
-            "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_2do-secundaria_q02",
-            "figure": 1,
-            "sha256": "3ad15d59043e5ec58338ef50542e88ad05d565883f2c04c729d34719058243eb",
-            "width": 128,
-            "height": 126
-          },
-          {
-            "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_2do-secundaria_q03",
-            "figure": 1,
-            "sha256": "8c04774318eeb32341e0362a83c474b2cc8c9f7b03a313c4b42bc3a30e1f0bf3",
-            "width": 402,
-            "height": 254
-          }
-        ],
-        "errors": [],
-        "warnings": []
-      }
+  "structural_validation": {
+    "verified": {
+      "ok": true,
+      "scope": "structure_options_image_decoding_hashes_classification_only",
+      "mathematical_verification": "not_performed_by_this_script",
+      "visual_source_comparison": "not_performed_by_this_script",
+      "latex_rendering": "not_performed_by_this_script",
+      "bank_sha256": "69b87a5b260d3d0ec9c36bfeda13994f18108a58377aff343d684c6e5fdac15f",
+      "bytes": 15519,
+      "problems": 3,
+      "verified": 2,
+      "guided": 1,
+      "images": 2,
+      "figures": [
+        {
+          "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_2do-secundaria_q02",
+          "figure": 1,
+          "sha256": "3ad15d59043e5ec58338ef50542e88ad05d565883f2c04c729d34719058243eb",
+          "width": 128,
+          "height": 126
+        },
+        {
+          "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_2do-secundaria_q03",
+          "figure": 1,
+          "sha256": "8c04774318eeb32341e0362a83c474b2cc8c9f7b03a313c4b42bc3a30e1f0bf3",
+          "width": 402,
+          "height": 254
+        }
+      ],
+      "errors": [],
+      "warnings": []
     },
-    {
-      "path": "05_CLASSIFIED_EXAMS/FUSION/2019/Eliminatorio CEOM11/2.º de secundaria/FUSION_2019_eliminatorio-ceom11_2do-secundaria_classified.json",
-      "report": {
-        "ok": true,
-        "scope": "structure_options_image_decoding_hashes_classification_only",
-        "mathematical_verification": "not_performed_by_this_script",
-        "visual_source_comparison": "not_performed_by_this_script",
-        "latex_rendering": "not_performed_by_this_script",
-        "bank_sha256": "7a9a92d0f82ebb87fe92fac0bd6243f86707d384f0eda9462427606b20cd8965",
-        "bytes": 16993,
-        "problems": 3,
-        "verified": 2,
-        "guided": 1,
-        "images": 2,
-        "figures": [
-          {
-            "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_2do-secundaria_q02",
-            "figure": 1,
-            "sha256": "3ad15d59043e5ec58338ef50542e88ad05d565883f2c04c729d34719058243eb",
-            "width": 128,
-            "height": 126
-          },
-          {
-            "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_2do-secundaria_q03",
-            "figure": 1,
-            "sha256": "8c04774318eeb32341e0362a83c474b2cc8c9f7b03a313c4b42bc3a30e1f0bf3",
-            "width": 402,
-            "height": 254
-          }
-        ],
-        "errors": [],
-        "warnings": []
-      }
+    "classified": {
+      "ok": true,
+      "scope": "structure_options_image_decoding_hashes_classification_only",
+      "mathematical_verification": "not_performed_by_this_script",
+      "visual_source_comparison": "not_performed_by_this_script",
+      "latex_rendering": "not_performed_by_this_script",
+      "bank_sha256": "1e579d8f0c80ddb874416be37e2c54163452b6bc2d89799dfb3b1b43d65ffed5",
+      "bytes": 17007,
+      "problems": 3,
+      "verified": 2,
+      "guided": 1,
+      "images": 2,
+      "figures": [
+        {
+          "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_2do-secundaria_q02",
+          "figure": 1,
+          "sha256": "3ad15d59043e5ec58338ef50542e88ad05d565883f2c04c729d34719058243eb",
+          "width": 128,
+          "height": 126
+        },
+        {
+          "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_2do-secundaria_q03",
+          "figure": 1,
+          "sha256": "8c04774318eeb32341e0362a83c474b2cc8c9f7b03a313c4b42bc3a30e1f0bf3",
+          "width": 402,
+          "height": 254
+        }
+      ],
+      "errors": [],
+      "warnings": []
     }
-  ]
+  },
+  "bank_sha256": "69b87a5b260d3d0ec9c36bfeda13994f18108a58377aff343d684c6e5fdac15f",
+  "classified_bank_sha256": "1e579d8f0c80ddb874416be37e2c54163452b6bc2d89799dfb3b1b43d65ffed5",
+  "format_audit": {
+    "report": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.json",
+    "csv": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.csv",
+    "status": "passed",
+    "fields_rendered": 9,
+    "source_ids": [
+      "fusion1_examen-eliminatorio-ceom11-pdf_2do-secundaria_q01",
+      "fusion1_examen-eliminatorio-ceom11-pdf_2do-secundaria_q02",
+      "fusion1_examen-eliminatorio-ceom11-pdf_2do-secundaria_q03"
+    ],
+    "scope": "Formatting and structural recheck; prior mathematical/source reviews retained."
+  }
 }

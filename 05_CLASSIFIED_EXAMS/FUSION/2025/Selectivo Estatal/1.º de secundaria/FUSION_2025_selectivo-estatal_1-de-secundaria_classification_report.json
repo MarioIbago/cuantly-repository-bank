@@ -1,7 +1,7 @@
 {
   "source_pdf": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
   "source_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed",
-  "bank_sha256": "59370bf5dd21e05455ed75a963ea6a0c975672b031d4f6cc6113838c56f60a02",
+  "bank_sha256": "c291e63db2035bb857a006d59cf11014007e3e819746aabfa99d48f635a30c98",
   "rubric": "Editorial L1/L2/L3 relative to source school grade; primary area follows decisive reasoning, not picture context.",
   "problems": [
     {
@@ -265,5 +265,29 @@
         "Dificultad editorial relativa a Primer año de secundaria: combina pasos, modelado o enumeración con una inferencia."
       ]
     }
-  ]
+  ],
+  "format_audit": {
+    "report": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.json",
+    "csv": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.csv",
+    "status": "passed",
+    "fields_rendered": 125,
+    "source_ids": [
+      "fusion5_examenes-selectivos-estatales_1-de-secundaria_q01",
+      "fusion5_examenes-selectivos-estatales_1-de-secundaria_q02",
+      "fusion5_examenes-selectivos-estatales_1-de-secundaria_q03",
+      "fusion5_examenes-selectivos-estatales_1-de-secundaria_q04",
+      "fusion5_examenes-selectivos-estatales_1-de-secundaria_q05",
+      "fusion5_examenes-selectivos-estatales_1-de-secundaria_q06",
+      "fusion5_examenes-selectivos-estatales_1-de-secundaria_q07",
+      "fusion5_examenes-selectivos-estatales_1-de-secundaria_q08",
+      "fusion5_examenes-selectivos-estatales_1-de-secundaria_q09",
+      "fusion5_examenes-selectivos-estatales_1-de-secundaria_q10",
+      "fusion5_examenes-selectivos-estatales_1-de-secundaria_q11",
+      "fusion5_examenes-selectivos-estatales_1-de-secundaria_q12",
+      "fusion5_examenes-selectivos-estatales_1-de-secundaria_q13",
+      "fusion5_examenes-selectivos-estatales_1-de-secundaria_q14",
+      "fusion5_examenes-selectivos-estatales_1-de-secundaria_q15"
+    ],
+    "scope": "Formatting and structural recheck; prior mathematical/source reviews retained."
+  }
 }

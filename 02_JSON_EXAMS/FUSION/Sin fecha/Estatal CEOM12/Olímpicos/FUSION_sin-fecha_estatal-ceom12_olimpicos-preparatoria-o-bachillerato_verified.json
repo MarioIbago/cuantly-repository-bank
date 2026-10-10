@@ -37,7 +37,7 @@
       "source_page": 7,
       "language": "es",
       "format": "open_answer",
-      "problem_text": "Charlitos quiere comenzar un plan de entrenamiento diario, pero su entrenador le pide comenzar a trotar diario\n1km. El vive en una colonia, en la cual saldrá a trotar, cuadriculada de 5km x 5 km y cada cuadra mide 100m x\n100m y su casa está en una de las esquinas del centro de la colonia. ¿Durante cuántos días puede hacer\nrecorridos distintos, siguiendo las siguientes características?\n- Siempre empieza los recorridos saliendo de su casa.\n- Siempre termina los recorridos en su casa.\n- No puede repetir ningún punto del recorrido en el mismo día.\nNota: recorridos de días distintos pueden tener partes en común e inclusive determinar el mismo camino\npero en sentido contrario.",
+      "problem_text": "Charlitos quiere comenzar un plan de entrenamiento diario, pero su entrenador le pide comenzar a trotar diario\n1 km. El vive en una colonia, en la cual saldrá a trotar, cuadriculada de 5 km × 5 km y cada cuadra mide 100 m x\n100 m y su casa está en una de las esquinas del centro de la colonia. ¿Durante cuántos días puede hacer\nrecorridos distintos, siguiendo las siguientes características?\n- Siempre empieza los recorridos saliendo de su casa.\n- Siempre termina los recorridos en su casa.\n- No puede repetir ningún punto del recorrido en el mismo día.\nNota: recorridos de días distintos pueden tener partes en común e inclusive determinar el mismo camino\npero en sentido contrario.",
       "options": [],
       "correct_answer": "560 días",
       "correct_option_label": null,

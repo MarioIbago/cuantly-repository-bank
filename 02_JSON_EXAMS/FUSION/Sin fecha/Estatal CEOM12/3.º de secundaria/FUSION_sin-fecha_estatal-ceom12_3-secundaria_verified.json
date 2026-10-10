@@ -37,7 +37,7 @@
       "source_page": 6,
       "language": "es",
       "format": "open_answer",
-      "problem_text": "Jaden intenta cruzar todo el país en coche desde Quintana Roo hasta Baja California Sur en cierto momento, al\nir en su trayecto, se da cuenta que el kilometraje marca que ha recorrido 15, 951km y se da cuenta que ese\nnúmero es capicúa. Exactamente dos horas más tarde el kilometraje marca otro número capicúa ¿Cuál fue la\nmenor velocidad promedio durante esas dos horas?\nNota:  número capicúa es aquel que se lee igual de izquierda a derecha que de derecha a izquierda. (22 marz\n05)",
+      "problem_text": "Jaden intenta cruzar todo el país en coche desde Quintana Roo hasta Baja California Sur en cierto momento, al\nir en su trayecto, se da cuenta que el kilometraje marca que ha recorrido 15,951 km y se da cuenta que ese\nnúmero es capicúa. Exactamente dos horas más tarde el kilometraje marca otro número capicúa ¿Cuál fue la\nmenor velocidad promedio durante esas dos horas?\nNota:  número capicúa es aquel que se lee igual de izquierda a derecha que de derecha a izquierda. (22 marz\n05)",
       "options": [],
       "correct_answer": "55 km/h",
       "correct_option_label": null,

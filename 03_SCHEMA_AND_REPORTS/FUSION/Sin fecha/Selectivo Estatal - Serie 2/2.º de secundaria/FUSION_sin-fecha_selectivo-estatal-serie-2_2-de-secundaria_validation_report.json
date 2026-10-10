@@ -487,102 +487,122 @@
       "notes": "Respuesta recalculada y contrastada con el PDF original."
     }
   ],
-  "structural_validation": [
-    {
-      "path": "02_JSON_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/2.º de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_2-de-secundaria_verified.json",
-      "report": {
-        "ok": true,
-        "scope": "structure_options_image_decoding_hashes_classification_only",
-        "mathematical_verification": "not_performed_by_this_script",
-        "visual_source_comparison": "not_performed_by_this_script",
-        "latex_rendering": "not_performed_by_this_script",
-        "bank_sha256": "2f5dec884318a6dca6acdde08019a9265622133997e6828330b2fb21c81855f9",
-        "bytes": 65006,
-        "problems": 15,
-        "verified": 12,
-        "guided": 3,
-        "images": 4,
-        "figures": [
-          {
-            "source_id": "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q05",
-            "figure": 1,
-            "sha256": "893de8a6174a596e66cc78fda2810ef89c09ce9043bbb41cafc69a08e247bf36",
-            "width": 206,
-            "height": 128
-          },
-          {
-            "source_id": "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q09",
-            "figure": 1,
-            "sha256": "1620dca0a1ad6c0a9b84676c1d77737d808eb7f26ed28f8977f3bc7addaaddd5",
-            "width": 116,
-            "height": 110
-          },
-          {
-            "source_id": "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q10",
-            "figure": 1,
-            "sha256": "b28dceaa7bb8b02f47f5593076fd862f297f4471aa5c850707beb9775c5921fd",
-            "width": 148,
-            "height": 137
-          },
-          {
-            "source_id": "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q14",
-            "figure": 1,
-            "sha256": "eb434791b960a1d6c5fb924b702b8a12a6bda4a44920c64d7f38cabde1bb1151",
-            "width": 335,
-            "height": 178
-          }
-        ],
-        "errors": [],
-        "warnings": []
-      }
+  "structural_validation": {
+    "verified": {
+      "ok": true,
+      "scope": "structure_options_image_decoding_hashes_classification_only",
+      "mathematical_verification": "not_performed_by_this_script",
+      "visual_source_comparison": "not_performed_by_this_script",
+      "latex_rendering": "not_performed_by_this_script",
+      "bank_sha256": "553bfb16128756932c597baa7307405dc041a941fdd653d322aab40d8834e5e1",
+      "bytes": 65022,
+      "problems": 15,
+      "verified": 12,
+      "guided": 3,
+      "images": 4,
+      "figures": [
+        {
+          "source_id": "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q05",
+          "figure": 1,
+          "sha256": "893de8a6174a596e66cc78fda2810ef89c09ce9043bbb41cafc69a08e247bf36",
+          "width": 206,
+          "height": 128
+        },
+        {
+          "source_id": "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q09",
+          "figure": 1,
+          "sha256": "1620dca0a1ad6c0a9b84676c1d77737d808eb7f26ed28f8977f3bc7addaaddd5",
+          "width": 116,
+          "height": 110
+        },
+        {
+          "source_id": "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q10",
+          "figure": 1,
+          "sha256": "b28dceaa7bb8b02f47f5593076fd862f297f4471aa5c850707beb9775c5921fd",
+          "width": 148,
+          "height": 137
+        },
+        {
+          "source_id": "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q14",
+          "figure": 1,
+          "sha256": "eb434791b960a1d6c5fb924b702b8a12a6bda4a44920c64d7f38cabde1bb1151",
+          "width": 335,
+          "height": 178
+        }
+      ],
+      "errors": [],
+      "warnings": []
     },
-    {
-      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/2.º de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_2-de-secundaria_classified.json",
-      "report": {
-        "ok": true,
-        "scope": "structure_options_image_decoding_hashes_classification_only",
-        "mathematical_verification": "not_performed_by_this_script",
-        "visual_source_comparison": "not_performed_by_this_script",
-        "latex_rendering": "not_performed_by_this_script",
-        "bank_sha256": "15f6b3c9e09c81385ce7d9331cf463a66eb3751801bfc22ca8cbcbd660259a07",
-        "bytes": 73458,
-        "problems": 15,
-        "verified": 12,
-        "guided": 3,
-        "images": 4,
-        "figures": [
-          {
-            "source_id": "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q05",
-            "figure": 1,
-            "sha256": "893de8a6174a596e66cc78fda2810ef89c09ce9043bbb41cafc69a08e247bf36",
-            "width": 206,
-            "height": 128
-          },
-          {
-            "source_id": "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q09",
-            "figure": 1,
-            "sha256": "1620dca0a1ad6c0a9b84676c1d77737d808eb7f26ed28f8977f3bc7addaaddd5",
-            "width": 116,
-            "height": 110
-          },
-          {
-            "source_id": "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q10",
-            "figure": 1,
-            "sha256": "b28dceaa7bb8b02f47f5593076fd862f297f4471aa5c850707beb9775c5921fd",
-            "width": 148,
-            "height": 137
-          },
-          {
-            "source_id": "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q14",
-            "figure": 1,
-            "sha256": "eb434791b960a1d6c5fb924b702b8a12a6bda4a44920c64d7f38cabde1bb1151",
-            "width": 335,
-            "height": 178
-          }
-        ],
-        "errors": [],
-        "warnings": []
-      }
+    "classified": {
+      "ok": true,
+      "scope": "structure_options_image_decoding_hashes_classification_only",
+      "mathematical_verification": "not_performed_by_this_script",
+      "visual_source_comparison": "not_performed_by_this_script",
+      "latex_rendering": "not_performed_by_this_script",
+      "bank_sha256": "47e844c75b35474d5e9a88ddfc2d5f3b934277894ba9ab5308a5ebbafe6ecdd5",
+      "bytes": 73474,
+      "problems": 15,
+      "verified": 12,
+      "guided": 3,
+      "images": 4,
+      "figures": [
+        {
+          "source_id": "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q05",
+          "figure": 1,
+          "sha256": "893de8a6174a596e66cc78fda2810ef89c09ce9043bbb41cafc69a08e247bf36",
+          "width": 206,
+          "height": 128
+        },
+        {
+          "source_id": "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q09",
+          "figure": 1,
+          "sha256": "1620dca0a1ad6c0a9b84676c1d77737d808eb7f26ed28f8977f3bc7addaaddd5",
+          "width": 116,
+          "height": 110
+        },
+        {
+          "source_id": "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q10",
+          "figure": 1,
+          "sha256": "b28dceaa7bb8b02f47f5593076fd862f297f4471aa5c850707beb9775c5921fd",
+          "width": 148,
+          "height": 137
+        },
+        {
+          "source_id": "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q14",
+          "figure": 1,
+          "sha256": "eb434791b960a1d6c5fb924b702b8a12a6bda4a44920c64d7f38cabde1bb1151",
+          "width": 335,
+          "height": 178
+        }
+      ],
+      "errors": [],
+      "warnings": []
     }
-  ]
+  },
+  "bank_sha256": "553bfb16128756932c597baa7307405dc041a941fdd653d322aab40d8834e5e1",
+  "classified_bank_sha256": "47e844c75b35474d5e9a88ddfc2d5f3b934277894ba9ab5308a5ebbafe6ecdd5",
+  "format_audit": {
+    "report": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.json",
+    "csv": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.csv",
+    "status": "passed",
+    "fields_rendered": 145,
+    "source_ids": [
+      "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q01",
+      "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q02",
+      "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q03",
+      "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q04",
+      "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q05",
+      "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q06",
+      "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q07",
+      "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q08",
+      "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q09",
+      "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q10",
+      "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q11",
+      "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q12",
+      "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q13",
+      "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q14",
+      "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q15"
+    ],
+    "scope": "Formatting and structural recheck; prior mathematical/source reviews retained."
+  }
 }

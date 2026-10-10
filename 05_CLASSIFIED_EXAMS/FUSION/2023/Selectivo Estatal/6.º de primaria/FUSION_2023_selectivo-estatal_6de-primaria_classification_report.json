@@ -271,5 +271,30 @@
         "Dificultad relativa a Sexto año de primaria."
       ]
     }
-  ]
+  ],
+  "bank_sha256": "6987be50754c95a5069b3ed5ffbe6d626663e0ceaf08c8d53203ea307ca32845",
+  "format_audit": {
+    "report": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.json",
+    "csv": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.csv",
+    "status": "passed",
+    "fields_rendered": 145,
+    "source_ids": [
+      "fusion3_examen-selectivo-6de-primaria_6de-primaria_q01",
+      "fusion3_examen-selectivo-6de-primaria_6de-primaria_q02",
+      "fusion3_examen-selectivo-6de-primaria_6de-primaria_q03",
+      "fusion3_examen-selectivo-6de-primaria_6de-primaria_q04",
+      "fusion3_examen-selectivo-6de-primaria_6de-primaria_q05",
+      "fusion3_examen-selectivo-6de-primaria_6de-primaria_q06",
+      "fusion3_examen-selectivo-6de-primaria_6de-primaria_q07",
+      "fusion3_examen-selectivo-6de-primaria_6de-primaria_q08",
+      "fusion3_examen-selectivo-6de-primaria_6de-primaria_q09",
+      "fusion3_examen-selectivo-6de-primaria_6de-primaria_q10",
+      "fusion3_examen-selectivo-6de-primaria_6de-primaria_q11",
+      "fusion3_examen-selectivo-6de-primaria_6de-primaria_q12",
+      "fusion3_examen-selectivo-6de-primaria_6de-primaria_q13",
+      "fusion3_examen-selectivo-6de-primaria_6de-primaria_q14",
+      "fusion3_examen-selectivo-6de-primaria_6de-primaria_q15"
+    ],
+    "scope": "Formatting and structural recheck; prior mathematical/source reviews retained."
+  }
 }

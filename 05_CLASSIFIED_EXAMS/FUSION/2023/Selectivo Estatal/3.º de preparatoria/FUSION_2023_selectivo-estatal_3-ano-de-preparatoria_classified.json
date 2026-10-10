@@ -1198,7 +1198,7 @@
       "source_page": 3,
       "language": "es",
       "format": "open_answer",
-      "problem_text": "¿Cuántos conjuntos de cuatro aristas de un cubo tienen la propiedad siguiente:\n•\nningún par de aristas del conjunto tienen un vértice común ?",
+      "problem_text": "¿Cuántos conjuntos de cuatro aristas de un cubo tienen la propiedad siguiente:\n• Ningún par de aristas del conjunto tienen un vértice común?",
       "options": [],
       "correct_answer": "9 conjuntos",
       "correct_option_label": null,

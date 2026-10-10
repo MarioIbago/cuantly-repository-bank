@@ -386,8 +386,8 @@
       ]
     }
   ],
-  "bank_sha256": "1239aff9ef5fd9fb1bccc4da708dc7a60ca1a47ce9e5993c4cd71a4300ae0455",
-  "classified_bank_sha256": "db2dfdc2a9bd6242f3fdeaaec7f790cfa1d869991fc00dbd2880ef8baced52f5",
+  "bank_sha256": "8b5b3191247a872ee094f13f2f75c7c17d7003a5606ad1f2e9e3ac267481a1ac",
+  "classified_bank_sha256": "481350d0a5aab1c97375ac08461409a14a3c30f0488c00012d2d748a2eef447f",
   "counts": {
     "verified_problems": 13,
     "needs_review_or_invalid": 2,
@@ -409,8 +409,8 @@
       "mathematical_verification": "not_performed_by_this_script",
       "visual_source_comparison": "not_performed_by_this_script",
       "latex_rendering": "not_performed_by_this_script",
-      "bank_sha256": "1239aff9ef5fd9fb1bccc4da708dc7a60ca1a47ce9e5993c4cd71a4300ae0455",
-      "bytes": 95798,
+      "bank_sha256": "8b5b3191247a872ee094f13f2f75c7c17d7003a5606ad1f2e9e3ac267481a1ac",
+      "bytes": 95801,
       "problems": 15,
       "verified": 13,
       "guided": 2,
@@ -440,8 +440,8 @@
       "mathematical_verification": "not_performed_by_this_script",
       "visual_source_comparison": "not_performed_by_this_script",
       "latex_rendering": "not_performed_by_this_script",
-      "bank_sha256": "db2dfdc2a9bd6242f3fdeaaec7f790cfa1d869991fc00dbd2880ef8baced52f5",
-      "bytes": 104216,
+      "bank_sha256": "481350d0a5aab1c97375ac08461409a14a3c30f0488c00012d2d748a2eef447f",
+      "bytes": 104219,
       "problems": 15,
       "verified": 13,
       "guided": 2,
@@ -465,5 +465,29 @@
       "errors": [],
       "warnings": []
     }
+  },
+  "format_audit": {
+    "report": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.json",
+    "csv": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.csv",
+    "status": "passed",
+    "fields_rendered": 125,
+    "source_ids": [
+      "fusion5_examenes-selectivos-estatales_2-de-preparatoria_q01",
+      "fusion5_examenes-selectivos-estatales_2-de-preparatoria_q02",
+      "fusion5_examenes-selectivos-estatales_2-de-preparatoria_q03",
+      "fusion5_examenes-selectivos-estatales_2-de-preparatoria_q04",
+      "fusion5_examenes-selectivos-estatales_2-de-preparatoria_q05",
+      "fusion5_examenes-selectivos-estatales_2-de-preparatoria_q06",
+      "fusion5_examenes-selectivos-estatales_2-de-preparatoria_q07",
+      "fusion5_examenes-selectivos-estatales_2-de-preparatoria_q08",
+      "fusion5_examenes-selectivos-estatales_2-de-preparatoria_q09",
+      "fusion5_examenes-selectivos-estatales_2-de-preparatoria_q10",
+      "fusion5_examenes-selectivos-estatales_2-de-preparatoria_q11",
+      "fusion5_examenes-selectivos-estatales_2-de-preparatoria_q12",
+      "fusion5_examenes-selectivos-estatales_2-de-preparatoria_q13",
+      "fusion5_examenes-selectivos-estatales_2-de-preparatoria_q14",
+      "fusion5_examenes-selectivos-estatales_2-de-preparatoria_q15"
+    ],
+    "scope": "Formatting and structural recheck; prior mathematical/source reviews retained."
   }
 }

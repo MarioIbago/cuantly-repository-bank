@@ -130,7 +130,7 @@
       "source_page": 1,
       "language": "es",
       "format": "multiple_choice",
-      "problem_text": "Laurita ahorra dinero durante una semana, de lunes a domingo, lunes ahorra $1, martes $2, jueves $3 y así\nsucesivamente ¿Cuánto dinero ahorrará en dos semanas completas?",
+      "problem_text": "Laurita ahorra dinero durante una semana, de lunes a domingo, lunes ahorra \\$1, martes \\$2, jueves \\$3 y así\nsucesivamente ¿Cuánto dinero ahorrará en dos semanas completas?",
       "options": [
         {
           "label": "a",

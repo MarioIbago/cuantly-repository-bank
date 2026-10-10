@@ -90,5 +90,19 @@
         "Biyectar sumas ordenadas con las elecciones de cortes entre diez unos."
       ]
     }
-  ]
+  ],
+  "bank_sha256": "8b28b2cc649c14b154a108eb34b8b83d9780f86dbf2840edd15304c171416a45",
+  "format_audit": {
+    "report": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.json",
+    "csv": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.csv",
+    "status": "passed",
+    "fields_rendered": 12,
+    "source_ids": [
+      "fusion1_examen-1_primaria_q01",
+      "fusion1_examen-1_primaria_q02",
+      "fusion1_examen-1_primaria_q03",
+      "fusion1_examen-1_primaria_q04"
+    ],
+    "scope": "Formatting and structural recheck; prior mathematical/source reviews retained."
+  }
 }

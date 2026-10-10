@@ -371,60 +371,80 @@
       "notes": "Respuesta recalculada y contrastada con el PDF original."
     }
   ],
-  "structural_validation": [
-    {
-      "path": "02_JSON_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/5.º de primaria/FUSION_sin-fecha_selectivo-estatal-serie-2_5-de-primaria_verified.json",
-      "report": {
-        "ok": true,
-        "scope": "structure_options_image_decoding_hashes_classification_only",
-        "mathematical_verification": "not_performed_by_this_script",
-        "visual_source_comparison": "not_performed_by_this_script",
-        "latex_rendering": "not_performed_by_this_script",
-        "bank_sha256": "19dfdc94e74d0211471fb4eeb7e2efb84b1fa3f47574ada1c2b84ebccafb68b7",
-        "bytes": 41198,
-        "problems": 15,
-        "verified": 14,
-        "guided": 1,
-        "images": 1,
-        "figures": [
-          {
-            "source_id": "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q07",
-            "figure": 1,
-            "sha256": "d8f4896c51538c2a43c9fb84fecb9ef598327b38080c99dbfb3b98c735774a01",
-            "width": 172,
-            "height": 159
-          }
-        ],
-        "errors": [],
-        "warnings": []
-      }
+  "structural_validation": {
+    "verified": {
+      "ok": true,
+      "scope": "structure_options_image_decoding_hashes_classification_only",
+      "mathematical_verification": "not_performed_by_this_script",
+      "visual_source_comparison": "not_performed_by_this_script",
+      "latex_rendering": "not_performed_by_this_script",
+      "bank_sha256": "a0960ff31eb952feeb7bea86af5e785af7b019627075d59582d59048fe19427a",
+      "bytes": 41199,
+      "problems": 15,
+      "verified": 14,
+      "guided": 1,
+      "images": 1,
+      "figures": [
+        {
+          "source_id": "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q07",
+          "figure": 1,
+          "sha256": "d8f4896c51538c2a43c9fb84fecb9ef598327b38080c99dbfb3b98c735774a01",
+          "width": 172,
+          "height": 159
+        }
+      ],
+      "errors": [],
+      "warnings": []
     },
-    {
-      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/5.º de primaria/FUSION_sin-fecha_selectivo-estatal-serie-2_5-de-primaria_classified.json",
-      "report": {
-        "ok": true,
-        "scope": "structure_options_image_decoding_hashes_classification_only",
-        "mathematical_verification": "not_performed_by_this_script",
-        "visual_source_comparison": "not_performed_by_this_script",
-        "latex_rendering": "not_performed_by_this_script",
-        "bank_sha256": "b6faec15d1b4dd47ff577417966afa11d7a7c7874fdaa39727b45a3ed4c9565a",
-        "bytes": 49174,
-        "problems": 15,
-        "verified": 14,
-        "guided": 1,
-        "images": 1,
-        "figures": [
-          {
-            "source_id": "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q07",
-            "figure": 1,
-            "sha256": "d8f4896c51538c2a43c9fb84fecb9ef598327b38080c99dbfb3b98c735774a01",
-            "width": 172,
-            "height": 159
-          }
-        ],
-        "errors": [],
-        "warnings": []
-      }
+    "classified": {
+      "ok": true,
+      "scope": "structure_options_image_decoding_hashes_classification_only",
+      "mathematical_verification": "not_performed_by_this_script",
+      "visual_source_comparison": "not_performed_by_this_script",
+      "latex_rendering": "not_performed_by_this_script",
+      "bank_sha256": "1256830ebf0bd32fd7e464433fefd633a1eb0b04749f6f2ee6762d4f877f7a7c",
+      "bytes": 49175,
+      "problems": 15,
+      "verified": 14,
+      "guided": 1,
+      "images": 1,
+      "figures": [
+        {
+          "source_id": "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q07",
+          "figure": 1,
+          "sha256": "d8f4896c51538c2a43c9fb84fecb9ef598327b38080c99dbfb3b98c735774a01",
+          "width": 172,
+          "height": 159
+        }
+      ],
+      "errors": [],
+      "warnings": []
     }
-  ]
+  },
+  "bank_sha256": "a0960ff31eb952feeb7bea86af5e785af7b019627075d59582d59048fe19427a",
+  "classified_bank_sha256": "1256830ebf0bd32fd7e464433fefd633a1eb0b04749f6f2ee6762d4f877f7a7c",
+  "format_audit": {
+    "report": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.json",
+    "csv": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.csv",
+    "status": "passed",
+    "fields_rendered": 145,
+    "source_ids": [
+      "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q01",
+      "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q02",
+      "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q03",
+      "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q04",
+      "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q05",
+      "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q06",
+      "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q07",
+      "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q08",
+      "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q09",
+      "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q10",
+      "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q11",
+      "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q12",
+      "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q13",
+      "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q14",
+      "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q15"
+    ],
+    "scope": "Formatting and structural recheck; prior mathematical/source reviews retained."
+  }
 }

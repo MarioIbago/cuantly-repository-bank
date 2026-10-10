@@ -82,60 +82,69 @@
       "notes": "El original no explicita si se usan las cuatro cifras una vez o si pueden repetirse, ni el mecanismo aleatorio. Las dos selecciones uniformes dan resultados distintos."
     }
   ],
-  "structural_validation": [
-    {
-      "path": "02_JSON_EXAMS/FUSION/2020/Torneo 2/Secundaria/FUSION_2020_torneo-2_secundaria_verified.json",
-      "report": {
-        "ok": true,
-        "scope": "structure_options_image_decoding_hashes_classification_only",
-        "mathematical_verification": "not_performed_by_this_script",
-        "visual_source_comparison": "not_performed_by_this_script",
-        "latex_rendering": "not_performed_by_this_script",
-        "bank_sha256": "8e3bc3e73808e4e058461c7900a871ae56dffc6c7e9d98ef2a9bc09a5016fe06",
-        "bytes": 15429,
-        "problems": 4,
-        "verified": 3,
-        "guided": 1,
-        "images": 1,
-        "figures": [
-          {
-            "source_id": "fusion1_examen-2_secundaria_q02",
-            "figure": 1,
-            "sha256": "76edc4ff538e979d0c489fdb9159565c731790a9012b7aea5d0da4264bd71742",
-            "width": 381,
-            "height": 249
-          }
-        ],
-        "errors": [],
-        "warnings": []
-      }
+  "structural_validation": {
+    "verified": {
+      "ok": true,
+      "scope": "structure_options_image_decoding_hashes_classification_only",
+      "mathematical_verification": "not_performed_by_this_script",
+      "visual_source_comparison": "not_performed_by_this_script",
+      "latex_rendering": "not_performed_by_this_script",
+      "bank_sha256": "e34e355985efb609712f7bc0001e84a0d9beaa7dfda2073192695fd3219ce201",
+      "bytes": 15431,
+      "problems": 4,
+      "verified": 3,
+      "guided": 1,
+      "images": 1,
+      "figures": [
+        {
+          "source_id": "fusion1_examen-2_secundaria_q02",
+          "figure": 1,
+          "sha256": "76edc4ff538e979d0c489fdb9159565c731790a9012b7aea5d0da4264bd71742",
+          "width": 381,
+          "height": 249
+        }
+      ],
+      "errors": [],
+      "warnings": []
     },
-    {
-      "path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 2/Secundaria/FUSION_2020_torneo-2_secundaria_classified.json",
-      "report": {
-        "ok": true,
-        "scope": "structure_options_image_decoding_hashes_classification_only",
-        "mathematical_verification": "not_performed_by_this_script",
-        "visual_source_comparison": "not_performed_by_this_script",
-        "latex_rendering": "not_performed_by_this_script",
-        "bank_sha256": "67e7729214b04701fbf708d6e9bb8867a82ee774d132d93641e815123168104b",
-        "bytes": 17295,
-        "problems": 4,
-        "verified": 3,
-        "guided": 1,
-        "images": 1,
-        "figures": [
-          {
-            "source_id": "fusion1_examen-2_secundaria_q02",
-            "figure": 1,
-            "sha256": "76edc4ff538e979d0c489fdb9159565c731790a9012b7aea5d0da4264bd71742",
-            "width": 381,
-            "height": 249
-          }
-        ],
-        "errors": [],
-        "warnings": []
-      }
+    "classified": {
+      "ok": true,
+      "scope": "structure_options_image_decoding_hashes_classification_only",
+      "mathematical_verification": "not_performed_by_this_script",
+      "visual_source_comparison": "not_performed_by_this_script",
+      "latex_rendering": "not_performed_by_this_script",
+      "bank_sha256": "887d878bd18eebde690ee5d228b1876c83ca404fbc54043563f096a5705a8f6f",
+      "bytes": 17297,
+      "problems": 4,
+      "verified": 3,
+      "guided": 1,
+      "images": 1,
+      "figures": [
+        {
+          "source_id": "fusion1_examen-2_secundaria_q02",
+          "figure": 1,
+          "sha256": "76edc4ff538e979d0c489fdb9159565c731790a9012b7aea5d0da4264bd71742",
+          "width": 381,
+          "height": 249
+        }
+      ],
+      "errors": [],
+      "warnings": []
     }
-  ]
+  },
+  "bank_sha256": "e34e355985efb609712f7bc0001e84a0d9beaa7dfda2073192695fd3219ce201",
+  "classified_bank_sha256": "887d878bd18eebde690ee5d228b1876c83ca404fbc54043563f096a5705a8f6f",
+  "format_audit": {
+    "report": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.json",
+    "csv": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.csv",
+    "status": "passed",
+    "fields_rendered": 12,
+    "source_ids": [
+      "fusion1_examen-2_secundaria_q01",
+      "fusion1_examen-2_secundaria_q02",
+      "fusion1_examen-2_secundaria_q03",
+      "fusion1_examen-2_secundaria_q04"
+    ],
+    "scope": "Formatting and structural recheck; prior mathematical/source reviews retained."
+  }
 }

@@ -40,7 +40,7 @@
       "source_page": 10,
       "language": "es",
       "format": "multiple_choice",
-      "problem_text": "Se tiene un terreno cuadrado de 11025 m² de área, si en el perímetro del terreno se siembran árboles cada 5m\nde tal forma que se plante un árbol en cada esquina; calcula dicha cantidad de árboles:",
+      "problem_text": "Se tiene un terreno cuadrado de 11025 m² de área, si en el perímetro del terreno se siembran árboles cada 5 m\nde tal forma que se plante un árbol en cada esquina; calcula dicha cantidad de árboles:",
       "options": [
         {
           "label": "a",
@@ -122,50 +122,50 @@
       "source_page": 10,
       "language": "es",
       "format": "multiple_choice",
-      "problem_text": "Rigoberta envasó 120 litros de aceite y 70 de leche en la menor cantidad de recipientes iguales en los cuales es\nposible hacerlo son que se derrame liquido y sin hacer ninguna mezcla ¿Cuánto recaudó al vender cada envase\nde aceite en $15 y cada envase de leche en $10?",
+      "problem_text": "Rigoberta envasó 120 litros de aceite y 70 de leche en la menor cantidad de recipientes iguales en los cuales es\nposible hacerlo son que se derrame liquido y sin hacer ninguna mezcla ¿Cuánto recaudó al vender cada envase\nde aceite en \\$15 y cada envase de leche en \\$10?",
       "options": [
         {
           "label": "a",
-          "text": "$120"
+          "text": "\\$120"
         },
         {
           "label": "b",
-          "text": "$250"
+          "text": "\\$250"
         },
         {
           "label": "c",
-          "text": "$350"
+          "text": "\\$350"
         },
         {
           "label": "d",
-          "text": "$380"
+          "text": "\\$380"
         }
       ],
-      "correct_answer": "$250 si los recipientes deben llenarse por completo",
+      "correct_answer": "\\$250 si los recipientes deben llenarse por completo",
       "correct_option_label": null,
-      "solution_text": "1. Si se exige que todos los recipientes estén **llenos**, su capacidad debe dividir tanto 120 como 70. La mayor capacidad común es \\(\\operatorname{mcd}(120,70)=10\\) litros.\n2. En ese modelo hay 12 envases de aceite y 7 de leche; recauda \\(12\\cdot15+7\\cdot10=\\mathbf{250}\\) pesos, opción b.\n3. El original solo dice que los recipientes sean iguales, sin derrames ni mezclas; no exige llenarlos. Con capacidad de 120 litros bastan dos recipientes, uno de aceite y otro parcialmente lleno de leche. Se recaudarían $25 si se cobra por esos envases.\n4. Por esta omisión conservamos el resultado de $250 como condicional y desactivamos la calificación automática.",
+      "solution_text": "1. Si se exige que todos los recipientes estén **llenos**, su capacidad debe dividir tanto 120 como 70. La mayor capacidad común es \\(\\operatorname{mcd}(120,70)=10\\) litros.\n2. En ese modelo hay 12 envases de aceite y 7 de leche; recauda \\(12\\cdot15+7\\cdot10=\\mathbf{250}\\) pesos, opción b.\n3. El original solo dice que los recipientes sean iguales, sin derrames ni mezclas; no exige llenarlos. Con capacidad de 120 litros bastan dos recipientes, uno de aceite y otro parcialmente lleno de leche. Se recaudarían \\$25 si se cobra por esos envases.\n4. Por esta omisión conservamos el resultado de \\$250 como condicional y desactivamos la calificación automática.",
       "has_diagram": false,
       "problem_images": [],
       "option_analysis": [
         {
           "label": "a",
           "is_correct": null,
-          "reason": "1. Si se exige que todos los recipientes estén **llenos**, su capacidad debe dividir tanto 120 como 70. La mayor capacidad común es \\(\\operatorname{mcd}(120,70)=10\\) litros.\n2. En ese modelo hay 12 envases de aceite y 7 de leche; recauda \\(12\\cdot15+7\\cdot10=\\mathbf{250}\\) pesos, opción b.\n3. El original solo dice que los recipientes sean iguales, sin derrames ni mezclas; no exige llenarlos. Con capacidad de 120 litros bastan dos recipientes, uno de aceite y otro parcialmente lleno de leche. Se recaudarían $25 si se cobra por esos envases.\n4. Por esta omisión conservamos el resultado de $250 como condicional y desactivamos la calificación automática."
+          "reason": "1. Si se exige que todos los recipientes estén **llenos**, su capacidad debe dividir tanto 120 como 70. La mayor capacidad común es \\(\\operatorname{mcd}(120,70)=10\\) litros.\n2. En ese modelo hay 12 envases de aceite y 7 de leche; recauda \\(12\\cdot15+7\\cdot10=\\mathbf{250}\\) pesos, opción b.\n3. El original solo dice que los recipientes sean iguales, sin derrames ni mezclas; no exige llenarlos. Con capacidad de 120 litros bastan dos recipientes, uno de aceite y otro parcialmente lleno de leche. Se recaudarían \\$25 si se cobra por esos envases.\n4. Por esta omisión conservamos el resultado de \\$250 como condicional y desactivamos la calificación automática."
         },
         {
           "label": "b",
           "is_correct": null,
-          "reason": "1. Si se exige que todos los recipientes estén **llenos**, su capacidad debe dividir tanto 120 como 70. La mayor capacidad común es \\(\\operatorname{mcd}(120,70)=10\\) litros.\n2. En ese modelo hay 12 envases de aceite y 7 de leche; recauda \\(12\\cdot15+7\\cdot10=\\mathbf{250}\\) pesos, opción b.\n3. El original solo dice que los recipientes sean iguales, sin derrames ni mezclas; no exige llenarlos. Con capacidad de 120 litros bastan dos recipientes, uno de aceite y otro parcialmente lleno de leche. Se recaudarían $25 si se cobra por esos envases.\n4. Por esta omisión conservamos el resultado de $250 como condicional y desactivamos la calificación automática."
+          "reason": "1. Si se exige que todos los recipientes estén **llenos**, su capacidad debe dividir tanto 120 como 70. La mayor capacidad común es \\(\\operatorname{mcd}(120,70)=10\\) litros.\n2. En ese modelo hay 12 envases de aceite y 7 de leche; recauda \\(12\\cdot15+7\\cdot10=\\mathbf{250}\\) pesos, opción b.\n3. El original solo dice que los recipientes sean iguales, sin derrames ni mezclas; no exige llenarlos. Con capacidad de 120 litros bastan dos recipientes, uno de aceite y otro parcialmente lleno de leche. Se recaudarían \\$25 si se cobra por esos envases.\n4. Por esta omisión conservamos el resultado de \\$250 como condicional y desactivamos la calificación automática."
         },
         {
           "label": "c",
           "is_correct": null,
-          "reason": "1. Si se exige que todos los recipientes estén **llenos**, su capacidad debe dividir tanto 120 como 70. La mayor capacidad común es \\(\\operatorname{mcd}(120,70)=10\\) litros.\n2. En ese modelo hay 12 envases de aceite y 7 de leche; recauda \\(12\\cdot15+7\\cdot10=\\mathbf{250}\\) pesos, opción b.\n3. El original solo dice que los recipientes sean iguales, sin derrames ni mezclas; no exige llenarlos. Con capacidad de 120 litros bastan dos recipientes, uno de aceite y otro parcialmente lleno de leche. Se recaudarían $25 si se cobra por esos envases.\n4. Por esta omisión conservamos el resultado de $250 como condicional y desactivamos la calificación automática."
+          "reason": "1. Si se exige que todos los recipientes estén **llenos**, su capacidad debe dividir tanto 120 como 70. La mayor capacidad común es \\(\\operatorname{mcd}(120,70)=10\\) litros.\n2. En ese modelo hay 12 envases de aceite y 7 de leche; recauda \\(12\\cdot15+7\\cdot10=\\mathbf{250}\\) pesos, opción b.\n3. El original solo dice que los recipientes sean iguales, sin derrames ni mezclas; no exige llenarlos. Con capacidad de 120 litros bastan dos recipientes, uno de aceite y otro parcialmente lleno de leche. Se recaudarían \\$25 si se cobra por esos envases.\n4. Por esta omisión conservamos el resultado de \\$250 como condicional y desactivamos la calificación automática."
         },
         {
           "label": "d",
           "is_correct": null,
-          "reason": "1. Si se exige que todos los recipientes estén **llenos**, su capacidad debe dividir tanto 120 como 70. La mayor capacidad común es \\(\\operatorname{mcd}(120,70)=10\\) litros.\n2. En ese modelo hay 12 envases de aceite y 7 de leche; recauda \\(12\\cdot15+7\\cdot10=\\mathbf{250}\\) pesos, opción b.\n3. El original solo dice que los recipientes sean iguales, sin derrames ni mezclas; no exige llenarlos. Con capacidad de 120 litros bastan dos recipientes, uno de aceite y otro parcialmente lleno de leche. Se recaudarían $25 si se cobra por esos envases.\n4. Por esta omisión conservamos el resultado de $250 como condicional y desactivamos la calificación automática."
+          "reason": "1. Si se exige que todos los recipientes estén **llenos**, su capacidad debe dividir tanto 120 como 70. La mayor capacidad común es \\(\\operatorname{mcd}(120,70)=10\\) litros.\n2. En ese modelo hay 12 envases de aceite y 7 de leche; recauda \\(12\\cdot15+7\\cdot10=\\mathbf{250}\\) pesos, opción b.\n3. El original solo dice que los recipientes sean iguales, sin derrames ni mezclas; no exige llenarlos. Con capacidad de 120 litros bastan dos recipientes, uno de aceite y otro parcialmente lleno de leche. Se recaudarían \\$25 si se cobra por esos envases.\n4. Por esta omisión conservamos el resultado de \\$250 como condicional y desactivamos la calificación automática."
         }
       ],
       "verification": {
@@ -173,7 +173,7 @@
         "answer_checked": false,
         "all_options_checked": true,
         "latex_checked": true,
-        "notes": "1. Si se exige que todos los recipientes estén **llenos**, su capacidad debe dividir tanto 120 como 70. La mayor capacidad común es \\(\\operatorname{mcd}(120,70)=10\\) litros.\n2. En ese modelo hay 12 envases de aceite y 7 de leche; recauda \\(12\\cdot15+7\\cdot10=\\mathbf{250}\\) pesos, opción b.\n3. El original solo dice que los recipientes sean iguales, sin derrames ni mezclas; no exige llenarlos. Con capacidad de 120 litros bastan dos recipientes, uno de aceite y otro parcialmente lleno de leche. Se recaudarían $25 si se cobra por esos envases.\n4. Por esta omisión conservamos el resultado de $250 como condicional y desactivamos la calificación automática."
+        "notes": "1. Si se exige que todos los recipientes estén **llenos**, su capacidad debe dividir tanto 120 como 70. La mayor capacidad común es \\(\\operatorname{mcd}(120,70)=10\\) litros.\n2. En ese modelo hay 12 envases de aceite y 7 de leche; recauda \\(12\\cdot15+7\\cdot10=\\mathbf{250}\\) pesos, opción b.\n3. El original solo dice que los recipientes sean iguales, sin derrames ni mezclas; no exige llenarlos. Con capacidad de 120 litros bastan dos recipientes, uno de aceite y otro parcialmente lleno de leche. Se recaudarían \\$25 si se cobra por esos envases.\n4. Por esta omisión conservamos el resultado de \\$250 como condicional y desactivamos la calificación automática."
       },
       "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
       "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed",
@@ -821,7 +821,7 @@
       "source_page": 12,
       "language": "es",
       "format": "multiple_choice",
-      "problem_text": "En la figura, P es el centro del rectángulo ABCD. Si la distancia de P a AB es el doble de la distancia de P\na BC, y el perímetro de ABCD es 120cm, el área de ABCD es :",
+      "problem_text": "En la figura, P es el centro del rectángulo ABCD. Si la distancia de P a AB es el doble de la distancia de P\na BC, y el perímetro de ABCD es 120 cm, el área de ABCD es :",
       "options": [
         {
           "label": "a",

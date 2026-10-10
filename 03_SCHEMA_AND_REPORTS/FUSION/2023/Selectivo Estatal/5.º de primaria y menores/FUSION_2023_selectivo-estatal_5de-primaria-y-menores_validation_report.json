@@ -1495,102 +1495,122 @@
       "notes": "Respuesta recalculada y comparada con el PDF original."
     }
   ],
-  "structural_validation": [
-    {
-      "path": "02_JSON_EXAMS/FUSION/2023/Selectivo Estatal/5.º de primaria y menores/FUSION_2023_selectivo-estatal_5de-primaria-y-menores_verified.json",
-      "report": {
-        "ok": true,
-        "scope": "structure_options_image_decoding_hashes_classification_only",
-        "mathematical_verification": "not_performed_by_this_script",
-        "visual_source_comparison": "not_performed_by_this_script",
-        "latex_rendering": "not_performed_by_this_script",
-        "bank_sha256": "0a465e669d18234f837c00cdf4f8d79e7f2db4548279b4b178cea68955179328",
-        "bytes": 100733,
-        "problems": 15,
-        "verified": 14,
-        "guided": 1,
-        "images": 4,
-        "figures": [
-          {
-            "source_id": "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q04",
-            "figure": 1,
-            "sha256": "73d14823d17b5478e27ec42172a31adfc8a348a93fcb8225c63aa45ed7427ad8",
-            "width": 247,
-            "height": 139
-          },
-          {
-            "source_id": "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q05",
-            "figure": 1,
-            "sha256": "12aaf2f185fb83c91a135d9534c12eaaf04c0622db5a65f98e4f4f465c23af13",
-            "width": 203,
-            "height": 133
-          },
-          {
-            "source_id": "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q09",
-            "figure": 1,
-            "sha256": "a157de3f2dc9365c516b8e2b7a56e40cf30f11ac2c5268bcff9be896f5bef0a6",
-            "width": 142,
-            "height": 116
-          },
-          {
-            "source_id": "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q12",
-            "figure": 1,
-            "sha256": "b5d3ff4a354d00d2ae48572d4a4e6de8c7650f13af8f06b760a0d1893d55d873",
-            "width": 137,
-            "height": 87
-          }
-        ],
-        "errors": [],
-        "warnings": []
-      }
+  "structural_validation": {
+    "verified": {
+      "ok": true,
+      "scope": "structure_options_image_decoding_hashes_classification_only",
+      "mathematical_verification": "not_performed_by_this_script",
+      "visual_source_comparison": "not_performed_by_this_script",
+      "latex_rendering": "not_performed_by_this_script",
+      "bank_sha256": "148b1558df074db5af29d1b5ee558699e267ac0c7d289bb7d3030463f8fdf268",
+      "bytes": 100735,
+      "problems": 15,
+      "verified": 14,
+      "guided": 1,
+      "images": 4,
+      "figures": [
+        {
+          "source_id": "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q04",
+          "figure": 1,
+          "sha256": "73d14823d17b5478e27ec42172a31adfc8a348a93fcb8225c63aa45ed7427ad8",
+          "width": 247,
+          "height": 139
+        },
+        {
+          "source_id": "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q05",
+          "figure": 1,
+          "sha256": "12aaf2f185fb83c91a135d9534c12eaaf04c0622db5a65f98e4f4f465c23af13",
+          "width": 203,
+          "height": 133
+        },
+        {
+          "source_id": "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q09",
+          "figure": 1,
+          "sha256": "a157de3f2dc9365c516b8e2b7a56e40cf30f11ac2c5268bcff9be896f5bef0a6",
+          "width": 142,
+          "height": 116
+        },
+        {
+          "source_id": "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q12",
+          "figure": 1,
+          "sha256": "b5d3ff4a354d00d2ae48572d4a4e6de8c7650f13af8f06b760a0d1893d55d873",
+          "width": 137,
+          "height": 87
+        }
+      ],
+      "errors": [],
+      "warnings": []
     },
-    {
-      "path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/5.º de primaria y menores/FUSION_2023_selectivo-estatal_5de-primaria-y-menores_classified.json",
-      "report": {
-        "ok": true,
-        "scope": "structure_options_image_decoding_hashes_classification_only",
-        "mathematical_verification": "not_performed_by_this_script",
-        "visual_source_comparison": "not_performed_by_this_script",
-        "latex_rendering": "not_performed_by_this_script",
-        "bank_sha256": "a10602b1d57d54b343fae6bba5bbb8e88b818212ab93eafe8ba3ca3bc3393dad",
-        "bytes": 109760,
-        "problems": 15,
-        "verified": 14,
-        "guided": 1,
-        "images": 4,
-        "figures": [
-          {
-            "source_id": "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q04",
-            "figure": 1,
-            "sha256": "73d14823d17b5478e27ec42172a31adfc8a348a93fcb8225c63aa45ed7427ad8",
-            "width": 247,
-            "height": 139
-          },
-          {
-            "source_id": "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q05",
-            "figure": 1,
-            "sha256": "12aaf2f185fb83c91a135d9534c12eaaf04c0622db5a65f98e4f4f465c23af13",
-            "width": 203,
-            "height": 133
-          },
-          {
-            "source_id": "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q09",
-            "figure": 1,
-            "sha256": "a157de3f2dc9365c516b8e2b7a56e40cf30f11ac2c5268bcff9be896f5bef0a6",
-            "width": 142,
-            "height": 116
-          },
-          {
-            "source_id": "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q12",
-            "figure": 1,
-            "sha256": "b5d3ff4a354d00d2ae48572d4a4e6de8c7650f13af8f06b760a0d1893d55d873",
-            "width": 137,
-            "height": 87
-          }
-        ],
-        "errors": [],
-        "warnings": []
-      }
+    "classified": {
+      "ok": true,
+      "scope": "structure_options_image_decoding_hashes_classification_only",
+      "mathematical_verification": "not_performed_by_this_script",
+      "visual_source_comparison": "not_performed_by_this_script",
+      "latex_rendering": "not_performed_by_this_script",
+      "bank_sha256": "5beabfa67cb42b06f3568e1d48d311125c931d55dd4c8ab8042e02ea107a1185",
+      "bytes": 109762,
+      "problems": 15,
+      "verified": 14,
+      "guided": 1,
+      "images": 4,
+      "figures": [
+        {
+          "source_id": "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q04",
+          "figure": 1,
+          "sha256": "73d14823d17b5478e27ec42172a31adfc8a348a93fcb8225c63aa45ed7427ad8",
+          "width": 247,
+          "height": 139
+        },
+        {
+          "source_id": "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q05",
+          "figure": 1,
+          "sha256": "12aaf2f185fb83c91a135d9534c12eaaf04c0622db5a65f98e4f4f465c23af13",
+          "width": 203,
+          "height": 133
+        },
+        {
+          "source_id": "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q09",
+          "figure": 1,
+          "sha256": "a157de3f2dc9365c516b8e2b7a56e40cf30f11ac2c5268bcff9be896f5bef0a6",
+          "width": 142,
+          "height": 116
+        },
+        {
+          "source_id": "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q12",
+          "figure": 1,
+          "sha256": "b5d3ff4a354d00d2ae48572d4a4e6de8c7650f13af8f06b760a0d1893d55d873",
+          "width": 137,
+          "height": 87
+        }
+      ],
+      "errors": [],
+      "warnings": []
     }
-  ]
+  },
+  "bank_sha256": "148b1558df074db5af29d1b5ee558699e267ac0c7d289bb7d3030463f8fdf268",
+  "classified_bank_sha256": "5beabfa67cb42b06f3568e1d48d311125c931d55dd4c8ab8042e02ea107a1185",
+  "format_audit": {
+    "report": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.json",
+    "csv": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.csv",
+    "status": "passed",
+    "fields_rendered": 145,
+    "source_ids": [
+      "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q01",
+      "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q02",
+      "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q03",
+      "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q04",
+      "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q05",
+      "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q06",
+      "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q07",
+      "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q08",
+      "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q09",
+      "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q10",
+      "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q11",
+      "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q12",
+      "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q13",
+      "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q14",
+      "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q15"
+    ],
+    "scope": "Formatting and structural recheck; prior mathematical/source reviews retained."
+  }
 }

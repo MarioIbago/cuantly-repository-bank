@@ -468,8 +468,8 @@
       ]
     }
   ],
-  "bank_sha256": "1aef4a71eb0ea9606d3054fcf4631bcd00ab74d403738316fc82437de630dc46",
-  "classified_bank_sha256": "6d2f90eafe58143dca79d8c1166cbf8dbeb306a0b17e3793054aa39793523853",
+  "bank_sha256": "425c0960964247b267d6bd9b51a9e6466446c00f5815866ab61d24a9eb76073d",
+  "classified_bank_sha256": "396db9a5a92bdba5777e8fda6742790fb75897a2961fc332a39e8bafa539cc24",
   "counts": {
     "verified_problems": 15,
     "needs_review_or_invalid": 1,
@@ -490,8 +490,8 @@
       "mathematical_verification": "not_performed_by_this_script",
       "visual_source_comparison": "not_performed_by_this_script",
       "latex_rendering": "not_performed_by_this_script",
-      "bank_sha256": "1aef4a71eb0ea9606d3054fcf4631bcd00ab74d403738316fc82437de630dc46",
-      "bytes": 76439,
+      "bank_sha256": "425c0960964247b267d6bd9b51a9e6466446c00f5815866ab61d24a9eb76073d",
+      "bytes": 76478,
       "problems": 16,
       "verified": 15,
       "guided": 1,
@@ -542,8 +542,8 @@
       "mathematical_verification": "not_performed_by_this_script",
       "visual_source_comparison": "not_performed_by_this_script",
       "latex_rendering": "not_performed_by_this_script",
-      "bank_sha256": "6d2f90eafe58143dca79d8c1166cbf8dbeb306a0b17e3793054aa39793523853",
-      "bytes": 85046,
+      "bank_sha256": "396db9a5a92bdba5777e8fda6742790fb75897a2961fc332a39e8bafa539cc24",
+      "bytes": 85085,
       "problems": 16,
       "verified": 15,
       "guided": 1,
@@ -588,5 +588,30 @@
       "errors": [],
       "warnings": []
     }
+  },
+  "format_audit": {
+    "report": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.json",
+    "csv": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.csv",
+    "status": "passed",
+    "fields_rendered": 48,
+    "source_ids": [
+      "fusion6_examenes-selectivos-estatales-fusion-26_universitarios_q01",
+      "fusion6_examenes-selectivos-estatales-fusion-26_universitarios_q02",
+      "fusion6_examenes-selectivos-estatales-fusion-26_universitarios_q03",
+      "fusion6_examenes-selectivos-estatales-fusion-26_universitarios_q04",
+      "fusion6_examenes-selectivos-estatales-fusion-26_universitarios_q05",
+      "fusion6_examenes-selectivos-estatales-fusion-26_universitarios_q06",
+      "fusion6_examenes-selectivos-estatales-fusion-26_universitarios_q07",
+      "fusion6_examenes-selectivos-estatales-fusion-26_universitarios_q08",
+      "fusion6_examenes-selectivos-estatales-fusion-26_universitarios_q09",
+      "fusion6_examenes-selectivos-estatales-fusion-26_universitarios_q10",
+      "fusion6_examenes-selectivos-estatales-fusion-26_universitarios_q11",
+      "fusion6_examenes-selectivos-estatales-fusion-26_universitarios_q12",
+      "fusion6_examenes-selectivos-estatales-fusion-26_universitarios_q13",
+      "fusion6_examenes-selectivos-estatales-fusion-26_universitarios_q14",
+      "fusion6_examenes-selectivos-estatales-fusion-26_universitarios_q15",
+      "fusion6_examenes-selectivos-estatales-fusion-26_universitarios_q16"
+    ],
+    "scope": "Formatting and structural recheck; prior mathematical/source reviews retained."
   }
 }

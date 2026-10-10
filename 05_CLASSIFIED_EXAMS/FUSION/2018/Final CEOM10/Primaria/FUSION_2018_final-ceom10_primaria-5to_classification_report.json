@@ -76,5 +76,19 @@
         "Dificultad relativa a 5.º y 6.º de primaria."
       ]
     }
-  ]
+  ],
+  "bank_sha256": "38fa88b528280734a20e66de204d5bfd827c22b55b96e8e950ccafcfc2d1552a",
+  "format_audit": {
+    "report": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.json",
+    "csv": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.csv",
+    "status": "passed",
+    "fields_rendered": 12,
+    "source_ids": [
+      "fusion1_examen-final-ceom10_primaria-5to_q01",
+      "fusion1_examen-final-ceom10_primaria-5to_q02",
+      "fusion1_examen-final-ceom10_primaria-5to_q03",
+      "fusion1_examen-final-ceom10_primaria-5to_q04"
+    ],
+    "scope": "Formatting and structural recheck; prior mathematical/source reviews retained."
+  }
 }

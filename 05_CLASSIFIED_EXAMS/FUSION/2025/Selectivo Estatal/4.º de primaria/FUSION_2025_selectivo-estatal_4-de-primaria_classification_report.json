@@ -1,7 +1,7 @@
 {
   "source_pdf": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
   "source_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed",
-  "bank_sha256": "b9efaec11d6b08913e26a43ced7fc2738ca23ecd39c885e0d6c7159efb129693",
+  "bank_sha256": "91eba4753ce959babdc4add5f214ebc37fd34c9e8c768486bcc26286d7d2f94c",
   "rubric": "Editorial L1/L2/L3 relative to source school grade; primary area follows decisive reasoning, not picture context.",
   "problems": [
     {
@@ -258,5 +258,29 @@
         "Dificultad editorial relativa a Cuarto año de primaria: combina pasos, modelado o enumeración con una inferencia."
       ]
     }
-  ]
+  ],
+  "format_audit": {
+    "report": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.json",
+    "csv": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.csv",
+    "status": "passed",
+    "fields_rendered": 125,
+    "source_ids": [
+      "fusion5_examenes-selectivos-estatales_4-de-primaria_q01",
+      "fusion5_examenes-selectivos-estatales_4-de-primaria_q02",
+      "fusion5_examenes-selectivos-estatales_4-de-primaria_q03",
+      "fusion5_examenes-selectivos-estatales_4-de-primaria_q04",
+      "fusion5_examenes-selectivos-estatales_4-de-primaria_q05",
+      "fusion5_examenes-selectivos-estatales_4-de-primaria_q06",
+      "fusion5_examenes-selectivos-estatales_4-de-primaria_q07",
+      "fusion5_examenes-selectivos-estatales_4-de-primaria_q08",
+      "fusion5_examenes-selectivos-estatales_4-de-primaria_q09",
+      "fusion5_examenes-selectivos-estatales_4-de-primaria_q10",
+      "fusion5_examenes-selectivos-estatales_4-de-primaria_q11",
+      "fusion5_examenes-selectivos-estatales_4-de-primaria_q12",
+      "fusion5_examenes-selectivos-estatales_4-de-primaria_q13",
+      "fusion5_examenes-selectivos-estatales_4-de-primaria_q14",
+      "fusion5_examenes-selectivos-estatales_4-de-primaria_q15"
+    ],
+    "scope": "Formatting and structural recheck; prior mathematical/source reviews retained."
+  }
 }

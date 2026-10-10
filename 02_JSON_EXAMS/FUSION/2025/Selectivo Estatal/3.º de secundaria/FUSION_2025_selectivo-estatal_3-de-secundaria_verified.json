@@ -168,50 +168,50 @@
       "source_page": 16,
       "language": "es",
       "format": "multiple_choice",
-      "problem_text": "Un padre decide repartir el interés que produce un capital de $60,000 al cabo de un año, 3 meses, 21\ndías a una tasa del 36% anual; a 4 de sus hijos proporcionalmente a sus edades que son los primeros 4\nnúmeros primos de dos cifras. Calcular cuanto le corresponde al mayor de los hermanos.",
+      "problem_text": "Un padre decide repartir el interés que produce un capital de \\$60,000 al cabo de un año, 3 meses, 21\ndías a una tasa del 36% anual; a 4 de sus hijos proporcionalmente a sus edades que son los primeros 4\nnúmeros primos de dos cifras. Calcular cuanto le corresponde al mayor de los hermanos.",
       "options": [
         {
           "label": "a",
-          "text": "$8,949"
+          "text": "\\$8,949"
         },
         {
           "label": "b",
-          "text": "$28260"
+          "text": "\\$28260"
         },
         {
           "label": "c",
-          "text": "$471"
+          "text": "\\$471"
         },
         {
           "label": "d",
-          "text": "$5,181"
+          "text": "\\$5,181"
         }
       ],
-      "correct_answer": "$8,949 bajo interés simple y año comercial",
+      "correct_answer": "\\$8,949 bajo interés simple y año comercial",
       "correct_option_label": null,
-      "solution_text": "1. Los cuatro primeros primos de dos cifras son 11, 13, 17 y 19; suman 60. Al mayor le corresponde \\(19/60\\) del interés.\n2. Con interés simple y año comercial de 360 días, el tiempo es \\(1+3/12+21/360\\) años. El interés resulta \\(60000\\cdot0.36\\cdot(1+3/12+21/360)=28260\\).\n3. La parte mayor es \\(28260\\cdot19/60=\\mathbf{8949}\\) pesos, opción a. $28,260 es el interés completo; $471 es una unidad de reparto y $5,181 corresponde al hijo de 11 años.\n4. El original no declara interés simple ni la base de días. Otros convenios producen otro interés. El resultado se conserva como condicional, con práctica guiada.",
+      "solution_text": "1. Los cuatro primeros primos de dos cifras son 11, 13, 17 y 19; suman 60. Al mayor le corresponde \\(19/60\\) del interés.\n2. Con interés simple y año comercial de 360 días, el tiempo es \\(1+3/12+21/360\\) años. El interés resulta \\(60000\\cdot0.36\\cdot(1+3/12+21/360)=28260\\).\n3. La parte mayor es \\(28260\\cdot19/60=\\mathbf{8949}\\) pesos, opción a. \\$28,260 es el interés completo; \\$471 es una unidad de reparto y \\$5,181 corresponde al hijo de 11 años.\n4. El original no declara interés simple ni la base de días. Otros convenios producen otro interés. El resultado se conserva como condicional, con práctica guiada.",
       "has_diagram": false,
       "problem_images": [],
       "option_analysis": [
         {
           "label": "a",
           "is_correct": null,
-          "reason": "1. Los cuatro primeros primos de dos cifras son 11, 13, 17 y 19; suman 60. Al mayor le corresponde \\(19/60\\) del interés.\n2. Con interés simple y año comercial de 360 días, el tiempo es \\(1+3/12+21/360\\) años. El interés resulta \\(60000\\cdot0.36\\cdot(1+3/12+21/360)=28260\\).\n3. La parte mayor es \\(28260\\cdot19/60=\\mathbf{8949}\\) pesos, opción a. $28,260 es el interés completo; $471 es una unidad de reparto y $5,181 corresponde al hijo de 11 años.\n4. El original no declara interés simple ni la base de días. Otros convenios producen otro interés. El resultado se conserva como condicional, con práctica guiada."
+          "reason": "1. Los cuatro primeros primos de dos cifras son 11, 13, 17 y 19; suman 60. Al mayor le corresponde \\(19/60\\) del interés.\n2. Con interés simple y año comercial de 360 días, el tiempo es \\(1+3/12+21/360\\) años. El interés resulta \\(60000\\cdot0.36\\cdot(1+3/12+21/360)=28260\\).\n3. La parte mayor es \\(28260\\cdot19/60=\\mathbf{8949}\\) pesos, opción a. \\$28,260 es el interés completo; \\$471 es una unidad de reparto y \\$5,181 corresponde al hijo de 11 años.\n4. El original no declara interés simple ni la base de días. Otros convenios producen otro interés. El resultado se conserva como condicional, con práctica guiada."
         },
         {
           "label": "b",
           "is_correct": null,
-          "reason": "1. Los cuatro primeros primos de dos cifras son 11, 13, 17 y 19; suman 60. Al mayor le corresponde \\(19/60\\) del interés.\n2. Con interés simple y año comercial de 360 días, el tiempo es \\(1+3/12+21/360\\) años. El interés resulta \\(60000\\cdot0.36\\cdot(1+3/12+21/360)=28260\\).\n3. La parte mayor es \\(28260\\cdot19/60=\\mathbf{8949}\\) pesos, opción a. $28,260 es el interés completo; $471 es una unidad de reparto y $5,181 corresponde al hijo de 11 años.\n4. El original no declara interés simple ni la base de días. Otros convenios producen otro interés. El resultado se conserva como condicional, con práctica guiada."
+          "reason": "1. Los cuatro primeros primos de dos cifras son 11, 13, 17 y 19; suman 60. Al mayor le corresponde \\(19/60\\) del interés.\n2. Con interés simple y año comercial de 360 días, el tiempo es \\(1+3/12+21/360\\) años. El interés resulta \\(60000\\cdot0.36\\cdot(1+3/12+21/360)=28260\\).\n3. La parte mayor es \\(28260\\cdot19/60=\\mathbf{8949}\\) pesos, opción a. \\$28,260 es el interés completo; \\$471 es una unidad de reparto y \\$5,181 corresponde al hijo de 11 años.\n4. El original no declara interés simple ni la base de días. Otros convenios producen otro interés. El resultado se conserva como condicional, con práctica guiada."
         },
         {
           "label": "c",
           "is_correct": null,
-          "reason": "1. Los cuatro primeros primos de dos cifras son 11, 13, 17 y 19; suman 60. Al mayor le corresponde \\(19/60\\) del interés.\n2. Con interés simple y año comercial de 360 días, el tiempo es \\(1+3/12+21/360\\) años. El interés resulta \\(60000\\cdot0.36\\cdot(1+3/12+21/360)=28260\\).\n3. La parte mayor es \\(28260\\cdot19/60=\\mathbf{8949}\\) pesos, opción a. $28,260 es el interés completo; $471 es una unidad de reparto y $5,181 corresponde al hijo de 11 años.\n4. El original no declara interés simple ni la base de días. Otros convenios producen otro interés. El resultado se conserva como condicional, con práctica guiada."
+          "reason": "1. Los cuatro primeros primos de dos cifras son 11, 13, 17 y 19; suman 60. Al mayor le corresponde \\(19/60\\) del interés.\n2. Con interés simple y año comercial de 360 días, el tiempo es \\(1+3/12+21/360\\) años. El interés resulta \\(60000\\cdot0.36\\cdot(1+3/12+21/360)=28260\\).\n3. La parte mayor es \\(28260\\cdot19/60=\\mathbf{8949}\\) pesos, opción a. \\$28,260 es el interés completo; \\$471 es una unidad de reparto y \\$5,181 corresponde al hijo de 11 años.\n4. El original no declara interés simple ni la base de días. Otros convenios producen otro interés. El resultado se conserva como condicional, con práctica guiada."
         },
         {
           "label": "d",
           "is_correct": null,
-          "reason": "1. Los cuatro primeros primos de dos cifras son 11, 13, 17 y 19; suman 60. Al mayor le corresponde \\(19/60\\) del interés.\n2. Con interés simple y año comercial de 360 días, el tiempo es \\(1+3/12+21/360\\) años. El interés resulta \\(60000\\cdot0.36\\cdot(1+3/12+21/360)=28260\\).\n3. La parte mayor es \\(28260\\cdot19/60=\\mathbf{8949}\\) pesos, opción a. $28,260 es el interés completo; $471 es una unidad de reparto y $5,181 corresponde al hijo de 11 años.\n4. El original no declara interés simple ni la base de días. Otros convenios producen otro interés. El resultado se conserva como condicional, con práctica guiada."
+          "reason": "1. Los cuatro primeros primos de dos cifras son 11, 13, 17 y 19; suman 60. Al mayor le corresponde \\(19/60\\) del interés.\n2. Con interés simple y año comercial de 360 días, el tiempo es \\(1+3/12+21/360\\) años. El interés resulta \\(60000\\cdot0.36\\cdot(1+3/12+21/360)=28260\\).\n3. La parte mayor es \\(28260\\cdot19/60=\\mathbf{8949}\\) pesos, opción a. \\$28,260 es el interés completo; \\$471 es una unidad de reparto y \\$5,181 corresponde al hijo de 11 años.\n4. El original no declara interés simple ni la base de días. Otros convenios producen otro interés. El resultado se conserva como condicional, con práctica guiada."
         }
       ],
       "verification": {
@@ -219,7 +219,7 @@
         "answer_checked": false,
         "all_options_checked": true,
         "latex_checked": true,
-        "notes": "1. Los cuatro primeros primos de dos cifras son 11, 13, 17 y 19; suman 60. Al mayor le corresponde \\(19/60\\) del interés.\n2. Con interés simple y año comercial de 360 días, el tiempo es \\(1+3/12+21/360\\) años. El interés resulta \\(60000\\cdot0.36\\cdot(1+3/12+21/360)=28260\\).\n3. La parte mayor es \\(28260\\cdot19/60=\\mathbf{8949}\\) pesos, opción a. $28,260 es el interés completo; $471 es una unidad de reparto y $5,181 corresponde al hijo de 11 años.\n4. El original no declara interés simple ni la base de días. Otros convenios producen otro interés. El resultado se conserva como condicional, con práctica guiada."
+        "notes": "1. Los cuatro primeros primos de dos cifras son 11, 13, 17 y 19; suman 60. Al mayor le corresponde \\(19/60\\) del interés.\n2. Con interés simple y año comercial de 360 días, el tiempo es \\(1+3/12+21/360\\) años. El interés resulta \\(60000\\cdot0.36\\cdot(1+3/12+21/360)=28260\\).\n3. La parte mayor es \\(28260\\cdot19/60=\\mathbf{8949}\\) pesos, opción a. \\$28,260 es el interés completo; \\$471 es una unidad de reparto y \\$5,181 corresponde al hijo de 11 años.\n4. El original no declara interés simple ni la base de días. Otros convenios producen otro interés. El resultado se conserva como condicional, con práctica guiada."
       },
       "source_pdf_path": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
       "source_pdf_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed"

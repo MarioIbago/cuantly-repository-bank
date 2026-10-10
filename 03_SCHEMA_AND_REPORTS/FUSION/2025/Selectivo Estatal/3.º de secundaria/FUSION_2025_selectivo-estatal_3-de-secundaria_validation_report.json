@@ -385,8 +385,8 @@
       ]
     }
   ],
-  "bank_sha256": "9cd5b9c90f22c7378b2a0d804820c185f48051012719c1cc9d2d45d91c03dc6e",
-  "classified_bank_sha256": "cb06ac2f20e8b54ac969273630117c7d7975acacbc86af9baee369415ea27e77",
+  "bank_sha256": "3d64685a599340ccf59ea42fe27fcb476179a4e9635478e2f6281f16da969212",
+  "classified_bank_sha256": "4ab032d66ae054fd1cc1bf59c6e660470ecdea9b5c245a761b370207f98da6d5",
   "counts": {
     "verified_problems": 12,
     "needs_review_or_invalid": 3,
@@ -409,8 +409,8 @@
       "mathematical_verification": "not_performed_by_this_script",
       "visual_source_comparison": "not_performed_by_this_script",
       "latex_rendering": "not_performed_by_this_script",
-      "bank_sha256": "9cd5b9c90f22c7378b2a0d804820c185f48051012719c1cc9d2d45d91c03dc6e",
-      "bytes": 69351,
+      "bank_sha256": "3d64685a599340ccf59ea42fe27fcb476179a4e9635478e2f6281f16da969212",
+      "bytes": 69399,
       "problems": 15,
       "verified": 12,
       "guided": 3,
@@ -440,8 +440,8 @@
       "mathematical_verification": "not_performed_by_this_script",
       "visual_source_comparison": "not_performed_by_this_script",
       "latex_rendering": "not_performed_by_this_script",
-      "bank_sha256": "cb06ac2f20e8b54ac969273630117c7d7975acacbc86af9baee369415ea27e77",
-      "bytes": 77679,
+      "bank_sha256": "4ab032d66ae054fd1cc1bf59c6e660470ecdea9b5c245a761b370207f98da6d5",
+      "bytes": 77727,
       "problems": 15,
       "verified": 12,
       "guided": 3,
@@ -465,5 +465,29 @@
       "errors": [],
       "warnings": []
     }
+  },
+  "format_audit": {
+    "report": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.json",
+    "csv": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.csv",
+    "status": "passed",
+    "fields_rendered": 125,
+    "source_ids": [
+      "fusion5_examenes-selectivos-estatales_3-de-secundaria_q01",
+      "fusion5_examenes-selectivos-estatales_3-de-secundaria_q02",
+      "fusion5_examenes-selectivos-estatales_3-de-secundaria_q03",
+      "fusion5_examenes-selectivos-estatales_3-de-secundaria_q04",
+      "fusion5_examenes-selectivos-estatales_3-de-secundaria_q05",
+      "fusion5_examenes-selectivos-estatales_3-de-secundaria_q06",
+      "fusion5_examenes-selectivos-estatales_3-de-secundaria_q07",
+      "fusion5_examenes-selectivos-estatales_3-de-secundaria_q08",
+      "fusion5_examenes-selectivos-estatales_3-de-secundaria_q09",
+      "fusion5_examenes-selectivos-estatales_3-de-secundaria_q10",
+      "fusion5_examenes-selectivos-estatales_3-de-secundaria_q11",
+      "fusion5_examenes-selectivos-estatales_3-de-secundaria_q12",
+      "fusion5_examenes-selectivos-estatales_3-de-secundaria_q13",
+      "fusion5_examenes-selectivos-estatales_3-de-secundaria_q14",
+      "fusion5_examenes-selectivos-estatales_3-de-secundaria_q15"
+    ],
+    "scope": "Formatting and structural recheck; prior mathematical/source reviews retained."
   }
 }

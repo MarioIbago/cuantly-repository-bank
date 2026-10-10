@@ -78,5 +78,19 @@
         "Dificultad relativa a Segundo año de secundaria."
       ]
     }
-  ]
+  ],
+  "bank_sha256": "68bab208cb689473bae5c4a069ef7cb682e39ae27bf9f51063e227da77935c28",
+  "format_audit": {
+    "report": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.json",
+    "csv": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.csv",
+    "status": "passed",
+    "fields_rendered": 12,
+    "source_ids": [
+      "fusion1_examen-final-ceom10_2do-secundaria_q01",
+      "fusion1_examen-final-ceom10_2do-secundaria_q02",
+      "fusion1_examen-final-ceom10_2do-secundaria_q03",
+      "fusion1_examen-final-ceom10_2do-secundaria_q04"
+    ],
+    "scope": "Formatting and structural recheck; prior mathematical/source reviews retained."
+  }
 }

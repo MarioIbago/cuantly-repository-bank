@@ -1857,32 +1857,32 @@
       "source_page": 4,
       "language": "es",
       "format": "multiple_choice",
-      "problem_text": "Mayra vio anteriormente su computadora favorita en \\($14{,}725\\). Ahora cuesta \\($17{,}670\\), pero tiene un descuento especial del 20%. Contando este descuento, ¿cuál será el ahorro que Mayra tendrá?",
+      "problem_text": "Mayra vio anteriormente su computadora favorita en \\(\\text{\\textdollar}14{,}725\\). Ahora cuesta \\(\\text{\\textdollar}17{,}670\\), pero tiene un descuento especial del 20%. Contando este descuento, ¿cuál será el ahorro que Mayra tendrá?",
       "options": [
         {
           "label": "a",
-          "text": "$456"
+          "text": "\\$456"
         },
         {
           "label": "b",
-          "text": "$589"
+          "text": "\\$589"
         },
         {
           "label": "c",
-          "text": "$598"
+          "text": "\\$598"
         },
         {
           "label": "d",
-          "text": "$128"
+          "text": "\\$128"
         },
         {
           "label": "e",
-          "text": "$-205"
+          "text": "\\$-205"
         }
       ],
-      "correct_answer": "$589",
+      "correct_answer": "\\$589",
       "correct_option_label": "b",
-      "solution_text": "Con 20% de descuento, el precio actual queda en \\(17670(0.80)=14136\\). Comparado con el precio de \\($14725\\) que Mayra había visto antes, pagará \\(14725-14136=589\\) pesos menos. Ese es el ahorro que coincide con las opciones.",
+      "solution_text": "Con 20% de descuento, el precio actual queda en \\(17670(0.80)=14136\\). Comparado con el precio de \\(\\text{\\textdollar}14725\\) que Mayra había visto antes, pagará \\(14725-14136=589\\) pesos menos. Ese es el ahorro que coincide con las opciones.",
       "has_diagram": false,
       "problem_images": [],
       "option_analysis": [

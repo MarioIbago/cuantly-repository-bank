@@ -1,7 +1,7 @@
 {
   "source_pdf": "01_RAW_PDFs/FUSION/2024/Selectivo Estatal/Multinivel/FUSION_2024_selectivo-estatal_multinivel_evaluacion-selectivos-estatales-fusion-2024_original.pdf",
   "source_sha256": "fec19769e5b5743aa2eafc767fbfbceaea6280914f8e0c1be2c53ecbff219635",
-  "bank_sha256": "5757164e7807669aef1bb895f6739233c91b2a9b0a6acf03f735404b4962c81d",
+  "bank_sha256": "45c945204b7dc1f8c6126762edd1ff0a09ae81a52f320214e8f2cf03c0813877",
   "rubric": "Editorial L1/L2/L3 relative to source school grade; primary area follows decisive reasoning, not picture context.",
   "problems": [
     {
@@ -179,5 +179,24 @@
         "Dificultad editorial relativa a Primer año de preparatoria: modelado o combinación de pasos con una inferencia."
       ]
     }
-  ]
+  ],
+  "format_audit": {
+    "report": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.json",
+    "csv": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.csv",
+    "status": "passed",
+    "fields_rendered": 80,
+    "source_ids": [
+      "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-preparatoria_q01",
+      "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-preparatoria_q02",
+      "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-preparatoria_q03",
+      "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-preparatoria_q04",
+      "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-preparatoria_q05",
+      "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-preparatoria_q06",
+      "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-preparatoria_q07",
+      "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-preparatoria_q08",
+      "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-preparatoria_q09",
+      "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-preparatoria_q10"
+    ],
+    "scope": "Formatting and structural recheck; prior mathematical/source reviews retained."
+  }
 }

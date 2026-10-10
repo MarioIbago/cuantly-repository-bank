@@ -1,7 +1,7 @@
 {
   "source_pdf": "01_RAW_PDFs/FUSION/2024/Selectivo Estatal/Multinivel/FUSION_2024_selectivo-estatal_multinivel_evaluacion-selectivos-estatales-fusion-2024_original.pdf",
   "source_sha256": "fec19769e5b5743aa2eafc767fbfbceaea6280914f8e0c1be2c53ecbff219635",
-  "bank_sha256": "340ebc20970c9c024e391e9d0a4098236e9d76e6d17d4cf86991be2a76205f51",
+  "bank_sha256": "04cd5cae853c294a83430e0361230e8b1cfa9c1b257699d17ae0068721c18ff1",
   "rubric": "Editorial L1/L2/L3 relative to source school grade; primary area follows decisive reasoning, not picture context.",
   "problems": [
     {
@@ -176,5 +176,24 @@
         "Dificultad editorial relativa a Sexto año de primaria: modelado o combinación de pasos con una inferencia."
       ]
     }
-  ]
+  ],
+  "format_audit": {
+    "report": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.json",
+    "csv": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.csv",
+    "status": "passed",
+    "fields_rendered": 80,
+    "source_ids": [
+      "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q01",
+      "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q02",
+      "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q03",
+      "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q04",
+      "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q05",
+      "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q06",
+      "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q07",
+      "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q08",
+      "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q09",
+      "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q10"
+    ],
+    "scope": "Formatting and structural recheck; prior mathematical/source reviews retained."
+  }
 }

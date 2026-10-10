@@ -56,5 +56,248 @@
     25
   ],
   "audited_image_count": 12,
-  "media_audit_status": "reviewed"
+  "media_audit_status": "reviewed",
+  "bank_sha256": "e43a0830ad76e4f547c5da5577316c39c861ed5edbbce6bb7a4eece8d1825b77",
+  "classified_bank_sha256": "be02df5f3c4d47c247c16bbae8372268777ca1f2c7d2d38fbe6736fed2cbd3e3",
+  "structural_validation": {
+    "verified": {
+      "ok": true,
+      "scope": "structure_options_image_decoding_hashes_classification_only",
+      "mathematical_verification": "not_performed_by_this_script",
+      "visual_source_comparison": "not_performed_by_this_script",
+      "latex_rendering": "not_performed_by_this_script",
+      "bank_sha256": "e43a0830ad76e4f547c5da5577316c39c861ed5edbbce6bb7a4eece8d1825b77",
+      "bytes": 521726,
+      "problems": 25,
+      "verified": 24,
+      "guided": 1,
+      "images": 12,
+      "figures": [
+        {
+          "source_id": "gau55_2023_estatal_n2_p02",
+          "figure": 1,
+          "sha256": "f71552ac07c165902c00717f21368e69326e656be423c48e612cf2902bc11675",
+          "width": 101,
+          "height": 173
+        },
+        {
+          "source_id": "gau55_2023_estatal_n2_p04",
+          "figure": 1,
+          "sha256": "56557076905a080889fb503736dfe7a6d7eed91d7356a084fd92a22b53cbe23c",
+          "width": 126,
+          "height": 173
+        },
+        {
+          "source_id": "gau55_2023_estatal_n2_p05",
+          "figure": 1,
+          "sha256": "dfb7f145251bbb9fa8fba7464b6902ddcbde519ef7fe92e2f1d2f017bfbec963",
+          "width": 148,
+          "height": 173
+        },
+        {
+          "source_id": "gau55_2023_estatal_n2_p07",
+          "figure": 1,
+          "sha256": "3a8a6353688e7f3e485c51f9c8ecbb56380d4c681bfbb20c56728926237fde4c",
+          "width": 146,
+          "height": 77
+        },
+        {
+          "source_id": "gau55_2023_estatal_n2_p08",
+          "figure": 1,
+          "sha256": "60838e47a18748a76da6aa807eb0743cf4b6bac517252e5d3325e1c03b714302",
+          "width": 106,
+          "height": 75
+        },
+        {
+          "source_id": "gau55_2023_estatal_n2_p09",
+          "figure": 1,
+          "sha256": "44cfb81ca66a31325cec449fb05a2ff69f584184ecdce7271689437c289b08a9",
+          "width": 440,
+          "height": 367
+        },
+        {
+          "source_id": "gau55_2023_estatal_n2_p14",
+          "figure": 1,
+          "sha256": "c11cd688fad3f79b753b1ee4249b724863e0460f2d92079b4ca1540ac70eb8d7",
+          "width": 433,
+          "height": 200
+        },
+        {
+          "source_id": "gau55_2023_estatal_n2_p15",
+          "figure": 1,
+          "sha256": "75713212610605a9f0b511268b32cfe5d9cccb34cd91f10d083d55eea4fc323a",
+          "width": 177,
+          "height": 159
+        },
+        {
+          "source_id": "gau55_2023_estatal_n2_p16",
+          "figure": 1,
+          "sha256": "876f3cdac3bfdb1aacdeb39ad90433148010a520a1a4f4c83da941b5963bbd87",
+          "width": 1092,
+          "height": 760
+        },
+        {
+          "source_id": "gau55_2023_estatal_n2_p23",
+          "figure": 1,
+          "sha256": "4303a086179fe6347b471841c9809fddc2f3a603db59f2b558b58ee52aee01e8",
+          "width": 520,
+          "height": 564
+        },
+        {
+          "source_id": "gau55_2023_estatal_n2_p24",
+          "figure": 1,
+          "sha256": "d15710f3793cd0da2986cd6de910f61afaa1406731759c73559acd8d2a60d501",
+          "width": 142,
+          "height": 208
+        },
+        {
+          "source_id": "gau55_2023_estatal_n2_p25",
+          "figure": 1,
+          "sha256": "a54e2a1a09ed9dded275bf71e0f5e5998d91b1c865a08921d823a9881cada01b",
+          "width": 136,
+          "height": 118
+        }
+      ],
+      "errors": [],
+      "warnings": []
+    },
+    "classified": {
+      "ok": true,
+      "scope": "structure_options_image_decoding_hashes_classification_only",
+      "mathematical_verification": "not_performed_by_this_script",
+      "visual_source_comparison": "not_performed_by_this_script",
+      "latex_rendering": "not_performed_by_this_script",
+      "bank_sha256": "be02df5f3c4d47c247c16bbae8372268777ca1f2c7d2d38fbe6736fed2cbd3e3",
+      "bytes": 531420,
+      "problems": 25,
+      "verified": 24,
+      "guided": 1,
+      "images": 12,
+      "figures": [
+        {
+          "source_id": "gau55_2023_estatal_n2_p02",
+          "figure": 1,
+          "sha256": "f71552ac07c165902c00717f21368e69326e656be423c48e612cf2902bc11675",
+          "width": 101,
+          "height": 173
+        },
+        {
+          "source_id": "gau55_2023_estatal_n2_p04",
+          "figure": 1,
+          "sha256": "56557076905a080889fb503736dfe7a6d7eed91d7356a084fd92a22b53cbe23c",
+          "width": 126,
+          "height": 173
+        },
+        {
+          "source_id": "gau55_2023_estatal_n2_p05",
+          "figure": 1,
+          "sha256": "dfb7f145251bbb9fa8fba7464b6902ddcbde519ef7fe92e2f1d2f017bfbec963",
+          "width": 148,
+          "height": 173
+        },
+        {
+          "source_id": "gau55_2023_estatal_n2_p07",
+          "figure": 1,
+          "sha256": "3a8a6353688e7f3e485c51f9c8ecbb56380d4c681bfbb20c56728926237fde4c",
+          "width": 146,
+          "height": 77
+        },
+        {
+          "source_id": "gau55_2023_estatal_n2_p08",
+          "figure": 1,
+          "sha256": "60838e47a18748a76da6aa807eb0743cf4b6bac517252e5d3325e1c03b714302",
+          "width": 106,
+          "height": 75
+        },
+        {
+          "source_id": "gau55_2023_estatal_n2_p09",
+          "figure": 1,
+          "sha256": "44cfb81ca66a31325cec449fb05a2ff69f584184ecdce7271689437c289b08a9",
+          "width": 440,
+          "height": 367
+        },
+        {
+          "source_id": "gau55_2023_estatal_n2_p14",
+          "figure": 1,
+          "sha256": "c11cd688fad3f79b753b1ee4249b724863e0460f2d92079b4ca1540ac70eb8d7",
+          "width": 433,
+          "height": 200
+        },
+        {
+          "source_id": "gau55_2023_estatal_n2_p15",
+          "figure": 1,
+          "sha256": "75713212610605a9f0b511268b32cfe5d9cccb34cd91f10d083d55eea4fc323a",
+          "width": 177,
+          "height": 159
+        },
+        {
+          "source_id": "gau55_2023_estatal_n2_p16",
+          "figure": 1,
+          "sha256": "876f3cdac3bfdb1aacdeb39ad90433148010a520a1a4f4c83da941b5963bbd87",
+          "width": 1092,
+          "height": 760
+        },
+        {
+          "source_id": "gau55_2023_estatal_n2_p23",
+          "figure": 1,
+          "sha256": "4303a086179fe6347b471841c9809fddc2f3a603db59f2b558b58ee52aee01e8",
+          "width": 520,
+          "height": 564
+        },
+        {
+          "source_id": "gau55_2023_estatal_n2_p24",
+          "figure": 1,
+          "sha256": "d15710f3793cd0da2986cd6de910f61afaa1406731759c73559acd8d2a60d501",
+          "width": 142,
+          "height": 208
+        },
+        {
+          "source_id": "gau55_2023_estatal_n2_p25",
+          "figure": 1,
+          "sha256": "a54e2a1a09ed9dded275bf71e0f5e5998d91b1c865a08921d823a9881cada01b",
+          "width": 136,
+          "height": 118
+        }
+      ],
+      "errors": [],
+      "warnings": [
+        "exam.classification_phase is not completed; review legacy or unfinished metadata.",
+        "exam.difficulty_phase is not completed; review legacy or unfinished metadata."
+      ]
+    }
+  },
+  "format_audit": {
+    "report": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.json",
+    "csv": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.csv",
+    "status": "passed",
+    "fields_rendered": 324,
+    "source_ids": [
+      "gau55_2023_estatal_n2_p01",
+      "gau55_2023_estatal_n2_p02",
+      "gau55_2023_estatal_n2_p03",
+      "gau55_2023_estatal_n2_p04",
+      "gau55_2023_estatal_n2_p05",
+      "gau55_2023_estatal_n2_p06",
+      "gau55_2023_estatal_n2_p07",
+      "gau55_2023_estatal_n2_p08",
+      "gau55_2023_estatal_n2_p09",
+      "gau55_2023_estatal_n2_p10",
+      "gau55_2023_estatal_n2_p11",
+      "gau55_2023_estatal_n2_p12",
+      "gau55_2023_estatal_n2_p13",
+      "gau55_2023_estatal_n2_p14",
+      "gau55_2023_estatal_n2_p15",
+      "gau55_2023_estatal_n2_p16",
+      "gau55_2023_estatal_n2_p17",
+      "gau55_2023_estatal_n2_p18",
+      "gau55_2023_estatal_n2_p19",
+      "gau55_2023_estatal_n2_p20",
+      "gau55_2023_estatal_n2_p21",
+      "gau55_2023_estatal_n2_p22",
+      "gau55_2023_estatal_n2_p23",
+      "gau55_2023_estatal_n2_p24",
+      "gau55_2023_estatal_n2_p25"
+    ],
+    "scope": "Formatting and structural recheck; prior mathematical/source reviews retained."
+  }
 }

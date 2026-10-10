@@ -438,74 +438,94 @@
       "notes": "Respuesta recalculada y contrastada con el PDF original."
     }
   ],
-  "structural_validation": [
-    {
-      "path": "02_JSON_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/6.º de primaria/FUSION_sin-fecha_selectivo-estatal-serie-2_6-de-primaria_verified.json",
-      "report": {
-        "ok": true,
-        "scope": "structure_options_image_decoding_hashes_classification_only",
-        "mathematical_verification": "not_performed_by_this_script",
-        "visual_source_comparison": "not_performed_by_this_script",
-        "latex_rendering": "not_performed_by_this_script",
-        "bank_sha256": "a05bd2ab3df7a7da84917d077cfd7664581c4a6b5436cad1eb27643faf4411ed",
-        "bytes": 44560,
-        "problems": 15,
-        "verified": 14,
-        "guided": 1,
-        "images": 2,
-        "figures": [
-          {
-            "source_id": "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q01",
-            "figure": 1,
-            "sha256": "70ce659c1b18ff7c85bb6c5e841b2a00707df715afec515c07c5878c015944dc",
-            "width": 190,
-            "height": 128
-          },
-          {
-            "source_id": "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q07",
-            "figure": 1,
-            "sha256": "d8f4896c51538c2a43c9fb84fecb9ef598327b38080c99dbfb3b98c735774a01",
-            "width": 172,
-            "height": 159
-          }
-        ],
-        "errors": [],
-        "warnings": []
-      }
+  "structural_validation": {
+    "verified": {
+      "ok": true,
+      "scope": "structure_options_image_decoding_hashes_classification_only",
+      "mathematical_verification": "not_performed_by_this_script",
+      "visual_source_comparison": "not_performed_by_this_script",
+      "latex_rendering": "not_performed_by_this_script",
+      "bank_sha256": "50fcdd667878975a2e8c4b544bafc462b62007fc96255d43e4c4bdaaee3e8e22",
+      "bytes": 44567,
+      "problems": 15,
+      "verified": 14,
+      "guided": 1,
+      "images": 2,
+      "figures": [
+        {
+          "source_id": "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q01",
+          "figure": 1,
+          "sha256": "70ce659c1b18ff7c85bb6c5e841b2a00707df715afec515c07c5878c015944dc",
+          "width": 190,
+          "height": 128
+        },
+        {
+          "source_id": "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q07",
+          "figure": 1,
+          "sha256": "d8f4896c51538c2a43c9fb84fecb9ef598327b38080c99dbfb3b98c735774a01",
+          "width": 172,
+          "height": 159
+        }
+      ],
+      "errors": [],
+      "warnings": []
     },
-    {
-      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/6.º de primaria/FUSION_sin-fecha_selectivo-estatal-serie-2_6-de-primaria_classified.json",
-      "report": {
-        "ok": true,
-        "scope": "structure_options_image_decoding_hashes_classification_only",
-        "mathematical_verification": "not_performed_by_this_script",
-        "visual_source_comparison": "not_performed_by_this_script",
-        "latex_rendering": "not_performed_by_this_script",
-        "bank_sha256": "88621dddf8b8e535c778137cb959d00fdd87099d69ad82977a6b859884c508cc",
-        "bytes": 52657,
-        "problems": 15,
-        "verified": 14,
-        "guided": 1,
-        "images": 2,
-        "figures": [
-          {
-            "source_id": "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q01",
-            "figure": 1,
-            "sha256": "70ce659c1b18ff7c85bb6c5e841b2a00707df715afec515c07c5878c015944dc",
-            "width": 190,
-            "height": 128
-          },
-          {
-            "source_id": "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q07",
-            "figure": 1,
-            "sha256": "d8f4896c51538c2a43c9fb84fecb9ef598327b38080c99dbfb3b98c735774a01",
-            "width": 172,
-            "height": 159
-          }
-        ],
-        "errors": [],
-        "warnings": []
-      }
+    "classified": {
+      "ok": true,
+      "scope": "structure_options_image_decoding_hashes_classification_only",
+      "mathematical_verification": "not_performed_by_this_script",
+      "visual_source_comparison": "not_performed_by_this_script",
+      "latex_rendering": "not_performed_by_this_script",
+      "bank_sha256": "f97ccb49b21329af412116869761e71076c5dab9f02c90ab56c92c35d6079eed",
+      "bytes": 52664,
+      "problems": 15,
+      "verified": 14,
+      "guided": 1,
+      "images": 2,
+      "figures": [
+        {
+          "source_id": "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q01",
+          "figure": 1,
+          "sha256": "70ce659c1b18ff7c85bb6c5e841b2a00707df715afec515c07c5878c015944dc",
+          "width": 190,
+          "height": 128
+        },
+        {
+          "source_id": "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q07",
+          "figure": 1,
+          "sha256": "d8f4896c51538c2a43c9fb84fecb9ef598327b38080c99dbfb3b98c735774a01",
+          "width": 172,
+          "height": 159
+        }
+      ],
+      "errors": [],
+      "warnings": []
     }
-  ]
+  },
+  "bank_sha256": "50fcdd667878975a2e8c4b544bafc462b62007fc96255d43e4c4bdaaee3e8e22",
+  "classified_bank_sha256": "f97ccb49b21329af412116869761e71076c5dab9f02c90ab56c92c35d6079eed",
+  "format_audit": {
+    "report": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.json",
+    "csv": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.csv",
+    "status": "passed",
+    "fields_rendered": 145,
+    "source_ids": [
+      "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q01",
+      "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q02",
+      "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q03",
+      "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q04",
+      "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q05",
+      "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q06",
+      "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q07",
+      "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q08",
+      "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q09",
+      "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q10",
+      "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q11",
+      "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q12",
+      "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q13",
+      "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q14",
+      "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q15"
+    ],
+    "scope": "Formatting and structural recheck; prior mathematical/source reviews retained."
+  }
 }

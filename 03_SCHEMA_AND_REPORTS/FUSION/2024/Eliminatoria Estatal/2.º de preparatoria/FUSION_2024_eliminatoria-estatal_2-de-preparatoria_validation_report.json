@@ -630,8 +630,8 @@
       ]
     }
   ],
-  "bank_sha256": "603e1a34f65f3f09986f689b9226a53b26bce16a34064adb33e3582f5f72d64a",
-  "classified_bank_sha256": "5955116509ae865865a378ef16234490950a02e9d854e00494939018ebc195ac",
+  "bank_sha256": "ccb1b1029c54016c663ca56fdaf6b057e07413a0071f713367926995f9a6ca6a",
+  "classified_bank_sha256": "4360c8f4e5c31de110905cbb088ea048c20589787bec23504273defeb7097b75",
   "counts": {
     "verified_problems": 9,
     "needs_review_or_invalid": 1,
@@ -652,8 +652,8 @@
       "mathematical_verification": "not_performed_by_this_script",
       "visual_source_comparison": "not_performed_by_this_script",
       "latex_rendering": "not_performed_by_this_script",
-      "bank_sha256": "603e1a34f65f3f09986f689b9226a53b26bce16a34064adb33e3582f5f72d64a",
-      "bytes": 97321,
+      "bank_sha256": "ccb1b1029c54016c663ca56fdaf6b057e07413a0071f713367926995f9a6ca6a",
+      "bytes": 97324,
       "problems": 10,
       "verified": 9,
       "guided": 1,
@@ -732,8 +732,8 @@
       "mathematical_verification": "not_performed_by_this_script",
       "visual_source_comparison": "not_performed_by_this_script",
       "latex_rendering": "not_performed_by_this_script",
-      "bank_sha256": "5955116509ae865865a378ef16234490950a02e9d854e00494939018ebc195ac",
-      "bytes": 102982,
+      "bank_sha256": "4360c8f4e5c31de110905cbb088ea048c20589787bec23504273defeb7097b75",
+      "bytes": 102985,
       "problems": 10,
       "verified": 9,
       "guided": 1,
@@ -807,5 +807,24 @@
       "warnings": []
     }
   },
-  "final_formula_audit": "Commands for ellipsis, degrees and pi restored and rendered; mathematical answers unchanged."
+  "final_formula_audit": "Commands for ellipsis, degrees and pi restored and rendered; mathematical answers unchanged.",
+  "format_audit": {
+    "report": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.json",
+    "csv": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.csv",
+    "status": "passed",
+    "fields_rendered": 80,
+    "source_ids": [
+      "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-preparatoria_q01",
+      "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-preparatoria_q02",
+      "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-preparatoria_q03",
+      "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-preparatoria_q04",
+      "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-preparatoria_q05",
+      "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-preparatoria_q06",
+      "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-preparatoria_q07",
+      "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-preparatoria_q08",
+      "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-preparatoria_q09",
+      "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-preparatoria_q10"
+    ],
+    "scope": "Formatting and structural recheck; prior mathematical/source reviews retained."
+  }
 }

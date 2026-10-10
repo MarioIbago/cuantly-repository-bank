@@ -887,7 +887,7 @@
       "source_page": 3,
       "language": "es",
       "format": "open_answer",
-      "problem_text": "Charlitos salió de vacaciones por algunos días y observó que llovió 7 veces en\ntotal. Cuando llovía por le mañana, estaba claro en la tarde, además solo 5 tardes y\n6 mañanas fueron claras. ¿Por cuantos días salió Charlitos de vacaciones?",
+      "problem_text": "Charlitos salió de vacaciones por algunos días y observó que llovió 7 veces en\ntotal. Cuando llovía por la mañana, estaba claro en la tarde, además solo 5 tardes y\n6 mañanas fueron claras. ¿Por cuántos días salió Charlitos de vacaciones?",
       "options": [],
       "correct_answer": "9 días",
       "correct_option_label": null,

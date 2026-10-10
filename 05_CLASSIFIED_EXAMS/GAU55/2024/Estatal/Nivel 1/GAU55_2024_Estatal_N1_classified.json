@@ -126,32 +126,32 @@
       "source_page": 1,
       "language": "es",
       "format": "multiple_choice",
-      "problem_text": "En la frutería de Angelito se venden plátanos, sandías y manzanas en \\($10.3\\), \\($8.5\\) y \\($9.7\\) el kilo respectivamente. Si María compra 2 kilos de plátanos, 2 kilos de sandía y 1 kilo de manzana, ¿cuánto le tendrá que cobrar Angelito?",
+      "problem_text": "En la frutería de Angelito se venden plátanos, sandías y manzanas en \\(\\text{\\textdollar}10.3\\), \\(\\text{\\textdollar}8.5\\) y \\(\\text{\\textdollar}9.7\\) el kilo respectivamente. Si María compra 2 kilos de plátanos, 2 kilos de sandía y 1 kilo de manzana, ¿cuánto le tendrá que cobrar Angelito?",
       "options": [
         {
           "label": "a",
-          "text": "$46.9"
+          "text": "\\$46.9"
         },
         {
           "label": "b",
-          "text": "$46.3"
+          "text": "\\$46.3"
         },
         {
           "label": "c",
-          "text": "$46.6"
+          "text": "\\$46.6"
         },
         {
           "label": "d",
-          "text": "$47"
+          "text": "\\$47"
         },
         {
           "label": "e",
-          "text": "$47.3"
+          "text": "\\$47.3"
         }
       ],
-      "correct_answer": "$47.3",
+      "correct_answer": "\\$47.3",
       "correct_option_label": "e",
-      "solution_text": "El costo es \\(2(10.3)+2(8.5)+1(9.7)=20.6+17+9.7=47.3\\). Por tanto, Angelito debe cobrar \\($47.30\\).",
+      "solution_text": "El costo es \\(2(10.3)+2(8.5)+1(9.7)=20.6+17+9.7=47.3\\). Por tanto, Angelito debe cobrar \\(\\text{\\textdollar}47.30\\).",
       "has_diagram": true,
       "problem_images": [
         {
@@ -170,17 +170,17 @@
         {
           "label": "a",
           "is_correct": false,
-          "reason": "Queda \\($0.40\\) por debajo del total correcto."
+          "reason": "Queda \\(\\text{\\textdollar}0.40\\) por debajo del total correcto."
         },
         {
           "label": "b",
           "is_correct": false,
-          "reason": "Queda \\($1.00\\) por debajo del total correcto."
+          "reason": "Queda \\(\\text{\\textdollar}1.00\\) por debajo del total correcto."
         },
         {
           "label": "c",
           "is_correct": false,
-          "reason": "Queda \\($0.70\\) por debajo del total correcto."
+          "reason": "Queda \\(\\text{\\textdollar}0.70\\) por debajo del total correcto."
         },
         {
           "label": "d",
@@ -223,30 +223,30 @@
       "source_page": 1,
       "language": "es",
       "format": "multiple_choice",
-      "problem_text": "Blanca y Pablo deciden salir al cine junto con su hija. Al llegar a la dulcería, compran un combo que incluye unas palomitas gigantes, tres refrescos grandes y dos crepas, cuyo costo total es de $465 pesos. Si deciden dividir el gasto en partes iguales, ¿cuánto pagará cada uno?",
+      "problem_text": "Blanca y Pablo deciden salir al cine junto con su hija. Al llegar a la dulcería, compran un combo que incluye unas palomitas gigantes, tres refrescos grandes y dos crepas, cuyo costo total es de \\$465 pesos. Si deciden dividir el gasto en partes iguales, ¿cuánto pagará cada uno?",
       "options": [
         {
           "label": "a",
-          "text": "$230"
+          "text": "\\$230"
         },
         {
           "label": "b",
-          "text": "$155"
+          "text": "\\$155"
         },
         {
           "label": "c",
-          "text": "$160"
+          "text": "\\$160"
         },
         {
           "label": "d",
-          "text": "$232.5"
+          "text": "\\$232.5"
         },
         {
           "label": "e",
-          "text": "$150"
+          "text": "\\$150"
         }
       ],
-      "correct_answer": "$155",
+      "correct_answer": "\\$155",
       "correct_option_label": "b",
       "solution_text": "Son tres personas: Blanca, Pablo y su hija. Al dividir en partes iguales, \\(465\\div3=155\\).",
       "has_diagram": false,
@@ -265,7 +265,7 @@
         {
           "label": "c",
           "is_correct": false,
-          "reason": "Tres pagos de \\($160\\) sumarían \\($480\\)."
+          "reason": "Tres pagos de \\(\\text{\\textdollar}160\\) sumarían \\(\\text{\\textdollar}480\\)."
         },
         {
           "label": "d",
@@ -275,7 +275,7 @@
         {
           "label": "e",
           "is_correct": false,
-          "reason": "Tres pagos de \\($150\\) sumarían \\($450\\)."
+          "reason": "Tres pagos de \\(\\text{\\textdollar}150\\) sumarían \\(\\text{\\textdollar}450\\)."
         }
       ],
       "verification": {
@@ -306,30 +306,30 @@
       "source_page": 1,
       "language": "es",
       "format": "multiple_choice",
-      "problem_text": "Erick decide invertir su dinero en un banco que ofrece la siguiente garantía: \"El banco multiplicará tu monto inicial por cada mes que dejes el dinero invertido\". Si, al cabo de un año, Erick recibe $48,000 pesos, ¿cuánto dinero invirtió inicialmente?",
+      "problem_text": "Erick decide invertir su dinero en un banco que ofrece la siguiente garantía: \"El banco multiplicará tu monto inicial por cada mes que dejes el dinero invertido\". Si, al cabo de un año, Erick recibe \\$48,000 pesos, ¿cuánto dinero invirtió inicialmente?",
       "options": [
         {
           "label": "a",
-          "text": "$4,800"
+          "text": "\\$4,800"
         },
         {
           "label": "b",
-          "text": "$5,000"
+          "text": "\\$5,000"
         },
         {
           "label": "c",
-          "text": "$4,000"
+          "text": "\\$4,000"
         },
         {
           "label": "d",
-          "text": "$4,200"
+          "text": "\\$4,200"
         },
         {
           "label": "e",
-          "text": "$2,400"
+          "text": "\\$2,400"
         }
       ],
-      "correct_answer": "$4,000",
+      "correct_answer": "\\$4,000",
       "correct_option_label": "c",
       "solution_text": "Interpretando la garantía como que después de \\(m\\) meses se recibe \\(m\\) veces el monto inicial, un año son 12 meses. Si \\(12x=48{,}000\\), entonces \\(x=48{,}000/12=4{,}000\\).",
       "has_diagram": false,
@@ -961,30 +961,30 @@
       "source_page": 2,
       "language": "es",
       "format": "multiple_choice",
-      "problem_text": "Miguel fue a la tienda de abarrotes de su barrio y compró un litro de jugo por $20, dos barras de chocolate por $30 y una bolsa de papas por $15. Si el dueño le ofrece un 10% de descuento en su compra total, ¿cuánto pagará Miguel después del descuento?",
+      "problem_text": "Miguel fue a la tienda de abarrotes de su barrio y compró un litro de jugo por \\$20, dos barras de chocolate por \\$30 y una bolsa de papas por \\$15. Si el dueño le ofrece un 10% de descuento en su compra total, ¿cuánto pagará Miguel después del descuento?",
       "options": [
         {
           "label": "a",
-          "text": "$58.50"
+          "text": "\\$58.50"
         },
         {
           "label": "b",
-          "text": "$60.50"
+          "text": "\\$60.50"
         },
         {
           "label": "c",
-          "text": "$61.00"
+          "text": "\\$61.00"
         },
         {
           "label": "d",
-          "text": "$63.00"
+          "text": "\\$63.00"
         },
         {
           "label": "e",
-          "text": "$65.00"
+          "text": "\\$65.00"
         }
       ],
-      "correct_answer": "$58.50",
+      "correct_answer": "\\$58.50",
       "correct_option_label": "a",
       "solution_text": "La compra suma \\(20+30+15=65\\) pesos. El descuento es \\(0.10(65)=6.50\\). Entonces paga \\(65-6.50=58.50\\) pesos.",
       "has_diagram": false,
@@ -1409,32 +1409,32 @@
       "source_page": 3,
       "language": "es",
       "format": "multiple_choice",
-      "problem_text": "Leopoldo ganó $18.75 en un concurso de matemáticas y decidió dividir el premio equitativamente entre él y sus dos hermanos. ¿Cuánto recibirá cada uno?",
+      "problem_text": "Leopoldo ganó \\$18.75 en un concurso de matemáticas y decidió dividir el premio equitativamente entre él y sus dos hermanos. ¿Cuánto recibirá cada uno?",
       "options": [
         {
           "label": "a",
-          "text": "$6.25"
+          "text": "\\$6.25"
         },
         {
           "label": "b",
-          "text": "$6.15"
+          "text": "\\$6.15"
         },
         {
           "label": "c",
-          "text": "$6.05"
+          "text": "\\$6.05"
         },
         {
           "label": "d",
-          "text": "$6.50"
+          "text": "\\$6.50"
         },
         {
           "label": "e",
-          "text": "$6.75"
+          "text": "\\$6.75"
         }
       ],
-      "correct_answer": "$6.25",
+      "correct_answer": "\\$6.25",
       "correct_option_label": "a",
-      "solution_text": "Son tres personas. \\(18.75\\div3=6.25\\), así que cada uno recibe \\($6.25\\).",
+      "solution_text": "Son tres personas. \\(18.75\\div3=6.25\\), así que cada uno recibe \\(\\text{\\textdollar}6.25\\).",
       "has_diagram": false,
       "problem_images": [],
       "option_analysis": [
@@ -1871,7 +1871,7 @@
       "source_page": 4,
       "language": "es",
       "format": "multiple_choice",
-      "problem_text": "Ruth acaba de romper su alcancía. En total ahorró $154; el 75% del número total de monedas son de $2 y el resto son de $5. ¿Cuántas monedas tiene en total Ruth?",
+      "problem_text": "Ruth acaba de romper su alcancía. En total ahorró \\$154; el 75% del número total de monedas son de \\$2 y el resto son de \\$5. ¿Cuántas monedas tiene en total Ruth?",
       "options": [
         {
           "label": "a",
@@ -1896,14 +1896,14 @@
       ],
       "correct_answer": "56 monedas",
       "correct_option_label": "c",
-      "solution_text": "Sea \\(N\\) el número total de monedas. Hay \\(\\frac34N\\) monedas de $2 y \\(\\frac14N\\) monedas de $5. Entonces \\(2(\\frac34N)+5(\\frac14N)=154\\), es decir, \\(\\frac{11}{4}N=154\\). Por tanto \\(N=154\\cdot\\frac4{11}=56\\).",
+      "solution_text": "Sea \\(N\\) el número total de monedas. Hay \\(\\frac34N\\) monedas de \\$2 y \\(\\frac14N\\) monedas de \\$5. Entonces \\(2(\\frac34N)+5(\\frac14N)=154\\), es decir, \\(\\frac{11}{4}N=154\\). Por tanto \\(N=154\\cdot\\frac4{11}=56\\).",
       "has_diagram": false,
       "problem_images": [],
       "option_analysis": [
         {
           "label": "a",
           "is_correct": false,
-          "reason": "Con 83 monedas no se obtiene $154 respetando la proporción 75%-25%."
+          "reason": "Con 83 monedas no se obtiene \\$154 respetando la proporción 75%-25%."
         },
         {
           "label": "b",
@@ -2253,35 +2253,35 @@
       "options": [
         {
           "label": "a",
-          "text": "$43,600 Fita y $21,800 Israel"
+          "text": "\\$43,600 Fita y \\$21,800 Israel"
         },
         {
           "label": "b",
-          "text": "$32,700 Fita y $32,700 Israel"
+          "text": "\\$32,700 Fita y \\$32,700 Israel"
         },
         {
           "label": "c",
-          "text": "$32,700 Fita y $32,700 Israel"
+          "text": "\\$32,700 Fita y \\$32,700 Israel"
         },
         {
           "label": "d",
-          "text": "$49,050 Fita y $16,350 Israel"
+          "text": "\\$49,050 Fita y \\$16,350 Israel"
         },
         {
           "label": "e",
-          "text": "$39,240 Fita y $26,160 Israel"
+          "text": "\\$39,240 Fita y \\$26,160 Israel"
         }
       ],
-      "correct_answer": "$43,600 Fita y $21,800 Israel",
+      "correct_answer": "\\$43,600 Fita y \\$21,800 Israel",
       "correct_option_label": "a",
-      "solution_text": "El trabajo está en razón \\(2:1\\), por lo que el total se divide en 3 partes iguales. Cada parte vale \\(65{,}400/3=21{,}800\\). Israel recibe una parte: \\($21{,}800\\), y Fita dos: \\($43{,}600\\).",
+      "solution_text": "El trabajo está en razón \\(2:1\\), por lo que el total se divide en 3 partes iguales. Cada parte vale \\(65{,}400/3=21{,}800\\). Israel recibe una parte: \\(\\text{\\textdollar}21{,}800\\), y Fita dos: \\(\\text{\\textdollar}43{,}600\\).",
       "has_diagram": false,
       "problem_images": [],
       "option_analysis": [
         {
           "label": "a",
           "is_correct": true,
-          "reason": "Mantiene la razón \\(2:1\\) y suma \\($65{,}400\\)."
+          "reason": "Mantiene la razón \\(2:1\\) y suma \\(\\text{\\textdollar}65{,}400\\)."
         },
         {
           "label": "b",

@@ -1,5 +1,5 @@
 {
-  "schema_version": "cuantly-problems-exam-v1",
+  "schema_version": "1.0",
   "source_format_reference": "Compatible in spirit with Cuantly all_complete.json: source_id, collection, subcategory, problem_number, language, format, problem_text, options, correct_answer, solution_text, has_diagram; extended with embedded Base64 images, option_analysis and verification.",
   "exam": {
     "competition": "GAU55",

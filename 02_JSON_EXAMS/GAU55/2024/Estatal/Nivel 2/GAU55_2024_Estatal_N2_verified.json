@@ -32,30 +32,30 @@
       "source_page": 1,
       "language": "es",
       "format": "multiple_choice",
-      "problem_text": "Juanita vende pasteles a \\($160\\) cada uno y ofrece un descuento del \\(25\\%\\). Si Pedro recibe el descuento, ¿cuánto pagará?",
+      "problem_text": "Juanita vende pasteles a \\(\\text{\\textdollar}160\\) cada uno y ofrece un descuento del \\(25\\%\\). Si Pedro recibe el descuento, ¿cuánto pagará?",
       "options": [
         {
           "label": "a",
-          "text": "$150"
+          "text": "\\$150"
         },
         {
           "label": "b",
-          "text": "$200"
+          "text": "\\$200"
         },
         {
           "label": "c",
-          "text": "$135"
+          "text": "\\$135"
         },
         {
           "label": "d",
-          "text": "$40"
+          "text": "\\$40"
         },
         {
           "label": "e",
-          "text": "$120"
+          "text": "\\$120"
         }
       ],
-      "correct_answer": "$120",
+      "correct_answer": "\\$120",
       "correct_option_label": "e",
       "solution_text": "El descuento es \\(0.25(160)=40\\). Por tanto, Pedro paga \\(160-40=120\\) pesos.",
       "has_diagram": false,
@@ -64,7 +64,7 @@
         {
           "label": "a",
           "is_correct": false,
-          "reason": "Equivale a descontar solo $10."
+          "reason": "Equivale a descontar solo \\$10."
         },
         {
           "label": "b",
@@ -242,7 +242,7 @@
       "source_page": 1,
       "language": "es",
       "format": "multiple_choice",
-      "problem_text": "Cada paquete de galletas cuesta \\($20\\) y por cada 6 paquetes comprados regalan 1 adicional. ¿Cuántos paquetes se pueden obtener con \\($200\\)?",
+      "problem_text": "Cada paquete de galletas cuesta \\(\\text{\\textdollar}20\\) y por cada 6 paquetes comprados regalan 1 adicional. ¿Cuántos paquetes se pueden obtener con \\(\\text{\\textdollar}200\\)?",
       "options": [
         {
           "label": "a",
@@ -267,7 +267,7 @@
       ],
       "correct_answer": "11",
       "correct_option_label": "e",
-      "solution_text": "Con \\($200\\) se compran \\(200/20=10\\) paquetes. Al haber comprado al menos 6, se obtiene 1 paquete gratis. En total son \\(10+1=11\\) paquetes.",
+      "solution_text": "Con \\(\\text{\\textdollar}200\\) se compran \\(200/20=10\\) paquetes. Al haber comprado al menos 6, se obtiene 1 paquete gratis. En total son \\(10+1=11\\) paquetes.",
       "has_diagram": false,
       "problem_images": [],
       "option_analysis": [
@@ -395,27 +395,27 @@
       "source_page": 1,
       "language": "es",
       "format": "multiple_choice",
-      "problem_text": "En la tienda de Alexa, Angelito compró dos aguas, tres paletas de hielo, un panqué de nuez y tres jugos de manzana, asociados en el enunciado con \\($20.2\\), \\($28.6\\), \\($30.7\\) y \\($40.8\\), respectivamente. Verónica abonó \\($29.5\\) a la cuenta y Alexa pidió a Angelito pagar solo dos terceras partes del monto restante. ¿Cuánto terminó pagando Angelito?",
+      "problem_text": "En la tienda de Alexa, Angelito compró dos aguas, tres paletas de hielo, un panqué de nuez y tres jugos de manzana, asociados en el enunciado con \\(\\text{\\textdollar}20.2\\), \\(\\text{\\textdollar}28.6\\), \\(\\text{\\textdollar}30.7\\) y \\(\\text{\\textdollar}40.8\\), respectivamente. Verónica abonó \\(\\text{\\textdollar}29.5\\) a la cuenta y Alexa pidió a Angelito pagar solo dos terceras partes del monto restante. ¿Cuánto terminó pagando Angelito?",
       "options": [
         {
           "label": "a",
-          "text": "\\($60.\\overline{3}\\)"
+          "text": "\\(\\text{\\textdollar}60.\\overline{3}\\)"
         },
         {
           "label": "b",
-          "text": "\\($40.\\overline{3}\\)"
+          "text": "\\(\\text{\\textdollar}40.\\overline{3}\\)"
         },
         {
           "label": "c",
-          "text": "\\($30.\\overline{3}\\)"
+          "text": "\\(\\text{\\textdollar}30.\\overline{3}\\)"
         },
         {
           "label": "d",
-          "text": "\\($90.\\overline{3}\\)"
+          "text": "\\(\\text{\\textdollar}90.\\overline{3}\\)"
         },
         {
           "label": "e",
-          "text": "\\($20.\\overline{3}\\)"
+          "text": "\\(\\text{\\textdollar}20.\\overline{3}\\)"
         }
       ],
       "correct_answer": null,
@@ -427,7 +427,7 @@
         {
           "label": "a",
           "is_correct": false,
-          "reason": "La interpretación por totales da \\($60.5\\overline{3}\\), no \\($60.\\overline{3}\\)."
+          "reason": "La interpretación por totales da \\(\\text{\\textdollar}60.5\\overline{3}\\), no \\(\\text{\\textdollar}60.\\overline{3}\\)."
         },
         {
           "label": "b",
@@ -455,7 +455,7 @@
         "answer_checked": true,
         "all_options_checked": true,
         "latex_checked": true,
-        "notes": "El enunciado/opciones contienen una inconsistencia numérica. La interpretación más favorable da $60.5\\overline{3}, mientras que la opción a muestra $60.\\overline{3}."
+        "notes": "El enunciado/opciones contienen una inconsistencia numérica. La interpretación más favorable da \\$60.5\\overline{3}, mientras que la opción a muestra \\$60.\\overline{3}."
       }
     },
     {
@@ -548,7 +548,7 @@
       "source_page": 1,
       "language": "es",
       "format": "multiple_choice",
-      "problem_text": "Se registraron \\($3,325,657,689,128\\) en activos y \\($1,435,442,777,229\\) en pasivos. A la diferencia se le llama “Ganancia total”. ¿Qué cifra está en la posición de las centenas de millón?",
+      "problem_text": "Se registraron \\(\\text{\\textdollar}3,325,657,689,128\\) en activos y \\(\\text{\\textdollar}1,435,442,777,229\\) en pasivos. A la diferencia se le llama “Ganancia total”. ¿Qué cifra está en la posición de las centenas de millón?",
       "options": [
         {
           "label": "a",

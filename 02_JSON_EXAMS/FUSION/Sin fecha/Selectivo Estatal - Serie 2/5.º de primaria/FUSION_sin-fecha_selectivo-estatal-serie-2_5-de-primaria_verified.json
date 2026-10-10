@@ -844,7 +844,7 @@
       "source_page": 3,
       "language": "es",
       "format": "open_answer",
-      "problem_text": "Lulú quiere construir un rectángulo con dimensiones enteras, que tenga la mayor\nárea posible y cuyo perímetro sea 18cm. ¿Cuántos centímetros miden sus lados?",
+      "problem_text": "Lulú quiere construir un rectángulo con dimensiones enteras, que tenga la mayor\nárea posible y cuyo perímetro sea 18 cm. ¿Cuántos centímetros miden sus lados?",
       "options": [],
       "correct_answer": "4 cm y 5 cm",
       "correct_option_label": null,

@@ -513,8 +513,8 @@
       ]
     }
   ],
-  "bank_sha256": "aa6a66dd639541ee75a533f04fe0e6d87217ada2b3cbf0acacd8c9874e4994c2",
-  "classified_bank_sha256": "9010454a48fa25ea98f8930e41d630050f2f0c3445552e16dc407c9b97352b3c",
+  "bank_sha256": "6c269b646d646d1ddf453ebee007acf68423dc0e7e7802d2541594b4ba72093a",
+  "classified_bank_sha256": "5584105ffe861f4628843b81d7ef71fee31f79b0439ababdb0137e0593e5e7f1",
   "counts": {
     "verified_problems": 15,
     "needs_review_or_invalid": 1,
@@ -535,8 +535,8 @@
       "mathematical_verification": "not_performed_by_this_script",
       "visual_source_comparison": "not_performed_by_this_script",
       "latex_rendering": "not_performed_by_this_script",
-      "bank_sha256": "aa6a66dd639541ee75a533f04fe0e6d87217ada2b3cbf0acacd8c9874e4994c2",
-      "bytes": 106193,
+      "bank_sha256": "6c269b646d646d1ddf453ebee007acf68423dc0e7e7802d2541594b4ba72093a",
+      "bytes": 106207,
       "problems": 16,
       "verified": 15,
       "guided": 1,
@@ -608,8 +608,8 @@
       "mathematical_verification": "not_performed_by_this_script",
       "visual_source_comparison": "not_performed_by_this_script",
       "latex_rendering": "not_performed_by_this_script",
-      "bank_sha256": "9010454a48fa25ea98f8930e41d630050f2f0c3445552e16dc407c9b97352b3c",
-      "bytes": 114728,
+      "bank_sha256": "5584105ffe861f4628843b81d7ef71fee31f79b0439ababdb0137e0593e5e7f1",
+      "bytes": 114742,
       "problems": 16,
       "verified": 15,
       "guided": 1,
@@ -675,5 +675,30 @@
       "errors": [],
       "warnings": []
     }
+  },
+  "format_audit": {
+    "report": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.json",
+    "csv": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.csv",
+    "status": "passed",
+    "fields_rendered": 48,
+    "source_ids": [
+      "fusion6_examenes-selectivos-estatales-fusion-26_4-de-primaria_q01",
+      "fusion6_examenes-selectivos-estatales-fusion-26_4-de-primaria_q02",
+      "fusion6_examenes-selectivos-estatales-fusion-26_4-de-primaria_q03",
+      "fusion6_examenes-selectivos-estatales-fusion-26_4-de-primaria_q04",
+      "fusion6_examenes-selectivos-estatales-fusion-26_4-de-primaria_q05",
+      "fusion6_examenes-selectivos-estatales-fusion-26_4-de-primaria_q06",
+      "fusion6_examenes-selectivos-estatales-fusion-26_4-de-primaria_q07",
+      "fusion6_examenes-selectivos-estatales-fusion-26_4-de-primaria_q08",
+      "fusion6_examenes-selectivos-estatales-fusion-26_4-de-primaria_q09",
+      "fusion6_examenes-selectivos-estatales-fusion-26_4-de-primaria_q10",
+      "fusion6_examenes-selectivos-estatales-fusion-26_4-de-primaria_q11",
+      "fusion6_examenes-selectivos-estatales-fusion-26_4-de-primaria_q12",
+      "fusion6_examenes-selectivos-estatales-fusion-26_4-de-primaria_q13",
+      "fusion6_examenes-selectivos-estatales-fusion-26_4-de-primaria_q14",
+      "fusion6_examenes-selectivos-estatales-fusion-26_4-de-primaria_q15",
+      "fusion6_examenes-selectivos-estatales-fusion-26_4-de-primaria_q16"
+    ],
+    "scope": "Formatting and structural recheck; prior mathematical/source reviews retained."
   }
 }

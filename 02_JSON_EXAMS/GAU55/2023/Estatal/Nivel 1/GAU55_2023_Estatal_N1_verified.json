@@ -579,7 +579,7 @@
       "source_page": 2,
       "language": "es",
       "format": "multiple_choice",
-      "problem_text": "Adrián está ahorrando dinero en su alcancía de una manera especial. Cada vez que la fecha es un múltiplo de 3, agrega dinero a su alcancía. Por ejemplo, la primera vez en el 3 de octubre, agregó \\(\\$1+\\$3\\), la segunda vez en el 6 de octubre, agregó \\(\\$2+\\$6\\), la tercera vez en el 9 de octubre, agregó \\(\\$3+\\$9\\), y así sucesivamente. Ahora, ¿en qué fecha Adrián agregó \\(\\$40\\) a su alcancía?",
+      "problem_text": "Adrián está ahorrando dinero en su alcancía de una manera especial. Cada vez que la fecha es un múltiplo de 3, agrega dinero a su alcancía. Por ejemplo, la primera vez en el 3 de octubre, agregó \\(\\text{\\textdollar}1+\\text{\\textdollar}3\\), la segunda vez en el 6 de octubre, agregó \\(\\text{\\textdollar}2+\\text{\\textdollar}6\\), la tercera vez en el 9 de octubre, agregó \\(\\text{\\textdollar}3+\\text{\\textdollar}9\\), y así sucesivamente. Ahora, ¿en qué fecha Adrián agregó \\(\\text{\\textdollar}40\\) a su alcancía?",
       "options": [
         {
           "label": "a",
@@ -958,7 +958,7 @@
       "source_page": 2,
       "language": "es",
       "format": "multiple_choice",
-      "problem_text": "En una farmacia, hay gel antibacterial en presentaciones de 800 ml por \\(\\$200.00\\) y de 1.02 litros por \\(\\$255.00\\). Luis gastó exactamente \\(\\$1,765.00\\) comprando botellas de ambas presentaciones. ¿Cuántos mililitros de gel antibacterial compró Luis en total?",
+      "problem_text": "En una farmacia, hay gel antibacterial en presentaciones de 800 ml por \\(\\text{\\textdollar}200.00\\) y de 1.02 litros por \\(\\text{\\textdollar}255.00\\). Luis gastó exactamente \\(\\text{\\textdollar}1,765.00\\) comprando botellas de ambas presentaciones. ¿Cuántos mililitros de gel antibacterial compró Luis en total?",
       "options": [
         {
           "label": "a",
@@ -990,7 +990,7 @@
         {
           "label": "a",
           "is_correct": false,
-          "reason": "No corresponde a la combinación entera que suma exactamente $1,765."
+          "reason": "No corresponde a la combinación entera que suma exactamente \\$1,765."
         },
         {
           "label": "b",
@@ -1728,7 +1728,7 @@
       "source_page": 4,
       "language": "es",
       "format": "multiple_choice",
-      "problem_text": "Salvador está ahorrando dinero para comprar su videojuego favorito, que cuesta \\(\\$600\\). Hasta ahora, ha ahorrado \\(\\$270\\). ¿En porcentaje cuánto del precio total del videojuego ha ahorrado?",
+      "problem_text": "Salvador está ahorrando dinero para comprar su videojuego favorito, que cuesta \\(\\text{\\textdollar}600\\). Hasta ahora, ha ahorrado \\(\\text{\\textdollar}270\\). ¿En porcentaje cuánto del precio total del videojuego ha ahorrado?",
       "options": [
         {
           "label": "a",
@@ -1799,30 +1799,30 @@
       "source_page": 4,
       "language": "es",
       "format": "multiple_choice",
-      "problem_text": "David y su hermana van a una feria y llevan cierta cantidad de dinero para gastar. Deciden comprar boletos para dos atracciones: el carrusel y el tiovivo. En el carrusel gastan \\(\\frac23\\) del dinero que llevaban. Luego, en el tiovivo, gastan la mitad de lo que les quedaba. Finalmente compran 2 helados. ¿Cuánto dinero llevaron David y su hermana para gastar en la feria, si cada helado cuesta \\(\\$2.50\\)?",
+      "problem_text": "David y su hermana van a una feria y llevan cierta cantidad de dinero para gastar. Deciden comprar boletos para dos atracciones: el carrusel y el tiovivo. En el carrusel gastan \\(\\frac23\\) del dinero que llevaban. Luego, en el tiovivo, gastan la mitad de lo que les quedaba. Finalmente compran 2 helados. ¿Cuánto dinero llevaron David y su hermana para gastar en la feria, si cada helado cuesta \\(\\text{\\textdollar}2.50\\)?",
       "options": [
         {
           "label": "a",
-          "text": "$15.00"
+          "text": "\\$15.00"
         },
         {
           "label": "b",
-          "text": "$20.00"
+          "text": "\\$20.00"
         },
         {
           "label": "c",
-          "text": "$25.00"
+          "text": "\\$25.00"
         },
         {
           "label": "d",
-          "text": "$30.00"
+          "text": "\\$30.00"
         },
         {
           "label": "e",
-          "text": "$35.00"
+          "text": "\\$35.00"
         }
       ],
-      "correct_answer": "$30.00",
+      "correct_answer": "\\$30.00",
       "correct_option_label": "d",
       "solution_text": "Sea \\(x\\) el dinero inicial. Tras gastar \\(\\frac23x\\), queda \\(\\frac13x\\). Luego gastan la mitad de lo restante, por lo que queda \\(\\frac16x\\). Si se interpreta que esos \\(\\frac16x\\) se usan exactamente para comprar los dos helados, entonces \\(\\frac16x=2(2.50)=5\\), de donde \\(x=30\\).",
       "has_diagram": false,
@@ -1831,27 +1831,27 @@
         {
           "label": "a",
           "is_correct": false,
-          "reason": "Bajo la suposición de gastar todo el remanente en helados, dejaría solo $2.50."
+          "reason": "Bajo la suposición de gastar todo el remanente en helados, dejaría solo \\$2.50."
         },
         {
           "label": "b",
           "is_correct": false,
-          "reason": "Dejaría $3.33 aproximadamente, insuficiente para dos helados."
+          "reason": "Dejaría \\$3.33 aproximadamente, insuficiente para dos helados."
         },
         {
           "label": "c",
           "is_correct": false,
-          "reason": "Dejaría $4.17 aproximadamente, insuficiente para dos helados."
+          "reason": "Dejaría \\$4.17 aproximadamente, insuficiente para dos helados."
         },
         {
           "label": "d",
           "is_correct": true,
-          "reason": "Un sexto de $30 son $5, exactamente el costo de dos helados."
+          "reason": "Un sexto de \\$30 son \\$5, exactamente el costo de dos helados."
         },
         {
           "label": "e",
           "is_correct": false,
-          "reason": "Dejaría $5.83, por lo que sobraría dinero después de comprar los helados."
+          "reason": "Dejaría \\$5.83, por lo que sobraría dinero después de comprar los helados."
         }
       ],
       "verification": {

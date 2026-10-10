@@ -582,7 +582,7 @@
       "options": [],
       "correct_answer": "40 enteros",
       "correct_option_label": null,
-      "solution_text": "1. Tener cuatro cifras equivale a estar entre 1000 y 9999, incluidos.\n2. Si n no tiene cuatro cifras pero n+20 sí, entonces \\(980le n\\le 999\\): hay 20 números.\n3. Si n tiene cuatro cifras y n+20 no, entonces \\(9980le n\\le 9999\\): otros 20.\n4. Los intervalos no se superponen. Total \\(20+20=\\mathbf{40}\\). Los límites 979 y 1000, así como 9979 y 10000, comprueban dónde deja de cumplirse la condición.",
+      "solution_text": "1. Tener cuatro cifras equivale a estar entre 1000 y 9999, incluidos.\n2. Si n no tiene cuatro cifras pero n+20 sí, entonces \\(980\\le n\\le 999\\): hay 20 números.\n3. Si n tiene cuatro cifras y n+20 no, entonces \\(9980\\le n\\le 9999\\): otros 20.\n4. Los intervalos no se superponen. Total \\(20+20=\\mathbf{40}\\). Los límites 979 y 1000, así como 9979 y 10000, comprueban dónde deja de cumplirse la condición.",
       "has_diagram": false,
       "problem_images": [],
       "option_analysis": [],

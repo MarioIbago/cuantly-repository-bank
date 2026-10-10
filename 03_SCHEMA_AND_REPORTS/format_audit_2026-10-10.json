@@ -1,0 +1,3390 @@
+{
+  "status": "passed",
+  "source_base_commit": "d7c89f2d91cce0f3f3aaf03ac092dd03ce53a882",
+  "consumer_base_commit": "0d4b0d8dbafe3a046e29d26066371144737b055e",
+  "method": "Three Luna agents reviewed every canonical problem. Parent applied exact formatting corrections in memory; ran the published MathContent React/remark-math/rehype-katex renderer; counted expected mathematical expressions; validated JSON/image decoding/dimensions/hashes.",
+  "scope": "All 989 canonical problems across 97 collections; no sampling.",
+  "limits": "This formatting audit does not repeat prior mathematical proofs or PDF visual comparisons. Source PDFs and canonical figures remain unchanged. Guided questions retain their grading restrictions. Generic option-analysis prose was not rewritten.",
+  "agent_coverage": [
+    {
+      "agent": "luna_format_fusion1",
+      "banks": 45,
+      "problems": 183
+    },
+    {
+      "agent": "luna_format_fusion2_4",
+      "banks": 25,
+      "problems": 330
+    },
+    {
+      "agent": "luna_format_fusion5_6_gau",
+      "banks": 27,
+      "problems": 476
+    }
+  ],
+  "totals": {
+    "banks": 97,
+    "problems": 989,
+    "fields_rendered": 7511,
+    "initial_katex_error_fields": 13,
+    "final_katex_error_fields": 0,
+    "missing_or_unexpected_math_expressions": 0,
+    "images": 356,
+    "verified": 892,
+    "guided": 97,
+    "correction_rows": 464,
+    "corrected_problems": 165,
+    "changed_canonical_banks": 65,
+    "validated_canonical_and_mirror_banks": 160
+  },
+  "csv": {
+    "path": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.csv",
+    "sha256": "01fe6d005831deaf58bf72d1eafb0f65f362c55e8fbfd5eac11c6dbfa251f9d2",
+    "bytes": 349057
+  },
+  "coverage": [
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2025/Selectivo Estatal/1.º de preparatoria/FUSION_2025_selectivo-estatal_1-de-preparatoria_classified.json",
+      "sha256": "5f2dca900ffac8749322592098ea00b01e09cf0be49a596898f2efccbb709f2e",
+      "bytes": 80588,
+      "problem_count": 15,
+      "source_ids": [
+        "fusion5_examenes-selectivos-estatales_1-de-preparatoria_q01",
+        "fusion5_examenes-selectivos-estatales_1-de-preparatoria_q02",
+        "fusion5_examenes-selectivos-estatales_1-de-preparatoria_q03",
+        "fusion5_examenes-selectivos-estatales_1-de-preparatoria_q04",
+        "fusion5_examenes-selectivos-estatales_1-de-preparatoria_q05",
+        "fusion5_examenes-selectivos-estatales_1-de-preparatoria_q06",
+        "fusion5_examenes-selectivos-estatales_1-de-preparatoria_q07",
+        "fusion5_examenes-selectivos-estatales_1-de-preparatoria_q08",
+        "fusion5_examenes-selectivos-estatales_1-de-preparatoria_q09",
+        "fusion5_examenes-selectivos-estatales_1-de-preparatoria_q10",
+        "fusion5_examenes-selectivos-estatales_1-de-preparatoria_q11",
+        "fusion5_examenes-selectivos-estatales_1-de-preparatoria_q12",
+        "fusion5_examenes-selectivos-estatales_1-de-preparatoria_q13",
+        "fusion5_examenes-selectivos-estatales_1-de-preparatoria_q14",
+        "fusion5_examenes-selectivos-estatales_1-de-preparatoria_q15"
+      ],
+      "fields_rendered": 125,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2025/Selectivo Estatal/1.º de secundaria/FUSION_2025_selectivo-estatal_1-de-secundaria_classified.json",
+      "sha256": "c291e63db2035bb857a006d59cf11014007e3e819746aabfa99d48f635a30c98",
+      "bytes": 61021,
+      "problem_count": 15,
+      "source_ids": [
+        "fusion5_examenes-selectivos-estatales_1-de-secundaria_q01",
+        "fusion5_examenes-selectivos-estatales_1-de-secundaria_q02",
+        "fusion5_examenes-selectivos-estatales_1-de-secundaria_q03",
+        "fusion5_examenes-selectivos-estatales_1-de-secundaria_q04",
+        "fusion5_examenes-selectivos-estatales_1-de-secundaria_q05",
+        "fusion5_examenes-selectivos-estatales_1-de-secundaria_q06",
+        "fusion5_examenes-selectivos-estatales_1-de-secundaria_q07",
+        "fusion5_examenes-selectivos-estatales_1-de-secundaria_q08",
+        "fusion5_examenes-selectivos-estatales_1-de-secundaria_q09",
+        "fusion5_examenes-selectivos-estatales_1-de-secundaria_q10",
+        "fusion5_examenes-selectivos-estatales_1-de-secundaria_q11",
+        "fusion5_examenes-selectivos-estatales_1-de-secundaria_q12",
+        "fusion5_examenes-selectivos-estatales_1-de-secundaria_q13",
+        "fusion5_examenes-selectivos-estatales_1-de-secundaria_q14",
+        "fusion5_examenes-selectivos-estatales_1-de-secundaria_q15"
+      ],
+      "fields_rendered": 125,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2025/Selectivo Estatal/2.º de preparatoria/FUSION_2025_selectivo-estatal_2-de-preparatoria_classified.json",
+      "sha256": "481350d0a5aab1c97375ac08461409a14a3c30f0488c00012d2d748a2eef447f",
+      "bytes": 104219,
+      "problem_count": 15,
+      "source_ids": [
+        "fusion5_examenes-selectivos-estatales_2-de-preparatoria_q01",
+        "fusion5_examenes-selectivos-estatales_2-de-preparatoria_q02",
+        "fusion5_examenes-selectivos-estatales_2-de-preparatoria_q03",
+        "fusion5_examenes-selectivos-estatales_2-de-preparatoria_q04",
+        "fusion5_examenes-selectivos-estatales_2-de-preparatoria_q05",
+        "fusion5_examenes-selectivos-estatales_2-de-preparatoria_q06",
+        "fusion5_examenes-selectivos-estatales_2-de-preparatoria_q07",
+        "fusion5_examenes-selectivos-estatales_2-de-preparatoria_q08",
+        "fusion5_examenes-selectivos-estatales_2-de-preparatoria_q09",
+        "fusion5_examenes-selectivos-estatales_2-de-preparatoria_q10",
+        "fusion5_examenes-selectivos-estatales_2-de-preparatoria_q11",
+        "fusion5_examenes-selectivos-estatales_2-de-preparatoria_q12",
+        "fusion5_examenes-selectivos-estatales_2-de-preparatoria_q13",
+        "fusion5_examenes-selectivos-estatales_2-de-preparatoria_q14",
+        "fusion5_examenes-selectivos-estatales_2-de-preparatoria_q15"
+      ],
+      "fields_rendered": 125,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2025/Selectivo Estatal/2.º de secundaria/FUSION_2025_selectivo-estatal_2-de-secundaria_classified.json",
+      "sha256": "e7ad5a1daef76c140df7bbd13239f989153a022bb577aac455114b8909116fec",
+      "bytes": 79765,
+      "problem_count": 15,
+      "source_ids": [
+        "fusion5_examenes-selectivos-estatales_2-de-secundaria_q01",
+        "fusion5_examenes-selectivos-estatales_2-de-secundaria_q02",
+        "fusion5_examenes-selectivos-estatales_2-de-secundaria_q03",
+        "fusion5_examenes-selectivos-estatales_2-de-secundaria_q04",
+        "fusion5_examenes-selectivos-estatales_2-de-secundaria_q05",
+        "fusion5_examenes-selectivos-estatales_2-de-secundaria_q06",
+        "fusion5_examenes-selectivos-estatales_2-de-secundaria_q07",
+        "fusion5_examenes-selectivos-estatales_2-de-secundaria_q08",
+        "fusion5_examenes-selectivos-estatales_2-de-secundaria_q09",
+        "fusion5_examenes-selectivos-estatales_2-de-secundaria_q10",
+        "fusion5_examenes-selectivos-estatales_2-de-secundaria_q11",
+        "fusion5_examenes-selectivos-estatales_2-de-secundaria_q12",
+        "fusion5_examenes-selectivos-estatales_2-de-secundaria_q13",
+        "fusion5_examenes-selectivos-estatales_2-de-secundaria_q14",
+        "fusion5_examenes-selectivos-estatales_2-de-secundaria_q15"
+      ],
+      "fields_rendered": 125,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2025/Selectivo Estatal/3.º de preparatoria/FUSION_2025_selectivo-estatal_3-de-preparatoria_classified.json",
+      "sha256": "fbe3d6b295af91fc4b21a8f52e9bfd277fafe0354aa05ce5c2b515619f2bffbd",
+      "bytes": 90158,
+      "problem_count": 15,
+      "source_ids": [
+        "fusion5_examenes-selectivos-estatales_3-de-preparatoria_q01",
+        "fusion5_examenes-selectivos-estatales_3-de-preparatoria_q02",
+        "fusion5_examenes-selectivos-estatales_3-de-preparatoria_q03",
+        "fusion5_examenes-selectivos-estatales_3-de-preparatoria_q04",
+        "fusion5_examenes-selectivos-estatales_3-de-preparatoria_q05",
+        "fusion5_examenes-selectivos-estatales_3-de-preparatoria_q06",
+        "fusion5_examenes-selectivos-estatales_3-de-preparatoria_q07",
+        "fusion5_examenes-selectivos-estatales_3-de-preparatoria_q08",
+        "fusion5_examenes-selectivos-estatales_3-de-preparatoria_q09",
+        "fusion5_examenes-selectivos-estatales_3-de-preparatoria_q10",
+        "fusion5_examenes-selectivos-estatales_3-de-preparatoria_q11",
+        "fusion5_examenes-selectivos-estatales_3-de-preparatoria_q12",
+        "fusion5_examenes-selectivos-estatales_3-de-preparatoria_q13",
+        "fusion5_examenes-selectivos-estatales_3-de-preparatoria_q14",
+        "fusion5_examenes-selectivos-estatales_3-de-preparatoria_q15"
+      ],
+      "fields_rendered": 125,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2025/Selectivo Estatal/3.º de secundaria/FUSION_2025_selectivo-estatal_3-de-secundaria_classified.json",
+      "sha256": "4ab032d66ae054fd1cc1bf59c6e660470ecdea9b5c245a761b370207f98da6d5",
+      "bytes": 77727,
+      "problem_count": 15,
+      "source_ids": [
+        "fusion5_examenes-selectivos-estatales_3-de-secundaria_q01",
+        "fusion5_examenes-selectivos-estatales_3-de-secundaria_q02",
+        "fusion5_examenes-selectivos-estatales_3-de-secundaria_q03",
+        "fusion5_examenes-selectivos-estatales_3-de-secundaria_q04",
+        "fusion5_examenes-selectivos-estatales_3-de-secundaria_q05",
+        "fusion5_examenes-selectivos-estatales_3-de-secundaria_q06",
+        "fusion5_examenes-selectivos-estatales_3-de-secundaria_q07",
+        "fusion5_examenes-selectivos-estatales_3-de-secundaria_q08",
+        "fusion5_examenes-selectivos-estatales_3-de-secundaria_q09",
+        "fusion5_examenes-selectivos-estatales_3-de-secundaria_q10",
+        "fusion5_examenes-selectivos-estatales_3-de-secundaria_q11",
+        "fusion5_examenes-selectivos-estatales_3-de-secundaria_q12",
+        "fusion5_examenes-selectivos-estatales_3-de-secundaria_q13",
+        "fusion5_examenes-selectivos-estatales_3-de-secundaria_q14",
+        "fusion5_examenes-selectivos-estatales_3-de-secundaria_q15"
+      ],
+      "fields_rendered": 125,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2025/Selectivo Estatal/4.º de primaria/FUSION_2025_selectivo-estatal_4-de-primaria_classified.json",
+      "sha256": "91eba4753ce959babdc4add5f214ebc37fd34c9e8c768486bcc26286d7d2f94c",
+      "bytes": 110295,
+      "problem_count": 15,
+      "source_ids": [
+        "fusion5_examenes-selectivos-estatales_4-de-primaria_q01",
+        "fusion5_examenes-selectivos-estatales_4-de-primaria_q02",
+        "fusion5_examenes-selectivos-estatales_4-de-primaria_q03",
+        "fusion5_examenes-selectivos-estatales_4-de-primaria_q04",
+        "fusion5_examenes-selectivos-estatales_4-de-primaria_q05",
+        "fusion5_examenes-selectivos-estatales_4-de-primaria_q06",
+        "fusion5_examenes-selectivos-estatales_4-de-primaria_q07",
+        "fusion5_examenes-selectivos-estatales_4-de-primaria_q08",
+        "fusion5_examenes-selectivos-estatales_4-de-primaria_q09",
+        "fusion5_examenes-selectivos-estatales_4-de-primaria_q10",
+        "fusion5_examenes-selectivos-estatales_4-de-primaria_q11",
+        "fusion5_examenes-selectivos-estatales_4-de-primaria_q12",
+        "fusion5_examenes-selectivos-estatales_4-de-primaria_q13",
+        "fusion5_examenes-selectivos-estatales_4-de-primaria_q14",
+        "fusion5_examenes-selectivos-estatales_4-de-primaria_q15"
+      ],
+      "fields_rendered": 125,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2025/Selectivo Estatal/5.º de primaria/FUSION_2025_selectivo-estatal_5-de-primaria_classified.json",
+      "sha256": "b34d5750fe28dae972850f2e19790e0432b74bed7d3b89b00f5270d11f5a1794",
+      "bytes": 67773,
+      "problem_count": 15,
+      "source_ids": [
+        "fusion5_examenes-selectivos-estatales_5-de-primaria_q01",
+        "fusion5_examenes-selectivos-estatales_5-de-primaria_q02",
+        "fusion5_examenes-selectivos-estatales_5-de-primaria_q03",
+        "fusion5_examenes-selectivos-estatales_5-de-primaria_q04",
+        "fusion5_examenes-selectivos-estatales_5-de-primaria_q05",
+        "fusion5_examenes-selectivos-estatales_5-de-primaria_q06",
+        "fusion5_examenes-selectivos-estatales_5-de-primaria_q07",
+        "fusion5_examenes-selectivos-estatales_5-de-primaria_q08",
+        "fusion5_examenes-selectivos-estatales_5-de-primaria_q09",
+        "fusion5_examenes-selectivos-estatales_5-de-primaria_q10",
+        "fusion5_examenes-selectivos-estatales_5-de-primaria_q11",
+        "fusion5_examenes-selectivos-estatales_5-de-primaria_q12",
+        "fusion5_examenes-selectivos-estatales_5-de-primaria_q13",
+        "fusion5_examenes-selectivos-estatales_5-de-primaria_q14",
+        "fusion5_examenes-selectivos-estatales_5-de-primaria_q15"
+      ],
+      "fields_rendered": 125,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2025/Selectivo Estatal/6.º de primaria/FUSION_2025_selectivo-estatal_6-de-primaria_classified.json",
+      "sha256": "2a3cfd758c376ef759ce7543b897ad9e826eb8730cc7536c5b2eccc98ed06ff7",
+      "bytes": 68010,
+      "problem_count": 15,
+      "source_ids": [
+        "fusion5_examenes-selectivos-estatales_6-de-primaria_q01",
+        "fusion5_examenes-selectivos-estatales_6-de-primaria_q02",
+        "fusion5_examenes-selectivos-estatales_6-de-primaria_q03",
+        "fusion5_examenes-selectivos-estatales_6-de-primaria_q04",
+        "fusion5_examenes-selectivos-estatales_6-de-primaria_q05",
+        "fusion5_examenes-selectivos-estatales_6-de-primaria_q06",
+        "fusion5_examenes-selectivos-estatales_6-de-primaria_q07",
+        "fusion5_examenes-selectivos-estatales_6-de-primaria_q08",
+        "fusion5_examenes-selectivos-estatales_6-de-primaria_q09",
+        "fusion5_examenes-selectivos-estatales_6-de-primaria_q10",
+        "fusion5_examenes-selectivos-estatales_6-de-primaria_q11",
+        "fusion5_examenes-selectivos-estatales_6-de-primaria_q12",
+        "fusion5_examenes-selectivos-estatales_6-de-primaria_q13",
+        "fusion5_examenes-selectivos-estatales_6-de-primaria_q14",
+        "fusion5_examenes-selectivos-estatales_6-de-primaria_q15"
+      ],
+      "fields_rendered": 125,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2025/Selectivo Estatal/Universitarios/FUSION_2025_selectivo-estatal_universitarios_classified.json",
+      "sha256": "4ce88f09b25d14f727b301de7fa891e289abc206a723752a1f90740d1ec84207",
+      "bytes": 89765,
+      "problem_count": 15,
+      "source_ids": [
+        "fusion5_examenes-selectivos-estatales_universitarios_q01",
+        "fusion5_examenes-selectivos-estatales_universitarios_q02",
+        "fusion5_examenes-selectivos-estatales_universitarios_q03",
+        "fusion5_examenes-selectivos-estatales_universitarios_q04",
+        "fusion5_examenes-selectivos-estatales_universitarios_q05",
+        "fusion5_examenes-selectivos-estatales_universitarios_q06",
+        "fusion5_examenes-selectivos-estatales_universitarios_q07",
+        "fusion5_examenes-selectivos-estatales_universitarios_q08",
+        "fusion5_examenes-selectivos-estatales_universitarios_q09",
+        "fusion5_examenes-selectivos-estatales_universitarios_q10",
+        "fusion5_examenes-selectivos-estatales_universitarios_q11",
+        "fusion5_examenes-selectivos-estatales_universitarios_q12",
+        "fusion5_examenes-selectivos-estatales_universitarios_q13",
+        "fusion5_examenes-selectivos-estatales_universitarios_q14",
+        "fusion5_examenes-selectivos-estatales_universitarios_q15"
+      ],
+      "fields_rendered": 125,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/1.º de preparatoria/FUSION_2024_eliminatoria-estatal_1-de-preparatoria_classified.json",
+      "sha256": "45c945204b7dc1f8c6126762edd1ff0a09ae81a52f320214e8f2cf03c0813877",
+      "bytes": 95585,
+      "problem_count": 10,
+      "source_ids": [
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-preparatoria_q01",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-preparatoria_q02",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-preparatoria_q03",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-preparatoria_q04",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-preparatoria_q05",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-preparatoria_q06",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-preparatoria_q07",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-preparatoria_q08",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-preparatoria_q09",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-preparatoria_q10"
+      ],
+      "fields_rendered": 80,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/1.º de secundaria/FUSION_2024_eliminatoria-estatal_1-de-secundaria_classified.json",
+      "sha256": "52acbfc92c5b5abbd9b23b1d6a4fb44b66bb6074b531a953e92e70b170853579",
+      "bytes": 127470,
+      "problem_count": 10,
+      "source_ids": [
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-secundaria_q01",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-secundaria_q02",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-secundaria_q03",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-secundaria_q04",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-secundaria_q05",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-secundaria_q06",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-secundaria_q07",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-secundaria_q08",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-secundaria_q09",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_1-de-secundaria_q10"
+      ],
+      "fields_rendered": 80,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/2.º de preparatoria/FUSION_2024_eliminatoria-estatal_2-de-preparatoria_classified.json",
+      "sha256": "4360c8f4e5c31de110905cbb088ea048c20589787bec23504273defeb7097b75",
+      "bytes": 102985,
+      "problem_count": 10,
+      "source_ids": [
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-preparatoria_q01",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-preparatoria_q02",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-preparatoria_q03",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-preparatoria_q04",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-preparatoria_q05",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-preparatoria_q06",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-preparatoria_q07",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-preparatoria_q08",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-preparatoria_q09",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-preparatoria_q10"
+      ],
+      "fields_rendered": 80,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/2.º de secundaria/FUSION_2024_eliminatoria-estatal_2-de-secundaria_classified.json",
+      "sha256": "a900078fc4e7d930938d08143205823507cbd47dcf7c168dd23e5d640fb1a187",
+      "bytes": 85353,
+      "problem_count": 10,
+      "source_ids": [
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-secundaria_q01",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-secundaria_q02",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-secundaria_q03",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-secundaria_q04",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-secundaria_q05",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-secundaria_q06",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-secundaria_q07",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-secundaria_q08",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-secundaria_q09",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_2-de-secundaria_q10"
+      ],
+      "fields_rendered": 80,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/3.º de preparatoria/FUSION_2024_eliminatoria-estatal_3-de-preparatoria_classified.json",
+      "sha256": "ead0ab8be3160c9a2e499e17491d17e5c46e5603ca1398d8f3d73735c7004fb5",
+      "bytes": 113249,
+      "problem_count": 10,
+      "source_ids": [
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_3-de-preparatoria_q01",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_3-de-preparatoria_q02",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_3-de-preparatoria_q03",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_3-de-preparatoria_q04",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_3-de-preparatoria_q05",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_3-de-preparatoria_q06",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_3-de-preparatoria_q07",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_3-de-preparatoria_q08",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_3-de-preparatoria_q09",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_3-de-preparatoria_q10"
+      ],
+      "fields_rendered": 80,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/3.º de secundaria/FUSION_2024_eliminatoria-estatal_3-de-secundaria_classified.json",
+      "sha256": "97cd423079ba77cb40e54bfa9a9bc6b926c038e58683c9538a8e5e6d19921dfb",
+      "bytes": 77215,
+      "problem_count": 10,
+      "source_ids": [
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_3-de-secundaria_q01",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_3-de-secundaria_q02",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_3-de-secundaria_q03",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_3-de-secundaria_q04",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_3-de-secundaria_q05",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_3-de-secundaria_q06",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_3-de-secundaria_q07",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_3-de-secundaria_q08",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_3-de-secundaria_q09",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_3-de-secundaria_q10"
+      ],
+      "fields_rendered": 80,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/5.º de primaria/FUSION_2024_eliminatoria-estatal_5-de-primaria_classified.json",
+      "sha256": "01629abf75640bc0427783902d041c990662d7f478c751954d7c2e4b304f1a98",
+      "bytes": 97909,
+      "problem_count": 10,
+      "source_ids": [
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_5-de-primaria_q01",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_5-de-primaria_q02",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_5-de-primaria_q03",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_5-de-primaria_q04",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_5-de-primaria_q05",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_5-de-primaria_q06",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_5-de-primaria_q07",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_5-de-primaria_q08",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_5-de-primaria_q09",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_5-de-primaria_q10"
+      ],
+      "fields_rendered": 80,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/6.º de primaria/FUSION_2024_eliminatoria-estatal_6-de-primaria_classified.json",
+      "sha256": "04cd5cae853c294a83430e0361230e8b1cfa9c1b257699d17ae0068721c18ff1",
+      "bytes": 139966,
+      "problem_count": 10,
+      "source_ids": [
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q01",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q02",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q03",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q04",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q05",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q06",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q07",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q08",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q09",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_6-de-primaria_q10"
+      ],
+      "fields_rendered": 80,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/Universitarios/FUSION_2024_eliminatoria-estatal_universitarios_classified.json",
+      "sha256": "b432fa04477828066de38aa6c65f3c9755b57313e9d9e90fb5d29540aea114bb",
+      "bytes": 133434,
+      "problem_count": 10,
+      "source_ids": [
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_universitarios_q01",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_universitarios_q02",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_universitarios_q03",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_universitarios_q04",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_universitarios_q05",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_universitarios_q06",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_universitarios_q07",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_universitarios_q08",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_universitarios_q09",
+        "fusion4_evaluacion-selectivos-estatales-fusion-2024_universitarios_q10"
+      ],
+      "fields_rendered": 80,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/GAU55/2024/Estatal/Nivel 1/GAU55_2024_Estatal_N1_classified.json",
+      "sha256": "976e78343139320db83b87417d704e28f8fd2ab74e370cb5d71b718cd2de6ffd",
+      "bytes": 1034525,
+      "problem_count": 25,
+      "source_ids": [
+        "gau55_2024_estatal_n1_p01",
+        "gau55_2024_estatal_n1_p02",
+        "gau55_2024_estatal_n1_p03",
+        "gau55_2024_estatal_n1_p04",
+        "gau55_2024_estatal_n1_p05",
+        "gau55_2024_estatal_n1_p06",
+        "gau55_2024_estatal_n1_p07",
+        "gau55_2024_estatal_n1_p08",
+        "gau55_2024_estatal_n1_p09",
+        "gau55_2024_estatal_n1_p10",
+        "gau55_2024_estatal_n1_p11",
+        "gau55_2024_estatal_n1_p12",
+        "gau55_2024_estatal_n1_p13",
+        "gau55_2024_estatal_n1_p14",
+        "gau55_2024_estatal_n1_p15",
+        "gau55_2024_estatal_n1_p16",
+        "gau55_2024_estatal_n1_p17",
+        "gau55_2024_estatal_n1_p18",
+        "gau55_2024_estatal_n1_p19",
+        "gau55_2024_estatal_n1_p20",
+        "gau55_2024_estatal_n1_p21",
+        "gau55_2024_estatal_n1_p22",
+        "gau55_2024_estatal_n1_p23",
+        "gau55_2024_estatal_n1_p24",
+        "gau55_2024_estatal_n1_p25"
+      ],
+      "fields_rendered": 325,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/GAU55/2024/Estatal/Nivel 2/GAU55_2024_Estatal_N2_classified.json",
+      "sha256": "2262c4604ca93ae61cbef5ea1ec0cffeac05b88991c66bd0acdddfa58ce94d10",
+      "bytes": 466864,
+      "problem_count": 25,
+      "source_ids": [
+        "gau55_2024_estatal_n2_p01",
+        "gau55_2024_estatal_n2_p02",
+        "gau55_2024_estatal_n2_p03",
+        "gau55_2024_estatal_n2_p04",
+        "gau55_2024_estatal_n2_p05",
+        "gau55_2024_estatal_n2_p06",
+        "gau55_2024_estatal_n2_p07",
+        "gau55_2024_estatal_n2_p08",
+        "gau55_2024_estatal_n2_p09",
+        "gau55_2024_estatal_n2_p10",
+        "gau55_2024_estatal_n2_p11",
+        "gau55_2024_estatal_n2_p12",
+        "gau55_2024_estatal_n2_p13",
+        "gau55_2024_estatal_n2_p14",
+        "gau55_2024_estatal_n2_p15",
+        "gau55_2024_estatal_n2_p16",
+        "gau55_2024_estatal_n2_p17",
+        "gau55_2024_estatal_n2_p18",
+        "gau55_2024_estatal_n2_p19",
+        "gau55_2024_estatal_n2_p20",
+        "gau55_2024_estatal_n2_p21",
+        "gau55_2024_estatal_n2_p22",
+        "gau55_2024_estatal_n2_p23",
+        "gau55_2024_estatal_n2_p24",
+        "gau55_2024_estatal_n2_p25"
+      ],
+      "fields_rendered": 322,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "02_JSON_EXAMS/GAU55/2024/Estatal/Nivel 3/GAU55_2024_Estatal_N3_verified.json",
+      "sha256": "039ad3c002783a4b225021af86b18adb2280d8010c006bcd60f4de8aa9cd4de0",
+      "bytes": 241096,
+      "problem_count": 25,
+      "source_ids": [
+        "gau55_2024_estatal_n3_p01",
+        "gau55_2024_estatal_n3_p02",
+        "gau55_2024_estatal_n3_p03",
+        "gau55_2024_estatal_n3_p04",
+        "gau55_2024_estatal_n3_p05",
+        "gau55_2024_estatal_n3_p06",
+        "gau55_2024_estatal_n3_p07",
+        "gau55_2024_estatal_n3_p08",
+        "gau55_2024_estatal_n3_p09",
+        "gau55_2024_estatal_n3_p10",
+        "gau55_2024_estatal_n3_p11",
+        "gau55_2024_estatal_n3_p12",
+        "gau55_2024_estatal_n3_p13",
+        "gau55_2024_estatal_n3_p14",
+        "gau55_2024_estatal_n3_p15",
+        "gau55_2024_estatal_n3_p16",
+        "gau55_2024_estatal_n3_p17",
+        "gau55_2024_estatal_n3_p18",
+        "gau55_2024_estatal_n3_p19",
+        "gau55_2024_estatal_n3_p20",
+        "gau55_2024_estatal_n3_p21",
+        "gau55_2024_estatal_n3_p22",
+        "gau55_2024_estatal_n3_p23",
+        "gau55_2024_estatal_n3_p24",
+        "gau55_2024_estatal_n3_p25"
+      ],
+      "fields_rendered": 323,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "02_JSON_EXAMS/GAU55/2024/Estatal/Nivel 4/GAU55_2024_Estatal_N4_verified.json",
+      "sha256": "712aee6e0cea4ed638d353642be0ff3e28e89050bc7a2f44b36ac17ed15a21d5",
+      "bytes": 617567,
+      "problem_count": 25,
+      "source_ids": [
+        "gau55_2024_estatal_n4_p01",
+        "gau55_2024_estatal_n4_p02",
+        "gau55_2024_estatal_n4_p03",
+        "gau55_2024_estatal_n4_p04",
+        "gau55_2024_estatal_n4_p05",
+        "gau55_2024_estatal_n4_p06",
+        "gau55_2024_estatal_n4_p07",
+        "gau55_2024_estatal_n4_p08",
+        "gau55_2024_estatal_n4_p09",
+        "gau55_2024_estatal_n4_p10",
+        "gau55_2024_estatal_n4_p11",
+        "gau55_2024_estatal_n4_p12",
+        "gau55_2024_estatal_n4_p13",
+        "gau55_2024_estatal_n4_p14",
+        "gau55_2024_estatal_n4_p15",
+        "gau55_2024_estatal_n4_p16",
+        "gau55_2024_estatal_n4_p17",
+        "gau55_2024_estatal_n4_p18",
+        "gau55_2024_estatal_n4_p19",
+        "gau55_2024_estatal_n4_p20",
+        "gau55_2024_estatal_n4_p21",
+        "gau55_2024_estatal_n4_p22",
+        "gau55_2024_estatal_n4_p23",
+        "gau55_2024_estatal_n4_p24",
+        "gau55_2024_estatal_n4_p25"
+      ],
+      "fields_rendered": 320,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/1.º de preparatoria/FUSION_2023_selectivo-estatal_1-ano-de-preparatoria_classified.json",
+      "sha256": "9382ab756aab5e10611b6c4e6b06f01870213ecd99451c1ac3d8853ba4199159",
+      "bytes": 139545,
+      "problem_count": 15,
+      "source_ids": [
+        "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q01",
+        "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q02",
+        "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q03",
+        "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q04",
+        "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q05",
+        "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q06",
+        "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q07",
+        "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q08",
+        "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q09",
+        "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q10",
+        "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q11",
+        "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q12",
+        "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q13",
+        "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q14",
+        "fusion3_examen-selectivo-1-ano-de-preparatoria_1-ano-de-preparatoria_q15"
+      ],
+      "fields_rendered": 145,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/1.º de secundaria/FUSION_2023_selectivo-estatal_1-de-secundaria_classified.json",
+      "sha256": "d0db81eefbeaeb0741038846719d3d708772d8b9b217392e2481e57137a57848",
+      "bytes": 110570,
+      "problem_count": 15,
+      "source_ids": [
+        "fusion3_examen-selectivo-1-de-secundaria_1-de-secundaria_q01",
+        "fusion3_examen-selectivo-1-de-secundaria_1-de-secundaria_q02",
+        "fusion3_examen-selectivo-1-de-secundaria_1-de-secundaria_q03",
+        "fusion3_examen-selectivo-1-de-secundaria_1-de-secundaria_q04",
+        "fusion3_examen-selectivo-1-de-secundaria_1-de-secundaria_q05",
+        "fusion3_examen-selectivo-1-de-secundaria_1-de-secundaria_q06",
+        "fusion3_examen-selectivo-1-de-secundaria_1-de-secundaria_q07",
+        "fusion3_examen-selectivo-1-de-secundaria_1-de-secundaria_q08",
+        "fusion3_examen-selectivo-1-de-secundaria_1-de-secundaria_q09",
+        "fusion3_examen-selectivo-1-de-secundaria_1-de-secundaria_q10",
+        "fusion3_examen-selectivo-1-de-secundaria_1-de-secundaria_q11",
+        "fusion3_examen-selectivo-1-de-secundaria_1-de-secundaria_q12",
+        "fusion3_examen-selectivo-1-de-secundaria_1-de-secundaria_q13",
+        "fusion3_examen-selectivo-1-de-secundaria_1-de-secundaria_q14",
+        "fusion3_examen-selectivo-1-de-secundaria_1-de-secundaria_q15"
+      ],
+      "fields_rendered": 145,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/2.º de preparatoria/FUSION_2023_selectivo-estatal_2-ano-de-preparatoria_classified.json",
+      "sha256": "06458a3def1718c7c489924a2a675c65a3d99d63e07f9b76ebbe2454c316310e",
+      "bytes": 152795,
+      "problem_count": 15,
+      "source_ids": [
+        "fusion3_examen-selectivo-2-ano-de-preparatoria_2-ano-de-preparatoria_q01",
+        "fusion3_examen-selectivo-2-ano-de-preparatoria_2-ano-de-preparatoria_q02",
+        "fusion3_examen-selectivo-2-ano-de-preparatoria_2-ano-de-preparatoria_q03",
+        "fusion3_examen-selectivo-2-ano-de-preparatoria_2-ano-de-preparatoria_q04",
+        "fusion3_examen-selectivo-2-ano-de-preparatoria_2-ano-de-preparatoria_q05",
+        "fusion3_examen-selectivo-2-ano-de-preparatoria_2-ano-de-preparatoria_q06",
+        "fusion3_examen-selectivo-2-ano-de-preparatoria_2-ano-de-preparatoria_q07",
+        "fusion3_examen-selectivo-2-ano-de-preparatoria_2-ano-de-preparatoria_q08",
+        "fusion3_examen-selectivo-2-ano-de-preparatoria_2-ano-de-preparatoria_q09",
+        "fusion3_examen-selectivo-2-ano-de-preparatoria_2-ano-de-preparatoria_q10",
+        "fusion3_examen-selectivo-2-ano-de-preparatoria_2-ano-de-preparatoria_q11",
+        "fusion3_examen-selectivo-2-ano-de-preparatoria_2-ano-de-preparatoria_q12",
+        "fusion3_examen-selectivo-2-ano-de-preparatoria_2-ano-de-preparatoria_q13",
+        "fusion3_examen-selectivo-2-ano-de-preparatoria_2-ano-de-preparatoria_q14",
+        "fusion3_examen-selectivo-2-ano-de-preparatoria_2-ano-de-preparatoria_q15"
+      ],
+      "fields_rendered": 145,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/2.º de secundaria/FUSION_2023_selectivo-estatal_2-de-secundaria_classified.json",
+      "sha256": "ed7dc2f9d96838e5f6f5e11efdf0dced7b48e26faaac2e6d8b7964c01c9120c7",
+      "bytes": 95192,
+      "problem_count": 15,
+      "source_ids": [
+        "fusion3_examen-selectivo-2-de-secundaria-docx_2-de-secundaria_q01",
+        "fusion3_examen-selectivo-2-de-secundaria-docx_2-de-secundaria_q02",
+        "fusion3_examen-selectivo-2-de-secundaria-docx_2-de-secundaria_q03",
+        "fusion3_examen-selectivo-2-de-secundaria-docx_2-de-secundaria_q04",
+        "fusion3_examen-selectivo-2-de-secundaria-docx_2-de-secundaria_q05",
+        "fusion3_examen-selectivo-2-de-secundaria-docx_2-de-secundaria_q06",
+        "fusion3_examen-selectivo-2-de-secundaria-docx_2-de-secundaria_q07",
+        "fusion3_examen-selectivo-2-de-secundaria-docx_2-de-secundaria_q08",
+        "fusion3_examen-selectivo-2-de-secundaria-docx_2-de-secundaria_q09",
+        "fusion3_examen-selectivo-2-de-secundaria-docx_2-de-secundaria_q10",
+        "fusion3_examen-selectivo-2-de-secundaria-docx_2-de-secundaria_q11",
+        "fusion3_examen-selectivo-2-de-secundaria-docx_2-de-secundaria_q12",
+        "fusion3_examen-selectivo-2-de-secundaria-docx_2-de-secundaria_q13",
+        "fusion3_examen-selectivo-2-de-secundaria-docx_2-de-secundaria_q14",
+        "fusion3_examen-selectivo-2-de-secundaria-docx_2-de-secundaria_q15"
+      ],
+      "fields_rendered": 145,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/3.º de preparatoria/FUSION_2023_selectivo-estatal_3-ano-de-preparatoria_classified.json",
+      "sha256": "187d0c4938bc3cf175cfc331264024c927b3435a92d37a0795b944e3252c2ff3",
+      "bytes": 123083,
+      "problem_count": 15,
+      "source_ids": [
+        "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q01",
+        "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q02",
+        "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q03",
+        "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q04",
+        "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q05",
+        "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q06",
+        "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q07",
+        "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q08",
+        "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q09",
+        "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q10",
+        "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q11",
+        "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q12",
+        "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q13",
+        "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q14",
+        "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q15"
+      ],
+      "fields_rendered": 145,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/3.º de secundaria/FUSION_2023_selectivo-estatal_3-de-secundaria_classified.json",
+      "sha256": "1c4d59515acb4f56b3938529b9f907f9e2cef36bc55b56ff9bab18b7c4965a7a",
+      "bytes": 95634,
+      "problem_count": 15,
+      "source_ids": [
+        "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q01",
+        "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q02",
+        "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q03",
+        "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q04",
+        "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q05",
+        "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q06",
+        "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q07",
+        "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q08",
+        "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q09",
+        "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q10",
+        "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q11",
+        "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q12",
+        "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q13",
+        "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q14",
+        "fusion3_examen-selectivo-3-de-secundaria_3-de-secundaria_q15"
+      ],
+      "fields_rendered": 145,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/5.º de primaria y menores/FUSION_2023_selectivo-estatal_5de-primaria-y-menores_classified.json",
+      "sha256": "5beabfa67cb42b06f3568e1d48d311125c931d55dd4c8ab8042e02ea107a1185",
+      "bytes": 109762,
+      "problem_count": 15,
+      "source_ids": [
+        "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q01",
+        "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q02",
+        "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q03",
+        "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q04",
+        "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q05",
+        "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q06",
+        "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q07",
+        "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q08",
+        "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q09",
+        "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q10",
+        "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q11",
+        "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q12",
+        "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q13",
+        "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q14",
+        "fusion3_examen-selectivo-5de-primaria-y-menores_5de-primaria-y-menores_q15"
+      ],
+      "fields_rendered": 145,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/6.º de primaria/FUSION_2023_selectivo-estatal_6de-primaria_classified.json",
+      "sha256": "6987be50754c95a5069b3ed5ffbe6d626663e0ceaf08c8d53203ea307ca32845",
+      "bytes": 88654,
+      "problem_count": 15,
+      "source_ids": [
+        "fusion3_examen-selectivo-6de-primaria_6de-primaria_q01",
+        "fusion3_examen-selectivo-6de-primaria_6de-primaria_q02",
+        "fusion3_examen-selectivo-6de-primaria_6de-primaria_q03",
+        "fusion3_examen-selectivo-6de-primaria_6de-primaria_q04",
+        "fusion3_examen-selectivo-6de-primaria_6de-primaria_q05",
+        "fusion3_examen-selectivo-6de-primaria_6de-primaria_q06",
+        "fusion3_examen-selectivo-6de-primaria_6de-primaria_q07",
+        "fusion3_examen-selectivo-6de-primaria_6de-primaria_q08",
+        "fusion3_examen-selectivo-6de-primaria_6de-primaria_q09",
+        "fusion3_examen-selectivo-6de-primaria_6de-primaria_q10",
+        "fusion3_examen-selectivo-6de-primaria_6de-primaria_q11",
+        "fusion3_examen-selectivo-6de-primaria_6de-primaria_q12",
+        "fusion3_examen-selectivo-6de-primaria_6de-primaria_q13",
+        "fusion3_examen-selectivo-6de-primaria_6de-primaria_q14",
+        "fusion3_examen-selectivo-6de-primaria_6de-primaria_q15"
+      ],
+      "fields_rendered": 145,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/GAU55/2023/Estatal/Nivel 1/GAU55_2023_Estatal_N1_classified.json",
+      "sha256": "4f3b3217b21f46770d767b79b1172a0192e5a7e23812f26e826ca5633e76f5dd",
+      "bytes": 415724,
+      "problem_count": 25,
+      "source_ids": [
+        "gau55_2023_estatal_n1_p01",
+        "gau55_2023_estatal_n1_p02",
+        "gau55_2023_estatal_n1_p03",
+        "gau55_2023_estatal_n1_p04",
+        "gau55_2023_estatal_n1_p05",
+        "gau55_2023_estatal_n1_p06",
+        "gau55_2023_estatal_n1_p07",
+        "gau55_2023_estatal_n1_p08",
+        "gau55_2023_estatal_n1_p09",
+        "gau55_2023_estatal_n1_p10",
+        "gau55_2023_estatal_n1_p11",
+        "gau55_2023_estatal_n1_p12",
+        "gau55_2023_estatal_n1_p13",
+        "gau55_2023_estatal_n1_p14",
+        "gau55_2023_estatal_n1_p15",
+        "gau55_2023_estatal_n1_p16",
+        "gau55_2023_estatal_n1_p17",
+        "gau55_2023_estatal_n1_p18",
+        "gau55_2023_estatal_n1_p19",
+        "gau55_2023_estatal_n1_p20",
+        "gau55_2023_estatal_n1_p21",
+        "gau55_2023_estatal_n1_p22",
+        "gau55_2023_estatal_n1_p23",
+        "gau55_2023_estatal_n1_p24",
+        "gau55_2023_estatal_n1_p25"
+      ],
+      "fields_rendered": 324,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/GAU55/2023/Estatal/Nivel 2/GAU55_2023_Estatal_N2_classified.json",
+      "sha256": "be02df5f3c4d47c247c16bbae8372268777ca1f2c7d2d38fbe6736fed2cbd3e3",
+      "bytes": 531420,
+      "problem_count": 25,
+      "source_ids": [
+        "gau55_2023_estatal_n2_p01",
+        "gau55_2023_estatal_n2_p02",
+        "gau55_2023_estatal_n2_p03",
+        "gau55_2023_estatal_n2_p04",
+        "gau55_2023_estatal_n2_p05",
+        "gau55_2023_estatal_n2_p06",
+        "gau55_2023_estatal_n2_p07",
+        "gau55_2023_estatal_n2_p08",
+        "gau55_2023_estatal_n2_p09",
+        "gau55_2023_estatal_n2_p10",
+        "gau55_2023_estatal_n2_p11",
+        "gau55_2023_estatal_n2_p12",
+        "gau55_2023_estatal_n2_p13",
+        "gau55_2023_estatal_n2_p14",
+        "gau55_2023_estatal_n2_p15",
+        "gau55_2023_estatal_n2_p16",
+        "gau55_2023_estatal_n2_p17",
+        "gau55_2023_estatal_n2_p18",
+        "gau55_2023_estatal_n2_p19",
+        "gau55_2023_estatal_n2_p20",
+        "gau55_2023_estatal_n2_p21",
+        "gau55_2023_estatal_n2_p22",
+        "gau55_2023_estatal_n2_p23",
+        "gau55_2023_estatal_n2_p24",
+        "gau55_2023_estatal_n2_p25"
+      ],
+      "fields_rendered": 324,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 2/Élite/FUSION_2020_torneo-2_elite-preparatoria-universitarios_classified.json",
+      "sha256": "dfb7d732667a41616e8d6b4f287908f4e98aa0ede80c5d9ed68800ec22226028",
+      "bytes": 11982,
+      "problem_count": 4,
+      "source_ids": [
+        "fusion1_examen-2_elite-preparatoria-universitarios_q01",
+        "fusion1_examen-2_elite-preparatoria-universitarios_q02",
+        "fusion1_examen-2_elite-preparatoria-universitarios_q03",
+        "fusion1_examen-2_elite-preparatoria-universitarios_q04"
+      ],
+      "fields_rendered": 11,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 1/Élite/FUSION_2020_torneo-1_elite-preparatoria-universitarios_classified.json",
+      "sha256": "ae3bbcca9f613282e6a7bc3b14a9df85e2b99e83baf68123fe7d50686a9f1130",
+      "bytes": 11567,
+      "problem_count": 4,
+      "source_ids": [
+        "fusion1_examen-1_elite-preparatoria-universitarios_q01",
+        "fusion1_examen-1_elite-preparatoria-universitarios_q02",
+        "fusion1_examen-1_elite-preparatoria-universitarios_q03",
+        "fusion1_examen-1_elite-preparatoria-universitarios_q04"
+      ],
+      "fields_rendered": 11,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 3/Élite/FUSION_2020_torneo-3_elite-preparatoria-universitarios_classified.json",
+      "sha256": "572ff4d402a8c97a0a8b656fa017df571729f98b5c7e817330fc82e201fa81e1",
+      "bytes": 12613,
+      "problem_count": 4,
+      "source_ids": [
+        "fusion1_examen-3_elite-preparatoria-universitarios_q01",
+        "fusion1_examen-3_elite-preparatoria-universitarios_q02",
+        "fusion1_examen-3_elite-preparatoria-universitarios_q03",
+        "fusion1_examen-3_elite-preparatoria-universitarios_q04"
+      ],
+      "fields_rendered": 12,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 1/Primaria/FUSION_2020_torneo-1_primaria_classified.json",
+      "sha256": "8b28b2cc649c14b154a108eb34b8b83d9780f86dbf2840edd15304c171416a45",
+      "bytes": 11428,
+      "problem_count": 4,
+      "source_ids": [
+        "fusion1_examen-1_primaria_q01",
+        "fusion1_examen-1_primaria_q02",
+        "fusion1_examen-1_primaria_q03",
+        "fusion1_examen-1_primaria_q04"
+      ],
+      "fields_rendered": 12,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 3/Primaria/FUSION_2020_torneo-3_primaria_classified.json",
+      "sha256": "afc1c485308662d879c3d7ea8b85bc1cc4ab73e6a828a584b483c4effbe75fa6",
+      "bytes": 17545,
+      "problem_count": 4,
+      "source_ids": [
+        "fusion1_examen-3_primaria_q01",
+        "fusion1_examen-3_primaria_q02",
+        "fusion1_examen-3_primaria_q03",
+        "fusion1_examen-3_primaria_q04"
+      ],
+      "fields_rendered": 12,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 2/Primaria/FUSION_2020_torneo-2_primaria_classified.json",
+      "sha256": "5c6fd497f1882594b83650ae908e18ad44bda66c6216ffed3ae4997cc9110d95",
+      "bytes": 11295,
+      "problem_count": 4,
+      "source_ids": [
+        "fusion1_examen-2_primaria_q01",
+        "fusion1_examen-2_primaria_q02",
+        "fusion1_examen-2_primaria_q03",
+        "fusion1_examen-2_primaria_q04"
+      ],
+      "fields_rendered": 11,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 1/Secundaria/FUSION_2020_torneo-1_secundaria_classified.json",
+      "sha256": "48eb065fc52473b79d1834d7ebdd03cc5990fb7c811317709a5e95fa83ff33ee",
+      "bytes": 11749,
+      "problem_count": 4,
+      "source_ids": [
+        "fusion1_examen-1_secundaria_q01",
+        "fusion1_examen-1_secundaria_q02",
+        "fusion1_examen-1_secundaria_q03",
+        "fusion1_examen-1_secundaria_q04"
+      ],
+      "fields_rendered": 11,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 2/Secundaria/FUSION_2020_torneo-2_secundaria_classified.json",
+      "sha256": "887d878bd18eebde690ee5d228b1876c83ca404fbc54043563f096a5705a8f6f",
+      "bytes": 17297,
+      "problem_count": 4,
+      "source_ids": [
+        "fusion1_examen-2_secundaria_q01",
+        "fusion1_examen-2_secundaria_q02",
+        "fusion1_examen-2_secundaria_q03",
+        "fusion1_examen-2_secundaria_q04"
+      ],
+      "fields_rendered": 12,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 3/Secundaria/FUSION_2020_torneo-3_secundaria_classified.json",
+      "sha256": "d380f4d4e2e95c0b59569065cf377925db57d2e8ae26f5abc0247a10c5ec2f1b",
+      "bytes": 11667,
+      "problem_count": 4,
+      "source_ids": [
+        "fusion1_examen-3_secundaria_q01",
+        "fusion1_examen-3_secundaria_q02",
+        "fusion1_examen-3_secundaria_q03",
+        "fusion1_examen-3_secundaria_q04"
+      ],
+      "fields_rendered": 12,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2019/Eliminatorio CEOM11/1.º de secundaria/FUSION_2019_eliminatorio-ceom11_1ro-secundaria_classified.json",
+      "sha256": "45fe1b1c623283b21a78b7fd83f794c2b8d4716ac51b3e9fe7e471882f8b3943",
+      "bytes": 14482,
+      "problem_count": 3,
+      "source_ids": [
+        "fusion1_examen-eliminatorio-ceom11-pdf_1ro-secundaria_q01",
+        "fusion1_examen-eliminatorio-ceom11-pdf_1ro-secundaria_q02",
+        "fusion1_examen-eliminatorio-ceom11-pdf_1ro-secundaria_q03"
+      ],
+      "fields_rendered": 9,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2019/Eliminatorio CEOM11/2.º de secundaria/FUSION_2019_eliminatorio-ceom11_2do-secundaria_classified.json",
+      "sha256": "1e579d8f0c80ddb874416be37e2c54163452b6bc2d89799dfb3b1b43d65ffed5",
+      "bytes": 17007,
+      "problem_count": 3,
+      "source_ids": [
+        "fusion1_examen-eliminatorio-ceom11-pdf_2do-secundaria_q01",
+        "fusion1_examen-eliminatorio-ceom11-pdf_2do-secundaria_q02",
+        "fusion1_examen-eliminatorio-ceom11-pdf_2do-secundaria_q03"
+      ],
+      "fields_rendered": 9,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2019/Eliminatorio CEOM11/3.º de secundaria/FUSION_2019_eliminatorio-ceom11_3ro-secundaria_classified.json",
+      "sha256": "2e2e180e1aa2abccd048103f297e7abeecfb374482bb12e81a69eaa419953ffd",
+      "bytes": 10847,
+      "problem_count": 3,
+      "source_ids": [
+        "fusion1_examen-eliminatorio-ceom11-pdf_3ro-secundaria_q01",
+        "fusion1_examen-eliminatorio-ceom11-pdf_3ro-secundaria_q02",
+        "fusion1_examen-eliminatorio-ceom11-pdf_3ro-secundaria_q03"
+      ],
+      "fields_rendered": 9,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2019/Eliminatorio CEOM11/Kids/FUSION_2019_eliminatorio-ceom11_kids-3ro_classified.json",
+      "sha256": "5e79a1af62afce5035bd617fa82f79c80353e69831329a7e097bede46139a372",
+      "bytes": 9634,
+      "problem_count": 3,
+      "source_ids": [
+        "fusion1_examen-eliminatorio-ceom11-pdf_kids-3ro_q01",
+        "fusion1_examen-eliminatorio-ceom11-pdf_kids-3ro_q02",
+        "fusion1_examen-eliminatorio-ceom11-pdf_kids-3ro_q03"
+      ],
+      "fields_rendered": 9,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2019/Eliminatorio CEOM11/Olímpicos/FUSION_2019_eliminatorio-ceom11_olimpicos-preparatoria_classified.json",
+      "sha256": "516806c71459648d6a222ac6bd7ac73a9064b348faa6f5fdf426d170c3153a93",
+      "bytes": 10826,
+      "problem_count": 3,
+      "source_ids": [
+        "fusion1_examen-eliminatorio-ceom11-pdf_olimpicos-preparatoria_q01",
+        "fusion1_examen-eliminatorio-ceom11-pdf_olimpicos-preparatoria_q02",
+        "fusion1_examen-eliminatorio-ceom11-pdf_olimpicos-preparatoria_q03"
+      ],
+      "fields_rendered": 9,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2019/Eliminatorio CEOM11/Primaria/FUSION_2019_eliminatorio-ceom11_primaria-5to_classified.json",
+      "sha256": "6ee16003c1c115fff457cd03417f2daf5070d8ed0eba794255c46db1bb442213",
+      "bytes": 10279,
+      "problem_count": 3,
+      "source_ids": [
+        "fusion1_examen-eliminatorio-ceom11-pdf_primaria-5to_q01",
+        "fusion1_examen-eliminatorio-ceom11-pdf_primaria-5to_q02",
+        "fusion1_examen-eliminatorio-ceom11-pdf_primaria-5to_q03"
+      ],
+      "fields_rendered": 9,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2018/Eliminatorio CEOM10/1.º de secundaria/FUSION_2018_eliminatorio-ceom10_1ro-secundaria_classified.json",
+      "sha256": "cb067e911e274498b7b0a6e5ac09bcf5409edd647d63a8741d9fdf80f285dd1a",
+      "bytes": 20629,
+      "problem_count": 4,
+      "source_ids": [
+        "fusion1_examen-eliminatorio-ceom10-docx-corregido_1ro-secundaria_q01",
+        "fusion1_examen-eliminatorio-ceom10-docx-corregido_1ro-secundaria_q02",
+        "fusion1_examen-eliminatorio-ceom10-docx-corregido_1ro-secundaria_q03",
+        "fusion1_examen-eliminatorio-ceom10-docx-corregido_1ro-secundaria_q04"
+      ],
+      "fields_rendered": 12,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2018/Final CEOM10/1.º de secundaria/FUSION_2018_final-ceom10_1ro-secundaria_classified.json",
+      "sha256": "cf53487f1b86a1a6afee64242ede2d105c7dbc0408f6a1b71e8e569505602c98",
+      "bytes": 15220,
+      "problem_count": 4,
+      "source_ids": [
+        "fusion1_examen-final-ceom10_1ro-secundaria_q01",
+        "fusion1_examen-final-ceom10_1ro-secundaria_q02",
+        "fusion1_examen-final-ceom10_1ro-secundaria_q03",
+        "fusion1_examen-final-ceom10_1ro-secundaria_q04"
+      ],
+      "fields_rendered": 12,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2018/Final CEOM10/2.º de secundaria/FUSION_2018_final-ceom10_2do-secundaria_classified.json",
+      "sha256": "68bab208cb689473bae5c4a069ef7cb682e39ae27bf9f51063e227da77935c28",
+      "bytes": 20525,
+      "problem_count": 4,
+      "source_ids": [
+        "fusion1_examen-final-ceom10_2do-secundaria_q01",
+        "fusion1_examen-final-ceom10_2do-secundaria_q02",
+        "fusion1_examen-final-ceom10_2do-secundaria_q03",
+        "fusion1_examen-final-ceom10_2do-secundaria_q04"
+      ],
+      "fields_rendered": 12,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2018/Eliminatorio CEOM10/2.º de secundaria/FUSION_2018_eliminatorio-ceom10_2do-secundaria_classified.json",
+      "sha256": "0d76bb3d0b3e549660a427734ef97f9134476485af0135a7ddea3451e493e1bd",
+      "bytes": 13910,
+      "problem_count": 4,
+      "source_ids": [
+        "fusion1_examen-eliminatorio-ceom10-docx-corregido_2do-secundaria_q01",
+        "fusion1_examen-eliminatorio-ceom10-docx-corregido_2do-secundaria_q02",
+        "fusion1_examen-eliminatorio-ceom10-docx-corregido_2do-secundaria_q03",
+        "fusion1_examen-eliminatorio-ceom10-docx-corregido_2do-secundaria_q04"
+      ],
+      "fields_rendered": 12,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2018/Eliminatorio CEOM10/3.º de secundaria/FUSION_2018_eliminatorio-ceom10_3ro-secundaria_classified.json",
+      "sha256": "842917c0f56a976d87b1d56bf77fa45e207a9239ba811c6113c0f714f1f810e1",
+      "bytes": 18022,
+      "problem_count": 4,
+      "source_ids": [
+        "fusion1_examen-eliminatorio-ceom10-docx-corregido_3ro-secundaria_q01",
+        "fusion1_examen-eliminatorio-ceom10-docx-corregido_3ro-secundaria_q02",
+        "fusion1_examen-eliminatorio-ceom10-docx-corregido_3ro-secundaria_q03",
+        "fusion1_examen-eliminatorio-ceom10-docx-corregido_3ro-secundaria_q04"
+      ],
+      "fields_rendered": 12,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2018/Final CEOM10/3.º de secundaria/FUSION_2018_final-ceom10_3ro-secundaria_classified.json",
+      "sha256": "5cc44138624e70c90290c8d3fe57804cae35f923dfaee83df7f72b41618bf42f",
+      "bytes": 19714,
+      "problem_count": 4,
+      "source_ids": [
+        "fusion1_examen-final-ceom10_3ro-secundaria_q01",
+        "fusion1_examen-final-ceom10_3ro-secundaria_q02",
+        "fusion1_examen-final-ceom10_3ro-secundaria_q03",
+        "fusion1_examen-final-ceom10_3ro-secundaria_q04"
+      ],
+      "fields_rendered": 12,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2018/Final CEOM10/Kids/FUSION_2018_final-ceom10_kids-3ro_classified.json",
+      "sha256": "c1f195960d39de8854c48cdc221796e5bff59b11414137850ce8da9c652f6f93",
+      "bytes": 19181,
+      "problem_count": 4,
+      "source_ids": [
+        "fusion1_examen-final-ceom10_kids-3ro_q01",
+        "fusion1_examen-final-ceom10_kids-3ro_q02",
+        "fusion1_examen-final-ceom10_kids-3ro_q03",
+        "fusion1_examen-final-ceom10_kids-3ro_q04"
+      ],
+      "fields_rendered": 12,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2018/Eliminatorio CEOM10/Kids/FUSION_2018_eliminatorio-ceom10_kids-3ro_classified.json",
+      "sha256": "d348a5ba203faba497c2c5820686dfa8650a23bdf0cd218eef94171bc192293f",
+      "bytes": 17001,
+      "problem_count": 4,
+      "source_ids": [
+        "fusion1_examen-eliminatorio-ceom10-docx-corregido_kids-3ro_q01",
+        "fusion1_examen-eliminatorio-ceom10-docx-corregido_kids-3ro_q02",
+        "fusion1_examen-eliminatorio-ceom10-docx-corregido_kids-3ro_q03",
+        "fusion1_examen-eliminatorio-ceom10-docx-corregido_kids-3ro_q04"
+      ],
+      "fields_rendered": 12,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2018/Final CEOM10/Olímpicos/FUSION_2018_final-ceom10_olimpicos-preparatoria_classified.json",
+      "sha256": "62aa2c343304082669f477cdd28fb435546f6c2b61fe4ed4fd2e8c31b8de2bfa",
+      "bytes": 18522,
+      "problem_count": 4,
+      "source_ids": [
+        "fusion1_examen-final-ceom10_olimpicos-preparatoria_q01",
+        "fusion1_examen-final-ceom10_olimpicos-preparatoria_q02",
+        "fusion1_examen-final-ceom10_olimpicos-preparatoria_q03",
+        "fusion1_examen-final-ceom10_olimpicos-preparatoria_q04"
+      ],
+      "fields_rendered": 12,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2018/Eliminatorio CEOM10/Olímpicos/FUSION_2018_eliminatorio-ceom10_olimpicos-preparatoria_classified.json",
+      "sha256": "0af27c0dc5ade6001b71ddf2a0561448477631fe3c3eeacb643dd5652b607881",
+      "bytes": 23250,
+      "problem_count": 4,
+      "source_ids": [
+        "fusion1_examen-eliminatorio-ceom10-docx-corregido_olimpicos-preparatoria_q01",
+        "fusion1_examen-eliminatorio-ceom10-docx-corregido_olimpicos-preparatoria_q02",
+        "fusion1_examen-eliminatorio-ceom10-docx-corregido_olimpicos-preparatoria_q03",
+        "fusion1_examen-eliminatorio-ceom10-docx-corregido_olimpicos-preparatoria_q04"
+      ],
+      "fields_rendered": 12,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2018/Final CEOM10/Primaria/FUSION_2018_final-ceom10_primaria-5to_classified.json",
+      "sha256": "38fa88b528280734a20e66de204d5bfd827c22b55b96e8e950ccafcfc2d1552a",
+      "bytes": 15233,
+      "problem_count": 4,
+      "source_ids": [
+        "fusion1_examen-final-ceom10_primaria-5to_q01",
+        "fusion1_examen-final-ceom10_primaria-5to_q02",
+        "fusion1_examen-final-ceom10_primaria-5to_q03",
+        "fusion1_examen-final-ceom10_primaria-5to_q04"
+      ],
+      "fields_rendered": 12,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2018/Eliminatorio CEOM10/Primaria/FUSION_2018_eliminatorio-ceom10_primaria-5to_classified.json",
+      "sha256": "a1d105341000b3592fb17390ed690523f0112929cd6748960c0c0fcb966e805c",
+      "bytes": 20514,
+      "problem_count": 4,
+      "source_ids": [
+        "fusion1_examen-eliminatorio-ceom10-docx-corregido_primaria-5to_q01",
+        "fusion1_examen-eliminatorio-ceom10-docx-corregido_primaria-5to_q02",
+        "fusion1_examen-eliminatorio-ceom10-docx-corregido_primaria-5to_q03",
+        "fusion1_examen-eliminatorio-ceom10-docx-corregido_primaria-5to_q04"
+      ],
+      "fields_rendered": 12,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/1.º de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_1-preparatoria_classified.json",
+      "sha256": "c1fe520ee45924dced31092a899d259eaa8addd03ee31d116149e50f971432d4",
+      "bytes": 56323,
+      "problem_count": 15,
+      "source_ids": [
+        "fusion2_examen-selectivo-1-preparatoria_1-preparatoria_q01",
+        "fusion2_examen-selectivo-1-preparatoria_1-preparatoria_q02",
+        "fusion2_examen-selectivo-1-preparatoria_1-preparatoria_q03",
+        "fusion2_examen-selectivo-1-preparatoria_1-preparatoria_q04",
+        "fusion2_examen-selectivo-1-preparatoria_1-preparatoria_q05",
+        "fusion2_examen-selectivo-1-preparatoria_1-preparatoria_q06",
+        "fusion2_examen-selectivo-1-preparatoria_1-preparatoria_q07",
+        "fusion2_examen-selectivo-1-preparatoria_1-preparatoria_q08",
+        "fusion2_examen-selectivo-1-preparatoria_1-preparatoria_q09",
+        "fusion2_examen-selectivo-1-preparatoria_1-preparatoria_q10",
+        "fusion2_examen-selectivo-1-preparatoria_1-preparatoria_q11",
+        "fusion2_examen-selectivo-1-preparatoria_1-preparatoria_q12",
+        "fusion2_examen-selectivo-1-preparatoria_1-preparatoria_q13",
+        "fusion2_examen-selectivo-1-preparatoria_1-preparatoria_q14",
+        "fusion2_examen-selectivo-1-preparatoria_1-preparatoria_q15"
+      ],
+      "fields_rendered": 145,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Final CEOM9/1.º de secundaria/FUSION_sin-fecha_final-ceom9_1o-secundaria_classified.json",
+      "sha256": "8f5decf887ccc8b841941e64dd01e86e39bdb516310e45214501ab76e4e26529",
+      "bytes": 18969,
+      "problem_count": 4,
+      "source_ids": [
+        "fusion1_examen-final-ceom9_1o-secundaria_q01",
+        "fusion1_examen-final-ceom9_1o-secundaria_q02",
+        "fusion1_examen-final-ceom9_1o-secundaria_q03",
+        "fusion1_examen-final-ceom9_1o-secundaria_q04"
+      ],
+      "fields_rendered": 12,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/1.º de secundaria/FUSION_sin-fecha_estatal-ceom12_1-secundaria_classified.json",
+      "sha256": "329ce5575333dbd5fd82c73dfcc91086d5e0050fcdfef343093eda95c8ab99d6",
+      "bytes": 33867,
+      "problem_count": 4,
+      "source_ids": [
+        "fusion1_examen-estatal-ceom12_1-secundaria_q01",
+        "fusion1_examen-estatal-ceom12_1-secundaria_q02",
+        "fusion1_examen-estatal-ceom12_1-secundaria_q03",
+        "fusion1_examen-estatal-ceom12_1-secundaria_q04"
+      ],
+      "fields_rendered": 12,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Eliminatorio CEOM12/1.º de secundaria/FUSION_sin-fecha_eliminatorio-ceom12_1-secundaria_classified.json",
+      "sha256": "c9055984abcd196ca3f542557e492e402f684ca5c601c44a2fef126bf741f044",
+      "bytes": 10854,
+      "problem_count": 3,
+      "source_ids": [
+        "fusion1_examen-eliminatorio-ceom12_1-secundaria_q01",
+        "fusion1_examen-eliminatorio-ceom12_1-secundaria_q02",
+        "fusion1_examen-eliminatorio-ceom12_1-secundaria_q03"
+      ],
+      "fields_rendered": 9,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/1.º de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_1-de-secundaria_classified.json",
+      "sha256": "4f3b07972f5b2d712459696798aab0e592c6ef3f6aac0459eb0f676935f3db73",
+      "bytes": 67325,
+      "problem_count": 15,
+      "source_ids": [
+        "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q01",
+        "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q02",
+        "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q03",
+        "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q04",
+        "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q05",
+        "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q06",
+        "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q07",
+        "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q08",
+        "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q09",
+        "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q10",
+        "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q11",
+        "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q12",
+        "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q13",
+        "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q14",
+        "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q15"
+      ],
+      "fields_rendered": 145,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/2.º de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_2-preparatoria_classified.json",
+      "sha256": "6cfc8e0d24118cc191fd15bb9d8bff4d19b152c79e87b40902f869d7254707b9",
+      "bytes": 68794,
+      "problem_count": 15,
+      "source_ids": [
+        "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q01",
+        "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q02",
+        "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q03",
+        "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q04",
+        "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q05",
+        "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q06",
+        "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q07",
+        "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q08",
+        "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q09",
+        "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q10",
+        "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q11",
+        "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q12",
+        "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q13",
+        "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q14",
+        "fusion2_examen-selectivo-2-preparatoria_2-preparatoria_q15"
+      ],
+      "fields_rendered": 145,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Final CEOM9/2.º de secundaria/FUSION_sin-fecha_final-ceom9_2o-secundaria_classified.json",
+      "sha256": "aecf010e4db08ada1547379e9992352847d8fb09d70de4c99082db1cdf6c0edc",
+      "bytes": 17542,
+      "problem_count": 4,
+      "source_ids": [
+        "fusion1_examen-final-ceom9_2o-secundaria_q01",
+        "fusion1_examen-final-ceom9_2o-secundaria_q02",
+        "fusion1_examen-final-ceom9_2o-secundaria_q03",
+        "fusion1_examen-final-ceom9_2o-secundaria_q04"
+      ],
+      "fields_rendered": 12,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/2.º de secundaria/FUSION_sin-fecha_estatal-ceom12_2-secundaria_classified.json",
+      "sha256": "9d990640a18a80fd078158412f93de20221d4249ef21b9e7f87ebe0eb49e2b82",
+      "bytes": 31006,
+      "problem_count": 4,
+      "source_ids": [
+        "fusion1_examen-estatal-ceom12_2-secundaria_q01",
+        "fusion1_examen-estatal-ceom12_2-secundaria_q02",
+        "fusion1_examen-estatal-ceom12_2-secundaria_q03",
+        "fusion1_examen-estatal-ceom12_2-secundaria_q04"
+      ],
+      "fields_rendered": 12,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Eliminatorio CEOM12/2.º de secundaria/FUSION_sin-fecha_eliminatorio-ceom12_2-secundaria_classified.json",
+      "sha256": "20d1d343e9bbe8cabefc58230220b3a64c8ba190c7ac701a5308c5b6a023d00d",
+      "bytes": 17944,
+      "problem_count": 3,
+      "source_ids": [
+        "fusion1_examen-eliminatorio-ceom12_2-secundaria_q01",
+        "fusion1_examen-eliminatorio-ceom12_2-secundaria_q02",
+        "fusion1_examen-eliminatorio-ceom12_2-secundaria_q03"
+      ],
+      "fields_rendered": 9,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/2.º de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_2-de-secundaria_classified.json",
+      "sha256": "47e844c75b35474d5e9a88ddfc2d5f3b934277894ba9ab5308a5ebbafe6ecdd5",
+      "bytes": 73474,
+      "problem_count": 15,
+      "source_ids": [
+        "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q01",
+        "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q02",
+        "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q03",
+        "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q04",
+        "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q05",
+        "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q06",
+        "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q07",
+        "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q08",
+        "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q09",
+        "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q10",
+        "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q11",
+        "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q12",
+        "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q13",
+        "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q14",
+        "fusion2_examen-selectivo-2-de-secundaria_2-de-secundaria_q15"
+      ],
+      "fields_rendered": 145,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3.º de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-preparatoria_classified.json",
+      "sha256": "3c0b89443159ab0af43dab994fe43e14f05580dbadb75679a5f88ac456d0925b",
+      "bytes": 69205,
+      "problem_count": 15,
+      "source_ids": [
+        "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q01",
+        "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q02",
+        "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q03",
+        "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q04",
+        "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q05",
+        "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q06",
+        "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q07",
+        "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q08",
+        "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q09",
+        "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q10",
+        "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q11",
+        "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q12",
+        "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q13",
+        "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q14",
+        "fusion2_examen-selectivo-3-preparatoria_3-preparatoria_q15"
+      ],
+      "fields_rendered": 145,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Eliminatorio CEOM12/3.º de secundaria/FUSION_sin-fecha_eliminatorio-ceom12_3-secundaria_classified.json",
+      "sha256": "14eb9dbc8c4ae41111940c3da3b114826778bbeafc2bda97d4f0d7ff7548eaff",
+      "bytes": 18078,
+      "problem_count": 3,
+      "source_ids": [
+        "fusion1_examen-eliminatorio-ceom12_3-secundaria_q01",
+        "fusion1_examen-eliminatorio-ceom12_3-secundaria_q02",
+        "fusion1_examen-eliminatorio-ceom12_3-secundaria_q03"
+      ],
+      "fields_rendered": 9,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3.º de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-de-secundaria_classified.json",
+      "sha256": "b00c60a50178f3498cb8c8c9989b967a5a467656c5717c1faa38d73ed1fdf436",
+      "bytes": 49047,
+      "problem_count": 15,
+      "source_ids": [
+        "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q01",
+        "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q02",
+        "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q03",
+        "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q04",
+        "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q05",
+        "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q06",
+        "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q07",
+        "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q08",
+        "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q09",
+        "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q10",
+        "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q11",
+        "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q12",
+        "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q13",
+        "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q14",
+        "fusion2_examen-selectivo-3-de-secundaria_3-de-secundaria_q15"
+      ],
+      "fields_rendered": 145,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Final CEOM9/3.º de secundaria/FUSION_sin-fecha_final-ceom9_3o-secundaria_classified.json",
+      "sha256": "7d9e62a3191b234d90c9f8a0966109aaf04cc78e885a98d36d80aead2d1b28be",
+      "bytes": 11859,
+      "problem_count": 4,
+      "source_ids": [
+        "fusion1_examen-final-ceom9_3o-secundaria_q01",
+        "fusion1_examen-final-ceom9_3o-secundaria_q02",
+        "fusion1_examen-final-ceom9_3o-secundaria_q03",
+        "fusion1_examen-final-ceom9_3o-secundaria_q04"
+      ],
+      "fields_rendered": 12,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/3.º de secundaria/FUSION_sin-fecha_estatal-ceom12_3-secundaria_classified.json",
+      "sha256": "7cd51e5e692c0c59f2b792da4b9c0377143d33eb3cfa8feb8f28df44aa2ab51a",
+      "bytes": 39539,
+      "problem_count": 4,
+      "source_ids": [
+        "fusion1_examen-estatal-ceom12_3-secundaria_q01",
+        "fusion1_examen-estatal-ceom12_3-secundaria_q02",
+        "fusion1_examen-estatal-ceom12_3-secundaria_q03",
+        "fusion1_examen-estatal-ceom12_3-secundaria_q04"
+      ],
+      "fields_rendered": 12,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/5.º de primaria/FUSION_sin-fecha_selectivo-estatal-serie-2_5-de-primaria_classified.json",
+      "sha256": "1256830ebf0bd32fd7e464433fefd633a1eb0b04749f6f2ee6762d4f877f7a7c",
+      "bytes": 49175,
+      "problem_count": 15,
+      "source_ids": [
+        "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q01",
+        "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q02",
+        "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q03",
+        "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q04",
+        "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q05",
+        "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q06",
+        "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q07",
+        "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q08",
+        "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q09",
+        "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q10",
+        "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q11",
+        "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q12",
+        "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q13",
+        "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q14",
+        "fusion2_examen-selectivo-5-de-primaria_5-de-primaria_q15"
+      ],
+      "fields_rendered": 145,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/6.º de primaria/FUSION_sin-fecha_selectivo-estatal-serie-2_6-de-primaria_classified.json",
+      "sha256": "f97ccb49b21329af412116869761e71076c5dab9f02c90ab56c92c35d6079eed",
+      "bytes": 52664,
+      "problem_count": 15,
+      "source_ids": [
+        "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q01",
+        "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q02",
+        "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q03",
+        "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q04",
+        "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q05",
+        "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q06",
+        "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q07",
+        "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q08",
+        "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q09",
+        "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q10",
+        "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q11",
+        "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q12",
+        "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q13",
+        "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q14",
+        "fusion2_examen-selectivo-6-de-primaria_6-de-primaria_q15"
+      ],
+      "fields_rendered": 145,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Final CEOM9/Kids/FUSION_sin-fecha_final-ceom9_kids-3o-y-4o-primaria_classified.json",
+      "sha256": "910ca148e28bcdc47c4d8c8ab09c0067d72673f87ed6bc655a82515bc07a95be",
+      "bytes": 18315,
+      "problem_count": 4,
+      "source_ids": [
+        "fusion1_examen-final-ceom9_kids-3o-y-4o-primaria_q01",
+        "fusion1_examen-final-ceom9_kids-3o-y-4o-primaria_q02",
+        "fusion1_examen-final-ceom9_kids-3o-y-4o-primaria_q03",
+        "fusion1_examen-final-ceom9_kids-3o-y-4o-primaria_q04"
+      ],
+      "fields_rendered": 12,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/Kids/FUSION_sin-fecha_estatal-ceom12_kids-3-y-4-primaria_classified.json",
+      "sha256": "f28529f732d7014a542e08ddba82ac9132fe28c2955a15c1033b090e2a06ccb0",
+      "bytes": 57916,
+      "problem_count": 10,
+      "source_ids": [
+        "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q01",
+        "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q02",
+        "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q03",
+        "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q04",
+        "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q05",
+        "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q06",
+        "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q07",
+        "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q08",
+        "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q09",
+        "fusion1_examen-estatal-ceom12_kids-3-y-4-primaria_q10"
+      ],
+      "fields_rendered": 120,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Eliminatorio CEOM12/Kids/FUSION_sin-fecha_eliminatorio-ceom12_kids-3-y-4-de-primaria_classified.json",
+      "sha256": "462ec9122fa123f6ac140dd5fc0553cff4f116f7a92cc066f0f505e134dd59a4",
+      "bytes": 53209,
+      "problem_count": 12,
+      "source_ids": [
+        "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q01",
+        "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q02",
+        "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q03",
+        "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q04",
+        "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q05",
+        "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q06",
+        "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q07",
+        "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q08",
+        "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q09",
+        "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q10",
+        "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q11",
+        "fusion1_examen-eliminatorio-ceom12_kids-3-y-4-de-primaria_q12"
+      ],
+      "fields_rendered": 156,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Final CEOM9/Olímpicos/FUSION_sin-fecha_final-ceom9_olimpicos_classified.json",
+      "sha256": "237c04021546c5277ce9e888a1386e673adcc72cffc0ee7d8c12fbd8f8df2da7",
+      "bytes": 12083,
+      "problem_count": 4,
+      "source_ids": [
+        "fusion1_examen-final-ceom9_olimpicos_q01",
+        "fusion1_examen-final-ceom9_olimpicos_q02",
+        "fusion1_examen-final-ceom9_olimpicos_q03",
+        "fusion1_examen-final-ceom9_olimpicos_q04"
+      ],
+      "fields_rendered": 12,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Eliminatorio CEOM12/Olímpicos/FUSION_sin-fecha_eliminatorio-ceom12_olimpicos-bachillerarto-o-preratoria_classified.json",
+      "sha256": "6adf137efcad64e8d6034979c79d7dc33d50e1c66e225b2392387641cfc71e39",
+      "bytes": 18126,
+      "problem_count": 3,
+      "source_ids": [
+        "fusion1_examen-eliminatorio-ceom12_olimpicos-bachillerarto-o-preratoria_q01",
+        "fusion1_examen-eliminatorio-ceom12_olimpicos-bachillerarto-o-preratoria_q02",
+        "fusion1_examen-eliminatorio-ceom12_olimpicos-bachillerarto-o-preratoria_q03"
+      ],
+      "fields_rendered": 9,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/Olímpicos/FUSION_sin-fecha_estatal-ceom12_olimpicos-preparatoria-o-bachillerato_classified.json",
+      "sha256": "148b6098c5986ab39ade8816e6752202fda06c0a86b597444546267528964da5",
+      "bytes": 41815,
+      "problem_count": 4,
+      "source_ids": [
+        "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q01",
+        "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q02",
+        "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q03",
+        "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q04"
+      ],
+      "fields_rendered": 12,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Final CEOM9/Primaria/FUSION_sin-fecha_final-ceom9_primaria-5o-y-6o-primaria_classified.json",
+      "sha256": "3198103849ffbc5a49a666254fbbed1d13b8795be064ed91511959339a660064",
+      "bytes": 18868,
+      "problem_count": 4,
+      "source_ids": [
+        "fusion1_examen-final-ceom9_primaria-5o-y-6o-primaria_q01",
+        "fusion1_examen-final-ceom9_primaria-5o-y-6o-primaria_q02",
+        "fusion1_examen-final-ceom9_primaria-5o-y-6o-primaria_q03",
+        "fusion1_examen-final-ceom9_primaria-5o-y-6o-primaria_q04"
+      ],
+      "fields_rendered": 12,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Eliminatorio CEOM12/Primaria/FUSION_sin-fecha_eliminatorio-ceom12_primaria-5-y-6_classified.json",
+      "sha256": "62968d4d7b9b5368059b950703c1b82f36b15b8deea6adfb999ec29c350764fe",
+      "bytes": 10674,
+      "problem_count": 3,
+      "source_ids": [
+        "fusion1_examen-eliminatorio-ceom12_primaria-5-y-6_q01",
+        "fusion1_examen-eliminatorio-ceom12_primaria-5-y-6_q02",
+        "fusion1_examen-eliminatorio-ceom12_primaria-5-y-6_q03"
+      ],
+      "fields_rendered": 9,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/Primaria/FUSION_sin-fecha_estatal-ceom12_primaria-5-y-6-primaria_classified.json",
+      "sha256": "1418f9dfc79ad31240537d87911a52a9c48cc28dfad80713d2974a2e352571bd",
+      "bytes": 30245,
+      "problem_count": 4,
+      "source_ids": [
+        "fusion1_examen-estatal-ceom12_primaria-5-y-6-primaria_q01",
+        "fusion1_examen-estatal-ceom12_primaria-5-y-6-primaria_q02",
+        "fusion1_examen-estatal-ceom12_primaria-5-y-6-primaria_q03",
+        "fusion1_examen-estatal-ceom12_primaria-5-y-6-primaria_q04"
+      ],
+      "fields_rendered": 12,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2026/Selectivo Estatal/3.º de primaria/FUSION_2026_selectivo-estatal_3-de-primaria_classified.json",
+      "sha256": "85004cc5e781fa2233d19953ca37e2fc56ce960e93fe22f1a86080557a02de3a",
+      "bytes": 110351,
+      "problem_count": 16,
+      "source_ids": [
+        "fusion6_examenes-selectivos-estatales-fusion-26_3-de-primaria_q01",
+        "fusion6_examenes-selectivos-estatales-fusion-26_3-de-primaria_q02",
+        "fusion6_examenes-selectivos-estatales-fusion-26_3-de-primaria_q03",
+        "fusion6_examenes-selectivos-estatales-fusion-26_3-de-primaria_q04",
+        "fusion6_examenes-selectivos-estatales-fusion-26_3-de-primaria_q05",
+        "fusion6_examenes-selectivos-estatales-fusion-26_3-de-primaria_q06",
+        "fusion6_examenes-selectivos-estatales-fusion-26_3-de-primaria_q07",
+        "fusion6_examenes-selectivos-estatales-fusion-26_3-de-primaria_q08",
+        "fusion6_examenes-selectivos-estatales-fusion-26_3-de-primaria_q09",
+        "fusion6_examenes-selectivos-estatales-fusion-26_3-de-primaria_q10",
+        "fusion6_examenes-selectivos-estatales-fusion-26_3-de-primaria_q11",
+        "fusion6_examenes-selectivos-estatales-fusion-26_3-de-primaria_q12",
+        "fusion6_examenes-selectivos-estatales-fusion-26_3-de-primaria_q13",
+        "fusion6_examenes-selectivos-estatales-fusion-26_3-de-primaria_q14",
+        "fusion6_examenes-selectivos-estatales-fusion-26_3-de-primaria_q15",
+        "fusion6_examenes-selectivos-estatales-fusion-26_3-de-primaria_q16"
+      ],
+      "fields_rendered": 48,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2026/Selectivo Estatal/4.º de primaria/FUSION_2026_selectivo-estatal_4-de-primaria_classified.json",
+      "sha256": "5584105ffe861f4628843b81d7ef71fee31f79b0439ababdb0137e0593e5e7f1",
+      "bytes": 114742,
+      "problem_count": 16,
+      "source_ids": [
+        "fusion6_examenes-selectivos-estatales-fusion-26_4-de-primaria_q01",
+        "fusion6_examenes-selectivos-estatales-fusion-26_4-de-primaria_q02",
+        "fusion6_examenes-selectivos-estatales-fusion-26_4-de-primaria_q03",
+        "fusion6_examenes-selectivos-estatales-fusion-26_4-de-primaria_q04",
+        "fusion6_examenes-selectivos-estatales-fusion-26_4-de-primaria_q05",
+        "fusion6_examenes-selectivos-estatales-fusion-26_4-de-primaria_q06",
+        "fusion6_examenes-selectivos-estatales-fusion-26_4-de-primaria_q07",
+        "fusion6_examenes-selectivos-estatales-fusion-26_4-de-primaria_q08",
+        "fusion6_examenes-selectivos-estatales-fusion-26_4-de-primaria_q09",
+        "fusion6_examenes-selectivos-estatales-fusion-26_4-de-primaria_q10",
+        "fusion6_examenes-selectivos-estatales-fusion-26_4-de-primaria_q11",
+        "fusion6_examenes-selectivos-estatales-fusion-26_4-de-primaria_q12",
+        "fusion6_examenes-selectivos-estatales-fusion-26_4-de-primaria_q13",
+        "fusion6_examenes-selectivos-estatales-fusion-26_4-de-primaria_q14",
+        "fusion6_examenes-selectivos-estatales-fusion-26_4-de-primaria_q15",
+        "fusion6_examenes-selectivos-estatales-fusion-26_4-de-primaria_q16"
+      ],
+      "fields_rendered": 48,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2026/Selectivo Estatal/5.º de primaria/FUSION_2026_selectivo-estatal_5-de-primaria_classified.json",
+      "sha256": "0afaf056dcd0d2e0daaea72e088a4e98307eb1703a231e81c3302527acdbc33e",
+      "bytes": 98621,
+      "problem_count": 16,
+      "source_ids": [
+        "fusion6_examenes-selectivos-estatales-fusion-26_5-de-primaria_q01",
+        "fusion6_examenes-selectivos-estatales-fusion-26_5-de-primaria_q02",
+        "fusion6_examenes-selectivos-estatales-fusion-26_5-de-primaria_q03",
+        "fusion6_examenes-selectivos-estatales-fusion-26_5-de-primaria_q04",
+        "fusion6_examenes-selectivos-estatales-fusion-26_5-de-primaria_q05",
+        "fusion6_examenes-selectivos-estatales-fusion-26_5-de-primaria_q06",
+        "fusion6_examenes-selectivos-estatales-fusion-26_5-de-primaria_q07",
+        "fusion6_examenes-selectivos-estatales-fusion-26_5-de-primaria_q08",
+        "fusion6_examenes-selectivos-estatales-fusion-26_5-de-primaria_q09",
+        "fusion6_examenes-selectivos-estatales-fusion-26_5-de-primaria_q10",
+        "fusion6_examenes-selectivos-estatales-fusion-26_5-de-primaria_q11",
+        "fusion6_examenes-selectivos-estatales-fusion-26_5-de-primaria_q12",
+        "fusion6_examenes-selectivos-estatales-fusion-26_5-de-primaria_q13",
+        "fusion6_examenes-selectivos-estatales-fusion-26_5-de-primaria_q14",
+        "fusion6_examenes-selectivos-estatales-fusion-26_5-de-primaria_q15",
+        "fusion6_examenes-selectivos-estatales-fusion-26_5-de-primaria_q16"
+      ],
+      "fields_rendered": 48,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2026/Selectivo Estatal/6.º de primaria/FUSION_2026_selectivo-estatal_6-de-primaria_classified.json",
+      "sha256": "81207e9b70c7258a5d2a6f2aa523270462f19dbd008e1588eb898ce6a73ddc82",
+      "bytes": 120780,
+      "problem_count": 16,
+      "source_ids": [
+        "fusion6_examenes-selectivos-estatales-fusion-26_6-de-primaria_q01",
+        "fusion6_examenes-selectivos-estatales-fusion-26_6-de-primaria_q02",
+        "fusion6_examenes-selectivos-estatales-fusion-26_6-de-primaria_q03",
+        "fusion6_examenes-selectivos-estatales-fusion-26_6-de-primaria_q04",
+        "fusion6_examenes-selectivos-estatales-fusion-26_6-de-primaria_q05",
+        "fusion6_examenes-selectivos-estatales-fusion-26_6-de-primaria_q06",
+        "fusion6_examenes-selectivos-estatales-fusion-26_6-de-primaria_q07",
+        "fusion6_examenes-selectivos-estatales-fusion-26_6-de-primaria_q08",
+        "fusion6_examenes-selectivos-estatales-fusion-26_6-de-primaria_q09",
+        "fusion6_examenes-selectivos-estatales-fusion-26_6-de-primaria_q10",
+        "fusion6_examenes-selectivos-estatales-fusion-26_6-de-primaria_q11",
+        "fusion6_examenes-selectivos-estatales-fusion-26_6-de-primaria_q12",
+        "fusion6_examenes-selectivos-estatales-fusion-26_6-de-primaria_q13",
+        "fusion6_examenes-selectivos-estatales-fusion-26_6-de-primaria_q14",
+        "fusion6_examenes-selectivos-estatales-fusion-26_6-de-primaria_q15",
+        "fusion6_examenes-selectivos-estatales-fusion-26_6-de-primaria_q16"
+      ],
+      "fields_rendered": 48,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2026/Selectivo Estatal/1.º de secundaria/FUSION_2026_selectivo-estatal_1-de-secundaria_classified.json",
+      "sha256": "bd5d274d8a6eadc49d5111d3bb5a643299c5196215c594710bb8dfe2d45fa645",
+      "bytes": 96094,
+      "problem_count": 16,
+      "source_ids": [
+        "fusion6_examenes-selectivos-estatales-fusion-26_1-de-secundaria_q01",
+        "fusion6_examenes-selectivos-estatales-fusion-26_1-de-secundaria_q02",
+        "fusion6_examenes-selectivos-estatales-fusion-26_1-de-secundaria_q03",
+        "fusion6_examenes-selectivos-estatales-fusion-26_1-de-secundaria_q04",
+        "fusion6_examenes-selectivos-estatales-fusion-26_1-de-secundaria_q05",
+        "fusion6_examenes-selectivos-estatales-fusion-26_1-de-secundaria_q06",
+        "fusion6_examenes-selectivos-estatales-fusion-26_1-de-secundaria_q07",
+        "fusion6_examenes-selectivos-estatales-fusion-26_1-de-secundaria_q08",
+        "fusion6_examenes-selectivos-estatales-fusion-26_1-de-secundaria_q09",
+        "fusion6_examenes-selectivos-estatales-fusion-26_1-de-secundaria_q10",
+        "fusion6_examenes-selectivos-estatales-fusion-26_1-de-secundaria_q11",
+        "fusion6_examenes-selectivos-estatales-fusion-26_1-de-secundaria_q12",
+        "fusion6_examenes-selectivos-estatales-fusion-26_1-de-secundaria_q13",
+        "fusion6_examenes-selectivos-estatales-fusion-26_1-de-secundaria_q14",
+        "fusion6_examenes-selectivos-estatales-fusion-26_1-de-secundaria_q15",
+        "fusion6_examenes-selectivos-estatales-fusion-26_1-de-secundaria_q16"
+      ],
+      "fields_rendered": 48,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2026/Selectivo Estatal/2.º de secundaria/FUSION_2026_selectivo-estatal_2-de-secundaria_classified.json",
+      "sha256": "80c98cd74180c1c5c41299cdee6b85eb9614579d32aba27ea064f24b6f6b052d",
+      "bytes": 118347,
+      "problem_count": 16,
+      "source_ids": [
+        "fusion6_examenes-selectivos-estatales-fusion-26_2-de-secundaria_q01",
+        "fusion6_examenes-selectivos-estatales-fusion-26_2-de-secundaria_q02",
+        "fusion6_examenes-selectivos-estatales-fusion-26_2-de-secundaria_q03",
+        "fusion6_examenes-selectivos-estatales-fusion-26_2-de-secundaria_q04",
+        "fusion6_examenes-selectivos-estatales-fusion-26_2-de-secundaria_q05",
+        "fusion6_examenes-selectivos-estatales-fusion-26_2-de-secundaria_q06",
+        "fusion6_examenes-selectivos-estatales-fusion-26_2-de-secundaria_q07",
+        "fusion6_examenes-selectivos-estatales-fusion-26_2-de-secundaria_q08",
+        "fusion6_examenes-selectivos-estatales-fusion-26_2-de-secundaria_q09",
+        "fusion6_examenes-selectivos-estatales-fusion-26_2-de-secundaria_q10",
+        "fusion6_examenes-selectivos-estatales-fusion-26_2-de-secundaria_q11",
+        "fusion6_examenes-selectivos-estatales-fusion-26_2-de-secundaria_q12",
+        "fusion6_examenes-selectivos-estatales-fusion-26_2-de-secundaria_q13",
+        "fusion6_examenes-selectivos-estatales-fusion-26_2-de-secundaria_q14",
+        "fusion6_examenes-selectivos-estatales-fusion-26_2-de-secundaria_q15",
+        "fusion6_examenes-selectivos-estatales-fusion-26_2-de-secundaria_q16"
+      ],
+      "fields_rendered": 48,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2026/Selectivo Estatal/3.º de secundaria/FUSION_2026_selectivo-estatal_3-de-secundaria_classified.json",
+      "sha256": "315b3f815c2efb4896536ff47da0fc72b9b8ae37ed9da66929b4b3985d35aeb1",
+      "bytes": 131866,
+      "problem_count": 16,
+      "source_ids": [
+        "fusion6_examenes-selectivos-estatales-fusion-26_3-de-secundaria_q01",
+        "fusion6_examenes-selectivos-estatales-fusion-26_3-de-secundaria_q02",
+        "fusion6_examenes-selectivos-estatales-fusion-26_3-de-secundaria_q03",
+        "fusion6_examenes-selectivos-estatales-fusion-26_3-de-secundaria_q04",
+        "fusion6_examenes-selectivos-estatales-fusion-26_3-de-secundaria_q05",
+        "fusion6_examenes-selectivos-estatales-fusion-26_3-de-secundaria_q06",
+        "fusion6_examenes-selectivos-estatales-fusion-26_3-de-secundaria_q07",
+        "fusion6_examenes-selectivos-estatales-fusion-26_3-de-secundaria_q08",
+        "fusion6_examenes-selectivos-estatales-fusion-26_3-de-secundaria_q09",
+        "fusion6_examenes-selectivos-estatales-fusion-26_3-de-secundaria_q10",
+        "fusion6_examenes-selectivos-estatales-fusion-26_3-de-secundaria_q11",
+        "fusion6_examenes-selectivos-estatales-fusion-26_3-de-secundaria_q12",
+        "fusion6_examenes-selectivos-estatales-fusion-26_3-de-secundaria_q13",
+        "fusion6_examenes-selectivos-estatales-fusion-26_3-de-secundaria_q14",
+        "fusion6_examenes-selectivos-estatales-fusion-26_3-de-secundaria_q15",
+        "fusion6_examenes-selectivos-estatales-fusion-26_3-de-secundaria_q16"
+      ],
+      "fields_rendered": 48,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2026/Selectivo Estatal/Universitarios/FUSION_2026_selectivo-estatal_universitarios_classified.json",
+      "sha256": "396db9a5a92bdba5777e8fda6742790fb75897a2961fc332a39e8bafa539cc24",
+      "bytes": 85085,
+      "problem_count": 16,
+      "source_ids": [
+        "fusion6_examenes-selectivos-estatales-fusion-26_universitarios_q01",
+        "fusion6_examenes-selectivos-estatales-fusion-26_universitarios_q02",
+        "fusion6_examenes-selectivos-estatales-fusion-26_universitarios_q03",
+        "fusion6_examenes-selectivos-estatales-fusion-26_universitarios_q04",
+        "fusion6_examenes-selectivos-estatales-fusion-26_universitarios_q05",
+        "fusion6_examenes-selectivos-estatales-fusion-26_universitarios_q06",
+        "fusion6_examenes-selectivos-estatales-fusion-26_universitarios_q07",
+        "fusion6_examenes-selectivos-estatales-fusion-26_universitarios_q08",
+        "fusion6_examenes-selectivos-estatales-fusion-26_universitarios_q09",
+        "fusion6_examenes-selectivos-estatales-fusion-26_universitarios_q10",
+        "fusion6_examenes-selectivos-estatales-fusion-26_universitarios_q11",
+        "fusion6_examenes-selectivos-estatales-fusion-26_universitarios_q12",
+        "fusion6_examenes-selectivos-estatales-fusion-26_universitarios_q13",
+        "fusion6_examenes-selectivos-estatales-fusion-26_universitarios_q14",
+        "fusion6_examenes-selectivos-estatales-fusion-26_universitarios_q15",
+        "fusion6_examenes-selectivos-estatales-fusion-26_universitarios_q16"
+      ],
+      "fields_rendered": 48,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2026/Selectivo Estatal/1.º de bachillerato o preparatoria/FUSION_2026_selectivo-estatal_1-bachillerato-o-preparatoria_classified.json",
+      "sha256": "08213eca3c6e753bc9a197adcede3546a1654dd58bca470a4165c786cb088c57",
+      "bytes": 126071,
+      "problem_count": 16,
+      "source_ids": [
+        "fusion6_examenes-selectivos-estatales-fusion-26_1-bachillerato-o-preparatoria_q01",
+        "fusion6_examenes-selectivos-estatales-fusion-26_1-bachillerato-o-preparatoria_q02",
+        "fusion6_examenes-selectivos-estatales-fusion-26_1-bachillerato-o-preparatoria_q03",
+        "fusion6_examenes-selectivos-estatales-fusion-26_1-bachillerato-o-preparatoria_q04",
+        "fusion6_examenes-selectivos-estatales-fusion-26_1-bachillerato-o-preparatoria_q05",
+        "fusion6_examenes-selectivos-estatales-fusion-26_1-bachillerato-o-preparatoria_q06",
+        "fusion6_examenes-selectivos-estatales-fusion-26_1-bachillerato-o-preparatoria_q07",
+        "fusion6_examenes-selectivos-estatales-fusion-26_1-bachillerato-o-preparatoria_q08",
+        "fusion6_examenes-selectivos-estatales-fusion-26_1-bachillerato-o-preparatoria_q09",
+        "fusion6_examenes-selectivos-estatales-fusion-26_1-bachillerato-o-preparatoria_q10",
+        "fusion6_examenes-selectivos-estatales-fusion-26_1-bachillerato-o-preparatoria_q11",
+        "fusion6_examenes-selectivos-estatales-fusion-26_1-bachillerato-o-preparatoria_q12",
+        "fusion6_examenes-selectivos-estatales-fusion-26_1-bachillerato-o-preparatoria_q13",
+        "fusion6_examenes-selectivos-estatales-fusion-26_1-bachillerato-o-preparatoria_q14",
+        "fusion6_examenes-selectivos-estatales-fusion-26_1-bachillerato-o-preparatoria_q15",
+        "fusion6_examenes-selectivos-estatales-fusion-26_1-bachillerato-o-preparatoria_q16"
+      ],
+      "fields_rendered": 48,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2026/Selectivo Estatal/2.º de bachillerato o preparatoria/FUSION_2026_selectivo-estatal_2-bachillerato-o-preparatoria_classified.json",
+      "sha256": "bcf619efcc2e7971c839649bdd4a32ee87c25e9ad0778edca4ad0001dfc2d52a",
+      "bytes": 80221,
+      "problem_count": 16,
+      "source_ids": [
+        "fusion6_examenes-selectivos-estatales-fusion-26_2-bachillerato-o-preparatoria_q01",
+        "fusion6_examenes-selectivos-estatales-fusion-26_2-bachillerato-o-preparatoria_q02",
+        "fusion6_examenes-selectivos-estatales-fusion-26_2-bachillerato-o-preparatoria_q03",
+        "fusion6_examenes-selectivos-estatales-fusion-26_2-bachillerato-o-preparatoria_q04",
+        "fusion6_examenes-selectivos-estatales-fusion-26_2-bachillerato-o-preparatoria_q05",
+        "fusion6_examenes-selectivos-estatales-fusion-26_2-bachillerato-o-preparatoria_q06",
+        "fusion6_examenes-selectivos-estatales-fusion-26_2-bachillerato-o-preparatoria_q07",
+        "fusion6_examenes-selectivos-estatales-fusion-26_2-bachillerato-o-preparatoria_q08",
+        "fusion6_examenes-selectivos-estatales-fusion-26_2-bachillerato-o-preparatoria_q09",
+        "fusion6_examenes-selectivos-estatales-fusion-26_2-bachillerato-o-preparatoria_q10",
+        "fusion6_examenes-selectivos-estatales-fusion-26_2-bachillerato-o-preparatoria_q11",
+        "fusion6_examenes-selectivos-estatales-fusion-26_2-bachillerato-o-preparatoria_q12",
+        "fusion6_examenes-selectivos-estatales-fusion-26_2-bachillerato-o-preparatoria_q13",
+        "fusion6_examenes-selectivos-estatales-fusion-26_2-bachillerato-o-preparatoria_q14",
+        "fusion6_examenes-selectivos-estatales-fusion-26_2-bachillerato-o-preparatoria_q15",
+        "fusion6_examenes-selectivos-estatales-fusion-26_2-bachillerato-o-preparatoria_q16"
+      ],
+      "fields_rendered": 48,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2026/Selectivo Estatal/3.º de bachillerato o preparatoria/FUSION_2026_selectivo-estatal_3-bachillerato-o-preparatoria_classified.json",
+      "sha256": "6eb6b11abc746d33c36d3dd64fdc791c936d54bef71ba34efd0597716f870eeb",
+      "bytes": 86209,
+      "problem_count": 16,
+      "source_ids": [
+        "fusion6_examenes-selectivos-estatales-fusion-26_3-bachillerato-o-preparatoria_q01",
+        "fusion6_examenes-selectivos-estatales-fusion-26_3-bachillerato-o-preparatoria_q02",
+        "fusion6_examenes-selectivos-estatales-fusion-26_3-bachillerato-o-preparatoria_q03",
+        "fusion6_examenes-selectivos-estatales-fusion-26_3-bachillerato-o-preparatoria_q04",
+        "fusion6_examenes-selectivos-estatales-fusion-26_3-bachillerato-o-preparatoria_q05",
+        "fusion6_examenes-selectivos-estatales-fusion-26_3-bachillerato-o-preparatoria_q06",
+        "fusion6_examenes-selectivos-estatales-fusion-26_3-bachillerato-o-preparatoria_q07",
+        "fusion6_examenes-selectivos-estatales-fusion-26_3-bachillerato-o-preparatoria_q08",
+        "fusion6_examenes-selectivos-estatales-fusion-26_3-bachillerato-o-preparatoria_q09",
+        "fusion6_examenes-selectivos-estatales-fusion-26_3-bachillerato-o-preparatoria_q10",
+        "fusion6_examenes-selectivos-estatales-fusion-26_3-bachillerato-o-preparatoria_q11",
+        "fusion6_examenes-selectivos-estatales-fusion-26_3-bachillerato-o-preparatoria_q12",
+        "fusion6_examenes-selectivos-estatales-fusion-26_3-bachillerato-o-preparatoria_q13",
+        "fusion6_examenes-selectivos-estatales-fusion-26_3-bachillerato-o-preparatoria_q14",
+        "fusion6_examenes-selectivos-estatales-fusion-26_3-bachillerato-o-preparatoria_q15",
+        "fusion6_examenes-selectivos-estatales-fusion-26_3-bachillerato-o-preparatoria_q16"
+      ],
+      "fields_rendered": 48,
+      "structural_validation": true,
+      "format_recheck": "passed"
+    }
+  ],
+  "updated_files": [
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2025/Selectivo Estatal/1.º de secundaria/FUSION_2025_selectivo-estatal_1-de-secundaria_classified.json",
+      "sha256": "c291e63db2035bb857a006d59cf11014007e3e819746aabfa99d48f635a30c98",
+      "bytes": 61021
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/2025/Selectivo Estatal/1.º de secundaria/FUSION_2025_selectivo-estatal_1-de-secundaria_verified.json",
+      "sha256": "45772e67aebba8bef4207d3ece22b0d2033ada160d0cde81cac859ce8df94dbf",
+      "bytes": 52732
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2025/Selectivo Estatal/2.º de preparatoria/FUSION_2025_selectivo-estatal_2-de-preparatoria_classified.json",
+      "sha256": "481350d0a5aab1c97375ac08461409a14a3c30f0488c00012d2d748a2eef447f",
+      "bytes": 104219
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/2025/Selectivo Estatal/2.º de preparatoria/FUSION_2025_selectivo-estatal_2-de-preparatoria_verified.json",
+      "sha256": "8b5b3191247a872ee094f13f2f75c7c17d7003a5606ad1f2e9e3ac267481a1ac",
+      "bytes": 95801
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2025/Selectivo Estatal/2.º de secundaria/FUSION_2025_selectivo-estatal_2-de-secundaria_classified.json",
+      "sha256": "e7ad5a1daef76c140df7bbd13239f989153a022bb577aac455114b8909116fec",
+      "bytes": 79765
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/2025/Selectivo Estatal/2.º de secundaria/FUSION_2025_selectivo-estatal_2-de-secundaria_verified.json",
+      "sha256": "41ac25a089428f21c9e4a4915cb2e3990b1b0eaf4ff21d9e9ed3391d4a6a1ec4",
+      "bytes": 71285
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2025/Selectivo Estatal/3.º de secundaria/FUSION_2025_selectivo-estatal_3-de-secundaria_classified.json",
+      "sha256": "4ab032d66ae054fd1cc1bf59c6e660470ecdea9b5c245a761b370207f98da6d5",
+      "bytes": 77727
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/2025/Selectivo Estatal/3.º de secundaria/FUSION_2025_selectivo-estatal_3-de-secundaria_verified.json",
+      "sha256": "3d64685a599340ccf59ea42fe27fcb476179a4e9635478e2f6281f16da969212",
+      "bytes": 69399
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2025/Selectivo Estatal/4.º de primaria/FUSION_2025_selectivo-estatal_4-de-primaria_classified.json",
+      "sha256": "91eba4753ce959babdc4add5f214ebc37fd34c9e8c768486bcc26286d7d2f94c",
+      "bytes": 110295
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/2025/Selectivo Estatal/4.º de primaria/FUSION_2025_selectivo-estatal_4-de-primaria_verified.json",
+      "sha256": "571fe53a065fc5522bf373dd6425a2e4c5793f1cf5cb16b28b42729f7e1def63",
+      "bytes": 102203
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2025/Selectivo Estatal/5.º de primaria/FUSION_2025_selectivo-estatal_5-de-primaria_classified.json",
+      "sha256": "b34d5750fe28dae972850f2e19790e0432b74bed7d3b89b00f5270d11f5a1794",
+      "bytes": 67773
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/2025/Selectivo Estatal/5.º de primaria/FUSION_2025_selectivo-estatal_5-de-primaria_verified.json",
+      "sha256": "df9c19317e7bb1b04d6bf8459582111c5905d8cdb1d382f285e98becaa896f17",
+      "bytes": 59579
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2025/Selectivo Estatal/6.º de primaria/FUSION_2025_selectivo-estatal_6-de-primaria_classified.json",
+      "sha256": "2a3cfd758c376ef759ce7543b897ad9e826eb8730cc7536c5b2eccc98ed06ff7",
+      "bytes": 68010
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/2025/Selectivo Estatal/6.º de primaria/FUSION_2025_selectivo-estatal_6-de-primaria_verified.json",
+      "sha256": "8c1eceae9b9d8de0bd38fcf21f4ac3c52a679a524dd6d42f58091677a4f23097",
+      "bytes": 59746
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/1.º de preparatoria/FUSION_2024_eliminatoria-estatal_1-de-preparatoria_classified.json",
+      "sha256": "45c945204b7dc1f8c6126762edd1ff0a09ae81a52f320214e8f2cf03c0813877",
+      "bytes": 95585
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/2024/Eliminatoria Estatal/1.º de preparatoria/FUSION_2024_eliminatoria-estatal_1-de-preparatoria_verified.json",
+      "sha256": "1fb129793b9387c0e364ab13f34cc547988e7e93a0924512c7f77b07abe7926f",
+      "bytes": 89928
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/1.º de secundaria/FUSION_2024_eliminatoria-estatal_1-de-secundaria_classified.json",
+      "sha256": "52acbfc92c5b5abbd9b23b1d6a4fb44b66bb6074b531a953e92e70b170853579",
+      "bytes": 127470
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/2024/Eliminatoria Estatal/1.º de secundaria/FUSION_2024_eliminatoria-estatal_1-de-secundaria_verified.json",
+      "sha256": "7a65a1d0cc345895aa52bd33bd936e44d7b231510d3bea9a0d0c2648b16174f7",
+      "bytes": 121917
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/2.º de preparatoria/FUSION_2024_eliminatoria-estatal_2-de-preparatoria_classified.json",
+      "sha256": "4360c8f4e5c31de110905cbb088ea048c20589787bec23504273defeb7097b75",
+      "bytes": 102985
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/2024/Eliminatoria Estatal/2.º de preparatoria/FUSION_2024_eliminatoria-estatal_2-de-preparatoria_verified.json",
+      "sha256": "ccb1b1029c54016c663ca56fdaf6b057e07413a0071f713367926995f9a6ca6a",
+      "bytes": 97324
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/2.º de secundaria/FUSION_2024_eliminatoria-estatal_2-de-secundaria_classified.json",
+      "sha256": "a900078fc4e7d930938d08143205823507cbd47dcf7c168dd23e5d640fb1a187",
+      "bytes": 85353
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/2024/Eliminatoria Estatal/2.º de secundaria/FUSION_2024_eliminatoria-estatal_2-de-secundaria_verified.json",
+      "sha256": "6c57a9f18649e5e318fbd2290ab6b55bef1713a0a807e49c4553835c12eb1dfb",
+      "bytes": 79760
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/3.º de secundaria/FUSION_2024_eliminatoria-estatal_3-de-secundaria_classified.json",
+      "sha256": "97cd423079ba77cb40e54bfa9a9bc6b926c038e58683c9538a8e5e6d19921dfb",
+      "bytes": 77215
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/2024/Eliminatoria Estatal/3.º de secundaria/FUSION_2024_eliminatoria-estatal_3-de-secundaria_verified.json",
+      "sha256": "13fb9c41dd48fda5ab93e6ed5df8f610e1e37fa2e59bc5499eef8003f2086775",
+      "bytes": 71593
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/5.º de primaria/FUSION_2024_eliminatoria-estatal_5-de-primaria_classified.json",
+      "sha256": "01629abf75640bc0427783902d041c990662d7f478c751954d7c2e4b304f1a98",
+      "bytes": 97909
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/2024/Eliminatoria Estatal/5.º de primaria/FUSION_2024_eliminatoria-estatal_5-de-primaria_verified.json",
+      "sha256": "ad3a2a73152ce64bad8aa2b6b00406831512d81a52e248a9786540f4e9f3c4b8",
+      "bytes": 92424
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/6.º de primaria/FUSION_2024_eliminatoria-estatal_6-de-primaria_classified.json",
+      "sha256": "04cd5cae853c294a83430e0361230e8b1cfa9c1b257699d17ae0068721c18ff1",
+      "bytes": 139966
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/2024/Eliminatoria Estatal/6.º de primaria/FUSION_2024_eliminatoria-estatal_6-de-primaria_verified.json",
+      "sha256": "744da2019b02be78c8cca91df02ba72dfda8ed0df306de59a53126639f3eca5b",
+      "bytes": 134463
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/Universitarios/FUSION_2024_eliminatoria-estatal_universitarios_classified.json",
+      "sha256": "b432fa04477828066de38aa6c65f3c9755b57313e9d9e90fb5d29540aea114bb",
+      "bytes": 133434
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/2024/Eliminatoria Estatal/Universitarios/FUSION_2024_eliminatoria-estatal_universitarios_verified.json",
+      "sha256": "b274aa34db74ac85485a30615fc1d8bb63116576e06eca8edcb302ea63aa1f6c",
+      "bytes": 127975
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/GAU55/2024/Estatal/Nivel 1/GAU55_2024_Estatal_N1_classified.json",
+      "sha256": "976e78343139320db83b87417d704e28f8fd2ab74e370cb5d71b718cd2de6ffd",
+      "bytes": 1034525
+    },
+    {
+      "path": "02_JSON_EXAMS/GAU55/2024/Estatal/Nivel 1/GAU55_2024_Estatal_N1_verified.json",
+      "sha256": "b50521c22ef9009b408a0dbeb462d7ec3810f86838fbf497b5c0cc23bcf2f039",
+      "bytes": 1024032
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/GAU55/2024/Estatal/Nivel 2/GAU55_2024_Estatal_N2_classified.json",
+      "sha256": "2262c4604ca93ae61cbef5ea1ec0cffeac05b88991c66bd0acdddfa58ce94d10",
+      "bytes": 466864
+    },
+    {
+      "path": "02_JSON_EXAMS/GAU55/2024/Estatal/Nivel 2/GAU55_2024_Estatal_N2_verified.json",
+      "sha256": "d53260e83718e974f5041d8fc1ce252ed237c5122c05fdf467cf5eadc3afafeb",
+      "bytes": 454603
+    },
+    {
+      "path": "02_JSON_EXAMS/GAU55/2024/Estatal/Nivel 3/GAU55_2024_Estatal_N3_verified.json",
+      "sha256": "039ad3c002783a4b225021af86b18adb2280d8010c006bcd60f4de8aa9cd4de0",
+      "bytes": 241096
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/1.º de secundaria/FUSION_2023_selectivo-estatal_1-de-secundaria_classified.json",
+      "sha256": "d0db81eefbeaeb0741038846719d3d708772d8b9b217392e2481e57137a57848",
+      "bytes": 110570
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/2023/Selectivo Estatal/1.º de secundaria/FUSION_2023_selectivo-estatal_1-de-secundaria_verified.json",
+      "sha256": "5934fa6847634b05d817d747521487e911aa7029223e0fc43ff06873539b8fe1",
+      "bytes": 101929
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/3.º de preparatoria/FUSION_2023_selectivo-estatal_3-ano-de-preparatoria_classified.json",
+      "sha256": "187d0c4938bc3cf175cfc331264024c927b3435a92d37a0795b944e3252c2ff3",
+      "bytes": 123083
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/2023/Selectivo Estatal/3.º de preparatoria/FUSION_2023_selectivo-estatal_3-ano-de-preparatoria_verified.json",
+      "sha256": "98fa83b739fcf33e2d29558cc46669448c237cc6171f96e9309baf92e42b6eb5",
+      "bytes": 114253
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/5.º de primaria y menores/FUSION_2023_selectivo-estatal_5de-primaria-y-menores_classified.json",
+      "sha256": "5beabfa67cb42b06f3568e1d48d311125c931d55dd4c8ab8042e02ea107a1185",
+      "bytes": 109762
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/2023/Selectivo Estatal/5.º de primaria y menores/FUSION_2023_selectivo-estatal_5de-primaria-y-menores_verified.json",
+      "sha256": "148b1558df074db5af29d1b5ee558699e267ac0c7d289bb7d3030463f8fdf268",
+      "bytes": 100735
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/6.º de primaria/FUSION_2023_selectivo-estatal_6de-primaria_classified.json",
+      "sha256": "6987be50754c95a5069b3ed5ffbe6d626663e0ceaf08c8d53203ea307ca32845",
+      "bytes": 88654
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/2023/Selectivo Estatal/6.º de primaria/FUSION_2023_selectivo-estatal_6de-primaria_verified.json",
+      "sha256": "c748b94581dd74bb0b7984735e074515d2f063b9932ae5b3479d2a8a5fff6e38",
+      "bytes": 80001
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/GAU55/2023/Estatal/Nivel 1/GAU55_2023_Estatal_N1_classified.json",
+      "sha256": "4f3b3217b21f46770d767b79b1172a0192e5a7e23812f26e826ca5633e76f5dd",
+      "bytes": 415724
+    },
+    {
+      "path": "02_JSON_EXAMS/GAU55/2023/Estatal/Nivel 1/GAU55_2023_Estatal_N1_verified.json",
+      "sha256": "54e16cd03ba6b1356f3ce4f42776ddd1313d9ea97400b672667a0047d77dbf7a",
+      "bytes": 406720
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/GAU55/2023/Estatal/Nivel 2/GAU55_2023_Estatal_N2_classified.json",
+      "sha256": "be02df5f3c4d47c247c16bbae8372268777ca1f2c7d2d38fbe6736fed2cbd3e3",
+      "bytes": 531420
+    },
+    {
+      "path": "02_JSON_EXAMS/GAU55/2023/Estatal/Nivel 2/GAU55_2023_Estatal_N2_verified.json",
+      "sha256": "e43a0830ad76e4f547c5da5577316c39c861ed5edbbce6bb7a4eece8d1825b77",
+      "bytes": 521726
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 1/Primaria/FUSION_2020_torneo-1_primaria_classified.json",
+      "sha256": "8b28b2cc649c14b154a108eb34b8b83d9780f86dbf2840edd15304c171416a45",
+      "bytes": 11428
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/2020/Torneo 1/Primaria/FUSION_2020_torneo-1_primaria_verified.json",
+      "sha256": "ae1746c7fd6d435e8c53a49e62f7d0d7a108db148df1ae38154dbac3da61494b",
+      "bytes": 9531
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 3/Primaria/FUSION_2020_torneo-3_primaria_classified.json",
+      "sha256": "afc1c485308662d879c3d7ea8b85bc1cc4ab73e6a828a584b483c4effbe75fa6",
+      "bytes": 17545
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/2020/Torneo 3/Primaria/FUSION_2020_torneo-3_primaria_verified.json",
+      "sha256": "fe1bf8b4d024215cdd562b3c058f421956a8c5c0a78b8cf965bdd9547bd406aa",
+      "bytes": 15600
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 2/Secundaria/FUSION_2020_torneo-2_secundaria_classified.json",
+      "sha256": "887d878bd18eebde690ee5d228b1876c83ca404fbc54043563f096a5705a8f6f",
+      "bytes": 17297
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/2020/Torneo 2/Secundaria/FUSION_2020_torneo-2_secundaria_verified.json",
+      "sha256": "e34e355985efb609712f7bc0001e84a0d9beaa7dfda2073192695fd3219ce201",
+      "bytes": 15431
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2019/Eliminatorio CEOM11/2.º de secundaria/FUSION_2019_eliminatorio-ceom11_2do-secundaria_classified.json",
+      "sha256": "1e579d8f0c80ddb874416be37e2c54163452b6bc2d89799dfb3b1b43d65ffed5",
+      "bytes": 17007
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/2019/Eliminatorio CEOM11/2.º de secundaria/FUSION_2019_eliminatorio-ceom11_2do-secundaria_verified.json",
+      "sha256": "69b87a5b260d3d0ec9c36bfeda13994f18108a58377aff343d684c6e5fdac15f",
+      "bytes": 15519
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2019/Eliminatorio CEOM11/3.º de secundaria/FUSION_2019_eliminatorio-ceom11_3ro-secundaria_classified.json",
+      "sha256": "2e2e180e1aa2abccd048103f297e7abeecfb374482bb12e81a69eaa419953ffd",
+      "bytes": 10847
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/2019/Eliminatorio CEOM11/3.º de secundaria/FUSION_2019_eliminatorio-ceom11_3ro-secundaria_verified.json",
+      "sha256": "b78061f7a77a476276b57a704eb30efc75a2b31b564ccb683a09840a3dcea3fb",
+      "bytes": 9348
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2019/Eliminatorio CEOM11/Olímpicos/FUSION_2019_eliminatorio-ceom11_olimpicos-preparatoria_classified.json",
+      "sha256": "516806c71459648d6a222ac6bd7ac73a9064b348faa6f5fdf426d170c3153a93",
+      "bytes": 10826
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/2019/Eliminatorio CEOM11/Olímpicos/FUSION_2019_eliminatorio-ceom11_olimpicos-preparatoria_verified.json",
+      "sha256": "effbe30e22639f507dd9bc325eaa7a7c08cbfb16865fab6c0602e198a8859644",
+      "bytes": 9327
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2018/Final CEOM10/1.º de secundaria/FUSION_2018_final-ceom10_1ro-secundaria_classified.json",
+      "sha256": "cf53487f1b86a1a6afee64242ede2d105c7dbc0408f6a1b71e8e569505602c98",
+      "bytes": 15220
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/2018/Final CEOM10/1.º de secundaria/FUSION_2018_final-ceom10_1ro-secundaria_verified.json",
+      "sha256": "17d4c3ff65dc89638e64f45c6e25fd0030319c2d9a74c0b850b2fea85fc69164",
+      "bytes": 13192
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2018/Final CEOM10/2.º de secundaria/FUSION_2018_final-ceom10_2do-secundaria_classified.json",
+      "sha256": "68bab208cb689473bae5c4a069ef7cb682e39ae27bf9f51063e227da77935c28",
+      "bytes": 20525
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/2018/Final CEOM10/2.º de secundaria/FUSION_2018_final-ceom10_2do-secundaria_verified.json",
+      "sha256": "c0f14954cfa042fd0efabc0ba23fc6b3bf3c7de7e7a487ea0bd52888ad2fb59b",
+      "bytes": 18375
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2018/Final CEOM10/3.º de secundaria/FUSION_2018_final-ceom10_3ro-secundaria_classified.json",
+      "sha256": "5cc44138624e70c90290c8d3fe57804cae35f923dfaee83df7f72b41618bf42f",
+      "bytes": 19714
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/2018/Final CEOM10/3.º de secundaria/FUSION_2018_final-ceom10_3ro-secundaria_verified.json",
+      "sha256": "069b3bf05b60d2ed080fbb5c6e75b977289e8e470d4fc9f109d206ffc10cba00",
+      "bytes": 17542
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2018/Final CEOM10/Kids/FUSION_2018_final-ceom10_kids-3ro_classified.json",
+      "sha256": "c1f195960d39de8854c48cdc221796e5bff59b11414137850ce8da9c652f6f93",
+      "bytes": 19181
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/2018/Final CEOM10/Kids/FUSION_2018_final-ceom10_kids-3ro_verified.json",
+      "sha256": "6334a8bd498f4e7fa85287ce548a1542b8db5a452c1e1ad744281e35a82ea511",
+      "bytes": 17106
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2018/Final CEOM10/Olímpicos/FUSION_2018_final-ceom10_olimpicos-preparatoria_classified.json",
+      "sha256": "62aa2c343304082669f477cdd28fb435546f6c2b61fe4ed4fd2e8c31b8de2bfa",
+      "bytes": 18522
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/2018/Final CEOM10/Olímpicos/FUSION_2018_final-ceom10_olimpicos-preparatoria_verified.json",
+      "sha256": "4762c3f629924b83f3de2e16e9081b71a2809e77d908dc4abbbab5a36d90b78a",
+      "bytes": 16426
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2018/Final CEOM10/Primaria/FUSION_2018_final-ceom10_primaria-5to_classified.json",
+      "sha256": "38fa88b528280734a20e66de204d5bfd827c22b55b96e8e950ccafcfc2d1552a",
+      "bytes": 15233
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/2018/Final CEOM10/Primaria/FUSION_2018_final-ceom10_primaria-5to_verified.json",
+      "sha256": "04bab919859ef99f0b10f338852eb885f9c9b9eee227eab3a4c7fbc874a7887e",
+      "bytes": 13170
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/1.º de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_1-preparatoria_classified.json",
+      "sha256": "c1fe520ee45924dced31092a899d259eaa8addd03ee31d116149e50f971432d4",
+      "bytes": 56323
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/1.º de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_1-preparatoria_verified.json",
+      "sha256": "dbd14f5bdd7cdd07f9502aba62e66b4351e6f8261e1ad3c2718caede9c0a42a6",
+      "bytes": 47906
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Final CEOM9/1.º de secundaria/FUSION_sin-fecha_final-ceom9_1o-secundaria_classified.json",
+      "sha256": "8f5decf887ccc8b841941e64dd01e86e39bdb516310e45214501ab76e4e26529",
+      "bytes": 18969
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/Sin fecha/Final CEOM9/1.º de secundaria/FUSION_sin-fecha_final-ceom9_1o-secundaria_verified.json",
+      "sha256": "cd2cfaff3f4f05ba067141b23581607c152e57f80eb4234e88fc40f4505ee48c",
+      "bytes": 16856
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/1.º de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_1-de-secundaria_classified.json",
+      "sha256": "4f3b07972f5b2d712459696798aab0e592c6ef3f6aac0459eb0f676935f3db73",
+      "bytes": 67325
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/1.º de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_1-de-secundaria_verified.json",
+      "sha256": "5c80fa1153e46a03a989c7389920b0fb08d1cc5727896002f158c895e79efd16",
+      "bytes": 58861
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/2.º de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_2-preparatoria_classified.json",
+      "sha256": "6cfc8e0d24118cc191fd15bb9d8bff4d19b152c79e87b40902f869d7254707b9",
+      "bytes": 68794
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/2.º de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_2-preparatoria_verified.json",
+      "sha256": "fde06c97eb3fd6e8c57381ef8f4cd30bdb62af5bad2ec7b0f18058ab3055e33d",
+      "bytes": 60174
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Final CEOM9/2.º de secundaria/FUSION_sin-fecha_final-ceom9_2o-secundaria_classified.json",
+      "sha256": "aecf010e4db08ada1547379e9992352847d8fb09d70de4c99082db1cdf6c0edc",
+      "bytes": 17542
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/Sin fecha/Final CEOM9/2.º de secundaria/FUSION_sin-fecha_final-ceom9_2o-secundaria_verified.json",
+      "sha256": "9f554159af8859cca7777a5d8d65fc48b940c5d41b88a5ee065b1c0bfb152640",
+      "bytes": 15433
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/2.º de secundaria/FUSION_sin-fecha_estatal-ceom12_2-secundaria_classified.json",
+      "sha256": "9d990640a18a80fd078158412f93de20221d4249ef21b9e7f87ebe0eb49e2b82",
+      "bytes": 31006
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/Sin fecha/Estatal CEOM12/2.º de secundaria/FUSION_sin-fecha_estatal-ceom12_2-secundaria_verified.json",
+      "sha256": "d35b7c7b6eaf28039079117310b31e65d5afcfb4649d24c8a2ec1b037cf5dca3",
+      "bytes": 28677
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Eliminatorio CEOM12/2.º de secundaria/FUSION_sin-fecha_eliminatorio-ceom12_2-secundaria_classified.json",
+      "sha256": "20d1d343e9bbe8cabefc58230220b3a64c8ba190c7ac701a5308c5b6a023d00d",
+      "bytes": 17944
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/Sin fecha/Eliminatorio CEOM12/2.º de secundaria/FUSION_sin-fecha_eliminatorio-ceom12_2-secundaria_verified.json",
+      "sha256": "c0e68d72945312bcad395422cd71a3eba59ef639f2b7bdd3d99243fb079ab4e8",
+      "bytes": 16341
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/2.º de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_2-de-secundaria_classified.json",
+      "sha256": "47e844c75b35474d5e9a88ddfc2d5f3b934277894ba9ab5308a5ebbafe6ecdd5",
+      "bytes": 73474
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/2.º de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_2-de-secundaria_verified.json",
+      "sha256": "553bfb16128756932c597baa7307405dc041a941fdd653d322aab40d8834e5e1",
+      "bytes": 65022
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3.º de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-de-secundaria_classified.json",
+      "sha256": "b00c60a50178f3498cb8c8c9989b967a5a467656c5717c1faa38d73ed1fdf436",
+      "bytes": 49047
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3.º de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-de-secundaria_verified.json",
+      "sha256": "e1068d1b9057dcaa7f6811c255d74835004b44e0f4a3ce38c4c5673055a65772",
+      "bytes": 40683
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/3.º de secundaria/FUSION_sin-fecha_estatal-ceom12_3-secundaria_classified.json",
+      "sha256": "7cd51e5e692c0c59f2b792da4b9c0377143d33eb3cfa8feb8f28df44aa2ab51a",
+      "bytes": 39539
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/Sin fecha/Estatal CEOM12/3.º de secundaria/FUSION_sin-fecha_estatal-ceom12_3-secundaria_verified.json",
+      "sha256": "f2c6da495e92e20043edeea5e4ab68439849460d20edffd8b879378fd83c1081",
+      "bytes": 37238
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/5.º de primaria/FUSION_sin-fecha_selectivo-estatal-serie-2_5-de-primaria_classified.json",
+      "sha256": "1256830ebf0bd32fd7e464433fefd633a1eb0b04749f6f2ee6762d4f877f7a7c",
+      "bytes": 49175
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/5.º de primaria/FUSION_sin-fecha_selectivo-estatal-serie-2_5-de-primaria_verified.json",
+      "sha256": "a0960ff31eb952feeb7bea86af5e785af7b019627075d59582d59048fe19427a",
+      "bytes": 41199
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/6.º de primaria/FUSION_sin-fecha_selectivo-estatal-serie-2_6-de-primaria_classified.json",
+      "sha256": "f97ccb49b21329af412116869761e71076c5dab9f02c90ab56c92c35d6079eed",
+      "bytes": 52664
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/6.º de primaria/FUSION_sin-fecha_selectivo-estatal-serie-2_6-de-primaria_verified.json",
+      "sha256": "50fcdd667878975a2e8c4b544bafc462b62007fc96255d43e4c4bdaaee3e8e22",
+      "bytes": 44567
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Final CEOM9/Kids/FUSION_sin-fecha_final-ceom9_kids-3o-y-4o-primaria_classified.json",
+      "sha256": "910ca148e28bcdc47c4d8c8ab09c0067d72673f87ed6bc655a82515bc07a95be",
+      "bytes": 18315
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/Sin fecha/Final CEOM9/Kids/FUSION_sin-fecha_final-ceom9_kids-3o-y-4o-primaria_verified.json",
+      "sha256": "f96432bb38f51c5ce79922522c06549d3336980139deeae416749775ae836c96",
+      "bytes": 16260
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/Kids/FUSION_sin-fecha_estatal-ceom12_kids-3-y-4-primaria_classified.json",
+      "sha256": "f28529f732d7014a542e08ddba82ac9132fe28c2955a15c1033b090e2a06ccb0",
+      "bytes": 57916
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/Sin fecha/Estatal CEOM12/Kids/FUSION_sin-fecha_estatal-ceom12_kids-3-y-4-primaria_verified.json",
+      "sha256": "5856d2c4b9b133e79e6169be4831601ac9f2255cac80a553ef683b43cfd4783c",
+      "bytes": 52728
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/Olímpicos/FUSION_sin-fecha_estatal-ceom12_olimpicos-preparatoria-o-bachillerato_classified.json",
+      "sha256": "148b6098c5986ab39ade8816e6752202fda06c0a86b597444546267528964da5",
+      "bytes": 41815
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/Sin fecha/Estatal CEOM12/Olímpicos/FUSION_sin-fecha_estatal-ceom12_olimpicos-preparatoria-o-bachillerato_verified.json",
+      "sha256": "456683052244ebef814c2096aee9e40ba6ede13707139348216006bd28782d72",
+      "bytes": 39530
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Final CEOM9/Primaria/FUSION_sin-fecha_final-ceom9_primaria-5o-y-6o-primaria_classified.json",
+      "sha256": "3198103849ffbc5a49a666254fbbed1d13b8795be064ed91511959339a660064",
+      "bytes": 18868
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/Sin fecha/Final CEOM9/Primaria/FUSION_sin-fecha_final-ceom9_primaria-5o-y-6o-primaria_verified.json",
+      "sha256": "b525e6a3be3318604b5cad60f04bba9dbe62cc015a7ffe1083522c2cb05a7581",
+      "bytes": 16787
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Eliminatorio CEOM12/Primaria/FUSION_sin-fecha_eliminatorio-ceom12_primaria-5-y-6_classified.json",
+      "sha256": "62968d4d7b9b5368059b950703c1b82f36b15b8deea6adfb999ec29c350764fe",
+      "bytes": 10674
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/Sin fecha/Eliminatorio CEOM12/Primaria/FUSION_sin-fecha_eliminatorio-ceom12_primaria-5-y-6_verified.json",
+      "sha256": "00572221daee737d260c06bed7fedcea34703d9722760773911141bffcc48353",
+      "bytes": 9123
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2026/Selectivo Estatal/3.º de primaria/FUSION_2026_selectivo-estatal_3-de-primaria_classified.json",
+      "sha256": "85004cc5e781fa2233d19953ca37e2fc56ce960e93fe22f1a86080557a02de3a",
+      "bytes": 110351
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/2026/Selectivo Estatal/3.º de primaria/FUSION_2026_selectivo-estatal_3-de-primaria_verified.json",
+      "sha256": "749a17a32937c64b124d90bebb6d87a1e6337918db36f5e45ec4b39749a6e006",
+      "bytes": 101828
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2026/Selectivo Estatal/4.º de primaria/FUSION_2026_selectivo-estatal_4-de-primaria_classified.json",
+      "sha256": "5584105ffe861f4628843b81d7ef71fee31f79b0439ababdb0137e0593e5e7f1",
+      "bytes": 114742
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/2026/Selectivo Estatal/4.º de primaria/FUSION_2026_selectivo-estatal_4-de-primaria_verified.json",
+      "sha256": "6c269b646d646d1ddf453ebee007acf68423dc0e7e7802d2541594b4ba72093a",
+      "bytes": 106207
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2026/Selectivo Estatal/5.º de primaria/FUSION_2026_selectivo-estatal_5-de-primaria_classified.json",
+      "sha256": "0afaf056dcd0d2e0daaea72e088a4e98307eb1703a231e81c3302527acdbc33e",
+      "bytes": 98621
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/2026/Selectivo Estatal/5.º de primaria/FUSION_2026_selectivo-estatal_5-de-primaria_verified.json",
+      "sha256": "1b710d6c295fbf413b311e3df082a798c22eb72575208d2844c20b7e3135c0b5",
+      "bytes": 89985
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2026/Selectivo Estatal/6.º de primaria/FUSION_2026_selectivo-estatal_6-de-primaria_classified.json",
+      "sha256": "81207e9b70c7258a5d2a6f2aa523270462f19dbd008e1588eb898ce6a73ddc82",
+      "bytes": 120780
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/2026/Selectivo Estatal/6.º de primaria/FUSION_2026_selectivo-estatal_6-de-primaria_verified.json",
+      "sha256": "f553fa0b99c3be875e83f9fff96742a572c560d8fe1a3327d9f3ca2415b9cfb7",
+      "bytes": 112095
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2026/Selectivo Estatal/1.º de secundaria/FUSION_2026_selectivo-estatal_1-de-secundaria_classified.json",
+      "sha256": "bd5d274d8a6eadc49d5111d3bb5a643299c5196215c594710bb8dfe2d45fa645",
+      "bytes": 96094
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/2026/Selectivo Estatal/1.º de secundaria/FUSION_2026_selectivo-estatal_1-de-secundaria_verified.json",
+      "sha256": "b0a6385c644662535a6852c92ab1f981f94b3738686b20e98ac9efe11ec61a93",
+      "bytes": 87308
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2026/Selectivo Estatal/2.º de secundaria/FUSION_2026_selectivo-estatal_2-de-secundaria_classified.json",
+      "sha256": "80c98cd74180c1c5c41299cdee6b85eb9614579d32aba27ea064f24b6f6b052d",
+      "bytes": 118347
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/2026/Selectivo Estatal/2.º de secundaria/FUSION_2026_selectivo-estatal_2-de-secundaria_verified.json",
+      "sha256": "d3548b6cf6d0b05c61c2f7e50e0a2dada4ae02807d218f1ff888948488199af7",
+      "bytes": 109599
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2026/Selectivo Estatal/3.º de secundaria/FUSION_2026_selectivo-estatal_3-de-secundaria_classified.json",
+      "sha256": "315b3f815c2efb4896536ff47da0fc72b9b8ae37ed9da66929b4b3985d35aeb1",
+      "bytes": 131866
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/2026/Selectivo Estatal/3.º de secundaria/FUSION_2026_selectivo-estatal_3-de-secundaria_verified.json",
+      "sha256": "41552a1af53b6250b73c84bb557826c1f4f63994b1b4e99dfdc43f48cdf80b91",
+      "bytes": 123018
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2026/Selectivo Estatal/Universitarios/FUSION_2026_selectivo-estatal_universitarios_classified.json",
+      "sha256": "396db9a5a92bdba5777e8fda6742790fb75897a2961fc332a39e8bafa539cc24",
+      "bytes": 85085
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/2026/Selectivo Estatal/Universitarios/FUSION_2026_selectivo-estatal_universitarios_verified.json",
+      "sha256": "425c0960964247b267d6bd9b51a9e6466446c00f5815866ab61d24a9eb76073d",
+      "bytes": 76478
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2026/Selectivo Estatal/1.º de bachillerato o preparatoria/FUSION_2026_selectivo-estatal_1-bachillerato-o-preparatoria_classified.json",
+      "sha256": "08213eca3c6e753bc9a197adcede3546a1654dd58bca470a4165c786cb088c57",
+      "bytes": 126071
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/2026/Selectivo Estatal/1.º de bachillerato o preparatoria/FUSION_2026_selectivo-estatal_1-bachillerato-o-preparatoria_verified.json",
+      "sha256": "3a37189b9b5483ea4a82a8bb971acaad1a5b47ca24e043864959a541d76fc461",
+      "bytes": 116990
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2026/Selectivo Estatal/2.º de bachillerato o preparatoria/FUSION_2026_selectivo-estatal_2-bachillerato-o-preparatoria_classified.json",
+      "sha256": "bcf619efcc2e7971c839649bdd4a32ee87c25e9ad0778edca4ad0001dfc2d52a",
+      "bytes": 80221
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/2026/Selectivo Estatal/2.º de bachillerato o preparatoria/FUSION_2026_selectivo-estatal_2-bachillerato-o-preparatoria_verified.json",
+      "sha256": "0f7f03d240445dd866342315ffcf3997a05f68b9671b725e1424f676ec2e327b",
+      "bytes": 71127
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2026/Selectivo Estatal/3.º de bachillerato o preparatoria/FUSION_2026_selectivo-estatal_3-bachillerato-o-preparatoria_classified.json",
+      "sha256": "6eb6b11abc746d33c36d3dd64fdc791c936d54bef71ba34efd0597716f870eeb",
+      "bytes": 86209
+    },
+    {
+      "path": "02_JSON_EXAMS/FUSION/2026/Selectivo Estatal/3.º de bachillerato o preparatoria/FUSION_2026_selectivo-estatal_3-bachillerato-o-preparatoria_verified.json",
+      "sha256": "f823f13efba7709d9fa78cc5cece9cf8b0095982537e77556219534bb9a50f17",
+      "bytes": 77106
+    },
+    {
+      "path": "02_JSON_EXAMS/GAU55/2024/Estatal/Nivel 4/GAU55_2024_Estatal_N4_verified.json",
+      "sha256": "712aee6e0cea4ed638d353642be0ff3e28e89050bc7a2f44b36ac17ed15a21d5",
+      "bytes": 617567
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/2025/Selectivo Estatal/1.º de secundaria/FUSION_2025_selectivo-estatal_1-de-secundaria_validation_report.json",
+      "sha256": "d9c6b59eb023c49335678c68318b888ada910662f032738a3fefd27502254037",
+      "bytes": 18718
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2025/Selectivo Estatal/1.º de secundaria/FUSION_2025_selectivo-estatal_1-de-secundaria_classification_report.json",
+      "sha256": "5946fa984bee03ca38e90ea884068fc4797b6bfcdfdcc869496e56ae935cd28b",
+      "bytes": 10463
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/2025/Selectivo Estatal/2.º de preparatoria/FUSION_2025_selectivo-estatal_2-de-preparatoria_validation_report.json",
+      "sha256": "990b5fbd671cb2e127053afe191400b6365fd862e7ce11a3da267cb42e215171",
+      "bytes": 19775
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2025/Selectivo Estatal/2.º de preparatoria/FUSION_2025_selectivo-estatal_2-de-preparatoria_classification_report.json",
+      "sha256": "9d1dae0d035caeb5a3951e2493f0ecd606f851c9161e4d55658ca1630acad0c7",
+      "bytes": 10648
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/2025/Selectivo Estatal/2.º de secundaria/FUSION_2025_selectivo-estatal_2-de-secundaria_validation_report.json",
+      "sha256": "ff8184d5fa2920c888016dcfef49cc77ad6972738a9945ef4b2cc76a27f572e2",
+      "bytes": 20140
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2025/Selectivo Estatal/2.º de secundaria/FUSION_2025_selectivo-estatal_2-de-secundaria_classification_report.json",
+      "sha256": "1ce2e8149e2bdd170bfc6f0226b6406031ad9a94ff61c7c7c4e306c4db3b2bba",
+      "bytes": 10650
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/2025/Selectivo Estatal/3.º de secundaria/FUSION_2025_selectivo-estatal_3-de-secundaria_validation_report.json",
+      "sha256": "31f0a8d8d0ec26f0bf4f6ba146dc2ad0072695b9e65c9edb9e46b8febb33df31",
+      "bytes": 20212
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2025/Selectivo Estatal/3.º de secundaria/FUSION_2025_selectivo-estatal_3-de-secundaria_classification_report.json",
+      "sha256": "2f0b34ff74832bdc719d1b23a00a69e2e2777c051d5cc54ba9e129761158755c",
+      "bytes": 10500
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/2025/Selectivo Estatal/4.º de primaria/FUSION_2025_selectivo-estatal_4-de-primaria_validation_report.json",
+      "sha256": "e6e7a9e2e374da38960570ac33e74e9ef051aeca8f7dbf566c36d7871aad8ef3",
+      "bytes": 22642
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2025/Selectivo Estatal/4.º de primaria/FUSION_2025_selectivo-estatal_4-de-primaria_classification_report.json",
+      "sha256": "d4bd3ddf273b5fc32184ee3927916eb0080e454226245786f04410956042edbe",
+      "bytes": 10220
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/2025/Selectivo Estatal/5.º de primaria/FUSION_2025_selectivo-estatal_5-de-primaria_validation_report.json",
+      "sha256": "a6d16bba2443a0671d6ca997a46fb730d73e2c25d87fc3dbb451e41396986d86",
+      "bytes": 18098
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2025/Selectivo Estatal/5.º de primaria/FUSION_2025_selectivo-estatal_5-de-primaria_classification_report.json",
+      "sha256": "f6585d7997c2eb6900a99355867ea112daa0f018cdd64cd5a266c18af3c815af",
+      "bytes": 10312
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/2025/Selectivo Estatal/6.º de primaria/FUSION_2025_selectivo-estatal_6-de-primaria_validation_report.json",
+      "sha256": "2d071180a95f845d388d0c323b9ef4f0fa5d2e3fdc79918019e4fc1035ab35c8",
+      "bytes": 19850
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2025/Selectivo Estatal/6.º de primaria/FUSION_2025_selectivo-estatal_6-de-primaria_classification_report.json",
+      "sha256": "3f4a6c7cdd51b8872b1f0862c10067cb609388f14529724d94194ab0d3f5f649",
+      "bytes": 10382
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/2024/Eliminatoria Estatal/1.º de preparatoria/FUSION_2024_eliminatoria-estatal_1-de-preparatoria_validation_report.json",
+      "sha256": "3ef994238044a2bf64259d6496dcff51e185dea2f586d3edc28e404e82f4f366",
+      "bytes": 25034
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/1.º de preparatoria/FUSION_2024_eliminatoria-estatal_1-de-preparatoria_classification_report.json",
+      "sha256": "7995b9bc8fa5f9170e09cbcf2fa8775f48566a7c03bfbc1f24b0ec5df2dbcc70",
+      "bytes": 7763
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/2024/Eliminatoria Estatal/1.º de secundaria/FUSION_2024_eliminatoria-estatal_1-de-secundaria_validation_report.json",
+      "sha256": "b33f0b21cd44f54002542842562d3d409d23d4249e7170151548656b88e2148f",
+      "bytes": 20847
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/1.º de secundaria/FUSION_2024_eliminatoria-estatal_1-de-secundaria_classification_report.json",
+      "sha256": "6b3471cf5acbd6ba218c2a3a1528ddd00bd2600d637a63c0e5cd4f9ad24690d9",
+      "bytes": 7623
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/2024/Eliminatoria Estatal/2.º de preparatoria/FUSION_2024_eliminatoria-estatal_2-de-preparatoria_validation_report.json",
+      "sha256": "f987ccb4f97ac467486afe5fabdc3f3168f47862780022ffa54d7224e4970842",
+      "bytes": 25229
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/2.º de preparatoria/FUSION_2024_eliminatoria-estatal_2-de-preparatoria_classification_report.json",
+      "sha256": "06845ab5bc07798930f02b51a7e1032a72b4e4afd91e0a7574c05fcc65aedcf5",
+      "bytes": 7767
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/2024/Eliminatoria Estatal/2.º de secundaria/FUSION_2024_eliminatoria-estatal_2-de-secundaria_validation_report.json",
+      "sha256": "6e3f9a71adaeaa1684f0d20da90a48f224cbcdcb2e0b176081680376e1fd287d",
+      "bytes": 18955
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/2.º de secundaria/FUSION_2024_eliminatoria-estatal_2-de-secundaria_classification_report.json",
+      "sha256": "9abe9f25ab1ec48eac394bfd559069b8475c0736f8307c37e5d9de513fa02cbd",
+      "bytes": 7661
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/2024/Eliminatoria Estatal/3.º de secundaria/FUSION_2024_eliminatoria-estatal_3-de-secundaria_validation_report.json",
+      "sha256": "22872dd87d397e30a92b3bd96cc6b7af2908f7de3999877584de041c2ae0c59b",
+      "bytes": 18178
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/3.º de secundaria/FUSION_2024_eliminatoria-estatal_3-de-secundaria_classification_report.json",
+      "sha256": "2f9f12f5832e656d0e3944ba100bc61882635c592d82640d0dad8538d7ee8b95",
+      "bytes": 7692
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/2024/Eliminatoria Estatal/5.º de primaria/FUSION_2024_eliminatoria-estatal_5-de-primaria_validation_report.json",
+      "sha256": "039f165f867999c5cd7d14c864fb3c968ffe69b54e101261b2f8cfdad073ad40",
+      "bytes": 18313
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/5.º de primaria/FUSION_2024_eliminatoria-estatal_5-de-primaria_classification_report.json",
+      "sha256": "07969346e113bf06f329a149787cc22668e548385e190e60c6d8be7cb2fcba07",
+      "bytes": 7521
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/2024/Eliminatoria Estatal/6.º de primaria/FUSION_2024_eliminatoria-estatal_6-de-primaria_validation_report.json",
+      "sha256": "99fe40b523033d736b898080f7d36bcf9df9af980d05a8901e55094e601fe779",
+      "bytes": 20744
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/6.º de primaria/FUSION_2024_eliminatoria-estatal_6-de-primaria_classification_report.json",
+      "sha256": "fec14441002521f978bf332bb54c6d5a4a3765caf4545dc2b07183e8e75c3d8c",
+      "bytes": 7535
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/2024/Eliminatoria Estatal/Universitarios/FUSION_2024_eliminatoria-estatal_universitarios_validation_report.json",
+      "sha256": "12a4799e4f9e75a3b8eee2b5b93718148df3c8202c046f5ce1324f330cdce339",
+      "bytes": 24690
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2024/Eliminatoria Estatal/Universitarios/FUSION_2024_eliminatoria-estatal_universitarios_classification_report.json",
+      "sha256": "bfeebeec54926a2491bc125ddc2789a7eaa3b183ddf90c83f46c1db075dffebd",
+      "bytes": 7507
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/GAU55/2024/Estatal/Nivel 1/GAU55_2024_Estatal_N1_validation_report.json",
+      "sha256": "d06c0f41ee87eac3340ccd01e6f17a602f2d681048c3486ec42cc5f6be192115",
+      "bytes": 11713
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/GAU55/2024/Estatal/Nivel 1/GAU55_2024_Estatal_N1_classification_report.json",
+      "sha256": "a541ea6550a3d4d8187c12ff7a261e5cdf907b20d308899341253206748627c5",
+      "bytes": 5811
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/GAU55/2024/Estatal/Nivel 2/GAU55_2024_Estatal_N2_validation_report.json",
+      "sha256": "6b2108bf2c6cc9e65265aba0c5a2b1c0b111f20fc28d2df26b9a78b62e4fb1db",
+      "bytes": 8585
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/GAU55/2024/Estatal/Nivel 2/GAU55_2024_Estatal_N2_classification_report.json",
+      "sha256": "1b4e14cf7de78c290e6a1904e7d4f826800d77519dc101cbdffa185777e39439",
+      "bytes": 6059
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/GAU55/2024/Estatal/Nivel 3/GAU55_2024_Estatal_N3_validation_report.json",
+      "sha256": "4a69913a060a11c50fc71a93632e1e96160c328163a49f0c056cb9530790889e",
+      "bytes": 7286
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/2023/Selectivo Estatal/1.º de secundaria/FUSION_2023_selectivo-estatal_1-de-secundaria_validation_report.json",
+      "sha256": "538e252fee2489179a97889537fa61a560568f5dc1cd6550152cc8f0f46e572d",
+      "bytes": 40367
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/1.º de secundaria/FUSION_2023_selectivo-estatal_1-de-secundaria_classification_report.json",
+      "sha256": "9878ba36ce4b31ec4e7d59c74907582a3d1b37dc61e228d40f20e456acc57e55",
+      "bytes": 11099
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/2023/Selectivo Estatal/3.º de preparatoria/FUSION_2023_selectivo-estatal_3-ano-de-preparatoria_validation_report.json",
+      "sha256": "13d4c0b3cf0e7e061991155cb5cce13753385f184797716f2e8a3a42224d4cd7",
+      "bytes": 40438
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/3.º de preparatoria/FUSION_2023_selectivo-estatal_3-ano-de-preparatoria_classification_report.json",
+      "sha256": "d7bb0ffbc2148065a9f1ccf1bcf90e084d338f448ddbbd56eac3c1b21b4fcdb3",
+      "bytes": 11805
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/2023/Selectivo Estatal/5.º de primaria y menores/FUSION_2023_selectivo-estatal_5de-primaria-y-menores_validation_report.json",
+      "sha256": "8a9d4fa71b1242767480217a155a29ed6db450ad7f79bae85d411c96e12ad0c4",
+      "bytes": 42695
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/5.º de primaria y menores/FUSION_2023_selectivo-estatal_5de-primaria-y-menores_classification_report.json",
+      "sha256": "b35d67757c53b5ce40cf87eb5a6e14e2af62dfdc33d493e3ad77faab45ffb345",
+      "bytes": 11910
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/2023/Selectivo Estatal/6.º de primaria/FUSION_2023_selectivo-estatal_6de-primaria_validation_report.json",
+      "sha256": "a2db5d3d65a87b8370287106d2ba5bd4eb28d226e1dfe38e2ed4ce394f941ecf",
+      "bytes": 39948
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/6.º de primaria/FUSION_2023_selectivo-estatal_6de-primaria_classification_report.json",
+      "sha256": "7938964c4530cfa0d7790c7a05680ada29ae98d6db21aa092aa5d7429098b452",
+      "bytes": 10921
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/GAU55/2023/Estatal/Nivel 1/GAU55_2023_Estatal_N1_validation_report.json",
+      "sha256": "3d89a38f33d2c3088020a124c1a7d81e16d333a426015ee089ba5b720d80c080",
+      "bytes": 11197
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/GAU55/2023/Estatal/Nivel 1/GAU55_2023_Estatal_N1_classification_report.json",
+      "sha256": "02d4a8e3affe1b3545c3a0c40efe83140583355f72cb6153802a3340e3977e1c",
+      "bytes": 4655
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/GAU55/2023/Estatal/Nivel 2/GAU55_2023_Estatal_N2_validation_report.json",
+      "sha256": "6e3dd30024e691e258f1bb03baee6f8e92ab45c9a37d8b42e3da918f02b47a23",
+      "bytes": 10537
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/GAU55/2023/Estatal/Nivel 2/GAU55_2023_Estatal_N2_classification_report.json",
+      "sha256": "904a02352aa825768f29c5842e80d574c7903b5ddd75a13d0b57d7db9d834642",
+      "bytes": 8074
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/2020/Torneo 1/Primaria/FUSION_2020_torneo-1_primaria_validation_report.json",
+      "sha256": "1eef834074906e834cf8d194df5704d2db9503d523c236ab68d2ad3e9eb7bc2f",
+      "bytes": 4501
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 1/Primaria/FUSION_2020_torneo-1_primaria_classification_report.json",
+      "sha256": "371d09c90df8415467ed8629a381105147d68c09c6eb4c85ff3122e2ba3eaf9c",
+      "bytes": 3385
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/2020/Torneo 3/Primaria/FUSION_2020_torneo-3_primaria_validation_report.json",
+      "sha256": "fb8d0973f1d0dc89d77a4db1f018547c638777152341b71474df74bca7bed1d1",
+      "bytes": 5487
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 3/Primaria/FUSION_2020_torneo-3_primaria_classification_report.json",
+      "sha256": "82d5c9cab5ab1c5e6212b1e4156d101fbd4d24d122afe2097f490087457dc045",
+      "bytes": 2710
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/2020/Torneo 2/Secundaria/FUSION_2020_torneo-2_secundaria_validation_report.json",
+      "sha256": "70cb5f117fd768330fe844325b4372ef5e37a60be0cccc71ba6fde2e8df2b4e7",
+      "bytes": 5228
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 2/Secundaria/FUSION_2020_torneo-2_secundaria_classification_report.json",
+      "sha256": "13a43e84ebbf3f862466b90a503d7d5f07e90d680b6c2c8e5bdd070dbb45a040",
+      "bytes": 2653
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/2019/Eliminatorio CEOM11/2.º de secundaria/FUSION_2019_eliminatorio-ceom11_2do-secundaria_validation_report.json",
+      "sha256": "7f439c7d6b294720024dfcf6b68c6813331dd924c7c929a719206af06ad34a61",
+      "bytes": 7362
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2019/Eliminatorio CEOM11/2.º de secundaria/FUSION_2019_eliminatorio-ceom11_2do-secundaria_classification_report.json",
+      "sha256": "f7374e93e7af36e76a69ff172fd0af49bad181d9692ca3307b4bc6b40d242311",
+      "bytes": 2347
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/2019/Eliminatorio CEOM11/3.º de secundaria/FUSION_2019_eliminatorio-ceom11_3ro-secundaria_validation_report.json",
+      "sha256": "a426c061f8d2d6891399f6a5f8704efbf8089bbdbf0361ca72a1e5b303708e9d",
+      "bytes": 6883
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2019/Eliminatorio CEOM11/3.º de secundaria/FUSION_2019_eliminatorio-ceom11_3ro-secundaria_classification_report.json",
+      "sha256": "67a0566caa822b2372944bb5ea29f14cfde136d7be93fff2c47a81402dbbc140",
+      "bytes": 2357
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/2019/Eliminatorio CEOM11/Olímpicos/FUSION_2019_eliminatorio-ceom11_olimpicos-preparatoria_validation_report.json",
+      "sha256": "0e4b7e7860211dd2c25c89e2eb4a12c647fc2e5cddabfe55d908311c49409619",
+      "bytes": 6963
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2019/Eliminatorio CEOM11/Olímpicos/FUSION_2019_eliminatorio-ceom11_olimpicos-preparatoria_classification_report.json",
+      "sha256": "98062d11be80b3825c0addc26e0749fbcff3cc33fac0a091089db34ef49bba92",
+      "bytes": 2392
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/2018/Final CEOM10/1.º de secundaria/FUSION_2018_final-ceom10_1ro-secundaria_validation_report.json",
+      "sha256": "f581a854d65998c15f292b274770fc43aa37ae15ea2a4a9ab9090d8828aa920d",
+      "bytes": 6803
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2018/Final CEOM10/1.º de secundaria/FUSION_2018_final-ceom10_1ro-secundaria_classification_report.json",
+      "sha256": "0150c2d43330fff952c2a0b43c6e21601b51ce9332d835bc4a91a3dfc6033f6a",
+      "bytes": 3229
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/2018/Final CEOM10/2.º de secundaria/FUSION_2018_final-ceom10_2do-secundaria_validation_report.json",
+      "sha256": "55f4c105aa16eb58c6e25ecde081fc3308a5eb64fd475fc2dc1ece01635f2b61",
+      "bytes": 6753
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2018/Final CEOM10/2.º de secundaria/FUSION_2018_final-ceom10_2do-secundaria_classification_report.json",
+      "sha256": "d378656952ec8eb533ab7c569e824e291ce6a86bdfc6d61d6d6f803e8be4d806",
+      "bytes": 3346
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/2018/Final CEOM10/3.º de secundaria/FUSION_2018_final-ceom10_3ro-secundaria_validation_report.json",
+      "sha256": "bdaf23e2af45e68d33f89043e4685c587a8a93bf49e1d8c2e979e6c3e2043415",
+      "bytes": 6116
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2018/Final CEOM10/3.º de secundaria/FUSION_2018_final-ceom10_3ro-secundaria_classification_report.json",
+      "sha256": "672c5689e60784af580ca84475d8184b6f4212dba5f2589ebf8efe678090fa84",
+      "bytes": 3365
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/2018/Final CEOM10/Kids/FUSION_2018_final-ceom10_kids-3ro_validation_report.json",
+      "sha256": "0163d6b441443061be8f0a6057a649aa488c7801f414da1fee1b8b142de29471",
+      "bytes": 6307
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2018/Final CEOM10/Kids/FUSION_2018_final-ceom10_kids-3ro_classification_report.json",
+      "sha256": "56871f40920b8030c97b812c15a997d8e6507cc28ffe6e7040473d82aa4f5659",
+      "bytes": 3224
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/2018/Final CEOM10/Olímpicos/FUSION_2018_final-ceom10_olimpicos-preparatoria_validation_report.json",
+      "sha256": "52b1e37f65ebbd3381e718f259f9722a85c44d61d27fbe5467511aa7ce3e9439",
+      "bytes": 5884
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2018/Final CEOM10/Olímpicos/FUSION_2018_final-ceom10_olimpicos-preparatoria_classification_report.json",
+      "sha256": "2b120522be4bad7fc7bbb77a9c4bb31879732b473418ef503e643ec8a49ebea3",
+      "bytes": 3342
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/2018/Final CEOM10/Primaria/FUSION_2018_final-ceom10_primaria-5to_validation_report.json",
+      "sha256": "8859822d92cc44aa091bed0e598739b0897a3ca8f068ca04137e3eaee25b7951",
+      "bytes": 6293
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2018/Final CEOM10/Primaria/FUSION_2018_final-ceom10_primaria-5to_classification_report.json",
+      "sha256": "a4925a20558926661cab907cc83fa6a3302a778f5adbc27514ae2682c0733934",
+      "bytes": 3244
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/1.º de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_1-preparatoria_validation_report.json",
+      "sha256": "b6eb07bb7a741f4a196ae79ea30ab57ab6134d18914d7637b822eb052e924e28",
+      "bytes": 15518
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/1.º de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_1-preparatoria_classification_report.json",
+      "sha256": "0d3792a4acebc73c87d274fb28a1d52622a545d407c00aa088812d9c2cb4a220",
+      "bytes": 10856
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/Sin fecha/Final CEOM9/1.º de secundaria/FUSION_sin-fecha_final-ceom9_1o-secundaria_validation_report.json",
+      "sha256": "45f5173a89331b84d2fcb26bca0ec69f09180d69c7588094297a670af3261b20",
+      "bytes": 7697
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Final CEOM9/1.º de secundaria/FUSION_sin-fecha_final-ceom9_1o-secundaria_classification_report.json",
+      "sha256": "47740878c6655e76209c19337662968cd9ddc556ae9ae94c83e94d0d9de8370f",
+      "bytes": 3269
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/1.º de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_1-de-secundaria_validation_report.json",
+      "sha256": "0392532437d0451b01a76b8591c2e6fb7eda7704ac0df49653b91c2edbfa0140",
+      "bytes": 20679
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/1.º de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_1-de-secundaria_classification_report.json",
+      "sha256": "7dd53d9c8b0e8bccf4c02f37c0e36619b774c28a1045ee7000dca39b46e64f6b",
+      "bytes": 11119
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/2.º de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_2-preparatoria_validation_report.json",
+      "sha256": "99ec9e8399287eb729206f608c86fca4ca1e94a6ccbd291734442be8d7af527b",
+      "bytes": 19108
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/2.º de preparatoria/FUSION_sin-fecha_selectivo-estatal-serie-2_2-preparatoria_classification_report.json",
+      "sha256": "2a1dcda4cd7b35b07de43c1b2e28c6453cecb1a9460e531091c7230ac78f9638",
+      "bytes": 11048
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/Sin fecha/Final CEOM9/2.º de secundaria/FUSION_sin-fecha_final-ceom9_2o-secundaria_validation_report.json",
+      "sha256": "6a3c6c3bbbc285fae39dcaf92f2610d3a13032194ea01c697d2860eb3babcf44",
+      "bytes": 7415
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Final CEOM9/2.º de secundaria/FUSION_sin-fecha_final-ceom9_2o-secundaria_classification_report.json",
+      "sha256": "138c0e1755a1e91526cd0828c72699e32e9e6045fe93be9fc2954bd8a57af68f",
+      "bytes": 3266
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/Sin fecha/Estatal CEOM12/2.º de secundaria/FUSION_sin-fecha_estatal-ceom12_2-secundaria_validation_report.json",
+      "sha256": "0d82145876721256b49db46d9b87ed93eaf1ae373d92e75c0c167811a2c3fb50",
+      "bytes": 13001
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/2.º de secundaria/FUSION_sin-fecha_estatal-ceom12_2-secundaria_classification_report.json",
+      "sha256": "318ee3942f1f8d28cd5b501a95436a10fc25669241572dcf011b052f3cc1dd78",
+      "bytes": 3540
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/Sin fecha/Eliminatorio CEOM12/2.º de secundaria/FUSION_sin-fecha_eliminatorio-ceom12_2-secundaria_validation_report.json",
+      "sha256": "e60145c7df189d1eba3f4713337907f1103ca1d8485850def621858bd8d18d08",
+      "bytes": 8069
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Eliminatorio CEOM12/2.º de secundaria/FUSION_sin-fecha_eliminatorio-ceom12_2-secundaria_classification_report.json",
+      "sha256": "5190b627aa55df132baaf3275581ecbe5460e49646a21186c694fe65a172af4f",
+      "bytes": 2721
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/2.º de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_2-de-secundaria_validation_report.json",
+      "sha256": "2ea8de293c778f59d9e1efec72359f56b20ce3927fe82fea7dbb6087e5443494",
+      "bytes": 21549
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/2.º de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_2-de-secundaria_classification_report.json",
+      "sha256": "c5f30a517390698ad7c2627e0f45c6e92557d31959901040286916c97bb769b1",
+      "bytes": 10943
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3.º de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-de-secundaria_validation_report.json",
+      "sha256": "4adcc0a13b09bd66894c306f956bd4c568ce530f7183abd373156bdb8f6575e4",
+      "bytes": 15820
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/3.º de secundaria/FUSION_sin-fecha_selectivo-estatal-serie-2_3-de-secundaria_classification_report.json",
+      "sha256": "6d08eb43a4c62b593ddee2ee4669ff59f490cea86db0da0172087ff84da5d5af",
+      "bytes": 10856
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/Sin fecha/Estatal CEOM12/3.º de secundaria/FUSION_sin-fecha_estatal-ceom12_3-secundaria_validation_report.json",
+      "sha256": "48071133c6f9de84901537db2e8ca2e66f4115452f5ae4022a7381c88285e68e",
+      "bytes": 12161
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/3.º de secundaria/FUSION_sin-fecha_estatal-ceom12_3-secundaria_classification_report.json",
+      "sha256": "c8dcf78023f10d4d2db8c9f8332360cdedc758316b7ec374777b3936e4cbc64a",
+      "bytes": 3511
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/5.º de primaria/FUSION_sin-fecha_selectivo-estatal-serie-2_5-de-primaria_validation_report.json",
+      "sha256": "73b468f51fa6d47c7ed6cb1bb555d81cfb42e2018c89329f219d07468fe52c9f",
+      "bytes": 14159
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/5.º de primaria/FUSION_sin-fecha_selectivo-estatal-serie-2_5-de-primaria_classification_report.json",
+      "sha256": "5f4481fd17eff353b46e54cb181c9d0ab8fff4e3fa313adf0276f61a7fa66d59",
+      "bytes": 10344
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/6.º de primaria/FUSION_sin-fecha_selectivo-estatal-serie-2_6-de-primaria_validation_report.json",
+      "sha256": "f80f9e624292bca8df7aacf79931695747f6ee28009558c4e5c08aa487143267",
+      "bytes": 16692
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Selectivo Estatal - Serie 2/6.º de primaria/FUSION_sin-fecha_selectivo-estatal-serie-2_6-de-primaria_classification_report.json",
+      "sha256": "db6c0cdb27a1b115fed9ecad9d01a5ae3c80840e93c638f240f0b50dcfeef10e",
+      "bytes": 10468
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/Sin fecha/Final CEOM9/Kids/FUSION_sin-fecha_final-ceom9_kids-3o-y-4o-primaria_validation_report.json",
+      "sha256": "cb238595fe6fca0ab98b102ef094e403c304736b2e9f28b77f075f2b933ab1e7",
+      "bytes": 6938
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Final CEOM9/Kids/FUSION_sin-fecha_final-ceom9_kids-3o-y-4o-primaria_classification_report.json",
+      "sha256": "f6d65a2d8dff1c4e78e5abc5cf7ec11e217a58b686aa3d346715335e95878413",
+      "bytes": 3279
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/Sin fecha/Estatal CEOM12/Kids/FUSION_sin-fecha_estatal-ceom12_kids-3-y-4-primaria_validation_report.json",
+      "sha256": "af01db7f9c044a1e5d9a84261381a5adbc57b7aa183260e9f9bc604e6f16408b",
+      "bytes": 16218
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/Kids/FUSION_sin-fecha_estatal-ceom12_kids-3-y-4-primaria_classification_report.json",
+      "sha256": "cc7c98409ed660c8faaf5057f7383398b643f723c73aa276987774215e50046d",
+      "bytes": 6991
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/Sin fecha/Estatal CEOM12/Olímpicos/FUSION_sin-fecha_estatal-ceom12_olimpicos-preparatoria-o-bachillerato_validation_report.json",
+      "sha256": "8d6b41ba78cf77ff6de24ea187e78c8dcdf28bc53d37a0642266fc8c6d76b55b",
+      "bytes": 13605
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/Olímpicos/FUSION_sin-fecha_estatal-ceom12_olimpicos-preparatoria-o-bachillerato_classification_report.json",
+      "sha256": "fa954acff41a49ce1c3d7c8672ee9493a81ba17cd2f3d74570c01a4ed37dbe7e",
+      "bytes": 3701
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/Sin fecha/Final CEOM9/Primaria/FUSION_sin-fecha_final-ceom9_primaria-5o-y-6o-primaria_validation_report.json",
+      "sha256": "2f62e050dcb348b7e6a472123782dc1488be9ebf6e197cb625cd4aaddd447029",
+      "bytes": 7931
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Final CEOM9/Primaria/FUSION_sin-fecha_final-ceom9_primaria-5o-y-6o-primaria_classification_report.json",
+      "sha256": "898b47619639b2a9e556d3dd6c3d2e4e5903cabd74c5ffb040de9f399a95d6f3",
+      "bytes": 3333
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/Sin fecha/Eliminatorio CEOM12/Primaria/FUSION_sin-fecha_eliminatorio-ceom12_primaria-5-y-6_validation_report.json",
+      "sha256": "3a539cb1f4e7121e5a6be818b0034a3608fd3942f13cfb9ba0b9d2d183a15007",
+      "bytes": 5999
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Eliminatorio CEOM12/Primaria/FUSION_sin-fecha_eliminatorio-ceom12_primaria-5-y-6_classification_report.json",
+      "sha256": "6ede52e67805b86f21a9209acea37e6de57e50dffc8c2e5e6e935b216ef3a31a",
+      "bytes": 2684
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/2026/Selectivo Estatal/3.º de primaria/FUSION_2026_selectivo-estatal_3-de-primaria_validation_report.json",
+      "sha256": "4a935aa204019638bc4854a6d34e38765a4ef30cc18909494c19fc8b954daa20",
+      "bytes": 25954
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2026/Selectivo Estatal/3.º de primaria/FUSION_2026_selectivo-estatal_3-de-primaria_classification_report.json",
+      "sha256": "297883db3fdfbbbcd81a5a02539f11939d5c86d195bcaa9a090b5c659b401d5b",
+      "bytes": 11067
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/2026/Selectivo Estatal/4.º de primaria/FUSION_2026_selectivo-estatal_4-de-primaria_validation_report.json",
+      "sha256": "d50d002d151de492cdcbf24b25558b4302830011528914ea8332a0c1c7fa1b34",
+      "bytes": 26480
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2026/Selectivo Estatal/4.º de primaria/FUSION_2026_selectivo-estatal_4-de-primaria_classification_report.json",
+      "sha256": "ab62a60f29964fad2646fdb7941176fed22eeedd03064ef9eabdbf0e3e1b8eeb",
+      "bytes": 11081
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/2026/Selectivo Estatal/5.º de primaria/FUSION_2026_selectivo-estatal_5-de-primaria_validation_report.json",
+      "sha256": "7f43834a9f102c7ba619b2ecb3b2942935d264c6c0905cc8ebbc78342919a1ff",
+      "bytes": 24787
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2026/Selectivo Estatal/5.º de primaria/FUSION_2026_selectivo-estatal_5-de-primaria_classification_report.json",
+      "sha256": "1df6044d4ed2cf70dd98f12a7fa96e3d2f10c4ba06935b04c9326d054e6e5414",
+      "bytes": 11178
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/2026/Selectivo Estatal/6.º de primaria/FUSION_2026_selectivo-estatal_6-de-primaria_validation_report.json",
+      "sha256": "5c32d9ce670640d906b7d4e930bcddd8b3bdca0b9a1bd8fe6d3c51f982eaad80",
+      "bytes": 26216
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2026/Selectivo Estatal/6.º de primaria/FUSION_2026_selectivo-estatal_6-de-primaria_classification_report.json",
+      "sha256": "d011f69d58ff721e32d1daa8a029dfab88f18219b5935ba28bdcd613e888a5a3",
+      "bytes": 11227
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/2026/Selectivo Estatal/1.º de secundaria/FUSION_2026_selectivo-estatal_1-de-secundaria_validation_report.json",
+      "sha256": "c8b0fea3132231f7dcc25967b8a3c72b4408128c5b37fa440b92305ecac469b9",
+      "bytes": 26999
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2026/Selectivo Estatal/1.º de secundaria/FUSION_2026_selectivo-estatal_1-de-secundaria_classification_report.json",
+      "sha256": "58a6254d47b87d12788f007ed7a24613365c578950f62699aa94073cd4cea486",
+      "bytes": 11388
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/2026/Selectivo Estatal/2.º de secundaria/FUSION_2026_selectivo-estatal_2-de-secundaria_validation_report.json",
+      "sha256": "a757571a56ecb4460ea51a081eb77ed8353a528fb0a06556058c4855c396bac7",
+      "bytes": 27866
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2026/Selectivo Estatal/2.º de secundaria/FUSION_2026_selectivo-estatal_2-de-secundaria_classification_report.json",
+      "sha256": "7f229aebecab648d26c97c13a41660dbe0b3736afe2f63b4231d144d0e602478",
+      "bytes": 11348
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/2026/Selectivo Estatal/3.º de secundaria/FUSION_2026_selectivo-estatal_3-de-secundaria_validation_report.json",
+      "sha256": "0fa0ffa43d09c3a1408872f3e89bc3d6cc4ecfb9849d6d4f59650c48a3acb76b",
+      "bytes": 27868
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2026/Selectivo Estatal/3.º de secundaria/FUSION_2026_selectivo-estatal_3-de-secundaria_classification_report.json",
+      "sha256": "116a0713e13edd2ec87151c402b2c48e478f40e209e1e4c39e42c387f734c9fb",
+      "bytes": 11442
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/2026/Selectivo Estatal/Universitarios/FUSION_2026_selectivo-estatal_universitarios_validation_report.json",
+      "sha256": "83fa18826317ab375f6eca5fd1896921fbf9eb3b3fbf2ac51953d3a0ed8896bb",
+      "bytes": 24021
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2026/Selectivo Estatal/Universitarios/FUSION_2026_selectivo-estatal_universitarios_classification_report.json",
+      "sha256": "ff0a770d6f4596f501dd736525fcf732a721c197f1378b58b52238ec7818e995",
+      "bytes": 11171
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/2026/Selectivo Estatal/1.º de bachillerato o preparatoria/FUSION_2026_selectivo-estatal_1-bachillerato-o-preparatoria_validation_report.json",
+      "sha256": "a5b934e91fbfaf3f2e9644001664ee0c8c52ca340a268c8d91e8043999bf3135",
+      "bytes": 26747
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2026/Selectivo Estatal/1.º de bachillerato o preparatoria/FUSION_2026_selectivo-estatal_1-bachillerato-o-preparatoria_classification_report.json",
+      "sha256": "4dc903a077113e3dd42f1d0a064add6b8cea206cadd90c9a9180d4abe373084f",
+      "bytes": 12125
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/2026/Selectivo Estatal/2.º de bachillerato o preparatoria/FUSION_2026_selectivo-estatal_2-bachillerato-o-preparatoria_validation_report.json",
+      "sha256": "d1a51766a3086264121f581a8d986f3765d79ced519f85c771dddb165a63b274",
+      "bytes": 24656
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2026/Selectivo Estatal/2.º de bachillerato o preparatoria/FUSION_2026_selectivo-estatal_2-bachillerato-o-preparatoria_classification_report.json",
+      "sha256": "5e7efc0f2ebb7951949ed38bc4375260890e66637cc89b94f6d09e66878aa74b",
+      "bytes": 12138
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/FUSION/2026/Selectivo Estatal/3.º de bachillerato o preparatoria/FUSION_2026_selectivo-estatal_3-bachillerato-o-preparatoria_validation_report.json",
+      "sha256": "cb6f16be81f224036f7164e5642d2e53d90292af9e822c845151a50a1d99c8f4",
+      "bytes": 24651
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2026/Selectivo Estatal/3.º de bachillerato o preparatoria/FUSION_2026_selectivo-estatal_3-bachillerato-o-preparatoria_classification_report.json",
+      "sha256": "d33d5609ee8ccc07fa49dc2a29a5019de4a387b81a8d7233ab9379b0fd6462e4",
+      "bytes": 12147
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/GAU55/2024/Estatal/Nivel 4/GAU55_2024_Estatal_N4_validation_report.json",
+      "sha256": "89ce783da49922084b3c4bbec9742c9a9840fd426af627c4823e409f0d759233",
+      "bytes": 9051
+    },
+    {
+      "path": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.csv",
+      "sha256": "01fe6d005831deaf58bf72d1eafb0f65f362c55e8fbfd5eac11c6dbfa251f9d2",
+      "bytes": 349057
+    }
+  ]
+}

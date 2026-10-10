@@ -165,60 +165,68 @@
       "notes": "El resultado 1/c requiere c distinto de cero. Si c=0, una raíz es cero y el recíproco no existe."
     }
   ],
-  "structural_validation": [
-    {
-      "path": "02_JSON_EXAMS/FUSION/2019/Eliminatorio CEOM11/Olímpicos/FUSION_2019_eliminatorio-ceom11_olimpicos-preparatoria_verified.json",
-      "report": {
-        "ok": true,
-        "scope": "structure_options_image_decoding_hashes_classification_only",
-        "mathematical_verification": "not_performed_by_this_script",
-        "visual_source_comparison": "not_performed_by_this_script",
-        "latex_rendering": "not_performed_by_this_script",
-        "bank_sha256": "773c1ba60a0804aa7fa54255d4c73be029e31cd478abaf1476fe4c5dc8b7f07e",
-        "bytes": 9313,
-        "problems": 3,
-        "verified": 2,
-        "guided": 1,
-        "images": 1,
-        "figures": [
-          {
-            "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_olimpicos-preparatoria_q02",
-            "figure": 1,
-            "sha256": "3ad15d59043e5ec58338ef50542e88ad05d565883f2c04c729d34719058243eb",
-            "width": 128,
-            "height": 126
-          }
-        ],
-        "errors": [],
-        "warnings": []
-      }
+  "structural_validation": {
+    "verified": {
+      "ok": true,
+      "scope": "structure_options_image_decoding_hashes_classification_only",
+      "mathematical_verification": "not_performed_by_this_script",
+      "visual_source_comparison": "not_performed_by_this_script",
+      "latex_rendering": "not_performed_by_this_script",
+      "bank_sha256": "effbe30e22639f507dd9bc325eaa7a7c08cbfb16865fab6c0602e198a8859644",
+      "bytes": 9327,
+      "problems": 3,
+      "verified": 2,
+      "guided": 1,
+      "images": 1,
+      "figures": [
+        {
+          "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_olimpicos-preparatoria_q02",
+          "figure": 1,
+          "sha256": "3ad15d59043e5ec58338ef50542e88ad05d565883f2c04c729d34719058243eb",
+          "width": 128,
+          "height": 126
+        }
+      ],
+      "errors": [],
+      "warnings": []
     },
-    {
-      "path": "05_CLASSIFIED_EXAMS/FUSION/2019/Eliminatorio CEOM11/Olímpicos/FUSION_2019_eliminatorio-ceom11_olimpicos-preparatoria_classified.json",
-      "report": {
-        "ok": true,
-        "scope": "structure_options_image_decoding_hashes_classification_only",
-        "mathematical_verification": "not_performed_by_this_script",
-        "visual_source_comparison": "not_performed_by_this_script",
-        "latex_rendering": "not_performed_by_this_script",
-        "bank_sha256": "ba05da066c098ddbd618e368e3a412d74cfd93fc5bf476789dd9fe02048f5b67",
-        "bytes": 10812,
-        "problems": 3,
-        "verified": 2,
-        "guided": 1,
-        "images": 1,
-        "figures": [
-          {
-            "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_olimpicos-preparatoria_q02",
-            "figure": 1,
-            "sha256": "3ad15d59043e5ec58338ef50542e88ad05d565883f2c04c729d34719058243eb",
-            "width": 128,
-            "height": 126
-          }
-        ],
-        "errors": [],
-        "warnings": []
-      }
+    "classified": {
+      "ok": true,
+      "scope": "structure_options_image_decoding_hashes_classification_only",
+      "mathematical_verification": "not_performed_by_this_script",
+      "visual_source_comparison": "not_performed_by_this_script",
+      "latex_rendering": "not_performed_by_this_script",
+      "bank_sha256": "516806c71459648d6a222ac6bd7ac73a9064b348faa6f5fdf426d170c3153a93",
+      "bytes": 10826,
+      "problems": 3,
+      "verified": 2,
+      "guided": 1,
+      "images": 1,
+      "figures": [
+        {
+          "source_id": "fusion1_examen-eliminatorio-ceom11-pdf_olimpicos-preparatoria_q02",
+          "figure": 1,
+          "sha256": "3ad15d59043e5ec58338ef50542e88ad05d565883f2c04c729d34719058243eb",
+          "width": 128,
+          "height": 126
+        }
+      ],
+      "errors": [],
+      "warnings": []
     }
-  ]
+  },
+  "bank_sha256": "effbe30e22639f507dd9bc325eaa7a7c08cbfb16865fab6c0602e198a8859644",
+  "classified_bank_sha256": "516806c71459648d6a222ac6bd7ac73a9064b348faa6f5fdf426d170c3153a93",
+  "format_audit": {
+    "report": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.json",
+    "csv": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.csv",
+    "status": "passed",
+    "fields_rendered": 9,
+    "source_ids": [
+      "fusion1_examen-eliminatorio-ceom11-pdf_olimpicos-preparatoria_q01",
+      "fusion1_examen-eliminatorio-ceom11-pdf_olimpicos-preparatoria_q02",
+      "fusion1_examen-eliminatorio-ceom11-pdf_olimpicos-preparatoria_q03"
+    ],
+    "scope": "Formatting and structural recheck; prior mathematical/source reviews retained."
+  }
 }

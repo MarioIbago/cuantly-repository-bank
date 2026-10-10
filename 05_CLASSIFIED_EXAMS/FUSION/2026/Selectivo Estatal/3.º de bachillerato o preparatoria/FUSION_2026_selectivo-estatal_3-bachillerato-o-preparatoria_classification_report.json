@@ -1,7 +1,7 @@
 {
   "source_pdf": "01_RAW_PDFs/FUSION/2026/Selectivo Estatal/Multinivel/FUSION_2026_selectivo-estatal_multinivel_examenes-selectivos-estatales-fusion-26_original.pdf",
   "source_sha256": "2e13ef4be54f402d7547bb967635bce02b2881424e7337def9756d4d6f8b9620",
-  "bank_sha256": "50cf242fd230ccbb5d78ca364e0f68d16fa771d88eb5bbba8be2b6acc9397289",
+  "bank_sha256": "6eb6b11abc746d33c36d3dd64fdc791c936d54bef71ba34efd0597716f870eeb",
   "rubric": "Editorial L1/L2/L3 relative to source school grade; primary area follows decisive reasoning, not picture context.",
   "problems": [
     {
@@ -284,5 +284,30 @@
         "Dificultad editorial relativa a Tercer año de bachillerato o preparatoria: combina modelado y pasos con una inferencia."
       ]
     }
-  ]
+  ],
+  "format_audit": {
+    "report": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.json",
+    "csv": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.csv",
+    "status": "passed",
+    "fields_rendered": 48,
+    "source_ids": [
+      "fusion6_examenes-selectivos-estatales-fusion-26_3-bachillerato-o-preparatoria_q01",
+      "fusion6_examenes-selectivos-estatales-fusion-26_3-bachillerato-o-preparatoria_q02",
+      "fusion6_examenes-selectivos-estatales-fusion-26_3-bachillerato-o-preparatoria_q03",
+      "fusion6_examenes-selectivos-estatales-fusion-26_3-bachillerato-o-preparatoria_q04",
+      "fusion6_examenes-selectivos-estatales-fusion-26_3-bachillerato-o-preparatoria_q05",
+      "fusion6_examenes-selectivos-estatales-fusion-26_3-bachillerato-o-preparatoria_q06",
+      "fusion6_examenes-selectivos-estatales-fusion-26_3-bachillerato-o-preparatoria_q07",
+      "fusion6_examenes-selectivos-estatales-fusion-26_3-bachillerato-o-preparatoria_q08",
+      "fusion6_examenes-selectivos-estatales-fusion-26_3-bachillerato-o-preparatoria_q09",
+      "fusion6_examenes-selectivos-estatales-fusion-26_3-bachillerato-o-preparatoria_q10",
+      "fusion6_examenes-selectivos-estatales-fusion-26_3-bachillerato-o-preparatoria_q11",
+      "fusion6_examenes-selectivos-estatales-fusion-26_3-bachillerato-o-preparatoria_q12",
+      "fusion6_examenes-selectivos-estatales-fusion-26_3-bachillerato-o-preparatoria_q13",
+      "fusion6_examenes-selectivos-estatales-fusion-26_3-bachillerato-o-preparatoria_q14",
+      "fusion6_examenes-selectivos-estatales-fusion-26_3-bachillerato-o-preparatoria_q15",
+      "fusion6_examenes-selectivos-estatales-fusion-26_3-bachillerato-o-preparatoria_q16"
+    ],
+    "scope": "Formatting and structural recheck; prior mathematical/source reviews retained."
+  }
 }

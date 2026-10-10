@@ -72,5 +72,19 @@
         "Definir el espacio muestral y contar las cifras alternadas que suman lo mismo."
       ]
     }
-  ]
+  ],
+  "bank_sha256": "887d878bd18eebde690ee5d228b1876c83ca404fbc54043563f096a5705a8f6f",
+  "format_audit": {
+    "report": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.json",
+    "csv": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.csv",
+    "status": "passed",
+    "fields_rendered": 12,
+    "source_ids": [
+      "fusion1_examen-2_secundaria_q01",
+      "fusion1_examen-2_secundaria_q02",
+      "fusion1_examen-2_secundaria_q03",
+      "fusion1_examen-2_secundaria_q04"
+    ],
+    "scope": "Formatting and structural recheck; prior mathematical/source reviews retained."
+  }
 }

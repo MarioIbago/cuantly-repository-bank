@@ -276,5 +276,30 @@
         "Dificultad relativa a Tercer año de preparatoria."
       ]
     }
-  ]
+  ],
+  "bank_sha256": "187d0c4938bc3cf175cfc331264024c927b3435a92d37a0795b944e3252c2ff3",
+  "format_audit": {
+    "report": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.json",
+    "csv": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.csv",
+    "status": "passed",
+    "fields_rendered": 145,
+    "source_ids": [
+      "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q01",
+      "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q02",
+      "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q03",
+      "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q04",
+      "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q05",
+      "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q06",
+      "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q07",
+      "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q08",
+      "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q09",
+      "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q10",
+      "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q11",
+      "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q12",
+      "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q13",
+      "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q14",
+      "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q15"
+    ],
+    "scope": "Formatting and structural recheck; prior mathematical/source reviews retained."
+  }
 }

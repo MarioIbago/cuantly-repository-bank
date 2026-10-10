@@ -66,46 +66,40 @@
       "notes": "Respuesta abierta: comparar el procedimiento y la solución; sin calificación automática."
     }
   ],
-  "structural_validation": [
-    {
-      "path": "02_JSON_EXAMS/FUSION/2020/Torneo 1/Primaria/FUSION_2020_torneo-1_primaria_verified.json",
-      "report": {
-        "ok": true,
-        "scope": "structure_options_image_decoding_hashes_classification_only",
-        "mathematical_verification": "not_performed_by_this_script",
-        "visual_source_comparison": "not_performed_by_this_script",
-        "latex_rendering": "not_performed_by_this_script",
-        "bank_sha256": "bb89a1fe4ad3fdd1da0ae953b679af35d5cd1d900b2a527dbb86290ed43d4000",
-        "bytes": 9530,
-        "problems": 4,
-        "verified": 4,
-        "guided": 0,
-        "images": 0,
-        "figures": [],
-        "errors": [],
-        "warnings": []
-      }
+  "structural_validation": {
+    "verified": {
+      "ok": true,
+      "scope": "structure_options_image_decoding_hashes_classification_only",
+      "mathematical_verification": "not_performed_by_this_script",
+      "visual_source_comparison": "not_performed_by_this_script",
+      "latex_rendering": "not_performed_by_this_script",
+      "bank_sha256": "ae1746c7fd6d435e8c53a49e62f7d0d7a108db148df1ae38154dbac3da61494b",
+      "bytes": 9531,
+      "problems": 4,
+      "verified": 4,
+      "guided": 0,
+      "images": 0,
+      "figures": [],
+      "errors": [],
+      "warnings": []
     },
-    {
-      "path": "05_CLASSIFIED_EXAMS/FUSION/2020/Torneo 1/Primaria/FUSION_2020_torneo-1_primaria_classified.json",
-      "report": {
-        "ok": true,
-        "scope": "structure_options_image_decoding_hashes_classification_only",
-        "mathematical_verification": "not_performed_by_this_script",
-        "visual_source_comparison": "not_performed_by_this_script",
-        "latex_rendering": "not_performed_by_this_script",
-        "bank_sha256": "b28ab6174d04ce8e72aadba5b220cdf7abcf0e0156858a04877efe9ca3dd5bc1",
-        "bytes": 11427,
-        "problems": 4,
-        "verified": 4,
-        "guided": 0,
-        "images": 0,
-        "figures": [],
-        "errors": [],
-        "warnings": []
-      }
+    "classified": {
+      "ok": true,
+      "scope": "structure_options_image_decoding_hashes_classification_only",
+      "mathematical_verification": "not_performed_by_this_script",
+      "visual_source_comparison": "not_performed_by_this_script",
+      "latex_rendering": "not_performed_by_this_script",
+      "bank_sha256": "8b28b2cc649c14b154a108eb34b8b83d9780f86dbf2840edd15304c171416a45",
+      "bytes": 11428,
+      "problems": 4,
+      "verified": 4,
+      "guided": 0,
+      "images": 0,
+      "figures": [],
+      "errors": [],
+      "warnings": []
     }
-  ],
+  },
   "final_bank_hashes": [
     {
       "path": "02_JSON_EXAMS/FUSION/2020/Torneo 1/Primaria/FUSION_2020_torneo-1_primaria_verified.json",
@@ -117,5 +111,20 @@
       "sha256": "b28ab6174d04ce8e72aadba5b220cdf7abcf0e0156858a04877efe9ca3dd5bc1",
       "bytes": 11427
     }
-  ]
+  ],
+  "bank_sha256": "ae1746c7fd6d435e8c53a49e62f7d0d7a108db148df1ae38154dbac3da61494b",
+  "classified_bank_sha256": "8b28b2cc649c14b154a108eb34b8b83d9780f86dbf2840edd15304c171416a45",
+  "format_audit": {
+    "report": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.json",
+    "csv": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.csv",
+    "status": "passed",
+    "fields_rendered": 12,
+    "source_ids": [
+      "fusion1_examen-1_primaria_q01",
+      "fusion1_examen-1_primaria_q02",
+      "fusion1_examen-1_primaria_q03",
+      "fusion1_examen-1_primaria_q04"
+    ],
+    "scope": "Formatting and structural recheck; prior mathematical/source reviews retained."
+  }
 }

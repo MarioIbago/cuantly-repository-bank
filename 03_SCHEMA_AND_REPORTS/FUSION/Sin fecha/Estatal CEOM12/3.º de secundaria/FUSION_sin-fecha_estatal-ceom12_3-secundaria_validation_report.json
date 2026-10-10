@@ -289,102 +289,111 @@
       "notes": "Respuesta abierta revisada; comparación manual."
     }
   ],
-  "structural_validation": [
-    {
-      "path": "02_JSON_EXAMS/FUSION/Sin fecha/Estatal CEOM12/3.º de secundaria/FUSION_sin-fecha_estatal-ceom12_3-secundaria_verified.json",
-      "report": {
-        "ok": true,
-        "scope": "structure_options_image_decoding_hashes_classification_only",
-        "mathematical_verification": "not_performed_by_this_script",
-        "visual_source_comparison": "not_performed_by_this_script",
-        "latex_rendering": "not_performed_by_this_script",
-        "bank_sha256": "26f5e73175cf0b83c725b5f62ad2078d73d22afea938eceb14078d9192859b19",
-        "bytes": 37238,
-        "problems": 4,
-        "verified": 3,
-        "guided": 1,
-        "images": 4,
-        "figures": [
-          {
-            "source_id": "fusion1_examen-estatal-ceom12_3-secundaria_q03",
-            "figure": 1,
-            "sha256": "70c5c457119c0a1b46f7c0dea4ff7559247fb313bf959bb48af492935878cc21",
-            "width": 190,
-            "height": 156
-          },
-          {
-            "source_id": "fusion1_examen-estatal-ceom12_3-secundaria_q03",
-            "figure": 2,
-            "sha256": "66797a8cad8d60155ae81bc0a51fcceacf95e6d031133fef45f59f06d5ed98a6",
-            "width": 194,
-            "height": 158
-          },
-          {
-            "source_id": "fusion1_examen-estatal-ceom12_3-secundaria_q03",
-            "figure": 3,
-            "sha256": "5f73d7331367e73b803e08c3e2e1c3939fc10bc91d706fb95d40038b997527c5",
-            "width": 189,
-            "height": 157
-          },
-          {
-            "source_id": "fusion1_examen-estatal-ceom12_3-secundaria_q04",
-            "figure": 1,
-            "sha256": "89abb3ab4eca970bf868530047aab3e7df7af2885c1b20a995e8d10ed749abdc",
-            "width": 317,
-            "height": 323
-          }
-        ],
-        "errors": [],
-        "warnings": []
-      }
+  "structural_validation": {
+    "verified": {
+      "ok": true,
+      "scope": "structure_options_image_decoding_hashes_classification_only",
+      "mathematical_verification": "not_performed_by_this_script",
+      "visual_source_comparison": "not_performed_by_this_script",
+      "latex_rendering": "not_performed_by_this_script",
+      "bank_sha256": "f2c6da495e92e20043edeea5e4ab68439849460d20edffd8b879378fd83c1081",
+      "bytes": 37238,
+      "problems": 4,
+      "verified": 3,
+      "guided": 1,
+      "images": 4,
+      "figures": [
+        {
+          "source_id": "fusion1_examen-estatal-ceom12_3-secundaria_q03",
+          "figure": 1,
+          "sha256": "70c5c457119c0a1b46f7c0dea4ff7559247fb313bf959bb48af492935878cc21",
+          "width": 190,
+          "height": 156
+        },
+        {
+          "source_id": "fusion1_examen-estatal-ceom12_3-secundaria_q03",
+          "figure": 2,
+          "sha256": "66797a8cad8d60155ae81bc0a51fcceacf95e6d031133fef45f59f06d5ed98a6",
+          "width": 194,
+          "height": 158
+        },
+        {
+          "source_id": "fusion1_examen-estatal-ceom12_3-secundaria_q03",
+          "figure": 3,
+          "sha256": "5f73d7331367e73b803e08c3e2e1c3939fc10bc91d706fb95d40038b997527c5",
+          "width": 189,
+          "height": 157
+        },
+        {
+          "source_id": "fusion1_examen-estatal-ceom12_3-secundaria_q04",
+          "figure": 1,
+          "sha256": "89abb3ab4eca970bf868530047aab3e7df7af2885c1b20a995e8d10ed749abdc",
+          "width": 317,
+          "height": 323
+        }
+      ],
+      "errors": [],
+      "warnings": []
     },
-    {
-      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/3.º de secundaria/FUSION_sin-fecha_estatal-ceom12_3-secundaria_classified.json",
-      "report": {
-        "ok": true,
-        "scope": "structure_options_image_decoding_hashes_classification_only",
-        "mathematical_verification": "not_performed_by_this_script",
-        "visual_source_comparison": "not_performed_by_this_script",
-        "latex_rendering": "not_performed_by_this_script",
-        "bank_sha256": "dc0415bf010978de558ab7f5f55aedf66612f976eb1c3d2f8566ce332bb9acef",
-        "bytes": 39539,
-        "problems": 4,
-        "verified": 3,
-        "guided": 1,
-        "images": 4,
-        "figures": [
-          {
-            "source_id": "fusion1_examen-estatal-ceom12_3-secundaria_q03",
-            "figure": 1,
-            "sha256": "70c5c457119c0a1b46f7c0dea4ff7559247fb313bf959bb48af492935878cc21",
-            "width": 190,
-            "height": 156
-          },
-          {
-            "source_id": "fusion1_examen-estatal-ceom12_3-secundaria_q03",
-            "figure": 2,
-            "sha256": "66797a8cad8d60155ae81bc0a51fcceacf95e6d031133fef45f59f06d5ed98a6",
-            "width": 194,
-            "height": 158
-          },
-          {
-            "source_id": "fusion1_examen-estatal-ceom12_3-secundaria_q03",
-            "figure": 3,
-            "sha256": "5f73d7331367e73b803e08c3e2e1c3939fc10bc91d706fb95d40038b997527c5",
-            "width": 189,
-            "height": 157
-          },
-          {
-            "source_id": "fusion1_examen-estatal-ceom12_3-secundaria_q04",
-            "figure": 1,
-            "sha256": "89abb3ab4eca970bf868530047aab3e7df7af2885c1b20a995e8d10ed749abdc",
-            "width": 317,
-            "height": 323
-          }
-        ],
-        "errors": [],
-        "warnings": []
-      }
+    "classified": {
+      "ok": true,
+      "scope": "structure_options_image_decoding_hashes_classification_only",
+      "mathematical_verification": "not_performed_by_this_script",
+      "visual_source_comparison": "not_performed_by_this_script",
+      "latex_rendering": "not_performed_by_this_script",
+      "bank_sha256": "7cd51e5e692c0c59f2b792da4b9c0377143d33eb3cfa8feb8f28df44aa2ab51a",
+      "bytes": 39539,
+      "problems": 4,
+      "verified": 3,
+      "guided": 1,
+      "images": 4,
+      "figures": [
+        {
+          "source_id": "fusion1_examen-estatal-ceom12_3-secundaria_q03",
+          "figure": 1,
+          "sha256": "70c5c457119c0a1b46f7c0dea4ff7559247fb313bf959bb48af492935878cc21",
+          "width": 190,
+          "height": 156
+        },
+        {
+          "source_id": "fusion1_examen-estatal-ceom12_3-secundaria_q03",
+          "figure": 2,
+          "sha256": "66797a8cad8d60155ae81bc0a51fcceacf95e6d031133fef45f59f06d5ed98a6",
+          "width": 194,
+          "height": 158
+        },
+        {
+          "source_id": "fusion1_examen-estatal-ceom12_3-secundaria_q03",
+          "figure": 3,
+          "sha256": "5f73d7331367e73b803e08c3e2e1c3939fc10bc91d706fb95d40038b997527c5",
+          "width": 189,
+          "height": 157
+        },
+        {
+          "source_id": "fusion1_examen-estatal-ceom12_3-secundaria_q04",
+          "figure": 1,
+          "sha256": "89abb3ab4eca970bf868530047aab3e7df7af2885c1b20a995e8d10ed749abdc",
+          "width": 317,
+          "height": 323
+        }
+      ],
+      "errors": [],
+      "warnings": []
     }
-  ]
+  },
+  "bank_sha256": "f2c6da495e92e20043edeea5e4ab68439849460d20edffd8b879378fd83c1081",
+  "classified_bank_sha256": "7cd51e5e692c0c59f2b792da4b9c0377143d33eb3cfa8feb8f28df44aa2ab51a",
+  "format_audit": {
+    "report": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.json",
+    "csv": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.csv",
+    "status": "passed",
+    "fields_rendered": 12,
+    "source_ids": [
+      "fusion1_examen-estatal-ceom12_3-secundaria_q01",
+      "fusion1_examen-estatal-ceom12_3-secundaria_q02",
+      "fusion1_examen-estatal-ceom12_3-secundaria_q03",
+      "fusion1_examen-estatal-ceom12_3-secundaria_q04"
+    ],
+    "scope": "Formatting and structural recheck; prior mathematical/source reviews retained."
+  }
 }

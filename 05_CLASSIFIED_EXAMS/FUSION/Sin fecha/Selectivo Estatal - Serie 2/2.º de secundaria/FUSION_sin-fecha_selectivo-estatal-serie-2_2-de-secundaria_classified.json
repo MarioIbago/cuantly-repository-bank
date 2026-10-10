@@ -505,30 +505,30 @@
       "source_page": 2,
       "language": "es",
       "format": "multiple_choice",
-      "problem_text": "Si 4 manzanas y 2 naranjas cuestan $15.40 y 2 naranjas y 4 plátanos cuestan $17.00,\n¿Cuánto tengo que pagar en total por una manzana, una naranja y un plátano?",
+      "problem_text": "Si 4 manzanas y 2 naranjas cuestan \\$15.40 y 2 naranjas y 4 plátanos cuestan \\$17.00,\n¿Cuánto tengo que pagar en total por una manzana, una naranja y un plátano?",
       "options": [
         {
           "label": "a",
-          "text": "$7.70"
+          "text": "\\$7.70"
         },
         {
           "label": "b",
-          "text": "$7.80"
+          "text": "\\$7.80"
         },
         {
           "label": "c",
-          "text": "$7.90"
+          "text": "\\$7.90"
         },
         {
           "label": "d",
-          "text": "$8.00"
+          "text": "\\$8.00"
         },
         {
           "label": "e",
-          "text": "$8.10"
+          "text": "\\$8.10"
         }
       ],
-      "correct_answer": "$8.10",
+      "correct_answer": "\\$8.10",
       "correct_option_label": "e",
       "solution_text": "1. **Representar precios.** Si m, n y p son los precios de una manzana, una naranja y un plátano, se tiene \\(4m+2n=15.40\\) y \\(2n+4p=17.00\\).\n2. **Sumar compras.** \\(4m+4n+4p=32.40\\).\n3. **Una de cada fruta.** Dividir entre 4 da \\(m+n+p=\\mathbf{8.10}\\), opción **e**.\n4. **Comprobación.** Cuatro compras de una de cada fruta cuestan \\(4\\cdot8.10=32.40=15.40+17.00\\). No necesitamos conocer los tres precios por separado.",
       "has_diagram": false,

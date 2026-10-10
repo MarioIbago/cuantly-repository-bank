@@ -498,8 +498,8 @@
       ]
     }
   ],
-  "bank_sha256": "af6bfbec03037f3e88fe497df789a07cae5a27bd33ef8f91fde1506db9889f67",
-  "classified_bank_sha256": "a8661a97962e74dc2bdaf77bb72b6b2837ea762799d8a1b5f6527a3b7eced7b4",
+  "bank_sha256": "3a37189b9b5483ea4a82a8bb971acaad1a5b47ca24e043864959a541d76fc461",
+  "classified_bank_sha256": "08213eca3c6e753bc9a197adcede3546a1654dd58bca470a4165c786cb088c57",
   "counts": {
     "verified_problems": 16,
     "needs_review_or_invalid": 0,
@@ -518,8 +518,8 @@
       "mathematical_verification": "not_performed_by_this_script",
       "visual_source_comparison": "not_performed_by_this_script",
       "latex_rendering": "not_performed_by_this_script",
-      "bank_sha256": "af6bfbec03037f3e88fe497df789a07cae5a27bd33ef8f91fde1506db9889f67",
-      "bytes": 116981,
+      "bank_sha256": "3a37189b9b5483ea4a82a8bb971acaad1a5b47ca24e043864959a541d76fc461",
+      "bytes": 116990,
       "problems": 16,
       "verified": 16,
       "guided": 0,
@@ -584,8 +584,8 @@
       "mathematical_verification": "not_performed_by_this_script",
       "visual_source_comparison": "not_performed_by_this_script",
       "latex_rendering": "not_performed_by_this_script",
-      "bank_sha256": "a8661a97962e74dc2bdaf77bb72b6b2837ea762799d8a1b5f6527a3b7eced7b4",
-      "bytes": 126062,
+      "bank_sha256": "08213eca3c6e753bc9a197adcede3546a1654dd58bca470a4165c786cb088c57",
+      "bytes": 126071,
       "problems": 16,
       "verified": 16,
       "guided": 0,
@@ -644,5 +644,30 @@
       "errors": [],
       "warnings": []
     }
+  },
+  "format_audit": {
+    "report": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.json",
+    "csv": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.csv",
+    "status": "passed",
+    "fields_rendered": 48,
+    "source_ids": [
+      "fusion6_examenes-selectivos-estatales-fusion-26_1-bachillerato-o-preparatoria_q01",
+      "fusion6_examenes-selectivos-estatales-fusion-26_1-bachillerato-o-preparatoria_q02",
+      "fusion6_examenes-selectivos-estatales-fusion-26_1-bachillerato-o-preparatoria_q03",
+      "fusion6_examenes-selectivos-estatales-fusion-26_1-bachillerato-o-preparatoria_q04",
+      "fusion6_examenes-selectivos-estatales-fusion-26_1-bachillerato-o-preparatoria_q05",
+      "fusion6_examenes-selectivos-estatales-fusion-26_1-bachillerato-o-preparatoria_q06",
+      "fusion6_examenes-selectivos-estatales-fusion-26_1-bachillerato-o-preparatoria_q07",
+      "fusion6_examenes-selectivos-estatales-fusion-26_1-bachillerato-o-preparatoria_q08",
+      "fusion6_examenes-selectivos-estatales-fusion-26_1-bachillerato-o-preparatoria_q09",
+      "fusion6_examenes-selectivos-estatales-fusion-26_1-bachillerato-o-preparatoria_q10",
+      "fusion6_examenes-selectivos-estatales-fusion-26_1-bachillerato-o-preparatoria_q11",
+      "fusion6_examenes-selectivos-estatales-fusion-26_1-bachillerato-o-preparatoria_q12",
+      "fusion6_examenes-selectivos-estatales-fusion-26_1-bachillerato-o-preparatoria_q13",
+      "fusion6_examenes-selectivos-estatales-fusion-26_1-bachillerato-o-preparatoria_q14",
+      "fusion6_examenes-selectivos-estatales-fusion-26_1-bachillerato-o-preparatoria_q15",
+      "fusion6_examenes-selectivos-estatales-fusion-26_1-bachillerato-o-preparatoria_q16"
+    ],
+    "scope": "Formatting and structural recheck; prior mathematical/source reviews retained."
   }
 }

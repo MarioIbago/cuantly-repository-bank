@@ -304,102 +304,111 @@
       "notes": "Respuesta abierta revisada; comparación manual."
     }
   ],
-  "structural_validation": [
-    {
-      "path": "02_JSON_EXAMS/FUSION/Sin fecha/Estatal CEOM12/Olímpicos/FUSION_sin-fecha_estatal-ceom12_olimpicos-preparatoria-o-bachillerato_verified.json",
-      "report": {
-        "ok": true,
-        "scope": "structure_options_image_decoding_hashes_classification_only",
-        "mathematical_verification": "not_performed_by_this_script",
-        "visual_source_comparison": "not_performed_by_this_script",
-        "latex_rendering": "not_performed_by_this_script",
-        "bank_sha256": "02fbf80b8265bfc3d714a6fd9f274b100a148b7e768130585e2b981b409c9bb6",
-        "bytes": 39525,
-        "problems": 4,
-        "verified": 3,
-        "guided": 1,
-        "images": 4,
-        "figures": [
-          {
-            "source_id": "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q03",
-            "figure": 1,
-            "sha256": "70c5c457119c0a1b46f7c0dea4ff7559247fb313bf959bb48af492935878cc21",
-            "width": 190,
-            "height": 156
-          },
-          {
-            "source_id": "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q03",
-            "figure": 2,
-            "sha256": "66797a8cad8d60155ae81bc0a51fcceacf95e6d031133fef45f59f06d5ed98a6",
-            "width": 194,
-            "height": 158
-          },
-          {
-            "source_id": "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q03",
-            "figure": 3,
-            "sha256": "5f73d7331367e73b803e08c3e2e1c3939fc10bc91d706fb95d40038b997527c5",
-            "width": 189,
-            "height": 157
-          },
-          {
-            "source_id": "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q04",
-            "figure": 1,
-            "sha256": "89abb3ab4eca970bf868530047aab3e7df7af2885c1b20a995e8d10ed749abdc",
-            "width": 317,
-            "height": 323
-          }
-        ],
-        "errors": [],
-        "warnings": []
-      }
+  "structural_validation": {
+    "verified": {
+      "ok": true,
+      "scope": "structure_options_image_decoding_hashes_classification_only",
+      "mathematical_verification": "not_performed_by_this_script",
+      "visual_source_comparison": "not_performed_by_this_script",
+      "latex_rendering": "not_performed_by_this_script",
+      "bank_sha256": "456683052244ebef814c2096aee9e40ba6ede13707139348216006bd28782d72",
+      "bytes": 39530,
+      "problems": 4,
+      "verified": 3,
+      "guided": 1,
+      "images": 4,
+      "figures": [
+        {
+          "source_id": "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q03",
+          "figure": 1,
+          "sha256": "70c5c457119c0a1b46f7c0dea4ff7559247fb313bf959bb48af492935878cc21",
+          "width": 190,
+          "height": 156
+        },
+        {
+          "source_id": "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q03",
+          "figure": 2,
+          "sha256": "66797a8cad8d60155ae81bc0a51fcceacf95e6d031133fef45f59f06d5ed98a6",
+          "width": 194,
+          "height": 158
+        },
+        {
+          "source_id": "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q03",
+          "figure": 3,
+          "sha256": "5f73d7331367e73b803e08c3e2e1c3939fc10bc91d706fb95d40038b997527c5",
+          "width": 189,
+          "height": 157
+        },
+        {
+          "source_id": "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q04",
+          "figure": 1,
+          "sha256": "89abb3ab4eca970bf868530047aab3e7df7af2885c1b20a995e8d10ed749abdc",
+          "width": 317,
+          "height": 323
+        }
+      ],
+      "errors": [],
+      "warnings": []
     },
-    {
-      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Estatal CEOM12/Olímpicos/FUSION_sin-fecha_estatal-ceom12_olimpicos-preparatoria-o-bachillerato_classified.json",
-      "report": {
-        "ok": true,
-        "scope": "structure_options_image_decoding_hashes_classification_only",
-        "mathematical_verification": "not_performed_by_this_script",
-        "visual_source_comparison": "not_performed_by_this_script",
-        "latex_rendering": "not_performed_by_this_script",
-        "bank_sha256": "b7ae94c78d735da61f6bbdfd454412fb60e5f6ebabdb6d919a9608249e332f59",
-        "bytes": 41810,
-        "problems": 4,
-        "verified": 3,
-        "guided": 1,
-        "images": 4,
-        "figures": [
-          {
-            "source_id": "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q03",
-            "figure": 1,
-            "sha256": "70c5c457119c0a1b46f7c0dea4ff7559247fb313bf959bb48af492935878cc21",
-            "width": 190,
-            "height": 156
-          },
-          {
-            "source_id": "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q03",
-            "figure": 2,
-            "sha256": "66797a8cad8d60155ae81bc0a51fcceacf95e6d031133fef45f59f06d5ed98a6",
-            "width": 194,
-            "height": 158
-          },
-          {
-            "source_id": "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q03",
-            "figure": 3,
-            "sha256": "5f73d7331367e73b803e08c3e2e1c3939fc10bc91d706fb95d40038b997527c5",
-            "width": 189,
-            "height": 157
-          },
-          {
-            "source_id": "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q04",
-            "figure": 1,
-            "sha256": "89abb3ab4eca970bf868530047aab3e7df7af2885c1b20a995e8d10ed749abdc",
-            "width": 317,
-            "height": 323
-          }
-        ],
-        "errors": [],
-        "warnings": []
-      }
+    "classified": {
+      "ok": true,
+      "scope": "structure_options_image_decoding_hashes_classification_only",
+      "mathematical_verification": "not_performed_by_this_script",
+      "visual_source_comparison": "not_performed_by_this_script",
+      "latex_rendering": "not_performed_by_this_script",
+      "bank_sha256": "148b6098c5986ab39ade8816e6752202fda06c0a86b597444546267528964da5",
+      "bytes": 41815,
+      "problems": 4,
+      "verified": 3,
+      "guided": 1,
+      "images": 4,
+      "figures": [
+        {
+          "source_id": "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q03",
+          "figure": 1,
+          "sha256": "70c5c457119c0a1b46f7c0dea4ff7559247fb313bf959bb48af492935878cc21",
+          "width": 190,
+          "height": 156
+        },
+        {
+          "source_id": "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q03",
+          "figure": 2,
+          "sha256": "66797a8cad8d60155ae81bc0a51fcceacf95e6d031133fef45f59f06d5ed98a6",
+          "width": 194,
+          "height": 158
+        },
+        {
+          "source_id": "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q03",
+          "figure": 3,
+          "sha256": "5f73d7331367e73b803e08c3e2e1c3939fc10bc91d706fb95d40038b997527c5",
+          "width": 189,
+          "height": 157
+        },
+        {
+          "source_id": "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q04",
+          "figure": 1,
+          "sha256": "89abb3ab4eca970bf868530047aab3e7df7af2885c1b20a995e8d10ed749abdc",
+          "width": 317,
+          "height": 323
+        }
+      ],
+      "errors": [],
+      "warnings": []
     }
-  ]
+  },
+  "bank_sha256": "456683052244ebef814c2096aee9e40ba6ede13707139348216006bd28782d72",
+  "classified_bank_sha256": "148b6098c5986ab39ade8816e6752202fda06c0a86b597444546267528964da5",
+  "format_audit": {
+    "report": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.json",
+    "csv": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.csv",
+    "status": "passed",
+    "fields_rendered": 12,
+    "source_ids": [
+      "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q01",
+      "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q02",
+      "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q03",
+      "fusion1_examen-estatal-ceom12_olimpicos-preparatoria-o-bachillerato_q04"
+    ],
+    "scope": "Formatting and structural recheck; prior mathematical/source reviews retained."
+  }
 }

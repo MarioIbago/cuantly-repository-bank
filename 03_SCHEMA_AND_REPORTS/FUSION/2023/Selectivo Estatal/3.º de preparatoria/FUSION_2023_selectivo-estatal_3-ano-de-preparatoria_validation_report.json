@@ -1280,130 +1280,150 @@
       "notes": "Respuesta recalculada y comparada con el PDF original."
     }
   ],
-  "structural_validation": [
-    {
-      "path": "02_JSON_EXAMS/FUSION/2023/Selectivo Estatal/3.º de preparatoria/FUSION_2023_selectivo-estatal_3-ano-de-preparatoria_verified.json",
-      "report": {
-        "ok": true,
-        "scope": "structure_options_image_decoding_hashes_classification_only",
-        "mathematical_verification": "not_performed_by_this_script",
-        "visual_source_comparison": "not_performed_by_this_script",
-        "latex_rendering": "not_performed_by_this_script",
-        "bank_sha256": "30f5ece3d20113b175222d13d785d2caa65695499f6e859d3e6f62654c29d922",
-        "bytes": 114255,
-        "problems": 15,
-        "verified": 14,
-        "guided": 1,
-        "images": 6,
-        "figures": [
-          {
-            "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q04",
-            "figure": 1,
-            "sha256": "71cf5864110857ed5aba2ad19b537d2c9e2bf2a951b6be305b244ca36fd3b55d",
-            "width": 175,
-            "height": 114
-          },
-          {
-            "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q05",
-            "figure": 1,
-            "sha256": "8338c0f147201bc8547d18af1377270044c442cf126fa94424216c690a506691",
-            "width": 207,
-            "height": 123
-          },
-          {
-            "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q06",
-            "figure": 1,
-            "sha256": "8e4589f85c9ca1ec4fe8b9d392cd8ef27fda540d664530f4ff17e6eb51e64766",
-            "width": 218,
-            "height": 87
-          },
-          {
-            "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q11",
-            "figure": 1,
-            "sha256": "2de5a143f27bb6e58008267e5429ba1ff1073f4cf9ca5b1a57242077e3bacebe",
-            "width": 192,
-            "height": 139
-          },
-          {
-            "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q12",
-            "figure": 1,
-            "sha256": "68c7f5afb5c028dd6751f2e57cef45ebb9ee976b6e0f1ac4b201b3e0997ac0de",
-            "width": 175,
-            "height": 226
-          },
-          {
-            "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q13",
-            "figure": 1,
-            "sha256": "6223d713766547c14ada329f2c17fccd5dec0bfa8d2dddb3889b09567ec37a1d",
-            "width": 252,
-            "height": 171
-          }
-        ],
-        "errors": [],
-        "warnings": []
-      }
+  "structural_validation": {
+    "verified": {
+      "ok": true,
+      "scope": "structure_options_image_decoding_hashes_classification_only",
+      "mathematical_verification": "not_performed_by_this_script",
+      "visual_source_comparison": "not_performed_by_this_script",
+      "latex_rendering": "not_performed_by_this_script",
+      "bank_sha256": "98fa83b739fcf33e2d29558cc46669448c237cc6171f96e9309baf92e42b6eb5",
+      "bytes": 114253,
+      "problems": 15,
+      "verified": 14,
+      "guided": 1,
+      "images": 6,
+      "figures": [
+        {
+          "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q04",
+          "figure": 1,
+          "sha256": "71cf5864110857ed5aba2ad19b537d2c9e2bf2a951b6be305b244ca36fd3b55d",
+          "width": 175,
+          "height": 114
+        },
+        {
+          "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q05",
+          "figure": 1,
+          "sha256": "8338c0f147201bc8547d18af1377270044c442cf126fa94424216c690a506691",
+          "width": 207,
+          "height": 123
+        },
+        {
+          "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q06",
+          "figure": 1,
+          "sha256": "8e4589f85c9ca1ec4fe8b9d392cd8ef27fda540d664530f4ff17e6eb51e64766",
+          "width": 218,
+          "height": 87
+        },
+        {
+          "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q11",
+          "figure": 1,
+          "sha256": "2de5a143f27bb6e58008267e5429ba1ff1073f4cf9ca5b1a57242077e3bacebe",
+          "width": 192,
+          "height": 139
+        },
+        {
+          "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q12",
+          "figure": 1,
+          "sha256": "68c7f5afb5c028dd6751f2e57cef45ebb9ee976b6e0f1ac4b201b3e0997ac0de",
+          "width": 175,
+          "height": 226
+        },
+        {
+          "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q13",
+          "figure": 1,
+          "sha256": "6223d713766547c14ada329f2c17fccd5dec0bfa8d2dddb3889b09567ec37a1d",
+          "width": 252,
+          "height": 171
+        }
+      ],
+      "errors": [],
+      "warnings": []
     },
-    {
-      "path": "05_CLASSIFIED_EXAMS/FUSION/2023/Selectivo Estatal/3.º de preparatoria/FUSION_2023_selectivo-estatal_3-ano-de-preparatoria_classified.json",
-      "report": {
-        "ok": true,
-        "scope": "structure_options_image_decoding_hashes_classification_only",
-        "mathematical_verification": "not_performed_by_this_script",
-        "visual_source_comparison": "not_performed_by_this_script",
-        "latex_rendering": "not_performed_by_this_script",
-        "bank_sha256": "d89968dd9e0a2e2d4f8c9213b463d96fec55fb7302f70d502684a368fb056ead",
-        "bytes": 123085,
-        "problems": 15,
-        "verified": 14,
-        "guided": 1,
-        "images": 6,
-        "figures": [
-          {
-            "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q04",
-            "figure": 1,
-            "sha256": "71cf5864110857ed5aba2ad19b537d2c9e2bf2a951b6be305b244ca36fd3b55d",
-            "width": 175,
-            "height": 114
-          },
-          {
-            "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q05",
-            "figure": 1,
-            "sha256": "8338c0f147201bc8547d18af1377270044c442cf126fa94424216c690a506691",
-            "width": 207,
-            "height": 123
-          },
-          {
-            "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q06",
-            "figure": 1,
-            "sha256": "8e4589f85c9ca1ec4fe8b9d392cd8ef27fda540d664530f4ff17e6eb51e64766",
-            "width": 218,
-            "height": 87
-          },
-          {
-            "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q11",
-            "figure": 1,
-            "sha256": "2de5a143f27bb6e58008267e5429ba1ff1073f4cf9ca5b1a57242077e3bacebe",
-            "width": 192,
-            "height": 139
-          },
-          {
-            "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q12",
-            "figure": 1,
-            "sha256": "68c7f5afb5c028dd6751f2e57cef45ebb9ee976b6e0f1ac4b201b3e0997ac0de",
-            "width": 175,
-            "height": 226
-          },
-          {
-            "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q13",
-            "figure": 1,
-            "sha256": "6223d713766547c14ada329f2c17fccd5dec0bfa8d2dddb3889b09567ec37a1d",
-            "width": 252,
-            "height": 171
-          }
-        ],
-        "errors": [],
-        "warnings": []
-      }
+    "classified": {
+      "ok": true,
+      "scope": "structure_options_image_decoding_hashes_classification_only",
+      "mathematical_verification": "not_performed_by_this_script",
+      "visual_source_comparison": "not_performed_by_this_script",
+      "latex_rendering": "not_performed_by_this_script",
+      "bank_sha256": "187d0c4938bc3cf175cfc331264024c927b3435a92d37a0795b944e3252c2ff3",
+      "bytes": 123083,
+      "problems": 15,
+      "verified": 14,
+      "guided": 1,
+      "images": 6,
+      "figures": [
+        {
+          "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q04",
+          "figure": 1,
+          "sha256": "71cf5864110857ed5aba2ad19b537d2c9e2bf2a951b6be305b244ca36fd3b55d",
+          "width": 175,
+          "height": 114
+        },
+        {
+          "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q05",
+          "figure": 1,
+          "sha256": "8338c0f147201bc8547d18af1377270044c442cf126fa94424216c690a506691",
+          "width": 207,
+          "height": 123
+        },
+        {
+          "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q06",
+          "figure": 1,
+          "sha256": "8e4589f85c9ca1ec4fe8b9d392cd8ef27fda540d664530f4ff17e6eb51e64766",
+          "width": 218,
+          "height": 87
+        },
+        {
+          "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q11",
+          "figure": 1,
+          "sha256": "2de5a143f27bb6e58008267e5429ba1ff1073f4cf9ca5b1a57242077e3bacebe",
+          "width": 192,
+          "height": 139
+        },
+        {
+          "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q12",
+          "figure": 1,
+          "sha256": "68c7f5afb5c028dd6751f2e57cef45ebb9ee976b6e0f1ac4b201b3e0997ac0de",
+          "width": 175,
+          "height": 226
+        },
+        {
+          "source_id": "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q13",
+          "figure": 1,
+          "sha256": "6223d713766547c14ada329f2c17fccd5dec0bfa8d2dddb3889b09567ec37a1d",
+          "width": 252,
+          "height": 171
+        }
+      ],
+      "errors": [],
+      "warnings": []
     }
-  ]
+  },
+  "bank_sha256": "98fa83b739fcf33e2d29558cc46669448c237cc6171f96e9309baf92e42b6eb5",
+  "classified_bank_sha256": "187d0c4938bc3cf175cfc331264024c927b3435a92d37a0795b944e3252c2ff3",
+  "format_audit": {
+    "report": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.json",
+    "csv": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.csv",
+    "status": "passed",
+    "fields_rendered": 145,
+    "source_ids": [
+      "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q01",
+      "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q02",
+      "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q03",
+      "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q04",
+      "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q05",
+      "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q06",
+      "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q07",
+      "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q08",
+      "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q09",
+      "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q10",
+      "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q11",
+      "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q12",
+      "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q13",
+      "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q14",
+      "fusion3_examen-selectivo-3-ano-de-preparatoria-docx_3-ano-de-preparatoria_q15"
+    ],
+    "scope": "Formatting and structural recheck; prior mathematical/source reviews retained."
+  }
 }

@@ -523,7 +523,7 @@
       "source_page": 5,
       "language": "es",
       "format": "multiple_choice",
-      "problem_text": "Se tiene un terreno cuadrado de 11025 m² de área, si en el perímetro del terreno se siembran árboles cada 5m\nde tal forma que se plante un árbol en cada esquina; calcula dicha cantidad de árboles:",
+      "problem_text": "Se tiene un terreno cuadrado de 11025 m² de área, si en el perímetro del terreno se siembran árboles cada 5 m\nde tal forma que se plante un árbol en cada esquina; calcula dicha cantidad de árboles:",
       "options": [
         {
           "label": "a",
@@ -922,7 +922,7 @@
       "source_page": 6,
       "language": "es",
       "format": "multiple_choice",
-      "problem_text": "Un ajolote nadaba los días lunes 120m, martes 140m, miércoles 160m, jueves 180m, viernes 200m,  el sábado y\nel domingo 300m en total, En cuatro semanas, ¿cuánto kilómetros nadará el ajolote?",
+      "problem_text": "Un ajolote nadaba los días lunes 120 m, martes 140 m, miércoles 160 m, jueves 180 m, viernes 200 m,  el sábado y\nel domingo 300 m en total, En cuatro semanas, ¿cuánto kilómetros nadará el ajolote?",
       "options": [
         {
           "label": "a",

@@ -157,60 +157,69 @@
       "notes": "Respuesta abierta con solución revisada; comparación manual."
     }
   ],
-  "structural_validation": [
-    {
-      "path": "02_JSON_EXAMS/FUSION/Sin fecha/Final CEOM9/Kids/FUSION_sin-fecha_final-ceom9_kids-3o-y-4o-primaria_verified.json",
-      "report": {
-        "ok": true,
-        "scope": "structure_options_image_decoding_hashes_classification_only",
-        "mathematical_verification": "not_performed_by_this_script",
-        "visual_source_comparison": "not_performed_by_this_script",
-        "latex_rendering": "not_performed_by_this_script",
-        "bank_sha256": "06bbf00c979a68387d0793bf134b506ef341c106f7c2772edb4404c7e04cf9e8",
-        "bytes": 16259,
-        "problems": 4,
-        "verified": 3,
-        "guided": 1,
-        "images": 1,
-        "figures": [
-          {
-            "source_id": "fusion1_examen-final-ceom9_kids-3o-y-4o-primaria_q04",
-            "figure": 1,
-            "sha256": "e105d0978c821f20429d0a44f4bdb668604f432c88a3f59ae14d8dd89436ac4d",
-            "width": 443,
-            "height": 319
-          }
-        ],
-        "errors": [],
-        "warnings": []
-      }
+  "structural_validation": {
+    "verified": {
+      "ok": true,
+      "scope": "structure_options_image_decoding_hashes_classification_only",
+      "mathematical_verification": "not_performed_by_this_script",
+      "visual_source_comparison": "not_performed_by_this_script",
+      "latex_rendering": "not_performed_by_this_script",
+      "bank_sha256": "f96432bb38f51c5ce79922522c06549d3336980139deeae416749775ae836c96",
+      "bytes": 16260,
+      "problems": 4,
+      "verified": 3,
+      "guided": 1,
+      "images": 1,
+      "figures": [
+        {
+          "source_id": "fusion1_examen-final-ceom9_kids-3o-y-4o-primaria_q04",
+          "figure": 1,
+          "sha256": "e105d0978c821f20429d0a44f4bdb668604f432c88a3f59ae14d8dd89436ac4d",
+          "width": 443,
+          "height": 319
+        }
+      ],
+      "errors": [],
+      "warnings": []
     },
-    {
-      "path": "05_CLASSIFIED_EXAMS/FUSION/Sin fecha/Final CEOM9/Kids/FUSION_sin-fecha_final-ceom9_kids-3o-y-4o-primaria_classified.json",
-      "report": {
-        "ok": true,
-        "scope": "structure_options_image_decoding_hashes_classification_only",
-        "mathematical_verification": "not_performed_by_this_script",
-        "visual_source_comparison": "not_performed_by_this_script",
-        "latex_rendering": "not_performed_by_this_script",
-        "bank_sha256": "359f17332e9447c37bd109b3c547b4c2fc2d8fddf4882efc6bc657c1743a1d41",
-        "bytes": 18314,
-        "problems": 4,
-        "verified": 3,
-        "guided": 1,
-        "images": 1,
-        "figures": [
-          {
-            "source_id": "fusion1_examen-final-ceom9_kids-3o-y-4o-primaria_q04",
-            "figure": 1,
-            "sha256": "e105d0978c821f20429d0a44f4bdb668604f432c88a3f59ae14d8dd89436ac4d",
-            "width": 443,
-            "height": 319
-          }
-        ],
-        "errors": [],
-        "warnings": []
-      }
+    "classified": {
+      "ok": true,
+      "scope": "structure_options_image_decoding_hashes_classification_only",
+      "mathematical_verification": "not_performed_by_this_script",
+      "visual_source_comparison": "not_performed_by_this_script",
+      "latex_rendering": "not_performed_by_this_script",
+      "bank_sha256": "910ca148e28bcdc47c4d8c8ab09c0067d72673f87ed6bc655a82515bc07a95be",
+      "bytes": 18315,
+      "problems": 4,
+      "verified": 3,
+      "guided": 1,
+      "images": 1,
+      "figures": [
+        {
+          "source_id": "fusion1_examen-final-ceom9_kids-3o-y-4o-primaria_q04",
+          "figure": 1,
+          "sha256": "e105d0978c821f20429d0a44f4bdb668604f432c88a3f59ae14d8dd89436ac4d",
+          "width": 443,
+          "height": 319
+        }
+      ],
+      "errors": [],
+      "warnings": []
     }
-  ]
+  },
+  "bank_sha256": "f96432bb38f51c5ce79922522c06549d3336980139deeae416749775ae836c96",
+  "classified_bank_sha256": "910ca148e28bcdc47c4d8c8ab09c0067d72673f87ed6bc655a82515bc07a95be",
+  "format_audit": {
+    "report": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.json",
+    "csv": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.csv",
+    "status": "passed",
+    "fields_rendered": 12,
+    "source_ids": [
+      "fusion1_examen-final-ceom9_kids-3o-y-4o-primaria_q01",
+      "fusion1_examen-final-ceom9_kids-3o-y-4o-primaria_q02",
+      "fusion1_examen-final-ceom9_kids-3o-y-4o-primaria_q03",
+      "fusion1_examen-final-ceom9_kids-3o-y-4o-primaria_q04"
+    ],
+    "scope": "Formatting and structural recheck; prior mathematical/source reviews retained."
+  }
 }

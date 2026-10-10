@@ -124,59 +124,59 @@
       "source_page": 13,
       "language": "es",
       "format": "multiple_choice",
-      "problem_text": "Mayte compra limones a $3.60 la docena. Si quiere ganar $1.20 por docena. ¿Cuál es el precio al que\ndebe vender cada limón?",
+      "problem_text": "Mayte compra limones a \\$3.60 la docena. Si quiere ganar \\$1.20 por docena. ¿Cuál es el precio al que\ndebe vender cada limón?",
       "options": [
         {
           "label": "a",
-          "text": "$0.30"
+          "text": "\\$0.30"
         },
         {
           "label": "b",
-          "text": "$0.40"
+          "text": "\\$0.40"
         },
         {
           "label": "c",
-          "text": "$0.50"
+          "text": "\\$0.50"
         },
         {
           "label": "d",
-          "text": "$0.60"
+          "text": "\\$0.60"
         },
         {
           "label": "e",
-          "text": "$1.00"
+          "text": "\\$1.00"
         }
       ],
-      "correct_answer": "$0.40",
+      "correct_answer": "\\$0.40",
       "correct_option_label": "b",
-      "solution_text": "1. Para ganar $1.20 sobre una docena que cuesta $3.60, debe cobrar \\(3.60+1.20=4.80\\) pesos por docena.\n2. Una docena tiene 12 limones. Cada uno debe venderse a \\(4.80/12=\\mathbf{0.40}\\) pesos, opción **b**.\n3. Comprobación: \\(12\\cdot0.40-3.60=1.20\\). A $0.30 no habría ganancia; $0.50, $0.60 y $1.00 producirían ganancias distintas de la pedida.",
+      "solution_text": "1. Para ganar \\$1.20 sobre una docena que cuesta \\$3.60, debe cobrar \\(3.60+1.20=4.80\\) pesos por docena.\n2. Una docena tiene 12 limones. Cada uno debe venderse a \\(4.80/12=\\mathbf{0.40}\\) pesos, opción **b**.\n3. Comprobación: \\(12\\cdot0.40-3.60=1.20\\). A \\$0.30 no habría ganancia; \\$0.50, \\$0.60 y \\$1.00 producirían ganancias distintas de la pedida.",
       "has_diagram": false,
       "problem_images": [],
       "option_analysis": [
         {
           "label": "a",
           "is_correct": false,
-          "reason": "No cumple el resultado o la restricción requerida; el análisis completo de la solución obtiene $0.40."
+          "reason": "No cumple el resultado o la restricción requerida; el análisis completo de la solución obtiene \\$0.40."
         },
         {
           "label": "b",
           "is_correct": true,
-          "reason": "Cumple el resultado y todas las condiciones comprobadas en la solución: $0.40."
+          "reason": "Cumple el resultado y todas las condiciones comprobadas en la solución: \\$0.40."
         },
         {
           "label": "c",
           "is_correct": false,
-          "reason": "No cumple el resultado o la restricción requerida; el análisis completo de la solución obtiene $0.40."
+          "reason": "No cumple el resultado o la restricción requerida; el análisis completo de la solución obtiene \\$0.40."
         },
         {
           "label": "d",
           "is_correct": false,
-          "reason": "No cumple el resultado o la restricción requerida; el análisis completo de la solución obtiene $0.40."
+          "reason": "No cumple el resultado o la restricción requerida; el análisis completo de la solución obtiene \\$0.40."
         },
         {
           "label": "e",
           "is_correct": false,
-          "reason": "No cumple el resultado o la restricción requerida; el análisis completo de la solución obtiene $0.40."
+          "reason": "No cumple el resultado o la restricción requerida; el análisis completo de la solución obtiene \\$0.40."
         }
       ],
       "verification": {
@@ -564,7 +564,7 @@
       "source_page": 15,
       "language": "es",
       "format": "open_answer",
-      "problem_text": "Ernesto dibujó Sobre una recta los puntos A, B, C, y D en ese orden. M es el punto medio del segmento\nAB, N es el punto medio del segmento CD, MN = 7cm. ¿Cuál es la longitud de la suma de los segmentos\nAC + AD + BD + BC?",
+      "problem_text": "Ernesto dibujó Sobre una recta los puntos A, B, C, y D en ese orden. M es el punto medio del segmento\nAB, N es el punto medio del segmento CD, MN = 7 cm. ¿Cuál es la longitud de la suma de los segmentos\nAC + AD + BD + BC?",
       "options": [],
       "correct_answer": "28 cm",
       "correct_option_label": null,

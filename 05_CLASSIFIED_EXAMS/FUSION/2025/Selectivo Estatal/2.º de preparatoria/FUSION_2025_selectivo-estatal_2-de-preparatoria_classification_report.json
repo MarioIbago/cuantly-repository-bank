@@ -1,7 +1,7 @@
 {
   "source_pdf": "01_RAW_PDFs/FUSION/2025/Selectivo Estatal/Multinivel/FUSION_2025_selectivo-estatal_multinivel_examenes-selectivos-estatales_original.pdf",
   "source_sha256": "dd947001f5edca08676fd61c819b14ada32ccc8a1f39c571e71d76157e49daed",
-  "bank_sha256": "db2dfdc2a9bd6242f3fdeaaec7f790cfa1d869991fc00dbd2880ef8baced52f5",
+  "bank_sha256": "481350d0a5aab1c97375ac08461409a14a3c30f0488c00012d2d748a2eef447f",
   "rubric": "Editorial L1/L2/L3 relative to source school grade; primary area follows decisive reasoning, not picture context.",
   "problems": [
     {
@@ -267,5 +267,29 @@
         "Dificultad editorial relativa a Segundo año de preparatoria: combina pasos, modelado o enumeración con una inferencia."
       ]
     }
-  ]
+  ],
+  "format_audit": {
+    "report": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.json",
+    "csv": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.csv",
+    "status": "passed",
+    "fields_rendered": 125,
+    "source_ids": [
+      "fusion5_examenes-selectivos-estatales_2-de-preparatoria_q01",
+      "fusion5_examenes-selectivos-estatales_2-de-preparatoria_q02",
+      "fusion5_examenes-selectivos-estatales_2-de-preparatoria_q03",
+      "fusion5_examenes-selectivos-estatales_2-de-preparatoria_q04",
+      "fusion5_examenes-selectivos-estatales_2-de-preparatoria_q05",
+      "fusion5_examenes-selectivos-estatales_2-de-preparatoria_q06",
+      "fusion5_examenes-selectivos-estatales_2-de-preparatoria_q07",
+      "fusion5_examenes-selectivos-estatales_2-de-preparatoria_q08",
+      "fusion5_examenes-selectivos-estatales_2-de-preparatoria_q09",
+      "fusion5_examenes-selectivos-estatales_2-de-preparatoria_q10",
+      "fusion5_examenes-selectivos-estatales_2-de-preparatoria_q11",
+      "fusion5_examenes-selectivos-estatales_2-de-preparatoria_q12",
+      "fusion5_examenes-selectivos-estatales_2-de-preparatoria_q13",
+      "fusion5_examenes-selectivos-estatales_2-de-preparatoria_q14",
+      "fusion5_examenes-selectivos-estatales_2-de-preparatoria_q15"
+    ],
+    "scope": "Formatting and structural recheck; prior mathematical/source reviews retained."
+  }
 }

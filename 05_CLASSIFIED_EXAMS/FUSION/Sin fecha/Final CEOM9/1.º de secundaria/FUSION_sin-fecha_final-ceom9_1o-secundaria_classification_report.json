@@ -78,5 +78,19 @@
         "Dificultad relativa a Primer año de secundaria."
       ]
     }
-  ]
+  ],
+  "bank_sha256": "8f5decf887ccc8b841941e64dd01e86e39bdb516310e45214501ab76e4e26529",
+  "format_audit": {
+    "report": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.json",
+    "csv": "03_SCHEMA_AND_REPORTS/format_audit_2026-10-10.csv",
+    "status": "passed",
+    "fields_rendered": 12,
+    "source_ids": [
+      "fusion1_examen-final-ceom9_1o-secundaria_q01",
+      "fusion1_examen-final-ceom9_1o-secundaria_q02",
+      "fusion1_examen-final-ceom9_1o-secundaria_q03",
+      "fusion1_examen-final-ceom9_1o-secundaria_q04"
+    ],
+    "scope": "Formatting and structural recheck; prior mathematical/source reviews retained."
+  }
 }
