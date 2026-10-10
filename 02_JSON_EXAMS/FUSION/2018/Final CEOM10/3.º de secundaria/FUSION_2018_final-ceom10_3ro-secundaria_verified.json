@@ -1,0 +1,146 @@
+{
+  "schema_version": "1.0",
+  "source_format_reference": "Cuantly public practice; open_answer with manual comparison",
+  "exam": {
+    "competition": "FUSION",
+    "source_competition": "CEOM10",
+    "edition": 10,
+    "year": 2018,
+    "phase": "Final CEOM10",
+    "level": "3.º de secundaria",
+    "school_level": "Tercer año de secundaria",
+    "problem_count": 4,
+    "source_file": "FUSION_2018_final-ceom10_multinivel_examen-final-ceom10_original.pdf",
+    "source_pdf_path": "01_RAW_PDFs/FUSION/2018/Final CEOM10/Multinivel/FUSION_2018_final-ceom10_multinivel_examen-final-ceom10_original.pdf",
+    "source_sha256": "ae1e470b3945aa17cb1f7ad9a053dc345bece4196035a854ae38bf45c3c48456",
+    "image_policy": "Exact embedded PDF diagrams in Base64; the composed chip-and-board diagram is a tight PDF rendering. Symbolic equations transcribed as LaTeX. No question screenshots or logos.",
+    "classification_phase": "not_started",
+    "difficulty_phase": "not_started"
+  },
+  "validation_summary": {
+    "verified_problems": 3,
+    "needs_review_or_invalid": 1,
+    "needs_review_problem_numbers": [
+      2
+    ],
+    "notes": "Dates and school levels are printed in the original source. Retained source wording and ambiguity notices; no automatic grading for open answers."
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-final-ceom10_3ro-secundaria_q01",
+      "collection": "FUSION",
+      "subcategory": "2018 / Final CEOM10 / 3.º de secundaria",
+      "problem_number": 1,
+      "source_page": 5,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Carolina llevaba 15 pesos, para gastar, pero se encontró 7 pesos en su pantaloncillo, ya con todo eso,  fue a comprar\na la cafetería de la escuela un gansito, un frutsi, y dos dulces;  un gansito vale $11 , un dulce  $3 y el frutsi $4.\nCarolina al regresar a su salón  llegó con 2 pesos ¿le dieron de mas o de menos el cambio en la cafetería?  ¿Cuánto\ndeberían de haberle dado de cambio a carolina?",
+      "options": [],
+      "correct_answer": "Le dieron $1 de más; correspondía $1 de cambio",
+      "correct_option_label": null,
+      "solution_text": "1. **Dinero disponible.** Carolina tiene \\(15+7=22\\) pesos.\n2. **Compra.** El gansito y el frutsi cuestan \\(11+4=15\\) pesos. Dos dulces cuestan \\(2\\cdot3=6\\). El total es \\(15+6=21\\).\n3. **Cambio correcto.** Debían quedarle \\(22-21=1\\) peso.\n4. **Comparar.** Regresó con 2 pesos, uno más de lo debido.\n5. **Respuesta y comprobación.** Le dieron **$1 de más**; el cambio correcto era **$1**. \\(21+1=22\\) recupera su dinero inicial.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta con solución revisada; comparación manual."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2018/Final CEOM10/Multinivel/FUSION_2018_final-ceom10_multinivel_examen-final-ceom10_original.pdf",
+      "source_pdf_sha256": "ae1e470b3945aa17cb1f7ad9a053dc345bece4196035a854ae38bf45c3c48456"
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom10_3ro-secundaria_q02",
+      "collection": "FUSION",
+      "subcategory": "2018 / Final CEOM10 / 3.º de secundaria",
+      "problem_number": 2,
+      "source_page": 5,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Encuentra el valor de “n” para que se pueda realizar la división \\[x^9-2x^8+3x^7-4x^6+nx^5-6x^4+7x^3-8x^2+9x-10\\] entre \\(x-2\\).",
+      "options": [],
+      "correct_answer": "n = -2 si se exige división exacta; con resto se puede dividir para cualquier n",
+      "correct_option_label": null,
+      "solution_text": "1. **Distinguir condiciones.** Cualquier polinomio se puede dividir entre \\(x-2\\) obteniendo cociente y resto. Por tanto, la redacción literal no determina n.\n2. **Si se pretende una división exacta.** Por el teorema del resto, el resto es \\(P(2)\\). Pedimos \\(P(2)=0\\).\n3. **Sustituir.** \\(P(2)=512-512+384-256+32n-96+56-32+18-10=64+32n\\).\n4. **Resolver.** \\(64+32n=0\\) da \\(n=-2\\).\n5. **Comprobación.** Al sustituir n=-2, el resto es \\(64-64=0\\).\n6. **Límite de la fuente.** **-2 corresponde a división exacta**. Sin esa condición adicional, cualquier n permite efectuar la división con su resto; se conserva la salvedad.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "ambiguous_source",
+        "answer_checked": false,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "La fuente dice que se pueda realizar la división, sin exigir que sea exacta. La división de polinomios con resto siempre existe; n=-2 es el resultado bajo la condición adicional de resto cero."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2018/Final CEOM10/Multinivel/FUSION_2018_final-ceom10_multinivel_examen-final-ceom10_original.pdf",
+      "source_pdf_sha256": "ae1e470b3945aa17cb1f7ad9a053dc345bece4196035a854ae38bf45c3c48456"
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom10_3ro-secundaria_q03",
+      "collection": "FUSION",
+      "subcategory": "2018 / Final CEOM10 / 3.º de secundaria",
+      "problem_number": 3,
+      "source_page": 5,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Sea  ab un número de 2 dígitos, cuantos números cumplen que los números a y b dividen ab.\n(Si a=2 y b=3 entonces deben de dividir al número 23, que no es posible)",
+      "options": [],
+      "correct_answer": "14",
+      "correct_option_label": null,
+      "solution_text": "1. **Cifras válidas.** \\(N=10a+b\\), con \\(1\\le a\\le9\\). La cifra b no puede ser 0 porque no se puede dividir entre cero.\n2. **Primera divisibilidad.** \\(a\\mid N\\) implica \\(a\\mid b\\). Escribimos \\(b=ka\\), con k entero positivo.\n3. **Segunda divisibilidad.** \\(b\\mid N\\) equivale a \\(b\\mid10a\\). Al sustituir b=ka, obtenemos \\(k\\mid10\\).\n4. **Casos.** Como \\(ka=b\\le9\\), k solo puede ser 1, 2 o 5. Para k=1 hay 9 valores de a; para k=2 hay 4; para k=5 hay 1.\n5. **Respuesta.** Hay **\\(9+4+1=14\\)** números.\n6. **Comprobación.** Son 11, 12, 15, 22, 24, 33, 36, 44, 48, 55, 66, 77, 88 y 99. Cada uno es divisible por ambas cifras.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta con solución revisada; comparación manual."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2018/Final CEOM10/Multinivel/FUSION_2018_final-ceom10_multinivel_examen-final-ceom10_original.pdf",
+      "source_pdf_sha256": "ae1e470b3945aa17cb1f7ad9a053dc345bece4196035a854ae38bf45c3c48456"
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom10_3ro-secundaria_q04",
+      "collection": "FUSION",
+      "subcategory": "2018 / Final CEOM10 / 3.º de secundaria",
+      "problem_number": 4,
+      "source_page": 5,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "ABCD es un cuadrado de área igual a 4, alrededor de él hay 4 triángulos equiláteros  iguales, además la figura\ntambién está formada por un rectángulo que su base mide el doble de su altura (DE=2DH)   y por otro triángulo\nequilátero FGH ¿Cuál es el perímetro de dicha figura? Y ¿Cuánto mide el área sombreada?",
+      "options": [],
+      "correct_answer": "Perímetro: 28; área sombreada: \\(2+4\\sqrt3\\)",
+      "correct_option_label": null,
+      "solution_text": "1. **Lados.** El cuadrado tiene lado 2. Los cuatro equiláteros pequeños tienen lado 2; por eso DH=2. El dato DE=2DH da DE=4. El rectángulo DEFH mide 4 por 2 y el equilátero FGH tiene lado FH=4.\n2. **Perímetro.** La estrella inicial tiene perímetro 16. Al añadir el rectángulo y el equilátero final se ocultan los lados compartidos DH y FH. El contorno es \\((16-2)+4+2+4+4=\\mathbf{28}\\).\n3. **Leer el gris.** Llamamos I al cruce de las diagonales DF y EH. La parte sombreada dentro del rectángulo es **IFH**, no todo DFH. También está sombreado el equilátero FGH.\n4. **Área del rectángulo sombreada.** Las diagonales de un rectángulo se bisecan y lo dividen en cuatro triángulos de igual área. Por eso \\([IFH]=(4\\cdot2)/4=2\\).\n5. **Área del equilátero.** \\([FGH]=(\\sqrt3/4)\\cdot4^2=4\\sqrt3\\).\n6. **Respuesta y comprobación.** El perímetro es **28** y el área gris es **\\(2+4\\sqrt3\\)**. La mitad del rectángulo valdría 4, pero el gris ocupa solo la mitad de esa mitad; la figura confirma el término 2. Una cuenta independiente del perímetro es \\(16+12+12-2(2+4)=28\\).",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Cuadrado y cuatro equiláteros unidos a un rectángulo; región I–F–G–H sombreada, con I en el cruce de EH y DF",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "c4364b68d9fe15ee28cdabf0b89a7f2a56804ccca38af8fa0d41038fddacf679",
+          "source": "pdf_embedded_image",
+          "original_filename": "ceom10_final_page5_Image43.png",
+          "width_px": 475,
+          "height_px": 334
+        }
+      ],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta con solución revisada; comparación manual."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2018/Final CEOM10/Multinivel/FUSION_2018_final-ceom10_multinivel_examen-final-ceom10_original.pdf",
+      "source_pdf_sha256": "ae1e470b3945aa17cb1f7ad9a053dc345bece4196035a854ae38bf45c3c48456"
+    }
+  ]
+}

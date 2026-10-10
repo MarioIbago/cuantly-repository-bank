@@ -1,0 +1,157 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2018/Final CEOM10/Multinivel/FUSION_2018_final-ceom10_multinivel_examen-final-ceom10_original.pdf",
+  "source_sha256": "ae1e470b3945aa17cb1f7ad9a053dc345bece4196035a854ae38bf45c3c48456",
+  "metadata_evidence": "26 DE MAYO DE 2018 printed on each original page.",
+  "pages": [
+    6
+  ],
+  "source_review": "All six original PDF problem pages rendered and visually compared. Original numbering and stable recovered IDs retained.",
+  "figure_review": [
+    {
+      "source_id": "fusion1_examen-final-ceom10_olimpicos-preparatoria_q04",
+      "page": 6,
+      "pdf_image_object": "Image57.png",
+      "bbox_top_left_pdf_points": [
+        224.15,
+        493.62,
+        371.07,
+        635.3199999999999
+      ],
+      "sha256": "b1ce4b04eb4497cb000b97c4237153d3715e1a52466854635b02855eaf1f69d2",
+      "method": "Exact embedded bytes; visually compared with original problem figure."
+    }
+  ],
+  "transcription_corrections": [
+    {
+      "source_id": "fusion1_examen-final-ceom10_olimpicos-preparatoria_q03",
+      "kind": "symbolic_transcription",
+      "details": "Restored the original equations in LaTeX; no added conditions or options."
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom10_olimpicos-preparatoria_q04",
+      "kind": "footer_removal",
+      "details": "Removed printed publicity footer and page number; not part of the question."
+    }
+  ],
+  "latex_rendering": {
+    "engine": "KaTeX 0.16.47",
+    "expressions": 31,
+    "errors": []
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-final-ceom10_olimpicos-preparatoria_q01",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "initial": 22,
+        "cost": 21,
+        "correctChange": 1,
+        "receivedChange": 2,
+        "overpayment": 1
+      },
+      "notes": "Respuesta abierta con solución revisada; comparación manual."
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom10_olimpicos-preparatoria_q02",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "count": 14,
+        "numbers": [
+          11,
+          12,
+          15,
+          22,
+          24,
+          33,
+          36,
+          44,
+          48,
+          55,
+          66,
+          77,
+          88,
+          99
+        ]
+      },
+      "notes": "Respuesta abierta con solución revisada; comparación manual."
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom10_olimpicos-preparatoria_q03",
+      "status": "ambiguous_source",
+      "independent_check": {
+        "P2fixed": 64,
+        "nCoefficient": 32,
+        "nForZeroRemainder": -2,
+        "divisionWithRemainderPossibleForAnyN": true
+      },
+      "notes": "La fuente dice que se pueda realizar la división, sin exigir que sea exacta. La división de polinomios con resto siempre existe; n=-2 es el resultado bajo la condición adicional de resto cero."
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom10_olimpicos-preparatoria_q04",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "sideAndRadius": 2,
+        "threeSixtyDegreeSectorArea": "2pi",
+        "equilateralTriangleArea": "sqrt(3)",
+        "commonArea": "2pi-2sqrt(3)"
+      },
+      "notes": "Se usan las incidencias indicadas por la figura: los centros A, B y C pertenecen a las otras circunferencias y BC mide 2 cm. No se deducen longitudes midiendo el dibujo."
+    }
+  ],
+  "structural_validation": [
+    {
+      "path": "02_JSON_EXAMS/FUSION/2018/Final CEOM10/Olímpicos/FUSION_2018_final-ceom10_olimpicos-preparatoria_verified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "0f194a5ec8317b9ea338714015a4c70dd3aa44d09d883cde5af359a32124f2f0",
+        "bytes": 16413,
+        "problems": 4,
+        "verified": 3,
+        "guided": 1,
+        "images": 1,
+        "figures": [
+          {
+            "source_id": "fusion1_examen-final-ceom10_olimpicos-preparatoria_q04",
+            "figure": 1,
+            "sha256": "b1ce4b04eb4497cb000b97c4237153d3715e1a52466854635b02855eaf1f69d2",
+            "width": 345,
+            "height": 333
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2018/Final CEOM10/Olímpicos/FUSION_2018_final-ceom10_olimpicos-preparatoria_classified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "b12dd353564ecf789191f8c2274d88cc1f20bfe5b87e5766f5e61016f2cfa9d3",
+        "bytes": 18509,
+        "problems": 4,
+        "verified": 3,
+        "guided": 1,
+        "images": 1,
+        "figures": [
+          {
+            "source_id": "fusion1_examen-final-ceom10_olimpicos-preparatoria_q04",
+            "figure": 1,
+            "sha256": "b1ce4b04eb4497cb000b97c4237153d3715e1a52466854635b02855eaf1f69d2",
+            "width": 345,
+            "height": 333
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    }
+  ]
+}

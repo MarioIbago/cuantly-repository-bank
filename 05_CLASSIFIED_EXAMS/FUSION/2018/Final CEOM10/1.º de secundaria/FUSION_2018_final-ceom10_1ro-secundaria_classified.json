@@ -1,0 +1,223 @@
+{
+  "schema_version": "1.0",
+  "source_format_reference": "Cuantly public practice; open_answer with manual comparison",
+  "exam": {
+    "competition": "FUSION",
+    "source_competition": "CEOM10",
+    "edition": 10,
+    "year": 2018,
+    "phase": "Final CEOM10",
+    "level": "1.º de secundaria",
+    "school_level": "Primer año de secundaria",
+    "problem_count": 4,
+    "source_file": "FUSION_2018_final-ceom10_multinivel_examen-final-ceom10_original.pdf",
+    "source_pdf_path": "01_RAW_PDFs/FUSION/2018/Final CEOM10/Multinivel/FUSION_2018_final-ceom10_multinivel_examen-final-ceom10_original.pdf",
+    "source_sha256": "ae1e470b3945aa17cb1f7ad9a053dc345bece4196035a854ae38bf45c3c48456",
+    "image_policy": "Exact embedded PDF diagrams in Base64; the composed chip-and-board diagram is a tight PDF rendering. Symbolic equations transcribed as LaTeX. No question screenshots or logos.",
+    "classification_phase": "completed",
+    "difficulty_phase": "completed"
+  },
+  "validation_summary": {
+    "verified_problems": 4,
+    "needs_review_or_invalid": 0,
+    "needs_review_problem_numbers": [],
+    "notes": "Dates and school levels are printed in the original source. Retained source wording and ambiguity notices; no automatic grading for open answers."
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-final-ceom10_1ro-secundaria_q01",
+      "collection": "FUSION",
+      "subcategory": "2018 / Final CEOM10 / 1.º de secundaria",
+      "problem_number": 1,
+      "source_page": 3,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Carolina llevaba 15 pesos, para gastar, pero se encontró 7 pesos en su pantaloncillo, ya con todo eso,  fue a comprar\na la cafetería de la escuela un gansito, un frutsi, y dos dulces;  un gansito vale $11 , un dulce  $3 y el frutsi $4.\nCarolina al regresar a su salón  llegó con 2 pesos ¿le dieron de mas o de menos el cambio en la cafetería?  ¿cuánto\ndeberían de haberle dado de cambio a carolina?",
+      "options": [],
+      "correct_answer": "Le dieron $1 de más; correspondía $1 de cambio",
+      "correct_option_label": null,
+      "solution_text": "1. **Dinero disponible.** Carolina tiene \\(15+7=22\\) pesos.\n2. **Compra.** El gansito y el frutsi cuestan \\(11+4=15\\) pesos. Dos dulces cuestan \\(2\\cdot3=6\\). El total es \\(15+6=21\\).\n3. **Cambio correcto.** Debían quedarle \\(22-21=1\\) peso.\n4. **Comparar.** Regresó con 2 pesos, uno más de lo debido.\n5. **Respuesta y comprobación.** Le dieron **$1 de más**; el cambio correcto era **$1**. \\(21+1=22\\) recupera su dinero inicial.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta con solución revisada; comparación manual."
+      },
+      "classification": {
+        "primary_area": "arithmetic",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "addition",
+          "subtraction",
+          "money"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Comparar dinero disponible, gasto y cambio recibido.",
+          "Dificultad relativa a Primer año de secundaria."
+        ]
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2018/Final CEOM10/Multinivel/FUSION_2018_final-ceom10_multinivel_examen-final-ceom10_original.pdf",
+      "source_pdf_sha256": "ae1e470b3945aa17cb1f7ad9a053dc345bece4196035a854ae38bf45c3c48456"
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom10_1ro-secundaria_q02",
+      "collection": "FUSION",
+      "subcategory": "2018 / Final CEOM10 / 1.º de secundaria",
+      "problem_number": 2,
+      "source_page": 3,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "\\[G+A+G+A=12,\\qquad R+D=18,\\qquad E+N=6.\\] Si \\(A=G\\) y \\(D=R\\), \\[G+A+R+D-E-N=?\\]",
+      "options": [],
+      "correct_answer": "18",
+      "correct_option_label": null,
+      "solution_text": "1. **Primera suma.** \\(G+A+G+A=12\\) implica \\(G+A=6\\).\n2. **Agrupar lo pedido.** \\(G+A+R+D-E-N=(G+A)+(R+D)-(E+N)\\).\n3. **Sustituir.** \\(6+18-6=18\\).\n4. **Respuesta.** El valor es **18**. No hace falta separar E y N.\n5. **Comprobación.** A=G=3 y R=D=9 cumplen los datos. Cualquier par E,N con suma 6 da \\(3+3+9+9-6=18\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta con solución revisada; comparación manual."
+      },
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "equations",
+          "substitution",
+          "addition",
+          "subtraction"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Agrupar sumas conocidas sin determinar cada letra.",
+          "Dificultad relativa a Primer año de secundaria."
+        ]
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2018/Final CEOM10/Multinivel/FUSION_2018_final-ceom10_multinivel_examen-final-ceom10_original.pdf",
+      "source_pdf_sha256": "ae1e470b3945aa17cb1f7ad9a053dc345bece4196035a854ae38bf45c3c48456"
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom10_1ro-secundaria_q03",
+      "collection": "FUSION",
+      "subcategory": "2018 / Final CEOM10 / 1.º de secundaria",
+      "problem_number": 3,
+      "source_page": 3,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Abel inventó fichas de dominó, pero de 3 partes, como se muestra en la figura, si tiene 2 tipos de\ncolores diferentes para pintar las partes, y si siempre debe pintar de algún color cada cuadrito de la\nficha, ¿Cuántas fichas de dominó diferentes puede formar Abel?\nNota: si se gira la ficha y se ve como otra, no cuenta como una nueva ficha",
+      "options": [],
+      "correct_answer": "6 fichas diferentes",
+      "correct_option_label": null,
+      "solution_text": "1. **Representar los colores.** Llamamos 0 y 1 a los dos colores. Como hay tres casillas, si se distinguieran ambos extremos habría \\(2^3=8\\) cadenas.\n2. **Giro permitido.** Girar la ficha invierte la cadena. 001 y 100 son la misma ficha; también 011 y 110.\n3. **Casos fijos.** 000, 010, 101 y 111 se ven iguales al invertirlas. Cada una cuenta una sola vez.\n4. **Respuesta.** Hay **6 fichas**: 000, 001, 010, 011, 101 y 111, entendiendo cada cadena junto con su reversa.\n5. **Comprobación alternativa.** Cuatro cadenas son simétricas y las otras cuatro se agrupan en dos parejas: \\(4+4/2=6\\).",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Ficha de dominó dividida en tres casillas",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "iVBORw0KGgoAAAANSUhEUgAAAQQAAABOCAIAAABJ3v/jAAABDklEQVR4nO3ZQW7CMBRAQRtx/yu7Cx5RJCgtW2dm5Sxt5clfyVxrDWCMm0OABzFAxAARA+Q+Tuac50fYzOfPRW4GiBjg3Zh02PjnwzEKbrzHb21/JvN/87+bASIGiBggYoCIASIGiBggYoCIASIGiBggYoCIASIGiBggYoCIASIGiBggYoCIASIGiBggYoCIASIGiBggYoCIASIGiBggYoCIASIGiBggYoCIASIGiBggYoCIASIGiBggYoCIASIGiBggYoCIASIGiBggYoCIASIGiBggYoCIASIGyFxrPddjznmsYT/nt/2VmwEiBng3Jl3BMQpebeP86XIxwG+MSRAxQMQAEQNEDBAxwHj4AYPMHpELdmLpAAAAAElFTkSuQmCC",
+          "sha256": "81f5dc783863c1f3e37d4395915403aa724085304b9cc6dcf92800ee6e95c836",
+          "source": "pdf_embedded_image",
+          "original_filename": "ceom10_final_page1_Image33.png",
+          "width_px": 260,
+          "height_px": 78
+        }
+      ],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta con solución revisada; comparación manual."
+      },
+      "classification": {
+        "primary_area": "combinatorics",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "counting",
+          "symmetry"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Identificar coloraciones que coinciden al invertir el orden de las tres casillas.",
+          "Dificultad relativa a Primer año de secundaria."
+        ]
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2018/Final CEOM10/Multinivel/FUSION_2018_final-ceom10_multinivel_examen-final-ceom10_original.pdf",
+      "source_pdf_sha256": "ae1e470b3945aa17cb1f7ad9a053dc345bece4196035a854ae38bf45c3c48456"
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom10_1ro-secundaria_q04",
+      "collection": "FUSION",
+      "subcategory": "2018 / Final CEOM10 / 1.º de secundaria",
+      "problem_number": 4,
+      "source_page": 3,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "En el triángulo ABC, el ángulo ABC=90º. Los puntos E y F están sobre AC y cumplen que AE=AB y\nCF=CB. ¿Cuánto mide el ángulo EBF?",
+      "options": [],
+      "correct_answer": "45°",
+      "correct_option_label": null,
+      "solution_text": "1. **Ángulos de ABC.** Sea \\(\\angle BAC=\\alpha\\). Como B es recto, \\(\\angle BCA=90°-\\alpha\\).\n2. **Triángulo ABE.** AE=AB lo hace isósceles. Como E está en AC, su ángulo en A es \\(\\alpha\\), así que \\(\\angle ABE=90°-\\alpha/2\\).\n3. **Triángulo CBF.** CF=CB también lo hace isósceles. Su ángulo en C es \\(90°-\\alpha\\), de modo que \\(\\angle CBF=45°+\\alpha/2\\).\n4. **Ángulo pedido.** Los dos ángulos en B se superponen en EBF dentro del ángulo ABC de 90°. Por tanto, \\(\\angle EBF=\\angle ABE+\\angle CBF-90°=45°\\).\n5. **Comprobación y respuesta.** La incógnita \\(\\alpha\\) se cancela: el resultado es siempre **45°**, independiente de las longitudes del triángulo rectángulo.",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Triángulo ABC rectángulo en B con E y F sobre AC",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "iVBORw0KGgoAAAANSUhEUgAAATEAAADQCAIAAADgaMGsAAAJtUlEQVR4nO3dO1bbWhTGcYvFUEyKrIwARmBoUtHezi6hSZcyHQ0ucZeWigY8AhhBVorguegukC1k+SWb89iP/68J65Jg0PXHPtrnoaIsyx4AMY5yfwMAMmZyOirmRtOkLwyokTST04fJ4sPJA6EEMmdyNv5VR5JQAtkzOXu8f3n7c3h7e/r25+TXeJbsxQE1jpJH8vvVxeV7KF/uHwklkCuTH5Ec9PpXP4dvHxNKIFsmpzfXdSR7vd7gexXK6xs6PUCOTC4arvNI1qGk/QpkyeRKJBuhpNMDJM/kmkh+hJKbSiBxJhfTkqe3PxqR7PUGP6o5EUIJJM3kouF6ennRX/5MfzEnQqcH+FBE3hcyG5+dVC3XbYZP5d1SEQXcOkpTJXeg0wOkyWQ9cL19Ldd6re4puakEkmRysVJg9V5yYbGkh1ACCTK5mAPZHMnmnAidHiByJjtF8iOUrOkB4mayYyQJJZAkk/UG5p2RbIaShXZArPnJUVFMus88fsxiMlMJ72KvGQCwH86SBGQhk4Asx/G+dFEU1QcMjwFZdbIOJwApY9fq8PM0rwWolvR+kmQCEns8FEwgcyarbVnN/0LBBPLXybXJTPbqgBapx64UTEDc/SRDWUDiOp7VhQQZh7Ifz6rdiYfZwvDaOgomkHRt3V4Fs1kkiyLXbhV2iiE/KWvQ6f0AsjLJUBYQl0mBvR8gPXGZpGDCOYmZrLDuBz7JzWSF3g+8kZ7JtEPZyfm25QJn41mE1wTUZbJC7wdO5F8z8MnVBUHP+2HNAPJTUydr9H5gm75MVuj9wCqtmWQaE1YpzmSF3g+MUZ9JCiaMsZDJCr0f2GAnkxV6P9DOWiYZykI7g5ms0PuBUhFP2RDyXK3VlbE85wuSma2TNXo/0MV+Jiv0fqCFl0zS+4EWjjJZofcD4dxlkoIJ4TxmchMOyIMETjO5KX48GBPZaTpnIOrtZczjC4A9OK2Tq+j9QAiPmdy0wIjnfEECj5ncjnU/yMtdJjs2V1n3g1zcZbK2s4XDUBZZ+MrkATOQ9H6QmK9M1vaa56BgIiWnmTwAvR+k4SiTQfZY0/tBbI4yGQpDWUTlJZPBDyKh94NIvGQyBgomYnCRyaibsOj9ICwXmazF2+pB7weh2M9ksp3KDGURhP1M1tLsh6T3g09ylMlkKJj4DOOZzHgWO70fHMZ4JrOj94N9Wc6kkAeWMJTFXixnUhR6P/CeSYGHtVIw4TqTNWlHQtL7gcdMCiySLfR+4CuTYotkE0NZeMykfPR+YD+TQqZAuqNgwngmlaL3A5uZVFckW+j9wFomDWAo65ypTMqfAumO3o9bpjJZUzpwlVkwp6Ois9E08TdnkZ1MWiqSTfR+vDH4nGYbRbKlLMvcT5IePpV3g4Sv55adOmmekKEsYjOSSe1TIN3R+zHPSCZdoWDaZiGTfopkE70fqyxk0jPuMO1Rn0maHAxljVGfyZqrgWuO3s/kfMeCgbPxLOgLemUnk6Bg2qB7zYDP7s521aVoLTAIcX1YM5AIddImej96Kc4kRXI7hrJKKc4kumDdjzpaM8kUSHcUTF20ZrJGd6f7hVq9yYzyvwQOM8mb6WD0fuRTmckaRfKwi0YyJdOdSYTt/WwdgOxcx8NaHq+ZZAokXsHkvkCCICs8ki6yIZMxLmYLNwUZKVtbRyCDX8ktnyWZWSjLJGIXxtwncUFVJpkCCX71VvPWOiAv3BJ2WMxkjbdIjDS2PkXBzEVNJimSoS5ax99o0fZ8wUoma7wtYqex9U8omInpyyTSpLH1b0lmMjoyyRRI90sUaUxB7ycZHZlExjS2viYFMzYFmaRI7rwyKe+36f3EpiCTEJLG1mtRMJ1mkimQLhckSy+aoazTTNacT4GIXSxO78dXJimSogrjJhRMR5mU+RZMRn4am+j9+MqkN7rS2ETvx3ImfU6B6E1jjaGsu7M/rFp7HM7a4zlU4FQRa3XST5E0UBg3oWCayqQHhtPYRO/HQibNT4E4SWMTvR/dmTT8NnWYxhpDWa09HqtF0lgL52D0fhTXSRtvVrFr4jKiYGrNpHaeh6ld0PvRkUkbUyCksTt6P9IzqR1pPABDWbk9HtVFkhbOJ9H7qVEnP4vaGAoFU1Ym1U2BEMVISvdnPUvJZE3+wJU0JlA6Pu9HXCYlI40plV6PrhTR45Hf3aGFk0vp70nS1MkdqI3Zlc4KZv5MyiySrImTpnTT+8mfSWkojJKVDno/mTMp6t6ANKpQWh/KiujxZL+gtHDUKe32fnLWSQkXkdqoV2m0YIq4n8xyEUmjDaW53o+ITKZEFE0qDfV+jv1MgZBG20orQ1kpPZ6oaOH4Uerv/RzbLpLURodK5QXT7P0kaXSuVNv7yZDJqGMJ1sRBe+8nZ50Me2kojLAxlD0yUCRp4cBS7ydbnQzyW4raCHsFU2uPhzTCau/nWN0UCGmE7d6PmjpJFOFkKHskv0jSwoGr3o/oOklthMOCmSiT+/7uIY1w2/tJXSd3/pCkEc57PxF/E+yVLtbEQZRi3UO1DWZy7WtRGCFTkSmWOfdP0lCFZOW7ne/Y3aajou1sPBOQyeaPRxqhOpm9bmbjs7e3+vlk5TMv1ycbk5lhDfraIUH2iVpgiwMK5nRUnFy/VB8Pn8olT8M6mau5PErZziKNcDKUnY3P5tXx9Pa1LO8Gy58e3JXl6+3p24cv1yejaY5Mtr71+vdFmlcHkq77mY3/qyrk6e3r81V//VfqXz3Py+Xk13KtLKMJdhkADdoj06pEbrX2b5JJIIz9I7n+7+6XycVX2GTpVjbQTwrocEAk1wq7tm5yXkzqMTSxhEOzf3+qD7592XAjucthPZ52a3fpF8TL9cm2GVHAste/8/mPg4Xsuw7uPvq7N8vtXQAdBZ4L6V9cvoey9+cflRI4RKz5yZe/r5G+MiDZydeqKsnL5OnXk0hfGZCs/+Vb73NDxcCZnD3eV+sXLi8ObDoBug2+z3ud94+zzltGml3RkJmsF92e3v7etKAIsG7QPZTTh/mi2KUaFnTNwOZ5EsCP12r6Yee6gfXLC8LfT07OmZ2Eb/2r3/Wmj41p+Ng6Mvy5NKwMuWagsfukaG0/AVzp15s+3ncvt+Pwdhu52Fw5fGrt5ApaJ/tXz4tyPDknlXBtUC+heV90umRx8sDboLW9tzL8XMjgx/z7mDxQKuFb/+q5edu4OtRcu7nySOD8DGDK26kCbSvVUca5dQBSZPLze1UAz4Jncnozbyexug44RNA9zdNRo6HEUh4gXSbfzxPYbNtpXQBSPleLNAKflOcJewA2YS4EkIVMArKQSaAnyv/cDj24qtpQmAAAAABJRU5ErkJggg==",
+          "sha256": "292a31d0256551690bd4ab55aed1ed06c446e9a935fd4f0933d22bc9db7ed98f",
+          "source": "pdf_embedded_image",
+          "original_filename": "ceom10_final_page3_Image40.png",
+          "width_px": 305,
+          "height_px": 208
+        }
+      ],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta con solución revisada; comparación manual."
+      },
+      "classification": {
+        "primary_area": "geometry",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "angles",
+          "triangles"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Combinar dos triángulos isósceles con el ángulo recto en B.",
+          "Dificultad relativa a Primer año de secundaria."
+        ]
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2018/Final CEOM10/Multinivel/FUSION_2018_final-ceom10_multinivel_examen-final-ceom10_original.pdf",
+      "source_pdf_sha256": "ae1e470b3945aa17cb1f7ad9a053dc345bece4196035a854ae38bf45c3c48456"
+    }
+  ]
+}

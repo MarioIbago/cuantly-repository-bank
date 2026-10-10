@@ -5,9 +5,9 @@
   "counts": {
     "recovered_occurrences": 881,
     "legacy_statement_groups": 441,
-    "published_occurrences": 54,
+    "published_occurrences": 102,
     "alternate_source_occurrences": 42,
-    "pending_occurrences": 785
+    "pending_occurrences": 737
   },
   "notes": [
     "Agrupaciones heredadas: su normalizador eliminaba signos matemáticos; no equivalen a duplicados certificados.",
@@ -3906,12 +3906,14 @@
       "problem_text": "Carolina llevaba 15 pesos, para gastar, pero se encontró 7 pesos en su pantaloncillo, ya con todo eso,  fue a comprar\na la cafetería de la escuela un gansito, un frutsi, y dos dulces;  un gansito vale $11 , un dulce  $3 y el frutsi $4.\nCarolina al regresar a su salón  llegó con 2 pesos ¿le dieron de mas o de menos el cambio en la cafetería?  ¿cuánto\ndeberían de haberle dado de cambio a carolina?",
       "options": [],
       "legacy_statement_group": 78,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "1 peso de más",
-      "checkpoint_notes_unverified": "gasto21;vuelto debido1"
+      "checkpoint_notes_unverified": "gasto21;vuelto debido1",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2018/Final CEOM10/Kids/FUSION_2018_final-ceom10_kids-3ro_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-final-ceom10_kids-3ro_q02",
@@ -3926,12 +3928,14 @@
       "problem_text": "G + A + G + A =12\nR + D = 18\nE + N = 6\nSI: A = G, D = R\nG + A + R + D – E  – N =?",
       "options": [],
       "legacy_statement_group": 79,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "18",
-      "checkpoint_notes_unverified": "sumar columnas6+18+6=36;dos veces suma"
+      "checkpoint_notes_unverified": "sumar columnas6+18+6=36;dos veces suma",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2018/Final CEOM10/Kids/FUSION_2018_final-ceom10_kids-3ro_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-final-ceom10_kids-3ro_q03",
@@ -3946,12 +3950,14 @@
       "problem_text": "Abel inventó fichas de dominó, pero de 3 partes, como se muestra en la figura, si tiene 2 tipos de\ncolores diferentes para pintar las partes, y si siempre debe pintar de algún color cada cuadrito de la\nficha, ¿Cuántas fichas de dominó diferentes puede formar Abel?\nNota: si se gira la ficha y se ve como otra, no cuenta como una nueva ficha",
       "options": [],
       "legacy_statement_group": 80,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "6",
-      "checkpoint_notes_unverified": "8 patrones,4 palíndromos y2 parejas reversas"
+      "checkpoint_notes_unverified": "8 patrones,4 palíndromos y2 parejas reversas",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2018/Final CEOM10/Kids/FUSION_2018_final-ceom10_kids-3ro_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-final-ceom10_kids-3ro_q04",
@@ -3966,12 +3972,14 @@
       "problem_text": "ABCD es un cuadrado de área igual a 4, alrededor de él hay 4 triángulos equiláteros  iguales, además la figura\ntambién esta formada por un rectángulo que su base mide el doble de su altura (DE=2DH)   y por otro triàngulo\nequilátero FGH ¿Cuál es el perímetro de dicha figura?\nM A S  O L I M P I A D A S ,  I N F O R M A C I O N  Y R E S U L T A D O S\n1\nE N :                               O L I M P I A D A S\nM A T E M A T I C A S  C H I A P A S  C E O M",
       "options": [],
       "legacy_statement_group": 81,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "28",
-      "checkpoint_notes_unverified": "14+4+2+8"
+      "checkpoint_notes_unverified": "14+4+2+8",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2018/Final CEOM10/Kids/FUSION_2018_final-ceom10_kids-3ro_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-final-ceom10_primaria-5to_q01",
@@ -3986,12 +3994,14 @@
       "problem_text": "Carolina llevaba 15 pesos, para gastar, pero se encontró 7 pesos en su pantaloncillo, ya con todo eso,  fue a comprar\na la cafetería de la escuela un gansito, un frutsi, y dos dulces;  un gansito vale $11 , un dulce  $3 y el frutsi $4.\nCarolina al regresar a su salón  llegó con 2 pesos ¿le dieron de mas o de menos el cambio en la cafetería?  ¿cuánto\ndeberían de haberle dado de cambio a carolina?",
       "options": [],
       "legacy_statement_group": 78,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "1 peso de más",
-      "checkpoint_notes_unverified": "gasto21;vuelto debido1"
+      "checkpoint_notes_unverified": "gasto21;vuelto debido1",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2018/Final CEOM10/Primaria/FUSION_2018_final-ceom10_primaria-5to_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-final-ceom10_primaria-5to_q02",
@@ -4006,12 +4016,14 @@
       "problem_text": "G + A + G + A =12\nR + D = 18\nE + N = 6\nSI: A = G, D = R\nG + A + R + D – E  – N =?",
       "options": [],
       "legacy_statement_group": 79,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "18",
-      "checkpoint_notes_unverified": "sumar columnas6+18+6=36;dos veces suma"
+      "checkpoint_notes_unverified": "sumar columnas6+18+6=36;dos veces suma",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2018/Final CEOM10/Primaria/FUSION_2018_final-ceom10_primaria-5to_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-final-ceom10_primaria-5to_q03",
@@ -4026,12 +4038,14 @@
       "problem_text": "Abel inventó fichas de dominó, pero de 3 partes, como se muestra en la figura, si tiene 2 tipos de\ncolores diferentes para pintar las partes, y si siempre debe pintar de algún color cada cuadrito de la\nficha, ¿Cuántas fichas de dominó diferentes puede formar Abel?\nNota: si se gira la ficha y se ve como otra, no cuenta como una nueva ficha",
       "options": [],
       "legacy_statement_group": 80,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "6",
-      "checkpoint_notes_unverified": "8 patrones,4 palíndromos y2 parejas reversas"
+      "checkpoint_notes_unverified": "8 patrones,4 palíndromos y2 parejas reversas",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2018/Final CEOM10/Primaria/FUSION_2018_final-ceom10_primaria-5to_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-final-ceom10_primaria-5to_q04",
@@ -4046,12 +4060,14 @@
       "problem_text": "Sea ABCDE un pentágono regular. ¿Cuánto miden los ángulos que se forman (son 4) al intersectar las\nrectas AD y AC?\nM A S  O L I M P I A D A S ,  I N F O R M A C I O N  Y R E S U L T A D O S\n2\nE N :                               O L I M P I A D A S\nM A T E M A T I C A S  C H I A P A S  C E O M",
       "options": [],
       "legacy_statement_group": 82,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "error_fuente",
-      "checkpoint_notes_unverified": "AD/CE72 y108;AD/AC36 y144"
+      "checkpoint_notes_unverified": "AD/CE72 y108;AD/AC36 y144",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2018/Final CEOM10/Primaria/FUSION_2018_final-ceom10_primaria-5to_classified.json",
+      "reviewed_status": "source_text_diagram_mismatch"
     },
     {
       "source_id": "fusion1_examen-final-ceom10_1ro-secundaria_q01",
@@ -4066,12 +4082,14 @@
       "problem_text": "Carolina llevaba 15 pesos, para gastar, pero se encontró 7 pesos en su pantaloncillo, ya con todo eso,  fue a comprar\na la cafetería de la escuela un gansito, un frutsi, y dos dulces;  un gansito vale $11 , un dulce  $3 y el frutsi $4.\nCarolina al regresar a su salón  llegó con 2 pesos ¿le dieron de mas o de menos el cambio en la cafetería?  ¿cuánto\ndeberían de haberle dado de cambio a carolina?",
       "options": [],
       "legacy_statement_group": 78,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "1 peso de más",
-      "checkpoint_notes_unverified": "gasto21;vuelto debido1"
+      "checkpoint_notes_unverified": "gasto21;vuelto debido1",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2018/Final CEOM10/1.º de secundaria/FUSION_2018_final-ceom10_1ro-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-final-ceom10_1ro-secundaria_q02",
@@ -4086,12 +4104,14 @@
       "problem_text": "G + A + G + A =12\nR + D = 18\nE + N = 6\nSI: A = G, D = R\nG + A + R + D – E  – N =?",
       "options": [],
       "legacy_statement_group": 79,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "18",
-      "checkpoint_notes_unverified": "sumar columnas6+18+6=36;dos veces suma"
+      "checkpoint_notes_unverified": "sumar columnas6+18+6=36;dos veces suma",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2018/Final CEOM10/1.º de secundaria/FUSION_2018_final-ceom10_1ro-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-final-ceom10_1ro-secundaria_q03",
@@ -4106,12 +4126,14 @@
       "problem_text": "Abel inventó fichas de dominó, pero de 3 partes, como se muestra en la figura, si tiene 2 tipos de\ncolores diferentes para pintar las partes, y si siempre debe pintar de algún color cada cuadrito de la\nficha, ¿Cuántas fichas de dominó diferentes puede formar Abel?\nNota: si se gira la ficha y se ve como otra, no cuenta como una nueva ficha",
       "options": [],
       "legacy_statement_group": 80,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "6",
-      "checkpoint_notes_unverified": "8 patrones,4 palíndromos y2 parejas reversas"
+      "checkpoint_notes_unverified": "8 patrones,4 palíndromos y2 parejas reversas",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2018/Final CEOM10/1.º de secundaria/FUSION_2018_final-ceom10_1ro-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-final-ceom10_1ro-secundaria_q04",
@@ -4126,12 +4148,14 @@
       "problem_text": "En el triángulo ABC, el ángulo ABC=90º. Los puntos E y F están sobre AC y cumplen que AE=AB y\nCF=CB. ¿Cuánto mide el ángulo EBF?\nM A S  O L I M P I A D A S ,  I N F O R M A C I O N  Y R E S U L T A D O S\n3\nE N :                               O L I M P I A D A S\nM A T E M A T I C A S  C H I A P A S  C E O M",
       "options": [],
       "legacy_statement_group": 83,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "45 grados",
-      "checkpoint_notes_unverified": "isósceles ABE yBCF;cancela mitadA"
+      "checkpoint_notes_unverified": "isósceles ABE yBCF;cancela mitadA",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2018/Final CEOM10/1.º de secundaria/FUSION_2018_final-ceom10_1ro-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-final-ceom10_2do-secundaria_q01",
@@ -4146,12 +4170,14 @@
       "problem_text": "Carolina llevaba 15 pesos, para gastar, pero se encontró 7 pesos en su pantaloncillo, ya con todo eso,  fue a comprar\na la cafetería de la escuela un gansito, un frutsi, y dos dulces;  un gansito vale $11 , un dulce  $3 y el frutsi $4.\nCarolina al regresar a su salón  llegó con 2 pesos ¿le dieron de mas o de menos el cambio en la cafetería?  ¿cuánto\ndeberían de haberle dado de cambio a carolina?",
       "options": [],
       "legacy_statement_group": 78,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "1 peso de más",
-      "checkpoint_notes_unverified": "gasto21;vuelto debido1"
+      "checkpoint_notes_unverified": "gasto21;vuelto debido1",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2018/Final CEOM10/2.º de secundaria/FUSION_2018_final-ceom10_2do-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-final-ceom10_2do-secundaria_q02",
@@ -4166,12 +4192,14 @@
       "problem_text": "Sea  ab un número de 2 dígitos, cuantos números cumplen que los números a y b dividen ab.\n(Si a=2 y b=3 entonces deben de dividir al número 23, que no es posible)",
       "options": [],
       "legacy_statement_group": 84,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "14",
-      "checkpoint_notes_unverified": "11,12,15,22,24,33,36,44,48,55,66,77,88,99"
+      "checkpoint_notes_unverified": "11,12,15,22,24,33,36,44,48,55,66,77,88,99",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2018/Final CEOM10/2.º de secundaria/FUSION_2018_final-ceom10_2do-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-final-ceom10_2do-secundaria_q03",
@@ -4186,12 +4214,14 @@
       "problem_text": "Abel inventó fichas de dominó, pero de 3 partes, como se muestra en la figura, si tiene 2 tipos de\ncolores diferentes para pintar las partes, y si siempre debe pintar de algún color cada cuadrito de la\nficha, ¿Cuántas fichas de dominó diferentes puede formar Abel?\nNota: si se gira la ficha y se ve como otra, no cuenta como una nueva ficha",
       "options": [],
       "legacy_statement_group": 80,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "6",
-      "checkpoint_notes_unverified": "8 patrones,4 palíndromos y2 parejas reversas"
+      "checkpoint_notes_unverified": "8 patrones,4 palíndromos y2 parejas reversas",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2018/Final CEOM10/2.º de secundaria/FUSION_2018_final-ceom10_2do-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-final-ceom10_2do-secundaria_q04",
@@ -4206,12 +4236,14 @@
       "problem_text": "ABCD es un cuadrado de área igual a 4, alrededor de él hay 4 triángulos equiláteros  iguales, además la figura\ntambién está formada por un rectángulo que su base mide el doble de su altura (DE=2DH)   y por otro triángulo\nequilátero FGH ¿Cuál es el perímetro de dicha figura? Y ¿Cuánto mide el área sombreada?\nM A S  O L I M P I A D A S ,  I N F O R M A C I O N  Y R E S U L T A D O S\n4\nE N :                               O L I M P I A D A S\nM A T E M A T I C A S  C H I A P A S  C E O M",
       "options": [],
       "legacy_statement_group": 85,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "perímetro28;área4+4sqrt3",
-      "checkpoint_notes_unverified": "se deben responder ambas preguntas"
+      "checkpoint_notes_unverified": "se deben responder ambas preguntas",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2018/Final CEOM10/2.º de secundaria/FUSION_2018_final-ceom10_2do-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-final-ceom10_3ro-secundaria_q01",
@@ -4226,12 +4258,14 @@
       "problem_text": "Carolina llevaba 15 pesos, para gastar, pero se encontró 7 pesos en su pantaloncillo, ya con todo eso,  fue a comprar\na la cafetería de la escuela un gansito, un frutsi, y dos dulces;  un gansito vale $11 , un dulce  $3 y el frutsi $4.\nCarolina al regresar a su salón  llegó con 2 pesos ¿le dieron de mas o de menos el cambio en la cafetería?  ¿Cuánto\ndeberían de haberle dado de cambio a carolina?",
       "options": [],
       "legacy_statement_group": 78,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "1 peso de más",
-      "checkpoint_notes_unverified": "gasto21;vuelto debido1"
+      "checkpoint_notes_unverified": "gasto21;vuelto debido1",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2018/Final CEOM10/3.º de secundaria/FUSION_2018_final-ceom10_3ro-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-final-ceom10_3ro-secundaria_q02",
@@ -4246,12 +4280,14 @@
       "problem_text": "Encuentra el valor de “n” para que se pueda realizar la división\nx^{9}-2x^{8}+3x^{7}-4x^{6}+nx^{5}-6x^{4}+7x^{3}-8x^{2}+9x-10 entre x-2",
       "options": [],
       "legacy_statement_group": 86,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "n=-2",
-      "checkpoint_notes_unverified": "P(2)=64+32n"
+      "checkpoint_notes_unverified": "P(2)=64+32n",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2018/Final CEOM10/3.º de secundaria/FUSION_2018_final-ceom10_3ro-secundaria_classified.json",
+      "reviewed_status": "ambiguous_source"
     },
     {
       "source_id": "fusion1_examen-final-ceom10_3ro-secundaria_q03",
@@ -4266,12 +4302,14 @@
       "problem_text": "Sea  ab un número de 2 dígitos, cuantos números cumplen que los números a y b dividen ab.\n(Si a=2 y b=3 entonces deben de dividir al número 23, que no es posible)",
       "options": [],
       "legacy_statement_group": 84,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "14",
-      "checkpoint_notes_unverified": "11,12,15,22,24,33,36,44,48,55,66,77,88,99"
+      "checkpoint_notes_unverified": "11,12,15,22,24,33,36,44,48,55,66,77,88,99",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2018/Final CEOM10/3.º de secundaria/FUSION_2018_final-ceom10_3ro-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-final-ceom10_3ro-secundaria_q04",
@@ -4286,12 +4324,14 @@
       "problem_text": "ABCD es un cuadrado de área igual a 4, alrededor de él hay 4 triángulos equiláteros  iguales, además la figura\ntambién está formada por un rectángulo que su base mide el doble de su altura (DE=2DH)   y por otro triángulo\nequilátero FGH ¿Cuál es el perímetro de dicha figura? Y ¿Cuánto mide el área sombreada?\nM A S  O L I M P I A D A S ,  I N F O R M A C I O N  Y R E S U L T A D O S\n5\nE N :                               O L I M P I A D A S\nM A T E M A T I C A S  C H I A P A S  C E O M",
       "options": [],
       "legacy_statement_group": 87,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "perímetro28;área4+4sqrt3",
-      "checkpoint_notes_unverified": "no dejar sólo perímetro"
+      "checkpoint_notes_unverified": "no dejar sólo perímetro",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2018/Final CEOM10/3.º de secundaria/FUSION_2018_final-ceom10_3ro-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-final-ceom10_olimpicos-preparatoria_q01",
@@ -4306,12 +4346,14 @@
       "problem_text": "Carolina llevaba 15 pesos, para gastar, pero se encontró 7 pesos en su pantaloncillo, ya con todo eso,  fue a comprar\na la cafetería de la escuela un gansito, un frutsi, y dos dulces;  un gansito vale $11 , un dulce  $3 y el frutsi $4.\nCarolina al regresar a su salón  llegó con 2 pesos ¿le dieron de mas o de menos el cambio en la cafetería?  ¿cuánto\ndeberían de haberle dado de cambio a carolina?",
       "options": [],
       "legacy_statement_group": 78,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "1 peso de más",
-      "checkpoint_notes_unverified": "gasto21;vuelto debido1"
+      "checkpoint_notes_unverified": "gasto21;vuelto debido1",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2018/Final CEOM10/Olímpicos/FUSION_2018_final-ceom10_olimpicos-preparatoria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-final-ceom10_olimpicos-preparatoria_q02",
@@ -4326,12 +4368,14 @@
       "problem_text": "Sea  ab un número de 2 dígitos, cuantos números cumplen que los números a y b dividen ab.\n(Si a=2 y b=3 entonces deben de dividir al número 23, que no es posible)",
       "options": [],
       "legacy_statement_group": 84,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "14",
-      "checkpoint_notes_unverified": "11,12,15,22,24,33,36,44,48,55,66,77,88,99"
+      "checkpoint_notes_unverified": "11,12,15,22,24,33,36,44,48,55,66,77,88,99",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2018/Final CEOM10/Olímpicos/FUSION_2018_final-ceom10_olimpicos-preparatoria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-final-ceom10_olimpicos-preparatoria_q03",
@@ -4346,12 +4390,14 @@
       "problem_text": "Encuentra el valor de “n” para que se pueda realizar la división\nx^{9}-2x^{8}+3x^{7}-4x^{6}+nx^{5}-6x^{4}+7x^{3}-8x^{2}+9x-10 entre x-2",
       "options": [],
       "legacy_statement_group": 86,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "n=-2",
-      "checkpoint_notes_unverified": "P(2)=64+32n"
+      "checkpoint_notes_unverified": "P(2)=64+32n",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2018/Final CEOM10/Olímpicos/FUSION_2018_final-ceom10_olimpicos-preparatoria_classified.json",
+      "reviewed_status": "ambiguous_source"
     },
     {
       "source_id": "fusion1_examen-final-ceom10_olimpicos-preparatoria_q04",
@@ -4366,12 +4412,14 @@
       "problem_text": "Sean A, B y C los centros de las circunferencias. Calcula el área sombreada\nM A S  O L I M P I A D A S ,  I N F O R M A C I O N  Y R E S U L T A D O S\n6\nE N :                               O L I M P I A D A S\nM A T E M A T I C A S  C H I A P A S  C E O M",
       "options": [],
       "legacy_statement_group": 88,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "2pi-2sqrt3",
-      "checkpoint_notes_unverified": "triángulo deReuleaux"
+      "checkpoint_notes_unverified": "triángulo deReuleaux",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2018/Final CEOM10/Olímpicos/FUSION_2018_final-ceom10_olimpicos-preparatoria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-final-ceom9_kids-3o-y-4o-primaria_q01",
@@ -4866,12 +4914,14 @@
       "problem_text": "Charlitos se levanto muy temprano, para asistir a la olimpiada de matemáticas, el se despertó faltando 20 minutos\npara que faltaran 30 minutos para las 7:15, ¿a qué hora despertó hoy Charlitos?",
       "options": [],
       "legacy_statement_group": 99,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "6:25",
       "inherited_solution_unverified": "Treinta minutos antes de 7:15 son 6:45. Veinte minutos antes de 6:45 son 6:25.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2018/Eliminatorio CEOM10/Kids/FUSION_2018_eliminatorio-ceom10_kids-3ro_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_kids-3ro_q02",
@@ -4886,12 +4936,14 @@
       "problem_text": "Delfo tiene 16 palitos de igual tamaño y con ellos va a formar un cuadrado pegando los extremos de los palitos, con\nlos que le sobren formará puros triángulos de igual tamaño ¿Cuántos triángulos formara el profe Delfo?",
       "options": [],
       "legacy_statement_group": 100,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "ambiguo",
-      "checkpoint_notes_unverified": "pueden ser4,2,1 triángulos según palitos por lado"
+      "checkpoint_notes_unverified": "pueden ser4,2,1 triángulos según palitos por lado",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2018/Eliminatorio CEOM10/Kids/FUSION_2018_eliminatorio-ceom10_kids-3ro_classified.json",
+      "reviewed_status": "ambiguous_multiple_solutions"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_kids-3ro_q03",
@@ -4906,12 +4958,14 @@
       "problem_text": "C + C = 16\nB-C = 7\nA = 5\nA + B + C =?",
       "options": [],
       "legacy_statement_group": 101,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "28",
       "inherited_solution_unverified": "De 2 C=16 resulta C=8. Entonces B=15 y A=5. La suma 5+15+8=28.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2018/Eliminatorio CEOM10/Kids/FUSION_2018_eliminatorio-ceom10_kids-3ro_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_kids-3ro_q04",
@@ -4926,12 +4980,14 @@
       "problem_text": "La hormiga atómica caminara del punto A  al punto B, si nunca puede regresar o pasar dos veces por el\nmismo punto, ¿De cuantas formas diferentes podrá llegar la hormiga atómica al punto B?",
       "options": [],
       "legacy_statement_group": 102,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "12",
-      "checkpoint_notes_unverified": "incluye caminos no monótonos"
+      "checkpoint_notes_unverified": "incluye caminos no monótonos",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2018/Eliminatorio CEOM10/Kids/FUSION_2018_eliminatorio-ceom10_kids-3ro_classified.json",
+      "reviewed_status": "ambiguous_path_rule"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_primaria-5to_q01",
@@ -4946,12 +5002,14 @@
       "problem_text": "Charlitos se levanto muy temprano, para asistir a la olimpiada de matemáticas, el se despertó faltando 20 minutos\npara que faltaran 30 minutos para las 7:15, ¿a qué hora despertó hoy Charlitos?",
       "options": [],
       "legacy_statement_group": 99,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "6:25",
       "inherited_solution_unverified": "Treinta minutos antes de 7:15 son 6:45. Veinte minutos antes de 6:45 son 6:25.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2018/Eliminatorio CEOM10/Primaria/FUSION_2018_eliminatorio-ceom10_primaria-5to_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_primaria-5to_q02",
@@ -4966,12 +5024,14 @@
       "problem_text": "C + C = 16\nB-C = 7\nA = 5\nA + B + C =?",
       "options": [],
       "legacy_statement_group": 101,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "28",
       "inherited_solution_unverified": "De 2 C=16 resulta C=8. Entonces B=15 y A=5. La suma 5+15+8=28.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2018/Eliminatorio CEOM10/Primaria/FUSION_2018_eliminatorio-ceom10_primaria-5to_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_primaria-5to_q03",
@@ -4986,12 +5046,14 @@
       "problem_text": "La hormiga atómica caminara del punto A  al punto B, si nunca puede regresar o pasar dos veces por el\nmismo punto, ¿De cuantas formas diferentes podrá llegar la hormiga atómica al punto B?",
       "options": [],
       "legacy_statement_group": 102,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "12",
-      "checkpoint_notes_unverified": "incluye caminos no monótonos"
+      "checkpoint_notes_unverified": "incluye caminos no monótonos",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2018/Eliminatorio CEOM10/Primaria/FUSION_2018_eliminatorio-ceom10_primaria-5to_classified.json",
+      "reviewed_status": "ambiguous_path_rule"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_primaria-5to_q04",
@@ -5006,12 +5068,14 @@
       "problem_text": "En la figura AD=BD=CD=AB, ¿Cuál es el valor del ángulo BAC?",
       "options": [],
       "legacy_statement_group": 103,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "90 grados",
-      "checkpoint_notes_unverified": "ABD equilátero;ADC base30"
+      "checkpoint_notes_unverified": "ABD equilátero;ADC base30",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2018/Eliminatorio CEOM10/Primaria/FUSION_2018_eliminatorio-ceom10_primaria-5to_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_1ro-secundaria_q01",
@@ -5026,12 +5090,14 @@
       "problem_text": "Charlitos se levanto muy temprano, para asistir a la olimpiada de matemáticas, el se despertó faltando 20 minutos\npara que faltaran 30 minutos para las 7:15, ¿a qué hora despertó hoy Charlitos?",
       "options": [],
       "legacy_statement_group": 99,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "6:25",
       "inherited_solution_unverified": "Treinta minutos antes de 7:15 son 6:45. Veinte minutos antes de 6:45 son 6:25.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2018/Eliminatorio CEOM10/1.º de secundaria/FUSION_2018_eliminatorio-ceom10_1ro-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_1ro-secundaria_q02",
@@ -5046,12 +5112,14 @@
       "problem_text": "La hormiga atómica caminara del punto A  al punto B, si nunca puede regresar o pasar dos veces por el\nmismo punto, ¿De cuantas formas diferentes podrá llegar la hormiga atómica al punto B?",
       "options": [],
       "legacy_statement_group": 102,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "12",
-      "checkpoint_notes_unverified": "incluye caminos no monótonos"
+      "checkpoint_notes_unverified": "incluye caminos no monótonos",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2018/Eliminatorio CEOM10/1.º de secundaria/FUSION_2018_eliminatorio-ceom10_1ro-secundaria_classified.json",
+      "reviewed_status": "ambiguous_path_rule"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_1ro-secundaria_q03",
@@ -5066,12 +5134,14 @@
       "problem_text": "En la figura AD=BD=CD=AB, ¿Cuál es el valor del ángulo BAC?",
       "options": [],
       "legacy_statement_group": 103,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "90 grados",
-      "checkpoint_notes_unverified": "ABD equilátero;ADC base30"
+      "checkpoint_notes_unverified": "ABD equilátero;ADC base30",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2018/Eliminatorio CEOM10/1.º de secundaria/FUSION_2018_eliminatorio-ceom10_1ro-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_1ro-secundaria_q04",
@@ -5086,12 +5156,14 @@
       "problem_text": "C + C +  C = 12\nO + E = 3\nC + E = 6\nE + O = M\nC + E + O + M =?",
       "options": [],
       "legacy_statement_group": 104,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "10",
       "inherited_solution_unverified": "C=4, E=2 por C+E=6, O=1 por O+E=3 y M=E+O=3. La suma es 4+2+1+3=10.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2018/Eliminatorio CEOM10/1.º de secundaria/FUSION_2018_eliminatorio-ceom10_1ro-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_2do-secundaria_q01",
@@ -5106,12 +5178,14 @@
       "problem_text": "Charlitos se levanto muy temprano, para asistir a la olimpiada de matemáticas, el se despertó faltando 20 minutos\npara que faltaran 30 minutos para las 7:15, ¿a qué hora despertó hoy Charlitos?",
       "options": [],
       "legacy_statement_group": 99,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "6:25",
       "inherited_solution_unverified": "Treinta minutos antes de 7:15 son 6:45. Veinte minutos antes de 6:45 son 6:25.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2018/Eliminatorio CEOM10/2.º de secundaria/FUSION_2018_eliminatorio-ceom10_2do-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_2do-secundaria_q02",
@@ -5126,12 +5200,14 @@
       "problem_text": "En la figura AD=BD=CD=AB, ¿Cuál es el valor del ángulo BAC?",
       "options": [],
       "legacy_statement_group": 103,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "90 grados",
-      "checkpoint_notes_unverified": "ABD equilátero;ADC base30"
+      "checkpoint_notes_unverified": "ABD equilátero;ADC base30",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2018/Eliminatorio CEOM10/2.º de secundaria/FUSION_2018_eliminatorio-ceom10_2do-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_2do-secundaria_q03",
@@ -5146,12 +5222,14 @@
       "problem_text": "C + C +  C = 12\nO + E = 3\nC + E = 6\nE + O = M\nC + E + O + M =?",
       "options": [],
       "legacy_statement_group": 104,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "10",
       "inherited_solution_unverified": "C=4, E=2 por C+E=6, O=1 por O+E=3 y M=E+O=3. La suma es 4+2+1+3=10.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2018/Eliminatorio CEOM10/2.º de secundaria/FUSION_2018_eliminatorio-ceom10_2do-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_2do-secundaria_q04",
@@ -5166,12 +5244,14 @@
       "problem_text": "Calcula el resultado de 1-2-3+4+5-6-7+8+9-10-11+... +2013-2014-2015+2016+2017-2018",
       "options": [],
       "legacy_statement_group": 105,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "-1",
-      "checkpoint_notes_unverified": "bloques cuatro suman0;2017-2018"
+      "checkpoint_notes_unverified": "bloques cuatro suman0;2017-2018",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2018/Eliminatorio CEOM10/2.º de secundaria/FUSION_2018_eliminatorio-ceom10_2do-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_3ro-secundaria_q01",
@@ -5186,12 +5266,14 @@
       "problem_text": "Charlitos se levanto muy temprano, para asistir a la olimpiada de matemáticas, el se despertó faltando 20 minutos\npara que faltaran 30 minutos para las 7:15, ¿a qué hora despertó hoy Charlitos?",
       "options": [],
       "legacy_statement_group": 99,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "6:25",
       "inherited_solution_unverified": "Treinta minutos antes de 7:15 son 6:45. Veinte minutos antes de 6:45 son 6:25.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2018/Eliminatorio CEOM10/3.º de secundaria/FUSION_2018_eliminatorio-ceom10_3ro-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_3ro-secundaria_q02",
@@ -5206,12 +5288,14 @@
       "problem_text": "C + C +  C = 12\nO + E = 3\nC + E = 6\nE + O = M\nC + E + O + M =?",
       "options": [],
       "legacy_statement_group": 104,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "10",
       "inherited_solution_unverified": "C=4, E=2 por C+E=6, O=1 por O+E=3 y M=E+O=3. La suma es 4+2+1+3=10.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2018/Eliminatorio CEOM10/3.º de secundaria/FUSION_2018_eliminatorio-ceom10_3ro-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_3ro-secundaria_q03",
@@ -5226,12 +5310,14 @@
       "problem_text": "Calcula el resultado de 1-2-3+4+5-6-7+8+9-10-11+... +2013-2014-2015+2016+2017-2018",
       "options": [],
       "legacy_statement_group": 105,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "-1",
-      "checkpoint_notes_unverified": "bloques cuatro suman0;2017-2018"
+      "checkpoint_notes_unverified": "bloques cuatro suman0;2017-2018",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2018/Eliminatorio CEOM10/3.º de secundaria/FUSION_2018_eliminatorio-ceom10_3ro-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_3ro-secundaria_q04",
@@ -5246,12 +5332,14 @@
       "problem_text": "Si en cada casilla del tablero solo se puede colocar una ficha. ¿De cuantas maneras se pueden colocar 3 fichas en el\ntablero de manera que no haya  dos fichas en casillas que comparten un lado?",
       "options": [],
       "legacy_statement_group": 106,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "10",
-      "checkpoint_notes_unverified": "C(5,3)"
+      "checkpoint_notes_unverified": "C(5,3)",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2018/Eliminatorio CEOM10/3.º de secundaria/FUSION_2018_eliminatorio-ceom10_3ro-secundaria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_olimpicos-preparatoria_q01",
@@ -5266,12 +5354,14 @@
       "problem_text": "Charlitos se levanto muy temprano, para asistir a la olimpiada de matemáticas, el se despertó faltando 20 minutos\npara que faltaran 30 minutos para las 7:15, ¿a qué hora despertó hoy Charlitos?",
       "options": [],
       "legacy_statement_group": 99,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": "6:25",
       "inherited_solution_unverified": "Treinta minutos antes de 7:15 son 6:45. Veinte minutos antes de 6:45 son 6:25.",
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": null,
-      "checkpoint_notes_unverified": null
+      "checkpoint_notes_unverified": null,
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2018/Eliminatorio CEOM10/Olímpicos/FUSION_2018_eliminatorio-ceom10_olimpicos-preparatoria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_olimpicos-preparatoria_q02",
@@ -5286,12 +5376,14 @@
       "problem_text": "Calcula el resultado de 1-2-3+4+5-6-7+8+9-10-11+... +2013-2014-2015+2016+2017-2018",
       "options": [],
       "legacy_statement_group": 105,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "-1",
-      "checkpoint_notes_unverified": "bloques cuatro suman0;2017-2018"
+      "checkpoint_notes_unverified": "bloques cuatro suman0;2017-2018",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2018/Eliminatorio CEOM10/Olímpicos/FUSION_2018_eliminatorio-ceom10_olimpicos-preparatoria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_olimpicos-preparatoria_q03",
@@ -5306,12 +5398,14 @@
       "problem_text": "Si en cada casilla del tablero solo se puede colocar una ficha. ¿De cuantas maneras se pueden colocar 3 fichas en el\ntablero de manera que no haya  dos fichas en casillas que comparten un lado?",
       "options": [],
       "legacy_statement_group": 106,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "10",
-      "checkpoint_notes_unverified": "C(5,3)"
+      "checkpoint_notes_unverified": "C(5,3)",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2018/Eliminatorio CEOM10/Olímpicos/FUSION_2018_eliminatorio-ceom10_olimpicos-preparatoria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_olimpicos-preparatoria_q04",
@@ -5326,12 +5420,14 @@
       "problem_text": "Sea ABCH un cuadrado, CDH un triángulo equilátero y DEFGH un pentágono regular.  Calcula el ángulo GAH.",
       "options": [],
       "legacy_statement_group": 107,
-      "publication_status": "pending",
+      "publication_status": "published_reviewed_batch",
       "inherited_answer_unverified": null,
       "inherited_solution_unverified": null,
       "inherited_source_solution_unverified": null,
       "checkpoint_calculation_unverified": "39 grados",
-      "checkpoint_notes_unverified": "HG dirección78;AH=HG"
+      "checkpoint_notes_unverified": "HG dirección78;AH=HG",
+      "published_bank_path": "05_CLASSIFIED_EXAMS/FUSION/2018/Eliminatorio CEOM10/Olímpicos/FUSION_2018_eliminatorio-ceom10_olimpicos-preparatoria_classified.json",
+      "reviewed_status": "verified_open_answer"
     },
     {
       "source_id": "fusion2_examen-selectivo-1-de-secundaria-docx_1-de-secundaria_q01",

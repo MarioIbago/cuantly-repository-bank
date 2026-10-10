@@ -1,0 +1,184 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2018/Eliminatorio CEOM10/Multinivel/FUSION_2018_eliminatorio-ceom10_multinivel_examen-eliminatorio-ceom10-docx-corregido_original.pdf",
+  "source_sha256": "4088166913929e7a8662a1006d66523d4dd85b5d2ccf1f74880536b41b8e2a52",
+  "metadata_evidence": "Del 13 al 16 de abril de 2018 printed on each original page.",
+  "pages": [
+    2
+  ],
+  "source_review": "All six original PDF problem pages rendered and visually compared. Original numbering and stable recovered IDs retained.",
+  "figure_review": [
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_primaria-5to_q03",
+      "page": 2,
+      "pdf_image_object": "Image19.png",
+      "bbox_top_left_pdf_points": [
+        236.75,
+        448.25,
+        343.7,
+        536.0999999999999
+      ],
+      "sha256": "a1c64c19a68500350091567ca3ef22a6784eb12f31e3af819d39a06bcb73c2d8",
+      "method": "Exact embedded bytes; visually compared with original problem figure."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_primaria-5to_q04",
+      "page": 2,
+      "pdf_image_object": "Image22.png",
+      "bbox_top_left_pdf_points": [
+        164.68,
+        603.483,
+        432.13,
+        745.6329999999999
+      ],
+      "sha256": "914ffd410f08c8e3993e6193ead16d54cc5470f56dda11dd433f69a6d4662cfc",
+      "method": "Exact embedded bytes; visually compared with original problem figure."
+    }
+  ],
+  "transcription_corrections": [
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_primaria-5to_q02",
+      "kind": "symbolic_transcription",
+      "details": "Restored the original equations in LaTeX; no added conditions or options."
+    }
+  ],
+  "latex_rendering": {
+    "engine": "KaTeX 0.16.47",
+    "expressions": 12,
+    "errors": []
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_primaria-5to_q01",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "minutesAfterMidnight": 385,
+        "time": "6:25"
+      },
+      "notes": "Respuesta abierta con solución revisada; comparación manual."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_primaria-5to_q02",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "C": 8,
+        "B": 15,
+        "A": 5,
+        "sum": 28
+      },
+      "notes": "Respuesta abierta con solución revisada; comparación manual."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_primaria-5to_q03",
+      "status": "ambiguous_path_rule",
+      "independent_check": {
+        "selfAvoidingPaths": 12,
+        "byLength": {
+          "4": 6,
+          "6": 4,
+          "8": 2
+        },
+        "monotonePaths": 6,
+        "paths": [
+          "RRUU",
+          "RRULUR",
+          "RRULLURR",
+          "RURU",
+          "RUUR",
+          "RULURR",
+          "URRU",
+          "URUR",
+          "URDRUU",
+          "UURR",
+          "UURDRU",
+          "UURDDRUU"
+        ]
+      },
+      "notes": "La frase nunca puede regresar no define si se prohíbe cualquier paso hacia la izquierda/abajo o solo volver a un punto visitado. Los dos modelos dan conteos distintos."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_primaria-5to_q04",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "ABD_angles": [
+          60,
+          60,
+          60
+        ],
+        "ADC_angleAtD": 120,
+        "DAC_angle": 30,
+        "BAC": 90
+      },
+      "notes": "Respuesta abierta con solución revisada; comparación manual."
+    }
+  ],
+  "structural_validation": [
+    {
+      "path": "02_JSON_EXAMS/FUSION/2018/Eliminatorio CEOM10/Primaria/FUSION_2018_eliminatorio-ceom10_primaria-5to_verified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "0b37e773752081061c72fb921cb2a072a30d4f0868407621d4ad098550bc254f",
+        "bytes": 18448,
+        "problems": 4,
+        "verified": 3,
+        "guided": 1,
+        "images": 2,
+        "figures": [
+          {
+            "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_primaria-5to_q03",
+            "figure": 1,
+            "sha256": "a1c64c19a68500350091567ca3ef22a6784eb12f31e3af819d39a06bcb73c2d8",
+            "width": 217,
+            "height": 180
+          },
+          {
+            "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_primaria-5to_q04",
+            "figure": 1,
+            "sha256": "914ffd410f08c8e3993e6193ead16d54cc5470f56dda11dd433f69a6d4662cfc",
+            "width": 357,
+            "height": 189
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2018/Eliminatorio CEOM10/Primaria/FUSION_2018_eliminatorio-ceom10_primaria-5to_classified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "a1d105341000b3592fb17390ed690523f0112929cd6748960c0c0fcb966e805c",
+        "bytes": 20514,
+        "problems": 4,
+        "verified": 3,
+        "guided": 1,
+        "images": 2,
+        "figures": [
+          {
+            "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_primaria-5to_q03",
+            "figure": 1,
+            "sha256": "a1c64c19a68500350091567ca3ef22a6784eb12f31e3af819d39a06bcb73c2d8",
+            "width": 217,
+            "height": 180
+          },
+          {
+            "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_primaria-5to_q04",
+            "figure": 1,
+            "sha256": "914ffd410f08c8e3993e6193ead16d54cc5470f56dda11dd433f69a6d4662cfc",
+            "width": 357,
+            "height": 189
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    }
+  ]
+}

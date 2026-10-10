@@ -1,0 +1,80 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2018/Eliminatorio CEOM10/Multinivel/FUSION_2018_eliminatorio-ceom10_multinivel_examen-eliminatorio-ceom10-docx-corregido_original.pdf",
+  "source_sha256": "4088166913929e7a8662a1006d66523d4dd85b5d2ccf1f74880536b41b8e2a52",
+  "school_level": "Preparatoria",
+  "rubric": "Primary solving idea; L1 direct familiar steps, L2 combines ideas, L3 non-routine argument relative to the printed school level. Source ambiguity never changes to a verified answer.",
+  "problems": [
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_olimpicos-preparatoria_q01",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "elapsed_time",
+        "time_conversion",
+        "subtraction"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Resolver dos desplazamientos de tiempo hacia atrás en el orden correcto.",
+        "Dificultad relativa a Preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_olimpicos-preparatoria_q02",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "patterns",
+        "sequences",
+        "addition",
+        "subtraction"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Agrupar en bloques de cuatro términos que se cancelan.",
+        "Dificultad relativa a Preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_olimpicos-preparatoria_q03",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "counting",
+        "integer_solutions"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Transformar tres posiciones no adyacentes en una elección de tres entre cinco.",
+        "Dificultad relativa a Preparatoria."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_olimpicos-preparatoria_q04",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "angles",
+        "polygons",
+        "equilateral_triangles"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Combinar los ángulos en H y reconocer dos lados iguales.",
+        "Dificultad relativa a Preparatoria."
+      ]
+    }
+  ]
+}

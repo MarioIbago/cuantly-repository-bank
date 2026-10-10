@@ -1,0 +1,225 @@
+{
+  "schema_version": "1.0",
+  "source_format_reference": "Cuantly public practice; open_answer with manual comparison",
+  "exam": {
+    "competition": "FUSION",
+    "source_competition": "CEOM10",
+    "edition": 10,
+    "year": 2018,
+    "phase": "Eliminatorio CEOM10",
+    "level": "1.º de secundaria",
+    "school_level": "Primer año de secundaria",
+    "problem_count": 4,
+    "source_file": "FUSION_2018_eliminatorio-ceom10_multinivel_examen-eliminatorio-ceom10-docx-corregido_original.pdf",
+    "source_pdf_path": "01_RAW_PDFs/FUSION/2018/Eliminatorio CEOM10/Multinivel/FUSION_2018_eliminatorio-ceom10_multinivel_examen-eliminatorio-ceom10-docx-corregido_original.pdf",
+    "source_sha256": "4088166913929e7a8662a1006d66523d4dd85b5d2ccf1f74880536b41b8e2a52",
+    "image_policy": "Exact embedded PDF diagrams in Base64; the composed chip-and-board diagram is a tight PDF rendering. Symbolic equations transcribed as LaTeX. No question screenshots or logos.",
+    "classification_phase": "completed",
+    "difficulty_phase": "completed"
+  },
+  "validation_summary": {
+    "verified_problems": 3,
+    "needs_review_or_invalid": 1,
+    "needs_review_problem_numbers": [
+      2
+    ],
+    "notes": "Dates and school levels are printed in the original source. Retained source wording and ambiguity notices; no automatic grading for open answers."
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_1ro-secundaria_q01",
+      "collection": "FUSION",
+      "subcategory": "2018 / Eliminatorio CEOM10 / 1.º de secundaria",
+      "problem_number": 1,
+      "source_page": 3,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Charlitos se levanto muy temprano, para asistir a la olimpiada de matemáticas, el se despertó faltando 20 minutos\npara que faltaran 30 minutos para las 7:15, ¿a qué hora despertó hoy Charlitos?",
+      "options": [],
+      "correct_answer": "6:25",
+      "correct_option_label": null,
+      "solution_text": "1. **Primer instante.** Cuando faltan 30 minutos para las 7:15, son las 6:45.\n2. **Segundo instante.** Charlitos despertó 20 minutos antes de ese instante: a las 6:25.\n3. **Respuesta.** Despertó a las **6:25**.\n4. **Comprobación.** Veinte minutos después de 6:25 son las 6:45; desde ahí faltan exactamente 30 minutos para las 7:15.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta con solución revisada; comparación manual."
+      },
+      "classification": {
+        "primary_area": "arithmetic",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "elapsed_time",
+          "time_conversion",
+          "subtraction"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Resolver dos desplazamientos de tiempo hacia atrás en el orden correcto.",
+          "Dificultad relativa a Primer año de secundaria."
+        ]
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2018/Eliminatorio CEOM10/Multinivel/FUSION_2018_eliminatorio-ceom10_multinivel_examen-eliminatorio-ceom10-docx-corregido_original.pdf",
+      "source_pdf_sha256": "4088166913929e7a8662a1006d66523d4dd85b5d2ccf1f74880536b41b8e2a52"
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_1ro-secundaria_q02",
+      "collection": "FUSION",
+      "subcategory": "2018 / Eliminatorio CEOM10 / 1.º de secundaria",
+      "problem_number": 2,
+      "source_page": 3,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "La hormiga atómica caminara del punto A  al punto B, si nunca puede regresar o pasar dos veces por el\nmismo punto, ¿De cuantas formas diferentes podrá llegar la hormiga atómica al punto B?",
+      "options": [],
+      "correct_answer": "12 sin repetir vértices; 6 si solo se permite avanzar a la derecha y hacia arriba",
+      "correct_option_label": null,
+      "solution_text": "**Hay que precisar qué significa «regresar».**\n1. La figura es una retícula de 2 por 2 cuadrados: nueve vértices, con A en la esquina inferior izquierda y B en la superior derecha.\n2. **Solo avanzar a la derecha o arriba.** Cada recorrido usa dos pasos a la derecha y dos hacia arriba. Elegir las dos posiciones de los pasos a la derecha da \\(\\binom42=\\mathbf6\\).\n3. **Solo prohibir vértices repetidos.** Se pueden permitir pasos hacia la izquierda o abajo siempre que no se visite otra vez un vértice. Una enumeración que ramifica por las aristas disponibles y descarta cada vértice visitado da 6 caminos de cuatro pasos, 4 de seis y 2 de ocho: **12**.\n4. **Ejemplo que distingue las reglas.** Derecha, derecha, arriba, izquierda, arriba, derecha llega a B sin repetir vértices, pero contiene un paso a la izquierda. Se admite en el segundo modelo y se excluye en el primero.\n5. **Límite del original.** La condición de no pasar dos veces por un punto es clara; la de no «regresar» puede ser más restrictiva. Se muestran ambos conteos con su regla y no se fija uno sin aclaración.",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Retícula de dos por dos cuadrados, A abajo a la izquierda y B arriba a la derecha",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "a1c64c19a68500350091567ca3ef22a6784eb12f31e3af819d39a06bcb73c2d8",
+          "source": "pdf_embedded_image",
+          "original_filename": "ceom10_eliminatorio_page1_Image19.png",
+          "width_px": 217,
+          "height_px": 180
+        }
+      ],
+      "option_analysis": [],
+      "verification": {
+        "status": "ambiguous_path_rule",
+        "answer_checked": false,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "La frase nunca puede regresar no define si se prohíbe cualquier paso hacia la izquierda/abajo o solo volver a un punto visitado. Los dos modelos dan conteos distintos."
+      },
+      "classification": {
+        "primary_area": "combinatorics",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "counting",
+          "grid_geometry"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Definir las restricciones de recorrido antes de contar caminos de una retícula.",
+          "Dificultad relativa a Primer año de secundaria."
+        ]
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2018/Eliminatorio CEOM10/Multinivel/FUSION_2018_eliminatorio-ceom10_multinivel_examen-eliminatorio-ceom10-docx-corregido_original.pdf",
+      "source_pdf_sha256": "4088166913929e7a8662a1006d66523d4dd85b5d2ccf1f74880536b41b8e2a52"
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_1ro-secundaria_q03",
+      "collection": "FUSION",
+      "subcategory": "2018 / Eliminatorio CEOM10 / 1.º de secundaria",
+      "problem_number": 3,
+      "source_page": 3,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "En la figura AD=BD=CD=AB, ¿Cuál es el valor del ángulo BAC?",
+      "options": [],
+      "correct_answer": "90°",
+      "correct_option_label": null,
+      "solution_text": "1. **Posición de D.** La figura muestra B, D y C alineados, con D entre B y C. Como BD=CD, D es el punto medio de BC.\n2. **Circunferencia.** AD=BD=CD significa que A, B y C están en una misma circunferencia de centro D. BC pasa por el centro y es un diámetro.\n3. **Ángulo inscrito.** El ángulo BAC abarca ese diámetro. Por el teorema de Tales, mide **90°**.\n4. **Comprobación con isósceles.** AB=AD=BD hace equilátero a ABD, por lo que BAD=60° y ADB=60°. Como BDC es llano, ADC=120°. En ADC, AD=CD, así que DAC=30°. Se recupera \\(BAC=60°+30°=90°\\).",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Triángulo ABC con D entre B y C y segmento AD",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "914ffd410f08c8e3993e6193ead16d54cc5470f56dda11dd433f69a6d4662cfc",
+          "source": "pdf_embedded_image",
+          "original_filename": "ceom10_eliminatorio_page2_Image22.png",
+          "width_px": 357,
+          "height_px": 189
+        }
+      ],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta con solución revisada; comparación manual."
+      },
+      "classification": {
+        "primary_area": "geometry",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "angles",
+          "triangles",
+          "circles"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Reconocer un diámetro a partir de tres distancias iguales al punto D.",
+          "Dificultad relativa a Primer año de secundaria."
+        ]
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2018/Eliminatorio CEOM10/Multinivel/FUSION_2018_eliminatorio-ceom10_multinivel_examen-eliminatorio-ceom10-docx-corregido_original.pdf",
+      "source_pdf_sha256": "4088166913929e7a8662a1006d66523d4dd85b5d2ccf1f74880536b41b8e2a52"
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_1ro-secundaria_q04",
+      "collection": "FUSION",
+      "subcategory": "2018 / Eliminatorio CEOM10 / 1.º de secundaria",
+      "problem_number": 4,
+      "source_page": 3,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "\\[C+C+C=12,\\qquad O+E=3,\\qquad C+E=6,\\qquad E+O=M.\\]\\[C+E+O+M=?\\]",
+      "options": [],
+      "correct_answer": "10",
+      "correct_option_label": null,
+      "solution_text": "1. **C.** \\(3C=12\\), así que \\(C=4\\).\n2. **E.** \\(C+E=6\\) da \\(E=2\\).\n3. **O.** \\(O+E=3\\) da \\(O=1\\).\n4. **M.** \\(M=E+O=2+1=3\\).\n5. **Respuesta y comprobación.** \\(C+E+O+M=4+2+1+3=\\mathbf{10}\\). Los valores producen 12, 3, 6 y 3 en las cuatro igualdades, respectivamente.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta con solución revisada; comparación manual."
+      },
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "equations",
+          "substitution",
+          "addition"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Resolver una cadena de igualdades de letras.",
+          "Dificultad relativa a Primer año de secundaria."
+        ]
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2018/Eliminatorio CEOM10/Multinivel/FUSION_2018_eliminatorio-ceom10_multinivel_examen-eliminatorio-ceom10-docx-corregido_original.pdf",
+      "source_pdf_sha256": "4088166913929e7a8662a1006d66523d4dd85b5d2ccf1f74880536b41b8e2a52"
+    }
+  ]
+}

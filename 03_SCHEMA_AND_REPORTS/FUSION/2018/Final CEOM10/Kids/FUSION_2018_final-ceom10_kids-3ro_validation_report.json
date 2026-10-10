@@ -1,0 +1,183 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2018/Final CEOM10/Multinivel/FUSION_2018_final-ceom10_multinivel_examen-final-ceom10_original.pdf",
+  "source_sha256": "ae1e470b3945aa17cb1f7ad9a053dc345bece4196035a854ae38bf45c3c48456",
+  "metadata_evidence": "26 DE MAYO DE 2018 printed on each original page.",
+  "pages": [
+    1
+  ],
+  "source_review": "All six original PDF problem pages rendered and visually compared. Original numbering and stable recovered IDs retained.",
+  "figure_review": [
+    {
+      "source_id": "fusion1_examen-final-ceom10_kids-3ro_q03",
+      "page": 1,
+      "pdf_image_object": "Image33.png",
+      "bbox_top_left_pdf_points": [
+        230.9,
+        529.8299999999999,
+        365.78999999999996,
+        570.48
+      ],
+      "sha256": "81f5dc783863c1f3e37d4395915403aa724085304b9cc6dcf92800ee6e95c836",
+      "method": "Exact embedded bytes; visually compared with original problem figure."
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom10_kids-3ro_q04",
+      "page": 1,
+      "pdf_image_object": "Image34.png",
+      "bbox_top_left_pdf_points": [
+        218.91,
+        638.132,
+        377.83,
+        751.232
+      ],
+      "sha256": "39baa0ff98093e2bb61a9e2bf4d0319c5478087dcbc2dda017781e98472d3d2a",
+      "method": "Exact embedded bytes; visually compared with original problem figure."
+    }
+  ],
+  "transcription_corrections": [
+    {
+      "source_id": "fusion1_examen-final-ceom10_kids-3ro_q02",
+      "kind": "symbolic_transcription",
+      "details": "Restored the original equations in LaTeX; no added conditions or options."
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom10_kids-3ro_q04",
+      "kind": "footer_removal",
+      "details": "Removed printed publicity footer and page number; not part of the question."
+    }
+  ],
+  "latex_rendering": {
+    "engine": "KaTeX 0.16.47",
+    "expressions": 26,
+    "errors": []
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-final-ceom10_kids-3ro_q01",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "initial": 22,
+        "cost": 21,
+        "correctChange": 1,
+        "receivedChange": 2,
+        "overpayment": 1
+      },
+      "notes": "Respuesta abierta con solución revisada; comparación manual."
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom10_kids-3ro_q02",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "G_plus_A": 6,
+        "R_plus_D": 18,
+        "E_plus_N": 6,
+        "target": 18
+      },
+      "notes": "Respuesta abierta con solución revisada; comparación manual."
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom10_kids-3ro_q03",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "patterns": [
+          "000",
+          "001",
+          "010",
+          "011",
+          "101",
+          "111"
+        ],
+        "classes": 6
+      },
+      "notes": "Respuesta abierta con solución revisada; comparación manual."
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom10_kids-3ro_q04",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "squareSide": 2,
+        "starPerimeter": 16,
+        "sharedStarRectangleSide": 2,
+        "outerEdges": [
+          14,
+          4,
+          2,
+          4,
+          4
+        ],
+        "perimeter": 28
+      },
+      "notes": "Respuesta abierta con solución revisada; comparación manual."
+    }
+  ],
+  "structural_validation": [
+    {
+      "path": "02_JSON_EXAMS/FUSION/2018/Final CEOM10/Kids/FUSION_2018_final-ceom10_kids-3ro_verified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "e3d245268d8a31fd8662228e79aca5bfa7ab17e67c062c073ab4187fb7b6be7a",
+        "bytes": 17093,
+        "problems": 4,
+        "verified": 4,
+        "guided": 0,
+        "images": 2,
+        "figures": [
+          {
+            "source_id": "fusion1_examen-final-ceom10_kids-3ro_q03",
+            "figure": 1,
+            "sha256": "81f5dc783863c1f3e37d4395915403aa724085304b9cc6dcf92800ee6e95c836",
+            "width": 260,
+            "height": 78
+          },
+          {
+            "source_id": "fusion1_examen-final-ceom10_kids-3ro_q04",
+            "figure": 1,
+            "sha256": "39baa0ff98093e2bb61a9e2bf4d0319c5478087dcbc2dda017781e98472d3d2a",
+            "width": 471,
+            "height": 335
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2018/Final CEOM10/Kids/FUSION_2018_final-ceom10_kids-3ro_classified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "1bc95b58d1751c4b90cb0f9aec214bb2ed1f1d2484fa1de67e0c657ba382d31e",
+        "bytes": 19168,
+        "problems": 4,
+        "verified": 4,
+        "guided": 0,
+        "images": 2,
+        "figures": [
+          {
+            "source_id": "fusion1_examen-final-ceom10_kids-3ro_q03",
+            "figure": 1,
+            "sha256": "81f5dc783863c1f3e37d4395915403aa724085304b9cc6dcf92800ee6e95c836",
+            "width": 260,
+            "height": 78
+          },
+          {
+            "source_id": "fusion1_examen-final-ceom10_kids-3ro_q04",
+            "figure": 1,
+            "sha256": "39baa0ff98093e2bb61a9e2bf4d0319c5478087dcbc2dda017781e98472d3d2a",
+            "width": 471,
+            "height": 335
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    }
+  ]
+}

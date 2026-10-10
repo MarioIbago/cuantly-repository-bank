@@ -1,0 +1,146 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2018/Eliminatorio CEOM10/Multinivel/FUSION_2018_eliminatorio-ceom10_multinivel_examen-eliminatorio-ceom10-docx-corregido_original.pdf",
+  "source_sha256": "4088166913929e7a8662a1006d66523d4dd85b5d2ccf1f74880536b41b8e2a52",
+  "metadata_evidence": "Del 13 al 16 de abril de 2018 printed on each original page.",
+  "pages": [
+    4
+  ],
+  "source_review": "All six original PDF problem pages rendered and visually compared. Original numbering and stable recovered IDs retained.",
+  "figure_review": [
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_2do-secundaria_q02",
+      "page": 4,
+      "pdf_image_object": "Image22.png",
+      "bbox_top_left_pdf_points": [
+        164.68,
+        296.65,
+        432.13,
+        438.79999999999995
+      ],
+      "sha256": "914ffd410f08c8e3993e6193ead16d54cc5470f56dda11dd433f69a6d4662cfc",
+      "method": "Exact embedded bytes; visually compared with original problem figure."
+    }
+  ],
+  "transcription_corrections": [
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_2do-secundaria_q03",
+      "kind": "symbolic_transcription",
+      "details": "Restored the original equations in LaTeX; no added conditions or options."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_2do-secundaria_q04",
+      "kind": "symbolic_transcription",
+      "details": "Restored the original equations in LaTeX; no added conditions or options."
+    }
+  ],
+  "latex_rendering": {
+    "engine": "KaTeX 0.16.47",
+    "expressions": 18,
+    "errors": []
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_2do-secundaria_q01",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "minutesAfterMidnight": 385,
+        "time": "6:25"
+      },
+      "notes": "Respuesta abierta con solución revisada; comparación manual."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_2do-secundaria_q02",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "ABD_angles": [
+          60,
+          60,
+          60
+        ],
+        "ADC_angleAtD": 120,
+        "DAC_angle": 30,
+        "BAC": 90
+      },
+      "notes": "Respuesta abierta con solución revisada; comparación manual."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_2do-secundaria_q03",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "C": 4,
+        "E": 2,
+        "O": 1,
+        "M": 3,
+        "sum": 10
+      },
+      "notes": "Respuesta abierta con solución revisada; comparación manual."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_2do-secundaria_q04",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "blockCount": 504,
+        "blockSum": 0,
+        "remainder": -1,
+        "total": -1
+      },
+      "notes": "Respuesta abierta con solución revisada; comparación manual."
+    }
+  ],
+  "structural_validation": [
+    {
+      "path": "02_JSON_EXAMS/FUSION/2018/Eliminatorio CEOM10/2.º de secundaria/FUSION_2018_eliminatorio-ceom10_2do-secundaria_verified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "6917f08d9618636e1175fc4b478142e85933db56af50f329477bb5633548ef20",
+        "bytes": 11826,
+        "problems": 4,
+        "verified": 4,
+        "guided": 0,
+        "images": 1,
+        "figures": [
+          {
+            "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_2do-secundaria_q02",
+            "figure": 1,
+            "sha256": "914ffd410f08c8e3993e6193ead16d54cc5470f56dda11dd433f69a6d4662cfc",
+            "width": 357,
+            "height": 189
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2018/Eliminatorio CEOM10/2.º de secundaria/FUSION_2018_eliminatorio-ceom10_2do-secundaria_classified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "0d76bb3d0b3e549660a427734ef97f9134476485af0135a7ddea3451e493e1bd",
+        "bytes": 13910,
+        "problems": 4,
+        "verified": 4,
+        "guided": 0,
+        "images": 1,
+        "figures": [
+          {
+            "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_2do-secundaria_q02",
+            "figure": 1,
+            "sha256": "914ffd410f08c8e3993e6193ead16d54cc5470f56dda11dd433f69a6d4662cfc",
+            "width": 357,
+            "height": 189
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    }
+  ]
+}

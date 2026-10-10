@@ -1,0 +1,185 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2018/Eliminatorio CEOM10/Multinivel/FUSION_2018_eliminatorio-ceom10_multinivel_examen-eliminatorio-ceom10-docx-corregido_original.pdf",
+  "source_sha256": "4088166913929e7a8662a1006d66523d4dd85b5d2ccf1f74880536b41b8e2a52",
+  "metadata_evidence": "Del 13 al 16 de abril de 2018 printed on each original page.",
+  "pages": [
+    3
+  ],
+  "source_review": "All six original PDF problem pages rendered and visually compared. Original numbering and stable recovered IDs retained.",
+  "figure_review": [
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_1ro-secundaria_q02",
+      "page": 3,
+      "pdf_image_object": "Image19.png",
+      "bbox_top_left_pdf_points": [
+        245.15,
+        330.34,
+        351.6,
+        418.64
+      ],
+      "sha256": "a1c64c19a68500350091567ca3ef22a6784eb12f31e3af819d39a06bcb73c2d8",
+      "method": "Exact embedded bytes; visually compared with original problem figure."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_1ro-secundaria_q03",
+      "page": 3,
+      "pdf_image_object": "Image22.png",
+      "bbox_top_left_pdf_points": [
+        204.67,
+        471.36999999999995,
+        391.97,
+        570.92
+      ],
+      "sha256": "914ffd410f08c8e3993e6193ead16d54cc5470f56dda11dd433f69a6d4662cfc",
+      "method": "Exact embedded bytes; visually compared with original problem figure."
+    }
+  ],
+  "transcription_corrections": [
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_1ro-secundaria_q04",
+      "kind": "symbolic_transcription",
+      "details": "Restored the original equations in LaTeX; no added conditions or options."
+    }
+  ],
+  "latex_rendering": {
+    "engine": "KaTeX 0.16.47",
+    "expressions": 12,
+    "errors": []
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_1ro-secundaria_q01",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "minutesAfterMidnight": 385,
+        "time": "6:25"
+      },
+      "notes": "Respuesta abierta con solución revisada; comparación manual."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_1ro-secundaria_q02",
+      "status": "ambiguous_path_rule",
+      "independent_check": {
+        "selfAvoidingPaths": 12,
+        "byLength": {
+          "4": 6,
+          "6": 4,
+          "8": 2
+        },
+        "monotonePaths": 6,
+        "paths": [
+          "RRUU",
+          "RRULUR",
+          "RRULLURR",
+          "RURU",
+          "RUUR",
+          "RULURR",
+          "URRU",
+          "URUR",
+          "URDRUU",
+          "UURR",
+          "UURDRU",
+          "UURDDRUU"
+        ]
+      },
+      "notes": "La frase nunca puede regresar no define si se prohíbe cualquier paso hacia la izquierda/abajo o solo volver a un punto visitado. Los dos modelos dan conteos distintos."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_1ro-secundaria_q03",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "ABD_angles": [
+          60,
+          60,
+          60
+        ],
+        "ADC_angleAtD": 120,
+        "DAC_angle": 30,
+        "BAC": 90
+      },
+      "notes": "Respuesta abierta con solución revisada; comparación manual."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_1ro-secundaria_q04",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "C": 4,
+        "E": 2,
+        "O": 1,
+        "M": 3,
+        "sum": 10
+      },
+      "notes": "Respuesta abierta con solución revisada; comparación manual."
+    }
+  ],
+  "structural_validation": [
+    {
+      "path": "02_JSON_EXAMS/FUSION/2018/Eliminatorio CEOM10/1.º de secundaria/FUSION_2018_eliminatorio-ceom10_1ro-secundaria_verified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "013da7888d484e84f3b785709ff15c4d4fe7cd6a57152c675e0b1aa7e5276f38",
+        "bytes": 18564,
+        "problems": 4,
+        "verified": 3,
+        "guided": 1,
+        "images": 2,
+        "figures": [
+          {
+            "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_1ro-secundaria_q02",
+            "figure": 1,
+            "sha256": "a1c64c19a68500350091567ca3ef22a6784eb12f31e3af819d39a06bcb73c2d8",
+            "width": 217,
+            "height": 180
+          },
+          {
+            "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_1ro-secundaria_q03",
+            "figure": 1,
+            "sha256": "914ffd410f08c8e3993e6193ead16d54cc5470f56dda11dd433f69a6d4662cfc",
+            "width": 357,
+            "height": 189
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2018/Eliminatorio CEOM10/1.º de secundaria/FUSION_2018_eliminatorio-ceom10_1ro-secundaria_classified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "cb067e911e274498b7b0a6e5ac09bcf5409edd647d63a8741d9fdf80f285dd1a",
+        "bytes": 20629,
+        "problems": 4,
+        "verified": 3,
+        "guided": 1,
+        "images": 2,
+        "figures": [
+          {
+            "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_1ro-secundaria_q02",
+            "figure": 1,
+            "sha256": "a1c64c19a68500350091567ca3ef22a6784eb12f31e3af819d39a06bcb73c2d8",
+            "width": 217,
+            "height": 180
+          },
+          {
+            "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_1ro-secundaria_q03",
+            "figure": 1,
+            "sha256": "914ffd410f08c8e3993e6193ead16d54cc5470f56dda11dd433f69a6d4662cfc",
+            "width": 357,
+            "height": 189
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    }
+  ]
+}

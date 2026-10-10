@@ -1,0 +1,166 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2018/Eliminatorio CEOM10/Multinivel/FUSION_2018_eliminatorio-ceom10_multinivel_examen-eliminatorio-ceom10-docx-corregido_original.pdf",
+  "source_sha256": "4088166913929e7a8662a1006d66523d4dd85b5d2ccf1f74880536b41b8e2a52",
+  "metadata_evidence": "Del 13 al 16 de abril de 2018 printed on each original page.",
+  "pages": [
+    1
+  ],
+  "source_review": "All six original PDF problem pages rendered and visually compared. Original numbering and stable recovered IDs retained.",
+  "figure_review": [
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_kids-3ro_q04",
+      "page": 1,
+      "pdf_image_object": "Image19.png",
+      "bbox_top_left_pdf_points": [
+        245.15,
+        588.64,
+        351.6,
+        676.9399999999999
+      ],
+      "sha256": "a1c64c19a68500350091567ca3ef22a6784eb12f31e3af819d39a06bcb73c2d8",
+      "method": "Exact embedded bytes; visually compared with original problem figure."
+    }
+  ],
+  "transcription_corrections": [
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_kids-3ro_q03",
+      "kind": "symbolic_transcription",
+      "details": "Restored the original equations in LaTeX; no added conditions or options."
+    }
+  ],
+  "latex_rendering": {
+    "engine": "KaTeX 0.16.47",
+    "expressions": 12,
+    "errors": []
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_kids-3ro_q01",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "minutesAfterMidnight": 385,
+        "time": "6:25"
+      },
+      "notes": "Respuesta abierta con solución revisada; comparación manual."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_kids-3ro_q02",
+      "status": "ambiguous_multiple_solutions",
+      "independent_check": {
+        "constructions": [
+          {
+            "squareSticks": 4,
+            "triangles": 4,
+            "sticksPerTriangle": 3
+          },
+          {
+            "squareSticks": 4,
+            "triangles": 2,
+            "sticksPerTriangle": 6
+          },
+          {
+            "squareSticks": 4,
+            "triangles": 1,
+            "sticksPerTriangle": 12
+          }
+        ]
+      },
+      "notes": "No se fija cuántos palitos debe tener cada lado de los triángulos. Tres construcciones usan los 16 palitos y cumplen el texto."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_kids-3ro_q03",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "C": 8,
+        "B": 15,
+        "A": 5,
+        "sum": 28
+      },
+      "notes": "Respuesta abierta con solución revisada; comparación manual."
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_kids-3ro_q04",
+      "status": "ambiguous_path_rule",
+      "independent_check": {
+        "selfAvoidingPaths": 12,
+        "byLength": {
+          "4": 6,
+          "6": 4,
+          "8": 2
+        },
+        "monotonePaths": 6,
+        "paths": [
+          "RRUU",
+          "RRULUR",
+          "RRULLURR",
+          "RURU",
+          "RUUR",
+          "RULURR",
+          "URRU",
+          "URUR",
+          "URDRUU",
+          "UURR",
+          "UURDRU",
+          "UURDDRUU"
+        ]
+      },
+      "notes": "La frase nunca puede regresar no define si se prohíbe cualquier paso hacia la izquierda/abajo o solo volver a un punto visitado. Los dos modelos dan conteos distintos."
+    }
+  ],
+  "structural_validation": [
+    {
+      "path": "02_JSON_EXAMS/FUSION/2018/Eliminatorio CEOM10/Kids/FUSION_2018_eliminatorio-ceom10_kids-3ro_verified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "e4c4e24323fa6fd5e6c62afbbd38e55f4e2dd717e6468b37ff2c8b59623fc9e9",
+        "bytes": 14896,
+        "problems": 4,
+        "verified": 2,
+        "guided": 2,
+        "images": 1,
+        "figures": [
+          {
+            "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_kids-3ro_q04",
+            "figure": 1,
+            "sha256": "a1c64c19a68500350091567ca3ef22a6784eb12f31e3af819d39a06bcb73c2d8",
+            "width": 217,
+            "height": 180
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2018/Eliminatorio CEOM10/Kids/FUSION_2018_eliminatorio-ceom10_kids-3ro_classified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "d348a5ba203faba497c2c5820686dfa8650a23bdf0cd218eef94171bc192293f",
+        "bytes": 17001,
+        "problems": 4,
+        "verified": 2,
+        "guided": 2,
+        "images": 1,
+        "figures": [
+          {
+            "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_kids-3ro_q04",
+            "figure": 1,
+            "sha256": "a1c64c19a68500350091567ca3ef22a6784eb12f31e3af819d39a06bcb73c2d8",
+            "width": 217,
+            "height": 180
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    }
+  ]
+}

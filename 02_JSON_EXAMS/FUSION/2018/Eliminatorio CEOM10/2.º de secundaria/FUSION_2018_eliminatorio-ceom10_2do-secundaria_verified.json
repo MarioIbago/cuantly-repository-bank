@@ -1,0 +1,144 @@
+{
+  "schema_version": "1.0",
+  "source_format_reference": "Cuantly public practice; open_answer with manual comparison",
+  "exam": {
+    "competition": "FUSION",
+    "source_competition": "CEOM10",
+    "edition": 10,
+    "year": 2018,
+    "phase": "Eliminatorio CEOM10",
+    "level": "2.º de secundaria",
+    "school_level": "Segundo año de secundaria",
+    "problem_count": 4,
+    "source_file": "FUSION_2018_eliminatorio-ceom10_multinivel_examen-eliminatorio-ceom10-docx-corregido_original.pdf",
+    "source_pdf_path": "01_RAW_PDFs/FUSION/2018/Eliminatorio CEOM10/Multinivel/FUSION_2018_eliminatorio-ceom10_multinivel_examen-eliminatorio-ceom10-docx-corregido_original.pdf",
+    "source_sha256": "4088166913929e7a8662a1006d66523d4dd85b5d2ccf1f74880536b41b8e2a52",
+    "image_policy": "Exact embedded PDF diagrams in Base64; the composed chip-and-board diagram is a tight PDF rendering. Symbolic equations transcribed as LaTeX. No question screenshots or logos.",
+    "classification_phase": "not_started",
+    "difficulty_phase": "not_started"
+  },
+  "validation_summary": {
+    "verified_problems": 4,
+    "needs_review_or_invalid": 0,
+    "needs_review_problem_numbers": [],
+    "notes": "Dates and school levels are printed in the original source. Retained source wording and ambiguity notices; no automatic grading for open answers."
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_2do-secundaria_q01",
+      "collection": "FUSION",
+      "subcategory": "2018 / Eliminatorio CEOM10 / 2.º de secundaria",
+      "problem_number": 1,
+      "source_page": 4,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Charlitos se levanto muy temprano, para asistir a la olimpiada de matemáticas, el se despertó faltando 20 minutos\npara que faltaran 30 minutos para las 7:15, ¿a qué hora despertó hoy Charlitos?",
+      "options": [],
+      "correct_answer": "6:25",
+      "correct_option_label": null,
+      "solution_text": "1. **Primer instante.** Cuando faltan 30 minutos para las 7:15, son las 6:45.\n2. **Segundo instante.** Charlitos despertó 20 minutos antes de ese instante: a las 6:25.\n3. **Respuesta.** Despertó a las **6:25**.\n4. **Comprobación.** Veinte minutos después de 6:25 son las 6:45; desde ahí faltan exactamente 30 minutos para las 7:15.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta con solución revisada; comparación manual."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2018/Eliminatorio CEOM10/Multinivel/FUSION_2018_eliminatorio-ceom10_multinivel_examen-eliminatorio-ceom10-docx-corregido_original.pdf",
+      "source_pdf_sha256": "4088166913929e7a8662a1006d66523d4dd85b5d2ccf1f74880536b41b8e2a52"
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_2do-secundaria_q02",
+      "collection": "FUSION",
+      "subcategory": "2018 / Eliminatorio CEOM10 / 2.º de secundaria",
+      "problem_number": 2,
+      "source_page": 4,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "En la figura AD=BD=CD=AB, ¿Cuál es el valor del ángulo BAC?",
+      "options": [],
+      "correct_answer": "90°",
+      "correct_option_label": null,
+      "solution_text": "1. **Posición de D.** La figura muestra B, D y C alineados, con D entre B y C. Como BD=CD, D es el punto medio de BC.\n2. **Circunferencia.** AD=BD=CD significa que A, B y C están en una misma circunferencia de centro D. BC pasa por el centro y es un diámetro.\n3. **Ángulo inscrito.** El ángulo BAC abarca ese diámetro. Por el teorema de Tales, mide **90°**.\n4. **Comprobación con isósceles.** AB=AD=BD hace equilátero a ABD, por lo que BAD=60° y ADB=60°. Como BDC es llano, ADC=120°. En ADC, AD=CD, así que DAC=30°. Se recupera \\(BAC=60°+30°=90°\\).",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Triángulo ABC con D entre B y C y segmento AD",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "914ffd410f08c8e3993e6193ead16d54cc5470f56dda11dd433f69a6d4662cfc",
+          "source": "pdf_embedded_image",
+          "original_filename": "ceom10_eliminatorio_page2_Image22.png",
+          "width_px": 357,
+          "height_px": 189
+        }
+      ],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta con solución revisada; comparación manual."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2018/Eliminatorio CEOM10/Multinivel/FUSION_2018_eliminatorio-ceom10_multinivel_examen-eliminatorio-ceom10-docx-corregido_original.pdf",
+      "source_pdf_sha256": "4088166913929e7a8662a1006d66523d4dd85b5d2ccf1f74880536b41b8e2a52"
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_2do-secundaria_q03",
+      "collection": "FUSION",
+      "subcategory": "2018 / Eliminatorio CEOM10 / 2.º de secundaria",
+      "problem_number": 3,
+      "source_page": 4,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "\\[C+C+C=12,\\qquad O+E=3,\\qquad C+E=6,\\qquad E+O=M.\\]\\[C+E+O+M=?\\]",
+      "options": [],
+      "correct_answer": "10",
+      "correct_option_label": null,
+      "solution_text": "1. **C.** \\(3C=12\\), así que \\(C=4\\).\n2. **E.** \\(C+E=6\\) da \\(E=2\\).\n3. **O.** \\(O+E=3\\) da \\(O=1\\).\n4. **M.** \\(M=E+O=2+1=3\\).\n5. **Respuesta y comprobación.** \\(C+E+O+M=4+2+1+3=\\mathbf{10}\\). Los valores producen 12, 3, 6 y 3 en las cuatro igualdades, respectivamente.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta con solución revisada; comparación manual."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2018/Eliminatorio CEOM10/Multinivel/FUSION_2018_eliminatorio-ceom10_multinivel_examen-eliminatorio-ceom10-docx-corregido_original.pdf",
+      "source_pdf_sha256": "4088166913929e7a8662a1006d66523d4dd85b5d2ccf1f74880536b41b8e2a52"
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_2do-secundaria_q04",
+      "collection": "FUSION",
+      "subcategory": "2018 / Eliminatorio CEOM10 / 2.º de secundaria",
+      "problem_number": 4,
+      "source_page": 4,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Calcula el resultado de \\[1-2-3+4+5-6-7+8+9-10-11+\\cdots+2013-2014-2015+2016+2017-2018.\\]",
+      "options": [],
+      "correct_answer": "-1",
+      "correct_option_label": null,
+      "solution_text": "1. **Patrón.** Agrupamos cuatro términos consecutivos: \\((1-2-3+4)+(5-6-7+8)+\\cdots\\).\n2. **Cada bloque.** Para cualquier entero \\(k\\ge0\\), \\((4k+1)-(4k+2)-(4k+3)+(4k+4)=0\\).\n3. **Bloques completos.** Hasta 2016 hay \\(2016/4=504\\) bloques; su suma es cero.\n4. **Resto.** Solo quedan \\(2017-2018=-1\\).\n5. **Respuesta y comprobación.** El resultado es **-1**. Los últimos bloques completos también se cancelan, por ejemplo \\(2013-2014-2015+2016=0\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta con solución revisada; comparación manual."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2018/Eliminatorio CEOM10/Multinivel/FUSION_2018_eliminatorio-ceom10_multinivel_examen-eliminatorio-ceom10-docx-corregido_original.pdf",
+      "source_pdf_sha256": "4088166913929e7a8662a1006d66523d4dd85b5d2ccf1f74880536b41b8e2a52"
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2018/Final CEOM10/Multinivel/FUSION_2018_final-ceom10_multinivel_examen-final-ceom10_original.pdf",
+  "source_sha256": "ae1e470b3945aa17cb1f7ad9a053dc345bece4196035a854ae38bf45c3c48456",
+  "metadata_evidence": "26 DE MAYO DE 2018 printed on each original page.",
+  "pages": [
+    2
+  ],
+  "source_review": "All six original PDF problem pages rendered and visually compared. Original numbering and stable recovered IDs retained.",
+  "figure_review": [
+    {
+      "source_id": "fusion1_examen-final-ceom10_primaria-5to_q03",
+      "page": 2,
+      "pdf_image_object": "Image33.png",
+      "bbox_top_left_pdf_points": [
+        230.9,
+        497.53999999999996,
+        365.78999999999996,
+        538.1899999999999
+      ],
+      "sha256": "81f5dc783863c1f3e37d4395915403aa724085304b9cc6dcf92800ee6e95c836",
+      "method": "Exact embedded bytes; visually compared with original problem figure."
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom10_primaria-5to_q04",
+      "page": 2,
+      "pdf_image_object": "Image37.png",
+      "bbox_top_left_pdf_points": [
+        221.9,
+        609.435,
+        374.3,
+        751.5849999999999
+      ],
+      "sha256": "faba2977685f41a9227f04bceef336fc9ee4ce0e2773fe1925fe55ebfc39aaa9",
+      "method": "Exact embedded bytes; visually compared with original problem figure."
+    }
+  ],
+  "transcription_corrections": [
+    {
+      "source_id": "fusion1_examen-final-ceom10_primaria-5to_q02",
+      "kind": "symbolic_transcription",
+      "details": "Restored the original equations in LaTeX; no added conditions or options."
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom10_primaria-5to_q04",
+      "kind": "footer_removal",
+      "details": "Removed printed publicity footer and page number; not part of the question."
+    }
+  ],
+  "latex_rendering": {
+    "engine": "KaTeX 0.16.47",
+    "expressions": 20,
+    "errors": []
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-final-ceom10_primaria-5to_q01",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "initial": 22,
+        "cost": 21,
+        "correctChange": 1,
+        "receivedChange": 2,
+        "overpayment": 1
+      },
+      "notes": "Respuesta abierta con solución revisada; comparación manual."
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom10_primaria-5to_q02",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "G_plus_A": 6,
+        "R_plus_D": 18,
+        "E_plus_N": 6,
+        "target": 18
+      },
+      "notes": "Respuesta abierta con solución revisada; comparación manual."
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom10_primaria-5to_q03",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "patterns": [
+          "000",
+          "001",
+          "010",
+          "011",
+          "101",
+          "111"
+        ],
+        "classes": 6
+      },
+      "notes": "Respuesta abierta con solución revisada; comparación manual."
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom10_primaria-5to_q04",
+      "status": "source_text_diagram_mismatch",
+      "independent_check": {
+        "namedLinesAngle": 36,
+        "drawnLinesAcuteAngle": 72
+      },
+      "notes": "El texto pide las rectas AD y AC, pero la figura dibuja AD y CE. Las dos preguntas dan ángulos distintos."
+    }
+  ],
+  "structural_validation": [
+    {
+      "path": "02_JSON_EXAMS/FUSION/2018/Final CEOM10/Primaria/FUSION_2018_final-ceom10_primaria-5to_verified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "3f585b34b7b5f2092c8bfba132a634255ddfb240d4bfb4e3a2275d2b85c13fa5",
+        "bytes": 13157,
+        "problems": 4,
+        "verified": 3,
+        "guided": 1,
+        "images": 2,
+        "figures": [
+          {
+            "source_id": "fusion1_examen-final-ceom10_primaria-5to_q03",
+            "figure": 1,
+            "sha256": "81f5dc783863c1f3e37d4395915403aa724085304b9cc6dcf92800ee6e95c836",
+            "width": 260,
+            "height": 78
+          },
+          {
+            "source_id": "fusion1_examen-final-ceom10_primaria-5to_q04",
+            "figure": 1,
+            "sha256": "faba2977685f41a9227f04bceef336fc9ee4ce0e2773fe1925fe55ebfc39aaa9",
+            "width": 203,
+            "height": 189
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2018/Final CEOM10/Primaria/FUSION_2018_final-ceom10_primaria-5to_classified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "7d0dc563b45a4b4663765db27fbce424e26bac578477f18df26bd76bd71f5b41",
+        "bytes": 15220,
+        "problems": 4,
+        "verified": 3,
+        "guided": 1,
+        "images": 2,
+        "figures": [
+          {
+            "source_id": "fusion1_examen-final-ceom10_primaria-5to_q03",
+            "figure": 1,
+            "sha256": "81f5dc783863c1f3e37d4395915403aa724085304b9cc6dcf92800ee6e95c836",
+            "width": 260,
+            "height": 78
+          },
+          {
+            "source_id": "fusion1_examen-final-ceom10_primaria-5to_q04",
+            "figure": 1,
+            "sha256": "faba2977685f41a9227f04bceef336fc9ee4ce0e2773fe1925fe55ebfc39aaa9",
+            "width": 203,
+            "height": 189
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    }
+  ]
+}

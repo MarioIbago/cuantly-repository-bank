@@ -1,0 +1,195 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2018/Final CEOM10/Multinivel/FUSION_2018_final-ceom10_multinivel_examen-final-ceom10_original.pdf",
+  "source_sha256": "ae1e470b3945aa17cb1f7ad9a053dc345bece4196035a854ae38bf45c3c48456",
+  "metadata_evidence": "26 DE MAYO DE 2018 printed on each original page.",
+  "pages": [
+    4
+  ],
+  "source_review": "All six original PDF problem pages rendered and visually compared. Original numbering and stable recovered IDs retained.",
+  "figure_review": [
+    {
+      "source_id": "fusion1_examen-final-ceom10_2do-secundaria_q03",
+      "page": 4,
+      "pdf_image_object": "Image33.png",
+      "bbox_top_left_pdf_points": [
+        230.9,
+        479.28999999999996,
+        365.78999999999996,
+        519.9399999999999
+      ],
+      "sha256": "81f5dc783863c1f3e37d4395915403aa724085304b9cc6dcf92800ee6e95c836",
+      "method": "Exact embedded bytes; visually compared with original problem figure."
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom10_2do-secundaria_q04",
+      "page": 4,
+      "pdf_image_object": "Image43.png",
+      "bbox_top_left_pdf_points": [
+        190.35,
+        611.441,
+        379.34000000000003,
+        743.891
+      ],
+      "sha256": "c4364b68d9fe15ee28cdabf0b89a7f2a56804ccca38af8fa0d41038fddacf679",
+      "method": "Exact embedded bytes; visually compared with original problem figure."
+    }
+  ],
+  "transcription_corrections": [
+    {
+      "source_id": "fusion1_examen-final-ceom10_2do-secundaria_q04",
+      "kind": "footer_removal",
+      "details": "Removed printed publicity footer and page number; not part of the question."
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom10_2do-secundaria_q04",
+      "kind": "mathematical_recovery_correction",
+      "details": "The gray triangle in the rectangle is IFH, one quarter of the rectangle; corrected the recovered 4+4sqrt(3) to 2+4sqrt(3). Verified against a magnified original figure."
+    }
+  ],
+  "latex_rendering": {
+    "engine": "KaTeX 0.16.47",
+    "expressions": 24,
+    "errors": []
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-final-ceom10_2do-secundaria_q01",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "initial": 22,
+        "cost": 21,
+        "correctChange": 1,
+        "receivedChange": 2,
+        "overpayment": 1
+      },
+      "notes": "Respuesta abierta con solución revisada; comparación manual."
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom10_2do-secundaria_q02",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "count": 14,
+        "numbers": [
+          11,
+          12,
+          15,
+          22,
+          24,
+          33,
+          36,
+          44,
+          48,
+          55,
+          66,
+          77,
+          88,
+          99
+        ]
+      },
+      "notes": "Respuesta abierta con solución revisada; comparación manual."
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom10_2do-secundaria_q03",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "patterns": [
+          "000",
+          "001",
+          "010",
+          "011",
+          "101",
+          "111"
+        ],
+        "classes": 6
+      },
+      "notes": "Respuesta abierta con solución revisada; comparación manual."
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom10_2do-secundaria_q04",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "rectangleSideLengths": [
+          2,
+          4
+        ],
+        "rectangleArea": 8,
+        "shadedRectangleFraction": 0.25,
+        "shadedRectangleArea": 2,
+        "equilateralSide": 4,
+        "equilateralAreaCoefficientOfSqrt3": 4,
+        "total": "2+4sqrt(3)"
+      },
+      "notes": "Respuesta abierta con solución revisada; comparación manual."
+    }
+  ],
+  "structural_validation": [
+    {
+      "path": "02_JSON_EXAMS/FUSION/2018/Final CEOM10/2.º de secundaria/FUSION_2018_final-ceom10_2do-secundaria_verified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "594aa5f638c6c7703e2a7291f82b59142557b4a5b56fa66c24f08d4d40c0e43e",
+        "bytes": 18362,
+        "problems": 4,
+        "verified": 4,
+        "guided": 0,
+        "images": 2,
+        "figures": [
+          {
+            "source_id": "fusion1_examen-final-ceom10_2do-secundaria_q03",
+            "figure": 1,
+            "sha256": "81f5dc783863c1f3e37d4395915403aa724085304b9cc6dcf92800ee6e95c836",
+            "width": 260,
+            "height": 78
+          },
+          {
+            "source_id": "fusion1_examen-final-ceom10_2do-secundaria_q04",
+            "figure": 1,
+            "sha256": "c4364b68d9fe15ee28cdabf0b89a7f2a56804ccca38af8fa0d41038fddacf679",
+            "width": 475,
+            "height": 334
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2018/Final CEOM10/2.º de secundaria/FUSION_2018_final-ceom10_2do-secundaria_classified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "85b487c6a66e0b835c7084f80d3843c4085a2a10da389d07f2e197a30f877176",
+        "bytes": 20512,
+        "problems": 4,
+        "verified": 4,
+        "guided": 0,
+        "images": 2,
+        "figures": [
+          {
+            "source_id": "fusion1_examen-final-ceom10_2do-secundaria_q03",
+            "figure": 1,
+            "sha256": "81f5dc783863c1f3e37d4395915403aa724085304b9cc6dcf92800ee6e95c836",
+            "width": 260,
+            "height": 78
+          },
+          {
+            "source_id": "fusion1_examen-final-ceom10_2do-secundaria_q04",
+            "figure": 1,
+            "sha256": "c4364b68d9fe15ee28cdabf0b89a7f2a56804ccca38af8fa0d41038fddacf679",
+            "width": 475,
+            "height": 334
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    }
+  ]
+}

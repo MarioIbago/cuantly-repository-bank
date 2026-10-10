@@ -1,0 +1,224 @@
+{
+  "schema_version": "1.0",
+  "source_format_reference": "Cuantly public practice; open_answer with manual comparison",
+  "exam": {
+    "competition": "FUSION",
+    "source_competition": "CEOM10",
+    "edition": 10,
+    "year": 2018,
+    "phase": "Eliminatorio CEOM10",
+    "level": "Olímpicos",
+    "school_level": "Preparatoria",
+    "problem_count": 4,
+    "source_file": "FUSION_2018_eliminatorio-ceom10_multinivel_examen-eliminatorio-ceom10-docx-corregido_original.pdf",
+    "source_pdf_path": "01_RAW_PDFs/FUSION/2018/Eliminatorio CEOM10/Multinivel/FUSION_2018_eliminatorio-ceom10_multinivel_examen-eliminatorio-ceom10-docx-corregido_original.pdf",
+    "source_sha256": "4088166913929e7a8662a1006d66523d4dd85b5d2ccf1f74880536b41b8e2a52",
+    "image_policy": "Exact embedded PDF diagrams in Base64; the composed chip-and-board diagram is a tight PDF rendering. Symbolic equations transcribed as LaTeX. No question screenshots or logos.",
+    "classification_phase": "completed",
+    "difficulty_phase": "completed"
+  },
+  "validation_summary": {
+    "verified_problems": 4,
+    "needs_review_or_invalid": 0,
+    "needs_review_problem_numbers": [],
+    "notes": "Dates and school levels are printed in the original source. Retained source wording and ambiguity notices; no automatic grading for open answers."
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_olimpicos-preparatoria_q01",
+      "collection": "FUSION",
+      "subcategory": "2018 / Eliminatorio CEOM10 / Olímpicos",
+      "problem_number": 1,
+      "source_page": 6,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Charlitos se levanto muy temprano, para asistir a la olimpiada de matemáticas, el se despertó faltando 20 minutos\npara que faltaran 30 minutos para las 7:15, ¿a qué hora despertó hoy Charlitos?",
+      "options": [],
+      "correct_answer": "6:25",
+      "correct_option_label": null,
+      "solution_text": "1. **Primer instante.** Cuando faltan 30 minutos para las 7:15, son las 6:45.\n2. **Segundo instante.** Charlitos despertó 20 minutos antes de ese instante: a las 6:25.\n3. **Respuesta.** Despertó a las **6:25**.\n4. **Comprobación.** Veinte minutos después de 6:25 son las 6:45; desde ahí faltan exactamente 30 minutos para las 7:15.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta con solución revisada; comparación manual."
+      },
+      "classification": {
+        "primary_area": "arithmetic",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "elapsed_time",
+          "time_conversion",
+          "subtraction"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Resolver dos desplazamientos de tiempo hacia atrás en el orden correcto.",
+          "Dificultad relativa a Preparatoria."
+        ]
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2018/Eliminatorio CEOM10/Multinivel/FUSION_2018_eliminatorio-ceom10_multinivel_examen-eliminatorio-ceom10-docx-corregido_original.pdf",
+      "source_pdf_sha256": "4088166913929e7a8662a1006d66523d4dd85b5d2ccf1f74880536b41b8e2a52"
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_olimpicos-preparatoria_q02",
+      "collection": "FUSION",
+      "subcategory": "2018 / Eliminatorio CEOM10 / Olímpicos",
+      "problem_number": 2,
+      "source_page": 6,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Calcula el resultado de \\[1-2-3+4+5-6-7+8+9-10-11+\\cdots+2013-2014-2015+2016+2017-2018.\\]",
+      "options": [],
+      "correct_answer": "-1",
+      "correct_option_label": null,
+      "solution_text": "1. **Patrón.** Agrupamos cuatro términos consecutivos: \\((1-2-3+4)+(5-6-7+8)+\\cdots\\).\n2. **Cada bloque.** Para cualquier entero \\(k\\ge0\\), \\((4k+1)-(4k+2)-(4k+3)+(4k+4)=0\\).\n3. **Bloques completos.** Hasta 2016 hay \\(2016/4=504\\) bloques; su suma es cero.\n4. **Resto.** Solo quedan \\(2017-2018=-1\\).\n5. **Respuesta y comprobación.** El resultado es **-1**. Los últimos bloques completos también se cancelan, por ejemplo \\(2013-2014-2015+2016=0\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta con solución revisada; comparación manual."
+      },
+      "classification": {
+        "primary_area": "arithmetic",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "patterns",
+          "sequences",
+          "addition",
+          "subtraction"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Agrupar en bloques de cuatro términos que se cancelan.",
+          "Dificultad relativa a Preparatoria."
+        ]
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2018/Eliminatorio CEOM10/Multinivel/FUSION_2018_eliminatorio-ceom10_multinivel_examen-eliminatorio-ceom10-docx-corregido_original.pdf",
+      "source_pdf_sha256": "4088166913929e7a8662a1006d66523d4dd85b5d2ccf1f74880536b41b8e2a52"
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_olimpicos-preparatoria_q03",
+      "collection": "FUSION",
+      "subcategory": "2018 / Eliminatorio CEOM10 / Olímpicos",
+      "problem_number": 3,
+      "source_page": 6,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Si en cada casilla del tablero solo se puede colocar una ficha. ¿De cuantas maneras se pueden colocar 3 fichas en el\ntablero de manera que no haya  dos fichas en casillas que comparten un lado?",
+      "options": [],
+      "correct_answer": "10 maneras",
+      "correct_option_label": null,
+      "solution_text": "1. **Datos de la figura.** Hay siete casillas en fila y tres fichas negras iguales. Contamos conjuntos de casillas ocupadas.\n2. **Posiciones.** Sean \\(i_1<i_2<i_3\\) las casillas elegidas. No compartir lado significa \\(i_2\\ge i_1+2\\) e \\(i_3\\ge i_2+2\\).\n3. **Quitar las separaciones obligatorias.** Definimos \\(j_1=i_1\\), \\(j_2=i_2-1\\), \\(j_3=i_3-2\\). Entonces \\(1\\le j_1<j_2<j_3\\le5\\). La transformación tiene inversa, así que no duplica ni pierde colocaciones.\n4. **Conteo.** Elegir tres posiciones distintas entre cinco da \\(\\binom53=10\\).\n5. **Respuesta y comprobación.** Hay **10 maneras**. Las ternas son (1,3,5), (1,3,6), (1,3,7), (1,4,6), (1,4,7), (1,5,7), (2,4,6), (2,4,7), (2,5,7) y (3,5,7); ninguna tiene dos casillas consecutivas.",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Tres fichas negras idénticas junto a un tablero de siete casillas en fila",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "08703aea71c09b0da10873caefbfc85ed443aaa42590003c38b4a8fcc1a11432",
+          "source": "rendered_pdf_tight_crop",
+          "original_filename": "ceom10_eliminatorio_page6_problem3_board.png",
+          "width_px": 1125,
+          "height_px": 131
+        }
+      ],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta con solución revisada; comparación manual."
+      },
+      "classification": {
+        "primary_area": "combinatorics",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "counting",
+          "integer_solutions"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Transformar tres posiciones no adyacentes en una elección de tres entre cinco.",
+          "Dificultad relativa a Preparatoria."
+        ]
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2018/Eliminatorio CEOM10/Multinivel/FUSION_2018_eliminatorio-ceom10_multinivel_examen-eliminatorio-ceom10-docx-corregido_original.pdf",
+      "source_pdf_sha256": "4088166913929e7a8662a1006d66523d4dd85b5d2ccf1f74880536b41b8e2a52"
+    },
+    {
+      "source_id": "fusion1_examen-eliminatorio-ceom10-docx-corregido_olimpicos-preparatoria_q04",
+      "collection": "FUSION",
+      "subcategory": "2018 / Eliminatorio CEOM10 / Olímpicos",
+      "problem_number": 4,
+      "source_page": 6,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Sea ABCH un cuadrado, CDH un triángulo equilátero y DEFGH un pentágono regular.  Calcula el ángulo GAH.",
+      "options": [],
+      "correct_answer": "39°",
+      "correct_option_label": null,
+      "solution_text": "1. **Ángulos conocidos en H.** El cuadrado da \\(\\angle AHC=90°\\); el equilátero, \\(\\angle CHD=60°\\); el pentágono regular, \\(\\angle DHG=108°\\).\n2. **Completar la vuelta.** Según la disposición de la figura, esos sectores y AHG completan 360°. Entonces \\(\\angle AHG=360°-90°-60°-108°=102°\\).\n3. **Lados iguales.** AH=CH por el cuadrado; CH=DH por el equilátero; DH=HG por el pentágono regular. Por tanto AH=HG.\n4. **Isósceles AHG.** Sus ángulos en A y G son iguales y suman \\(180°-102°=78°\\). Cada uno mide \\(78°/2=39°\\).\n5. **Respuesta y comprobación.** **\\(\\angle GAH=39°\\)**. Los ángulos de AHG suman \\(39°+102°+39°=180°\\).",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Cuadrado ABCH, equilátero CDH y pentágono regular DEFGH",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "7897411718a38cb9258122c69795620ffd4a1dc90727246361434de9440de0cb",
+          "source": "pdf_embedded_image",
+          "original_filename": "ceom10_eliminatorio_page6_Image33.png",
+          "width_px": 360,
+          "height_px": 291
+        }
+      ],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta con solución revisada; comparación manual."
+      },
+      "classification": {
+        "primary_area": "geometry",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "angles",
+          "polygons",
+          "equilateral_triangles"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Combinar los ángulos en H y reconocer dos lados iguales.",
+          "Dificultad relativa a Preparatoria."
+        ]
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2018/Eliminatorio CEOM10/Multinivel/FUSION_2018_eliminatorio-ceom10_multinivel_examen-eliminatorio-ceom10-docx-corregido_original.pdf",
+      "source_pdf_sha256": "4088166913929e7a8662a1006d66523d4dd85b5d2ccf1f74880536b41b8e2a52"
+    }
+  ]
+}

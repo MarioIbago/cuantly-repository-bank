@@ -1,0 +1,224 @@
+{
+  "schema_version": "1.0",
+  "source_format_reference": "Cuantly public practice; open_answer with manual comparison",
+  "exam": {
+    "competition": "FUSION",
+    "source_competition": "CEOM10",
+    "edition": 10,
+    "year": 2018,
+    "phase": "Final CEOM10",
+    "level": "Kids",
+    "school_level": "3.º y 4.º de primaria",
+    "problem_count": 4,
+    "source_file": "FUSION_2018_final-ceom10_multinivel_examen-final-ceom10_original.pdf",
+    "source_pdf_path": "01_RAW_PDFs/FUSION/2018/Final CEOM10/Multinivel/FUSION_2018_final-ceom10_multinivel_examen-final-ceom10_original.pdf",
+    "source_sha256": "ae1e470b3945aa17cb1f7ad9a053dc345bece4196035a854ae38bf45c3c48456",
+    "image_policy": "Exact embedded PDF diagrams in Base64; the composed chip-and-board diagram is a tight PDF rendering. Symbolic equations transcribed as LaTeX. No question screenshots or logos.",
+    "classification_phase": "completed",
+    "difficulty_phase": "completed"
+  },
+  "validation_summary": {
+    "verified_problems": 4,
+    "needs_review_or_invalid": 0,
+    "needs_review_problem_numbers": [],
+    "notes": "Dates and school levels are printed in the original source. Retained source wording and ambiguity notices; no automatic grading for open answers."
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-final-ceom10_kids-3ro_q01",
+      "collection": "FUSION",
+      "subcategory": "2018 / Final CEOM10 / Kids",
+      "problem_number": 1,
+      "source_page": 1,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Carolina llevaba 15 pesos, para gastar, pero se encontró 7 pesos en su pantaloncillo, ya con todo eso,  fue a comprar\na la cafetería de la escuela un gansito, un frutsi, y dos dulces;  un gansito vale $11 , un dulce  $3 y el frutsi $4.\nCarolina al regresar a su salón  llegó con 2 pesos ¿le dieron de mas o de menos el cambio en la cafetería?  ¿cuánto\ndeberían de haberle dado de cambio a carolina?",
+      "options": [],
+      "correct_answer": "Le dieron $1 de más; correspondía $1 de cambio",
+      "correct_option_label": null,
+      "solution_text": "1. **Dinero disponible.** Carolina tiene \\(15+7=22\\) pesos.\n2. **Compra.** El gansito y el frutsi cuestan \\(11+4=15\\) pesos. Dos dulces cuestan \\(2\\cdot3=6\\). El total es \\(15+6=21\\).\n3. **Cambio correcto.** Debían quedarle \\(22-21=1\\) peso.\n4. **Comparar.** Regresó con 2 pesos, uno más de lo debido.\n5. **Respuesta y comprobación.** Le dieron **$1 de más**; el cambio correcto era **$1**. \\(21+1=22\\) recupera su dinero inicial.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta con solución revisada; comparación manual."
+      },
+      "classification": {
+        "primary_area": "arithmetic",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "addition",
+          "subtraction",
+          "money"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Comparar dinero disponible, gasto y cambio recibido.",
+          "Dificultad relativa a 3.º y 4.º de primaria."
+        ]
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2018/Final CEOM10/Multinivel/FUSION_2018_final-ceom10_multinivel_examen-final-ceom10_original.pdf",
+      "source_pdf_sha256": "ae1e470b3945aa17cb1f7ad9a053dc345bece4196035a854ae38bf45c3c48456"
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom10_kids-3ro_q02",
+      "collection": "FUSION",
+      "subcategory": "2018 / Final CEOM10 / Kids",
+      "problem_number": 2,
+      "source_page": 1,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "\\[G+A+G+A=12,\\qquad R+D=18,\\qquad E+N=6.\\] Si \\(A=G\\) y \\(D=R\\), \\[G+A+R+D-E-N=?\\]",
+      "options": [],
+      "correct_answer": "18",
+      "correct_option_label": null,
+      "solution_text": "1. **Primera suma.** \\(G+A+G+A=12\\) implica \\(G+A=6\\).\n2. **Agrupar lo pedido.** \\(G+A+R+D-E-N=(G+A)+(R+D)-(E+N)\\).\n3. **Sustituir.** \\(6+18-6=18\\).\n4. **Respuesta.** El valor es **18**. No hace falta separar E y N.\n5. **Comprobación.** A=G=3 y R=D=9 cumplen los datos. Cualquier par E,N con suma 6 da \\(3+3+9+9-6=18\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta con solución revisada; comparación manual."
+      },
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "equations",
+          "substitution",
+          "addition",
+          "subtraction"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Agrupar sumas conocidas sin determinar cada letra.",
+          "Dificultad relativa a 3.º y 4.º de primaria."
+        ]
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2018/Final CEOM10/Multinivel/FUSION_2018_final-ceom10_multinivel_examen-final-ceom10_original.pdf",
+      "source_pdf_sha256": "ae1e470b3945aa17cb1f7ad9a053dc345bece4196035a854ae38bf45c3c48456"
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom10_kids-3ro_q03",
+      "collection": "FUSION",
+      "subcategory": "2018 / Final CEOM10 / Kids",
+      "problem_number": 3,
+      "source_page": 1,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Abel inventó fichas de dominó, pero de 3 partes, como se muestra en la figura, si tiene 2 tipos de\ncolores diferentes para pintar las partes, y si siempre debe pintar de algún color cada cuadrito de la\nficha, ¿Cuántas fichas de dominó diferentes puede formar Abel?\nNota: si se gira la ficha y se ve como otra, no cuenta como una nueva ficha",
+      "options": [],
+      "correct_answer": "6 fichas diferentes",
+      "correct_option_label": null,
+      "solution_text": "1. **Representar los colores.** Llamamos 0 y 1 a los dos colores. Como hay tres casillas, si se distinguieran ambos extremos habría \\(2^3=8\\) cadenas.\n2. **Giro permitido.** Girar la ficha invierte la cadena. 001 y 100 son la misma ficha; también 011 y 110.\n3. **Casos fijos.** 000, 010, 101 y 111 se ven iguales al invertirlas. Cada una cuenta una sola vez.\n4. **Respuesta.** Hay **6 fichas**: 000, 001, 010, 011, 101 y 111, entendiendo cada cadena junto con su reversa.\n5. **Comprobación alternativa.** Cuatro cadenas son simétricas y las otras cuatro se agrupan en dos parejas: \\(4+4/2=6\\).",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Ficha de dominó dividida en tres casillas",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "iVBORw0KGgoAAAANSUhEUgAAAQQAAABOCAIAAABJ3v/jAAABDklEQVR4nO3ZQW7CMBRAQRtx/yu7Cx5RJCgtW2dm5Sxt5clfyVxrDWCMm0OABzFAxAARA+Q+Tuac50fYzOfPRW4GiBjg3Zh02PjnwzEKbrzHb21/JvN/87+bASIGiBggYoCIASIGiBggYoCIASIGiBggYoCIASIGiBggYoCIASIGiBggYoCIASIGiBggYoCIASIGiBggYoCIASIGiBggYoCIASIGiBggYoCIASIGiBggYoCIASIGiBggYoCIASIGiBggYoCIASIGiBggYoCIASIGiBggYoCIASIGyFxrPddjznmsYT/nt/2VmwEiBng3Jl3BMQpebeP86XIxwG+MSRAxQMQAEQNEDBAxwHj4AYPMHpELdmLpAAAAAElFTkSuQmCC",
+          "sha256": "81f5dc783863c1f3e37d4395915403aa724085304b9cc6dcf92800ee6e95c836",
+          "source": "pdf_embedded_image",
+          "original_filename": "ceom10_final_page1_Image33.png",
+          "width_px": 260,
+          "height_px": 78
+        }
+      ],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta con solución revisada; comparación manual."
+      },
+      "classification": {
+        "primary_area": "combinatorics",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "counting",
+          "symmetry"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Identificar coloraciones que coinciden al invertir el orden de las tres casillas.",
+          "Dificultad relativa a 3.º y 4.º de primaria."
+        ]
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2018/Final CEOM10/Multinivel/FUSION_2018_final-ceom10_multinivel_examen-final-ceom10_original.pdf",
+      "source_pdf_sha256": "ae1e470b3945aa17cb1f7ad9a053dc345bece4196035a854ae38bf45c3c48456"
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom10_kids-3ro_q04",
+      "collection": "FUSION",
+      "subcategory": "2018 / Final CEOM10 / Kids",
+      "problem_number": 4,
+      "source_page": 1,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "ABCD es un cuadrado de área igual a 4, alrededor de él hay 4 triángulos equiláteros  iguales, además la figura\ntambién esta formada por un rectángulo que su base mide el doble de su altura (DE=2DH)   y por otro triàngulo\nequilátero FGH ¿Cuál es el perímetro de dicha figura?",
+      "options": [],
+      "correct_answer": "28 unidades de longitud",
+      "correct_option_label": null,
+      "solution_text": "1. **Lado inicial.** El cuadrado tiene área 4, así que su lado mide 2. Los cuatro equiláteros construidos sobre él también tienen lado 2.\n2. **Estrella.** Su contorno tiene ocho lados de longitud 2: perímetro 16.\n3. **Rectángulo.** DH es un lado del equilátero DCH, por lo que \\(DH=2\\). Dado \\(DE=2DH\\), \\(DE=4\\). En el rectángulo DEFH, \\(EF=2\\) y \\(FH=4\\).\n4. **Último equilátero.** FGH tiene lado \\(FH=4\\), de modo que FG y GH miden 4.\n5. **Contorno exterior.** El lado DH de la estrella queda compartido con el rectángulo y deja de ser exterior. El lado FH también es compartido entre rectángulo y último triángulo. Sumamos \\((16-2)+DE+EF+FG+GH=14+4+2+4+4=28\\).\n6. **Respuesta y comprobación.** El perímetro es **28**. Otra cuenta suma los perímetros \\(16+12+12\\) y resta dos veces cada lado compartido: \\(40-2\\cdot2-2\\cdot4=28\\).",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Cuadrado ABCD, cuatro equiláteros, rectángulo DEFH y equilátero FGH",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "39baa0ff98093e2bb61a9e2bf4d0319c5478087dcbc2dda017781e98472d3d2a",
+          "source": "pdf_embedded_image",
+          "original_filename": "ceom10_final_page1_Image34.png",
+          "width_px": 471,
+          "height_px": 335
+        }
+      ],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta con solución revisada; comparación manual."
+      },
+      "classification": {
+        "primary_area": "geometry",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "perimeter",
+          "equilateral_triangles",
+          "quadrilaterals"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Determinar lados y excluir los bordes compartidos de una figura compuesta.",
+          "Dificultad relativa a 3.º y 4.º de primaria."
+        ]
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2018/Final CEOM10/Multinivel/FUSION_2018_final-ceom10_multinivel_examen-final-ceom10_original.pdf",
+      "source_pdf_sha256": "ae1e470b3945aa17cb1f7ad9a053dc345bece4196035a854ae38bf45c3c48456"
+    }
+  ]
+}

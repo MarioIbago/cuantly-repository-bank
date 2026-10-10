@@ -1,0 +1,146 @@
+{
+  "schema_version": "1.0",
+  "source_format_reference": "Cuantly public practice; open_answer with manual comparison",
+  "exam": {
+    "competition": "FUSION",
+    "source_competition": "CEOM10",
+    "edition": 10,
+    "year": 2018,
+    "phase": "Final CEOM10",
+    "level": "Olímpicos",
+    "school_level": "Preparatoria",
+    "problem_count": 4,
+    "source_file": "FUSION_2018_final-ceom10_multinivel_examen-final-ceom10_original.pdf",
+    "source_pdf_path": "01_RAW_PDFs/FUSION/2018/Final CEOM10/Multinivel/FUSION_2018_final-ceom10_multinivel_examen-final-ceom10_original.pdf",
+    "source_sha256": "ae1e470b3945aa17cb1f7ad9a053dc345bece4196035a854ae38bf45c3c48456",
+    "image_policy": "Exact embedded PDF diagrams in Base64; the composed chip-and-board diagram is a tight PDF rendering. Symbolic equations transcribed as LaTeX. No question screenshots or logos.",
+    "classification_phase": "not_started",
+    "difficulty_phase": "not_started"
+  },
+  "validation_summary": {
+    "verified_problems": 3,
+    "needs_review_or_invalid": 1,
+    "needs_review_problem_numbers": [
+      3
+    ],
+    "notes": "Dates and school levels are printed in the original source. Retained source wording and ambiguity notices; no automatic grading for open answers."
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-final-ceom10_olimpicos-preparatoria_q01",
+      "collection": "FUSION",
+      "subcategory": "2018 / Final CEOM10 / Olímpicos",
+      "problem_number": 1,
+      "source_page": 6,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Carolina llevaba 15 pesos, para gastar, pero se encontró 7 pesos en su pantaloncillo, ya con todo eso,  fue a comprar\na la cafetería de la escuela un gansito, un frutsi, y dos dulces;  un gansito vale $11 , un dulce  $3 y el frutsi $4.\nCarolina al regresar a su salón  llegó con 2 pesos ¿le dieron de mas o de menos el cambio en la cafetería?  ¿cuánto\ndeberían de haberle dado de cambio a carolina?",
+      "options": [],
+      "correct_answer": "Le dieron $1 de más; correspondía $1 de cambio",
+      "correct_option_label": null,
+      "solution_text": "1. **Dinero disponible.** Carolina tiene \\(15+7=22\\) pesos.\n2. **Compra.** El gansito y el frutsi cuestan \\(11+4=15\\) pesos. Dos dulces cuestan \\(2\\cdot3=6\\). El total es \\(15+6=21\\).\n3. **Cambio correcto.** Debían quedarle \\(22-21=1\\) peso.\n4. **Comparar.** Regresó con 2 pesos, uno más de lo debido.\n5. **Respuesta y comprobación.** Le dieron **$1 de más**; el cambio correcto era **$1**. \\(21+1=22\\) recupera su dinero inicial.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta con solución revisada; comparación manual."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2018/Final CEOM10/Multinivel/FUSION_2018_final-ceom10_multinivel_examen-final-ceom10_original.pdf",
+      "source_pdf_sha256": "ae1e470b3945aa17cb1f7ad9a053dc345bece4196035a854ae38bf45c3c48456"
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom10_olimpicos-preparatoria_q02",
+      "collection": "FUSION",
+      "subcategory": "2018 / Final CEOM10 / Olímpicos",
+      "problem_number": 2,
+      "source_page": 6,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Sea  ab un número de 2 dígitos, cuantos números cumplen que los números a y b dividen ab.\n(Si a=2 y b=3 entonces deben de dividir al número 23, que no es posible)",
+      "options": [],
+      "correct_answer": "14",
+      "correct_option_label": null,
+      "solution_text": "1. **Cifras válidas.** \\(N=10a+b\\), con \\(1\\le a\\le9\\). La cifra b no puede ser 0 porque no se puede dividir entre cero.\n2. **Primera divisibilidad.** \\(a\\mid N\\) implica \\(a\\mid b\\). Escribimos \\(b=ka\\), con k entero positivo.\n3. **Segunda divisibilidad.** \\(b\\mid N\\) equivale a \\(b\\mid10a\\). Al sustituir b=ka, obtenemos \\(k\\mid10\\).\n4. **Casos.** Como \\(ka=b\\le9\\), k solo puede ser 1, 2 o 5. Para k=1 hay 9 valores de a; para k=2 hay 4; para k=5 hay 1.\n5. **Respuesta.** Hay **\\(9+4+1=14\\)** números.\n6. **Comprobación.** Son 11, 12, 15, 22, 24, 33, 36, 44, 48, 55, 66, 77, 88 y 99. Cada uno es divisible por ambas cifras.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta con solución revisada; comparación manual."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2018/Final CEOM10/Multinivel/FUSION_2018_final-ceom10_multinivel_examen-final-ceom10_original.pdf",
+      "source_pdf_sha256": "ae1e470b3945aa17cb1f7ad9a053dc345bece4196035a854ae38bf45c3c48456"
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom10_olimpicos-preparatoria_q03",
+      "collection": "FUSION",
+      "subcategory": "2018 / Final CEOM10 / Olímpicos",
+      "problem_number": 3,
+      "source_page": 6,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Encuentra el valor de “n” para que se pueda realizar la división \\[x^9-2x^8+3x^7-4x^6+nx^5-6x^4+7x^3-8x^2+9x-10\\] entre \\(x-2\\).",
+      "options": [],
+      "correct_answer": "n = -2 si se exige división exacta; con resto se puede dividir para cualquier n",
+      "correct_option_label": null,
+      "solution_text": "1. **Distinguir condiciones.** Cualquier polinomio se puede dividir entre \\(x-2\\) obteniendo cociente y resto. Por tanto, la redacción literal no determina n.\n2. **Si se pretende una división exacta.** Por el teorema del resto, el resto es \\(P(2)\\). Pedimos \\(P(2)=0\\).\n3. **Sustituir.** \\(P(2)=512-512+384-256+32n-96+56-32+18-10=64+32n\\).\n4. **Resolver.** \\(64+32n=0\\) da \\(n=-2\\).\n5. **Comprobación.** Al sustituir n=-2, el resto es \\(64-64=0\\).\n6. **Límite de la fuente.** **-2 corresponde a división exacta**. Sin esa condición adicional, cualquier n permite efectuar la división con su resto; se conserva la salvedad.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "ambiguous_source",
+        "answer_checked": false,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "La fuente dice que se pueda realizar la división, sin exigir que sea exacta. La división de polinomios con resto siempre existe; n=-2 es el resultado bajo la condición adicional de resto cero."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2018/Final CEOM10/Multinivel/FUSION_2018_final-ceom10_multinivel_examen-final-ceom10_original.pdf",
+      "source_pdf_sha256": "ae1e470b3945aa17cb1f7ad9a053dc345bece4196035a854ae38bf45c3c48456"
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom10_olimpicos-preparatoria_q04",
+      "collection": "FUSION",
+      "subcategory": "2018 / Final CEOM10 / Olímpicos",
+      "problem_number": 4,
+      "source_page": 6,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Sean A, B y C los centros de las circunferencias. Calcula el área sombreada",
+      "options": [],
+      "correct_answer": "\\((2\\pi-2\\sqrt3)\\,\\mathrm{cm}^2\\)",
+      "correct_option_label": null,
+      "solution_text": "1. **Datos de la figura.** A, B y C son los centros y están en las intersecciones indicadas de las otras circunferencias. BC mide 2 cm. Así, AB=AC=BC=2 cm y los tres radios valen 2 cm; ABC es equilátero.\n2. **Región gris.** Es la intersección común de los tres discos, limitada por los arcos menores AB, BC y CA.\n3. **Tres sectores.** En cada centro, los otros dos forman un ángulo de 60°. Cada sector de radio 2 tiene área \\((60°/360°)\\pi\\cdot2^2=2\\pi/3\\). Los tres suman \\(2\\pi\\).\n4. **Evitar contar de más.** Cada sector contiene el triángulo ABC y un segmento circular. La región gris contiene ese triángulo una sola vez y los tres segmentos. Por eso restamos dos veces el área de ABC a la suma de los sectores.\n5. **Área del triángulo.** \\([ABC]=(\\sqrt3/4)\\cdot2^2=\\sqrt3\\).\n6. **Respuesta y comprobación.** El área es **\\((2\\pi-2\\sqrt3)\\,\\mathrm{cm}^2\\)**. Equivalentemente, sumamos \\(\\sqrt3+3(2\\pi/3-\\sqrt3)\\), que da el mismo resultado.",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Tres circunferencias con centros A, B y C; BC = 2 cm y región común sombreada",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "b1ce4b04eb4497cb000b97c4237153d3715e1a52466854635b02855eaf1f69d2",
+          "source": "pdf_embedded_image",
+          "original_filename": "ceom10_final_page6_Image57.png",
+          "width_px": 345,
+          "height_px": 333
+        }
+      ],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Se usan las incidencias indicadas por la figura: los centros A, B y C pertenecen a las otras circunferencias y BC mide 2 cm. No se deducen longitudes midiendo el dibujo."
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2018/Final CEOM10/Multinivel/FUSION_2018_final-ceom10_multinivel_examen-final-ceom10_original.pdf",
+      "source_pdf_sha256": "ae1e470b3945aa17cb1f7ad9a053dc345bece4196035a854ae38bf45c3c48456"
+    }
+  ]
+}

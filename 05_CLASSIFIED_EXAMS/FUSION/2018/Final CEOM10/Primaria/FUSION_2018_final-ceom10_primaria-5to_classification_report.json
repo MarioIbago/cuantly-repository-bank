@@ -1,0 +1,80 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2018/Final CEOM10/Multinivel/FUSION_2018_final-ceom10_multinivel_examen-final-ceom10_original.pdf",
+  "source_sha256": "ae1e470b3945aa17cb1f7ad9a053dc345bece4196035a854ae38bf45c3c48456",
+  "school_level": "5.º y 6.º de primaria",
+  "rubric": "Primary solving idea; L1 direct familiar steps, L2 combines ideas, L3 non-routine argument relative to the printed school level. Source ambiguity never changes to a verified answer.",
+  "problems": [
+    {
+      "source_id": "fusion1_examen-final-ceom10_primaria-5to_q01",
+      "primary_area": "arithmetic",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "addition",
+        "subtraction",
+        "money"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Comparar dinero disponible, gasto y cambio recibido.",
+        "Dificultad relativa a 5.º y 6.º de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom10_primaria-5to_q02",
+      "primary_area": "algebra",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L1",
+      "tags": [
+        "equations",
+        "substitution",
+        "addition",
+        "subtraction"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Agrupar sumas conocidas sin determinar cada letra.",
+        "Dificultad relativa a 5.º y 6.º de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom10_primaria-5to_q03",
+      "primary_area": "combinatorics",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "counting",
+        "symmetry"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Identificar coloraciones que coinciden al invertir el orden de las tres casillas.",
+        "Dificultad relativa a 5.º y 6.º de primaria."
+      ]
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom10_primaria-5to_q04",
+      "primary_area": "geometry",
+      "secondary_areas": [],
+      "mixed": false,
+      "difficulty": "L2",
+      "tags": [
+        "angles",
+        "polygons",
+        "circles"
+      ],
+      "classification_confidence": 0.95,
+      "difficulty_confidence": 0.85,
+      "classification_notes": [
+        "Usar arcos de un pentágono regular y detectar una discrepancia entre texto y figura.",
+        "Dificultad relativa a 5.º y 6.º de primaria."
+      ]
+    }
+  ]
+}

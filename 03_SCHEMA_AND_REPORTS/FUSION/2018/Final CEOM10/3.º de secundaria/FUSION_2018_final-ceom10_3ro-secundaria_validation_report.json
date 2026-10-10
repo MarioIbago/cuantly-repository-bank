@@ -1,0 +1,168 @@
+{
+  "source_pdf": "01_RAW_PDFs/FUSION/2018/Final CEOM10/Multinivel/FUSION_2018_final-ceom10_multinivel_examen-final-ceom10_original.pdf",
+  "source_sha256": "ae1e470b3945aa17cb1f7ad9a053dc345bece4196035a854ae38bf45c3c48456",
+  "metadata_evidence": "26 DE MAYO DE 2018 printed on each original page.",
+  "pages": [
+    5
+  ],
+  "source_review": "All six original PDF problem pages rendered and visually compared. Original numbering and stable recovered IDs retained.",
+  "figure_review": [
+    {
+      "source_id": "fusion1_examen-final-ceom10_3ro-secundaria_q04",
+      "page": 5,
+      "pdf_image_object": "Image43.png",
+      "bbox_top_left_pdf_points": [
+        190.35,
+        568,
+        433.79999999999995,
+        738.15
+      ],
+      "sha256": "c4364b68d9fe15ee28cdabf0b89a7f2a56804ccca38af8fa0d41038fddacf679",
+      "method": "Exact embedded bytes; visually compared with original problem figure."
+    }
+  ],
+  "transcription_corrections": [
+    {
+      "source_id": "fusion1_examen-final-ceom10_3ro-secundaria_q02",
+      "kind": "symbolic_transcription",
+      "details": "Restored the original equations in LaTeX; no added conditions or options."
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom10_3ro-secundaria_q04",
+      "kind": "footer_removal",
+      "details": "Removed printed publicity footer and page number; not part of the question."
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom10_3ro-secundaria_q04",
+      "kind": "mathematical_recovery_correction",
+      "details": "The gray triangle in the rectangle is IFH, one quarter of the rectangle; corrected the recovered 4+4sqrt(3) to 2+4sqrt(3). Verified against a magnified original figure."
+    }
+  ],
+  "latex_rendering": {
+    "engine": "KaTeX 0.16.47",
+    "expressions": 31,
+    "errors": []
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-final-ceom10_3ro-secundaria_q01",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "initial": 22,
+        "cost": 21,
+        "correctChange": 1,
+        "receivedChange": 2,
+        "overpayment": 1
+      },
+      "notes": "Respuesta abierta con solución revisada; comparación manual."
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom10_3ro-secundaria_q02",
+      "status": "ambiguous_source",
+      "independent_check": {
+        "P2fixed": 64,
+        "nCoefficient": 32,
+        "nForZeroRemainder": -2,
+        "divisionWithRemainderPossibleForAnyN": true
+      },
+      "notes": "La fuente dice que se pueda realizar la división, sin exigir que sea exacta. La división de polinomios con resto siempre existe; n=-2 es el resultado bajo la condición adicional de resto cero."
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom10_3ro-secundaria_q03",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "count": 14,
+        "numbers": [
+          11,
+          12,
+          15,
+          22,
+          24,
+          33,
+          36,
+          44,
+          48,
+          55,
+          66,
+          77,
+          88,
+          99
+        ]
+      },
+      "notes": "Respuesta abierta con solución revisada; comparación manual."
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom10_3ro-secundaria_q04",
+      "status": "verified_open_answer",
+      "independent_check": {
+        "rectangleSideLengths": [
+          2,
+          4
+        ],
+        "rectangleArea": 8,
+        "shadedRectangleFraction": 0.25,
+        "shadedRectangleArea": 2,
+        "equilateralSide": 4,
+        "equilateralAreaCoefficientOfSqrt3": 4,
+        "total": "2+4sqrt(3)"
+      },
+      "notes": "Respuesta abierta con solución revisada; comparación manual."
+    }
+  ],
+  "structural_validation": [
+    {
+      "path": "02_JSON_EXAMS/FUSION/2018/Final CEOM10/3.º de secundaria/FUSION_2018_final-ceom10_3ro-secundaria_verified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "68427c5f80a436dfdb4fc5eb89e0698c91c6619e42de7e0daa8f572626fa2505",
+        "bytes": 17529,
+        "problems": 4,
+        "verified": 3,
+        "guided": 1,
+        "images": 1,
+        "figures": [
+          {
+            "source_id": "fusion1_examen-final-ceom10_3ro-secundaria_q04",
+            "figure": 1,
+            "sha256": "c4364b68d9fe15ee28cdabf0b89a7f2a56804ccca38af8fa0d41038fddacf679",
+            "width": 475,
+            "height": 334
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/FUSION/2018/Final CEOM10/3.º de secundaria/FUSION_2018_final-ceom10_3ro-secundaria_classified.json",
+      "report": {
+        "ok": true,
+        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "mathematical_verification": "not_performed_by_this_script",
+        "visual_source_comparison": "not_performed_by_this_script",
+        "latex_rendering": "not_performed_by_this_script",
+        "bank_sha256": "0c6283725beeb87bc385be8cfbc199fa2fd185e17cef2217206d4b72f27e4054",
+        "bytes": 19701,
+        "problems": 4,
+        "verified": 3,
+        "guided": 1,
+        "images": 1,
+        "figures": [
+          {
+            "source_id": "fusion1_examen-final-ceom10_3ro-secundaria_q04",
+            "figure": 1,
+            "sha256": "c4364b68d9fe15ee28cdabf0b89a7f2a56804ccca38af8fa0d41038fddacf679",
+            "width": 475,
+            "height": 334
+          }
+        ],
+        "errors": [],
+        "warnings": []
+      }
+    }
+  ]
+}

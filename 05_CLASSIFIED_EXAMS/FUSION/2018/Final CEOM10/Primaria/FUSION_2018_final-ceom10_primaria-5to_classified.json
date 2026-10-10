@@ -1,0 +1,226 @@
+{
+  "schema_version": "1.0",
+  "source_format_reference": "Cuantly public practice; open_answer with manual comparison",
+  "exam": {
+    "competition": "FUSION",
+    "source_competition": "CEOM10",
+    "edition": 10,
+    "year": 2018,
+    "phase": "Final CEOM10",
+    "level": "Primaria",
+    "school_level": "5.º y 6.º de primaria",
+    "problem_count": 4,
+    "source_file": "FUSION_2018_final-ceom10_multinivel_examen-final-ceom10_original.pdf",
+    "source_pdf_path": "01_RAW_PDFs/FUSION/2018/Final CEOM10/Multinivel/FUSION_2018_final-ceom10_multinivel_examen-final-ceom10_original.pdf",
+    "source_sha256": "ae1e470b3945aa17cb1f7ad9a053dc345bece4196035a854ae38bf45c3c48456",
+    "image_policy": "Exact embedded PDF diagrams in Base64; the composed chip-and-board diagram is a tight PDF rendering. Symbolic equations transcribed as LaTeX. No question screenshots or logos.",
+    "classification_phase": "completed",
+    "difficulty_phase": "completed"
+  },
+  "validation_summary": {
+    "verified_problems": 3,
+    "needs_review_or_invalid": 1,
+    "needs_review_problem_numbers": [
+      4
+    ],
+    "notes": "Dates and school levels are printed in the original source. Retained source wording and ambiguity notices; no automatic grading for open answers."
+  },
+  "problems": [
+    {
+      "source_id": "fusion1_examen-final-ceom10_primaria-5to_q01",
+      "collection": "FUSION",
+      "subcategory": "2018 / Final CEOM10 / Primaria",
+      "problem_number": 1,
+      "source_page": 2,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Carolina llevaba 15 pesos, para gastar, pero se encontró 7 pesos en su pantaloncillo, ya con todo eso,  fue a comprar\na la cafetería de la escuela un gansito, un frutsi, y dos dulces;  un gansito vale $11 , un dulce  $3 y el frutsi $4.\nCarolina al regresar a su salón  llegó con 2 pesos ¿le dieron de mas o de menos el cambio en la cafetería?  ¿cuánto\ndeberían de haberle dado de cambio a carolina?",
+      "options": [],
+      "correct_answer": "Le dieron $1 de más; correspondía $1 de cambio",
+      "correct_option_label": null,
+      "solution_text": "1. **Dinero disponible.** Carolina tiene \\(15+7=22\\) pesos.\n2. **Compra.** El gansito y el frutsi cuestan \\(11+4=15\\) pesos. Dos dulces cuestan \\(2\\cdot3=6\\). El total es \\(15+6=21\\).\n3. **Cambio correcto.** Debían quedarle \\(22-21=1\\) peso.\n4. **Comparar.** Regresó con 2 pesos, uno más de lo debido.\n5. **Respuesta y comprobación.** Le dieron **$1 de más**; el cambio correcto era **$1**. \\(21+1=22\\) recupera su dinero inicial.",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta con solución revisada; comparación manual."
+      },
+      "classification": {
+        "primary_area": "arithmetic",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "addition",
+          "subtraction",
+          "money"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Comparar dinero disponible, gasto y cambio recibido.",
+          "Dificultad relativa a 5.º y 6.º de primaria."
+        ]
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2018/Final CEOM10/Multinivel/FUSION_2018_final-ceom10_multinivel_examen-final-ceom10_original.pdf",
+      "source_pdf_sha256": "ae1e470b3945aa17cb1f7ad9a053dc345bece4196035a854ae38bf45c3c48456"
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom10_primaria-5to_q02",
+      "collection": "FUSION",
+      "subcategory": "2018 / Final CEOM10 / Primaria",
+      "problem_number": 2,
+      "source_page": 2,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "\\[G+A+G+A=12,\\qquad R+D=18,\\qquad E+N=6.\\] Si \\(A=G\\) y \\(D=R\\), \\[G+A+R+D-E-N=?\\]",
+      "options": [],
+      "correct_answer": "18",
+      "correct_option_label": null,
+      "solution_text": "1. **Primera suma.** \\(G+A+G+A=12\\) implica \\(G+A=6\\).\n2. **Agrupar lo pedido.** \\(G+A+R+D-E-N=(G+A)+(R+D)-(E+N)\\).\n3. **Sustituir.** \\(6+18-6=18\\).\n4. **Respuesta.** El valor es **18**. No hace falta separar E y N.\n5. **Comprobación.** A=G=3 y R=D=9 cumplen los datos. Cualquier par E,N con suma 6 da \\(3+3+9+9-6=18\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta con solución revisada; comparación manual."
+      },
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "equations",
+          "substitution",
+          "addition",
+          "subtraction"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Agrupar sumas conocidas sin determinar cada letra.",
+          "Dificultad relativa a 5.º y 6.º de primaria."
+        ]
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2018/Final CEOM10/Multinivel/FUSION_2018_final-ceom10_multinivel_examen-final-ceom10_original.pdf",
+      "source_pdf_sha256": "ae1e470b3945aa17cb1f7ad9a053dc345bece4196035a854ae38bf45c3c48456"
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom10_primaria-5to_q03",
+      "collection": "FUSION",
+      "subcategory": "2018 / Final CEOM10 / Primaria",
+      "problem_number": 3,
+      "source_page": 2,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Abel inventó fichas de dominó, pero de 3 partes, como se muestra en la figura, si tiene 2 tipos de\ncolores diferentes para pintar las partes, y si siempre debe pintar de algún color cada cuadrito de la\nficha, ¿Cuántas fichas de dominó diferentes puede formar Abel?\nNota: si se gira la ficha y se ve como otra, no cuenta como una nueva ficha",
+      "options": [],
+      "correct_answer": "6 fichas diferentes",
+      "correct_option_label": null,
+      "solution_text": "1. **Representar los colores.** Llamamos 0 y 1 a los dos colores. Como hay tres casillas, si se distinguieran ambos extremos habría \\(2^3=8\\) cadenas.\n2. **Giro permitido.** Girar la ficha invierte la cadena. 001 y 100 son la misma ficha; también 011 y 110.\n3. **Casos fijos.** 000, 010, 101 y 111 se ven iguales al invertirlas. Cada una cuenta una sola vez.\n4. **Respuesta.** Hay **6 fichas**: 000, 001, 010, 011, 101 y 111, entendiendo cada cadena junto con su reversa.\n5. **Comprobación alternativa.** Cuatro cadenas son simétricas y las otras cuatro se agrupan en dos parejas: \\(4+4/2=6\\).",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Ficha de dominó dividida en tres casillas",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "iVBORw0KGgoAAAANSUhEUgAAAQQAAABOCAIAAABJ3v/jAAABDklEQVR4nO3ZQW7CMBRAQRtx/yu7Cx5RJCgtW2dm5Sxt5clfyVxrDWCMm0OABzFAxAARA+Q+Tuac50fYzOfPRW4GiBjg3Zh02PjnwzEKbrzHb21/JvN/87+bASIGiBggYoCIASIGiBggYoCIASIGiBggYoCIASIGiBggYoCIASIGiBggYoCIASIGiBggYoCIASIGiBggYoCIASIGiBggYoCIASIGiBggYoCIASIGiBggYoCIASIGiBggYoCIASIGiBggYoCIASIGiBggYoCIASIGiBggYoCIASIGyFxrPddjznmsYT/nt/2VmwEiBng3Jl3BMQpebeP86XIxwG+MSRAxQMQAEQNEDBAxwHj4AYPMHpELdmLpAAAAAElFTkSuQmCC",
+          "sha256": "81f5dc783863c1f3e37d4395915403aa724085304b9cc6dcf92800ee6e95c836",
+          "source": "pdf_embedded_image",
+          "original_filename": "ceom10_final_page1_Image33.png",
+          "width_px": 260,
+          "height_px": 78
+        }
+      ],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Respuesta abierta con solución revisada; comparación manual."
+      },
+      "classification": {
+        "primary_area": "combinatorics",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "counting",
+          "symmetry"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Identificar coloraciones que coinciden al invertir el orden de las tres casillas.",
+          "Dificultad relativa a 5.º y 6.º de primaria."
+        ]
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2018/Final CEOM10/Multinivel/FUSION_2018_final-ceom10_multinivel_examen-final-ceom10_original.pdf",
+      "source_pdf_sha256": "ae1e470b3945aa17cb1f7ad9a053dc345bece4196035a854ae38bf45c3c48456"
+    },
+    {
+      "source_id": "fusion1_examen-final-ceom10_primaria-5to_q04",
+      "collection": "FUSION",
+      "subcategory": "2018 / Final CEOM10 / Primaria",
+      "problem_number": 4,
+      "source_page": 2,
+      "language": "es",
+      "format": "open_answer",
+      "problem_text": "Sea ABCDE un pentágono regular. ¿Cuánto miden los ángulos que se forman (son 4) al intersectar las\nrectas AD y AC?",
+      "options": [],
+      "correct_answer": "Según AD y AC: 36° y 144°; según AD y CE del dibujo: 72° y 108°",
+      "correct_option_label": null,
+      "solution_text": "**Las rectas del texto y las del dibujo son distintas.**\n1. En un pentágono regular, los arcos entre vértices consecutivos en su circunferencia circunscrita miden \\(360°/5=72°\\).\n2. **Lo escrito: AD y AC.** Se cruzan en A. El ángulo CAD es inscrito y abarca el arco CD de 72°, así que mide 36°. Los opuestos por el vértice también miden 36° y los adyacentes \\(180°-36°=144°\\). Los cuatro son 36°, 144°, 36° y 144°.\n3. **Lo dibujado: AD y CE.** Estas diagonales se cruzan dentro del pentágono. El ángulo entre los rayos que van hacia A y E mide la mitad de la suma de los arcos AE y CD: \\((72°+72°)/2=72°\\). Los adyacentes miden 108°.\n4. **Límite.** No se cambia AC por CE silenciosamente. Se conservan ambos resultados y la advertencia hasta confirmar cuál era la pregunta.",
+      "has_diagram": true,
+      "problem_images": [
+        {
+          "label": "Pentágono regular con diagonales AD y CE dibujadas",
+          "mime_type": "image/png",
+          "encoding": "base64",
+          "base64": "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",
+          "sha256": "faba2977685f41a9227f04bceef336fc9ee4ce0e2773fe1925fe55ebfc39aaa9",
+          "source": "pdf_embedded_image",
+          "original_filename": "ceom10_final_page2_Image37.png",
+          "width_px": 203,
+          "height_px": 189
+        }
+      ],
+      "option_analysis": [],
+      "verification": {
+        "status": "source_text_diagram_mismatch",
+        "answer_checked": false,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "El texto pide las rectas AD y AC, pero la figura dibuja AD y CE. Las dos preguntas dan ángulos distintos."
+      },
+      "classification": {
+        "primary_area": "geometry",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "angles",
+          "polygons",
+          "circles"
+        ],
+        "classification_confidence": 0.95,
+        "difficulty_confidence": 0.85,
+        "classification_notes": [
+          "Usar arcos de un pentágono regular y detectar una discrepancia entre texto y figura.",
+          "Dificultad relativa a 5.º y 6.º de primaria."
+        ]
+      },
+      "source_pdf_path": "01_RAW_PDFs/FUSION/2018/Final CEOM10/Multinivel/FUSION_2018_final-ceom10_multinivel_examen-final-ceom10_original.pdf",
+      "source_pdf_sha256": "ae1e470b3945aa17cb1f7ad9a053dc345bece4196035a854ae38bf45c3c48456"
+    }
+  ]
+}
