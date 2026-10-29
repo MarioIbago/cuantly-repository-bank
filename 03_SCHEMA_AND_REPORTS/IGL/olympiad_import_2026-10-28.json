@@ -1,0 +1,159 @@
+{
+  "source_repository": "https://github.com/MarioIbago/IGLx0_CUANTLY_CERMAT",
+  "source_commit": "61486a2a31d239abccd145730073531e1b238477",
+  "import_date": "2026-10-28",
+  "source_format_reference": "https://github.com/MarioIbago/cuantly-repository-bank/blob/main/03_SCHEMA_AND_REPORTS/FUSION/OPEN_ANSWER_CONTRACT.md",
+  "scope": "Bancos públicos de práctica olímpica de IGL: el banco activo Cuantly/OMM y el diagnóstico adaptativo separado. No incluye bancos privados de Competition ni contenido CERMAT.",
+  "source_files": {
+    "src/components/GeometryDiagram.tsx": {
+      "sha256": "72aaed32ac8ade0012f4eb651190180a47f15e970356f08569c169e2f8e1fbf8",
+      "bytes": 52976
+    },
+    "src/data/cuantly_olimpiada_diagnostico.json": {
+      "sha256": "d4c12b56c76dbea1653b8b564970f6b89ab78c7cdd68cff2c5419ca4e93b808f",
+      "bytes": 89333
+    },
+    "src/data/olimpico-algebra-extension.json": {
+      "sha256": "35d4afcf6f4b25e746ed62318c2599fd0e94c341851b9b26eb40e8d37ec60e74",
+      "bytes": 106852
+    },
+    "src/data/olimpico-geometry-extension.json": {
+      "sha256": "20224bd434877d6133ff5d253cd04c7c1968e247040cd828a6dcd6c81f2edeb5",
+      "bytes": 142342
+    },
+    "src/data/olimpico-number-theory-extension.json": {
+      "sha256": "4d2f9f33efed0f7730c565ff148ea3e2fcbf7a434ef5425e2616821a168beaaa",
+      "bytes": 107822
+    },
+    "src/data/olimpico-probability-extension.json": {
+      "sha256": "df912829f30ea0e2f30ad5c98ab70765440d97e4b0273dd12b8b5f3ecc6f0c2c",
+      "bytes": 128553
+    },
+    "api/final_json/organized/all_complete.json": {
+      "sha256": "3c52e998590609c35087be195e7122fb59539efc176e655c72c33373e448ba6e",
+      "bytes": 249792
+    }
+  },
+  "source_validation": {
+    "active_olympiad_bank": {
+      "count": 297,
+      "by_origin": {
+        "omm": 97,
+        "cuantly_model": 200
+      },
+      "issues_from_IGL_validator": 0,
+      "missing_solutions": 0,
+      "missing_answers": 0
+    },
+    "adaptive_diagnostic": {
+      "count": 39,
+      "approved": 39,
+      "missing_rigorous_solutions": 0,
+      "missing_answers": 0,
+      "unclassified_area": 5
+    }
+  },
+  "mapping_notes": [
+    "Los enunciados y las soluciones se copiaron del contenido ya almacenado en IGL; no se redactaron problemas ni soluciones nuevos.",
+    "Las respuestas abiertas mantienen el tipo y valor original en source_answer cuando la fuente es el diagnóstico; correct_answer es una representación de texto para el formato del lector.",
+    "source_page registra el índice de registro, empezando en 1, porque las fuentes de entrada son JSON sin paginación. source_question_label conserva el ID o número original.",
+    "Todos los años quedan nulos: los archivos de origen no asignan edición anual a estos bancos.",
+    "Cinco reactivos de razonamiento general del diagnóstico quedan sin clasificación de área porque el esquema público no tiene esa categoría.",
+    "Los 13 diagramas de solución OMM se guardan en solution_images; no se muestran junto al enunciado.",
+    "option_analysis se copia solo cuando existe en la fuente; los reactivos OMM conservan la lista vacía porque la fuente no explica los distractores."
+  ],
+  "media_conversion": {
+    "sourceGifImages": 49,
+    "renderedGeometryDiagrams": 25,
+    "problemImages": 61,
+    "solutionImages": 13
+  },
+  "banks": [
+    {
+      "path": "05_CLASSIFIED_EXAMS/CUANTLY/Sin fecha/Entrenamiento olímpico/Álgebra/CUANTLY_sin-fecha_practica-olimpica_algebra_classified.json",
+      "id": "CUANTLY/Sin fecha/Entrenamiento olímpico/Álgebra",
+      "source_file": "IGLx0_CUANTLY_CERMAT/src/data/olimpico-algebra-extension.json",
+      "source_sha256": "35d4afcf6f4b25e746ed62318c2599fd0e94c341851b9b26eb40e8d37ec60e74",
+      "problem_count": 50,
+      "source_origins": {
+        "cuantly_model": 50
+      },
+      "problem_images": 0,
+      "solution_images": 0,
+      "unclassified": 0,
+      "bytes": 159044
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/CUANTLY/Sin fecha/Entrenamiento olímpico/Geometría/CUANTLY_sin-fecha_practica-olimpica_geometria_classified.json",
+      "id": "CUANTLY/Sin fecha/Entrenamiento olímpico/Geometría",
+      "source_file": "IGLx0_CUANTLY_CERMAT/src/data/olimpico-geometry-extension.json",
+      "source_sha256": "20224bd434877d6133ff5d253cd04c7c1968e247040cd828a6dcd6c81f2edeb5",
+      "problem_count": 50,
+      "source_origins": {
+        "cuantly_model": 50
+      },
+      "problem_images": 25,
+      "solution_images": 0,
+      "unclassified": 0,
+      "bytes": 1095995
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/CUANTLY/Sin fecha/Entrenamiento olímpico/Teoría de números/CUANTLY_sin-fecha_practica-olimpica_teoria_de_numeros_classified.json",
+      "id": "CUANTLY/Sin fecha/Entrenamiento olímpico/Teoría de números",
+      "source_file": "IGLx0_CUANTLY_CERMAT/src/data/olimpico-number-theory-extension.json",
+      "source_sha256": "4d2f9f33efed0f7730c565ff148ea3e2fcbf7a434ef5425e2616821a168beaaa",
+      "problem_count": 50,
+      "source_origins": {
+        "cuantly_model": 50
+      },
+      "problem_images": 0,
+      "solution_images": 0,
+      "unclassified": 0,
+      "bytes": 159036
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/CUANTLY/Sin fecha/Entrenamiento olímpico/Probabilidad/CUANTLY_sin-fecha_practica-olimpica_probabilidad_classified.json",
+      "id": "CUANTLY/Sin fecha/Entrenamiento olímpico/Probabilidad",
+      "source_file": "IGLx0_CUANTLY_CERMAT/src/data/olimpico-probability-extension.json",
+      "source_sha256": "df912829f30ea0e2f30ad5c98ab70765440d97e4b0273dd12b8b5f3ecc6f0c2c",
+      "problem_count": 50,
+      "source_origins": {
+        "cuantly_model": 50
+      },
+      "problem_images": 0,
+      "solution_images": 0,
+      "unclassified": 0,
+      "bytes": 182374
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/CUANTLY/Sin fecha/Diagnóstico adaptativo/L1-L5/CUANTLY_sin-fecha_diagnostico-adaptativo_l1-l5_classified.json",
+      "id": "CUANTLY/Sin fecha/Diagnóstico adaptativo/L1-L5",
+      "source_file": "IGLx0_CUANTLY_CERMAT/src/data/cuantly_olimpiada_diagnostico.json",
+      "source_sha256": "d4c12b56c76dbea1653b8b564970f6b89ab78c7cdd68cff2c5419ca4e93b808f",
+      "problem_count": 39,
+      "source_origins": {
+        "cuantly_diagnostic": 39
+      },
+      "problem_images": 0,
+      "solution_images": 0,
+      "unclassified": 5,
+      "bytes": 101151
+    },
+    {
+      "path": "05_CLASSIFIED_EXAMS/OMM-Canguro/Sin fecha/Banco de práctica/Problemas introductorios/OMM-Canguro_sin-fecha_banco-de-practica_problemas-introductorios_classified.json",
+      "id": "OMM-Canguro/Sin fecha/Banco de práctica/Problemas introductorios",
+      "source_file": "IGLx0_CUANTLY_CERMAT/api/final_json/organized/all_complete.json",
+      "source_sha256": "3c52e998590609c35087be195e7122fb59539efc176e655c72c33373e448ba6e",
+      "problem_count": 97,
+      "source_origins": {
+        "omm": 97
+      },
+      "problem_images": 36,
+      "solution_images": 13,
+      "unclassified": 0,
+      "bytes": 582536
+    }
+  ],
+  "total_problems": 336,
+  "total_unclassified": 5
+}

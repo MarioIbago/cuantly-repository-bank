@@ -1,0 +1,2085 @@
+{
+  "schema_version": "1.0",
+  "source_format_reference": "https://github.com/MarioIbago/cuantly-repository-bank/blob/main/03_SCHEMA_AND_REPORTS/FUSION/OPEN_ANSWER_CONTRACT.md",
+  "exam": {
+    "competition": "CUANTLY",
+    "source_competition": "Cuantly",
+    "year": null,
+    "year_status": "not_confirmed",
+    "year_evidence": "El diagnóstico IGL usa niveles de habilidad y no identifica una edición anual. No se asigna año.",
+    "phase": "Diagnóstico adaptativo",
+    "level": "L1-L5",
+    "school_level": "No especificado",
+    "problem_count": 39,
+    "source_file": "IGLx0_CUANTLY_CERMAT/src/data/cuantly_olimpiada_diagnostico.json",
+    "source_sha256": "d4c12b56c76dbea1653b8b564970f6b89ab78c7cdd68cff2c5419ca4e93b808f",
+    "image_policy": "El archivo fuente de estos 39 reactivos no contiene figuras externas; se conserva su enunciado y solución rigurosa.",
+    "classification_phase": "partial",
+    "difficulty_phase": "completed"
+  },
+  "validation_summary": {
+    "verified_problems": 39,
+    "needs_review_or_invalid": 0,
+    "needs_review_problem_numbers": []
+  },
+  "problems": [
+    {
+      "source_id": "cuantly_diagnostic_l1_nt_001",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · L1",
+      "problem_number": 1,
+      "source_question_label": "L1-NT-001",
+      "source_page": 1,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Un número de tres cifras tiene suma de cifras $18$. Si se invierten sus cifras, el número disminuye en $198$. Encuentra todos los números posibles.",
+      "options": [],
+      "correct_answer": "684, 765, 846, 927",
+      "correct_option_label": null,
+      "solution_text": "Sea N=100a+10b+c, donde a es la cifra de centenas, b la de decenas y c la de unidades. Por ser número de tres cifras, a está entre 1 y 9; b y c están entre 0 y 9.\n\nEl número invertido es R=100c+10b+a.\n\nLa condición de que al invertirlo el número disminuye en 198 significa N-R=198.\n\nSustituyendo: 100a+10b+c-(100c+10b+a)=198.\n\nAl simplificar queda 99a-99c=198, es decir 99(a-c)=198.\n\nDividiendo entre 99 se obtiene a-c=2, por tanto c=a-2.\n\nLa suma de cifras es 18, así que a+b+c=18.\n\nSustituyendo c=a-2: a+b+a-2=18, luego b=20-2a.\n\nAhora imponemos que b sea cifra: 0<=20-2a<=9. Esto da 5.5<=a<=10. Como a es cifra, a puede ser 6,7,8,9.\n\nPara a=6 se obtiene b=8,c=4; para a=7, b=6,c=5; para a=8, b=4,c=6; para a=9, b=2,c=7.\n\nLos números son 684, 765, 846 y 927.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "El archivo IGL marca el reactivo como approved y declara que las respuestas y soluciones restantes fueron revisadas por consistencia matemática. Se conserva la solución rigurosa existente."
+      },
+      "content_origin": "cuantly_diagnostic",
+      "source_answer": [
+        684,
+        765,
+        846,
+        927
+      ],
+      "strategy": "Representar el número y su invertido con variables de cifras; convertir las condiciones en ecuaciones lineales y filtrar por cifras válidas.",
+      "theory_used": [
+        "Sistema decimal posicional",
+        "Planteamiento algebraico con cifras",
+        "Restricciones de cifras enteras"
+      ],
+      "theory_not_needed": [
+        "No se requiere búsqueda exhaustiva si se usan ecuaciones de cifras"
+      ],
+      "validity_check": "Cada número encontrado tiene suma de cifras 18 y al invertirse disminuye exactamente 198.",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "sistema_decimal_posicional",
+          "planteamiento_algebraico_con_cifras",
+          "restricciones_de_cifras_enteras"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Nivel original Cuantly L1; agrupado al nivel público L1–L3."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_diagnostic_l1_com_001",
+      "collection": "CUANTLY",
+      "subcategory": "Combinatoria · L1",
+      "problem_number": 2,
+      "source_question_label": "L1-COM-001",
+      "source_page": 2,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "¿Cuántos números de dos cifras tienen producto de cifras múltiplo de $6$?",
+      "options": [],
+      "correct_answer": "38",
+      "correct_option_label": null,
+      "solution_text": "Un número de dos cifras tiene forma 10a+b, con a en {1,2,...,9} y b en {0,1,...,9}.\n\nQueremos que ab sea múltiplo de 6, es decir, que ab sea divisible entre 2 y entre 3.\n\nSi b=0, entonces ab=0. Con la convención usual, 0 es múltiplo de 6. Hay 9 casos, uno por cada a.\n\nSi b=1,5,7, la cifra b no aporta factor 2 ni factor 3. Entonces a debe aportar ambos, así que a=6. Hay 3 casos.\n\nSi b=2,4,8, la cifra b aporta factor 2 pero no factor 3. Entonces a debe ser múltiplo de 3: a=3,6,9. Hay 3 por cada una de esas tres opciones de b, o sea 9 casos.\n\nSi b=3 o b=9, la cifra b aporta factor 3 pero no factor 2. Entonces a debe ser par: a=2,4,6,8. Hay 4 por cada una de esas dos opciones, o sea 8 casos.\n\nSi b=6, la cifra b ya aporta factor 2 y factor 3. Cualquier a de 1 a 9 funciona. Hay 9 casos.\n\nLa suma total es 9+3+9+8+9=38.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "El archivo IGL marca el reactivo como approved y declara que las respuestas y soluciones restantes fueron revisadas por consistencia matemática. Se conserva la solución rigurosa existente."
+      },
+      "content_origin": "cuantly_diagnostic",
+      "source_answer": 38,
+      "strategy": "Separar por la cifra de unidades, porque eso determina que factores de 2 y 3 ya aparecen en el producto.",
+      "theory_used": [
+        "Divisibilidad por 6",
+        "Principio de conteo por casos",
+        "Convención estándar: 0 es múltiplo de todo entero positivo"
+      ],
+      "theory_not_needed": [
+        "No se requiere inclusion-exclusion formal"
+      ],
+      "validity_check": "Los casos cubren todas las cifras b de 0 a 9 y no se traslapan.",
+      "classification": {
+        "primary_area": "combinatorics",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "divisibilidad_por_6",
+          "principio_de_conteo_por_casos",
+          "convencion_estandar_0_es_multiplo_de_todo_entero_positivo"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Nivel original Cuantly L1; agrupado al nivel público L1–L3."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_diagnostic_l1_geo_001",
+      "collection": "CUANTLY",
+      "subcategory": "Geometría · L1",
+      "problem_number": 3,
+      "source_question_label": "L1-GEO-001",
+      "source_page": 3,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "En el triángulo $ABC$, se tiene $\\angle A=40^\\circ$ y $\\angle B=70^\\circ$. La bisectriz de $\\angle C$ corta a $AB$ en $D$. Encuentra los ángulos del triángulo $ACD$.",
+      "options": [],
+      "correct_answer": "angle_CAD = 40; angle_ACD = 35; angle_ADC = 105",
+      "correct_option_label": null,
+      "solution_text": "En el triángulo ABC se tiene A+B+C=180 grados.\n\nComo A=40 grados y B=70 grados, resulta C=180-40-70=70 grados.\n\nCD es bisectriz de C, por lo que divide C en dos ángulos iguales: ACD=BCD=35 grados.\n\nComo D está sobre AB, el ángulo CAD coincide con el ángulo CAB. Entonces CAD=40 grados.\n\nEn el triángulo ACD, la suma de ángulos es 180 grados.\n\nPor tanto ADC=180-40-35=105 grados.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "El archivo IGL marca el reactivo como approved y declara que las respuestas y soluciones restantes fueron revisadas por consistencia matemática. Se conserva la solución rigurosa existente."
+      },
+      "content_origin": "cuantly_diagnostic",
+      "source_answer": {
+        "angle_CAD": 40,
+        "angle_ACD": 35,
+        "angle_ADC": 105
+      },
+      "strategy": "Calcular primero el ángulo C y luego usar que la bisectriz lo divide en dos partes iguales.",
+      "theory_used": [
+        "Suma de ángulos interiores de un triángulo",
+        "Definición de bisectriz"
+      ],
+      "theory_not_needed": [
+        "No se requiere semejanza ni trigonometria"
+      ],
+      "validity_check": "Los tres ángulos obtenidos para ACD suman 180 grados: 40+35+105=180.",
+      "classification": {
+        "primary_area": "geometry",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "suma_de_angulos_interiores_de_un_triangulo",
+          "definicion_de_bisectriz"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Nivel original Cuantly L1; agrupado al nivel público L1–L3."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_diagnostic_l1_log_001",
+      "collection": "CUANTLY",
+      "subcategory": "Razonamiento general · L1",
+      "problem_number": 4,
+      "source_question_label": "L1-LOG-001",
+      "source_page": 4,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Hay $20$ monedas. Ana puede retirar $1$, $2$ o $3$ monedas por turno. Gana quien retire la última moneda. Si Ana empieza, ¿puede asegurar la victoria? Justifica.",
+      "options": [],
+      "correct_answer": "No",
+      "correct_option_label": null,
+      "solution_text": "Llamemos posición perdedora a una cantidad de monedas desde la cual el jugador que debe mover pierde si el otro juega perfecto.\n\nCon 4 monedas, si el jugador retira 1,2 o 3, el rival retira respectivamente 3,2 o 1 y toma la última moneda.\n\nLa misma idea se repite para cualquier múltiplo de 4.\n\nSi quedan 4k monedas y Ana retira r monedas, donde r puede ser 1,2 o 3, el rival retira 4-r monedas.\n\nEntre ambos turnos se retiraron r+(4-r)=4 monedas, así que vuelve a quedar un múltiplo de 4.\n\nComo 20 es múltiplo de 4, Ana empieza en una posición perdedora.\n\nEl rival puede responder siempre completando 4 monedas por ronda y será quien retire la última.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "El archivo IGL marca el reactivo como approved y declara que las respuestas y soluciones restantes fueron revisadas por consistencia matemática. Se conserva la solución rigurosa existente."
+      },
+      "content_origin": "cuantly_diagnostic",
+      "source_answer": "No",
+      "strategy": "Identificar que los múltiplos de 4 son posiciones perdedoras porque el segundo jugador puede completar siempre 4 monedas por ronda.",
+      "theory_used": [
+        "Estrategia ganadora en juegos de resta",
+        "Invariante módulo 4",
+        "Posiciones perdedoras y ganadoras"
+      ],
+      "theory_not_needed": [
+        "No se requiere teoría avanzada de juegos"
+      ],
+      "validity_check": "La estrategia del rival está definida para todos los movimientos posibles de Ana.",
+      "classification": null
+    },
+    {
+      "source_id": "cuantly_diagnostic_l1_nt_002",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · L1",
+      "problem_number": 5,
+      "source_question_label": "L1-NT-002",
+      "source_page": 5,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Encuentra todos los enteros positivos $n$ tales que $n$ divide a $n+12$.",
+      "options": [],
+      "correct_answer": "1, 2, 3, 4, 6, 12",
+      "correct_option_label": null,
+      "solution_text": "Si n divide a n+12, entonces n divide cualquier combinación entera de n y n+12.\n\nEn particular, n divide (n+12)-n=12.\n\nPor tanto n debe ser divisor positivo de 12.\n\nLos divisores positivos de 12 son 1,2,3,4,6 y 12.\n\nReciprocamente, si n es uno de esos divisores, entonces 12 es múltiplo de n y n también es múltiplo de n, así que n+12 es múltiplo de n.\n\nLuego las soluciones son 1,2,3,4,6 y 12.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "El archivo IGL marca el reactivo como approved y declara que las respuestas y soluciones restantes fueron revisadas por consistencia matemática. Se conserva la solución rigurosa existente."
+      },
+      "content_origin": "cuantly_diagnostic",
+      "source_answer": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        12
+      ],
+      "strategy": "Convertir la condición n | n+12 en una condición sobre una constante usando la resta (n+12)-n.",
+      "theory_used": [
+        "Divisibilidad",
+        "Resta de múltiplos",
+        "Divisores positivos"
+      ],
+      "theory_not_needed": [
+        "No se requiere factorización avanzada"
+      ],
+      "validity_check": "Se probó ida y vuelta: todo n válido divide a 12 y todo divisor positivo de 12 cumple la condición.",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "divisibilidad",
+          "resta_de_multiplos",
+          "divisores_positivos"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Nivel original Cuantly L1; agrupado al nivel público L1–L3."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_diagnostic_l1_nt_003",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · L1",
+      "problem_number": 6,
+      "source_question_label": "L1-NT-003",
+      "source_page": 6,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "¿Cuántos enteros del $1$ al $30$ son múltiplos de $2$ o de $3$, pero no son múltiplos de $6$?",
+      "options": [],
+      "correct_answer": "15",
+      "correct_option_label": null,
+      "solution_text": "Un número que es múltiplo de 2 y de 3 al mismo tiempo es múltiplo de 6.\n\nPor eso, si pedimos múltiplos de 2 o de 3 pero no de 6, los casos se separan en dos grupos disjuntos.\n\nEntre 1 y 30 hay 15 múltiplos de 2 y 5 de ellos son múltiplos de 6, así que quedan 10.\n\nEntre 1 y 30 hay 10 múltiplos de 3 y 5 de ellos son múltiplos de 6, así que quedan 5.\n\nSumando los dos grupos disjuntos, hay 10+5=15 números.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "El archivo IGL marca el reactivo como approved y declara que las respuestas y soluciones restantes fueron revisadas por consistencia matemática. Se conserva la solución rigurosa existente."
+      },
+      "content_origin": "cuantly_diagnostic",
+      "source_answer": 15,
+      "strategy": "Separar los múltiplos de 2 no múltiplos de 6 y los múltiplos de 3 no múltiplos de 6; luego sumar porque son casos disjuntos.",
+      "theory_used": [
+        "Múltiplos",
+        "Divisibilidad por 2, 3 y 6",
+        "Conteo por casos disjuntos"
+      ],
+      "theory_not_needed": [
+        "No se requiere inclusion-exclusion formal"
+      ],
+      "validity_check": "La cuenta excluye exactamente los múltiplos de 6 y no duplica ningún número.",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "multiplos",
+          "divisibilidad_por_2_3_y_6",
+          "conteo_por_casos_disjuntos"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Nivel original Cuantly L1; agrupado al nivel público L1–L3."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_diagnostic_l1_com_002",
+      "collection": "CUANTLY",
+      "subcategory": "Combinatoria · L1",
+      "problem_number": 7,
+      "source_question_label": "L1-COM-002",
+      "source_page": 7,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "En un equipo hay $6$ estudiantes. ¿Cuántos pares distintos de estudiantes se pueden formar?",
+      "options": [],
+      "correct_answer": "15",
+      "correct_option_label": null,
+      "solution_text": "Hay 6 opciones para elegir a un primer estudiante y, después de elegirlo, quedan 5 opciones para elegir a otro.\n\nEsto produce 6*5=30 parejas ordenadas.\n\nCada par real aparece dos veces en ese conteo, una por cada orden posible.\n\nPor tanto el número de pares distintos es 30/2=15.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "El archivo IGL marca el reactivo como approved y declara que las respuestas y soluciones restantes fueron revisadas por consistencia matemática. Se conserva la solución rigurosa existente."
+      },
+      "content_origin": "cuantly_diagnostic",
+      "source_answer": 15,
+      "strategy": "Contar selecciones ordenadas y dividir entre 2 porque el orden dentro del par no importa.",
+      "theory_used": [
+        "Principio multiplicativo",
+        "Conteo sin orden",
+        "Correccion por doble conteo"
+      ],
+      "theory_not_needed": [
+        "No se requiere fórmula general de combinaciones"
+      ],
+      "validity_check": "Cada par de estudiantes tiene exactamente dos ordenes posibles, así que dividir entre 2 corrige todo el doble conteo.",
+      "classification": {
+        "primary_area": "combinatorics",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "principio_multiplicativo",
+          "conteo_sin_orden",
+          "correccion_por_doble_conteo"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Nivel original Cuantly L1; agrupado al nivel público L1–L3."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_diagnostic_l1_com_003",
+      "collection": "CUANTLY",
+      "subcategory": "Combinatoria · L1",
+      "problem_number": 8,
+      "source_question_label": "L1-COM-003",
+      "source_page": 8,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Con las cifras $1$, $2$ y $3$, ¿cuántos números de tres cifras se pueden formar si no se permite repetir cifras?",
+      "options": [],
+      "correct_answer": "6",
+      "correct_option_label": null,
+      "solution_text": "El número tiene tres posiciones: centenas, decenas y unidades.\n\nLa primera posición puede llenarse con cualquiera de las 3 cifras.\n\nComo no se permite repetir, la segunda posición tiene 2 opciones y la tercera tiene 1 opción.\n\nAsí, hay 3*2*1=6 números posibles.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "El archivo IGL marca el reactivo como approved y declara que las respuestas y soluciones restantes fueron revisadas por consistencia matemática. Se conserva la solución rigurosa existente."
+      },
+      "content_origin": "cuantly_diagnostic",
+      "source_answer": 6,
+      "strategy": "Asignar las cifras por posiciones y multiplicar las opciones restantes en cada paso.",
+      "theory_used": [
+        "Principio multiplicativo",
+        "Permutaciones simples",
+        "Restricción sin repetición"
+      ],
+      "theory_not_needed": [
+        "No se requiere combinatoria avanzada"
+      ],
+      "validity_check": "El conteo produce exactamente las permutaciones de 1,2,3 sin repetir ninguna cifra.",
+      "classification": {
+        "primary_area": "combinatorics",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "principio_multiplicativo",
+          "permutaciones_simples",
+          "restriccion_sin_repeticion"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Nivel original Cuantly L1; agrupado al nivel público L1–L3."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_diagnostic_l1_alg_001",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · L1",
+      "problem_number": 9,
+      "source_question_label": "L1-ALG-001",
+      "source_page": 9,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Si $a+b=9$ y $a-b=3$, encuentra el valor de $a$.",
+      "options": [],
+      "correct_answer": "6",
+      "correct_option_label": null,
+      "solution_text": "De a+b=9 y a-b=3, al sumar miembro a miembro se obtiene 2a=12.\n\nEntonces a=6.\n\nSi a=6, de a+b=9 se obtiene b=3, y se verifica que a-b=6-3=3.\n\nPor tanto el valor pedido es a=6.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "El archivo IGL marca el reactivo como approved y declara que las respuestas y soluciones restantes fueron revisadas por consistencia matemática. Se conserva la solución rigurosa existente."
+      },
+      "content_origin": "cuantly_diagnostic",
+      "source_answer": 6,
+      "strategy": "Sumar las ecuaciones para eliminar b directamente.",
+      "theory_used": [
+        "Sistemas lineales simples",
+        "Suma de ecuaciones",
+        "Cancelación"
+      ],
+      "theory_not_needed": [
+        "No se necesita resolver por fórmula general"
+      ],
+      "validity_check": "El valor a=6 es compatible con ambas ecuaciones.",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "sistemas_lineales_simples",
+          "suma_de_ecuaciones",
+          "cancelacion"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Nivel original Cuantly L1; agrupado al nivel público L1–L3."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_diagnostic_l1_alg_002",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · L1",
+      "problem_number": 10,
+      "source_question_label": "L1-ALG-002",
+      "source_page": 10,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Un número $x$ cumple $3x-5=16$. ¿Cuánto vale $x^2$?",
+      "options": [],
+      "correct_answer": "49",
+      "correct_option_label": null,
+      "solution_text": "La ecuación 3x-5=16 implica 3x=21 al sumar 5 en ambos lados.\n\nAl dividir entre 3, se obtiene x=7.\n\nPor tanto x^2=49.\n\nLa verificación es directa: 3(7)-5=21-5=16.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "El archivo IGL marca el reactivo como approved y declara que las respuestas y soluciones restantes fueron revisadas por consistencia matemática. Se conserva la solución rigurosa existente."
+      },
+      "content_origin": "cuantly_diagnostic",
+      "source_answer": 49,
+      "strategy": "Resolver primero la ecuación lineal y después calcular el cuadrado solicitado.",
+      "theory_used": [
+        "Ecuación lineal",
+        "Operaciones inversas",
+        "Sustitución"
+      ],
+      "theory_not_needed": [
+        "No se requiere ecuación cuadratica"
+      ],
+      "validity_check": "La solución x=7 satisface la ecuación original y su cuadrado es 49.",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "ecuacion_lineal",
+          "operaciones_inversas",
+          "sustitucion"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Nivel original Cuantly L1; agrupado al nivel público L1–L3."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_diagnostic_l1_geo_002",
+      "collection": "CUANTLY",
+      "subcategory": "Geometría · L1",
+      "problem_number": 11,
+      "source_question_label": "L1-GEO-002",
+      "source_page": 11,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "En el triángulo $ABC$, se tiene $\\angle A=50^\\circ$ y $\\angle B=60^\\circ$. ¿Cuánto mide $\\angle C$?",
+      "options": [],
+      "correct_answer": "70",
+      "correct_option_label": null,
+      "solution_text": "En todo triángulo, la suma de los tres ángulos interiores es 180 grados.\n\nAsí, 50+60+C=180.\n\nEsto da C=70 grados.\n\nLuego el ángulo C mide 70 grados.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "El archivo IGL marca el reactivo como approved y declara que las respuestas y soluciones restantes fueron revisadas por consistencia matemática. Se conserva la solución rigurosa existente."
+      },
+      "content_origin": "cuantly_diagnostic",
+      "source_answer": 70,
+      "strategy": "Usar la suma de ángulos del triángulo y despejar el ángulo faltante.",
+      "theory_used": [
+        "Suma de ángulos interiores",
+        "Triángulos",
+        "Resta de medidas angulares"
+      ],
+      "theory_not_needed": [
+        "No se requiere trigonometria"
+      ],
+      "validity_check": "Las medidas 50, 60 y 70 suman 180 grados, como debe ocurrir en un triángulo.",
+      "classification": {
+        "primary_area": "geometry",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "suma_de_angulos_interiores",
+          "triangulos",
+          "resta_de_medidas_angulares"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Nivel original Cuantly L1; agrupado al nivel público L1–L3."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_diagnostic_l1_geo_003",
+      "collection": "CUANTLY",
+      "subcategory": "Geometría · L1",
+      "problem_number": 12,
+      "source_question_label": "L1-GEO-003",
+      "source_page": 12,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Dos rectas se cruzan. Uno de los ángulos mide $35^\\circ$. ¿Cuánto mide el ángulo opuesto por el vértice y cuánto mide un ángulo adyacente?",
+      "options": [],
+      "correct_answer": "opuesto_por_el_vertice = 35; adyacente = 145",
+      "correct_option_label": null,
+      "solution_text": "Cuando dos rectas se cruzan, los ángulos opuestos por el vértice son iguales, así que el opuesto mide 35 grados.\n\nUn ángulo adyacente al de 35 grados completa una línea recta.\n\nPor tanto suma 180 grados con el de 35 grados.\n\nEl adyacente mide 180-35=145 grados.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "El archivo IGL marca el reactivo como approved y declara que las respuestas y soluciones restantes fueron revisadas por consistencia matemática. Se conserva la solución rigurosa existente."
+      },
+      "content_origin": "cuantly_diagnostic",
+      "source_answer": {
+        "opuesto_por_el_vertice": 35,
+        "adyacente": 145
+      },
+      "strategy": "Aplicar igualdad de ángulos opuestos y suplementariedad de ángulos adyacentes sobre una recta.",
+      "theory_used": [
+        "Ángulos opuestos por el vértice",
+        "Ángulos suplementarios",
+        "Rectas secantes"
+      ],
+      "theory_not_needed": [
+        "No se requiere dibujo a escala"
+      ],
+      "validity_check": "Los cuatro ángulos quedan 35,145,35,145 y suman 360 grados alrededor del punto.",
+      "classification": {
+        "primary_area": "geometry",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "angulos_opuestos_por_el_vertice",
+          "angulos_suplementarios",
+          "rectas_secantes"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Nivel original Cuantly L1; agrupado al nivel público L1–L3."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_diagnostic_l1_log_002",
+      "collection": "CUANTLY",
+      "subcategory": "Razonamiento general · L1",
+      "problem_number": 13,
+      "source_question_label": "L1-LOG-002",
+      "source_page": 13,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Hay $15$ piedras. Ana y Beto alternan turnos; en cada turno se retiran $1$ o $2$ piedras. Gana quien retire la última piedra. Si Ana empieza, ¿puede asegurar la victoria?",
+      "options": [],
+      "correct_answer": "No",
+      "correct_option_label": null,
+      "solution_text": "Si quedan 3k piedras y Ana retira r piedras, con r igual a 1 o 2, Beto puede retirar 3-r piedras.\n\nEntonces después de la pareja de turnos se retiran 3 piedras y vuelve a quedar un múltiplo de 3.\n\nComo 15 es múltiplo de 3, Beto puede mantener esa estrategia desde el inicio.\n\nAl final, Beto será quien tome la última piedra.\n\nPor tanto Ana no puede asegurar la victoria.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "El archivo IGL marca el reactivo como approved y declara que las respuestas y soluciones restantes fueron revisadas por consistencia matemática. Se conserva la solución rigurosa existente."
+      },
+      "content_origin": "cuantly_diagnostic",
+      "source_answer": "No",
+      "strategy": "Reconocer que los múltiplos de 3 son posiciones perdedoras y que el segundo jugador puede completar 3 piedras por ronda.",
+      "theory_used": [
+        "Estrategia ganadora",
+        "Invariante módulo 3",
+        "Posiciones perdedoras"
+      ],
+      "theory_not_needed": [
+        "No se requiere teoría formal de juegos"
+      ],
+      "validity_check": "La respuesta de Beto está definida para los dos movimientos posibles de Ana.",
+      "classification": null
+    },
+    {
+      "source_id": "cuantly_diagnostic_l1_log_003",
+      "collection": "CUANTLY",
+      "subcategory": "Razonamiento general · L1",
+      "problem_number": 14,
+      "source_question_label": "L1-LOG-003",
+      "source_page": 14,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Hay $8$ focos apagados. En cada movimiento se cambia el estado de exactamente $2$ focos. ¿Es posible terminar con exactamente $3$ focos encendidos?",
+      "options": [],
+      "correct_answer": "No",
+      "correct_option_label": null,
+      "solution_text": "Inicialmente hay 0 focos encendidos, una cantidad par.\n\nEn un movimiento se cambian exactamente dos focos.\n\nSi ambos estaban apagados, los encendidos aumentan en 2; si ambos estaban encendidos, disminuyen en 2; si uno estaba encendido y otro apagado, el total no cambia.\n\nEn los tres casos, la paridad del total de focos encendidos permanece igual.\n\nAsí, el total siempre debe ser par.\n\nComo 3 es impar, es imposible llegar a exactamente 3 focos encendidos.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "El archivo IGL marca el reactivo como approved y declara que las respuestas y soluciones restantes fueron revisadas por consistencia matemática. Se conserva la solución rigurosa existente."
+      },
+      "content_origin": "cuantly_diagnostic",
+      "source_answer": "No",
+      "strategy": "Mirar solo la paridad del número de focos encendidos, no la posición exacta de cada foco.",
+      "theory_used": [
+        "Paridad",
+        "Invariante",
+        "Estados encendido/apagado"
+      ],
+      "theory_not_needed": [
+        "No se requiere probar todas las configuraciones"
+      ],
+      "validity_check": "La prueba cubre todos los tipos posibles de movimiento y muestra un invariante de paridad.",
+      "classification": null
+    },
+    {
+      "source_id": "cuantly_diagnostic_l2_nt_001",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · L2",
+      "problem_number": 15,
+      "source_question_label": "L2-NT-001",
+      "source_page": 15,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Encuentra todos los enteros positivos $n$ tales que $n+3$ divide a $n^2+9$.",
+      "options": [],
+      "correct_answer": "3, 6, 15",
+      "correct_option_label": null,
+      "solution_text": "Sea d=n+3. Entonces n=d-3 y d>=4 porque n es positivo.\n\nCalculamos n^2+9=(d-3)^2+9=d^2-6d+9+9=d^2-6d+18.\n\nLa condición n+3 | n^2+9 se convierte en d | d^2-6d+18.\n\nComo d divide d^2 y d divide 6d, se tiene que d divide d^2-6d.\n\nPor tanto d divide d^2-6d+18 si y solo si d divide 18.\n\nLos divisores positivos de 18 son 1,2,3,6,9,18.\n\nComo d>=4, solo quedan d=6,9,18.\n\nRegresando a n=d-3, se obtiene n=3,6,15.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "El archivo IGL marca el reactivo como approved y declara que las respuestas y soluciones restantes fueron revisadas por consistencia matemática. Se conserva la solución rigurosa existente."
+      },
+      "content_origin": "cuantly_diagnostic",
+      "source_answer": [
+        3,
+        6,
+        15
+      ],
+      "strategy": "Sustituir d=n+3 para convertir la condición en que d divida una constante.",
+      "theory_used": [
+        "Divisibilidad",
+        "Cambio de variable",
+        "Combinaciones lineales"
+      ],
+      "theory_not_needed": [
+        "No se requiere factorización profunda"
+      ],
+      "validity_check": "Para n=3,6,15 se verifica directamente que n+3 divide n^2+9.",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "divisibilidad",
+          "cambio_de_variable",
+          "combinaciones_lineales"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Nivel original Cuantly L2; agrupado al nivel público L1–L3."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_diagnostic_l2_com_001",
+      "collection": "CUANTLY",
+      "subcategory": "Combinatoria · L2",
+      "problem_number": 16,
+      "source_question_label": "L2-COM-001",
+      "source_page": 16,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "En una cuadrícula de $3\\times 3$, se quieren pintar exactamente $4$ casillas. ¿De cuántas formas se puede hacer si no pueden quedar dos casillas pintadas compartiendo lado?",
+      "options": [],
+      "correct_answer": "6",
+      "correct_option_label": null,
+      "solution_text": "En una fila de 3 casillas, los patrones posibles sin dos pintadas juntas horizontalmente son 000, 100, 010, 001 y 101.\n\nEl único patrón de una fila con dos casillas pintadas es 101.\n\nComo se quieren pintar 4 casillas en tres filas, las cantidades por fila solo pueden ser 2,2,0 o 2,1,1 en algún orden.\n\nCaso 2,2,0: las dos filas con patrón 101 no pueden ser consecutivas, porque compartirían lado vertical en las columnas extremas. Por tanto deben ser la primera y la tercera, con la fila central vacía. Da 1 forma.\n\nCaso 2,1,1 con el patrón 101 en la fila central: la fila superior y la inferior solo pueden tener la casilla central pintada, patrón 010. Da 1 forma.\n\nCaso 2,1,1 con el patrón 101 en la fila superior: la fila central debe ser 010. Entonces la fila inferior no puede pintar la casilla central, así que puede ser 100 o 001. Da 2 formas.\n\nPor simetria, si el patrón 101 está en la fila inferior, hay otras 2 formas.\n\nTotal: 1+1+2+2=6.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "El archivo IGL marca el reactivo como approved y declara que las respuestas y soluciones restantes fueron revisadas por consistencia matemática. Se conserva la solución rigurosa existente."
+      },
+      "content_origin": "cuantly_diagnostic",
+      "source_answer": 6,
+      "strategy": "Codificar cada fila por patrones posibles sin adyacencia horizontal y después imponer la restricción vertical.",
+      "theory_used": [
+        "Conteo por casos",
+        "Independencia en cuadrícula",
+        "Patrones por fila"
+      ],
+      "theory_not_needed": [
+        "No se requiere fórmula cerrada de grafos"
+      ],
+      "validity_check": "Los casos cubren todas las distribuciones posibles de 4 casillas en 3 filas.",
+      "classification": {
+        "primary_area": "combinatorics",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "conteo_por_casos",
+          "independencia_en_cuadricula",
+          "patrones_por_fila"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Nivel original Cuantly L2; agrupado al nivel público L1–L3."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_diagnostic_l2_alg_001",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · L2",
+      "problem_number": 17,
+      "source_question_label": "L2-ALG-001",
+      "source_page": 17,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Si $x+y=6$ y $xy=7$, encuentra el valor de $x^2+y^2+x^3+y^3$.",
+      "options": [],
+      "correct_answer": "112",
+      "correct_option_label": null,
+      "solution_text": "Usamos la identidad x^2+y^2=(x+y)^2-2xy.\n\nSustituyendo x+y=6 y xy=7, obtenemos x^2+y^2=6^2-2(7)=36-14=22.\n\nUsamos también x^3+y^3=(x+y)^3-3xy(x+y).\n\nEntonces x^3+y^3=6^3-3(7)(6)=216-126=90.\n\nPor tanto x^2+y^2+x^3+y^3=22+90=112.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "El archivo IGL marca el reactivo como approved y declara que las respuestas y soluciones restantes fueron revisadas por consistencia matemática. Se conserva la solución rigurosa existente."
+      },
+      "content_origin": "cuantly_diagnostic",
+      "source_answer": 112,
+      "strategy": "Expresar x^2+y^2 y x^3+y^3 usando solo x+y y xy.",
+      "theory_used": [
+        "Identidades simétricas",
+        "Suma y producto de dos variables"
+      ],
+      "theory_not_needed": [
+        "No se necesita resolver x e y individualmente"
+      ],
+      "validity_check": "La respuesta depende solo de x+y y xy, por eso no importa cuál sea cada raíz individual.",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "identidades_simetricas",
+          "suma_y_producto_de_dos_variables"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Nivel original Cuantly L2; agrupado al nivel público L1–L3."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_diagnostic_l2_geo_001",
+      "collection": "CUANTLY",
+      "subcategory": "Geometría · L2",
+      "problem_number": 18,
+      "source_question_label": "L2-GEO-001",
+      "source_page": 18,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "En un triángulo isósceles $ABC$, con $AB=AC$, se tiene $\\angle A=36^\\circ$. La bisectriz de $\\angle B$ corta a $AC$ en $D$. Demuestra que $BD=AD$.",
+      "options": [],
+      "correct_answer": "BD=AD",
+      "correct_option_label": null,
+      "solution_text": "Como AB=AC, el triángulo ABC es isósceles con base BC.\n\nPor tanto los ángulos de la base son iguales: B=C.\n\nComo A=36 grados, tenemos B+C=144 grados, luego B=C=72 grados.\n\nBD es bisectriz de B, así que ABD=36 grados.\n\nD está sobre AC, por lo que BAD coincide con BAC. Entonces BAD=36 grados.\n\nEn el triángulo ABD, los ángulos BAD y ABD son iguales.\n\nEn todo triángulo, lados opuestos a ángulos iguales son iguales.\n\nEl lado opuesto a BAD es BD y el lado opuesto a ABD es AD. Por tanto BD=AD.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "El archivo IGL marca el reactivo como approved y declara que las respuestas y soluciones restantes fueron revisadas por consistencia matemática. Se conserva la solución rigurosa existente."
+      },
+      "content_origin": "cuantly_diagnostic",
+      "source_answer": "BD=AD",
+      "strategy": "Calcular los ángulos y detectar que el triángulo ABD es isósceles.",
+      "theory_used": [
+        "Triángulo isósceles",
+        "Bisectriz de ángulo",
+        "Lados opuestos a ángulos iguales"
+      ],
+      "theory_not_needed": [
+        "No se requiere ley de senos"
+      ],
+      "validity_check": "La conclusion sale de igualdad de ángulos dentro del triángulo ABD, no de una suposicion sobre longitudes.",
+      "classification": {
+        "primary_area": "geometry",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "triangulo_isosceles",
+          "bisectriz_de_angulo",
+          "lados_opuestos_a_angulos_iguales"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Nivel original Cuantly L2; agrupado al nivel público L1–L3."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_diagnostic_l3_nt_001",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · L3",
+      "problem_number": 19,
+      "source_question_label": "L3-NT-001",
+      "source_page": 19,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Demuestra que no existe entero positivo $n$ tal que $n^2+n+1$ sea múltiplo de $5$ y de $7$ al mismo tiempo.",
+      "options": [],
+      "correct_answer": "No existe tal n",
+      "correct_option_label": null,
+      "solution_text": "Si un número fuera múltiplo de 5 y de 7, en particular sería múltiplo de 5.\n\nPor eso basta probar que n^2+n+1 no puede ser congruente con 0 módulo 5.\n\nTodo entero n es congruente módulo 5 con uno de 0,1,2,3,4.\n\nSi n=0 mod 5, entonces n^2+n+1=1 mod 5.\n\nSi n=1 mod 5, entonces n^2+n+1=1+1+1=3 mod 5.\n\nSi n=2 mod 5, entonces n^2+n+1=4+2+1=7=2 mod 5.\n\nSi n=3 mod 5, entonces n^2+n+1=9+3+1=13=3 mod 5.\n\nSi n=4 mod 5, entonces n^2+n+1=16+4+1=21=1 mod 5.\n\nNunca aparece residuo 0 módulo 5.\n\nPor tanto no existe n positivo tal que n^2+n+1 sea múltiplo de 5 y de 7 a la vez.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "El archivo IGL marca el reactivo como approved y declara que las respuestas y soluciones restantes fueron revisadas por consistencia matemática. Se conserva la solución rigurosa existente."
+      },
+      "content_origin": "cuantly_diagnostic",
+      "source_answer": "No existe tal n",
+      "strategy": "Mostrar que n^2+n+1 nunca es 0 módulo 5.",
+      "theory_used": [
+        "Aritmética modular",
+        "Revision de residuos módulo 5",
+        "Prueba por contradiccion indirecta"
+      ],
+      "theory_not_needed": [
+        "No se necesita revisar módulo 7 porque basta descartar módulo 5"
+      ],
+      "validity_check": "La lista de residuos módulo 5 es completa.",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "aritmetica_modular",
+          "revision_de_residuos_modulo_5",
+          "prueba_por_contradiccion_indirecta"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Nivel original Cuantly L3; agrupado al nivel público L1–L3."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_diagnostic_l3_alg_001",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · L3",
+      "problem_number": 20,
+      "source_question_label": "L3-ALG-001",
+      "source_page": 20,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Sean $a,b,c$ números reales positivos tales que $a+b+c=1$. Demuestra que $ab+bc+ca\\le \\frac{1}{3}$.",
+      "options": [],
+      "correct_answer": "ab+bc+ca <= 1/3",
+      "correct_option_label": null,
+      "solution_text": "Partimos de que todo cuadrado real es no negativo.\n\nEntonces (a-b)^2+(b-c)^2+(c-a)^2>=0.\n\nAl expandir: 2a^2+2b^2+2c^2-2ab-2bc-2ca>=0.\n\nDividiendo entre 2, se obtiene a^2+b^2+c^2>=ab+bc+ca.\n\nComo a+b+c=1, al cuadrar se tiene 1=(a+b+c)^2=a^2+b^2+c^2+2ab+2bc+2ca.\n\nUsando a^2+b^2+c^2>=ab+bc+ca, resulta 1>=3(ab+bc+ca).\n\nPor tanto ab+bc+ca<=1/3.\n\nLa igualdad ocurre cuando a=b=c, y junto con a+b+c=1 da a=b=c=1/3.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "El archivo IGL marca el reactivo como approved y declara que las respuestas y soluciones restantes fueron revisadas por consistencia matemática. Se conserva la solución rigurosa existente."
+      },
+      "content_origin": "cuantly_diagnostic",
+      "source_answer": "ab+bc+ca <= 1/3",
+      "strategy": "Comparar a^2+b^2+c^2 con ab+bc+ca y usar (a+b+c)^2.",
+      "theory_used": [
+        "No negatividad de cuadrados",
+        "Identidad algebraica",
+        "Condición de igualdad"
+      ],
+      "theory_not_needed": [
+        "No se requiere cálculo diferencial"
+      ],
+      "validity_check": "La desigualdad es válida para reales; la positividad solo asegura que el contexto del problema sea geométrico/olímpico usual.",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "no_negatividad_de_cuadrados",
+          "identidad_algebraica",
+          "condicion_de_igualdad"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Nivel original Cuantly L3; agrupado al nivel público L1–L3."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_diagnostic_l3_geo_001",
+      "collection": "CUANTLY",
+      "subcategory": "Geometría · L3",
+      "problem_number": 21,
+      "source_question_label": "L3-GEO-001",
+      "source_page": 21,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "En el triángulo $ABC$, $D$ es el punto medio de $BC$. Por $D$ se traza una recta paralela a $AB$, que corta a $AC$ en $E$. Demuestra que $E$ es punto medio de $AC$.",
+      "options": [],
+      "correct_answer": "E es punto medio de AC",
+      "correct_option_label": null,
+      "solution_text": "Como DE es paralela a AB, el ángulo CDE es igual al ángulo CBA y el ángulo CED es igual al ángulo CAB.\n\nAdemás ambos triángulos comparten el ángulo en C.\n\nPor tanto los triángulos CDE y CBA son semejantes.\n\nDe la semejanza se obtiene CE/CA=CD/CB.\n\nComo D es punto medio de BC, se tiene CD=CB/2.\n\nEntonces CE/CA=1/2, es decir CE=CA/2.\n\nComo E está sobre AC, se tiene AE=AC-CE=AC/2.\n\nLuego AE=EC y E es punto medio de AC.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "El archivo IGL marca el reactivo como approved y declara que las respuestas y soluciones restantes fueron revisadas por consistencia matemática. Se conserva la solución rigurosa existente."
+      },
+      "content_origin": "cuantly_diagnostic",
+      "source_answer": "E es punto medio de AC",
+      "strategy": "Usar la paralela para comparar los triángulos CDE y CBA.",
+      "theory_used": [
+        "Semejanza de triángulos",
+        "Paralelas y ángulos correspondientes",
+        "Teorema del punto medio"
+      ],
+      "theory_not_needed": [
+        "No se requiere coordenadas"
+      ],
+      "validity_check": "La prueba muestra tanto que E está en AC como que divide AC en dos segmentos iguales.",
+      "classification": {
+        "primary_area": "geometry",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "semejanza_de_triangulos",
+          "paralelas_y_angulos_correspondientes",
+          "teorema_del_punto_medio"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Nivel original Cuantly L3; agrupado al nivel público L1–L3."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_diagnostic_l4_nt_001r",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · L4",
+      "problem_number": 22,
+      "source_question_label": "L4-NT-001R",
+      "source_page": 22,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Encuentra todos los enteros positivos $n=p^k$, con $p$ primo y $k\\ge 1$, tales que $n\\mid 2^n+1$.",
+      "options": [],
+      "correct_answer": "n=3^k para k>=1",
+      "correct_option_label": null,
+      "solution_text": "Sea n=p^k, con p primo y k>=1.\n\nSi p=2, entonces n es par. Pero 2^n+1 es impar, así que un número par n no puede dividirlo. Por tanto p no es 2.\n\nSupongamos ahora que p es impar.\n\nPor el pequeño teorema de Fermat, 2^(p-1)=1 módulo p, porque gcd(2,p)=1.\n\nComo p=1 módulo p-1, se tiene p^k=1 módulo p-1.\n\nEntonces 2^(p^k)=2^1=2 módulo p.\n\nSi p^k divide 2^(p^k)+1, entonces en particular p divide 2^(p^k)+1.\n\nPero 2^(p^k)+1=2+1=3 módulo p.\n\nPor tanto p divide 3, y como p es primo se concluye p=3.\n\nFalta probar que n=3^k siempre sirve.\n\nAplicamos LTE a 2^(3^k)+1, con 3 divisor de 2+1 y exponente 3^k impar.\n\nLTE da v_3(2^(3^k)+1)=v_3(2+1)+v_3(3^k)=1+k.\n\nEntonces 3^k divide 2^(3^k)+1.\n\nPor tanto las soluciones son exactamente n=3^k para k>=1.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "El archivo IGL marca el reactivo como approved y declara que las respuestas y soluciones restantes fueron revisadas por consistencia matemática. Se conserva la solución rigurosa existente."
+      },
+      "content_origin": "cuantly_diagnostic",
+      "source_answer": "n=3^k para k>=1",
+      "strategy": "Primero forzar el primo p usando reducción módulo p; después verificar que todas las potencias de 3 funcionan.",
+      "theory_used": [
+        "Pequeño teorema de Fermat",
+        "Congruencias de exponentes módulo p-1",
+        "LTE: lifting the exponent"
+      ],
+      "theory_not_needed": [
+        "No se necesita clasificar todos los n generales, solo potencias de primo"
+      ],
+      "validity_check": "La prueba tiene dos direcciones: necesidad p=3 y suficiencia de todas las potencias 3^k.",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "pequeno_teorema_de_fermat",
+          "congruencias_de_exponentes_modulo_p_1",
+          "lte_lifting_the_exponent"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Nivel original Cuantly L4; agrupado al nivel público L1–L3."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_diagnostic_l4_com_001",
+      "collection": "CUANTLY",
+      "subcategory": "Combinatoria · L4",
+      "problem_number": 23,
+      "source_question_label": "L4-COM-001",
+      "source_page": 23,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Hay $10$ puntos en una mesa y no hay tres colineales. Se trazan todos los segmentos posibles entre pares de puntos. ¿Cuál es el máximo número de segmentos que se pueden colorear de rojo sin formar ningún triángulo completamente rojo?",
+      "options": [],
+      "correct_answer": "25",
+      "correct_option_label": null,
+      "solution_text": "Representamos cada punto como vértice y cada segmento rojo como arista.\n\nNo formar triángulo completamente rojo significa que el grafo rojo no contiene triángulos.\n\nConstrucción: divide los 10 vértices en dos grupos de 5 y 5. Colorea de rojo todos los segmentos entre grupos y ninguno dentro de un mismo grupo.\n\nEse grafo es bipartito, así que no contiene triángulos. Tiene 5*5=25 aristas rojas.\n\nAhora probamos que no puede haber más de 25.\n\nSea G un grafo sin triángulos con n=10 vértices y m aristas. Denota por d(v) el grado de v.\n\nSi uv es una arista, u y v no pueden tener un vecino común, porque ese vecino formaria un triángulo con u y v.\n\nPor eso d(u)+d(v)<=10 para cada arista uv.\n\nSumando d(u)+d(v)<=10 sobre todas las m aristas, se obtiene sum_{uv arista}(d(u)+d(v))<=10m.\n\nEl lado izquierdo es igual a sum_v d(v)^2, porque cada vértice v aparece una vez por cada arista incidente y aporta d(v).\n\nPor Cauchy-Schwarz, sum_v d(v)^2 >= (sum_v d(v))^2/10.\n\nComo sum_v d(v)=2m, resulta sum_v d(v)^2 >= 4m^2/10.\n\nEntonces 4m^2/10 <= 10m, y como m>0 se obtiene m<=25.\n\nLa construcción alcanza 25, así que el máximo es 25.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "El archivo IGL marca el reactivo como approved y declara que las respuestas y soluciones restantes fueron revisadas por consistencia matemática. Se conserva la solución rigurosa existente."
+      },
+      "content_origin": "cuantly_diagnostic",
+      "source_answer": 25,
+      "strategy": "Traducir segmentos rojos a aristas de un grafo y probar la cota máxima de Mantel para 10 vértices.",
+      "theory_used": [
+        "Grafo sin triángulos",
+        "Teorema de Mantel",
+        "Desigualdad de Cauchy-Schwarz",
+        "Construcción bipartita"
+      ],
+      "theory_not_needed": [
+        "No depende de la posición geométrica salvo que no haya tres colineales"
+      ],
+      "validity_check": "La cota superior y la construcción coinciden, por lo que el máximo queda determinado.",
+      "classification": {
+        "primary_area": "combinatorics",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "grafo_sin_triangulos",
+          "teorema_de_mantel",
+          "desigualdad_de_cauchy_schwarz",
+          "construccion_bipartita"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Nivel original Cuantly L4; agrupado al nivel público L1–L3."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_diagnostic_l4_alg_001",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · L4",
+      "problem_number": 24,
+      "source_question_label": "L4-ALG-001",
+      "source_page": 24,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Sean $x,y,z>0$ y $xyz=1$. Demuestra que $x^2+y^2+z^2\\ge x+y+z$.",
+      "options": [],
+      "correct_answer": "x^2+y^2+z^2 >= x+y+z",
+      "correct_option_label": null,
+      "solution_text": "Sea p=x+y+z y q=xy+yz+zx.\n\nComo x,y,z>0 y xyz=1, por AM-GM se tiene p=x+y+z>=3 raíz cúbica de xyz=3.\n\nLa identidad (x-y)^2+(y-z)^2+(z-x)^2>=0 implica x^2+y^2+z^2>=xy+yz+zx.\n\nEn términos de p y q, x^2+y^2+z^2=p^2-2q.\n\nLa desigualdad x^2+y^2+z^2>=q equivale a p^2-2q>=q, es decir q<=p^2/3.\n\nEntonces x^2+y^2+z^2=p^2-2q>=p^2-2(p^2/3)=p^2/3.\n\nComo p>=3, se tiene p^2/3>=p.\n\nPor tanto x^2+y^2+z^2>=p=x+y+z.\n\nLa igualdad ocurre en x=y=z=1.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "El archivo IGL marca el reactivo como approved y declara que las respuestas y soluciones restantes fueron revisadas por consistencia matemática. Se conserva la solución rigurosa existente."
+      },
+      "content_origin": "cuantly_diagnostic",
+      "source_answer": "x^2+y^2+z^2 >= x+y+z",
+      "strategy": "Acotar x^2+y^2+z^2 desde abajo en términos de p=x+y+z, y luego usar p>=3.",
+      "theory_used": [
+        "AM-GM",
+        "Desigualdad (x-y)^2+(y-z)^2+(z-x)^2>=0",
+        "Variables simétricas"
+      ],
+      "theory_not_needed": [
+        "No se requiere normalizar con sustituciones complicadas"
+      ],
+      "validity_check": "Cada desigualdad usada tiene condición de igualdad compatible solo con x=y=z=1.",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "am_gm",
+          "desigualdad_x_y_2_y_z_2_z_x_2_0",
+          "variables_simetricas"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Nivel original Cuantly L4; agrupado al nivel público L1–L3."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_diagnostic_l4_geo_001",
+      "collection": "CUANTLY",
+      "subcategory": "Geometría · L4",
+      "problem_number": 25,
+      "source_question_label": "L4-GEO-001",
+      "source_page": 25,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "En un triángulo acutángulo $ABC$, las alturas se cortan en $H$. Demuestra que $\\angle BHC=180^\\circ-\\angle A$.",
+      "options": [],
+      "correct_answer": "ángulo BHC = 180 grados - ángulo A",
+      "correct_option_label": null,
+      "solution_text": "Como H es el punto de intersección de las alturas, BH es perpendicular a AC y CH es perpendicular a AB.\n\nEn el triángulo ABC, el ángulo entre BC y AC es C. Como BH es perpendicular a AC, el ángulo HBC es 90 grados-C.\n\nDe manera análoga, el ángulo entre CB y BA es B. Como CH es perpendicular a AB, el ángulo HCB es 90 grados-B.\n\nEn el triángulo BHC, la suma de ángulos es 180 grados.\n\nPor tanto BHC=180-(90-C)-(90-B)=B+C.\n\nComo A+B+C=180 grados, se tiene B+C=180-A.\n\nLuego BHC=180 grados-A.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "El archivo IGL marca el reactivo como approved y declara que las respuestas y soluciones restantes fueron revisadas por consistencia matemática. Se conserva la solución rigurosa existente."
+      },
+      "content_origin": "cuantly_diagnostic",
+      "source_answer": "ángulo BHC = 180 grados - ángulo A",
+      "strategy": "Calcular los ángulos HBC y HCB dentro del triángulo BHC.",
+      "theory_used": [
+        "Ortocentro",
+        "Alturas perpendiculares",
+        "Suma de ángulos en triángulo"
+      ],
+      "theory_not_needed": [
+        "No se requiere circunferencia ni trigonometria"
+      ],
+      "validity_check": "La hipótesis acutángulo asegura que H está dentro del triángulo y los ángulos usados son los interiores esperados.",
+      "classification": {
+        "primary_area": "geometry",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "ortocentro",
+          "alturas_perpendiculares",
+          "suma_de_angulos_en_triangulo"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Nivel original Cuantly L4; agrupado al nivel público L1–L3."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_diagnostic_l5_nt_001",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · L5",
+      "problem_number": 26,
+      "source_question_label": "L5-NT-001",
+      "source_page": 26,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Determina todos los pares de enteros positivos $(a,b)$ tales que $a^2+b^2$ divide a $a^3+b^3$.",
+      "options": [],
+      "correct_answer": "Con x,y coprimos y t positivo: si x,y impares, (a,b)=t*((x^2+y^2)/2)*(x,y); si no, (a,b)=t*(x^2+y^2)*(x,y).",
+      "correct_option_label": null,
+      "solution_text": "Sea d=gcd(a,b). Escribimos a=dx y b=dy, donde gcd(x,y)=1.\n\nEntonces a^2+b^2=d^2(x^2+y^2) y a^3+b^3=d^3(x^3+y^3).\n\nLa condición a^2+b^2 | a^3+b^3 equivale a x^2+y^2 | d(x^3+y^3).\n\nSea M=x^2+y^2 y N=x^3+y^3.\n\nNecesitamos determinar h=gcd(M,N).\n\nSupongamos que un primo impar p divide M y N.\n\nComo gcd(x,y)=1, p no puede dividir simultáneamente x e y. Si p divide M=x^2+y^2, tampoco puede dividir solo uno de x,y; por tanto x e y son no nulos módulo p.\n\nDe M=0 módulo p se obtiene x^2=-y^2 módulo p.\n\nAdemás N=x^3+y^3=(x+y)(x^2-xy+y^2).\n\nMódulo p, el segundo factor vale x^2-xy+y^2=-y^2-xy+y^2=-xy, que no es 0 módulo p.\n\nComo p divide N, debe dividir x+y.\n\nEntonces x=-y módulo p. Sustituyendo en M, resulta x^2+y^2=2y^2 módulo p.\n\nComo y no es 0 módulo p y p es impar, 2y^2 no es 0 módulo p. Contradiccion.\n\nAsí, h no tiene primos impares.\n\nSi x,y tienen paridades distintas, M es impar, por lo que h=1.\n\nSi x,y son ambos impares, entonces M=x^2+y^2 es congruente con 2 módulo 4, así que v_2(M)=1; también N=x^3+y^3 es par. Por tanto h=2.\n\nLa condición M | dN equivale a M/h | d.\n\nSi x,y son ambos impares, d debe ser múltiplo de M/2. Entonces d=tM/2.\n\nSi x,y tienen paridades distintas, d debe ser múltiplo de M. Entonces d=tM.\n\nFinalmente a=dx y b=dy, lo que da exactamente las familias indicadas en la respuesta.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "El archivo IGL marca el reactivo como approved y declara que las respuestas y soluciones restantes fueron revisadas por consistencia matemática. Se conserva la solución rigurosa existente."
+      },
+      "content_origin": "cuantly_diagnostic",
+      "source_answer": "Con x,y coprimos y t positivo: si x,y impares, (a,b)=t*((x^2+y^2)/2)*(x,y); si no, (a,b)=t*(x^2+y^2)*(x,y).",
+      "strategy": "Separar el gcd de a y b, calcular gcd(x^2+y^2, x^3+y^3), y convertir la condición en una divisibilidad sobre el factor común.",
+      "theory_used": [
+        "Máximo común divisor",
+        "Reducción por coprimos",
+        "Valuación 2-ádica básica",
+        "Divisibilidad con gcd"
+      ],
+      "theory_not_needed": [
+        "No se requiere factorización única completa de a^2+b^2"
+      ],
+      "validity_check": "La condición obtenida es necesaria y suficiente porque se usó h=gcd(M,N) exactamente.",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "maximo_comun_divisor",
+          "reduccion_por_coprimos",
+          "valuacion_2_adica_basica",
+          "divisibilidad_con_gcd"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Nivel original Cuantly L5; agrupado al nivel público L1–L3."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_diagnostic_l5_com_001",
+      "collection": "CUANTLY",
+      "subcategory": "Combinatoria · L5",
+      "problem_number": 27,
+      "source_question_label": "L5-COM-001",
+      "source_page": 27,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Se escriben los números del $1$ al $2026$ en el pizarrón. En cada paso se eligen dos números $a$ y $b$, se borran, y se escribe $|a-b|$. Después de repetir el proceso hasta que quede un solo número, ¿qué valores finales son posibles?",
+      "options": [],
+      "correct_answer": "Todos los impares de 1 a 2025",
+      "correct_option_label": null,
+      "solution_text": "La suma inicial es S=1+2+...+2026=2026*2027/2=2053351, que es impar.\n\nEn una jugada se reemplazan a y b por |a-b|. Si a>=b, la suma cambia de T a T-a-b+(a-b)=T-2b. Si b>=a, cambia a T-2a.\n\nEn ambos casos la suma cambia por un número par, así que la paridad de la suma se conserva.\n\nComo al final queda un solo número, ese número debe ser impar.\n\nAdemás |a-b|<=max(a,b), por lo que el máximo número escrito nunca aumenta. Al inicio el máximo es 2026, así que el final no puede ser mayor que 2026.\n\nPor necesidad, el final solo puede ser uno de 1,3,5,...,2025.\n\nAhora probamos que cada impar t con 1<=t<=2025 se puede obtener.\n\nSea m=2026-t. Como t es impar, m también es impar, y 1<=m<=2025.\n\nPrimero combinamos los números 2026 y m. Su diferencia es |2026-m|=t.\n\nBasta demostrar que todos los números de {1,2,...,2025} excepto m pueden reducirse a 0, porque al final |t-0|=t.\n\nUsaremos el hecho básico de que cualquier bloque de cuatro números consecutivos k,k+1,k+2,k+3 se reduce a 0: primero |(k+1)-k|=1 y |(k+3)-(k+2)|=1; luego |1-1|=0.\n\nSi m=1, los números 2,3,...,2025 forman 2024 números, cantidad múltiplo de 4, y se parten en bloques de cuatro consecutivos.\n\nSi m=2025, los números 1,2,...,2024 también forman 2024 números y se parten en bloques de cuatro consecutivos.\n\nSi m=1 módulo 4, entonces los números antes de m forman una cantidad múltiplo de 4, y los números después de m también forman una cantidad múltiplo de 4, porque 2025 también es 1 módulo 4.\n\nEn ese caso, partimos ambos lados en bloques de cuatro consecutivos y cada bloque se reduce a 0.\n\nSi m=3 módulo 4, usamos primero los cuatro números m-2,m-1,m+1,m+2. Los pares m-2,m-1 y m+1,m+2 producen dos unos, y esos dos unos producen 0.\n\nDespués de quitar esos cuatro números, los intervalos restantes a la izquierda y a la derecha tienen longitudes múltiplos de 4.\n\nPor tanto esos intervalos también se parten en bloques de cuatro consecutivos, cada uno reducible a 0.\n\nAsí, para cualquier impar t, los números restantes se reducen a 0 y el número producido t permanece.\n\nConcluimos que los valores finales posibles son exactamente todos los impares de 1 a 2025.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "El archivo IGL marca el reactivo como approved y declara que las respuestas y soluciones restantes fueron revisadas por consistencia matemática. Se conserva la solución rigurosa existente."
+      },
+      "content_origin": "cuantly_diagnostic",
+      "source_answer": "Todos los impares de 1 a 2025",
+      "strategy": "Primero probar restricciones necesarias; después construir cada impar posible usando una pareja que produce el objetivo y bloques que se reducen a 0.",
+      "theory_used": [
+        "Invariante de paridad",
+        "Cota por máximo",
+        "Construcción por bloques reducibles a cero"
+      ],
+      "theory_not_needed": [
+        "No se usa argumento probabilístico ni IA; la construcción es explícita"
+      ],
+      "validity_check": "La construcción cubre todos los impares t y respeta la operación permitida en cada paso.",
+      "classification": {
+        "primary_area": "combinatorics",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "invariante_de_paridad",
+          "cota_por_maximo",
+          "construccion_por_bloques_reducibles_a_cero"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Nivel original Cuantly L5; agrupado al nivel público L1–L3."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_diagnostic_l5_alg_001",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · L5",
+      "problem_number": 28,
+      "source_question_label": "L5-ALG-001",
+      "source_page": 28,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Encuentra todos los polinomios $P(x)$ con coeficientes reales tales que $P(x+1)-P(x)=2x+1$ para todo número real $x$.",
+      "options": [],
+      "correct_answer": "P(x)=x^2+C, C real",
+      "correct_option_label": null,
+      "solution_text": "Observamos que (x+1)^2-x^2=2x+1.\n\nPor tanto P(x)=x^2+C funciona para cualquier constante real C.\n\nPara probar que no hay otras soluciones, definimos Q(x)=P(x)-x^2.\n\nEntonces Q(x+1)-Q(x)=P(x+1)-P(x)-((x+1)^2-x^2).\n\nPor la condición del problema, esto es (2x+1)-(2x+1)=0.\n\nAsí que Q(x+1)=Q(x) para todo real x.\n\nSi Q fuera un polinomio no constante de grado r>=1 con coeficiente principal c, entonces Q(x+1)-Q(x) sería un polinomio de grado r-1 con término principal rc x^(r-1), que no es cero.\n\nEsto contradice Q(x+1)-Q(x)=0.\n\nPor tanto Q es constante, y P(x)=x^2+C.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "El archivo IGL marca el reactivo como approved y declara que las respuestas y soluciones restantes fueron revisadas por consistencia matemática. Se conserva la solución rigurosa existente."
+      },
+      "content_origin": "cuantly_diagnostic",
+      "source_answer": "P(x)=x^2+C, C real",
+      "strategy": "Reconocer que x^2 tiene la diferencia exacta 2x+1 y demostrar que la diferencia restante debe ser constante.",
+      "theory_used": [
+        "Diferencias finitas de polinomios",
+        "Polinomio periódico constante"
+      ],
+      "theory_not_needed": [
+        "No se requiere derivacion ni series"
+      ],
+      "validity_check": "Se probaron existencia y unicidad de la forma general.",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "diferencias_finitas_de_polinomios",
+          "polinomio_periodico_constante"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Nivel original Cuantly L5; agrupado al nivel público L1–L3."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_diagnostic_l5_geo_001",
+      "collection": "CUANTLY",
+      "subcategory": "Geometría · L5",
+      "problem_number": 29,
+      "source_question_label": "L5-GEO-001",
+      "source_page": 29,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Sea $ABC$ un triángulo con circuncírculo $\\Gamma$. La bisectriz de $\\angle A$ corta a $BC$ en $D$ y vuelve a cortar a $\\Gamma$ en $E$. Demuestra que $EB=EC$.",
+      "options": [],
+      "correct_answer": "EB=EC",
+      "correct_option_label": null,
+      "solution_text": "Como AE es bisectriz de ángulo A, se tiene BAE=EAC.\n\nLos puntos A,B,C,E están sobre el circuncírculo Gamma.\n\nEl ángulo BAE es un ángulo inscrito que subtiende el arco BE que no contiene a A.\n\nEl ángulo EAC es un ángulo inscrito que subtiende el arco EC que no contiene a A.\n\nEn una circunferencia, ángulos inscritos iguales subtienen arcos iguales.\n\nPor tanto el arco BE es igual al arco EC.\n\nEn una circunferencia, arcos iguales determinan cuerdas iguales.\n\nLuego EB=EC.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "El archivo IGL marca el reactivo como approved y declara que las respuestas y soluciones restantes fueron revisadas por consistencia matemática. Se conserva la solución rigurosa existente."
+      },
+      "content_origin": "cuantly_diagnostic",
+      "source_answer": "EB=EC",
+      "strategy": "Usar que la bisectriz produce ángulos inscritos iguales y por tanto arcos/cuerdas iguales.",
+      "theory_used": [
+        "Ángulos inscritos",
+        "Arcos iguales",
+        "Cuerdas iguales en una circunferencia",
+        "Bisectriz"
+      ],
+      "theory_not_needed": [
+        "No se requiere potencia de punto ni ley de senos"
+      ],
+      "validity_check": "La conclusion usa propiedades de la circunferencia, no depende de donde cae D en BC salvo para definir la bisectriz.",
+      "classification": {
+        "primary_area": "geometry",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "angulos_inscritos",
+          "arcos_iguales",
+          "cuerdas_iguales_en_una_circunferencia",
+          "bisectriz"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Nivel original Cuantly L5; agrupado al nivel público L1–L3."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_diagnostic_l1_nt_004",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · L1",
+      "problem_number": 30,
+      "source_question_label": "L1-NT-004",
+      "source_page": 30,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "¿De los números $12,18,24,30,36$, cuántos son divisibles entre $6$ pero no entre $12$?",
+      "options": [],
+      "correct_answer": "2",
+      "correct_option_label": null,
+      "solution_text": "Cada número de la lista es múltiplo de 6: 12=6*2, 18=6*3, 24=6*4, 30=6*5 y 36=6*6.\n\nEntre ellos, 12=12*1, 24=12*2 y 36=12*3 son múltiplos de 12.\n\nLos números 18 y 30 no son múltiplos de 12.\n\nEntonces exactamente 2 números cumplen ser divisibles entre 6 pero no entre 12.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "El archivo IGL marca el reactivo como approved y declara que las respuestas y soluciones restantes fueron revisadas por consistencia matemática. Se conserva la solución rigurosa existente."
+      },
+      "content_origin": "cuantly_diagnostic",
+      "source_answer": 2,
+      "strategy": "Revisar primero la condición fácil, divisibilidad entre 6, y después eliminar los que también son múltiplos de 12.",
+      "theory_used": [
+        "Divisibilidad",
+        "Múltiplo",
+        "Revision por lista corta"
+      ],
+      "theory_not_needed": [
+        "No se requiere factorización avanzada"
+      ],
+      "validity_check": "La lista completa tiene solo cinco números y cada uno fue clasificado exactamente una vez.",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "divisibilidad",
+          "multiplo",
+          "revision_por_lista_corta"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Nivel original Cuantly L1; agrupado al nivel público L1–L3."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_diagnostic_l1_com_004",
+      "collection": "CUANTLY",
+      "subcategory": "Combinatoria · L1",
+      "problem_number": 31,
+      "source_question_label": "L1-COM-004",
+      "source_page": 31,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Sofía tiene $2$ playeras y $3$ pantalones. Si elige una playera y un pantalón, ¿cuántos atuendos distintos puede formar?",
+      "options": [],
+      "correct_answer": "6",
+      "correct_option_label": null,
+      "solution_text": "Si Sofía usa la primera playera, puede combinarla con cualquiera de los 3 pantalones.\n\nSi usa la segunda playera, también puede combinarla con cualquiera de los 3 pantalones.\n\nEstos casos no se repiten porque la playera elegida es distinta.\n\nPor tanto hay 3+3=6 atuendos, equivalentemente 2*3=6.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "El archivo IGL marca el reactivo como approved y declara que las respuestas y soluciones restantes fueron revisadas por consistencia matemática. Se conserva la solución rigurosa existente."
+      },
+      "content_origin": "cuantly_diagnostic",
+      "source_answer": 6,
+      "strategy": "Multiplicar las opciones independientes: una elección de playera y una elección de pantalón.",
+      "theory_used": [
+        "Principio multiplicativo",
+        "Conteo directo"
+      ],
+      "theory_not_needed": [
+        "No se requiere permutaciones ni combinaciones formales"
+      ],
+      "validity_check": "Se contaron todas las parejas playera-pantalón y ninguna pareja aparece dos veces.",
+      "classification": {
+        "primary_area": "combinatorics",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "principio_multiplicativo",
+          "conteo_directo"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Nivel original Cuantly L1; agrupado al nivel público L1–L3."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_diagnostic_l1_alg_003",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · L1",
+      "problem_number": 32,
+      "source_question_label": "L1-ALG-003",
+      "source_page": 32,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Un número aumentado en $7$ da $20$. ¿Cuál es el doble de ese número?",
+      "options": [],
+      "correct_answer": "26",
+      "correct_option_label": null,
+      "solution_text": "Sea x el número buscado.\n\nLa condición del enunciado es x+7=20.\n\nAl restar 7 a ambos lados se obtiene x=13.\n\nLa pregunta pide el doble del número, así que 2x=2*13=26.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "El archivo IGL marca el reactivo como approved y declara que las respuestas y soluciones restantes fueron revisadas por consistencia matemática. Se conserva la solución rigurosa existente."
+      },
+      "content_origin": "cuantly_diagnostic",
+      "source_answer": 26,
+      "strategy": "Convertir la frase a una ecuación de un paso y luego responder lo que realmente se pide.",
+      "theory_used": [
+        "Ecuación lineal simple",
+        "Operación inversa"
+      ],
+      "theory_not_needed": [
+        "No se requieren sistemas ni factorización"
+      ],
+      "validity_check": "Si el número es 13, entonces 13+7=20 y su doble es 26.",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "ecuacion_lineal_simple",
+          "operacion_inversa"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Nivel original Cuantly L1; agrupado al nivel público L1–L3."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_diagnostic_l1_geo_004",
+      "collection": "CUANTLY",
+      "subcategory": "Geometría · L1",
+      "problem_number": 33,
+      "source_question_label": "L1-GEO-004",
+      "source_page": 33,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Un rectángulo mide $8$ cm de largo y $5$ cm de ancho. Una diagonal lo divide en dos triángulos iguales. ¿Cuál es el área de cada triángulo?",
+      "options": [],
+      "correct_answer": "20",
+      "correct_option_label": null,
+      "solution_text": "El área del rectángulo es largo por ancho, por lo tanto A=8*5=40.\n\nLa diagonal une dos vértices opuestos y separa el rectángulo en dos triángulos congruentes.\n\nTriángulos congruentes tienen la misma área.\n\nEntonces cada triángulo tiene área 40/2=20 centímetros cuadrados.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "El archivo IGL marca el reactivo como approved y declara que las respuestas y soluciones restantes fueron revisadas por consistencia matemática. Se conserva la solución rigurosa existente."
+      },
+      "content_origin": "cuantly_diagnostic",
+      "source_answer": 20,
+      "strategy": "Calcular el área total del rectángulo y dividirla entre dos.",
+      "theory_used": [
+        "Área de rectángulo",
+        "Diagonal de un rectángulo",
+        "Mitad de un área"
+      ],
+      "theory_not_needed": [
+        "No se requiere teorema de Pitágoras"
+      ],
+      "validity_check": "Las dos áreas obtenidas suman 20+20=40, que coincide con el área del rectángulo.",
+      "classification": {
+        "primary_area": "geometry",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "area_de_rectangulo",
+          "diagonal_de_un_rectangulo",
+          "mitad_de_un_area"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Nivel original Cuantly L1; agrupado al nivel público L1–L3."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_diagnostic_l1_log_004",
+      "collection": "CUANTLY",
+      "subcategory": "Razonamiento general · L1",
+      "problem_number": 34,
+      "source_question_label": "L1-LOG-004",
+      "source_page": 34,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Del número $4921508$ se quieren conservar exactamente $3$ cifras, sin cambiar su orden, para formar el menor número posible. ¿Qué número queda y qué cifras se eliminan?",
+      "options": [],
+      "correct_answer": "remaining_number = 108; deleted_digits = 4, 9, 2, 5",
+      "correct_option_label": null,
+      "solution_text": "La primera cifra de un número de tres cifras determina primero su tamaño. Para la centena solo podemos elegir entre las cifras que tienen al menos dos cifras a la derecha: 4,9,2,1,5.\n\nLa menor de esas opciones es 1, por lo tanto cualquier número que no empiece con 1 será mayor.\n\nYa elegido el 1, para la decena quedan 5,0,8. Debemos dejar una cifra para las unidades; la menor opción válida es 0.\n\nDespués del 0 solo queda 8, así que el número formado es 108.\n\nLas cifras eliminadas son las que no se conservaron: 4,9,2,5.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "El archivo IGL marca el reactivo como approved y declara que las respuestas y soluciones restantes fueron revisadas por consistencia matemática. Se conserva la solución rigurosa existente."
+      },
+      "content_origin": "cuantly_diagnostic",
+      "source_answer": {
+        "remaining_number": 108,
+        "deleted_digits": [
+          4,
+          9,
+          2,
+          5
+        ]
+      },
+      "strategy": "Elegir de izquierda a derecha la cifra más pequeña posible que todavía permita completar tres cifras.",
+      "theory_used": [
+        "Orden posicional",
+        "Comparacion de números",
+        "Estrategia codiciosa simple"
+      ],
+      "theory_not_needed": [
+        "No se requiere probar todas las combinaciones"
+      ],
+      "validity_check": "Cualquier número que empiece con 2,4,5 o 9 es mayor que uno que empieza con 1; entre los que empiezan con 1, 108 es menor que 150 y 158.",
+      "classification": null
+    },
+    {
+      "source_id": "cuantly_diagnostic_l2_nt_002",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · L2",
+      "problem_number": 35,
+      "source_question_label": "L2-NT-002",
+      "source_page": 35,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "¿Cuántas cifras tiene el número $2^{1998}\\cdot 5^{2002}$?",
+      "options": [],
+      "correct_answer": "2001",
+      "correct_option_label": null,
+      "solution_text": "Usamos 5^2002=5^1998*5^4.\n\nEntonces 2^1998*5^2002=2^1998*5^1998*5^4.\n\nLa parte 2^1998*5^1998 es (2*5)^1998=10^1998.\n\nComo 5^4=625, el número es 625*10^1998.\n\nMultiplicar por 10^1998 agrega 1998 ceros a 625.\n\nPor tanto el número tiene 3+1998=2001 cifras.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "El archivo IGL marca el reactivo como approved y declara que las respuestas y soluciones restantes fueron revisadas por consistencia matemática. Se conserva la solución rigurosa existente."
+      },
+      "content_origin": "cuantly_diagnostic",
+      "source_answer": 2001,
+      "strategy": "Emparejar factores 2 y 5 para formar potencias de 10.",
+      "theory_used": [
+        "Leyes de exponentes",
+        "Potencias de 10",
+        "Conteo de cifras"
+      ],
+      "theory_not_needed": [
+        "No se calcula el número completo"
+      ],
+      "validity_check": "625*10^1998 empieza con 625 y luego tiene 1998 ceros, así que el conteo de cifras es exacto.",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "leyes_de_exponentes",
+          "potencias_de_10",
+          "conteo_de_cifras"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Nivel original Cuantly L2; agrupado al nivel público L1–L3."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_diagnostic_l2_com_002",
+      "collection": "CUANTLY",
+      "subcategory": "Combinatoria · L2",
+      "problem_number": 36,
+      "source_question_label": "L2-COM-002",
+      "source_page": 36,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Una clave tiene $4$ casillas y en cada casilla se escribe R o A. ¿Cuántas claves tienen al menos una R y al menos una A?",
+      "options": [],
+      "correct_answer": "14",
+      "correct_option_label": null,
+      "solution_text": "Cada casilla puede elegirse de 2 maneras: R o A.\n\nComo hay 4 casillas independientes, el número total de claves es 2*2*2*2=16.\n\nUna clave falla la condición si no tiene R o si no tiene A.\n\nLa única clave sin A es RRRR, y la única clave sin R es AAAA.\n\nAl quitar esas dos claves, quedan 16-2=14 claves válidas.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "El archivo IGL marca el reactivo como approved y declara que las respuestas y soluciones restantes fueron revisadas por consistencia matemática. Se conserva la solución rigurosa existente."
+      },
+      "content_origin": "cuantly_diagnostic",
+      "source_answer": 14,
+      "strategy": "Contar todas las claves y restar las dos que no mezclan símbolos.",
+      "theory_used": [
+        "Principio multiplicativo",
+        "Complemento",
+        "Conteo de cadenas cortas"
+      ],
+      "theory_not_needed": [
+        "No se requiere inclusion-exclusion avanzada"
+      ],
+      "validity_check": "Las dos claves eliminadas son las únicas que no contienen ambos símbolos.",
+      "classification": {
+        "primary_area": "combinatorics",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "principio_multiplicativo",
+          "complemento",
+          "conteo_de_cadenas_cortas"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Nivel original Cuantly L2; agrupado al nivel público L1–L3."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_diagnostic_l2_alg_002",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · L2",
+      "problem_number": 37,
+      "source_question_label": "L2-ALG-002",
+      "source_page": 37,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Si $CANGUROS=10000\\cdot CANG+UROS$, simplifica $10000\\cdot UROS-10000\\cdot CANG+CANGUROS$.",
+      "options": [],
+      "correct_answer": "UROSUROS",
+      "correct_option_label": null,
+      "solution_text": "Por valor posicional, CANGUROS=10000*CANG+UROS.\n\nEntonces la expresión es 10000*UROS-10000*CANG+(10000*CANG+UROS).\n\nAl reagrupar, se obtiene 10000*UROS+(-10000*CANG+10000*CANG)+UROS.\n\nEl parentesis central vale 0.\n\nLa expresión queda 10000*UROS+UROS.\n\nMultiplicar UROS por 10000 desplaza el bloque cuatro lugares, así que 10000*UROS+UROS representa UROSUROS.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "El archivo IGL marca el reactivo como approved y declara que las respuestas y soluciones restantes fueron revisadas por consistencia matemática. Se conserva la solución rigurosa existente."
+      },
+      "content_origin": "cuantly_diagnostic",
+      "source_answer": "UROSUROS",
+      "strategy": "Escribir el número de ocho cifras como dos bloques de cuatro cifras y cancelar términos.",
+      "theory_used": [
+        "Sistema decimal posicional",
+        "Sustitución algebraica",
+        "Cancelación"
+      ],
+      "theory_not_needed": [
+        "No se necesitan valores concretos para las letras"
+      ],
+      "validity_check": "La simplificación no depende de los dígitos particulares; solo usa la estructura decimal de dos bloques de cuatro cifras.",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "sistema_decimal_posicional",
+          "sustitucion_algebraica",
+          "cancelacion"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Nivel original Cuantly L2; agrupado al nivel público L1–L3."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_diagnostic_l2_geo_002",
+      "collection": "CUANTLY",
+      "subcategory": "Geometría · L2",
+      "problem_number": 38,
+      "source_question_label": "L2-GEO-002",
+      "source_page": 38,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Se arma un cubo de alambre de $3$ cm de lado, dividido como una cuadrícula de $3\\times3\\times3$ cubitos de $1$ cm. ¿Cuántos centímetros de alambre hay en total?",
+      "options": [],
+      "correct_answer": "144",
+      "correct_option_label": null,
+      "solution_text": "En una cuadrícula de 3 por 3 por 3 cubitos, sobre cada dirección aparecen 4 posiciones en una coordenada y 4 posiciones en la otra coordenada.\n\nPor eso hay 4*4=16 líneas paralelas en cada dirección.\n\nCada una de esas líneas recorre todo el lado del cubo y mide 3 cm.\n\nLa longitud de alambre por una dirección es 16*3=48 cm.\n\nComo hay tres direcciones perpendiculares, el total es 3*48=144 cm.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "El archivo IGL marca el reactivo como approved y declara que las respuestas y soluciones restantes fueron revisadas por consistencia matemática. Se conserva la solución rigurosa existente."
+      },
+      "content_origin": "cuantly_diagnostic",
+      "source_answer": 144,
+      "strategy": "Contar las líneas de alambre por dirección y multiplicar por las tres direcciones del cubo.",
+      "theory_used": [
+        "Conteo espacial",
+        "Aristas paralelas",
+        "Multiplicación"
+      ],
+      "theory_not_needed": [
+        "No se requiere volumen ni fórmula avanzada"
+      ],
+      "validity_check": "Equivale a contar 16 líneas horizontales, 16 de profundidad y 16 verticales, todas de longitud 3.",
+      "classification": {
+        "primary_area": "geometry",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "conteo_espacial",
+          "aristas_paralelas",
+          "multiplicacion"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Nivel original Cuantly L2; agrupado al nivel público L1–L3."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_diagnostic_l2_log_001",
+      "collection": "CUANTLY",
+      "subcategory": "Razonamiento general · L2",
+      "problem_number": 39,
+      "source_question_label": "L2-LOG-001",
+      "source_page": 39,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Una rana sube una escalera de $6$ escalones. En cada salto puede subir $1$ o $2$ escalones. ¿De cuántas formas distintas puede llegar exactamente al escalón $6$?",
+      "options": [],
+      "correct_answer": "13",
+      "correct_option_label": null,
+      "solution_text": "Definimos f(n) como el número de formas de llegar exactamente al escalón n.\n\nSi el último salto mide 1, antes se estaba en el escalón n-1; hay f(n-1) formas de hacer eso.\n\nSi el último salto mide 2, antes se estaba en el escalón n-2; hay f(n-2) formas de hacer eso.\n\nEstos dos tipos de camino no se traslapan, entonces f(n)=f(n-1)+f(n-2).\n\nSe tiene f(1)=1: solo 1. También f(2)=2: 1+1 o 2.\n\nCalculando: f(3)=3, f(4)=5, f(5)=8 y f(6)=13.\n\nPor tanto hay 13 formas.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "El archivo IGL marca el reactivo como approved y declara que las respuestas y soluciones restantes fueron revisadas por consistencia matemática. Se conserva la solución rigurosa existente."
+      },
+      "content_origin": "cuantly_diagnostic",
+      "source_answer": 13,
+      "strategy": "Contar formas según el último salto, porque todo camino al escalón 6 termina viniendo del 5 o del 4.",
+      "theory_used": [
+        "Recurrencia simple",
+        "Casos por último paso",
+        "Patrón Fibonacci"
+      ],
+      "theory_not_needed": [
+        "No se requiere fórmula cerrada"
+      ],
+      "validity_check": "La recurrencia clasifica todos los caminos por su último salto, y un camino no puede terminar simultáneamente con salto de 1 y salto de 2.",
+      "classification": null
+    }
+  ]
+}

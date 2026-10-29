@@ -24,18 +24,24 @@ https://drive.google.com/drive/folders/1Xssooej0URvwWicw1GCeVMZyboKXUpiD
 ├── GAU55/
 │   ├── 2023/Estatal/
 │   └── 2024/Estatal/
+├── FUSION/
+├── IGL/
 └── GAU55_2023_2024_media_structural_audit.json
 
 04_REFERENCE_SOURCES/
 └── GAU55/
 
 05_CLASSIFIED_EXAMS/
-└── GAU55/
-    ├── 2023/Estatal/
-    └── 2024/Estatal/
+├── GAU55/
+│   ├── 2023/Estatal/
+│   └── 2024/Estatal/
+├── CUANTLY/Sin fecha/
+│   ├── Entrenamiento olímpico/{Álgebra, Geometría, Teoría de números, Probabilidad}/
+│   └── Diagnóstico adaptativo/L1-L5/
+└── OMM-Canguro/Sin fecha/Banco de práctica/Problemas introductorios/
 ```
 
-La jerarquía, nombres de archivo y contenido se conservan desde Drive.
+La estructura histórica de GAU55 se conserva desde Drive; los bancos IGL nuevos se documentan en su sección de integración.
 
 Git no representa directorios vacíos, por lo que los niveles clasificados vacíos se mantienen mediante archivos `.gitkeep`.
 
@@ -62,3 +68,11 @@ Consulta el [avance y las rutas publicadas](03_SCHEMA_AND_REPORTS/FUSION/publica
 
 Los lotes incluyen JSON verificados/clasificados, soluciones didácticas, figuras matemáticas limpias y reportes de comparación visual, comprobación matemática, LaTeX y validación estructural. Un validador estructural no demuestra por sí solo corrección matemática.
 <!-- FUSION_PROGRESS_END -->
+
+## IGL: bancos de práctica olímpica
+
+Se añadieron **336 problemas en seis colecciones públicas** desde [IGLx0_CUANTLY_CERMAT](https://github.com/MarioIbago/IGLx0_CUANTLY_CERMAT), commit [`61486a2`](https://github.com/MarioIbago/IGLx0_CUANTLY_CERMAT/commit/61486a2a31d239abccd145730073531e1b238477): cuatro lotes de entrenamiento Cuantly por tema (200 problemas), el diagnóstico adaptativo Cuantly (39) y 97 reactivos OMM. La colección visible `OMM-Canguro` conserva `source_competition: "OMM"`; el origen no confirma una edición anual ni que cada reactivo pertenezca a una edición de Canguro.
+
+Los enunciados, respuestas y soluciones existentes se copiaron de IGL. Las 25 figuras geométricas provienen de escenas SVG existentes en IGL; 49 GIF estáticos de OMM se convierten a PNG, con 36 figuras en enunciados y 13 reservadas para las soluciones. El lector muestra estas últimas solo al abrir la solución. No se crearon problemas ni soluciones. Cuando IGL no aporta explicación individual de distractores OMM, `option_analysis` queda vacío; no se generan explicaciones.
+
+Los bancos no identifican año, así que lo conservan como `null` con evidencia. En el diagnóstico, cinco reactivos de razonamiento general quedan sin área porque no existe esa categoría en el esquema publicado. `source_page` conserva el orden de registro empezando en 1, pues el origen es JSON sin paginación; `source_question_label` mantiene el ID original. El informe y las rutas están en [`03_SCHEMA_AND_REPORTS/IGL/`](03_SCHEMA_AND_REPORTS/IGL/README.md). El validador estructural comprueba hashes, dimensiones y decodificación de imágenes de enunciado y solución; no certifica matemáticas ni fidelidad visual.

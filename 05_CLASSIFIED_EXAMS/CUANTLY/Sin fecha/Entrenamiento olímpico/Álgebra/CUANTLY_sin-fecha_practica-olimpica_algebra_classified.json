@@ -1,0 +1,4097 @@
+{
+  "schema_version": "1.0",
+  "source_format_reference": "https://github.com/MarioIbago/cuantly-repository-bank/blob/main/03_SCHEMA_AND_REPORTS/FUSION/OPEN_ANSWER_CONTRACT.md",
+  "exam": {
+    "competition": "CUANTLY",
+    "source_competition": "Cuantly",
+    "year": null,
+    "year_status": "not_confirmed",
+    "year_evidence": "El archivo fuente es un banco continuo de práctica y no identifica edición anual. No se asigna año por estilo, nivel o numeración.",
+    "phase": "Entrenamiento olímpico",
+    "level": "Álgebra",
+    "school_level": "No especificado",
+    "problem_count": 50,
+    "source_file": "IGLx0_CUANTLY_CERMAT/src/data/olimpico-algebra-extension.json",
+    "source_sha256": "35d4afcf6f4b25e746ed62318c2599fd0e94c341851b9b26eb40e8d37ec60e74",
+    "image_policy": "Los enunciados no incluyen archivos de imagen en el origen; se conserva el contenido textual y matemático de IGL.",
+    "classification_phase": "completed",
+    "difficulty_phase": "completed"
+  },
+  "validation_summary": {
+    "verified_problems": 50,
+    "needs_review_or_invalid": 0,
+    "needs_review_problem_numbers": []
+  },
+  "problems": [
+    {
+      "source_id": "cuantly_alg_001",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · ecuaciones lineales, sistemas y condiciones entre variables",
+      "problem_number": 1,
+      "source_question_label": "ALG-001",
+      "source_page": 1,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Dos enteros positivos \\(x<y\\) suman \\(37\\). Al dividir y entre x, el cociente es \\(2\\) y el residuo es \\(4\\). ¿Cuál es el producto xy?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(286\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(242\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(264\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(308\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(330\\)"
+        }
+      ],
+      "correct_answer": "\\(286\\)",
+      "correct_option_label": "a",
+      "solution_text": "Como \\(y=2x+4\\) y \\(x+y=37\\), se tiene \\(x+2x+4=37\\). Entonces \\(3x=33\\), de modo que \\(x=11\\) y \\(y=26\\). Por tanto, \\(xy=11\\cdot26=286\\). Además, \\(26=2\\cdot11+4\\), y el residuo \\(4\\) es menor que el divisor \\(11\\), así que la interpretación es válida.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Satisface simultáneamente la suma y la división con residuo.",
+          "is_correct": true
+        },
+        {
+          "label": "b",
+          "reason": "Corresponde a usar \\(x=11\\) y \\(y=22\\), ignorando el residuo.",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "Surge de tomar \\(x=12\\) y \\(y=22\\), que no suman \\(37\\).",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "Aparece al usar \\(y=2x+6\\).",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "Resulta de escoger \\(x=10\\) y \\(y=33\\), que no cumple el cociente.",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: La pareja \\((11,26)\\) verifica \\(11+26=37\\) y \\(26=2\\cdot11+4\\).\n\nCasos límite IGL: Se revisó que \\(x,y\\) sean positivos, que \\(x<y\\) y que \\(0\\le4<x\\)."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 151,
+      "accepted_answers": [],
+      "strategy": "La división con residuo da \\(y=2x+4\\).",
+      "theory_used": [
+        "ecuaciones con enteros",
+        "división con residuo",
+        "traducir condiciones",
+        "resolver un sistema"
+      ],
+      "validity_check": "verified · La pareja \\((11,26)\\) verifica \\(11+26=37\\) y \\(26=2\\cdot11+4\\). · Se revisó que \\(x,y\\) sean positivos, que \\(x<y\\) y que \\(0\\le4<x\\).",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "ecuaciones_con_enteros",
+          "division_con_residuo",
+          "traducir_condiciones",
+          "resolver_un_sistema"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Hay que convertir la información del cociente y el residuo en una segunda ecuación."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_alg_002",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · ecuaciones lineales, sistemas y condiciones entre variables",
+      "problem_number": 2,
+      "source_question_label": "ALG-002",
+      "source_page": 2,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Dos números reales x y y cumplen \\(x+y=12\\) y \\(x^{2}+y^{2}=74\\). ¿Cuál es el valor de \\(\\lvert x^{2}-y^{2}\\rvert\\)?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(12\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(24\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(18\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(36\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(48\\)"
+        }
+      ],
+      "correct_answer": "\\(24\\)",
+      "correct_option_label": "b",
+      "solution_text": "De \\((x+y)^{2}=x^{2}+y^{2}+2xy\\), resulta \\(144=74+2xy\\), así que \\(xy=35\\). Entonces \\((x-y)^{2}=x^{2}+y^{2}-2xy=74-70=4\\), por lo que \\(\\lvert x-y\\rvert=2\\). Finalmente, \\(\\lvert x^{2}-y^{2}\\rvert=\\lvert x-y\\rvert\\lvert x+y\\rvert=2\\cdot12=24\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Usa solo \\(\\lvert x-y\\rvert\\cdot6\\).",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "Es el valor obtenido por las dos identidades y es único.",
+          "is_correct": true
+        },
+        {
+          "label": "c",
+          "reason": "Confunde \\(\\lvert x-y\\rvert\\) con \\(x^2-y^2\\).",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "Toma \\((x-y)^2\\cdot9\\).",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "Multiplica erróneamente \\((x-y)^2\\) por \\(12\\).",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Las soluciones son \\(x=7,y=5\\) o al revés; en ambos casos \\(\\lvert49-25\\rvert=24\\).\n\nCasos límite IGL: Se comprobó que existen soluciones reales y que el valor absoluto elimina el orden."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 152,
+      "accepted_answers": [],
+      "strategy": "Primero se obtiene \\(\\lvert x-y\\rvert\\) y luego se usa \\(x^2-y^2=(x-y)(x+y)\\).",
+      "theory_used": [
+        "suma y producto implícito",
+        "identidades cuadráticas",
+        "usar identidades",
+        "evitar resolver variables"
+      ],
+      "validity_check": "verified · Las soluciones son \\(x=7,y=5\\) o al revés; en ambos casos \\(\\lvert49-25\\rvert=24\\). · Se comprobó que existen soluciones reales y que el valor absoluto elimina el orden.",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "suma_y_producto_implicito",
+          "identidades_cuadraticas",
+          "usar_identidades",
+          "evitar_resolver_variables"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La cantidad pedida se obtiene conectando dos identidades sin hallar \\(x\\) y \\(y\\) por separado."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_alg_003",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · ecuaciones lineales, sistemas y condiciones entre variables",
+      "problem_number": 3,
+      "source_question_label": "ALG-003",
+      "source_page": 3,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Los números reales x,y,z cumplen \\(x+y+z=9\\), \\(xy+yz+zx=23\\) y \\(xyz=15\\). Calcula \\(x^{3}+y^{3}+z^{3}\\).",
+      "options": [],
+      "correct_answer": "\\(153\\)",
+      "correct_option_label": null,
+      "solution_text": "La identidad simétrica da \\(x^{3}+y^{3}+z^{3}=9^{3}-3\\cdot9\\cdot23+3\\cdot15\\). Esto es \\(729-621+45=153\\). Los datos son compatibles: \\(1,3,5\\) tienen suma \\(9\\), suma de productos por pares \\(23\\) y producto \\(15\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Sustituyendo \\(x,y,z=1,3,5\\), se obtiene \\(1+27+125=153\\).\n\nCasos límite IGL: La expresión pedida es simétrica, por lo que cualquier permutación produce el mismo resultado."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 153,
+      "accepted_answers": [
+        "153"
+      ],
+      "strategy": "Usar \\(x^3+y^3+z^3=(x+y+z)^3-3(x+y+z)(xy+yz+zx)+3xyz\\).",
+      "theory_used": [
+        "sumas simétricas",
+        "identidad de cubos",
+        "reconocer simetría",
+        "evaluar sin resolver raíces"
+      ],
+      "validity_check": "verified · Sustituyendo \\(x,y,z=1,3,5\\), se obtiene \\(1+27+125=153\\). · La expresión pedida es simétrica, por lo que cualquier permutación produce el mismo resultado.",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "sumas_simetricas",
+          "identidad_de_cubos",
+          "reconocer_simetria",
+          "evaluar_sin_resolver_raices"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Requiere identificar una identidad simétrica de tercer grado."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_alg_004",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · ecuaciones lineales, sistemas y condiciones entre variables",
+      "problem_number": 4,
+      "source_question_label": "ALG-004",
+      "source_page": 4,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Los números reales x,y,z satisfacen \\(2x+y+z=18\\), \\(x+2y+z=20\\) y \\(x+y+2z=22\\). ¿Cuánto vale \\(x^{2}+y^{2}+z^{2}\\)?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(75\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(79\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(83\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(87\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(91\\)"
+        }
+      ],
+      "correct_answer": "\\(83\\)",
+      "correct_option_label": "c",
+      "solution_text": "Al restar la primera ecuación de la segunda se obtiene \\(y-x=2\\), y al restar la segunda de la tercera se obtiene \\(z-y=2\\). Sumando las tres ecuaciones resulta \\(4(x+y+z)=60\\), así que \\(x+y+z=15\\). Por tanto, las variables son tres términos consecutivos con diferencia \\(2\\): \\(x=3,y=5,z=7\\). Luego \\(x^{2}+y^{2}+z^{2}=9+25+49=83\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Proviene de usar \\(2,5,7\\), que no satisface la primera ecuación.",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "Aparece al omitir uno de los cuadrados.",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "Es la suma correcta \\(3^2+5^2+7^2\\).",
+          "is_correct": true
+        },
+        {
+          "label": "d",
+          "reason": "Surge al tomar \\(x=4,y=5,z=7\\).",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "Resulta de sumar \\(3,5,7\\) antes de elevar al cuadrado de manera incorrecta.",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: La sustitución de \\((3,5,7)\\) produce \\(18,20,22\\) en las tres ecuaciones.\n\nCasos límite IGL: El sistema tiene solución única; no hay restricciones de denominadores o signos."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 154,
+      "accepted_answers": [],
+      "strategy": "Restar ecuaciones y después sumar las tres.",
+      "theory_used": [
+        "sistema simétrico",
+        "eliminación por diferencias",
+        "resolver un sistema",
+        "calcular una expresión"
+      ],
+      "validity_check": "verified · La sustitución de \\((3,5,7)\\) produce \\(18,20,22\\) en las tres ecuaciones. · El sistema tiene solución única; no hay restricciones de denominadores o signos.",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "sistema_simetrico",
+          "eliminacion_por_diferencias",
+          "resolver_un_sistema",
+          "calcular_una_expresion"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Las diferencias entre ecuaciones revelan las diferencias entre variables antes de hallar su suma."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_alg_005",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · ecuaciones lineales, sistemas y condiciones entre variables",
+      "problem_number": 5,
+      "source_question_label": "ALG-005",
+      "source_page": 5,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Los números reales x,y,z cumplen \\(x+y+z=12\\), \\(x+2y+4z=27\\) y \\(2x+y+z=17\\). Calcula xyz.",
+      "options": [],
+      "correct_answer": "\\(60\\)",
+      "correct_option_label": null,
+      "solution_text": "Al restar \\(x+y+z=12\\) de \\(2x+y+z=17\\), se obtiene \\(x=5\\). Entonces \\(y+z=7\\). Al restar la primera ecuación de \\(x+2y+4z=27\\), resulta \\(y+3z=15\\). Sustituyendo \\(y=7-z\\): \\(7-z+3z=15\\), de donde \\(z=4\\) y \\(y=3\\). Por ello, \\(xyz=5\\cdot3\\cdot4=60\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: La terna \\((5,3,4)\\) satisface las tres ecuaciones y su producto es \\(60\\).\n\nCasos límite IGL: La matriz del sistema es invertible, así que no existen otras ternas reales."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 155,
+      "accepted_answers": [
+        "60"
+      ],
+      "strategy": "Restar la primera ecuación de las otras dos para aislar relaciones simples.",
+      "theory_used": [
+        "sistema de tres variables",
+        "producto de soluciones",
+        "eliminar variables",
+        "comprobar una terna"
+      ],
+      "validity_check": "verified · La terna \\((5,3,4)\\) satisface las tres ecuaciones y su producto es \\(60\\). · La matriz del sistema es invertible, así que no existen otras ternas reales.",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "sistema_de_tres_variables",
+          "producto_de_soluciones",
+          "eliminar_variables",
+          "comprobar_una_terna"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La información está distribuida entre tres ecuaciones y debe combinarse de forma eficiente."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_alg_006",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · ecuaciones lineales, sistemas y condiciones entre variables",
+      "problem_number": 6,
+      "source_question_label": "ALG-006",
+      "source_page": 6,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Tres enteros positivos p,q,r cumplen \\(p+q=18\\), \\(q+r=28\\) y \\(p+r=24\\). ¿Cuál es el producto pqr?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(1122\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(1190\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(1232\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(1309\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(1428\\)"
+        }
+      ],
+      "correct_answer": "\\(1309\\)",
+      "correct_option_label": "d",
+      "solution_text": "Sumando las tres relaciones se obtiene \\(2(p+q+r)=70\\), por lo que \\(p+q+r=35\\). Entonces \\(p=35-(q+r)=7\\), \\(q=35-(p+r)=11\\) y \\(r=35-(p+q)=17\\). Por tanto, \\(pqr=7\\cdot11\\cdot17=1309\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Usa \\(p=6,q=11,r=17\\), que no cumple \\(p+q=18\\).",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "Surge de un error al dividir \\(70\\) entre \\(2\\).",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "Corresponde a multiplicar \\(7\\cdot11\\cdot16\\).",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "Es el producto de la única terna \\((7,11,17)\\).",
+          "is_correct": true
+        },
+        {
+          "label": "e",
+          "reason": "Aparece al tomar \\(r=18\\).",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Las sumas \\(7+11=18\\), \\(11+17=28\\) y \\(7+17=24\\) confirman la terna.\n\nCasos límite IGL: Se verificaron positividad, integridad y unicidad."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 156,
+      "accepted_answers": [],
+      "strategy": "La suma de las tres ecuaciones da dos veces la suma total.",
+      "theory_used": [
+        "sumas por pares",
+        "reconstrucción de variables",
+        "sumar ecuaciones",
+        "recuperar una terna"
+      ],
+      "validity_check": "verified · Las sumas \\(7+11=18\\), \\(11+17=28\\) y \\(7+17=24\\) confirman la terna. · Se verificaron positividad, integridad y unicidad.",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "sumas_por_pares",
+          "reconstruccion_de_variables",
+          "sumar_ecuaciones",
+          "recuperar_una_terna"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Hay que reconstruir cada variable a partir de tres sumas superpuestas."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_alg_007",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · ecuaciones lineales, sistemas y condiciones entre variables",
+      "problem_number": 7,
+      "source_question_label": "ALG-007",
+      "source_page": 7,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Un entero positivo \\(x>1\\) satisface \\(\\frac{1}{x-1}+\\frac{1}{x+1}=\\frac{3}{4}\\). Encuentra x.",
+      "options": [],
+      "correct_answer": "\\(3\\)",
+      "correct_option_label": null,
+      "solution_text": "El lado izquierdo es \\(\\frac{(x+1)+(x-1)}{x^{2}-1}=\\frac{2x}{x^{2}-1}\\). Así, \\(\\frac{2x}{x^{2}-1}=\\frac{3}{4}\\), y como \\(x>1\\), el denominador no es cero. Al multiplicar en cruz: \\(8x=3x^{2}-3\\), es decir, \\(3x^{2}-8x-3=0\\). Factorizando, \\((3x+1)(x-3)=0\\), de donde \\(x=3\\) o \\(x=-\\frac{1}{3}\\). Solo \\(x=3\\) es entero positivo mayor que \\(1\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: La sustitución \\(x=3\\) da \\(\\frac12+\\frac14=\\frac34\\).\n\nCasos límite IGL: Se excluyeron \\(x=\\pm1\\) por los denominadores y la raíz negativa por el dominio."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 157,
+      "accepted_answers": [
+        "3"
+      ],
+      "strategy": "Combinar las fracciones y usar la restricción \\(x>1\\).",
+      "theory_used": [
+        "ecuación racional",
+        "restricción entera",
+        "eliminar denominadores",
+        "filtrar soluciones"
+      ],
+      "validity_check": "verified · La sustitución \\(x=3\\) da \\(\\frac12+\\frac14=\\frac34\\). · Se excluyeron \\(x=\\pm1\\) por los denominadores y la raíz negativa por el dominio.",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "ecuacion_racional",
+          "restriccion_entera",
+          "eliminar_denominadores",
+          "filtrar_soluciones"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La ecuación racional produce dos raíces algebraicas, pero el dominio entero selecciona una sola."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_alg_008",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · ecuaciones lineales, sistemas y condiciones entre variables",
+      "problem_number": 8,
+      "source_question_label": "ALG-008",
+      "source_page": 8,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Los números reales a y b cumplen \\(a+b=15\\) y \\(ab=44\\). ¿Cuál es el valor de \\(a^{3}+b^{3}\\)?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(1175\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(1285\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(1505\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(1615\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(1395\\)"
+        }
+      ],
+      "correct_answer": "\\(1395\\)",
+      "correct_option_label": "e",
+      "solution_text": "Aplicando la identidad, \\(a^{3}+b^{3}=15^{3}-3\\cdot44\\cdot15\\). Se obtiene \\(3375-1980=1395\\). Los datos corresponden a las raíces \\(4\\) y \\(11\\), pero no es necesario encontrarlas para evaluar la expresión.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Omite parte del término \\(3ab(a+b)\\).",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "Usa \\(2ab(a+b)\\) en vez de \\(3ab(a+b)\\).",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "Resta solo \\(3ab\\).",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "Suma el término cruzado en lugar de restarlo.",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "Es la evaluación exacta de la identidad cúbica.",
+          "is_correct": true
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Con \\(a,b=4,11\\), se verifica \\(4^3+11^3=64+1331=1395\\).\n\nCasos límite IGL: El intercambio de \\(a\\) y \\(b\\) no cambia la expresión."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 158,
+      "accepted_answers": [],
+      "strategy": "Usar \\(a^3+b^3=(a+b)^3-3ab(a+b)\\).",
+      "theory_used": [
+        "sumas simétricas",
+        "cubos de dos variables",
+        "usar una identidad",
+        "evitar hallar raíces"
+      ],
+      "validity_check": "verified · Con \\(a,b=4,11\\), se verifica \\(4^3+11^3=64+1331=1395\\). · El intercambio de \\(a\\) y \\(b\\) no cambia la expresión.",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "sumas_simetricas",
+          "cubos_de_dos_variables",
+          "usar_una_identidad",
+          "evitar_hallar_raices"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La respuesta se obtiene con una identidad cúbica sin determinar el orden de \\(a\\) y \\(b\\)."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_alg_009",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · ecuaciones lineales, sistemas y condiciones entre variables",
+      "problem_number": 9,
+      "source_question_label": "ALG-009",
+      "source_page": 9,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Tres números positivos están en progresión aritmética. Su suma es \\(21\\) y su producto es \\(315\\). ¿Cuál es la diferencia común?",
+      "options": [],
+      "correct_answer": "\\(2\\)",
+      "correct_option_label": null,
+      "solution_text": "Como los tres términos están en progresión aritmética y suman \\(21\\), el término central es \\(7\\). Sean \\(7-d,7,7+d\\). Su producto es \\(7(49-d^{2})=315\\). Dividiendo entre \\(7\\), \\(49-d^{2}=45\\), así que \\(d^{2}=4\\). La diferencia común es positiva, por lo que \\(d=2\\). Los términos son \\(5,7,9\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: La terna \\(5,7,9\\) suma \\(21\\) y tiene producto \\(315\\).\n\nCasos límite IGL: Se tomó la diferencia común positiva; el signo negativo solo invertiría el orden."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 159,
+      "accepted_answers": [
+        "2"
+      ],
+      "strategy": "Representar los términos como \\(7-d,7,7+d\\).",
+      "theory_used": [
+        "progresión aritmética",
+        "ecuación cuadrática",
+        "modelar una progresión",
+        "usar simetría"
+      ],
+      "validity_check": "verified · La terna \\(5,7,9\\) suma \\(21\\) y tiene producto \\(315\\). · Se tomó la diferencia común positiva; el signo negativo solo invertiría el orden.",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "progresion_aritmetica",
+          "ecuacion_cuadratica",
+          "modelar_una_progresion",
+          "usar_simetria"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La suma fija determina el término central y reduce el producto a una diferencia de cuadrados."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_alg_010",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · factorización, productos notables e identidades algebraicas",
+      "problem_number": 10,
+      "source_question_label": "ALG-010",
+      "source_page": 10,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Evalúa \\(1003\\cdot997-1001\\cdot999\\) sin efectuar las multiplicaciones largas.",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(-8\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(-12\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(-4\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(4\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(8\\)"
+        }
+      ],
+      "correct_answer": "\\(-8\\)",
+      "correct_option_label": "a",
+      "solution_text": "Se tiene \\(1003\\cdot997=(1000+3)(1000-3)=1000^{2}-9\\). También, \\(1001\\cdot999=(1000+1)(1000-1)=1000^{2}-1\\). Al restar, \\((1000^{2}-9)-(1000^{2}-1)=-8\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Es la diferencia correcta entre \\(1000^2-9\\) y \\(1000^2-1\\).",
+          "is_correct": true
+        },
+        {
+          "label": "b",
+          "reason": "Resulta de restar \\(9+3\\) sin comparar los dos productos.",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "Surge al olvidar el signo exterior de la segunda expresión.",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "Invierte el orden de la resta.",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "Toma la diferencia de las separaciones \\(3-1\\) y la eleva al cubo.",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: La multiplicación directa da \\(999991-999999=-8\\).\n\nCasos límite IGL: No hay variables ni aproximaciones; todas las operaciones son enteras exactas."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 160,
+      "accepted_answers": [],
+      "strategy": "Escribir ambos productos en torno a \\(1000\\).",
+      "theory_used": [
+        "diferencia de cuadrados",
+        "comparación de productos",
+        "factorizar mentalmente",
+        "usar un centro común"
+      ],
+      "validity_check": "verified · La multiplicación directa da \\(999991-999999=-8\\). · No hay variables ni aproximaciones; todas las operaciones son enteras exactas.",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "diferencia_de_cuadrados",
+          "comparacion_de_productos",
+          "factorizar_mentalmente",
+          "usar_un_centro_comun"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Los dos productos deben reconocerse como diferencias de cuadrados alrededor del mismo centro."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_alg_011",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · factorización, productos notables e identidades algebraicas",
+      "problem_number": 11,
+      "source_question_label": "ALG-011",
+      "source_page": 11,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Para un número real no nulo x, se cumple \\(x+\\frac{1}{x}=3\\). Calcula \\(x^{5}+\\frac1{x^5}\\).",
+      "options": [],
+      "correct_answer": "\\(123\\)",
+      "correct_option_label": null,
+      "solution_text": "Sea \\(S_{n}=x^{n}+\\frac1{x^n}\\). Como \\(x+\\frac{1}{x}=3\\), al multiplicar \\(S_{n-1}\\) por \\(3\\) se obtiene \\(S_{n}+S_{n-2}\\), por lo que \\(S_{n}=3S_{n-1}-S_{n-2}\\). Con \\(S_{0}=2\\) y \\(S_{1}=3\\): \\(S_{2}=7\\), \\(S_{3}=18\\), \\(S_{4}=47\\) y \\(S_{5}=123\\). Por tanto, el valor pedido es \\(123\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: La identidad directa produce \\(S_2=3^2-2=7\\), \\(S_3=3\\cdot7-3=18\\), \\(S_4=3\\cdot18-7=47\\) y \\(S_5=3\\cdot47-18=123\\).\n\nCasos límite IGL: Se declaró \\(x\\ne0\\); las dos raíces posibles dan la misma expresión simétrica."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 161,
+      "accepted_answers": [
+        "123"
+      ],
+      "strategy": "Definir \\(S_n=x^n+x^{-n}\\) y usar \\(S_n=3S_{n-1}-S_{n-2}\\).",
+      "theory_used": [
+        "identidades con recíprocos",
+        "recurrencia algebraica",
+        "construir potencias simétricas",
+        "usar recurrencias"
+      ],
+      "validity_check": "verified · La identidad directa produce \\(S_2=3^2-2=7\\), \\(S_3=3\\cdot7-3=18\\), \\(S_4=3\\cdot18-7=47\\) y \\(S_5=3\\cdot47-18=123\\). · Se declaró \\(x\\ne0\\); las dos raíces posibles dan la misma expresión simétrica.",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "identidades_con_reciprocos",
+          "recurrencia_algebraica",
+          "construir_potencias_simetricas",
+          "usar_recurrencias"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Requiere construir sucesivamente potencias simétricas sin resolver la cuadrática para \\(x\\)."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_alg_012",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · factorización, productos notables e identidades algebraicas",
+      "problem_number": 12,
+      "source_question_label": "ALG-012",
+      "source_page": 12,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Evalúa \\(2026^{3}-2025\\cdot2026\\cdot2027\\).",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(0\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(2026\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(1\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(2025\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(2027\\)"
+        }
+      ],
+      "correct_answer": "\\(2026\\)",
+      "correct_option_label": "b",
+      "solution_text": "Factorizando \\(2026\\), la expresión es \\(2026\\bigl(2026^{2}-2025\\cdot2027\\bigr)\\). Como \\(2025\\cdot2027=(2026-1)(2026+1)=2026^{2}-1\\), el paréntesis vale \\(1\\). Por tanto, el resultado es \\(2026\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Supone erróneamente que los dos términos son iguales.",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "Es el factor común multiplicado por \\(1\\).",
+          "is_correct": true
+        },
+        {
+          "label": "c",
+          "reason": "Confunde la diferencia interior con el producto total.",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "Toma solo uno de los factores vecinos.",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "Usa el mayor de los tres enteros como resultado.",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: La identidad \\((n-1)(n+1)=n^2-1\\) con \\(n=2026\\) confirma el valor.\n\nCasos límite IGL: Todas las cantidades son enteras y no se requiere aproximación."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 162,
+      "accepted_answers": [],
+      "strategy": "Sacar \\(2026\\) como factor común.",
+      "theory_used": [
+        "factor común",
+        "diferencia de cuadrados",
+        "extraer factores",
+        "evitar expansión"
+      ],
+      "validity_check": "verified · La identidad \\((n-1)(n+1)=n^2-1\\) con \\(n=2026\\) confirma el valor. · Todas las cantidades son enteras y no se requiere aproximación.",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "factor_comun",
+          "diferencia_de_cuadrados",
+          "extraer_factores",
+          "evitar_expansion"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La expresión parece cúbica, pero un factor común la reduce a una diferencia de cuadrados consecutivos."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_alg_013",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · factorización, productos notables e identidades algebraicas",
+      "problem_number": 13,
+      "source_question_label": "ALG-013",
+      "source_page": 13,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Los números reales a,b,c satisfacen \\(a+b+c=0\\), \\(a^{2}+b^{2}+c^{2}=14\\) y \\(abc=6\\). Calcula \\(a^{3}+b^{3}+c^{3}\\).",
+      "options": [],
+      "correct_answer": "\\(18\\)",
+      "correct_option_label": null,
+      "solution_text": "La identidad \\(a^{3}+b^{3}+c^{3}-3abc=(a+b+c)(a^{2}+b^{2}+c^{2}-ab-bc-ca)\\) muestra que, al ser \\(a+b+c=0\\), se cumple \\(a^{3}+b^{3}+c^{3}=3abc\\). Como \\(abc=6\\), el valor es \\(18\\). Los datos son compatibles, por ejemplo con \\((-1,-2,3)\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Con \\((-1,-2,3)\\), la suma de cubos es \\(-1-8+27=18\\).\n\nCasos límite IGL: La segunda condición confirma compatibilidad, aunque no es necesaria tras aplicar la identidad."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 163,
+      "accepted_answers": [
+        "18"
+      ],
+      "strategy": "Usar \\(a^3+b^3+c^3-3abc=(a+b+c)(a^2+b^2+c^2-ab-bc-ca)\\).",
+      "theory_used": [
+        "identidad de suma de cubos",
+        "condición de suma nula",
+        "usar una identidad cúbica",
+        "comprobar compatibilidad"
+      ],
+      "validity_check": "verified · Con \\((-1,-2,3)\\), la suma de cubos es \\(-1-8+27=18\\). · La segunda condición confirma compatibilidad, aunque no es necesaria tras aplicar la identidad.",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "identidad_de_suma_de_cubos",
+          "condicion_de_suma_nula",
+          "usar_una_identidad_cubica",
+          "comprobar_compatibilidad"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La condición de suma nula activa una identidad especial de tres cubos."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_alg_014",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · factorización, productos notables e identidades algebraicas",
+      "problem_number": 14,
+      "source_question_label": "ALG-014",
+      "source_page": 14,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Para x real, ¿cuál es el menor valor posible de \\((x+1)(x+2)(x+3)(x+4)+1\\)?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(-1\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(1\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(0\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(4\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(16\\)"
+        }
+      ],
+      "correct_answer": "\\(0\\)",
+      "correct_option_label": "c",
+      "solution_text": "Se agrupa \\((x+1)(x+4)=x^{2}+5x+4\\) y \\((x+2)(x+3)=x^{2}+5x+6\\). Si \\(u=x^{2}+5x+5\\), esos factores son \\(u-1\\) y \\(u+1\\). Por tanto, el producto más \\(1\\) es \\((u-1)(u+1)+1=u^{2}\\), que nunca es negativo. Como la ecuación \\(x^{2}+5x+5=0\\) tiene discriminante \\(25-20=5>0\\), sí existen valores reales con \\(u=0\\). El mínimo es \\(0\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Un cuadrado no puede alcanzar \\(-1\\).",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "Confunde el mínimo de un cuadrado con \\(1\\).",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "Es alcanzable cuando \\(x^2+5x+5=0\\).",
+          "is_correct": true
+        },
+        {
+          "label": "d",
+          "reason": "No considera que el cuadrado puede ser cero.",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "Proviene de evaluar solo en enteros.",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: La expresión se simplifica exactamente a \\((x^2+5x+5)^2\\), cuyo mínimo real es \\(0\\).\n\nCasos límite IGL: Se comprobó que las raíces que hacen cero el cuadrado son reales."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 164,
+      "accepted_answers": [],
+      "strategy": "Emparejar factores exteriores e interiores alrededor de la misma expresión.",
+      "theory_used": [
+        "producto de cuatro factores",
+        "mínimo de un cuadrado",
+        "reagrupar factores",
+        "hallar un mínimo"
+      ],
+      "validity_check": "verified · La expresión se simplifica exactamente a \\((x^2+5x+5)^2\\), cuyo mínimo real es \\(0\\). · Se comprobó que las raíces que hacen cero el cuadrado son reales.",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "producto_de_cuatro_factores",
+          "minimo_de_un_cuadrado",
+          "reagrupar_factores",
+          "hallar_un_minimo"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "El producto de cuatro factores consecutivos debe reagruparse para convertirse en un cuadrado perfecto."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_alg_015",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · factorización, productos notables e identidades algebraicas",
+      "problem_number": 15,
+      "source_question_label": "ALG-015",
+      "source_page": 15,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Los números reales x,y cumplen \\(x-y=4\\) y \\(xy=5\\). Calcula \\(x^{4}+y^{4}\\).",
+      "options": [],
+      "correct_answer": "\\(626\\)",
+      "correct_option_label": null,
+      "solution_text": "De \\((x-y)^{2}=16\\) se obtiene \\(x^{2}+y^{2}=16+2xy=26\\). Entonces \\(x^{4}+y^{4}=(x^{2}+y^{2})^{2}-2x^{2}y^{2}=26^{2}-2\\cdot25=676-50=626\\). No es necesario resolver individualmente x y y.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Las raíces de \\(t^2-4t-5=0\\) son \\(5\\) y \\(-1\\); \\(5^4+(-1)^4=625+1=626\\).\n\nCasos límite IGL: Las dos posibles asignaciones de \\(x,y\\) producen el mismo valor."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 165,
+      "accepted_answers": [
+        "626"
+      ],
+      "strategy": "Usar \\((x-y)^2=x^2+y^2-2xy\\).",
+      "theory_used": [
+        "potencias simétricas",
+        "diferencia y producto",
+        "derivar sumas de potencias",
+        "usar identidades"
+      ],
+      "validity_check": "verified · Las raíces de \\(t^2-4t-5=0\\) son \\(5\\) y \\(-1\\); \\(5^4+(-1)^4=625+1=626\\). · Las dos posibles asignaciones de \\(x,y\\) producen el mismo valor.",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "potencias_simetricas",
+          "diferencia_y_producto",
+          "derivar_sumas_de_potencias",
+          "usar_identidades"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La información dada determina primero \\(x^2+y^2\\) y luego la cuarta potencia simétrica."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_alg_016",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · factorización, productos notables e identidades algebraicas",
+      "problem_number": 16,
+      "source_question_label": "ALG-016",
+      "source_page": 16,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Un entero positivo n satisface \\((n+1)(n+2)(n+3)(n+4)+1=3025\\). ¿Cuál es n?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(3\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(4\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(6\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(5\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(7\\)"
+        }
+      ],
+      "correct_answer": "\\(5\\)",
+      "correct_option_label": "d",
+      "solution_text": "Como en la identidad anterior, \\((n+1)(n+2)(n+3)(n+4)+1=(n^{2}+5n+5)^{2}\\). Entonces \\((n^{2}+5n+5)^{2}=3025=55^{2}\\). Para \\(n>0\\), \\(n^{2}+5n+5>0\\), así que \\(n^{2}+5n+5=55\\). De aquí, \\(n^{2}+5n-50=0=(n-5)(n+10)\\). La única raíz positiva es \\(n=5\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Produce un valor menor que \\(3025\\).",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "Surge al resolver mal \\(n^2+5n=50\\).",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "Aparece al tomar \\(n^2+5n=60\\).",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "Es la única raíz positiva y satisface la ecuación.",
+          "is_correct": true
+        },
+        {
+          "label": "e",
+          "reason": "Da un producto demasiado grande.",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Con \\(n=5\\), \\(6\\cdot7\\cdot8\\cdot9+1=3024+1=3025\\).\n\nCasos límite IGL: La raíz negativa \\(-10\\) se descartó por el dominio positivo."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 166,
+      "accepted_answers": [],
+      "strategy": "Reagrupar para obtener \\((n^2+5n+5)^2\\).",
+      "theory_used": [
+        "producto de consecutivos",
+        "identidad cuadrática",
+        "reconocer un cuadrado",
+        "resolver una ecuación entera"
+      ],
+      "validity_check": "verified · Con \\(n=5\\), \\(6\\cdot7\\cdot8\\cdot9+1=3024+1=3025\\). · La raíz negativa \\(-10\\) se descartó por el dominio positivo.",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "producto_de_consecutivos",
+          "identidad_cuadratica",
+          "reconocer_un_cuadrado",
+          "resolver_una_ecuacion_entera"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La identidad del producto de cuatro consecutivos reduce una ecuación de grado cuatro a un cuadrado."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_alg_017",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · factorización, productos notables e identidades algebraicas",
+      "problem_number": 17,
+      "source_question_label": "ALG-017",
+      "source_page": 17,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Un número real x satisface \\(x^{2}-6x=7\\). Calcula \\((x-3)^{6}\\).",
+      "options": [],
+      "correct_answer": "\\(4096\\)",
+      "correct_option_label": null,
+      "solution_text": "Al sumar \\(9\\) a ambos lados se obtiene \\(x^{2}-6x+9=16\\), es decir, \\((x-3)^{2}=16\\). Entonces \\((x-3)^{6}=((x-3)^{2})^{3}=16^{3}=4096\\). Las dos soluciones \\(x=7\\) y \\(x=-1\\) producen el mismo valor.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Para \\(x=7\\) o \\(x=-1\\), \\(x-3=\\pm4\\), y \\((\\pm4)^6=4096\\).\n\nCasos límite IGL: Se revisaron ambas raíces reales y la potencia par hace única la respuesta."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 167,
+      "accepted_answers": [
+        "4096"
+      ],
+      "strategy": "Completar el cuadrado sumando \\(9\\).",
+      "theory_used": [
+        "completar el cuadrado",
+        "potencia par",
+        "transformar una ecuación",
+        "evitar resolver raíces"
+      ],
+      "validity_check": "verified · Para \\(x=7\\) o \\(x=-1\\), \\(x-3=\\pm4\\), y \\((\\pm4)^6=4096\\). · Se revisaron ambas raíces reales y la potencia par hace única la respuesta.",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "completar_el_cuadrado",
+          "potencia_par",
+          "transformar_una_ecuacion",
+          "evitar_resolver_raices"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La ecuación determina directamente un cuadrado y la potencia par elimina la elección de signo."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_alg_018",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · polinomios, divisibilidad de polinomios y evaluación inteligente",
+      "problem_number": 18,
+      "source_question_label": "ALG-018",
+      "source_page": 18,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Sea \\(P(x)=x^{4}+ax^{3}+bx^{2}+ax+1\\). Se sabe que P(x) es divisible entre \\(x^{2}+x+1\\) y que \\(P(1)=18\\). ¿Cuánto vale \\(a^{2}+b^{2}\\)?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(41\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(50\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(72\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(85\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(61\\)"
+        }
+      ],
+      "correct_answer": "\\(61\\)",
+      "correct_option_label": "e",
+      "solution_text": "Módulo \\(x^{2}+x+1\\), se tiene \\(x^{3}\\equiv1\\) y \\(x^{4}\\equiv x\\). Por tanto, \\(P(x)\\equiv x+a+b(-x-1)+ax+1\\). El coeficiente de x y el término constante son ambos \\(a+1-b\\), así que la divisibilidad exige \\(b=a+1\\). Además, \\(P(1)=2+2a+b=18\\). Sustituyendo \\(b=a+1\\): \\(3a+3=18\\), de donde \\(a=5\\), \\(b=6\\). Luego \\(a^{2}+b^{2}=25+36=61\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Corresponde a \\(a=4,b=5\\), que no da \\(P(1)=18\\).",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "Usa \\(a=5,b=5\\), ignorando la divisibilidad.",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "Aparece al sumar los cuadrados de \\(6\\) y \\(6\\).",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "Proviene de usar \\(a=6,b=7\\).",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "Es el valor de \\(5^2+6^2\\).",
+          "is_correct": true
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Con \\(a=5,b=6\\), la división simbólica de \\(P\\) entre \\(x^2+x+1\\) tiene residuo cero y \\(P(1)=18\\).\n\nCasos límite IGL: El divisor es mónico; la relación de residuo es necesaria y suficiente."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 168,
+      "accepted_answers": [],
+      "strategy": "Reducir las potencias usando \\(x^2+x+1=0\\).",
+      "theory_used": [
+        "divisibilidad de polinomios",
+        "polinomio recíproco",
+        "reducir módulo un polinomio",
+        "usar evaluación adicional"
+      ],
+      "validity_check": "verified · Con \\(a=5,b=6\\), la división simbólica de \\(P\\) entre \\(x^2+x+1\\) tiene residuo cero y \\(P(1)=18\\). · El divisor es mónico; la relación de residuo es necesaria y suficiente.",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "divisibilidad_de_polinomios",
+          "polinomio_reciproco",
+          "reducir_modulo_un_polinomio",
+          "usar_evaluacion_adicional"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La divisibilidad impone una relación entre coeficientes y la evaluación en \\(1\\) completa la información."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_alg_019",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · polinomios, divisibilidad de polinomios y evaluación inteligente",
+      "problem_number": 19,
+      "source_question_label": "ALG-019",
+      "source_page": 19,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "El polinomio \\(P(x)=x^{3}+ax^{2}+bx+6\\) es divisible entre \\((x-1)(x+2)\\). Calcula \\(a^{2}+b^{2}\\).",
+      "options": [],
+      "correct_answer": "\\(29\\)",
+      "correct_option_label": null,
+      "solution_text": "La divisibilidad implica \\(P(1)=1+a+b+6=0\\), así que \\(a+b=-7\\). También, \\(P(-2)=-8+4a-2b+6=0\\), por lo que \\(2a-b=1\\). Sumando adecuadamente, \\(3a=-6\\), así que \\(a=-2\\) y \\(b=-5\\). Entonces \\(a^{2}+b^{2}=4+25=29\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Con \\(a=-2,b=-5\\), \\(P(x)=x^3-2x^2-5x+6=(x-1)(x+2)(x-3)\\).\n\nCasos límite IGL: Las dos ecuaciones lineales son independientes y determinan una única pareja."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 169,
+      "accepted_answers": [
+        "29"
+      ],
+      "strategy": "Usar \\(P(1)=0\\) y \\(P(-2)=0\\).",
+      "theory_used": [
+        "raíces de un divisor",
+        "coeficientes desconocidos",
+        "aplicar el teorema del factor",
+        "resolver parámetros"
+      ],
+      "validity_check": "verified · Con \\(a=-2,b=-5\\), \\(P(x)=x^3-2x^2-5x+6=(x-1)(x+2)(x-3)\\). · Las dos ecuaciones lineales son independientes y determinan una única pareja.",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "raices_de_un_divisor",
+          "coeficientes_desconocidos",
+          "aplicar_el_teorema_del_factor",
+          "resolver_parametros"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Dos raíces impuestas producen un sistema lineal en los coeficientes."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_alg_020",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · polinomios, divisibilidad de polinomios y evaluación inteligente",
+      "problem_number": 20,
+      "source_question_label": "ALG-020",
+      "source_page": 20,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Al dividir \\(S(x)=1+x+x^{2}+\\cdots+x^{2026}\\) entre \\(x^{2}+x+1\\), se obtiene un residuo R(x) de grado menor que \\(2\\). ¿Cuánto vale \\(R(1)\\)?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(2\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(0\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(1\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(3\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(2027\\)"
+        }
+      ],
+      "correct_answer": "\\(2\\)",
+      "correct_option_label": "a",
+      "solution_text": "Los primeros \\(2025\\) términos, desde \\(x^{0}\\) hasta \\(x^{2024}\\), forman \\(675\\) bloques de la forma \\(x^{3k}(1+x+x^{2})\\), cada uno divisible entre \\(x^{2}+x+1\\). Quedan \\(x^{2025}+x^{2026}\\). Como \\(x^{3}\\equiv1\\), se tiene \\(x^{2025}\\equiv1\\) y \\(x^{2026}\\equiv x\\). Así, \\(R(x)=1+x\\), y \\(R(1)=2\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Es la suma de coeficientes del residuo \\(1+x\\).",
+          "is_correct": true
+        },
+        {
+          "label": "b",
+          "reason": "Ignora los dos términos finales.",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "Conserva solo uno de los términos restantes.",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "Cuenta tres términos finales por un error de índice.",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "Confunde \\(S(1)\\) con \\(R(1)\\).",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: La división simbólica para exponentes congruentes módulo \\(3\\) confirma \\(R(x)=x+1\\).\n\nCasos límite IGL: Se revisó que \\(2025\\) es múltiplo de \\(3\\) y que el residuo tiene grado menor que \\(2\\)."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 170,
+      "accepted_answers": [],
+      "strategy": "Usar \\(1+x+x^2\\equiv0\\) y \\(x^3\\equiv1\\).",
+      "theory_used": [
+        "residuo de una serie geométrica",
+        "periodicidad modular",
+        "agrupar potencias",
+        "evaluar un residuo"
+      ],
+      "validity_check": "verified · La división simbólica para exponentes congruentes módulo \\(3\\) confirma \\(R(x)=x+1\\). · Se revisó que \\(2025\\) es múltiplo de \\(3\\) y que el residuo tiene grado menor que \\(2\\).",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "residuo_de_una_serie_geometrica",
+          "periodicidad_modular",
+          "agrupar_potencias",
+          "evaluar_un_residuo"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La gran cantidad de términos se reduce mediante bloques de tres."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_alg_021",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · polinomios, divisibilidad de polinomios y evaluación inteligente",
+      "problem_number": 21,
+      "source_question_label": "ALG-021",
+      "source_page": 21,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Sea \\(Q(x)=x^{4}-4x^{3}+9x^{2}-13x+6\\). Al dividirlo entre \\(x-2\\), se obtiene un cociente exacto C(x). Calcula \\(C(3)\\).",
+      "options": [],
+      "correct_answer": "\\(21\\)",
+      "correct_option_label": null,
+      "solution_text": "Como la división es exacta, \\(Q(x)=(x-2)C(x)\\). Al tomar \\(x=3\\), se obtiene \\(Q(3)=C(3)\\). Calculando, \\(Q(3)=81-108+81-39+6=21\\). Por tanto, \\(C(3)=21\\). De hecho, la división da \\(C(x)=x^{3}-2x^{2}+5x-3\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: La división sintética produce \\(C(x)=x^3-2x^2+5x-3\\), y \\(C(3)=27-18+15-3=21\\).\n\nCasos límite IGL: Se comprobó \\(Q(2)=0\\), por lo que el cociente es exacto."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 171,
+      "accepted_answers": [
+        "21"
+      ],
+      "strategy": "Usar \\(Q(x)=(x-2)C(x)\\) y evaluar en \\(x=3\\).",
+      "theory_used": [
+        "cociente de polinomios",
+        "evaluación sin dividir",
+        "usar una identidad de cociente",
+        "evaluar polinomios"
+      ],
+      "validity_check": "verified · La división sintética produce \\(C(x)=x^3-2x^2+5x-3\\), y \\(C(3)=27-18+15-3=21\\). · Se comprobó \\(Q(2)=0\\), por lo que el cociente es exacto.",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "cociente_de_polinomios",
+          "evaluacion_sin_dividir",
+          "usar_una_identidad_de_cociente",
+          "evaluar_polinomios"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La evaluación del cociente puede obtenerse sin desarrollar toda la división."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_alg_022",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · polinomios, divisibilidad de polinomios y evaluación inteligente",
+      "problem_number": 22,
+      "source_question_label": "ALG-022",
+      "source_page": 22,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Un polinomio mónico \\(P\\) de grado \\(2\\) cumple \\(P(1)=4\\) y \\(P(3)=16\\). ¿Cuánto vale \\(P(10)\\)?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(100\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(110\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(120\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(121\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(132\\)"
+        }
+      ],
+      "correct_answer": "\\(121\\)",
+      "correct_option_label": "d",
+      "solution_text": "Escribamos \\(P(x)=x^{2}+ax+b\\). De \\(P(1)=4\\) se obtiene \\(a+b=3\\), mientras que \\(P(3)=16\\) da \\(3a+b=7\\). Restando, \\(2a=4\\), así que \\(a=2\\) y \\(b=1\\). Por tanto, \\(P(x)=x^{2}+2x+1=(x+1)^{2}\\), y \\(P(10)=11^{2}=121\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Evalúa erróneamente \\(10^2\\) e ignora los demás términos.",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "Usa \\(x^2+x\\) en lugar de \\(x^2+2x+1\\).",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "Omite el término constante \\(1\\).",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "Es \\(P(10)=(10+1)^2\\).",
+          "is_correct": true
+        },
+        {
+          "label": "e",
+          "reason": "Suma \\(12\\) de más al cuadrado correcto.",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: El polinomio \\(P(x)-(x+1)^2\\) es lineal y se anula en \\(1\\) y \\(3\\), por lo que es idénticamente cero.\n\nCasos límite IGL: La monicidad y dos evaluaciones distintas determinan un único polinomio cuadrático."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 172,
+      "accepted_answers": [],
+      "strategy": "Comparar \\(P(x)\\) con el cuadrado mónico \\((x+1)^2\\), que coincide en dos puntos.",
+      "theory_used": [
+        "interpolación cuadrática",
+        "simetría de valores",
+        "reconstruir un polinomio",
+        "aprovechar raíces de una diferencia"
+      ],
+      "validity_check": "verified · El polinomio \\(P(x)-(x+1)^2\\) es lineal y se anula en \\(1\\) y \\(3\\), por lo que es idénticamente cero. · La monicidad y dos evaluaciones distintas determinan un único polinomio cuadrático.",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "interpolacion_cuadratica",
+          "simetria_de_valores",
+          "reconstruir_un_polinomio",
+          "aprovechar_raices_de_una_diferencia"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Dos evaluaciones determinan los coeficientes, pero reconocer el cuadrado perfecto permite cerrar el problema elegantemente."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_alg_023",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · polinomios, divisibilidad de polinomios y evaluación inteligente",
+      "problem_number": 23,
+      "source_question_label": "ALG-023",
+      "source_page": 23,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Un polinomio mónico \\(P\\) de grado \\(3\\) cumple \\(P(0)=1\\) y \\(P(x+1)-P(x)=3x^{2}+3x+2\\) para todo real x. Calcula \\(P(10)\\).",
+      "options": [],
+      "correct_answer": "\\(1011\\)",
+      "correct_option_label": null,
+      "solution_text": "Se observa que \\((x+1)^{3}-x^{3}=3x^{2}+3x+1\\), y además \\((x+1)-x=1\\). Por tanto, el polinomio \\(Q(x)=x^{3}+x\\) satisface \\(Q(x+1)-Q(x)=3x^{2}+3x+2\\). La diferencia \\(P(x)-Q(x)\\) tiene diferencia finita cero, así que es constante. Como \\(P(0)=1\\) y \\(Q(0)=0\\), resulta \\(P(x)=x^{3}+x+1\\). Entonces \\(P(10)=1000+10+1=1011\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Al sustituir \\(P(x)=x^3+x+1\\), la diferencia es exactamente \\(3x^2+3x+2\\) y \\(P(0)=1\\).\n\nCasos límite IGL: Dos polinomios con la misma diferencia \\(P(x+1)-P(x)\\) difieren en una constante; el valor inicial fija esa constante."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 173,
+      "accepted_answers": [
+        "1011"
+      ],
+      "strategy": "La diferencia dada coincide con la de \\(x^3+x\\).",
+      "theory_used": [
+        "interpolación cúbica",
+        "polinomio desplazado",
+        "factorizar por raíces",
+        "evaluar inteligentemente"
+      ],
+      "validity_check": "verified · Al sustituir \\(P(x)=x^3+x+1\\), la diferencia es exactamente \\(3x^2+3x+2\\) y \\(P(0)=1\\). · Dos polinomios con la misma diferencia \\(P(x+1)-P(x)\\) difieren en una constante; el valor inicial fija esa constante.",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "interpolacion_cubica",
+          "polinomio_desplazado",
+          "factorizar_por_raices",
+          "evaluar_inteligentemente"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Hay que reconocer una diferencia finita cúbica y justificar el término constante restante."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_alg_024",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · polinomios, divisibilidad de polinomios y evaluación inteligente",
+      "problem_number": 24,
+      "source_question_label": "ALG-024",
+      "source_page": 24,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Un polinomio mónico \\(Q\\) de grado \\(2\\) cumple \\(Q(0)=12\\) y \\(Q(1)=6\\). ¿Cuál es el cuadrado de la distancia entre sus dos raíces?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(0\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(1\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(4\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(9\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(25\\)"
+        }
+      ],
+      "correct_answer": "\\(1\\)",
+      "correct_option_label": "b",
+      "solution_text": "Sea \\(Q(x)=x^{2}+ax+12\\). La condición \\(Q(1)=6\\) da \\(1+a+12=6\\), por lo que \\(a=-7\\). Así, \\(Q(x)=x^{2}-7x+12\\). Si sus raíces son r,s, entonces \\((r-s)^{2}=(r+s)^{2}-4rs=7^{2}-4\\cdot12=49-48=1\\). Por tanto, el cuadrado de la distancia entre las raíces es \\(1\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Supondría una raíz doble, pero el discriminante no es cero.",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "Es \\((r-s)^2=49-48\\).",
+          "is_correct": true
+        },
+        {
+          "label": "c",
+          "reason": "Confunde la distancia con la diferencia entre \\(12\\) y \\(8\\).",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "Usa una diferencia de raíces igual a \\(3\\), incompatible con suma \\(7\\) y producto \\(12\\).",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "Proviene de restar incorrectamente \\(49-24\\).",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: La factorización \\(Q(x)=(x-3)(x-4)\\) muestra que las raíces distan \\(1\\).\n\nCasos límite IGL: El discriminante es positivo, así que existen dos raíces reales distintas."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 174,
+      "accepted_answers": [],
+      "strategy": "Determinar el coeficiente lineal y usar que el discriminante es el cuadrado de la diferencia de raíces.",
+      "theory_used": [
+        "parábola mónica",
+        "mínimo por simetría",
+        "factorizar una diferencia",
+        "completar el cuadrado"
+      ],
+      "validity_check": "verified · La factorización \\(Q(x)=(x-3)(x-4)\\) muestra que las raíces distan \\(1\\). · El discriminante es positivo, así que existen dos raíces reales distintas.",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "parabola_monica",
+          "minimo_por_simetria",
+          "factorizar_una_diferencia",
+          "completar_el_cuadrado"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La pregunta no pide las raíces, sino una cantidad que puede obtenerse directamente con Viète y el discriminante."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_alg_025",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · polinomios, divisibilidad de polinomios y evaluación inteligente",
+      "problem_number": 25,
+      "source_question_label": "ALG-025",
+      "source_page": 25,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Los números x y y son las raíces de \\(t^{2}-5t+3=0\\). Calcula \\(x^{5}+y^{5}\\).",
+      "options": [],
+      "correct_answer": "\\(1475\\)",
+      "correct_option_label": null,
+      "solution_text": "Cada raíz r cumple \\(r^{2}=5r-3\\). Multiplicando por \\(r^{n-2}\\) y sumando para x y y, se obtiene \\(S_{n}=5S_{n-1}-3S_{n-2}\\), donde \\(S_{n}=x^{n}+y^{n}\\). Con \\(S_{0}=2\\) y \\(S_{1}=5\\): \\(S_{2}=19\\), \\(S_{3}=80\\), \\(S_{4}=343\\) y \\(S_{5}=1475\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Las identidades de Newton producen la misma sucesión \\(2,5,19,80,343,1475\\).\n\nCasos límite IGL: Las raíces son reales y distintas, pero la recurrencia no depende de elegir un orden."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 175,
+      "accepted_answers": [
+        "1475"
+      ],
+      "strategy": "Si \\(S_n=x^n+y^n\\), entonces \\(S_n=5S_{n-1}-3S_{n-2}\\).",
+      "theory_used": [
+        "raíces de una cuadrática",
+        "sumas de potencias",
+        "crear una recurrencia",
+        "usar relaciones de Viète"
+      ],
+      "validity_check": "verified · Las identidades de Newton producen la misma sucesión \\(2,5,19,80,343,1475\\). · Las raíces son reales y distintas, pero la recurrencia no depende de elegir un orden.",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "raices_de_una_cuadratica",
+          "sumas_de_potencias",
+          "crear_una_recurrencia",
+          "usar_relaciones_de_viete"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La suma de quintas potencias se obtiene mediante una recurrencia derivada de la ecuación cuadrática."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_alg_026",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · desigualdades, máximos, mínimos y valores posibles",
+      "problem_number": 26,
+      "source_question_label": "ALG-026",
+      "source_page": 26,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Los números reales positivos x,y cumplen \\(x+2y=12\\). ¿Cuál es el máximo posible de \\(x^{2y}\\)?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(96\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(108\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(120\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(128\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(144\\)"
+        }
+      ],
+      "correct_answer": "\\(128\\)",
+      "correct_option_label": "d",
+      "solution_text": "Los tres números positivos \\(\\frac{x}{2},\\frac{x}{2},2y\\) suman \\(12\\). Por AM-GM, \\(\\frac{12}{3}\\ge\\sqrt[3]{\\frac{x}{2}\\cdot\\frac{x}{2}\\cdot2y}=\\sqrt[3]{\\frac{x^2y}{2}}\\). Por tanto, \\(4^{3}\\ge\\frac{x^2y}{2}\\), y \\(x^{2y}\\le128\\). La igualdad ocurre cuando \\(\\frac{x}{2}=2y=4\\), es decir, \\(x=8,y=2\\). Así, el máximo es \\(128\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "No alcanza la cota óptima.",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "Surge de repartir la suma en partes incorrectas.",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "Es un valor posible pero no máximo.",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "Es la cota alcanzada por \\(x=8,y=2\\).",
+          "is_correct": true
+        },
+        {
+          "label": "e",
+          "reason": "Proviene de tomar \\(x=6,y=3\\).",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Sustituyendo \\(y=(12-x)/2\\), la función es \\(\\frac{x^2(12-x)}2\\), cuyo máximo interior está en \\(x=8\\).\n\nCasos límite IGL: Se verificó positividad y que la igualdad de AM-GM es compatible con la restricción."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 176,
+      "accepted_answers": [],
+      "strategy": "Escribir \\(x+2y=\\frac{x}{2}+\\frac{x}{2}+2y\\) y aplicar AM-GM.",
+      "theory_used": [
+        "máximo con restricción lineal",
+        "AM-GM",
+        "optimizar una expresión",
+        "justificar igualdad"
+      ],
+      "validity_check": "verified · Sustituyendo \\(y=(12-x)/2\\), la función es \\(\\frac{x^2(12-x)}2\\), cuyo máximo interior está en \\(x=8\\). · Se verificó positividad y que la igualdad de AM-GM es compatible con la restricción.",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "maximo_con_restriccion_lineal",
+          "am_gm",
+          "optimizar_una_expresion",
+          "justificar_igualdad"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La restricción debe repartirse en tres sumandos adecuados para aplicar una desigualdad con igualdad alcanzable."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_alg_027",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · desigualdades, máximos, mínimos y valores posibles",
+      "problem_number": 27,
+      "source_question_label": "ALG-027",
+      "source_page": 27,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "¿Cuántos enteros x satisfacen simultáneamente \\(\\lvert2x-5\\rvert<7\\) y \\(x^{2}-7x+10\\ge0\\)?",
+      "options": [],
+      "correct_answer": "\\(4\\)",
+      "correct_option_label": null,
+      "solution_text": "De \\(\\lvert2x-5\\rvert<7\\) se obtiene \\(-7<2x-5<7\\), así que \\(-1<x<6\\). Los enteros posibles son \\(0,1,2,3,4,5\\). Además, \\(x^{2}-7x+10=(x-2)(x-5)\\ge0\\), lo cual ocurre cuando \\(x\\le2\\) o \\(x\\ge5\\). La intersección es \\(\\{0,1,2,5\\}\\), con \\(4\\) elementos.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Una enumeración directa de los enteros \\(0,1,2,3,4,5\\) confirma que solo \\(0,1,2,5\\) cumplen la segunda desigualdad.\n\nCasos límite IGL: Se respetaron los extremos estrictos de la primera desigualdad y los inclusivos de la segunda."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 177,
+      "accepted_answers": [
+        "4"
+      ],
+      "strategy": "Convertir la desigualdad absoluta en un intervalo y factorizar la cuadrática.",
+      "theory_used": [
+        "valor absoluto",
+        "inecuación cuadrática",
+        "intersectar conjuntos",
+        "contar enteros"
+      ],
+      "validity_check": "verified · Una enumeración directa de los enteros \\(0,1,2,3,4,5\\) confirma que solo \\(0,1,2,5\\) cumplen la segunda desigualdad. · Se respetaron los extremos estrictos de la primera desigualdad y los inclusivos de la segunda.",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "valor_absoluto",
+          "inecuacion_cuadratica",
+          "intersectar_conjuntos",
+          "contar_enteros"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Requiere resolver dos tipos distintos de desigualdad e intersectar cuidadosamente sus soluciones enteras."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_alg_028",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · desigualdades, máximos, mínimos y valores posibles",
+      "problem_number": 28,
+      "source_question_label": "ALG-028",
+      "source_page": 28,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Los enteros positivos a,b cumplen \\(ab=720\\) y \\(\\gcd(a,b)=6\\). ¿Cuál es el menor valor posible de \\(a+b\\)?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(48\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(50\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(60\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(66\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(54\\)"
+        }
+      ],
+      "correct_answer": "\\(54\\)",
+      "correct_option_label": "e",
+      "solution_text": "Sean \\(a=6u\\) y \\(b=6v\\), donde \\(\\gcd(u,v)=1\\). Entonces \\(36uv=720\\), por lo que \\(uv=20\\). Los pares positivos de factores de \\(20\\) son \\((1,20),(2,10),(4,5)\\). Solo \\((1,20)\\) y \\((4,5)\\) son coprimos; sus sumas son \\(21\\) y \\(9\\). La menor produce \\(a+b=6(4+5)=54\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "No corresponde a un par de factores enteros válido.",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "Proviene de un par cuyo MCD no es \\(6\\).",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "Aparece al usar \\((12,30)\\), cuyo producto no es \\(720\\).",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "Usa el par coprimo \\((1,20)\\), pero no es mínimo.",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "Se alcanza con \\((a,b)=(24,30)\\).",
+          "is_correct": true
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Los pares válidos son \\((6,120)\\) y \\((24,30)\\), con sumas \\(126\\) y \\(54\\).\n\nCasos límite IGL: Se revisaron todos los pares de divisores y la condición exacta del MCD."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 178,
+      "accepted_answers": [],
+      "strategy": "Escribir \\(a=6u,b=6v\\) con \\(\\gcd(u,v)=1\\).",
+      "theory_used": [
+        "MCD bajo producto fijo",
+        "mínimo discreto",
+        "normalizar por el MCD",
+        "comparar factores coprimos"
+      ],
+      "validity_check": "verified · Los pares válidos son \\((6,120)\\) y \\((24,30)\\), con sumas \\(126\\) y \\(54\\). · Se revisaron todos los pares de divisores y la condición exacta del MCD.",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "mcd_bajo_producto_fijo",
+          "minimo_discreto",
+          "normalizar_por_el_mcd",
+          "comparar_factores_coprimos"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "El MCD obliga a separar un factor común y luego optimizar entre pares coprimos."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_alg_029",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · desigualdades, máximos, mínimos y valores posibles",
+      "problem_number": 29,
+      "source_question_label": "ALG-029",
+      "source_page": 29,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Encuentra el valor mínimo de \\(\\lvert x-1\\rvert+\\lvert x-4\\rvert+\\lvert x-10\\rvert+\\lvert x-13\\rvert\\) para x real.",
+      "options": [],
+      "correct_answer": "\\(18\\)",
+      "correct_option_label": null,
+      "solution_text": "Los puntos son \\(1,4,10,13\\). Para \\(4\\le x\\le10\\), la suma es \\((x-1)+(x-4)+(10-x)+(13-x)=18\\). Si \\(x<4\\), al moverlo hacia la derecha disminuye la suma; si \\(x>10\\), al moverlo hacia la izquierda también disminuye. Por tanto, el mínimo global es \\(18\\), alcanzado para todo \\(x\\in[4,10]\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Evaluando en \\(x=4\\), se obtiene \\(3+0+6+9=18\\); el análisis de pendientes confirma que no puede ser menor.\n\nCasos límite IGL: Se incluyeron los puntos de quiebre y se comprobó que el mínimo no es único en \\(x\\), aunque el valor sí lo es."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 179,
+      "accepted_answers": [
+        "18"
+      ],
+      "strategy": "Para cuatro puntos ordenados, cualquier \\(x\\) entre los dos centrales minimiza la suma de distancias.",
+      "theory_used": [
+        "suma de distancias",
+        "mínimo por intervalos",
+        "analizar valores absolutos",
+        "hallar una mediana"
+      ],
+      "validity_check": "verified · Evaluando en \\(x=4\\), se obtiene \\(3+0+6+9=18\\); el análisis de pendientes confirma que no puede ser menor. · Se incluyeron los puntos de quiebre y se comprobó que el mínimo no es único en \\(x\\), aunque el valor sí lo es.",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "suma_de_distancias",
+          "minimo_por_intervalos",
+          "analizar_valores_absolutos",
+          "hallar_una_mediana"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La función tiene varios cambios de pendiente, pero su mínimo se describe mediante los dos puntos centrales."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_alg_030",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · desigualdades, máximos, mínimos y valores posibles",
+      "problem_number": 30,
+      "source_question_label": "ALG-030",
+      "source_page": 30,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Los números reales x,y,z cumplen \\(x+y+z=12\\) y \\(x-y=2\\). ¿Cuál es el mínimo posible de \\(x^{2}+y^{2}+z^{2}\\)?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(50\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(42\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(46\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(48\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(54\\)"
+        }
+      ],
+      "correct_answer": "\\(50\\)",
+      "correct_option_label": "a",
+      "solution_text": "Sea \\(y=t\\). Entonces \\(x=t+2\\) y, por la suma, \\(z=10-2t\\). Así, \\(x^{2}+y^{2}+z^{2}=(t+2)^{2}+t^{2}+(10-2t)^{2}=6t^{2}-36t+104=6(t-3)^{2}+50\\). Como el cuadrado es no negativo, el mínimo es \\(50\\), alcanzado en \\(t=3\\), es decir, \\((x,y,z)=(5,3,4)\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Es el valor alcanzado por \\((5,3,4)\\).",
+          "is_correct": true
+        },
+        {
+          "label": "b",
+          "reason": "No se alcanza bajo ambas restricciones.",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "Surge al omitir el término constante al completar el cuadrado.",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "Es menor que la cota real.",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "Aparece al evaluar en una terna cercana pero no óptima.",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Los multiplicadores de Lagrange o la proyección ortogonal dan la misma terna \\((5,3,4)\\).\n\nCasos límite IGL: La forma cuadrática tiene coeficiente positivo, por lo que el mínimo es global."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 180,
+      "accepted_answers": [],
+      "strategy": "Parametrizar \\(y=t\\), \\(x=t+2\\) y \\(z=10-2t\\).",
+      "theory_used": [
+        "mínimo cuadrático",
+        "restricciones lineales",
+        "reducir variables",
+        "completar el cuadrado"
+      ],
+      "validity_check": "verified · Los multiplicadores de Lagrange o la proyección ortogonal dan la misma terna \\((5,3,4)\\). · La forma cuadrática tiene coeficiente positivo, por lo que el mínimo es global.",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "minimo_cuadratico",
+          "restricciones_lineales",
+          "reducir_variables",
+          "completar_el_cuadrado"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Dos restricciones permiten reducir el problema a una sola cuadrática y demostrar el mínimo."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_alg_031",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · desigualdades, máximos, mínimos y valores posibles",
+      "problem_number": 31,
+      "source_question_label": "ALG-031",
+      "source_page": 31,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "¿Cuántos enteros k hacen que la ecuación \\(x^{2}-kx+60=0\\) tenga dos raíces enteras positivas y distintas?",
+      "options": [],
+      "correct_answer": "\\(6\\)",
+      "correct_option_label": null,
+      "solution_text": "Por Viète, las raíces enteras positivas r,s satisfacen \\(rs=60\\) y \\(k=r+s\\). Los pares no ordenados con \\(r<s\\) son \\((1,60),(2,30),(3,20),(4,15),(5,12),(6,10)\\). Producen respectivamente \\(k=61,32,23,19,17,16\\), todos distintos. Por tanto, existen \\(6\\) valores de k.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Una búsqueda exhaustiva entre los divisores positivos de \\(60\\) produce exactamente esos seis pares.\n\nCasos límite IGL: Se excluyeron raíces iguales; \\(60\\) no es cuadrado, así que ningún par tiene \\(r=s\\)."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 181,
+      "accepted_answers": [
+        "6"
+      ],
+      "strategy": "Las raíces positivas \\(r<s\\) deben cumplir \\(rs=60\\) y \\(k=r+s\\).",
+      "theory_used": [
+        "raíces enteras",
+        "conteo de valores posibles",
+        "enumerar divisores",
+        "evitar doble conteo"
+      ],
+      "validity_check": "verified · Una búsqueda exhaustiva entre los divisores positivos de \\(60\\) produce exactamente esos seis pares. · Se excluyeron raíces iguales; \\(60\\) no es cuadrado, así que ningún par tiene \\(r=s\\).",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "raices_enteras",
+          "conteo_de_valores_posibles",
+          "enumerar_divisores",
+          "evitar_doble_conteo"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "El conteo requiere clasificar todos los pares de divisores positivos sin repetirlos."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_alg_032",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · desigualdades, máximos, mínimos y valores posibles",
+      "problem_number": 32,
+      "source_question_label": "ALG-032",
+      "source_page": 32,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Para \\(x>0\\), ¿cuál es el valor mínimo de \\((x+1)\\left(1+\\frac{4}{x}\\right)\\)?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(7\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(9\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(8\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(10\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(12\\)"
+        }
+      ],
+      "correct_answer": "\\(9\\)",
+      "correct_option_label": "b",
+      "solution_text": "Al expandir, \\((x+1)(1+\\frac{4}{x})=x+5+\\frac{4}{x}\\). Por AM-GM, \\(x+\\frac{4}{x}\\ge2\\sqrt{4}=4\\), con igualdad cuando \\(x=\\frac{4}{x}\\), es decir, \\(x=2\\). Por tanto, el mínimo es \\(5+4=9\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Viola la cota de AM-GM.",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "Es el mínimo alcanzado en \\(x=2\\).",
+          "is_correct": true
+        },
+        {
+          "label": "c",
+          "reason": "Olvida el término constante \\(1\\cdot4/x\\).",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "Aparece al usar \\(x=1\\).",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "Confunde suma con producto.",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: La sustitución \\(x=2\\) da \\(3\\cdot3=9\\), y la desigualdad demuestra que no puede ser menor.\n\nCasos límite IGL: Se verificó \\(x>0\\), condición necesaria para AM-GM y para el denominador."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 182,
+      "accepted_answers": [],
+      "strategy": "Escribir la expresión como \\(5+x+\\frac4x\\).",
+      "theory_used": [
+        "desigualdad AM-GM",
+        "expresión racional",
+        "expandir estratégicamente",
+        "justificar igualdad"
+      ],
+      "validity_check": "verified · La sustitución \\(x=2\\) da \\(3\\cdot3=9\\), y la desigualdad demuestra que no puede ser menor. · Se verificó \\(x>0\\), condición necesaria para AM-GM y para el denominador.",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "desigualdad_am_gm",
+          "expresion_racional",
+          "expandir_estrategicamente",
+          "justificar_igualdad"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La expansión revela dos términos recíprocos cuyo producto es fijo."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_alg_033",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · sucesiones, patrones y generalización algebraica",
+      "problem_number": 33,
+      "source_question_label": "ALG-033",
+      "source_page": 33,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "La sucesión cumple \\(a_{1}=1\\) y \\(a_{n+1}=3a_{n}+2\\cdot3^{n-1}\\) para \\(n\\ge1\\). Calcula \\(a_{6}\\).",
+      "options": [],
+      "correct_answer": "\\(1053\\)",
+      "correct_option_label": null,
+      "solution_text": "Definamos \\(b_{n}=\\frac{a_n}{3^{n-1}}\\). Entonces \\(b_{n+1}=\\frac{a_{n+1}}{3^n}=\\frac{a_n}{3^{n-1}}+\\frac{2}{3}=b_{n}+\\frac{2}{3}\\). Como \\(b_{1}=1\\), se tiene \\(b_{6}=1+5\\cdot\\frac{2}{3}=\\frac{13}{3}\\). Por tanto, \\(a_{6}=b_{6}\\cdot3^{5}=\\frac{13}{3}\\cdot243=1053\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Calculando la recurrencia: \\(1,5,21,81,297,1053\\).\n\nCasos límite IGL: Las potencias y divisiones son exactas; no se usaron aproximaciones."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 183,
+      "accepted_answers": [
+        "1053"
+      ],
+      "strategy": "Dividir \\(a_n\\) entre \\(3^{n-1}\\).",
+      "theory_used": [
+        "recurrencia no homogénea",
+        "normalización exponencial",
+        "transformar una recurrencia",
+        "detectar un patrón"
+      ],
+      "validity_check": "verified · Calculando la recurrencia: \\(1,5,21,81,297,1053\\). · Las potencias y divisiones son exactas; no se usaron aproximaciones.",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "recurrencia_no_homogenea",
+          "normalizacion_exponencial",
+          "transformar_una_recurrencia",
+          "detectar_un_patron"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La recurrencia mezcla el término anterior con una potencia del mismo factor y conviene normalizarla."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_alg_034",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · sucesiones, patrones y generalización algebraica",
+      "problem_number": 34,
+      "source_question_label": "ALG-034",
+      "source_page": 34,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "En una progresión aritmética se cumple \\(a_{3}+a_{9}=40\\). ¿Cuál es la suma de los primeros \\(11\\) términos?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(180\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(200\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(220\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(210\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(240\\)"
+        }
+      ],
+      "correct_answer": "\\(220\\)",
+      "correct_option_label": "c",
+      "solution_text": "Los índices \\(3\\) y \\(9\\) son simétricos respecto de \\(6\\), así que \\(a_{3}+a_{9}=2a_{6}\\). Por tanto, \\(a_{6}=20\\). En los primeros \\(11\\) términos, cada par \\(a_{1}+a_{11},a_{2}+a_{10},\\ldots,a_{5}+a_{7}\\) suma \\(2a_{6}\\), y queda \\(a_{6}\\). Por ello, la suma total es \\(11a_{6}=220\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Usa nueve términos en lugar de once.",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "Multiplica \\(20\\) por \\(10\\).",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "Es la suma correcta de once términos centrados en \\(a_6\\).",
+          "is_correct": true
+        },
+        {
+          "label": "d",
+          "reason": "Confunde la suma dada con el término central.",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "Aparece al usar \\(a_6= \\frac{40}{2}\\) y multiplicar por \\(12\\).",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: La fórmula \\(S_{11}=\\frac{11}{2}(a_1+a_{11})=11a_6\\) confirma \\(220\\).\n\nCasos límite IGL: No es necesario conocer la diferencia; cualquier progresión compatible produce la misma suma."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 184,
+      "accepted_answers": [],
+      "strategy": "En una progresión aritmética, \\(a_3+a_9=2a_6\\), y la suma de once términos es \\(11a_6\\).",
+      "theory_used": [
+        "progresión aritmética",
+        "simetría de términos",
+        "usar índices simétricos",
+        "calcular una suma"
+      ],
+      "validity_check": "verified · La fórmula \\(S_{11}=\\frac{11}{2}(a_1+a_{11})=11a_6\\) confirma \\(220\\). · No es necesario conocer la diferencia; cualquier progresión compatible produce la misma suma.",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "progresion_aritmetica",
+          "simetria_de_terminos",
+          "usar_indices_simetricos",
+          "calcular_una_suma"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La relación dada determina el término central de once términos sin revelar la diferencia común."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_alg_035",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · sucesiones, patrones y generalización algebraica",
+      "problem_number": 35,
+      "source_question_label": "ALG-035",
+      "source_page": 35,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Una sucesión cumple \\(b_{1}=2\\), \\(b_{2}=5\\) y \\(b_{n}=b_{n-1}+b_{n-2}\\) para \\(n\\ge3\\). Calcula \\(b_{1}+b_{2}+\\cdots+b_{8}\\).",
+      "options": [],
+      "correct_answer": "\\(207\\)",
+      "correct_option_label": null,
+      "solution_text": "Los términos son \\(2,5,7,12,19,31,50,81\\). Su suma es \\(207\\). De manera estructural, como \\(b_{k}=b_{k+2}-b_{k+1}\\), al sumar desde \\(k=1\\) hasta \\(8\\) se obtiene \\(b_{1}+\\cdots+b_{8}=b_{10}-b_{2}\\). Continuando la sucesión, \\(b_{9}=131\\) y \\(b_{10}=212\\), de modo que \\(212-5=207\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: La suma directa \\(2+5+7+12+19+31+50+81\\) también da \\(207\\).\n\nCasos límite IGL: Se verificaron los índices iniciales y finales del telescopaje."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 185,
+      "accepted_answers": [
+        "207"
+      ],
+      "strategy": "Usar \\(b_k=b_{k+2}-b_{k+1}\\) para telescopar.",
+      "theory_used": [
+        "recurrencia tipo Fibonacci",
+        "suma de términos",
+        "usar telescopaje",
+        "generalizar un patrón"
+      ],
+      "validity_check": "verified · La suma directa \\(2+5+7+12+19+31+50+81\\) también da \\(207\\). · Se verificaron los índices iniciales y finales del telescopaje.",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "recurrencia_tipo_fibonacci",
+          "suma_de_terminos",
+          "usar_telescopaje",
+          "generalizar_un_patron"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La suma puede calcularse término a término, pero una identidad telescópica ofrece una verificación estructural."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_alg_036",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · sucesiones, patrones y generalización algebraica",
+      "problem_number": 36,
+      "source_question_label": "ALG-036",
+      "source_page": 36,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "La sucesión está dada por \\(a_{n}=n(n+2)\\). ¿Cuál es el entero positivo n que satisface \\(a_{n-1}+a_{n}+a_{n+1}=506\\)?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(9\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(10\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(11\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(12\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(13\\)"
+        }
+      ],
+      "correct_answer": "\\(12\\)",
+      "correct_option_label": "d",
+      "solution_text": "Se tiene \\(a_{n-1}=(n-1)(n+1)=n^{2}-1\\), \\(a_{n}=n^{2}+2n\\) y \\(a_{n+1}=(n+1)(n+3)=n^{2}+4n+3\\). La suma es \\(3n^{2}+6n+2\\). Igualando a \\(506\\): \\(3n^{2}+6n-504=0\\), o \\(n^{2}+2n-168=0=(n-12)(n+14)\\). La única raíz positiva es \\(n=12\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "No satisface la cuadrática.",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "Aparece al omitir constantes.",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "Surge al factorizar incorrectamente.",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "Es la única raíz positiva.",
+          "is_correct": true
+        },
+        {
+          "label": "e",
+          "reason": "Es la raíz positiva de una ecuación diferente.",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Para \\(n=12\\), \\(a_{11}=143\\), \\(a_{12}=168\\), \\(a_{13}=195\\), y la suma es \\(506\\).\n\nCasos límite IGL: La raíz \\(-14\\) se excluyó por el dominio positivo de los índices."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 186,
+      "accepted_answers": [],
+      "strategy": "Escribir cada término en función de \\(n\\) y combinar.",
+      "theory_used": [
+        "fórmula explícita",
+        "suma de términos vecinos",
+        "expandir con control",
+        "resolver una cuadrática"
+      ],
+      "validity_check": "verified · Para \\(n=12\\), \\(a_{11}=143\\), \\(a_{12}=168\\), \\(a_{13}=195\\), y la suma es \\(506\\). · La raíz \\(-14\\) se excluyó por el dominio positivo de los índices.",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "formula_explicita",
+          "suma_de_terminos_vecinos",
+          "expandir_con_control",
+          "resolver_una_cuadratica"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La suma de tres términos vecinos se simplifica a una cuadrática con una única raíz positiva."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_alg_037",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · sucesiones, patrones y generalización algebraica",
+      "problem_number": 37,
+      "source_question_label": "ALG-037",
+      "source_page": 37,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Una progresión geométrica de términos positivos cumple \\(a_{2}+a_{4}=30\\) y \\(a_{3}=9\\). Calcula \\(a_{1}+a_{5}\\).",
+      "options": [],
+      "correct_answer": "\\(82\\)",
+      "correct_option_label": null,
+      "solution_text": "Sea \\(r>0\\) la razón. Como \\(a_{3}=9\\), se tiene \\(a_{2}=\\frac{9}{r}\\) y \\(a_{4}=9r\\). Entonces \\(9(r+\\frac{1}{r})=30\\), de modo que \\(r+1/r=\\frac{10}{3}\\). Ahora \\(a_{1}+a_{5}=9/r^{2}+9r^{2}=9\\bigl((r+\\frac{1}{r})^{2}-2\\bigr)=9(\\frac{100}{9}-2)=82\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Las dos razones recíprocas que resuelven \\(r+1/r=10/3\\) producen la misma suma \\(a_1+a_5\\).\n\nCasos límite IGL: La positividad garantiza \\(r>0\\); no se requiere escoger entre las dos razones posibles."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 187,
+      "accepted_answers": [
+        "82"
+      ],
+      "strategy": "Si la razón es \\(r>0\\), usar \\(r+\\frac1r\\) y luego \\(r^2+\\frac1{r^2}\\).",
+      "theory_used": [
+        "progresión geométrica",
+        "expresiones simétricas",
+        "usar razón recíproca",
+        "elevar una relación"
+      ],
+      "validity_check": "verified · Las dos razones recíprocas que resuelven \\(r+1/r=10/3\\) producen la misma suma \\(a_1+a_5\\). · La positividad garantiza \\(r>0\\); no se requiere escoger entre las dos razones posibles.",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "progresion_geometrica",
+          "expresiones_simetricas",
+          "usar_razon_reciproca",
+          "elevar_una_relacion"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La razón no se determina de manera única, pero la suma pedida sí, mediante una expresión simétrica."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_alg_038",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · sucesiones, patrones y generalización algebraica",
+      "problem_number": 38,
+      "source_question_label": "ALG-038",
+      "source_page": 38,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "La sucesión cumple \\(a_{1}=1\\) y \\(a_{n+1}=a_{n}+3n^{2}+3n+1\\). ¿Cuál es el menor entero positivo n para el que \\(a_{1}+a_{2}+\\cdots+a_{n}>10000\\)?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(11\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(12\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(13\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(15\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(14\\)"
+        }
+      ],
+      "correct_answer": "\\(14\\)",
+      "correct_option_label": "e",
+      "solution_text": "Por inducción, \\(a_{n}=n^{3}\\): es cierto para \\(n=1\\), y si \\(a_{n}=n^{3}\\), entonces \\(a_{n+1}=n^{3}+(n+1)^{3}-n^{3}=(n+1)^{3}\\). Así, la suma buscada es \\(1^{3}+\\cdots+n^{3}=\\left(\\frac{n(n+1)}2\\right)^{2}\\). Se requiere \\(\\frac{n(n+1)}2>100\\), es decir, \\(n(n+1)>200\\). Para \\(n=13\\), \\(13\\cdot14=182\\); para \\(n=14\\), \\(14\\cdot15=210\\). El menor es \\(14\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "La suma de cubos aún es menor que \\(10000\\).",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "Proviene de comparar con \\(12^4\\).",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "Con \\(n=13\\), la suma es \\(91^2=8281\\).",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "No es el menor valor que supera el umbral.",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "Con \\(n=14\\), la suma es \\(105^2=11025\\).",
+          "is_correct": true
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Los valores exactos para \\(n=13\\) y \\(n=14\\) son \\(8281\\) y \\(11025\\).\n\nCasos límite IGL: Se comprobó estrictamente el signo \\(>\\), no \\(\\ge\\)."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 188,
+      "accepted_answers": [],
+      "strategy": "Reconocer \\(3n^2+3n+1=(n+1)^3-n^3\\).",
+      "theory_used": [
+        "recurrencia cúbica",
+        "suma de cubos",
+        "reconocer diferencias de potencias",
+        "estimar un umbral"
+      ],
+      "validity_check": "verified · Los valores exactos para \\(n=13\\) y \\(n=14\\) son \\(8281\\) y \\(11025\\). · Se comprobó estrictamente el signo \\(>\\), no \\(\\ge\\).",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "recurrencia_cubica",
+          "suma_de_cubos",
+          "reconocer_diferencias_de_potencias",
+          "estimar_un_umbral"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La recurrencia oculta cubos y luego exige usar la fórmula de la suma de cubos para cruzar un umbral."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_alg_039",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · potencias, radicales y simplificación exacta",
+      "problem_number": 39,
+      "source_question_label": "ALG-039",
+      "source_page": 39,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Calcula exactamente \\((1+\\sqrt2)^{6}+(1-\\sqrt2)^{6}\\).",
+      "options": [],
+      "correct_answer": "\\(198\\)",
+      "correct_option_label": null,
+      "solution_text": "Sean \\(r=1+\\sqrt2\\) y \\(s=1-\\sqrt2\\). Entonces \\(r+s=2\\) y \\(rs=-1\\). Por ello, \\(S_{n}=2S_{n-1}+S_{n-2}\\), con \\(S_{0}=2\\) y \\(S_{1}=2\\). Se obtiene \\(S_{2}=6\\), \\(S_{3}=14\\), \\(S_{4}=34\\), \\(S_{5}=82\\) y \\(S_{6}=198\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: La expansión binomial cancela los términos con potencias impares de \\(\\sqrt2\\) y también produce \\(198\\).\n\nCasos límite IGL: Los conjugados son reales; la suma final es entera por cancelación exacta."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 189,
+      "accepted_answers": [
+        "198"
+      ],
+      "strategy": "Definir \\(S_n=(1+\\sqrt2)^n+(1-\\sqrt2)^n\\).",
+      "theory_used": [
+        "potencias conjugadas",
+        "recurrencia entera",
+        "usar conjugación",
+        "evitar expansión radical"
+      ],
+      "validity_check": "verified · La expansión binomial cancela los términos con potencias impares de \\(\\sqrt2\\) y también produce \\(198\\). · Los conjugados son reales; la suma final es entera por cancelación exacta.",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "potencias_conjugadas",
+          "recurrencia_entera",
+          "usar_conjugacion",
+          "evitar_expansion_radical"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Las expansiones irracionales se cancelan, pero una recurrencia evita desarrollar binomios largos."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_alg_040",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · potencias, radicales y simplificación exacta",
+      "problem_number": 40,
+      "source_question_label": "ALG-040",
+      "source_page": 40,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Simplifica \\(\\frac{\\sqrt5+\\sqrt2}{\\sqrt5-\\sqrt2}+\\frac{\\sqrt5-\\sqrt2}{\\sqrt5+\\sqrt2}\\).",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(\\frac{14}{3}\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(3\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(4\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(\\frac{13}{3}\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(5\\)"
+        }
+      ],
+      "correct_answer": "\\(\\frac{14}{3}\\)",
+      "correct_option_label": "a",
+      "solution_text": "Sea \\(A=\\sqrt5+\\sqrt2\\) y \\(B=\\sqrt5-\\sqrt2\\). Entonces \\(A^{2}+B^{2}=(7+2\\sqrt{10})+(7-2\\sqrt{10})=14\\), mientras que \\(AB=5-2=3\\). Por tanto, la suma es \\(\\frac{14}{3}\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Es el cociente exacto \\(14/3\\).",
+          "is_correct": true
+        },
+        {
+          "label": "b",
+          "reason": "No coincide con la fracción exacta.",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "Aparece al usar \\(AB= \\sqrt{3}\\).",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "Omite una unidad en el numerador.",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "Redondea o simplifica indebidamente.",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Racionalizando cada fracción por separado se obtiene la misma suma \\(14/3\\).\n\nCasos límite IGL: Los denominadores son no nulos porque \\(\\sqrt5\\ne\\sqrt2\\)."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 190,
+      "accepted_answers": [],
+      "strategy": "Usar \\(\\frac{A}{B}+\\frac{B}{A}=\\frac{A^2+B^2}{AB}\\).",
+      "theory_used": [
+        "racionalización",
+        "expresión simétrica",
+        "combinar fracciones",
+        "simplificar radicales"
+      ],
+      "validity_check": "verified · Racionalizando cada fracción por separado se obtiene la misma suma \\(14/3\\). · Los denominadores son no nulos porque \\(\\sqrt5\\ne\\sqrt2\\).",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "racionalizacion",
+          "expresion_simetrica",
+          "combinar_fracciones",
+          "simplificar_radicales"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La suma simétrica debe combinarse antes de racionalizar para evitar cuentas innecesarias."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_alg_041",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · potencias, radicales y simplificación exacta",
+      "problem_number": 41,
+      "source_question_label": "ALG-041",
+      "source_page": 41,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Encuentra el número real \\(x\\ge7\\) que satisface \\(\\sqrt{x+9}+\\sqrt{x-7}=8\\).",
+      "options": [],
+      "correct_answer": "\\(16\\)",
+      "correct_option_label": null,
+      "solution_text": "Sea \\(A=\\sqrt{x+9}\\) y \\(B=\\sqrt{x-7}\\). Se tiene \\(A+B=8\\) y \\(A^{2}-B^{2}=(x+9)-(x-7)=16\\). Por tanto, \\((A-B)(A+B)=16\\), así que \\(A-B=2\\). Resolviendo \\(A+B=8\\) y \\(A-B=2\\), se obtiene \\(A=5\\), \\(B=3\\). Entonces \\(x+9=25\\), por lo que \\(x=16\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: La sustitución da \\(\\sqrt{25}+\\sqrt9=5+3=8\\).\n\nCasos límite IGL: El dominio \\(x\\ge7\\) garantiza radicales reales; no se introdujeron raíces extrañas."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 191,
+      "accepted_answers": [
+        "16"
+      ],
+      "strategy": "Llamar \\(A=\\sqrt{x+9}\\), \\(B=\\sqrt{x-7}\\) y usar \\(A^2-B^2=16\\).",
+      "theory_used": [
+        "ecuación con radicales",
+        "sistema suma-diferencia",
+        "introducir variables auxiliares",
+        "verificar extracciones"
+      ],
+      "validity_check": "verified · La sustitución da \\(\\sqrt{25}+\\sqrt9=5+3=8\\). · El dominio \\(x\\ge7\\) garantiza radicales reales; no se introdujeron raíces extrañas.",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "ecuacion_con_radicales",
+          "sistema_suma_diferencia",
+          "introducir_variables_auxiliares",
+          "verificar_extracciones"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La diferencia de los radicandos permite resolver el sistema de las dos raíces sin cuadrar dos veces."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_alg_042",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · potencias, radicales y simplificación exacta",
+      "problem_number": 42,
+      "source_question_label": "ALG-042",
+      "source_page": 42,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Calcula \\((\\sqrt3+\\sqrt2)^{8}+(\\sqrt3-\\sqrt2)^{8}\\).",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(9402\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(9602\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(9502\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(9702\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(9802\\)"
+        }
+      ],
+      "correct_answer": "\\(9602\\)",
+      "correct_option_label": "b",
+      "solution_text": "Se tiene \\(u+v=10\\) y \\(uv=((\\sqrt3+\\sqrt2)(\\sqrt3-\\sqrt2))^{2}=1\\). Si \\(T_{n}=u^{n}+v^{n}\\), entonces \\(T_{n}=10T_{n-1}-T_{n-2}\\), con \\(T_{0}=2\\) y \\(T_{1}=10\\). Así, \\(T_{2}=98\\), \\(T_{3}=970\\) y \\(T_{4}=9602\\). Como la expresión original es \\(u^{4}+v^{4}\\), su valor es \\(9602\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Difiere por un error en \\(T_3\\).",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "Es el valor correcto de la recurrencia.",
+          "is_correct": true
+        },
+        {
+          "label": "c",
+          "reason": "Surge al restar \\(100\\) de más.",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "Aparece al sumar \\(100\\) de más.",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "Proviene de usar \\(uv=-1\\).",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: La expansión simbólica exacta de ambos conjugados suma \\(9602\\) y cancela todos los radicales.\n\nCasos límite IGL: Los conjugados son positivos y el producto \\(uv=1\\) se verificó exactamente."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 192,
+      "accepted_answers": [],
+      "strategy": "Definir \\(u=(\\sqrt3+\\sqrt2)^2\\), \\(v=(\\sqrt3-\\sqrt2)^2\\).",
+      "theory_used": [
+        "potencias conjugadas",
+        "recurrencia de segundo orden",
+        "reducir potencias altas",
+        "usar conjugados"
+      ],
+      "validity_check": "verified · La expansión simbólica exacta de ambos conjugados suma \\(9602\\) y cancela todos los radicales. · Los conjugados son positivos y el producto \\(uv=1\\) se verificó exactamente.",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "potencias_conjugadas",
+          "recurrencia_de_segundo_orden",
+          "reducir_potencias_altas",
+          "usar_conjugados"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La potencia octava es demasiado grande para una expansión directa; conviene trabajar con los cuadrados conjugados."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_alg_043",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · potencias, radicales y simplificación exacta",
+      "problem_number": 43,
+      "source_question_label": "ALG-043",
+      "source_page": 43,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Sea \\(u=\\sqrt[3]{2}+\\sqrt[3]{4}\\). Calcula \\(u^{3}-6u\\).",
+      "options": [],
+      "correct_answer": "\\(6\\)",
+      "correct_option_label": null,
+      "solution_text": "Sea \\(a=\\sqrt[3]{2}\\) y \\(b=\\sqrt[3]{4}\\). Entonces \\(a^{3}+b^{3}=2+4=6\\) y \\(ab=\\sqrt[3]{8}=2\\). Como \\(u=a+b\\), se tiene \\(u^{3}=a^{3}+b^{3}+3ab(a+b)=6+6u\\). Por tanto, \\(u^{3}-6u=6\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: SymPy simplifica exactamente \\((\\sqrt[3]{2}+\\sqrt[3]{4})^3-6(\\sqrt[3]{2}+\\sqrt[3]{4})\\) a \\(6\\).\n\nCasos límite IGL: Se usan raíces cúbicas reales principales, que son únicas para números positivos."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 193,
+      "accepted_answers": [
+        "6"
+      ],
+      "strategy": "Los dos sumandos tienen producto \\(2\\), lo que hace que el término cruzado sea un múltiplo de \\(u\\).",
+      "theory_used": [
+        "potencias recíprocas",
+        "recurrencia de Chebyshev elemental",
+        "construir sumas de potencias",
+        "evitar logaritmos"
+      ],
+      "validity_check": "verified · SymPy simplifica exactamente \\((\\sqrt[3]{2}+\\sqrt[3]{4})^3-6(\\sqrt[3]{2}+\\sqrt[3]{4})\\) a \\(6\\). · Se usan raíces cúbicas reales principales, que son únicas para números positivos.",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "potencias_reciprocas",
+          "recurrencia_de_chebyshev_elemental",
+          "construir_sumas_de_potencias",
+          "evitar_logaritmos"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La expansión cúbica debe organizarse usando el producto exacto de dos radicales cúbicos conjugados en sentido multiplicativo."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_alg_044",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · potencias, radicales y simplificación exacta",
+      "problem_number": 44,
+      "source_question_label": "ALG-044",
+      "source_page": 44,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Calcula \\(\\left(\\sqrt{14+6\\sqrt5}-\\sqrt{14-6\\sqrt5}\\right)^{2}\\).",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(12\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(16\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(20\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(18\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(24\\)"
+        }
+      ],
+      "correct_answer": "\\(20\\)",
+      "correct_option_label": "c",
+      "solution_text": "Como \\((3+\\sqrt5)^{2}=14+6\\sqrt5\\) y \\((3-\\sqrt5)^{2}=14-6\\sqrt5\\), y además \\(3-\\sqrt5>0\\), las raíces principales son \\(3+\\sqrt5\\) y \\(3-\\sqrt5\\). Su diferencia es \\(2\\sqrt5\\), cuyo cuadrado es \\(20\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Omite parte del término cruzado.",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "Surge al usar \\(\\sqrt5\\approx2\\).",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "Es \\((2\\sqrt5)^2\\).",
+          "is_correct": true
+        },
+        {
+          "label": "d",
+          "reason": "Confunde suma y diferencia.",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "Aparece al sumar las dos raíces en lugar de restarlas.",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Expandiendo el cuadrado original: \\(28-2\\sqrt{196-180}=28-8=20\\).\n\nCasos límite IGL: Se comprobó que \\(3-\\sqrt5>0\\), por lo que no aparece un valor absoluto distinto."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 194,
+      "accepted_answers": [],
+      "strategy": "Usar \\(14\\pm6\\sqrt5=(3\\pm\\sqrt5)^2\\).",
+      "theory_used": [
+        "radicales anidados",
+        "descomposición en cuadrados",
+        "identificar cuadrados",
+        "controlar signos"
+      ],
+      "validity_check": "verified · Expandiendo el cuadrado original: \\(28-2\\sqrt{196-180}=28-8=20\\). · Se comprobó que \\(3-\\sqrt5>0\\), por lo que no aparece un valor absoluto distinto.",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "radicales_anidados",
+          "descomposicion_en_cuadrados",
+          "identificar_cuadrados",
+          "controlar_signos"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Hay que reconocer ambos radicandos como cuadrados de expresiones conjugadas y conservar el signo correcto."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_alg_045",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · ecuaciones funcionales elementales",
+      "problem_number": 45,
+      "source_question_label": "ALG-045",
+      "source_page": 45,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Una función f, definida en los enteros no negativos, cumple \\(f(0)=0\\) y \\(f(n+1)-f(n)=3n^{2}+3n+1\\) para todo \\(n\\ge0\\). Calcula \\(f(20)\\).",
+      "options": [],
+      "correct_answer": "\\(8000\\)",
+      "correct_option_label": null,
+      "solution_text": "La relación es \\(f(n+1)-f(n)=(n+1)^{3}-n^{3}\\). Sumando desde \\(n=0\\) hasta \\(19\\), el lado izquierdo telescopa a \\(f(20)-f(0)\\), y el derecho a \\(20^{3}-0^{3}\\). Como \\(f(0)=0\\), resulta \\(f(20)=8000\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: La inducción muestra directamente que \\(f(n)=n^3\\) para todos los enteros no negativos.\n\nCasos límite IGL: El dominio discreto y el valor inicial determinan la función de manera única."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 195,
+      "accepted_answers": [
+        "8000"
+      ],
+      "strategy": "Reconocer \\(3n^2+3n+1=(n+1)^3-n^3\\).",
+      "theory_used": [
+        "recurrencia funcional",
+        "diferencia de cubos",
+        "reconocer una telescopía",
+        "probar por inducción"
+      ],
+      "validity_check": "verified · La inducción muestra directamente que \\(f(n)=n^3\\) para todos los enteros no negativos. · El dominio discreto y el valor inicial determinan la función de manera única.",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "recurrencia_funcional",
+          "diferencia_de_cubos",
+          "reconocer_una_telescopia",
+          "probar_por_induccion"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La diferencia dada coincide exactamente con la diferencia entre cubos consecutivos."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_alg_046",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · ecuaciones funcionales elementales",
+      "problem_number": 46,
+      "source_question_label": "ALG-046",
+      "source_page": 46,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Una función f, definida en los enteros no negativos, satisface \\(f(x+y)=f(x)+f(y)+3xy\\) para todos esos enteros y \\(f(1)=2\\). ¿Cuánto vale \\(f(10)-2f(5)\\)?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(50\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(60\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(70\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(75\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(80\\)"
+        }
+      ],
+      "correct_answer": "\\(75\\)",
+      "correct_option_label": "d",
+      "solution_text": "Tomando \\(y=1\\), \\(f(n+1)=f(n)+2+3n\\). Además, al poner \\(x=y=0\\) se obtiene \\(f(0)=0\\). Sumando la recurrencia, \\(f(n)=\\sum_{k=0}^{n-1}(3k+2)=\\frac{3n(n-1)}2+2n=\\frac{3n^{2}+n}{2}\\). Así, \\(f(10)=155\\) y \\(f(5)=40\\). Por tanto, \\(f(10)-2f(5)=155-80=75\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Resulta de omitir parte del término cruzado.",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "Usa una fórmula lineal en vez de cuadrática.",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "Aparece al calcular mal \\(f(5)\\).",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "Es la diferencia correcta \\(155-80\\).",
+          "is_correct": true
+        },
+        {
+          "label": "e",
+          "reason": "Proviene de usar \\(f(n)=2n+3n^2/2\\) sin ajustar.",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: La fórmula \\(\\frac{3n^2+n}{2}\\) satisface directamente la ecuación funcional y el valor inicial.\n\nCasos límite IGL: Se verificó \\(f(0)=0\\) y que la fórmula siempre es entera."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 196,
+      "accepted_answers": [],
+      "strategy": "Usar \\(y=1\\) para obtener una recurrencia.",
+      "theory_used": [
+        "ecuación funcional aditiva cuadrática",
+        "evaluación combinada",
+        "determinar una fórmula",
+        "usar inducción"
+      ],
+      "validity_check": "verified · La fórmula \\(\\frac{3n^2+n}{2}\\) satisface directamente la ecuación funcional y el valor inicial. · Se verificó \\(f(0)=0\\) y que la fórmula siempre es entera.",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "ecuacion_funcional_aditiva_cuadratica",
+          "evaluacion_combinada",
+          "determinar_una_formula",
+          "usar_induccion"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La ecuación funcional determina una expresión cuadrática que debe justificarse en el dominio entero."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_alg_047",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · ecuaciones funcionales elementales",
+      "problem_number": 47,
+      "source_question_label": "ALG-047",
+      "source_page": 47,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Una función f, definida en todos los enteros, satisface \\(f(m+n)+f(m-n)=2f(m)+6n^{2}\\) para todos los enteros m,n. Además, \\(f(0)=2\\) y \\(f(1)=6\\). Calcula \\(f(10)\\).",
+      "options": [],
+      "correct_answer": "\\(312\\)",
+      "correct_option_label": null,
+      "solution_text": "Con \\(n=1\\), \\(f(m+1)-2f(m)+f(m-1)=6\\). Toda sucesión con segunda diferencia constante \\(6\\) tiene forma \\(f(m)=3m^{2}+bm+c\\). De \\(f(0)=2\\), \\(c=2\\). De \\(f(1)=6\\), \\(3+b+2=6\\), así que \\(b=1\\). Por tanto, \\(f(m)=3m^{2}+m+2\\), y \\(f(10)=300+10+2=312\\). Esta fórmula también satisface la ecuación original para cualquier n.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Sustituyendo \\(f(t)=3t^2+t+2\\), el lado izquierdo se simplifica a \\(6m^2+2m+4+6n^2=2f(m)+6n^2\\).\n\nCasos límite IGL: La recurrencia junto con \\(f(0)\\) y \\(f(1)\\) determina todos los valores enteros en ambas direcciones."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 197,
+      "accepted_answers": [
+        "312"
+      ],
+      "strategy": "Tomar \\(n=1\\) y resolver la recurrencia de segunda diferencia.",
+      "theory_used": [
+        "ecuación funcional de segunda diferencia",
+        "función cuadrática",
+        "derivar una recurrencia",
+        "verificar una fórmula"
+      ],
+      "validity_check": "verified · Sustituyendo \\(f(t)=3t^2+t+2\\), el lado izquierdo se simplifica a \\(6m^2+2m+4+6n^2=2f(m)+6n^2\\). · La recurrencia junto con \\(f(0)\\) y \\(f(1)\\) determina todos los valores enteros en ambas direcciones.",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "ecuacion_funcional_de_segunda_diferencia",
+          "funcion_cuadratica",
+          "derivar_una_recurrencia",
+          "verificar_una_formula"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La ecuación funcional fija la segunda diferencia de la sucesión \\(f(n)\\), pero aún permite un término lineal que debe determinarse."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_alg_048",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · modelación algebraica con números, edades o cantidades",
+      "problem_number": 48,
+      "source_question_label": "ALG-048",
+      "source_page": 48,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Dos hermanos tienen edades enteras positivas y ambos ya habían nacido hace \\(4\\) años. El mayor tiene \\(8\\) años más que el menor. Dentro de \\(4\\) años, el producto de sus edades será tres veces el producto que tenían hace \\(4\\) años. ¿Cuál es la suma actual de sus edades?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(24\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(28\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(30\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(36\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(32\\)"
+        }
+      ],
+      "correct_answer": "\\(32\\)",
+      "correct_option_label": "e",
+      "solution_text": "Sea x la edad actual del menor; la del mayor es \\(x+8\\), con \\(x>4\\). Dentro de \\(4\\) años sus edades serán \\(x+4\\) y \\(x+12\\). Hace \\(4\\) años eran \\(x-4\\) y \\(x+4\\). La condición es \\((x+4)(x+12)=3(x-4)(x+4)\\). Como \\(x+4>0\\), se cancela ese factor: \\(x+12=3x-12\\), de donde \\(x=12\\). Las edades son \\(12\\) y \\(20\\), cuya suma es \\(32\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Corresponde a edades que no cumplen la razón de productos.",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "Surge al comparar el presente con el futuro.",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "Aparece al olvidar la diferencia de \\(8\\) años.",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "Proviene de no retroceder correctamente cuatro años.",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "Es la suma de \\(12\\) y \\(20\\).",
+          "is_correct": true
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: En el futuro el producto es \\(16\\cdot24=384\\); en el pasado era \\(8\\cdot16=128\\), y \\(384=3\\cdot128\\).\n\nCasos límite IGL: La condición \\(x>4\\) garantiza que ambos habían nacido y permite cancelar \\(x+4\\)."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 198,
+      "accepted_answers": [],
+      "strategy": "Representar la edad menor por \\(x\\) y comparar \\((x+4)(x+12)\\) con \\((x-4)(x+4)\\).",
+      "theory_used": [
+        "edades y productos",
+        "ecuación cuadrática",
+        "modelar tiempos distintos",
+        "filtrar una raíz"
+      ],
+      "validity_check": "verified · En el futuro el producto es \\(16\\cdot24=384\\); en el pasado era \\(8\\cdot16=128\\), y \\(384=3\\cdot128\\). · La condición \\(x>4\\) garantiza que ambos habían nacido y permite cancelar \\(x+4\\).",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "edades_y_productos",
+          "ecuacion_cuadratica",
+          "modelar_tiempos_distintos",
+          "filtrar_una_raiz"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La comparación entre pasado y futuro produce una cuadrática y el contexto elimina una raíz no válida."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_alg_049",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · modelación algebraica con números, edades o cantidades",
+      "problem_number": 49,
+      "source_question_label": "ALG-049",
+      "source_page": 49,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Un rectángulo tiene lados enteros positivos y área \\(180\\). Si el lado menor aumenta \\(3\\) unidades y el mayor disminuye \\(3\\) unidades, el área no cambia. ¿Cuál es el perímetro original?",
+      "options": [],
+      "correct_answer": "\\(54\\)",
+      "correct_option_label": null,
+      "solution_text": "Sean \\(a<b\\) los lados. La igualdad \\((a+3)(b-3)=ab\\) da \\(ab-3a+3b-9=ab\\), por lo que \\(b-a=3\\). Además, \\(ab=180\\). Entre los pares positivos de factores de \\(180\\), el único con diferencia \\(3\\) es \\(12\\) y \\(15\\). Así, el perímetro es \\(2(12+15)=54\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: La lista de pares de divisores \\((1,180),(2,90),(3,60),(4,45),(5,36),(6,30),(9,20),(10,18),(12,15)\\) confirma la unicidad.\n\nCasos límite IGL: Se verificó que el lado mayor sigue siendo positivo después de restar \\(3\\)."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 199,
+      "accepted_answers": [
+        "54"
+      ],
+      "strategy": "Comparar \\((a+3)(b-3)\\) con \\(ab\\).",
+      "theory_used": [
+        "rectángulo con área fija",
+        "factorización entera",
+        "modelar una transformación",
+        "usar divisores"
+      ],
+      "validity_check": "verified · La lista de pares de divisores \\((1,180),(2,90),(3,60),(4,45),(5,36),(6,30),(9,20),(10,18),(12,15)\\) confirma la unicidad. · Se verificó que el lado mayor sigue siendo positivo después de restar \\(3\\).",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "rectangulo_con_area_fija",
+          "factorizacion_entera",
+          "modelar_una_transformacion",
+          "usar_divisores"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La conservación del área revela la diferencia entre los lados y luego exige una factorización entera única."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_alg_050",
+      "collection": "CUANTLY",
+      "subcategory": "Álgebra · modelación algebraica con números, edades o cantidades",
+      "problem_number": 50,
+      "source_question_label": "ALG-050",
+      "source_page": 50,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Un mosaico rectangular tiene r filas y c columnas. Al agregar \\(2\\) filas y eliminar \\(3\\) columnas, el número de mosaicos no cambia. En cambio, al eliminar \\(1\\) fila y agregar \\(4\\) columnas, el total aumenta en \\(18\\). Si r,c son enteros positivos, ¿cuántos mosaicos había originalmente?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(120\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(144\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(180\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(160\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(216\\)"
+        }
+      ],
+      "correct_answer": "\\(180\\)",
+      "correct_option_label": "c",
+      "solution_text": "La primera condición es \\((r+2)(c-3)=rc\\), que se reduce a \\(-3r+2c-6=0\\), es decir, \\(2c=3r+6\\). La segunda es \\((r-1)(c+4)=rc+18\\), que se reduce a \\(4r-c-4=18\\), por lo que \\(c=4r-22\\). Sustituyendo: \\(2(4r-22)=3r+6\\), entonces \\(5r=50\\), \\(r=10\\) y \\(c=18\\). El total original era \\(rc=180\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "No satisface ambas transformaciones.",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "Corresponde a una solución parcial de la primera ecuación.",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "Es \\(10\\cdot18\\), la única solución positiva.",
+          "is_correct": true
+        },
+        {
+          "label": "d",
+          "reason": "Surge al perder el término constante al expandir.",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "Proviene de intercambiar filas y columnas sin ajustar los cambios.",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Se verifica \\((12)(15)=180\\) y \\((9)(22)=198=180+18\\).\n\nCasos límite IGL: Se comprobaron \\(c>3\\), \\(r>1\\), integridad y unicidad del sistema."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 200,
+      "accepted_answers": [],
+      "strategy": "Expandir ambas condiciones y cancelar el término \\(rc\\).",
+      "theory_used": [
+        "modelo rectangular",
+        "sistema diofántico lineal",
+        "traducir cambios",
+        "resolver enteros positivos"
+      ],
+      "validity_check": "verified · Se verifica \\((12)(15)=180\\) y \\((9)(22)=198=180+18\\). · Se comprobaron \\(c>3\\), \\(r>1\\), integridad y unicidad del sistema.",
+      "classification": {
+        "primary_area": "algebra",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "modelo_rectangular",
+          "sistema_diofantico_lineal",
+          "traducir_cambios",
+          "resolver_enteros_positivos"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Dos transformaciones del rectángulo producen un sistema lineal oculto después de expandir productos."
+        ]
+      }
+    }
+  ]
+}

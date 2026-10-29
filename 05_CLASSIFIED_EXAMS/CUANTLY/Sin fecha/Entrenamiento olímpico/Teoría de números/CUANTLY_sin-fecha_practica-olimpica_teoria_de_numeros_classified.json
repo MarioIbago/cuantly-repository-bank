@@ -1,0 +1,4101 @@
+{
+  "schema_version": "1.0",
+  "source_format_reference": "https://github.com/MarioIbago/cuantly-repository-bank/blob/main/03_SCHEMA_AND_REPORTS/FUSION/OPEN_ANSWER_CONTRACT.md",
+  "exam": {
+    "competition": "CUANTLY",
+    "source_competition": "Cuantly",
+    "year": null,
+    "year_status": "not_confirmed",
+    "year_evidence": "El archivo fuente es un banco continuo de práctica y no identifica edición anual. No se asigna año por estilo, nivel o numeración.",
+    "phase": "Entrenamiento olímpico",
+    "level": "Teoría de números",
+    "school_level": "No especificado",
+    "problem_count": 50,
+    "source_file": "IGLx0_CUANTLY_CERMAT/src/data/olimpico-number-theory-extension.json",
+    "source_sha256": "4d2f9f33efed0f7730c565ff148ea3e2fcbf7a434ef5425e2616821a168beaaa",
+    "image_policy": "Los enunciados no incluyen archivos de imagen en el origen; se conserva el contenido textual y matemático de IGL.",
+    "classification_phase": "completed",
+    "difficulty_phase": "completed"
+  },
+  "validation_summary": {
+    "verified_problems": 50,
+    "needs_review_or_invalid": 0,
+    "needs_review_problem_numbers": []
+  },
+  "problems": [
+    {
+      "source_id": "cuantly_nt_001",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · divisibilidad",
+      "problem_number": 1,
+      "source_question_label": "NT-001",
+      "source_page": 1,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "En una mesa hay cinco tarjetas con los números \\(12\\), \\(25\\), \\(31\\), \\(44\\) y \\(59\\). Se retira exactamente una tarjeta. ¿Qué número debe retirarse para que la suma de las cuatro tarjetas restantes sea divisible entre \\(5\\)?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(12\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(25\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(31\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(44\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(59\\)"
+        }
+      ],
+      "correct_answer": "\\(31\\)",
+      "correct_option_label": "c",
+      "solution_text": "La suma de las cinco tarjetas es \\(171\\), que deja residuo \\(1\\) al dividirse entre \\(5\\). Por tanto, debe retirarse una tarjeta que también deje residuo \\(1\\) módulo \\(5\\). Solo \\(31\\) cumple esa condición. Al retirarla queda \\(140\\), divisible entre \\(5\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "\\(12\\) deja residuo \\(2\\) y produciría una suma restante con residuo \\(4\\).",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "\\(25\\) deja residuo \\(0\\) y no corrige el residuo \\(1\\) de la suma total.",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "\\(31\\) deja residuo \\(1\\); al retirarlo, la suma restante es \\(140\\).",
+          "is_correct": true
+        },
+        {
+          "label": "d",
+          "reason": "\\(44\\) deja residuo \\(4\\) y la suma restante no sería múltiplo de \\(5\\).",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "\\(59\\) deja residuo \\(4\\) y tampoco funciona.",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Se calculó directamente \\(171-31=140\\) y se verificaron los residuos de las otras cuatro tarjetas.\n\nCasos límite IGL: Todas las tarjetas son distintas y solo una tiene residuo \\(1\\) módulo \\(5\\)."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 101,
+      "accepted_answers": [],
+      "strategy": "La suma restante es divisible entre 5 exactamente cuando el número retirado tiene el mismo residuo módulo 5 que la suma total.",
+      "theory_used": [
+        "residuos módulo 5",
+        "suma total",
+        "calcular residuos",
+        "usar una condición equivalente"
+      ],
+      "validity_check": "verified · Se calculó directamente \\(171-31=140\\) y se verificaron los residuos de las otras cuatro tarjetas. · Todas las tarjetas son distintas y solo una tiene residuo \\(1\\) módulo \\(5\\).",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "residuos_modulo_5",
+          "suma_total",
+          "calcular_residuos",
+          "usar_una_condicion_equivalente"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Requiere usar la suma total y trabajar con residuos, sin probar todas las sumas."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_nt_002",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · dígitos",
+      "problem_number": 2,
+      "source_question_label": "NT-002",
+      "source_page": 2,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Un número de dos cifras tiene suma de cifras igual a \\(11\\). El número original es \\(27\\) mayor que el número obtenido al invertir sus cifras. ¿Cuál es el número original?",
+      "options": [],
+      "correct_answer": "\\(74\\)",
+      "correct_option_label": null,
+      "solution_text": "Sean a la cifra de las decenas y b la de las unidades. Se tiene \\(a+b=11\\) y \\(9(a-b)=27\\), de donde \\(a-b=3\\). Al sumar ambas ecuaciones, \\(2a=14\\), así que \\(a=7\\) y \\(b=4\\). El número es \\(74\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: \\(74-47=27\\) y \\(7+4=11\\).\n\nCasos límite IGL: La cifra de las decenas es no nula y la solución obtenida usa cifras entre \\(0\\) y \\(9\\)."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 102,
+      "accepted_answers": [
+        "\\(74\\)"
+      ],
+      "strategy": "Si las cifras son a y b, la diferencia entre 10a+b y 10b+a es 9(a−b).",
+      "theory_used": [
+        "inversión de cifras",
+        "sistema lineal",
+        "representar un número de dos cifras",
+        "resolver dos ecuaciones"
+      ],
+      "validity_check": "verified · \\(74-47=27\\) y \\(7+4=11\\). · La cifra de las decenas es no nula y la solución obtenida usa cifras entre \\(0\\) y \\(9\\).",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "inversion_de_cifras",
+          "sistema_lineal",
+          "representar_un_numero_de_dos_cifras",
+          "resolver_dos_ecuaciones"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Conecta la diferencia entre un número y su inversión con una ecuación sencilla entre sus cifras."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_nt_003",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · cuadrados perfectos",
+      "problem_number": 3,
+      "source_question_label": "NT-003",
+      "source_page": 3,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Sea \\(M=2^{3}\\cdot{}3\\cdot{}5^{2}\\). ¿Cuál es el menor entero positivo k para el cual kM es un cuadrado perfecto?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(2\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(3\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(6\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(10\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(30\\)"
+        }
+      ],
+      "correct_answer": "\\(6\\)",
+      "correct_option_label": "c",
+      "solution_text": "En M, los exponentes de \\(2\\) y \\(3\\) son impares, mientras que el de \\(5\\) ya es par. Hay que multiplicar por \\(2\\cdot{}3=6\\). Entonces \\(6M=2^{4}\\cdot{}3^{2}\\cdot{}5^{2}=(2^{2}\\cdot{}3\\cdot{}5)^{2}\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Multiplicar solo por \\(2\\) deja impar el exponente de \\(3\\).",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "Multiplicar solo por \\(3\\) deja impar el exponente de \\(2\\).",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "\\(6\\) corrige exactamente los dos exponentes impares.",
+          "is_correct": true
+        },
+        {
+          "label": "d",
+          "reason": "\\(10\\) vuelve impar el exponente de \\(5\\) y no corrige el de \\(3\\).",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "\\(30\\) añade factores innecesarios y deja impar el exponente de \\(5\\).",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Se calculó \\(6M=3600=60^{2}\\).\n\nCasos límite IGL: No existe un entero positivo menor que \\(6\\) que contenga simultáneamente los factores \\(2\\) y \\(3\\) requeridos."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 103,
+      "accepted_answers": [],
+      "strategy": "En un cuadrado perfecto todos los exponentes de la factorización prima son pares.",
+      "theory_used": [
+        "factorización prima",
+        "cuadrados perfectos",
+        "leer exponentes",
+        "completar paridades"
+      ],
+      "validity_check": "verified · Se calculó \\(6M=3600=60^{2}\\). · No existe un entero positivo menor que \\(6\\) que contenga simultáneamente los factores \\(2\\) y \\(3\\) requeridos.",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "factorizacion_prima",
+          "cuadrados_perfectos",
+          "leer_exponentes",
+          "completar_paridades"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Exige reconocer qué exponentes primos tienen paridad incorrecta para formar un cuadrado."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_nt_004",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · congruencias",
+      "problem_number": 4,
+      "source_question_label": "NT-004",
+      "source_page": 4,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Se comienza con el número \\(3\\). En cada paso se reemplaza el número por su cuadrado. ¿Cuál es la última cifra del número obtenido después de cinco pasos?",
+      "options": [],
+      "correct_answer": "\\(1\\)",
+      "correct_option_label": null,
+      "solution_text": "Las últimas cifras evolucionan así: \\(3\\to{}9\\to{}1\\). A partir de \\(1\\), elevar al cuadrado conserva la última cifra \\(1\\). Por ello, después de cinco pasos la última cifra es \\(1\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Después de cinco pasos el número es \\(3^{32}\\); como las potencias de \\(3\\) tienen ciclo \\(3,9,7,1\\) y \\(32\\) es múltiplo de \\(4\\), la última cifra es \\(1\\).\n\nCasos límite IGL: El conteo considera cinco reemplazos, no cinco números contando el inicial."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 104,
+      "accepted_answers": [
+        "\\(1\\)"
+      ],
+      "strategy": "Solo hace falta seguir las últimas cifras.",
+      "theory_used": [
+        "última cifra",
+        "iteración",
+        "seguir un proceso",
+        "reducir módulo 10"
+      ],
+      "validity_check": "verified · Después de cinco pasos el número es \\(3^{32}\\); como las potencias de \\(3\\) tienen ciclo \\(3,9,7,1\\) y \\(32\\) es múltiplo de \\(4\\), la última cifra es \\(1\\). · El conteo considera cinco reemplazos, no cinco números contando el inicial.",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "ultima_cifra",
+          "iteracion",
+          "seguir_un_proceso",
+          "reducir_modulo_10"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La potencia crece rápidamente, pero la última cifra entra pronto en un estado estable."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_nt_005",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · MCD y MCM",
+      "problem_number": 5,
+      "source_question_label": "NT-005",
+      "source_page": 5,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Dos campanas suenan cada \\(18\\) minutos y cada \\(24\\) minutos, respectivamente. Si ambas suenan juntas a las \\(8:00\\), ¿a qué hora volverán a sonar juntas por primera vez?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(8:42\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(8:48\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(9:00\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(9:12\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(9:36\\)"
+        }
+      ],
+      "correct_answer": "\\(9:12\\)",
+      "correct_option_label": "d",
+      "solution_text": "\\(18=2\\cdot{}3^{2}\\) y \\(24=2^{3}\\cdot{}3\\), así que \\(mcm(18,24)=2^{3}\\cdot{}3^{2}=72\\) minutos. Setenta y dos minutos después de las \\(8:00\\) son las \\(9:12\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "\\(42\\) no es múltiplo de \\(18\\) ni de \\(24\\).",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "\\(48\\) es múltiplo de \\(24\\), pero no de \\(18\\).",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "\\(60\\) no es múltiplo de \\(18\\) ni de \\(24\\).",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "\\(72\\) es el primer múltiplo común positivo.",
+          "is_correct": true
+        },
+        {
+          "label": "e",
+          "reason": "\\(96\\) es común solo a \\(24\\); no es múltiplo de \\(18\\).",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Se listaron los múltiplos \\(18,36,54,72\\) y \\(24,48,72\\).\n\nCasos límite IGL: Se pidió la primera coincidencia posterior, por lo que no se cuenta la de las \\(8:00\\)."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 105,
+      "accepted_answers": [],
+      "strategy": "La primera coincidencia ocurre tras el mínimo común múltiplo de 18 y 24.",
+      "theory_used": [
+        "periodicidad",
+        "mínimo común múltiplo",
+        "calcular MCM",
+        "convertir minutos a hora"
+      ],
+      "validity_check": "verified · Se listaron los múltiplos \\(18,36,54,72\\) y \\(24,48,72\\). · Se pidió la primera coincidencia posterior, por lo que no se cuenta la de las \\(8:00\\).",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "periodicidad",
+          "minimo_comun_multiplo",
+          "calcular_mcm",
+          "convertir_minutos_a_hora"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Requiere interpretar una coincidencia periódica mediante el mínimo común múltiplo."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_nt_006",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · congruencias",
+      "problem_number": 6,
+      "source_question_label": "NT-006",
+      "source_page": 6,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "¿Cuál es el menor entero positivo que deja residuo \\(1\\) al dividirse entre \\(2\\), entre \\(3\\) y entre \\(4\\), y que además es divisible entre \\(5\\)?",
+      "options": [],
+      "correct_answer": "\\(25\\)",
+      "correct_option_label": null,
+      "solution_text": "Como \\(mcm(2,3,4)=12\\), el número tiene la forma \\(n=1+12k\\). Probando los residuos módulo \\(5\\), \\(1+12k\\equiv{}1+2k\\equiv{}0\\), así que \\(k\\equiv{}2\\) módulo \\(5\\). El menor k no negativo es \\(2\\) y \\(n=25\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: \\(25\\) deja residuo \\(1\\) entre \\(2\\), \\(3\\) y \\(4\\), y \\(25\\) es múltiplo de \\(5\\).\n\nCasos límite IGL: El valor \\(k=0\\) produce \\(1\\), que no es divisible entre \\(5\\); por ello \\(25\\) es el menor."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 106,
+      "accepted_answers": [
+        "\\(25\\)"
+      ],
+      "strategy": "Las tres primeras condiciones equivalen a n≡1 módulo 12.",
+      "theory_used": [
+        "restos comunes",
+        "MCM",
+        "combinar condiciones",
+        "buscar el mínimo"
+      ],
+      "validity_check": "verified · \\(25\\) deja residuo \\(1\\) entre \\(2\\), \\(3\\) y \\(4\\), y \\(25\\) es múltiplo de \\(5\\). · El valor \\(k=0\\) produce \\(1\\), que no es divisible entre \\(5\\); por ello \\(25\\) es el menor.",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "restos_comunes",
+          "mcm",
+          "combinar_condiciones",
+          "buscar_el_minimo"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Combina una congruencia común con una condición adicional de divisibilidad."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_nt_007",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · primos",
+      "problem_number": 7,
+      "source_question_label": "NT-007",
+      "source_page": 7,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "¿Cuál valor de p hace que p, \\(p+2\\) y \\(p+10\\) sean todos números primos?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(2\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(3\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(5\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(7\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(11\\)"
+        }
+      ],
+      "correct_answer": "\\(3\\)",
+      "correct_option_label": "b",
+      "solution_text": "Para \\(p=3\\) se obtienen \\(3\\), \\(5\\) y \\(13\\), que son primos. Para \\(p=2\\) aparece \\(4\\); para \\(p=5\\) aparece \\(15\\); para \\(p=7\\) aparece \\(9\\); y para \\(p=11\\) aparece \\(21\\). Por tanto, \\(p=3\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Con \\(p=2\\), \\(p+2=4\\) no es primo.",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "Con \\(p=3\\), los tres números \\(3,5,13\\) son primos.",
+          "is_correct": true
+        },
+        {
+          "label": "c",
+          "reason": "Con \\(p=5\\), \\(p+10=15\\) es compuesto.",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "Con \\(p=7\\), \\(p+2=9\\) es compuesto.",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "Con \\(p=11\\), \\(p+10=21\\) es compuesto.",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Se factorizó cada número compuesto señalado.\n\nCasos límite IGL: Todos los candidatos fueron comprobados y solo uno satisface las tres condiciones."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 107,
+      "accepted_answers": [],
+      "strategy": "Verifica los tres números; en casi todos los casos aparece inmediatamente un número par o un múltiplo de 3 o 5.",
+      "theory_used": [
+        "primos cercanos",
+        "divisibilidad",
+        "comprobar primalidad pequeña",
+        "descartar por factores"
+      ],
+      "validity_check": "verified · Se factorizó cada número compuesto señalado. · Todos los candidatos fueron comprobados y solo uno satisface las tres condiciones.",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "primos_cercanos",
+          "divisibilidad",
+          "comprobar_primalidad_pequena",
+          "descartar_por_factores"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Hay que usar paridad y divisibilidad pequeña para descartar cuatro candidatos con rapidez."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_nt_008",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · dígitos",
+      "problem_number": 8,
+      "source_question_label": "NT-008",
+      "source_page": 8,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "En el número de tres cifras \\(4d7\\), la letra d representa una cifra decimal. ¿Qué valor debe tener d para que el número sea divisible entre \\(9\\)?",
+      "options": [],
+      "correct_answer": "\\(7\\)",
+      "correct_option_label": null,
+      "solution_text": "La suma de cifras es \\(4+d+7=11+d\\). Como d está entre \\(0\\) y \\(9\\), esta suma está entre \\(11\\) y \\(20\\); el único múltiplo de \\(9\\) en ese intervalo es \\(18\\). Entonces \\(d=7\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: \\(477\\div{}9=53\\).\n\nCasos límite IGL: Se revisó todo el rango \\(0\\le{}d\\le{}9\\) y solo se alcanza el múltiplo \\(18\\)."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 108,
+      "accepted_answers": [
+        "\\(7\\)"
+      ],
+      "strategy": "Un número es divisible entre 9 si y solo si la suma de sus cifras es divisible entre 9.",
+      "theory_used": [
+        "criterio de divisibilidad por 9",
+        "cifra desconocida",
+        "usar suma de cifras",
+        "controlar el rango de una cifra"
+      ],
+      "validity_check": "verified · \\(477\\div{}9=53\\). · Se revisó todo el rango \\(0\\le{}d\\le{}9\\) y solo se alcanza el múltiplo \\(18\\).",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "criterio_de_divisibilidad_por_9",
+          "cifra_desconocida",
+          "usar_suma_de_cifras",
+          "controlar_el_rango_de_una_cifra"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La condición se transforma en una suma de cifras con una única posibilidad."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_nt_009",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · invariantes",
+      "problem_number": 9,
+      "source_question_label": "NT-009",
+      "source_page": 9,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "En cuatro tarjetas están escritos \\(1\\), \\(2\\), \\(3\\) y \\(4\\). En cada movimiento se eligen dos tarjetas, se retiran y se coloca una nueva tarjeta con la suma de sus números. Se repite hasta quedar una sola tarjeta. ¿Qué número queda?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(4\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(6\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(8\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(10\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(24\\)"
+        }
+      ],
+      "correct_answer": "\\(10\\)",
+      "correct_option_label": "d",
+      "solution_text": "La suma inicial es \\(1+2+3+4=10\\). Reemplazar a y b por \\(a+b\\) no cambia la suma total, así que la última tarjeta debe contener \\(10\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "\\(4\\) confunde el último número inicial con el resultado.",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "\\(6\\) es una suma parcial posible, pero no la suma total.",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "\\(8\\) puede aparecer durante algún proceso, pero no puede ser el valor final.",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "\\(10\\) es la suma invariante.",
+          "is_correct": true
+        },
+        {
+          "label": "e",
+          "reason": "\\(24\\) confunde suma con producto.",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Se simuló, por ejemplo: \\(1+2\\to{}3\\), luego \\(3+3\\to{}6\\) y \\(6+4\\to{}10\\).\n\nCasos límite IGL: El resultado es independiente del orden de las elecciones."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 109,
+      "accepted_answers": [],
+      "strategy": "Cada movimiento conserva la suma total de los números escritos.",
+      "theory_used": [
+        "suma invariante",
+        "fusión de números",
+        "identificar un invariante",
+        "razonar sobre procesos"
+      ],
+      "validity_check": "verified · Se simuló, por ejemplo: \\(1+2\\to{}3\\), luego \\(3+3\\to{}6\\) y \\(6+4\\to{}10\\). · El resultado es independiente del orden de las elecciones.",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "suma_invariante",
+          "fusion_de_numeros",
+          "identificar_un_invariante",
+          "razonar_sobre_procesos"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "El proceso parece depender de las elecciones, pero una cantidad permanece constante."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_nt_010",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · primos",
+      "problem_number": 10,
+      "source_question_label": "NT-010",
+      "source_page": 10,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "¿Cuál es el menor entero positivo n para el cual n, \\(n+1\\) y \\(n+2\\) son todos números compuestos?",
+      "options": [],
+      "correct_answer": "\\(8\\)",
+      "correct_option_label": null,
+      "solution_text": "Para \\(n=8\\) se obtienen \\(8\\), \\(9\\) y \\(10\\), todos compuestos. Ningún n menor funciona: los bloques anteriores contienen alguno de los primos \\(2\\), \\(3\\), \\(5\\) o \\(7\\). Por tanto, el mínimo es \\(8\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: \\(8=2^{3}\\), \\(9=3^{2}\\) y \\(10=2\\cdot{}5\\).\n\nCasos límite IGL: Se revisaron los posibles inicios \\(n=1,2,\\cdots,7\\); cada bloque contiene al menos un primo."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 110,
+      "accepted_answers": [
+        "\\(8\\)"
+      ],
+      "strategy": "Busca el primer bloque de tres consecutivos que evite a los primos pequeños.",
+      "theory_used": [
+        "enteros consecutivos",
+        "compuestos",
+        "comprobar casos pequeños",
+        "certificar minimalidad"
+      ],
+      "validity_check": "verified · \\(8=2^{3}\\), \\(9=3^{2}\\) y \\(10=2\\cdot{}5\\). · Se revisaron los posibles inicios \\(n=1,2,\\cdots,7\\); cada bloque contiene al menos un primo.",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "enteros_consecutivos",
+          "compuestos",
+          "comprobar_casos_pequenos",
+          "certificar_minimalidad"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Requiere buscar el primer bloque de tres enteros consecutivos sin números primos."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_nt_011",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · dígitos",
+      "problem_number": 11,
+      "source_question_label": "NT-011",
+      "source_page": 11,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "En el número \\(4a73\\), la letra a representa una cifra decimal. ¿Qué valor de a hace que el número sea divisible entre \\(11\\)?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(0\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(3\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(5\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(8\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(9\\)"
+        }
+      ],
+      "correct_answer": "\\(8\\)",
+      "correct_option_label": "d",
+      "solution_text": "Para \\(4a73\\), la diferencia alternada es \\((4+7)-(a+3)=8-a\\). Debe ser múltiplo de \\(11\\). Como a es una cifra, \\(8-a\\) está entre \\(-1\\) y \\(8\\); el único múltiplo de \\(11\\) posible es \\(0\\). Entonces \\(a=8\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Con \\(a=0\\), la diferencia alternada es \\(8\\).",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "Con \\(a=3\\), la diferencia es \\(5\\).",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "Con \\(a=5\\), la diferencia es \\(3\\).",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "Con \\(a=8\\), la diferencia es \\(0\\) y el número es divisible entre \\(11\\).",
+          "is_correct": true
+        },
+        {
+          "label": "e",
+          "reason": "Con \\(a=9\\), la diferencia es \\(-1\\).",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: \\(4873=11\\cdot{}443\\).\n\nCasos límite IGL: Se controló todo el intervalo posible de la diferencia alternada."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 111,
+      "accepted_answers": [],
+      "strategy": "Aplica la diferencia entre las sumas de cifras en posiciones alternadas.",
+      "theory_used": [
+        "divisibilidad por 11",
+        "cifra oculta",
+        "alternar suma de cifras",
+        "resolver una congruencia acotada"
+      ],
+      "validity_check": "verified · \\(4873=11\\cdot{}443\\). · Se controló todo el intervalo posible de la diferencia alternada.",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "divisibilidad_por_11",
+          "cifra_oculta",
+          "alternar_suma_de_cifras",
+          "resolver_una_congruencia_acotada"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Usa el criterio de divisibilidad por 11 y el rango limitado de una cifra."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_nt_012",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · dígitos",
+      "problem_number": 12,
+      "source_question_label": "NT-012",
+      "source_page": 12,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Un número de tres cifras tiene suma de cifras igual a \\(12\\). Su cifra de unidades es el doble de su cifra de centenas, y el número invertido es \\(198\\) mayor que el original. ¿Cuál es el número?",
+      "options": [],
+      "correct_answer": "\\(264\\)",
+      "correct_option_label": null,
+      "solution_text": "Sea el número \\(100a+10b+c\\). La diferencia con su invertido es \\(99(c-a)=198\\), así que \\(c-a=2\\). Además, \\(c=2a\\); por tanto \\(a=2\\) y \\(c=4\\). Como \\(a+b+c=12\\), resulta \\(b=6\\). El número es \\(264\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: \\(462-264=198\\), \\(4=2\\cdot{}2\\) y \\(2+6+4=12\\).\n\nCasos límite IGL: Las cifras obtenidas están en su rango y la centena no es cero."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 112,
+      "accepted_answers": [
+        "\\(264\\)"
+      ],
+      "strategy": "Si las cifras extremas son a y c, invertir el número cambia su valor en 99(c−a).",
+      "theory_used": [
+        "número invertido",
+        "sistema de cifras",
+        "modelar con cifras",
+        "resolver restricciones simultáneas"
+      ],
+      "validity_check": "verified · \\(462-264=198\\), \\(4=2\\cdot{}2\\) y \\(2+6+4=12\\). · Las cifras obtenidas están en su rango y la centena no es cero.",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "numero_invertido",
+          "sistema_de_cifras",
+          "modelar_con_cifras",
+          "resolver_restricciones_simultaneas"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Conecta inversión de cifras, suma de cifras y una relación multiplicativa entre extremos."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_nt_013",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · congruencias",
+      "problem_number": 13,
+      "source_question_label": "NT-013",
+      "source_page": 13,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "¿Cuál es el residuo de \\(2^{2026}+3^{2026}\\) al dividirse entre \\(5\\)?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(0\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(1\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(2\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(3\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(4\\)"
+        }
+      ],
+      "correct_answer": "\\(3\\)",
+      "correct_option_label": "d",
+      "solution_text": "Como \\(2026\\equiv{}2\\) módulo \\(4\\), se tiene \\(2^{2026}\\equiv{}2^{2}\\equiv{}4\\) y \\(3^{2026}\\equiv{}3^{2}\\equiv{}9\\equiv{}4\\) módulo \\(5\\). La suma es congruente con \\(8\\), cuyo residuo es \\(3\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "\\(0\\) resultaría de suponer erróneamente que las dos potencias se cancelan.",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "\\(1\\) puede surgir al reducir incorrectamente \\(8\\) módulo \\(7\\).",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "\\(2\\) corresponde a conservar solo una de las potencias.",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "\\(3\\) es el residuo correcto de \\(4+4\\) módulo \\(5\\).",
+          "is_correct": true
+        },
+        {
+          "label": "e",
+          "reason": "\\(4\\) corresponde a calcular una potencia y olvidar la otra.",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Se verificó el ciclo: \\(2,4,3,1\\) y \\(3,4,2,1\\) módulo \\(5\\).\n\nCasos límite IGL: El exponente no es cero módulo \\(4\\), sino \\(2\\)."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 113,
+      "accepted_answers": [],
+      "strategy": "Las potencias de 2 y de 3 módulo 5 tienen periodo 4.",
+      "theory_used": [
+        "potencias módulo 5",
+        "periodicidad",
+        "detectar ciclos",
+        "reducir exponentes"
+      ],
+      "validity_check": "verified · Se verificó el ciclo: \\(2,4,3,1\\) y \\(3,4,2,1\\) módulo \\(5\\). · El exponente no es cero módulo \\(4\\), sino \\(2\\).",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "potencias_modulo_5",
+          "periodicidad",
+          "detectar_ciclos",
+          "reducir_exponentes"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La potencia enorme se reduce usando dos ciclos modulares de longitud 4."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_nt_014",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · MCD y MCM",
+      "problem_number": 14,
+      "source_question_label": "NT-014",
+      "source_page": 14,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Dos enteros positivos tienen máximo común divisor \\(6\\) y mínimo común múltiplo \\(180\\). Si uno de ellos es \\(30\\), ¿cuál es el otro?",
+      "options": [],
+      "correct_answer": "\\(36\\)",
+      "correct_option_label": null,
+      "solution_text": "El producto de los dos números es \\(6\\cdot{}180=1080\\). Si uno es \\(30\\), el otro es \\(1080\\div{}30=36\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: \\(mcd(30,36)=6\\) y \\(mcm(30,36)=180\\).\n\nCasos límite IGL: Se verificó que los datos son compatibles y que el número recuperado es positivo."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 114,
+      "accepted_answers": [
+        "\\(36\\)"
+      ],
+      "strategy": "Para enteros positivos a y b, se cumple ab=mcd(a,b)·mcm(a,b).",
+      "theory_used": [
+        "identidad producto-MCD-MCM",
+        "factorización",
+        "usar una identidad",
+        "despejar un entero"
+      ],
+      "validity_check": "verified · \\(mcd(30,36)=6\\) y \\(mcm(30,36)=180\\). · Se verificó que los datos son compatibles y que el número recuperado es positivo.",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "identidad_producto_mcd_mcm",
+          "factorizacion",
+          "usar_una_identidad",
+          "despejar_un_entero"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Recupera un número mediante la identidad entre producto, MCD y MCM."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_nt_015",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · divisibilidad",
+      "problem_number": 15,
+      "source_question_label": "NT-015",
+      "source_page": 15,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "¿Cuál de los siguientes números tiene exactamente seis divisores positivos?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(16\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(18\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(24\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(30\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(36\\)"
+        }
+      ],
+      "correct_answer": "\\(18\\)",
+      "correct_option_label": "b",
+      "solution_text": "\\(18=2\\cdot{}3^{2}\\), por lo que tiene \\((1+1)(2+1)=6\\) divisores. En cambio, \\(16=2^{4}\\) tiene \\(5\\); \\(24=2^{3}\\cdot{}3\\) tiene \\(8\\); \\(30=2\\cdot{}3\\cdot{}5\\) tiene \\(8\\); y \\(36=2^{2}\\cdot{}3^{2}\\) tiene \\(9\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "\\(16\\) tiene \\(5\\) divisores.",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "\\(18\\) tiene exactamente \\(6\\) divisores.",
+          "is_correct": true
+        },
+        {
+          "label": "c",
+          "reason": "\\(24\\) tiene \\(8\\) divisores.",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "\\(30\\) tiene \\(8\\) divisores.",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "\\(36\\) tiene \\(9\\) divisores.",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Se listaron los divisores de \\(18\\): \\(1,2,3,6,9,18\\).\n\nCasos límite IGL: Todas las opciones fueron factorizadas completamente."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 115,
+      "accepted_answers": [],
+      "strategy": "Si n=p^a q^b…, su número de divisores es (a+1)(b+1)…",
+      "theory_used": [
+        "función número de divisores",
+        "factorización prima",
+        "factorizar",
+        "contar divisores"
+      ],
+      "validity_check": "verified · Se listaron los divisores de \\(18\\): \\(1,2,3,6,9,18\\). · Todas las opciones fueron factorizadas completamente.",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "funcion_numero_de_divisores",
+          "factorizacion_prima",
+          "factorizar",
+          "contar_divisores"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Hay que traducir cada factorización prima al número de divisores, no solo reconocer números compuestos."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_nt_016",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · ecuaciones diofánticas sencillas",
+      "problem_number": 16,
+      "source_question_label": "NT-016",
+      "source_page": 16,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "En una competencia se resolvieron \\(12\\) problemas. Cada problema valía \\(3\\) o \\(5\\) puntos y se obtuvieron \\(44\\) puntos en total. ¿Cuántos problemas de \\(5\\) puntos se resolvieron?",
+      "options": [],
+      "correct_answer": "\\(4\\)",
+      "correct_option_label": null,
+      "solution_text": "Si los \\(12\\) problemas valieran \\(3\\) puntos, se obtendrían \\(36\\). Faltan \\(8\\) puntos; cambiar un problema de \\(3\\) por uno de \\(5\\) aumenta \\(2\\) puntos. Se necesitan \\(8\\div{}2=4\\) problemas de \\(5\\) puntos.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: \\(8\\) problemas de \\(3\\) puntos y \\(4\\) de \\(5\\) dan \\(24+20=44\\).\n\nCasos límite IGL: El número \\(4\\) está entre \\(0\\) y \\(12\\) y determina también \\(8\\) problemas de \\(3\\) puntos."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 116,
+      "accepted_answers": [
+        "\\(4\\)"
+      ],
+      "strategy": "Compara el puntaje total con el que se obtendría si todos valieran 3.",
+      "theory_used": [
+        "sistema lineal",
+        "conteo",
+        "modelar una situación",
+        "resolver en enteros no negativos"
+      ],
+      "validity_check": "verified · \\(8\\) problemas de \\(3\\) puntos y \\(4\\) de \\(5\\) dan \\(24+20=44\\). · El número \\(4\\) está entre \\(0\\) y \\(12\\) y determina también \\(8\\) problemas de \\(3\\) puntos.",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "sistema_lineal",
+          "conteo",
+          "modelar_una_situacion",
+          "resolver_en_enteros_no_negativos"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Convierte una situación de puntajes en una ecuación diofántica pequeña."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_nt_017",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · congruencias",
+      "problem_number": 17,
+      "source_question_label": "NT-017",
+      "source_page": 17,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Se eligen números distintos del conjunto \\(\\{1,2,\\cdots,10\\}\\). ¿Cuál es la menor cantidad que garantiza que dos de los elegidos difieran exactamente en \\(5\\)?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(5\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(6\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(7\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(9\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(10\\)"
+        }
+      ],
+      "correct_answer": "\\(6\\)",
+      "correct_option_label": "b",
+      "solution_text": "Hay cinco parejas. Al elegir \\(6\\) números, por el principio del palomar se toman ambos elementos de alguna pareja, y su diferencia es \\(5\\). Con \\(5\\) números aún puede evitarse, por ejemplo eligiendo \\(1,2,3,4,5\\). Por tanto, la cantidad mínima es \\(6\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Con \\(5\\) todavía existe una selección sin la diferencia buscada.",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "\\(6\\) garantiza ocupar por completo alguna de las cinco parejas.",
+          "is_correct": true
+        },
+        {
+          "label": "c",
+          "reason": "\\(7\\) también garantiza, pero no es la menor cantidad.",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "\\(9\\) garantiza de sobra, pero no es mínima.",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "\\(10\\) elige todo el conjunto, aunque la garantía aparece antes.",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Se exhibió una selección de tamaño \\(5\\) que evita la condición y se probó la garantía para \\(6\\).\n\nCasos límite IGL: Los números son distintos y las cinco parejas cubren exactamente el conjunto."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 117,
+      "accepted_answers": [],
+      "strategy": "Forma las parejas (1,6),(2,7),(3,8),(4,9),(5,10).",
+      "theory_used": [
+        "diferencias",
+        "emparejamiento",
+        "particionar un conjunto",
+        "probar mínimo"
+      ],
+      "validity_check": "verified · Se exhibió una selección de tamaño \\(5\\) que evita la condición y se probó la garantía para \\(6\\). · Los números son distintos y las cinco parejas cubren exactamente el conjunto.",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "diferencias",
+          "emparejamiento",
+          "particionar_un_conjunto",
+          "probar_minimo"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Usa una partición en parejas para demostrar tanto la garantía como su optimalidad."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_nt_018",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · dígitos",
+      "problem_number": 18,
+      "source_question_label": "NT-018",
+      "source_page": 18,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "¿Cuál es la menor cantidad de cifras \\(1\\) que debe tener un número de la forma \\(11\\cdots1\\) para que sea divisible entre \\(7\\)?",
+      "options": [],
+      "correct_answer": "\\(6\\)",
+      "correct_option_label": null,
+      "solution_text": "Los residuos módulo \\(7\\) son: \\(R_{1}\\equiv{}1\\), \\(R_{2}\\equiv{}4\\), \\(R_{3}\\equiv{}6\\), \\(R_{4}\\equiv{}5\\), \\(R_{5}\\equiv{}2\\) y \\(R_{6}\\equiv{}0\\). Por tanto, el primer número de esta forma divisible entre \\(7\\) tiene \\(6\\) cifras: \\(111111\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: \\(111111=7\\cdot{}15873\\).\n\nCasos límite IGL: Ninguno de los cinco residuos anteriores es cero, por lo que la minimalidad queda comprobada."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 118,
+      "accepted_answers": [
+        "\\(6\\)"
+      ],
+      "strategy": "Si R_k es el número con k cifras 1, entonces R_{k+1}≡10R_k+1 módulo 7.",
+      "theory_used": [
+        "repunits",
+        "periodicidad modular",
+        "actualizar residuos",
+        "probar minimalidad"
+      ],
+      "validity_check": "verified · \\(111111=7\\cdot{}15873\\). · Ninguno de los cinco residuos anteriores es cero, por lo que la minimalidad queda comprobada.",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "repunits",
+          "periodicidad_modular",
+          "actualizar_residuos",
+          "probar_minimalidad"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Construye módulo 7 los residuos de repunits sucesivos hasta encontrar el primer cero."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_nt_019",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · divisibilidad",
+      "problem_number": 19,
+      "source_question_label": "NT-019",
+      "source_page": 19,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Sea n un entero positivo menor que \\(10\\). ¿Para cuál valor de n es entero el número \\(\\frac{(n+6)}{(n+2)}\\)?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(1\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(2\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(3\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(4\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(6\\)"
+        }
+      ],
+      "correct_answer": "\\(2\\)",
+      "correct_option_label": "b",
+      "solution_text": "Para que la expresión sea entera, \\(n+2\\) debe dividir a \\(4\\). Como n es positivo, \\(n+2\\ge{}3\\). El único divisor positivo de \\(4\\) que cumple esto es \\(4\\), de modo que \\(n=2\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Con \\(n=1\\) se obtiene \\(7/3\\).",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "Con \\(n=2\\) se obtiene \\(8/4=2\\).",
+          "is_correct": true
+        },
+        {
+          "label": "c",
+          "reason": "Con \\(n=3\\) se obtiene \\(9/5\\).",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "Con \\(n=4\\) se obtiene \\(10/6\\).",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "Con \\(n=6\\) se obtiene \\(12/8\\).",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Se sustituyeron los cinco candidatos.\n\nCasos límite IGL: El denominador \\(n+2\\) es positivo y nunca es cero."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 119,
+      "accepted_answers": [],
+      "strategy": "Escribe (n+6)/(n+2)=1+4/(n+2).",
+      "theory_used": [
+        "integridad de fracciones",
+        "divisores",
+        "reorganizar una expresión",
+        "usar cotas"
+      ],
+      "validity_check": "verified · Se sustituyeron los cinco candidatos. · El denominador \\(n+2\\) es positivo y nunca es cero.",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "integridad_de_fracciones",
+          "divisores",
+          "reorganizar_una_expresion",
+          "usar_cotas"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Una fracción aparentemente variable se reescribe como un entero más un término divisor."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_nt_020",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · divisibilidad",
+      "problem_number": 20,
+      "source_question_label": "NT-020",
+      "source_page": 20,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "¿Cuántos ceros tiene al final la escritura decimal de \\(25!\\)?",
+      "options": [],
+      "correct_answer": "\\(6\\)",
+      "correct_option_label": null,
+      "solution_text": "Entre \\(1\\) y \\(25\\) hay cinco múltiplos de \\(5\\). Además, \\(25\\) aporta un segundo factor \\(5\\). En total hay \\(5+1=6\\) factores \\(5\\), por lo que \\(25!\\) termina en \\(6\\) ceros.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Se aplicó \\(\\lfloor25/5\\rfloor+\\lfloor25/25\\rfloor=5+1=6\\).\n\nCasos límite IGL: Se incluyó el factor adicional de \\(25\\) y no hay contribuciones de \\(125\\)."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 120,
+      "accepted_answers": [
+        "\\(6\\)"
+      ],
+      "strategy": "Los ceros finales dependen de los factores 10=2·5; en un factorial sobran factores 2, así que se cuentan los factores 5.",
+      "theory_used": [
+        "ceros finales",
+        "factorial",
+        "contar múltiplos",
+        "evitar doble conteo incompleto"
+      ],
+      "validity_check": "verified · Se aplicó \\(\\lfloor25/5\\rfloor+\\lfloor25/25\\rfloor=5+1=6\\). · Se incluyó el factor adicional de \\(25\\) y no hay contribuciones de \\(125\\).",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "ceros_finales",
+          "factorial",
+          "contar_multiplos",
+          "evitar_doble_conteo_incompleto"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Cuenta factores de 5 en un factorial, incluyendo el aporte adicional de 25."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_nt_021",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · congruencias",
+      "problem_number": 21,
+      "source_question_label": "NT-021",
+      "source_page": 21,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "¿Cuál es el residuo de \\(1!+2!+3!+\\cdots+10!\\) al dividirse entre \\(10\\)?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(0\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(1\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(2\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(3\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(4\\)"
+        }
+      ],
+      "correct_answer": "\\(3\\)",
+      "correct_option_label": "d",
+      "solution_text": "Todos los términos desde \\(5!\\) hasta \\(10!\\) dejan residuo \\(0\\) módulo \\(10\\). Solo importa \\(1!+2!+3!+4!=1+2+6+24=33\\), cuyo residuo al dividirse entre \\(10\\) es \\(3\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Olvida los primeros factoriales no divisibles entre \\(10\\).",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "No coincide con \\(1!+2!+3!+4!\\) módulo \\(10\\).",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "Suele surgir al omitir \\(4!\\) o reducirlo mal.",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "\\(33\\) deja residuo \\(3\\) módulo \\(10\\).",
+          "is_correct": true
+        },
+        {
+          "label": "e",
+          "reason": "Confunde \\(4!\\equiv{}4\\) con la suma completa.",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Se calcularon los últimos dígitos de cada factorial: \\(1,2,6,4,0,\\cdots,0\\).\n\nCasos límite IGL: Se incluyó \\(1!=1\\) y se comprobó que \\(5!\\) ya es múltiplo de \\(10\\)."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 121,
+      "accepted_answers": [],
+      "strategy": "Para k≥5, k! contiene los factores 2 y 5, por lo que es divisible entre 10.",
+      "theory_used": [
+        "factoriales módulo 10",
+        "truncamiento de una suma",
+        "identificar términos nulos",
+        "reducir una suma modular"
+      ],
+      "validity_check": "verified · Se calcularon los últimos dígitos de cada factorial: \\(1,2,6,4,0,\\cdots,0\\). · Se incluyó \\(1!=1\\) y se comprobó que \\(5!\\) ya es múltiplo de \\(10\\).",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "factoriales_modulo_10",
+          "truncamiento_de_una_suma",
+          "identificar_terminos_nulos",
+          "reducir_una_suma_modular"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Observa que, a partir de cierto punto, todos los factoriales desaparecen módulo 10."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_nt_022",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · divisibilidad",
+      "problem_number": 22,
+      "source_question_label": "NT-022",
+      "source_page": 22,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "¿Cuántos enteros del \\(1\\) al \\(50\\), inclusive, son divisibles entre \\(4\\) o entre \\(6\\)?",
+      "options": [],
+      "correct_answer": "\\(16\\)",
+      "correct_option_label": null,
+      "solution_text": "Hay \\(\\lfloor50/4\\rfloor=12\\) múltiplos de \\(4\\) y \\(\\lfloor50/6\\rfloor=8\\) múltiplos de \\(6\\). Los múltiplos de ambos son los de \\(mcm(4,6)=12\\), y hay \\(\\lfloor50/12\\rfloor=4\\). El total es \\(12+8-4=16\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Se enumeraron los múltiplos comunes \\(12,24,36,48\\) y se verificó el total.\n\nCasos límite IGL: Los extremos \\(1\\) y \\(50\\) se interpretaron de manera inclusiva."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 122,
+      "accepted_answers": [
+        "\\(16\\)"
+      ],
+      "strategy": "Cuenta los múltiplos de cada número y resta los que fueron contados dos veces.",
+      "theory_used": [
+        "inclusión-exclusión",
+        "MCM",
+        "contar en intervalos",
+        "corregir intersecciones"
+      ],
+      "validity_check": "verified · Se enumeraron los múltiplos comunes \\(12,24,36,48\\) y se verificó el total. · Los extremos \\(1\\) y \\(50\\) se interpretaron de manera inclusiva.",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "inclusion_exclusion",
+          "mcm",
+          "contar_en_intervalos",
+          "corregir_intersecciones"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Aplica inclusión-exclusión y corrige el doble conteo de los múltiplos comunes."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_nt_023",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · invariantes",
+      "problem_number": 23,
+      "source_question_label": "NT-023",
+      "source_page": 23,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "En una pizarra se escriben diez enteros impares. En cada paso se eligen dos números, se borran y se escribe su suma. Se continúa hasta que queda un solo número. ¿Cuál afirmación es correcta?",
+      "options": [
+        {
+          "label": "a",
+          "text": "El número final siempre es par."
+        },
+        {
+          "label": "b",
+          "text": "El número final siempre es impar."
+        },
+        {
+          "label": "c",
+          "text": "El número final es par solo si se eligen primero dos números consecutivos."
+        },
+        {
+          "label": "d",
+          "text": "La paridad final depende del orden de las elecciones."
+        },
+        {
+          "label": "e",
+          "text": "El número final necesariamente es \\(10\\)."
+        }
+      ],
+      "correct_answer": "El número final siempre es par.",
+      "correct_option_label": "a",
+      "solution_text": "Cada paso reemplaza a y b por \\(a+b\\), por lo que la suma de todos los números no cambia. La suma inicial de diez impares es par. La única entrada final es esa suma, así que siempre es par.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Es la consecuencia correcta del invariante y de tener una cantidad par de impares.",
+          "is_correct": true
+        },
+        {
+          "label": "b",
+          "reason": "La suma de diez impares no es impar.",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "La consecutividad no afecta la suma total.",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "El orden de las elecciones no cambia el invariante.",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "La paridad está determinada, pero el valor exacto no tiene que ser \\(10\\).",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Se probó con símbolos: si los números son \\(2k_i+1\\), su suma es \\(2(\\)Σ\\(k_i+5)\\).\n\nCasos límite IGL: No se supuso que los impares fueran positivos o distintos; la conclusión sigue siendo válida."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 123,
+      "accepted_answers": [],
+      "strategy": "La suma total se conserva y la suma de diez números impares es par.",
+      "theory_used": [
+        "paridad",
+        "suma total",
+        "ignorar el orden de operaciones",
+        "conservar una cantidad"
+      ],
+      "validity_check": "verified · Se probó con símbolos: si los números son \\(2k_i+1\\), su suma es \\(2(\\)Σ\\(k_i+5)\\). · No se supuso que los impares fueran positivos o distintos; la conclusión sigue siendo válida.",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "paridad",
+          "suma_total",
+          "ignorar_el_orden_de_operaciones",
+          "conservar_una_cantidad"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "El proceso local se resuelve observando la paridad de una suma global invariante."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_nt_024",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · dígitos",
+      "problem_number": 24,
+      "source_question_label": "NT-024",
+      "source_page": 24,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "¿Cuántos números de tres cifras pueden formarse usando tres cifras distintas del conjunto \\(\\{1,2,3,4\\}\\) y que sean divisibles entre \\(9\\)?",
+      "options": [],
+      "correct_answer": "\\(6\\)",
+      "correct_option_label": null,
+      "solution_text": "Las sumas de tres cifras distintas del conjunto son \\(1+2+3=6\\), \\(1+2+4=7\\), \\(1+3+4=8\\) y \\(2+3+4=9\\). Solo sirve el conjunto \\(\\{2,3,4\\}\\). Sus tres cifras pueden ordenarse de \\(3!=6\\) maneras, todas formando números de tres cifras.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Los seis números son \\(234,243,324,342,423\\) y \\(432\\).\n\nCasos límite IGL: No hay cero, así que ninguna permutación pierde la condición de tener tres cifras."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 124,
+      "accepted_answers": [
+        "\\(6\\)"
+      ],
+      "strategy": "La suma de las cifras debe ser múltiplo de 9.",
+      "theory_used": [
+        "divisibilidad por 9",
+        "permutaciones",
+        "elegir un subconjunto",
+        "contar ordenamientos"
+      ],
+      "validity_check": "verified · Los seis números son \\(234,243,324,342,423\\) y \\(432\\). · No hay cero, así que ninguna permutación pierde la condición de tener tres cifras.",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "divisibilidad_por_9",
+          "permutaciones",
+          "elegir_un_subconjunto",
+          "contar_ordenamientos"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Combina selección de cifras con el criterio de divisibilidad por 9 y luego cuenta permutaciones."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_nt_025",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · divisibilidad",
+      "problem_number": 25,
+      "source_question_label": "NT-025",
+      "source_page": 25,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "¿Cuál es el menor entero \\(n>5\\) para el cual \\(1+2+\\cdots+n\\) es divisible entre \\(15\\)?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(6\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(8\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(9\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(10\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(14\\)"
+        }
+      ],
+      "correct_answer": "\\(9\\)",
+      "correct_option_label": "c",
+      "solution_text": "Para \\(n=6,7,8\\) las sumas son \\(21,28\\) y \\(36\\), ninguna divisible entre \\(15\\). Para \\(n=9\\) la suma es \\(9\\cdot{}\\frac{10}{2}=45\\), que sí es divisible entre \\(15\\). Por tanto, el mínimo es \\(9\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "La suma hasta \\(6\\) es \\(21\\).",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "La suma hasta \\(8\\) es \\(36\\).",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "La suma hasta \\(9\\) es \\(45\\), múltiplo de \\(15\\).",
+          "is_correct": true
+        },
+        {
+          "label": "d",
+          "reason": "La suma hasta \\(10\\) es \\(55\\).",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "\\(14\\) también funciona porque la suma es \\(105\\), pero no es el menor.",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Se verificó la condición equivalente \\(30|n(n+1)\\) para \\(n=6,7,8,9\\).\n\nCasos límite IGL: Se respetó la restricción estricta \\(n>5\\)."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 125,
+      "accepted_answers": [],
+      "strategy": "Usa la suma n(n+1)/2 o revisa las primeras sumas después de n=5.",
+      "theory_used": [
+        "números triangulares",
+        "mínimo",
+        "usar una fórmula",
+        "comprobar minimalidad"
+      ],
+      "validity_check": "verified · Se verificó la condición equivalente \\(30|n(n+1)\\) para \\(n=6,7,8,9\\). · Se respetó la restricción estricta \\(n>5\\).",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "numeros_triangulares",
+          "minimo",
+          "usar_una_formula",
+          "comprobar_minimalidad"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La suma consecutiva se transforma en un producto y se busca el primer valor posterior a un umbral."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_nt_026",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · ecuaciones diofánticas sencillas",
+      "problem_number": 26,
+      "source_question_label": "NT-026",
+      "source_page": 26,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "¿Cuántos pares ordenados (x,y) de enteros positivos satisfacen \\(xy+x+y=35\\)?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(4\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(5\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(6\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(7\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(9\\)"
+        }
+      ],
+      "correct_answer": "\\(7\\)",
+      "correct_option_label": "d",
+      "solution_text": "De \\((x+1)(y+1)=36\\), cada divisor positivo d de \\(36\\) puede ser \\(x+1=d\\). Como x,y son positivos, ambos factores deben ser mayores que \\(1\\), así que se excluyen \\(d=1\\) y \\(d=36\\). Los divisores restantes son \\(2,3,4,6,9,12\\) y \\(18\\): hay \\(7\\) pares ordenados.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Cuenta solo algunos pares no ordenados y omite orientaciones.",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "Omite dos factores válidos.",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "Corresponde a contar pares no ordenados y duplicar de forma incompleta.",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "Los siete divisores interiores producen exactamente siete pares ordenados.",
+          "is_correct": true
+        },
+        {
+          "label": "e",
+          "reason": "Incluye casos con \\(x=0\\) o \\(y=0\\).",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Se generaron los pares mediante cada divisor interior de \\(36\\) y se sustituyeron en la ecuación.\n\nCasos límite IGL: Se excluyeron exactamente los factores \\(1\\) y \\(36\\) porque producirían una variable cero."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 126,
+      "accepted_answers": [],
+      "strategy": "Suma 1 a ambos lados para obtener (x+1)(y+1)=36.",
+      "theory_used": [
+        "factorización reversible",
+        "conteo de soluciones",
+        "completar un producto",
+        "contar divisores"
+      ],
+      "validity_check": "verified · Se generaron los pares mediante cada divisor interior de \\(36\\) y se sustituyeron en la ecuación. · Se excluyeron exactamente los factores \\(1\\) y \\(36\\) porque producirían una variable cero.",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "factorizacion_reversible",
+          "conteo_de_soluciones",
+          "completar_un_producto",
+          "contar_divisores"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Una ecuación no lineal se convierte en una factorización y exige contar pares ordenados con restricciones."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_nt_027",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · dígitos",
+      "problem_number": 27,
+      "source_question_label": "NT-027",
+      "source_page": 27,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Un número N de tres cifras cumple \\(N+invertido(N)=1191\\), N es menor que su invertido y N es divisible entre \\(7\\). ¿Cuál es N?",
+      "options": [],
+      "correct_answer": "\\(546\\)",
+      "correct_option_label": null,
+      "solution_text": "Si \\(N=100a+10b+c\\), entonces \\(N+invertido(N)=101(a+c)+20b=1191\\). Reduciendo módulo \\(101\\) se obtiene \\(20b\\equiv{}80\\), y como b es una cifra resulta \\(b=4\\). Entonces \\(a+c=11\\). La condición \\(N<invertido(N)\\) da \\(a<c\\), así que los candidatos son \\(249,348,447\\) y \\(546\\). Solo \\(546\\) es divisible entre \\(7\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: \\(546+645=1191\\) y \\(546=7\\cdot{}78\\).\n\nCasos límite IGL: Se revisaron todos los pares de cifras \\(a<c\\) con \\(a+c=11\\); no hay cero inicial."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 127,
+      "accepted_answers": [
+        "\\(546\\)"
+      ],
+      "strategy": "Al sumar un número de tres cifras con su invertido, las cifras extremas aparecen multiplicadas por 101 y la cifra central por 20.",
+      "theory_used": [
+        "número invertido",
+        "divisibilidad por 7",
+        "usar valor posicional",
+        "cerrar una lista corta"
+      ],
+      "validity_check": "verified · \\(546+645=1191\\) y \\(546=7\\cdot{}78\\). · Se revisaron todos los pares de cifras \\(a<c\\) con \\(a+c=11\\); no hay cero inicial.",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "numero_invertido",
+          "divisibilidad_por_7",
+          "usar_valor_posicional",
+          "cerrar_una_lista_corta"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Las condiciones de inversión reducen las cifras a cuatro candidatos y la divisibilidad selecciona uno."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_nt_028",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · congruencias",
+      "problem_number": 28,
+      "source_question_label": "NT-028",
+      "source_page": 28,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "¿Cuál es el menor entero positivo n tal que \\(2^{n}\\) deja residuo \\(1\\) al dividirse entre \\(7\\) y \\(3^{n}\\) deja residuo \\(1\\) al dividirse entre \\(5\\)?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(4\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(6\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(8\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(10\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(12\\)"
+        }
+      ],
+      "correct_answer": "\\(12\\)",
+      "correct_option_label": "e",
+      "solution_text": "Módulo \\(7\\), las potencias de \\(2\\) son \\(2,4,1\\), así que el periodo es \\(3\\). Módulo \\(5\\), las potencias de \\(3\\) son \\(3,4,2,1\\), así que el periodo es \\(4\\). El menor n múltiplo de ambos es \\(mcm(3,4)=12\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "\\(4\\) satisface la segunda condición, pero no la primera.",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "\\(6\\) satisface la primera, pero \\(3^{6}\\) no es \\(1\\) módulo \\(5\\).",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "\\(8\\) satisface la segunda, pero no la primera.",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "\\(10\\) no es múltiplo ni de \\(3\\) ni de \\(4\\).",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "\\(12\\) es la primera coincidencia de ambos periodos.",
+          "is_correct": true
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Se verificó \\(2^{12}\\equiv{}1\\) módulo \\(7\\) y \\(3^{12}\\equiv{}1\\) módulo \\(5\\).\n\nCasos límite IGL: Se comprobó que los periodos mínimos son \\(3\\) y \\(4\\), no solo periodos posibles."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 128,
+      "accepted_answers": [],
+      "strategy": "La primera condición exige que n sea múltiplo de 3 y la segunda que sea múltiplo de 4.",
+      "theory_used": [
+        "orden multiplicativo",
+        "MCM de periodos",
+        "hallar ciclos",
+        "sincronizar condiciones"
+      ],
+      "validity_check": "verified · Se verificó \\(2^{12}\\equiv{}1\\) módulo \\(7\\) y \\(3^{12}\\equiv{}1\\) módulo \\(5\\). · Se comprobó que los periodos mínimos son \\(3\\) y \\(4\\), no solo periodos posibles.",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "orden_multiplicativo",
+          "mcm_de_periodos",
+          "hallar_ciclos",
+          "sincronizar_condiciones"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Combina dos órdenes modulares distintos y busca su primera coincidencia."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_nt_029",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · MCD y MCM",
+      "problem_number": 29,
+      "source_question_label": "NT-029",
+      "source_page": 29,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "¿Cuántos enteros n con \\(1\\le{}n\\le{}30\\) cumplen \\(mcd(n,n+6)=3\\)?",
+      "options": [],
+      "correct_answer": "\\(5\\)",
+      "correct_option_label": null,
+      "solution_text": "Se necesita \\(mcd(n,6)=3\\), lo que ocurre exactamente cuando n es divisible entre \\(3\\) pero no entre \\(2\\); es decir, \\(n\\equiv{}3\\) módulo \\(6\\). En el intervalo aparecen \\(3,9,15,21\\) y \\(27\\). Hay \\(5\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Se calculó el MCD de cada uno de los cinco valores y se verificó que los demás residuos módulo \\(6\\) no sirven.\n\nCasos límite IGL: Los extremos \\(1\\) y \\(30\\) están incluidos; \\(30\\) tiene MCD \\(6\\), no \\(3\\)."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 129,
+      "accepted_answers": [
+        "\\(5\\)"
+      ],
+      "strategy": "Por el algoritmo de Euclides, mcd(n,n+6)=mcd(n,6).",
+      "theory_used": [
+        "algoritmo de Euclides",
+        "conteo modular",
+        "transformar un MCD",
+        "contar en un intervalo"
+      ],
+      "validity_check": "verified · Se calculó el MCD de cada uno de los cinco valores y se verificó que los demás residuos módulo \\(6\\) no sirven. · Los extremos \\(1\\) y \\(30\\) están incluidos; \\(30\\) tiene MCD \\(6\\), no \\(3\\).",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "algoritmo_de_euclides",
+          "conteo_modular",
+          "transformar_un_mcd",
+          "contar_en_un_intervalo"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Reduce el MCD de dos expresiones a una condición sobre n y luego cuenta una clase residual."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_nt_030",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · cuadrados perfectos",
+      "problem_number": 30,
+      "source_question_label": "NT-030",
+      "source_page": 30,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "¿Cuál es el menor entero positivo d por el que debe dividirse \\(10!\\) para que \\(10!/d\\) sea un cuadrado perfecto?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(3\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(5\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(7\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(14\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(21\\)"
+        }
+      ],
+      "correct_answer": "\\(7\\)",
+      "correct_option_label": "c",
+      "solution_text": "En \\(10!\\), los exponentes son \\(v_{2}=5+2+1=8\\), \\(v_{3}=3+1=4\\), \\(v_{5}=2\\) y \\(v_{7}=1\\). Por tanto, \\(10!=2^{8}\\cdot{}3^{4}\\cdot{}5^{2}\\cdot{}7\\). Dividir entre \\(7\\) deja todos los exponentes pares, y no hace falta retirar ningún otro factor.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Dividir entre \\(3\\) vuelve impar su exponente.",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "Dividir entre \\(5\\) vuelve impar su exponente.",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "Dividir entre \\(7\\) elimina el único exponente impar.",
+          "is_correct": true
+        },
+        {
+          "label": "d",
+          "reason": "\\(14\\) también elimina \\(7\\), pero vuelve impar el exponente de \\(2\\).",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "\\(21\\) vuelve impares los exponentes de \\(3\\) y elimina más de lo necesario.",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Se comprobó \\(10!/7=518400=720^{2}\\).\n\nCasos límite IGL: No se permite una división no entera; todos los candidatos dividen a \\(10!\\), pero solo \\(7\\) produce cuadrado."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 130,
+      "accepted_answers": [],
+      "strategy": "En la factorización de 10!, todos los exponentes salvo el de 7 ya son pares.",
+      "theory_used": [
+        "factorial",
+        "paridad de exponentes",
+        "factorizar un factorial",
+        "minimizar una división"
+      ],
+      "validity_check": "verified · Se comprobó \\(10!/7=518400=720^{2}\\). · No se permite una división no entera; todos los candidatos dividen a \\(10!\\), pero solo \\(7\\) produce cuadrado.",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "factorial",
+          "paridad_de_exponentes",
+          "factorizar_un_factorial",
+          "minimizar_una_division"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Exige analizar todas las valuaciones primas de un factorial para identificar el único exponente impar."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_nt_031",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · ecuaciones diofánticas sencillas",
+      "problem_number": 31,
+      "source_question_label": "NT-031",
+      "source_page": 31,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "¿Cuántos pares de enteros positivos (x,y) con \\(x\\le{}y\\) satisfacen \\(1/x+1/y=\\frac{1}{6}\\)?",
+      "options": [],
+      "correct_answer": "\\(5\\)",
+      "correct_option_label": null,
+      "solution_text": "Como \\(1/x+1/y=\\frac{1}{6}\\) y ambos términos son positivos, necesariamente \\(x>6\\) y \\(y>6\\); si alguno fuera menor o igual que \\(6\\), su recíproco sería al menos \\(\\frac{1}{6}\\) y la suma sería mayor que \\(\\frac{1}{6}\\). Al multiplicar por \\(6xy\\) se obtiene \\(xy=6x+6y\\), y al sumar \\(36\\) resulta \\((x-6)(y-6)=36\\). Como \\(x\\le{}y\\) y ambos factores son positivos, basta tomar los divisores \\(d\\le{}\\sqrt{36}=6\\) para \\(x-6=d\\). Los valores \\(d=1,2,3,4,6\\) producen exactamente cinco pares. Por tanto, hay \\(5\\) soluciones.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Los pares son \\((7,42),(8,24),(9,18),(10,15)\\) y \\((12,12)\\).\n\nCasos límite IGL: Se justificó explícitamente que \\(x>6\\) y \\(y>6\\), por lo que no existen pares provenientes de divisores negativos."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 131,
+      "accepted_answers": [
+        "\\(5\\)"
+      ],
+      "strategy": "Reorganiza xy=6x+6y como (x−6)(y−6)=36.",
+      "theory_used": [
+        "fracciones unitarias",
+        "factorización",
+        "eliminar denominadores",
+        "contar pares no ordenados"
+      ],
+      "validity_check": "verified · Los pares son \\((7,42),(8,24),(9,18),(10,15)\\) y \\((12,12)\\). · Se justificó explícitamente que \\(x>6\\) y \\(y>6\\), por lo que no existen pares provenientes de divisores negativos.",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "fracciones_unitarias",
+          "factorizacion",
+          "eliminar_denominadores",
+          "contar_pares_no_ordenados"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Convierte una ecuación de recíprocos en pares de divisores y controla el orden x≤y."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_nt_032",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · divisibilidad",
+      "problem_number": 32,
+      "source_question_label": "NT-032",
+      "source_page": 32,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "¿Para cuál de los siguientes valores de n es divisible entre \\(41\\) el número \\(n^{2}+n+41\\)?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(9\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(20\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(32\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(39\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(40\\)"
+        }
+      ],
+      "correct_answer": "\\(40\\)",
+      "correct_option_label": "e",
+      "solution_text": "Como \\(41\\) es primo, \\(41|n(n+1)\\) implica \\(n\\equiv{}0\\) o \\(n\\equiv{}-1\\) módulo \\(41\\). Entre las opciones, solo \\(40\\) es congruente con \\(-1\\). Entonces \\(40^{2}+40+41\\) es divisible entre \\(41\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "\\(9\\) no es \\(0\\) ni \\(-1\\) módulo \\(41\\).",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "\\(20\\) no satisface ninguna de las dos clases.",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "\\(32\\) tampoco es \\(0\\) ni \\(40\\) módulo \\(41\\).",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "\\(39\\) es \\(-2\\), no \\(-1\\), módulo \\(41\\).",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "\\(40\\) es \\(-1\\) módulo \\(41\\) y funciona.",
+          "is_correct": true
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: \\(40^{2}+40+41=1681=41^{2}\\).\n\nCasos límite IGL: Ninguna opción es múltiplo de \\(41\\); solo aparece la clase \\(-1\\)."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 132,
+      "accepted_answers": [],
+      "strategy": "Módulo 41, la condición equivale a 41|n(n+1).",
+      "theory_used": [
+        "polinomios módulo primo",
+        "producto consecutivo",
+        "reducir una expresión",
+        "usar primalidad"
+      ],
+      "validity_check": "verified · \\(40^{2}+40+41=1681=41^{2}\\). · Ninguna opción es múltiplo de \\(41\\); solo aparece la clase \\(-1\\).",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "polinomios_modulo_primo",
+          "producto_consecutivo",
+          "reducir_una_expresion",
+          "usar_primalidad"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La expresión se reduce módulo un primo y se usa que un primo que divide un producto divide alguno de sus factores."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_nt_033",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · congruencias",
+      "problem_number": 33,
+      "source_question_label": "NT-033",
+      "source_page": 33,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "¿Cuál es el menor entero m tal que toda lista de m enteros contiene un bloque consecutivo no vacío cuya suma sea divisible entre \\(7\\)?",
+      "options": [],
+      "correct_answer": "\\(7\\)",
+      "correct_option_label": null,
+      "solution_text": "Con \\(7\\) enteros hay \\(8\\) sumas parciales \\(S_{0}=0,S_{1},\\cdots,S_{7}\\) y solo \\(7\\) residuos módulo \\(7\\). Dos tienen el mismo residuo; su diferencia es la suma de un bloque consecutivo no vacío y es divisible entre \\(7\\). Con \\(6\\) enteros no se garantiza: la lista \\(1,1,1,1,1,1\\) tiene bloques con sumas entre \\(1\\) y \\(6\\). Por tanto, \\(m=7\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: El argumento de sumas parciales prueba la garantía y el ejemplo de seis unos prueba minimalidad.\n\nCasos límite IGL: El bloque es no vacío porque se toman dos índices distintos."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 133,
+      "accepted_answers": [
+        "\\(7\\)"
+      ],
+      "strategy": "Considera las sumas parciales, incluyendo la suma vacía 0.",
+      "theory_used": [
+        "sumas parciales",
+        "bloques consecutivos",
+        "construir residuos acumulados",
+        "probar optimalidad"
+      ],
+      "validity_check": "verified · El argumento de sumas parciales prueba la garantía y el ejemplo de seis unos prueba minimalidad. · El bloque es no vacío porque se toman dos índices distintos.",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "sumas_parciales",
+          "bloques_consecutivos",
+          "construir_residuos_acumulados",
+          "probar_optimalidad"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Usa sumas parciales y además demuestra que una cantidad menor no garantiza la propiedad."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_nt_034",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · congruencias",
+      "problem_number": 34,
+      "source_question_label": "NT-034",
+      "source_page": 34,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Se define \\(a_{1}=1\\) y \\(a_{n+1}=2a_{n}+1\\). ¿Cuál es el residuo de \\(a_{2026}\\) al dividirse entre \\(7\\)?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(0\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(1\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(2\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(3\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(6\\)"
+        }
+      ],
+      "correct_answer": "\\(1\\)",
+      "correct_option_label": "b",
+      "solution_text": "Por inducción, \\(a_{n}=2^{n}-1\\). Las potencias de \\(2\\) módulo \\(7\\) tienen periodo \\(3\\). Como \\(2026\\equiv{}1\\) módulo \\(3\\), \\(2^{2026}\\equiv{}2\\), así que \\(a_{2026}\\equiv{}2-1\\equiv{}1\\) módulo \\(7\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "\\(0\\) correspondería a suponer \\(2^{2026}\\equiv{}1\\).",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "\\(1\\) es el residuo correcto.",
+          "is_correct": true
+        },
+        {
+          "label": "c",
+          "reason": "\\(2\\) olvida restar \\(1\\).",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "\\(3\\) no aparece al aplicar el periodo correcto.",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "\\(6\\) corresponde a usar \\(-1\\) sin calcular la potencia.",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Se calcularon los primeros términos \\(1,3,7,15\\) y se compararon con \\(2^{n}-1\\).\n\nCasos límite IGL: El índice inicial \\(a_{1}\\) fue respetado; no se desplazó la fórmula."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 134,
+      "accepted_answers": [],
+      "strategy": "La recurrencia produce aₙ=2ⁿ−1.",
+      "theory_used": [
+        "recurrencia",
+        "congruencias",
+        "hallar patrón",
+        "probar una fórmula",
+        "reducir módulo 7"
+      ],
+      "validity_check": "verified · Se calcularon los primeros términos \\(1,3,7,15\\) y se compararon con \\(2^{n}-1\\). · El índice inicial \\(a_{1}\\) fue respetado; no se desplazó la fórmula.",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "recurrencia",
+          "congruencias",
+          "hallar_patron",
+          "probar_una_formula",
+          "reducir_modulo_7"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Primero se descubre una fórmula cerrada y luego se reduce una potencia mediante periodicidad."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_nt_035",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · dígitos",
+      "problem_number": 35,
+      "source_question_label": "NT-035",
+      "source_page": 35,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "¿Cuántos palíndromos de cuatro cifras son divisibles entre \\(99\\)?",
+      "options": [],
+      "correct_answer": "\\(10\\)",
+      "correct_option_label": null,
+      "solution_text": "La suma de cifras de abba es \\(2(a+b)\\). Para ser divisible entre \\(9\\), \\(a+b\\) debe ser múltiplo de \\(9\\). Con \\(1\\le{}a\\le{}9\\) y \\(0\\le{}b\\le{}9\\), las posibilidades son \\(a+b=9\\), que da \\(9\\) pares, y \\(a+b=18\\), que solo da \\((9,9)\\). En total hay \\(10\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Se verificó que \\(99=9\\cdot{}11\\) y que \\(9\\) y \\(11\\) son coprimos.\n\nCasos límite IGL: La cifra a no puede ser cero; b sí puede serlo y está incluida en el caso \\(a=9,b=0\\)."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 135,
+      "accepted_answers": [
+        "\\(10\\)"
+      ],
+      "strategy": "Un palíndromo abba siempre es divisible entre 11; solo falta imponer divisibilidad entre 9.",
+      "theory_used": [
+        "palíndromos",
+        "divisibilidad por 9 y 11",
+        "parametrizar cifras",
+        "contar soluciones"
+      ],
+      "validity_check": "verified · Se verificó que \\(99=9\\cdot{}11\\) y que \\(9\\) y \\(11\\) son coprimos. · La cifra a no puede ser cero; b sí puede serlo y está incluida en el caso \\(a=9,b=0\\).",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "palindromos",
+          "divisibilidad_por_9_y_11",
+          "parametrizar_cifras",
+          "contar_soluciones"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Aprovecha que todo palíndromo de cuatro cifras es múltiplo de 11 y reduce la condición de 99 a una suma de cifras."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_nt_036",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · congruencias",
+      "problem_number": 36,
+      "source_question_label": "NT-036",
+      "source_page": 36,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "¿Cuál es el mayor tamaño de un subconjunto de \\(\\{1,2,\\cdots,20\\}\\) en el que la suma de cualesquiera dos elementos distintos nunca sea divisible entre \\(5\\)?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(7\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(8\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(9\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(10\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(12\\)"
+        }
+      ],
+      "correct_answer": "\\(9\\)",
+      "correct_option_label": "c",
+      "solution_text": "Cada residuo módulo \\(5\\) aparece cuatro veces. No se puede elegir ningún número de la clase \\(1\\) junto con uno de la clase \\(4\\), por lo que de esas dos clases se toman como máximo \\(4\\) elementos en total. Lo mismo ocurre con las clases \\(2\\) y \\(3\\). De los múltiplos de \\(5\\) puede elegirse como máximo uno, pues dos sumarían un múltiplo de \\(5\\). Así, el tamaño es como máximo \\(4+4+1=9\\). Se alcanza, por ejemplo, eligiendo todos los números congruentes con \\(1\\) o \\(2\\) módulo \\(5\\) y además el \\(5\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Puede alcanzarse, pero no es máximo.",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "Olvida que también puede añadirse un múltiplo de \\(5\\).",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "Se eligen cuatro números de una clase en cada pareja complementaria y un múltiplo de \\(5\\).",
+          "is_correct": true
+        },
+        {
+          "label": "d",
+          "reason": "Exigiría superar la cota \\(4+4+1\\).",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "Ignora por completo las restricciones entre residuos complementarios.",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: La construcción \\(\\{1,6,11,16,2,7,12,17,5\\}\\) tiene nueve elementos y ninguna pareja suma \\(0\\) módulo \\(5\\).\n\nCasos límite IGL: Se consideraron las cinco clases residuales; la cota trata tanto parejas entre clases como parejas dentro de la clase \\(0\\)."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 136,
+      "accepted_answers": [],
+      "strategy": "Las clases residuales 1 y 4 son incompatibles entre sí, al igual que 2 y 3; de la clase 0 puede tomarse como máximo un número.",
+      "theory_used": [
+        "residuos módulo 5",
+        "sumas prohibidas",
+        "agrupar por clases residuales",
+        "demostrar máximo"
+      ],
+      "validity_check": "verified · La construcción \\(\\{1,6,11,16,2,7,12,17,5\\}\\) tiene nueve elementos y ninguna pareja suma \\(0\\) módulo \\(5\\). · Se consideraron las cinco clases residuales; la cota trata tanto parejas entre clases como parejas dentro de la clase \\(0\\).",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "residuos_modulo_5",
+          "sumas_prohibidas",
+          "agrupar_por_clases_residuales",
+          "demostrar_maximo"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Clasifica por residuos módulo 5 y combina una cota con una construcción que la alcanza."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_nt_037",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · divisibilidad",
+      "problem_number": 37,
+      "source_question_label": "NT-037",
+      "source_page": 37,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "¿Cuál es el mayor exponente e tal que \\(2^{e}\\) divide a \\(2\\cdot{}4\\cdot{}6\\cdot{}\\cdots\\cdot{}20\\)?",
+      "options": [],
+      "correct_answer": "\\(18\\)",
+      "correct_option_label": null,
+      "solution_text": "El producto es \\((2\\cdot{}1)(2\\cdot{}2)\\cdots(2\\cdot{}10)=2^{10}\\cdot{}10!\\). Además, \\(v_{2}(10!)=\\lfloor10/2\\rfloor+\\lfloor10/4\\rfloor+\\lfloor10/8\\rfloor=5+2+1=8\\). Por tanto, \\(e=10+8=18\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Se sumaron directamente las valuaciones de \\(2,4,6,\\cdots,20\\) y también se obtuvo \\(18\\).\n\nCasos límite IGL: Se contó el exponente máximo, no el número de factores pares."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 137,
+      "accepted_answers": [
+        "\\(18\\)"
+      ],
+      "strategy": "Extrae un factor 2 de cada uno de los diez factores pares.",
+      "theory_used": [
+        "potencias de 2",
+        "factorial",
+        "factorizar un producto",
+        "sumar valuaciones"
+      ],
+      "validity_check": "verified · Se sumaron directamente las valuaciones de \\(2,4,6,\\cdots,20\\) y también se obtuvo \\(18\\). · Se contó el exponente máximo, no el número de factores pares.",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "potencias_de_2",
+          "factorial",
+          "factorizar_un_producto",
+          "sumar_valuaciones"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Descompone un producto de números pares y cuenta una valuación en dos niveles."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_nt_038",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · primos",
+      "problem_number": 38,
+      "source_question_label": "NT-038",
+      "source_page": 38,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "¿Cuál valor primo de p hace que \\(p^{2}+2\\) también sea primo?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(2\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(3\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(5\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(7\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(11\\)"
+        }
+      ],
+      "correct_answer": "\\(3\\)",
+      "correct_option_label": "b",
+      "solution_text": "Si \\(p\\ne{}3\\) es primo, entonces p no es múltiplo de \\(3\\) y \\(p\\equiv{}\\pm{}1\\) módulo \\(3\\). Por tanto, \\(p^{2}+2\\equiv{}1+2\\equiv{}0\\) módulo \\(3\\). Como \\(p^{2}+2>3\\), sería compuesto. Para \\(p=3\\) se obtiene \\(3^{2}+2=11\\), que sí es primo. La respuesta es \\(3\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Para \\(p=2\\), \\(p^{2}+2=6\\) es compuesto.",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "Para \\(p=3\\), \\(p^{2}+2=11\\) es primo.",
+          "is_correct": true
+        },
+        {
+          "label": "c",
+          "reason": "Para \\(p=5\\), \\(p^{2}+2=27\\) es múltiplo de \\(3\\).",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "Para \\(p=7\\), \\(p^{2}+2=51\\) es múltiplo de \\(3\\).",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "Para \\(p=11\\), \\(p^{2}+2=123\\) es múltiplo de \\(3\\).",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Se sustituyeron los cinco candidatos y se factorizaron los cuatro resultados compuestos.\n\nCasos límite IGL: El caso \\(p=3\\) se separó antes de usar \\(p\\equiv{}\\pm{}1\\) módulo \\(3\\)."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 138,
+      "accepted_answers": [],
+      "strategy": "Todo primo p distinto de 3 satisface p²≡1 módulo 3, por lo que p²+2 es múltiplo de 3.",
+      "theory_used": [
+        "cuadrados módulo 3",
+        "caso primo excepcional",
+        "razonar por congruencias",
+        "verificar primalidad pequeña"
+      ],
+      "validity_check": "verified · Se sustituyeron los cinco candidatos y se factorizaron los cuatro resultados compuestos. · El caso \\(p=3\\) se separó antes de usar \\(p\\equiv{}\\pm{}1\\) módulo \\(3\\).",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "cuadrados_modulo_3",
+          "caso_primo_excepcional",
+          "razonar_por_congruencias",
+          "verificar_primalidad_pequena"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Usa residuos cuadráticos módulo 3 para eliminar de una vez todos los primos salvo un caso especial."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_nt_039",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · dígitos",
+      "problem_number": 39,
+      "source_question_label": "NT-039",
+      "source_page": 39,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "¿Cuántos números de cinco cifras pueden formarse usando exactamente una vez cada una de las cifras \\(0,1,2,3,4\\) y que sean divisibles entre \\(4\\)?",
+      "options": [],
+      "correct_answer": "\\(30\\)",
+      "correct_option_label": null,
+      "solution_text": "Las terminaciones posibles con cifras distintas del conjunto son \\(04,12,20,24,32\\) y \\(40\\). Para \\(04,20\\) y \\(40\\), las tres cifras restantes son no nulas y pueden ordenarse de \\(3!=6\\) maneras. Para \\(12,24\\) y \\(32\\), entre las tres cifras restantes está el \\(0\\); hay \\(3!-2!=4\\) órdenes que no comienzan con cero. El total es \\(3\\cdot{}6+3\\cdot{}4=30\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Se enumeraron por programa las \\(120\\) permutaciones y exactamente \\(30\\) formaron números de cinco cifras divisibles entre \\(4\\).\n\nCasos límite IGL: La terminación \\(04\\) es válida en un número de cinco cifras; solo se prohíbe cero en la primera posición global."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 139,
+      "accepted_answers": [
+        "\\(30\\)"
+      ],
+      "strategy": "La divisibilidad entre 4 depende solo de las dos últimas cifras.",
+      "theory_used": [
+        "divisibilidad por 4",
+        "permutaciones con cero",
+        "clasificar últimas cifras",
+        "contar sin cero inicial"
+      ],
+      "validity_check": "verified · Se enumeraron por programa las \\(120\\) permutaciones y exactamente \\(30\\) formaron números de cinco cifras divisibles entre \\(4\\). · La terminación \\(04\\) es válida en un número de cinco cifras; solo se prohíbe cero en la primera posición global.",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "divisibilidad_por_4",
+          "permutaciones_con_cero",
+          "clasificar_ultimas_cifras",
+          "contar_sin_cero_inicial"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Clasifica terminaciones divisibles entre 4 y corrige las permutaciones que comenzarían con cero."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_nt_040",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · ecuaciones diofánticas sencillas",
+      "problem_number": 40,
+      "source_question_label": "NT-040",
+      "source_page": 40,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "¿Cuántos pares de enteros positivos (x,y) con \\(x>y\\) satisfacen \\(x^{2}-y^{2}=45\\)?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(2\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(3\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(4\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(5\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(6\\)"
+        }
+      ],
+      "correct_answer": "\\(3\\)",
+      "correct_option_label": "b",
+      "solution_text": "Los dos factores son positivos, del mismo tipo de paridad y su producto es \\(45\\). Los pares de factores con primero menor son \\((1,45),(3,15),(5,9)\\). Cada uno da \\(x=\\frac{(u+v)}{2}\\) y \\(y=\\frac{(v-u)}{2}\\), ambos positivos. Por tanto, hay \\(3\\) pares.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Omite uno de los tres pares de factores.",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "Los tres pares de factores válidos producen tres soluciones.",
+          "is_correct": true
+        },
+        {
+          "label": "c",
+          "reason": "Cuenta un par de factores adicional inexistente.",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "Duplica parcialmente el orden de los factores.",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "Cuenta también factores negativos o casos con \\(y=0\\).",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Las soluciones son \\((23,22),(9,6)\\) y \\((7,2)\\), y se sustituyeron.\n\nCasos límite IGL: Como \\(45\\) es impar, todos sus factores son impares y las mitades son enteras."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 140,
+      "accepted_answers": [],
+      "strategy": "Factoriza como (x−y)(x+y)=45.",
+      "theory_used": [
+        "diferencia de cuadrados",
+        "pares de divisores",
+        "factorizar",
+        "reconstruir variables"
+      ],
+      "validity_check": "verified · Las soluciones son \\((23,22),(9,6)\\) y \\((7,2)\\), y se sustituyeron. · Como \\(45\\) es impar, todos sus factores son impares y las mitades son enteras.",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "diferencia_de_cuadrados",
+          "pares_de_divisores",
+          "factorizar",
+          "reconstruir_variables"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Transforma una diferencia de cuadrados en pares de factores y controla paridad y orden."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_nt_041",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · cuadrados perfectos",
+      "problem_number": 41,
+      "source_question_label": "NT-041",
+      "source_page": 41,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Hay cinco tarjetas con los números \\(6\\), \\(10\\), \\(15\\), \\(21\\) y \\(35\\). Se debe elegir al menos una tarjeta. ¿Cuál es la menor cantidad de tarjetas que puede elegirse para que el producto sea un cuadrado perfecto?",
+      "options": [],
+      "correct_answer": "\\(3\\)",
+      "correct_option_label": null,
+      "solution_text": "Como debe elegirse al menos una tarjeta y ninguna tarjeta contiene por sí sola un cuadrado perfecto, una tarjeta no basta. Tampoco bastan dos: todos los números son cuadrado-libres y distintos, así que el producto de dos de ellos conserva algún factor primo con exponente impar. Sin embargo, \\(6\\cdot{}10\\cdot{}15=(2\\cdot{}3)(2\\cdot{}5)(3\\cdot{}5)=2^{2}\\cdot{}3^{2}\\cdot{}5^{2}=900=30^{2}\\). Por tanto, el mínimo es \\(3\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Se revisaron las diez parejas y ninguna tiene producto cuadrado; la terna \\(6,10,15\\) sí.\n\nCasos límite IGL: Se excluyó explícitamente la selección vacía y se verificaron tamaños \\(1\\) y \\(2\\) antes de exhibir una selección de tamaño \\(3\\)."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 141,
+      "accepted_answers": [
+        "\\(3\\)"
+      ],
+      "strategy": "Como todas las tarjetas son cuadrado-libres, una pareja solo daría cuadrado si tuviera exactamente los mismos factores primos.",
+      "theory_used": [
+        "vectores de paridad",
+        "selección mínima",
+        "factorizar cuadrados libres",
+        "probar minimalidad"
+      ],
+      "validity_check": "verified · Se revisaron las diez parejas y ninguna tiene producto cuadrado; la terna \\(6,10,15\\) sí. · Se excluyó explícitamente la selección vacía y se verificaron tamaños \\(1\\) y \\(2\\) antes de exhibir una selección de tamaño \\(3\\).",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "vectores_de_paridad",
+          "seleccion_minima",
+          "factorizar_cuadrados_libres",
+          "probar_minimalidad"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Modela cada tarjeta por la paridad de sus factores primos y busca una dependencia mínima."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_nt_042",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · congruencias",
+      "problem_number": 42,
+      "source_question_label": "NT-042",
+      "source_page": 42,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "¿Cuál es el menor entero positivo n que deja residuos \\(1\\), \\(2\\) y \\(3\\) al dividirse entre \\(4\\), \\(5\\) y \\(6\\), respectivamente?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(33\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(42\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(45\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(52\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(57\\)"
+        }
+      ],
+      "correct_answer": "\\(57\\)",
+      "correct_option_label": "e",
+      "solution_text": "Los números que dejan residuo \\(3\\) entre \\(6\\) y residuo \\(1\\) entre \\(4\\) son \\(9,21,33,45,57,\\cdots\\), es decir, \\(n=9+12k\\). Sus residuos módulo \\(5\\) son \\(4,1,3,0,2\\). El primero que deja residuo \\(2\\) es \\(57\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "\\(33\\) cumple las condiciones módulo \\(4\\) y \\(6\\), pero deja residuo \\(3\\) módulo \\(5\\).",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "\\(42\\) no deja residuo \\(1\\) módulo \\(4\\).",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "\\(45\\) deja residuo \\(0\\) módulo \\(5\\).",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "\\(52\\) deja residuo \\(0\\) módulo \\(4\\).",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "\\(57\\) satisface simultáneamente las tres condiciones.",
+          "is_correct": true
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Se verificó \\(57=4\\cdot{}14+1=5\\cdot{}11+2=6\\cdot{}9+3\\).\n\nCasos límite IGL: Las dos primeras congruencias son compatibles porque ambos residuos son impares; se comprobó desde el menor candidato."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 142,
+      "accepted_answers": [],
+      "strategy": "Las condiciones módulo 4 y 6 se combinan en n≡9 módulo 12.",
+      "theory_used": [
+        "sistema de congruencias",
+        "búsqueda estructurada",
+        "combinar módulos no coprimos",
+        "probar minimalidad"
+      ],
+      "validity_check": "verified · Se verificó \\(57=4\\cdot{}14+1=5\\cdot{}11+2=6\\cdot{}9+3\\). · Las dos primeras congruencias son compatibles porque ambos residuos son impares; se comprobó desde el menor candidato.",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "sistema_de_congruencias",
+          "busqueda_estructurada",
+          "combinar_modulos_no_coprimos",
+          "probar_minimalidad"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Combina tres congruencias, reduce dos de ellas a una progresión y encuentra la primera coincidencia con la tercera."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_nt_043",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · dígitos",
+      "problem_number": 43,
+      "source_question_label": "NT-043",
+      "source_page": 43,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "¿Cuál es el menor número de cuatro cifras, con cifras estrictamente crecientes de izquierda a derecha, que es divisible entre \\(9\\)?",
+      "options": [],
+      "correct_answer": "\\(1269\\)",
+      "correct_option_label": null,
+      "solution_text": "La primera cifra mínima es \\(1\\) y la segunda puede ser \\(2\\). Con cifras posteriores \\(c<d\\) y mayores que \\(2\\), la suma total debe ser \\(9\\) o \\(18\\). La opción suma \\(9\\) exigiría \\(c+d=6\\), cuya única pareja no decreciente es \\(3+3\\) y no es estricta. Para suma \\(18\\), \\(c+d=15\\); las parejas posibles son \\((6,9)\\) y \\((7,8)\\), y la menor produce \\(1269\\). Cualquier número que comience por \\(13\\) o más es mayor.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: \\(1+2+6+9=18\\), por lo que \\(1269\\) es divisible entre \\(9\\).\n\nCasos límite IGL: Las cifras son distintas por ser estrictamente crecientes; no aparece cero inicial."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 143,
+      "accepted_answers": [
+        "\\(1269\\)"
+      ],
+      "strategy": "Para minimizar el número, intenta conservar el prefijo 12 y usa la suma de cifras.",
+      "theory_used": [
+        "cifras crecientes",
+        "divisibilidad por 9",
+        "minimizar un numeral",
+        "clasificar sumas de cifras"
+      ],
+      "validity_check": "verified · \\(1+2+6+9=18\\), por lo que \\(1269\\) es divisible entre \\(9\\). · Las cifras son distintas por ser estrictamente crecientes; no aparece cero inicial.",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "cifras_crecientes",
+          "divisibilidad_por_9",
+          "minimizar_un_numeral",
+          "clasificar_sumas_de_cifras"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La búsqueda del menor numeral se convierte en una optimización lexicográfica con una restricción de suma modular."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_nt_044",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · divisibilidad",
+      "problem_number": 44,
+      "source_question_label": "NT-044",
+      "source_page": 44,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "¿Cuál es el menor entero positivo que tiene exactamente \\(15\\) divisores positivos?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(72\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(96\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(108\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(144\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(180\\)"
+        }
+      ],
+      "correct_answer": "\\(144\\)",
+      "correct_option_label": "d",
+      "solution_text": "Si \\(n=\\prod p_{i}^{a_i}\\), entonces su número de divisores es \\(\\prod (a_{i}+1)\\). Como \\(15\\) puede escribirse como \\(15\\) o \\(5\\cdot 3\\), las formas posibles son \\(p^{14}\\) o \\(p^{4}q^{2}\\). La primera da al menos \\(2^{14}\\). Para minimizar la segunda, se asigna el exponente mayor al primo menor: \\(n=2^{4}\\cdot 3^{2}=16\\cdot 9=144\\). Tiene \\((4+1)(2+1)=15\\) divisores.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "\\(72=2^{3}\\cdot{}3^{2}\\) tiene \\((3+1)(2+1)=12\\) divisores.",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "\\(96=2^{5}\\cdot{}3\\) tiene \\(12\\) divisores.",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "\\(108=2^{2}\\cdot{}3^{3}\\) tiene \\(12\\) divisores.",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "\\(144=2^{4}\\cdot{}3^{2}\\) tiene \\(15\\) divisores.",
+          "is_correct": true
+        },
+        {
+          "label": "e",
+          "reason": "\\(180=2^{2}\\cdot{}3^{2}\\cdot{}5\\) tiene \\(18\\) divisores.",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Se calcularon las cantidades de divisores de las cinco opciones.\n\nCasos límite IGL: Se consideraron todas las factorizaciones posibles de \\(15\\) como producto de enteros mayores que \\(1\\)."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 144,
+      "accepted_answers": [],
+      "strategy": "Quince divisores corresponden a exponentes 14 o a exponentes 4 y 2; la segunda forma es mucho menor.",
+      "theory_used": [
+        "función número de divisores",
+        "mínimo con factorización prescrita",
+        "particionar 15",
+        "optimizar exponentes primos"
+      ],
+      "validity_check": "verified · Se calcularon las cantidades de divisores de las cinco opciones. · Se consideraron todas las factorizaciones posibles de \\(15\\) como producto de enteros mayores que \\(1\\).",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "funcion_numero_de_divisores",
+          "minimo_con_factorizacion_prescrita",
+          "particionar_15",
+          "optimizar_exponentes_primos"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Clasifica las formas posibles de una factorización con 15 divisores y minimiza asignando exponentes a los primos menores."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_nt_045",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · invariantes",
+      "problem_number": 45,
+      "source_question_label": "NT-045",
+      "source_page": 45,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "En una pizarra están los números \\(1,2,\\cdots,9\\). En cada paso se eligen a y b, se borran y se escribe \\(a+b+ab\\). Se repite hasta quedar un solo número. ¿Cuál es ese número?",
+      "options": [],
+      "correct_answer": "\\(3628799\\)",
+      "correct_option_label": null,
+      "solution_text": "Considera el producto de todos los números escritos después de aumentar cada uno en \\(1\\). Al reemplazar a y b por \\(a+b+ab\\), el nuevo factor es \\(a+b+ab+1=(a+1)(b+1)\\), así que el producto se conserva. Inicialmente vale \\(2\\cdot{}3\\cdot{}\\cdots\\cdot{}10=10!=3628800\\). Si el número final es F, entonces \\(F+1=3628800\\) y \\(F=3628799\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Se simuló la operación en órdenes distintos con un script de enteros y siempre se obtuvo el mismo valor.\n\nCasos límite IGL: La operación se aplica a enteros positivos, por lo que no hay factores cero ni problemas de dominio."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 145,
+      "accepted_answers": [
+        "\\(3628799\\)"
+      ],
+      "strategy": "Al sumar 1 al nuevo número se obtiene (a+1)(b+1).",
+      "theory_used": [
+        "transformación x→x+1",
+        "producto invariante",
+        "hallar un invariante no obvio",
+        "evaluar un factorial"
+      ],
+      "validity_check": "verified · Se simuló la operación en órdenes distintos con un script de enteros y siempre se obtuvo el mismo valor. · La operación se aplica a enteros positivos, por lo que no hay factores cero ni problemas de dominio.",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "transformacion_x_x_1",
+          "producto_invariante",
+          "hallar_un_invariante_no_obvio",
+          "evaluar_un_factorial"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Descubre una transformación multiplicativa escondida en una operación no lineal y prueba independencia del orden."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_nt_046",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · divisibilidad",
+      "problem_number": 46,
+      "source_question_label": "NT-046",
+      "source_page": 46,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "¿Cuál es el mayor tamaño de un subconjunto de \\(\\{1,2,\\cdots,8\\}\\) en el que ningún elemento divide a otro elemento distinto?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(3\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(4\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(5\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(6\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(7\\)"
+        }
+      ],
+      "correct_answer": "\\(4\\)",
+      "correct_option_label": "b",
+      "solution_text": "Una partición en cadenas es \\(\\{1,2,4,8\\}\\), \\(\\{3,6\\}\\), \\(\\{5\\}\\) y \\(\\{7\\}\\). De cada cadena puede elegirse como máximo un elemento, así que el tamaño es como máximo \\(4\\). La cota se alcanza con \\(\\{5,6,7,8\\}\\), donde ningún número divide a otro distinto. El máximo es \\(4\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "\\(3\\) es alcanzable, pero la construcción de cuatro muestra que no es máximo.",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "\\(4\\) es la cota de las cuatro cadenas y se alcanza.",
+          "is_correct": true
+        },
+        {
+          "label": "c",
+          "reason": "\\(5\\) obligaría a elegir dos elementos de alguna cadena.",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "\\(6\\) supera todavía más la cota.",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "\\(7\\) no puede evitar numerosas divisibilidades.",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Se revisaron todas las parejas de \\(\\{5,6,7,8\\}\\); ninguna relación de divisibilidad existe.\n\nCasos límite IGL: Los elementos de cada cadena están totalmente ordenados por divisibilidad y las cadenas cubren todo el conjunto."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 146,
+      "accepted_answers": [],
+      "strategy": "Particiona el conjunto en cadenas de divisibilidad.",
+      "theory_used": [
+        "anticadenas",
+        "partición en cadenas",
+        "demostrar una cota",
+        "dar una construcción óptima"
+      ],
+      "validity_check": "verified · Se revisaron todas las parejas de \\(\\{5,6,7,8\\}\\); ninguna relación de divisibilidad existe. · Los elementos de cada cadena están totalmente ordenados por divisibilidad y las cadenas cubren todo el conjunto.",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "anticadenas",
+          "particion_en_cadenas",
+          "demostrar_una_cota",
+          "dar_una_construccion_optima"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Requiere construir una partición en cadenas de divisibilidad y una antichain que alcance la cota."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_nt_047",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · congruencias",
+      "problem_number": 47,
+      "source_question_label": "NT-047",
+      "source_page": 47,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "¿Cuál es el residuo de \\(2^{1}+2^{2}+\\cdots+2^{2026}\\) al dividirse entre \\(13\\)?",
+      "options": [],
+      "correct_answer": "\\(5\\)",
+      "correct_option_label": null,
+      "solution_text": "Como \\(2^{12}\\equiv{}1\\) módulo \\(13\\), cada bloque de \\(12\\) potencias suma \\(2+2^{2}+\\cdots+2^{12}=\\frac{2(2^{12}-1)}{(2-1)}\\), divisible entre \\(13\\). Además, \\(2026=12\\cdot{}168+10\\). Solo queda \\(2+\\cdots+2^{10}=2^{11}-2=2046\\), que deja residuo \\(5\\) al dividirse entre \\(13\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Se sumaron directamente los diez residuos \\(2,4,8,3,6,12,11,9,5,10\\) y se obtuvo \\(70\\equiv{}5\\).\n\nCasos límite IGL: La división geométrica es válida porque el denominador es \\(1\\); no se canceló un factor no invertible."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 147,
+      "accepted_answers": [
+        "\\(5\\)"
+      ],
+      "strategy": "Las potencias de 2 módulo 13 tienen periodo 12 y la suma de un ciclo completo es 0 módulo 13.",
+      "theory_used": [
+        "suma geométrica modular",
+        "periodo de potencias",
+        "agrupar ciclos",
+        "calcular un residuo final"
+      ],
+      "validity_check": "verified · Se sumaron directamente los diez residuos \\(2,4,8,3,6,12,11,9,5,10\\) y se obtuvo \\(70\\equiv{}5\\). · La división geométrica es válida porque el denominador es \\(1\\); no se canceló un factor no invertible.",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "suma_geometrica_modular",
+          "periodo_de_potencias",
+          "agrupar_ciclos",
+          "calcular_un_residuo_final"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Agrupa una suma muy larga en ciclos completos y calcula solo un bloque residual."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_nt_048",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · MCD y MCM",
+      "problem_number": 48,
+      "source_question_label": "NT-048",
+      "source_page": 48,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Para un entero positivo n, ¿cuál es \\(mcd(2n+3,5n+7)\\)?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(1\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(2\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(3\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(5\\)"
+        },
+        {
+          "label": "e",
+          "text": "Depende de n"
+        }
+      ],
+      "correct_answer": "\\(1\\)",
+      "correct_option_label": "a",
+      "solution_text": "Sea d el MCD. Entonces d divide \\(5(2n+3)-2(5n+7)=10n+15-10n-14=1\\). El único divisor positivo de \\(1\\) es \\(1\\), por lo que el MCD siempre es \\(1\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "\\(1\\) es forzado por la combinación lineal igual a \\(1\\).",
+          "is_correct": true
+        },
+        {
+          "label": "b",
+          "reason": "Ambas expresiones no son siempre pares.",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "Aunque aparece el \\(3\\) en una expresión, no divide siempre a la otra.",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "El coeficiente \\(5\\) no implica que el MCD sea \\(5\\).",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "La combinación lineal demuestra que no depende de n.",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Se evaluaron varios valores de n y todos dieron MCD \\(1\\), en concordancia con la prueba general.\n\nCasos límite IGL: El argumento vale para todo entero n; la positividad solo asegura que las expresiones sean positivas."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 148,
+      "accepted_answers": [],
+      "strategy": "Todo divisor común divide cualquier combinación lineal de las dos expresiones.",
+      "theory_used": [
+        "combinaciones lineales",
+        "coprimalidad",
+        "acotar un MCD",
+        "usar identidad de Bézout elemental"
+      ],
+      "validity_check": "verified · Se evaluaron varios valores de n y todos dieron MCD \\(1\\), en concordancia con la prueba general. · El argumento vale para todo entero n; la positividad solo asegura que las expresiones sean positivas.",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "combinaciones_lineales",
+          "coprimalidad",
+          "acotar_un_mcd",
+          "usar_identidad_de_bezout_elemental"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Una combinación lineal inesperada fuerza que el MCD sea 1 para cualquier valor del parámetro."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_nt_049",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · dígitos",
+      "problem_number": 49,
+      "source_question_label": "NT-049",
+      "source_page": 49,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Un número N de tres cifras cumple que su número invertido es \\(N+396\\), la suma de sus cifras es \\(15\\) y N es divisible entre \\(7\\). ¿Cuál es N?",
+      "options": [],
+      "correct_answer": "\\(357\\)",
+      "correct_option_label": null,
+      "solution_text": "De \\(99(c-a)=396\\) resulta \\(c=a+4\\). Además, \\(a+b+c=15\\) da \\(b=11-2a\\). Como a es una cifra no nula y \\(c\\le{}9\\), los candidatos son \\(195,276,357,438\\) y \\(519\\). Solo \\(357\\) es divisible entre \\(7\\), pues \\(357=7\\cdot{}51\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: \\(753-357=396\\) y \\(3+5+7=15\\).\n\nCasos límite IGL: Se enumeraron todos los valores \\(a=1,\\cdots,5\\) y se verificó que las cifras centrales fueran válidas."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 149,
+      "accepted_answers": [
+        "\\(357\\)"
+      ],
+      "strategy": "Si N=100a+10b+c, la diferencia con el invertido es 99(c−a).",
+      "theory_used": [
+        "inversión",
+        "divisibilidad por 7",
+        "clasificación de cifras",
+        "derivar restricciones",
+        "enumerar una lista exhaustiva pequeña"
+      ],
+      "validity_check": "verified · \\(753-357=396\\) y \\(3+5+7=15\\). · Se enumeraron todos los valores \\(a=1,\\cdots,5\\) y se verificó que las cifras centrales fueran válidas.",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "inversion",
+          "divisibilidad_por_7",
+          "clasificacion_de_cifras",
+          "derivar_restricciones",
+          "enumerar_una_lista_exhaustiva_pequena"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La inversión de cifras produce una ecuación lineal, la suma restringe cinco candidatos y la divisibilidad decide la unicidad."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_nt_050",
+      "collection": "CUANTLY",
+      "subcategory": "Teoría de números · congruencias",
+      "problem_number": 50,
+      "source_question_label": "NT-050",
+      "source_page": 50,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "¿Cuántos enteros positivos \\(n\\le{}100\\) cumplen que \\(n(n+1)\\) es divisible entre \\(12\\)?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(24\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(32\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(33\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(34\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(40\\)"
+        }
+      ],
+      "correct_answer": "\\(33\\)",
+      "correct_option_label": "c",
+      "solution_text": "Al revisar los residuos módulo \\(12\\), la condición se cumple exactamente para \\(n\\equiv{}0,3,8,11\\). En cada bloque de \\(12\\) hay \\(4\\) valores. Del \\(1\\) al \\(96\\) hay \\(8\\) bloques, que aportan \\(32\\). Entre \\(97\\) y \\(100\\), solo \\(99\\) tiene residuo \\(3\\) módulo \\(12\\). El total es \\(33\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "\\(24\\) cuenta solo tres clases por bloque.",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "\\(32\\) olvida el valor adicional \\(99\\).",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "\\(33\\) incluye los \\(32\\) primeros y el caso \\(99\\).",
+          "is_correct": true
+        },
+        {
+          "label": "d",
+          "reason": "\\(34\\) añade indebidamente otro número del bloque final.",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "\\(40\\) supone cinco residuos válidos por bloque.",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Se comprobó computacionalmente cada n de \\(1\\) a \\(100\\) y se obtuvieron \\(33\\) valores.\n\nCasos límite IGL: Los residuos \\(0,3,8,11\\) son exhaustivos; el límite \\(100\\) incluye un bloque parcial."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 150,
+      "accepted_answers": [],
+      "strategy": "Determina qué residuos módulo 12 hacen que el producto de dos consecutivos contenga los factores 3 y 4.",
+      "theory_used": [
+        "producto de consecutivos",
+        "conteo por residuos",
+        "clasificar casos modulares",
+        "contar hasta un límite"
+      ],
+      "validity_check": "verified · Se comprobó computacionalmente cada n de \\(1\\) a \\(100\\) y se obtuvieron \\(33\\) valores. · Los residuos \\(0,3,8,11\\) son exhaustivos; el límite \\(100\\) incluye un bloque parcial.",
+      "classification": {
+        "primary_area": "number_theory",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "producto_de_consecutivos",
+          "conteo_por_residuos",
+          "clasificar_casos_modulares",
+          "contar_hasta_un_limite"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Clasifica residuos módulo 12 y combina la clasificación con un conteo parcial del último bloque."
+        ]
+      }
+    }
+  ]
+}

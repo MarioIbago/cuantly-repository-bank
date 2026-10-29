@@ -1,0 +1,4097 @@
+{
+  "schema_version": "1.0",
+  "source_format_reference": "https://github.com/MarioIbago/cuantly-repository-bank/blob/main/03_SCHEMA_AND_REPORTS/FUSION/OPEN_ANSWER_CONTRACT.md",
+  "exam": {
+    "competition": "CUANTLY",
+    "source_competition": "Cuantly",
+    "year": null,
+    "year_status": "not_confirmed",
+    "year_evidence": "El archivo fuente es un banco continuo de práctica y no identifica edición anual. No se asigna año por estilo, nivel o numeración.",
+    "phase": "Entrenamiento olímpico",
+    "level": "Probabilidad",
+    "school_level": "No especificado",
+    "problem_count": 50,
+    "source_file": "IGLx0_CUANTLY_CERMAT/src/data/olimpico-probability-extension.json",
+    "source_sha256": "df912829f30ea0e2f30ad5c98ab70765440d97e4b0273dd12b8b5f3ecc6f0c2c",
+    "image_policy": "Los enunciados no incluyen archivos de imagen en el origen; se conserva el contenido textual y matemático de IGL.",
+    "classification_phase": "completed",
+    "difficulty_phase": "completed"
+  },
+  "validation_summary": {
+    "verified_problems": 50,
+    "needs_review_or_invalid": 0,
+    "needs_review_problem_numbers": []
+  },
+  "problems": [
+    {
+      "source_id": "cuantly_prob_001",
+      "collection": "CUANTLY",
+      "subcategory": "Probabilidad · probabilidad compuesta y muestreo sin reemplazo",
+      "problem_number": 1,
+      "source_question_label": "PROB-001",
+      "source_page": 1,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Dentro de una bolsa hay \\(4\\) fichas rojas y \\(3\\) azules. Al tomar simultáneamente \\(2\\) fichas al azar, ¿cuál es la probabilidad de obtener una de cada color?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(\\frac{2}{7}\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(\\frac{3}{7}\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(\\frac{4}{7}\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(\\frac{1}{2}\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(\\frac{5}{7}\\)"
+        }
+      ],
+      "correct_answer": "\\(\\frac{4}{7}\\)",
+      "correct_option_label": "c",
+      "solution_text": "Hay \\(4\\cdot3=12\\) parejas formadas por una ficha roja y una azul. El total de parejas de fichas es \\(\\binom{7}{2}=21\\). Por tanto, la probabilidad es \\(\\frac{12}{21}=\\frac{4}{7}\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Cuenta solo dos órdenes de color, sin considerar las fichas distintas.",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "Usa la proporción de fichas azules en una sola extracción.",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "Es la razón correcta entre \\(12\\) casos favorables y \\(21\\) posibles.",
+          "is_correct": true
+        },
+        {
+          "label": "d",
+          "reason": "Supone incorrectamente que los colores se equilibran.",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "Cuenta como favorables todas las parejas que incluyen una ficha roja.",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Por orden: \\(\\frac47\\frac36+\\frac37\\frac46=\\frac{24}{42}=\\frac47\\).\n\nCasos límite IGL: Las fichas se consideran distinguibles para contar, pero el evento depende solo de sus colores; no hay reemplazo."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 251,
+      "accepted_answers": [],
+      "strategy": "Comparar las \\(4\\cdot3\\) parejas mixtas con las \\(\\binom{7}{2}\\) parejas posibles.",
+      "theory_used": [
+        "extracciones sin reemplazo",
+        "exactamente un éxito",
+        "construir casos favorables",
+        "usar combinaciones pequeñas"
+      ],
+      "validity_check": "verified · Por orden: \\(\\frac47\\frac36+\\frac37\\frac46=\\frac{24}{42}=\\frac47\\). · Las fichas se consideran distinguibles para contar, pero el evento depende solo de sus colores; no hay reemplazo.",
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "extracciones_sin_reemplazo",
+          "exactamente_un_exito",
+          "construir_casos_favorables",
+          "usar_combinaciones_pequenas"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Exige contar parejas de colores sin confundir el orden de extracción."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_prob_002",
+      "collection": "CUANTLY",
+      "subcategory": "Probabilidad · subconjuntos aleatorios y estructura aritmética",
+      "problem_number": 2,
+      "source_question_label": "PROB-002",
+      "source_page": 2,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Se eligen al azar \\(3\\) números distintos del conjunto \\(\\{1,2,3,4,5,6,7\\}\\). Al ordenarlos como \\(a<b<c\\), ¿cuál es la probabilidad de que b sea el promedio de a y c?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(\\frac{9}{35}\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(\\frac{6}{35}\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(\\frac{1}{5}\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(\\frac{2}{7}\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(\\frac{3}{10}\\)"
+        }
+      ],
+      "correct_answer": "\\(\\frac{9}{35}\\)",
+      "correct_option_label": "a",
+      "solution_text": "Hay \\(\\binom{7}{3}=35\\) ternas posibles. Si la diferencia común es \\(1\\), hay \\(5\\) ternas; si es \\(2\\), hay \\(3\\); y si es \\(3\\), solo está \\(\\{1,4,7\\}\\). No puede haber una diferencia mayor. Por tanto, hay \\(5+3+1=9\\) ternas favorables y la probabilidad es \\(\\frac{9}{35}\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Es la razón correcta entre las \\(9\\) progresiones y las \\(35\\) ternas.",
+          "is_correct": true
+        },
+        {
+          "label": "b",
+          "reason": "Cuenta únicamente seis progresiones y omite las de diferencia \\(2\\) o \\(3\\).",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "Equivale a contar siete casos favorables, pero hay nueve.",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "Cuenta diez ternas, incluyendo una que excede el conjunto.",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "No corresponde a un número entero de ternas entre \\(35\\).",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: La lista por diferencia es: \\(123,234,345,456,567\\); \\(135,246,357\\); y \\(147\\), exactamente nueve.\n\nCasos límite IGL: Las ternas son no ordenadas; cada una tiene un único orden \\(a<b<c\\), por lo que no se multiplica por \\(3!\\)."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 252,
+      "accepted_answers": [],
+      "strategy": "Contar las ternas \\(\\{a,a+d,a+2d\\}\\) que caben en \\(\\{1,\\ldots,7\\}\\).",
+      "theory_used": [
+        "progresiones aritméticas",
+        "ternas no ordenadas",
+        "contar configuraciones estructuradas",
+        "evitar doble conteo"
+      ],
+      "validity_check": "verified · La lista por diferencia es: \\(123,234,345,456,567\\); \\(135,246,357\\); y \\(147\\), exactamente nueve. · Las ternas son no ordenadas; cada una tiene un único orden \\(a<b<c\\), por lo que no se multiplica por \\(3!\\).",
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "progresiones_aritmeticas",
+          "ternas_no_ordenadas",
+          "contar_configuraciones_estructuradas",
+          "evitar_doble_conteo"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La condición no se comprueba elemento por elemento: hay que reconocer y contar progresiones aritméticas de tres términos dentro de un conjunto pequeño."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_prob_003",
+      "collection": "CUANTLY",
+      "subcategory": "Probabilidad · experimentos con monedas",
+      "problem_number": 3,
+      "source_question_label": "PROB-003",
+      "source_page": 3,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Tras lanzar una moneda equilibrada \\(3\\) veces, ¿cuál es la probabilidad de que uno de los dos resultados aparezca exactamente dos veces?",
+      "options": [],
+      "correct_answer": "\\(\\frac{3}{4}\\)",
+      "correct_option_label": null,
+      "solution_text": "Hay \\(2^{3}=8\\) secuencias equiprobables. Solo \\(AAA\\) y \\(SSS\\) tienen los tres resultados iguales. Las otras \\(6\\) secuencias tienen exactamente dos resultados de un tipo y uno del otro. La probabilidad es \\(\\frac{6}{8}=\\frac{3}{4}\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: También puede elegirse cuál lanzamiento es distinto, en \\(3\\) formas, y cuál cara aparece dos veces, en \\(2\\) formas: \\(3\\cdot2=6\\) casos.\n\nCasos límite IGL: La frase «exactamente dos resultados son iguales» excluye expresamente los casos en que los tres coinciden."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 253,
+      "accepted_answers": [
+        "3/4"
+      ],
+      "strategy": "Usar el complemento de obtener tres águilas o tres soles.",
+      "theory_used": [
+        "tres lanzamientos",
+        "evento complementario",
+        "contar secuencias binarias",
+        "usar complemento"
+      ],
+      "validity_check": "verified · También puede elegirse cuál lanzamiento es distinto, en \\(3\\) formas, y cuál cara aparece dos veces, en \\(2\\) formas: \\(3\\cdot2=6\\) casos. · La frase «exactamente dos resultados son iguales» excluye expresamente los casos en que los tres coinciden.",
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "tres_lanzamientos",
+          "evento_complementario",
+          "contar_secuencias_binarias",
+          "usar_complemento"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "El evento se entiende mejor excluyendo los dos casos en que los tres resultados coinciden."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_prob_004",
+      "collection": "CUANTLY",
+      "subcategory": "Probabilidad · formación aleatoria de números",
+      "problem_number": 4,
+      "source_question_label": "PROB-004",
+      "source_page": 4,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Con tres dígitos distintos elegidos de \\(\\{0,1,2,3,4\\}\\) se forma al azar un número de \\(3\\) cifras; todos los números válidos son igualmente probables. ¿Cuál es la probabilidad de que el número sea divisible por \\(4\\)?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(\\frac{1}{4}\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(\\frac{1}{3}\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(\\frac{3}{8}\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(\\frac{7}{16}\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(\\frac{5}{16}\\)"
+        }
+      ],
+      "correct_answer": "\\(\\frac{5}{16}\\)",
+      "correct_option_label": "e",
+      "solution_text": "Hay \\(4\\) opciones no nulas para la centena, luego \\(4\\) para la decena y \\(3\\) para la unidad: \\(48\\) números. Las terminaciones con dígitos distintos que son múltiplos de \\(4\\) son \\(04,12,20,24,32,40\\). Permiten, respectivamente, \\(3,2,3,2,2,3\\) centenas válidas, para un total de \\(15\\). La probabilidad es \\(\\frac{15}{48}=\\frac{5}{16}\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Cuenta doce casos favorables, normalmente al omitir terminaciones que contienen cero.",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "Supone que una de cada tres terminaciones funciona sin revisar el cero inicial.",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "Cuenta \\(18\\) casos por permitir alguna repetición.",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "Incluye terminaciones que no son múltiplos de \\(4\\).",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "Es el conteo correcto de \\(15\\) números entre \\(48\\).",
+          "is_correct": true
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: La enumeración directa produce \\(104,120,124,132,140,204,240,304,312,320,324,340,412,420,432\\): quince números.\n\nCasos límite IGL: El cero puede aparecer en decenas o unidades, pero no en centenas; los tres dígitos deben ser distintos."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 254,
+      "accepted_answers": [],
+      "strategy": "Solo las dos últimas cifras determinan la divisibilidad por \\(4\\), pero la centena no puede ser cero.",
+      "theory_used": [
+        "dígitos sin repetición",
+        "divisibilidad por 4",
+        "contar con una restricción de posición",
+        "clasificar terminaciones válidas"
+      ],
+      "validity_check": "verified · La enumeración directa produce \\(104,120,124,132,140,204,240,304,312,320,324,340,412,420,432\\): quince números. · El cero puede aparecer en decenas o unidades, pero no en centenas; los tres dígitos deben ser distintos.",
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "digitos_sin_repeticion",
+          "divisibilidad_por_4",
+          "contar_con_una_restriccion_de_posicion",
+          "clasificar_terminaciones_validas"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Obliga a controlar simultáneamente el cero inicial, la no repetición y el criterio de divisibilidad por \\(4\\)."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_prob_005",
+      "collection": "CUANTLY",
+      "subcategory": "Probabilidad · experimentos por etapas",
+      "problem_number": 5,
+      "source_question_label": "PROB-005",
+      "source_page": 5,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Las reglas de un juego son las siguientes: primero se lanza un dado equilibrado. Un múltiplo de \\(3\\) produce una victoria inmediata; con cualquier otro resultado se lanza una moneda equilibrada y solo un águila permite ganar. ¿Cuál es la probabilidad total de victoria?",
+      "options": [],
+      "correct_answer": "\\(\\frac{2}{3}\\)",
+      "correct_option_label": null,
+      "solution_text": "El dado muestra un múltiplo de \\(3\\) en \\(2\\) de \\(6\\) casos, con probabilidad \\(\\frac{1}{3}\\). En los otros \\(4\\) casos se lanza la moneda y se gana con probabilidad \\(\\frac{1}{2}\\), aportando \\(\\frac{4}{6}\\cdot\\frac{1}{2}=\\frac{1}{3}\\). La probabilidad total es \\(\\frac{1}{3}+\\frac{1}{3}=\\frac{2}{3}\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: En un árbol con doce hojas equiprobables después de completar también una moneda ficticia en la primera rama, ocho hojas corresponden a ganar.\n\nCasos límite IGL: Las dos rutas de victoria son incompatibles y cubren todas las formas de ganar."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 255,
+      "accepted_answers": [
+        "2/3"
+      ],
+      "strategy": "Separar los casos «múltiplo de \\(3\\)» y «no múltiplo de \\(3\\)».",
+      "theory_used": [
+        "árbol de probabilidad",
+        "reglas condicionadas",
+        "separar casos iniciales",
+        "sumar rutas de éxito"
+      ],
+      "validity_check": "verified · En un árbol con doce hojas equiprobables después de completar también una moneda ficticia en la primera rama, ocho hojas corresponden a ganar. · Las dos rutas de victoria son incompatibles y cubren todas las formas de ganar.",
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "arbol_de_probabilidad",
+          "reglas_condicionadas",
+          "separar_casos_iniciales",
+          "sumar_rutas_de_exito"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La probabilidad total se obtiene sumando una ruta de éxito inmediato y una ruta con segundo experimento."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_prob_006",
+      "collection": "CUANTLY",
+      "subcategory": "Probabilidad · experimentos con dados",
+      "problem_number": 6,
+      "source_question_label": "PROB-006",
+      "source_page": 6,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Un dado rojo y otro azul se lanzan simultáneamente. ¿Cuál es la probabilidad de que sumen \\(8\\) y, además, el rojo muestre un número mayor que el azul?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(\\frac{1}{36}\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(\\frac{1}{18}\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(\\frac{1}{12}\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(\\frac{5}{36}\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(\\frac{1}{6}\\)"
+        }
+      ],
+      "correct_answer": "\\(\\frac{1}{18}\\)",
+      "correct_option_label": "b",
+      "solution_text": "Los pares con suma \\(8\\) son \\((2,6),(3,5),(4,4),(5,3),(6,2)\\), donde la primera componente corresponde al dado rojo. Solo \\((5,3)\\) y \\((6,2)\\) cumplen que el rojo sea mayor. Hay \\(2\\) casos favorables entre \\(36\\), así que la probabilidad es \\(\\frac2{36}=\\frac1{18}\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Cuenta solo un par favorable.",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "Es la razón correcta \\(2/36\\).",
+          "is_correct": true
+        },
+        {
+          "label": "c",
+          "reason": "Incluye tres pares por considerar \\((4,4)\\).",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "Olvida la condición de orden y cuenta los cinco pares.",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "Supone seis resultados favorables por la suma.",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Condicionando a que la suma sea \\(8\\), dos de los cinco pares posibles cumplen el orden; como \\(P(\\text{suma }8)=5/36\\), se obtiene \\(\\frac25\\cdot\\frac5{36}=\\frac1{18}\\).\n\nCasos límite IGL: Los dados son distinguibles por color, de modo que los pares son ordenados."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 256,
+      "accepted_answers": [],
+      "strategy": "Enumerar los pares ordenados con suma \\(8\\) y seleccionar los que tienen primera componente mayor.",
+      "theory_used": [
+        "dados distinguibles",
+        "evento conjunto",
+        "enumerar pares ordenados",
+        "combinar suma y orden"
+      ],
+      "validity_check": "verified · Condicionando a que la suma sea \\(8\\), dos de los cinco pares posibles cumplen el orden; como \\(P(\\text{suma }8)=5/36\\), se obtiene \\(\\frac25\\cdot\\frac5{36}=\\frac1{18}\\). · Los dados son distinguibles por color, de modo que los pares son ordenados.",
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "dados_distinguibles",
+          "evento_conjunto",
+          "enumerar_pares_ordenados",
+          "combinar_suma_y_orden"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La condición de suma no basta: también hay que conservar el orden impuesto por los colores."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_prob_007",
+      "collection": "CUANTLY",
+      "subcategory": "Probabilidad · procesos independientes",
+      "problem_number": 7,
+      "source_question_label": "PROB-007",
+      "source_page": 7,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Los seis sectores iguales de una ruleta llevan las letras A,A,B,B,B,C. Dos giros son independientes. ¿Cuál es la probabilidad de que ambos señalen la misma letra?",
+      "options": [],
+      "correct_answer": "\\(\\frac{7}{18}\\)",
+      "correct_option_label": null,
+      "solution_text": "La probabilidad de repetir \\(A\\) es \\((\\frac{2}{6})^{2}\\), la de repetir \\(B\\) es \\((\\frac{3}{6})^{2}\\) y la de repetir \\(C\\) es \\((\\frac{1}{6})^{2}\\). Por tanto, la probabilidad total es \\(\\frac4{36}+\\frac9{36}+\\frac1{36}=\\frac{14}{36}=\\frac7{18}\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Contando sectores ordenados, hay \\(2^2+3^2+1^2=14\\) pares favorables entre \\(6^2=36\\).\n\nCasos límite IGL: Los giros son independientes y los sectores, no las letras, son equiprobables."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 257,
+      "accepted_answers": [
+        "7/18"
+      ],
+      "strategy": "Sumar las probabilidades incompatibles de repetir \\(A\\), \\(B\\) o \\(C\\).",
+      "theory_used": [
+        "ruleta con etiquetas repetidas",
+        "coincidencia en dos giros",
+        "usar probabilidades por categoría",
+        "sumar eventos incompatibles"
+      ],
+      "validity_check": "verified · Contando sectores ordenados, hay \\(2^2+3^2+1^2=14\\) pares favorables entre \\(6^2=36\\). · Los giros son independientes y los sectores, no las letras, son equiprobables.",
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "ruleta_con_etiquetas_repetidas",
+          "coincidencia_en_dos_giros",
+          "usar_probabilidades_por_categoria",
+          "sumar_eventos_incompatibles"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La coincidencia puede ocurrir de tres maneras incompatibles con probabilidades distintas."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_prob_008",
+      "collection": "CUANTLY",
+      "subcategory": "Probabilidad · permutaciones aleatorias",
+      "problem_number": 8,
+      "source_question_label": "PROB-008",
+      "source_page": 8,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Tres tarjetas numeradas \\(1,2,3\\) se colocan al azar en tres sobres también numerados \\(1,2,3\\), una tarjeta por sobre. ¿Cuál es la probabilidad de que exactamente una tarjeta quede en el sobre con su mismo número?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(\\frac{1}{6}\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(\\frac{1}{3}\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(\\frac{2}{3}\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(\\frac{1}{2}\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(\\frac{5}{6}\\)"
+        }
+      ],
+      "correct_answer": "\\(\\frac{1}{2}\\)",
+      "correct_option_label": "d",
+      "solution_text": "Hay \\(3!=6\\) colocaciones equiprobables. Para elegir la única tarjeta correcta hay \\(3\\) opciones. Una vez fijada, las otras dos deben intercambiarse; solo hay una forma para cada elección. Así, hay \\(3\\) casos favorables y la probabilidad es \\(\\frac{3}{6}=\\frac{1}{2}\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Cuenta una sola colocación favorable.",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "Olvida que cualquiera de las tres tarjetas puede ser la única correcta.",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "Incluye colocaciones con dos tarjetas correctas, las cuales en realidad fuerzan tres.",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "Es la razón correcta de \\(3\\) casos entre \\(6\\).",
+          "is_correct": true
+        },
+        {
+          "label": "e",
+          "reason": "Cuenta casi todas las permutaciones sin imponer exactitud.",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Las favorables son \\(132,213,321\\), escritas como los números de las tarjetas que entran en los sobres \\(1,2,3\\).\n\nCasos límite IGL: Con tres objetos no puede haber exactamente dos puntos fijos: si dos están correctos, el tercero también lo está."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 258,
+      "accepted_answers": [],
+      "strategy": "Elegir la única tarjeta fija obliga a intercambiar las otras dos.",
+      "theory_used": [
+        "puntos fijos",
+        "conteo de acomodos",
+        "clasificar permutaciones pequeñas",
+        "controlar una condición exacta"
+      ],
+      "validity_check": "verified · Las favorables son \\(132,213,321\\), escritas como los números de las tarjetas que entran en los sobres \\(1,2,3\\). · Con tres objetos no puede haber exactamente dos puntos fijos: si dos están correctos, el tercero también lo está.",
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "puntos_fijos",
+          "conteo_de_acomodos",
+          "clasificar_permutaciones_pequenas",
+          "controlar_una_condicion_exacta"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La condición se refiere a puntos fijos de una permutación y exige distinguir «exactamente uno» de «al menos uno»."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_prob_009",
+      "collection": "CUANTLY",
+      "subcategory": "Probabilidad · tiempos de parada en lanzamientos",
+      "problem_number": 9,
+      "source_question_label": "PROB-009",
+      "source_page": 9,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Una moneda equilibrada se lanza hasta que aparecen dos resultados consecutivos iguales. ¿Cuál es la probabilidad de que el experimento termine después de un número par de lanzamientos?",
+      "options": [],
+      "correct_answer": "\\(\\frac{2}{3}\\)",
+      "correct_option_label": null,
+      "solution_text": "Para \\(n\\ge2\\), después del primer lanzamiento, los siguientes \\(n-2\\) resultados deben alternarse y el lanzamiento n debe coincidir con el \\(n-1\\). Cada una de esas \\(n-1\\) condiciones tiene probabilidad \\(\\frac{1}{2}\\), así que \\(P(T=n)=2^{-(n-1)}\\). Por tanto, \\(P(T\\text{par})=\\frac{1}{2}+\\frac{1}{8}+\\frac1{32}+\\cdots=\\frac{\\frac{1}{2}}{1-\\frac{1}{4}}=\\frac{2}{3}\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Agrupando de dos en dos, tras cada bloque de dos transiciones la probabilidad de continuar se multiplica por \\(\\frac14\\); las terminaciones pares forman \\(1/2,1/8,1/32,\\ldots\\).\n\nCasos límite IGL: El experimento no puede terminar en el primer lanzamiento y termina con probabilidad \\(1\\), pues la probabilidad de alternar indefinidamente es \\(0\\)."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 259,
+      "accepted_answers": [
+        "2/3"
+      ],
+      "strategy": "Para terminar en el lanzamiento \\(n\\), los resultados deben alternarse hasta el último lanzamiento, que repite al anterior.",
+      "theory_used": [
+        "primer par consecutivo igual",
+        "serie geométrica",
+        "describir una trayectoria antes de detenerse",
+        "sumar probabilidades infinitas"
+      ],
+      "validity_check": "verified · Agrupando de dos en dos, tras cada bloque de dos transiciones la probabilidad de continuar se multiplica por \\(\\frac14\\); las terminaciones pares forman \\(1/2,1/8,1/32,\\ldots\\). · El experimento no puede terminar en el primer lanzamiento y termina con probabilidad \\(1\\), pues la probabilidad de alternar indefinidamente es \\(0\\).",
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "primer_par_consecutivo_igual",
+          "serie_geometrica",
+          "describir_una_trayectoria_antes_de_detenerse",
+          "sumar_probabilidades_infinitas"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "El evento depende de un tiempo de parada infinito, pero la alternancia previa al primer empate produce una serie geométrica corta."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_prob_010",
+      "collection": "CUANTLY",
+      "subcategory": "Probabilidad · permutaciones aleatorias",
+      "problem_number": 10,
+      "source_question_label": "PROB-010",
+      "source_page": 10,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Una fila se forma acomodando al azar las letras A,B,C,D. ¿Cuál es la probabilidad de que \\(B\\) quede entre \\(A\\) y \\(C\\), aunque no necesariamente junto a ellas?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(\\frac{1}{6}\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(\\frac{1}{3}\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(\\frac{1}{4}\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(\\frac{1}{2}\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(\\frac{2}{3}\\)"
+        }
+      ],
+      "correct_answer": "\\(\\frac{1}{3}\\)",
+      "correct_option_label": "b",
+      "solution_text": "Los órdenes relativos de A,B,C son igualmente probables. \\(B\\) queda entre \\(A\\) y \\(C\\) en los órdenes \\(ABC\\) y \\(CBA\\). Son \\(2\\) de \\(6\\), así que la probabilidad es \\(\\frac{2}{6}=\\frac{1}{3}\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Cuenta un solo orden favorable.",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "Es la razón correcta \\(2/6\\).",
+          "is_correct": true
+        },
+        {
+          "label": "c",
+          "reason": "Divide entre las cuatro posiciones de B.",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "Supone que cualquier posición interior de la fila funciona.",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "Cuenta también los casos en que B queda en un extremo relativo.",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: De las \\(24\\) permutaciones completas, cada uno de los seis órdenes relativos de \\(A,B,C\\) aparece \\(4\\) veces; hay \\(8\\) favorables y \\(8/24=1/3\\).\n\nCasos límite IGL: La palabra «entre» se refiere al orden en la fila, no a adyacencia."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 260,
+      "accepted_answers": [],
+      "strategy": "Entre los seis órdenes relativos de \\(A,B,C\\), \\(B\\) ocupa la posición intermedia en dos.",
+      "theory_used": [
+        "orden relativo",
+        "posición intermedia",
+        "usar simetría entre órdenes",
+        "ignorar elementos irrelevantes"
+      ],
+      "validity_check": "verified · De las \\(24\\) permutaciones completas, cada uno de los seis órdenes relativos de \\(A,B,C\\) aparece \\(4\\) veces; hay \\(8\\) favorables y \\(8/24=1/3\\). · La palabra «entre» se refiere al orden en la fila, no a adyacencia.",
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L1",
+        "tags": [
+          "orden_relativo",
+          "posicion_intermedia",
+          "usar_simetria_entre_ordenes",
+          "ignorar_elementos_irrelevantes"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "El elemento \\(D\\) distrae; solo importa el orden relativo de \\(A,B,C\\)."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_prob_011",
+      "collection": "CUANTLY",
+      "subcategory": "Probabilidad · selección de números con relación aditiva",
+      "problem_number": 11,
+      "source_question_label": "PROB-011",
+      "source_page": 11,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "De las tarjetas numeradas del \\(1\\) al \\(9\\) se eligen \\(3\\) distintas al azar. ¿Cuál es la probabilidad de que uno de los números elegidos sea la suma de los otros dos?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(\\frac{2}{21}\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(\\frac{5}{21}\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(\\frac{8}{35}\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(\\frac{1}{4}\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(\\frac{4}{21}\\)"
+        }
+      ],
+      "correct_answer": "\\(\\frac{4}{21}\\)",
+      "correct_option_label": "e",
+      "solution_text": "Hay \\(\\binom{9}{3}=84\\) ternas. Para cada valor de c, contamos parejas positivas distintas \\(a<b\\) con \\(a+b=c\\). Para \\(c=3,4,\\ldots,9\\), los conteos son \\(1,1,2,2,3,3,4\\), cuya suma es \\(16\\). La probabilidad es \\(\\frac{16}{84}=\\frac{4}{21}\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Cuenta solo ocho ternas favorables.",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "Incluye cuatro ternas adicionales con números repetidos o fuera del rango.",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "Corresponde a un conteo incorrecto de \\(19.2\\) casos.",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "Supone que una cuarta parte de las ternas funciona por simetría.",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "Es la reducción correcta de \\(16/84\\).",
+          "is_correct": true
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Las cantidades por máximo \\(c\\) suman \\(1+1+2+2+3+3+4=16\\), y cada terna tiene un único elemento mayor.\n\nCasos límite IGL: Las tarjetas son distintas; no se permiten relaciones como \\(a+a=c\\)."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 261,
+      "accepted_answers": [],
+      "strategy": "Si \\(a<b<c\\), la condición solo puede ser \\(a+b=c\\).",
+      "theory_used": [
+        "ternas no ordenadas",
+        "suma de dos elementos",
+        "contar por el máximo",
+        "usar combinaciones"
+      ],
+      "validity_check": "verified · Las cantidades por máximo \\(c\\) suman \\(1+1+2+2+3+3+4=16\\), y cada terna tiene un único elemento mayor. · Las tarjetas son distintas; no se permiten relaciones como \\(a+a=c\\).",
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "ternas_no_ordenadas",
+          "suma_de_dos_elementos",
+          "contar_por_el_maximo",
+          "usar_combinaciones"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La relación favorable no es una propiedad individual; hay que organizar todas las ternas por su elemento mayor."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_prob_012",
+      "collection": "CUANTLY",
+      "subcategory": "Probabilidad · estadísticos de orden en dados",
+      "problem_number": 12,
+      "source_question_label": "PROB-012",
+      "source_page": 12,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Los resultados de tres dados equilibrados se ordenan de menor a mayor. ¿Con qué probabilidad el valor que queda en medio es \\(3\\)?",
+      "options": [],
+      "correct_answer": "\\(\\frac{13}{54}\\)",
+      "correct_option_label": null,
+      "solution_text": "La mediana es a lo sumo \\(3\\) cuando al menos dos dados caen en \\(\\{1,2,3\\}\\). Hay \\(\\binom{3}{2} 3^{2}\\cdot3+3^{3}=81+27=108\\) ternas. La mediana es a lo sumo \\(2\\) cuando al menos dos caen en \\(\\{1,2\\}\\): \\(\\binom{3}{2} 2^{2}\\cdot4+2^{3}=48+8=56\\). Por diferencia, \\(108-56=52\\) ternas tienen mediana \\(3\\). La probabilidad es \\(\\frac{52}{216}=\\frac{13}{54}\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Una enumeración de las \\(6^3=216\\) ternas ordenadas encuentra exactamente \\(52\\) cuya segunda entrada al ordenar es \\(3\\).\n\nCasos límite IGL: Se incluyen repeticiones, por ejemplo \\((3,3,6)\\) y \\((1,3,3)\\); la mediana se define después de ordenar los tres resultados."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 262,
+      "accepted_answers": [
+        "13/54"
+      ],
+      "strategy": "Restar las ternas con mediana a lo sumo \\(2\\) de las ternas con mediana a lo sumo \\(3\\).",
+      "theory_used": [
+        "mediana de tres resultados",
+        "conteo acumulado",
+        "contar eventos anidados",
+        "usar diferencia de acumuladas"
+      ],
+      "validity_check": "verified · Una enumeración de las \\(6^3=216\\) ternas ordenadas encuentra exactamente \\(52\\) cuya segunda entrada al ordenar es \\(3\\). · Se incluyen repeticiones, por ejemplo \\((3,3,6)\\) y \\((1,3,3)\\); la mediana se define después de ordenar los tres resultados.",
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "mediana_de_tres_resultados",
+          "conteo_acumulado",
+          "contar_eventos_anidados",
+          "usar_diferencia_de_acumuladas"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "El valor mediano exacto se aísla restando dos eventos acumulados, no enumerando todas las ternas."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_prob_013",
+      "collection": "CUANTLY",
+      "subcategory": "Probabilidad · experimentos con dados",
+      "problem_number": 13,
+      "source_question_label": "PROB-013",
+      "source_page": 13,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Al registrar en orden los resultados de dos dados distinguibles, ¿cuál es la probabilidad de que el segundo número divida exactamente al primero?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(\\frac{1}{3}\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(\\frac{5}{12}\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(\\frac{7}{18}\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(\\frac{1}{2}\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(\\frac{7}{12}\\)"
+        }
+      ],
+      "correct_answer": "\\(\\frac{7}{18}\\)",
+      "correct_option_label": "c",
+      "solution_text": "Si el primer dado muestra \\(1,2,3,4,5,6\\), la cantidad de posibles resultados divisores en el segundo es, respectivamente, \\(1,2,2,3,2,4\\). En total hay \\(1+2+2+3+2+4=14\\) pares favorables entre \\(36\\). La probabilidad es \\(\\frac{14}{36}=\\frac7{18}\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Cuenta solo los pares iguales y algunos adicionales.",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "Supone quince pares favorables.",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "Es el conteo correcto de catorce pares.",
+          "is_correct": true
+        },
+        {
+          "label": "d",
+          "reason": "Trata la divisibilidad como una relación simétrica.",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "Cuenta todos los resultados menores o iguales como divisores.",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Enumerando por el segundo dado: \\(1\\) divide a seis resultados, \\(2\\) a tres, \\(3\\) a dos, \\(4\\) a uno, \\(5\\) a uno y \\(6\\) a uno; la suma vuelve a ser \\(14\\).\n\nCasos límite IGL: El divisor nunca es cero porque los dados solo muestran valores del \\(1\\) al \\(6\\)."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 263,
+      "accepted_answers": [],
+      "strategy": "Sumar la cantidad de divisores de cada número del \\(1\\) al \\(6\\).",
+      "theory_used": [
+        "relación de divisibilidad",
+        "pares ordenados",
+        "contar divisores por resultado",
+        "organizar un espacio muestral"
+      ],
+      "validity_check": "verified · Enumerando por el segundo dado: \\(1\\) divide a seis resultados, \\(2\\) a tres, \\(3\\) a dos, \\(4\\) a uno, \\(5\\) a uno y \\(6\\) a uno; la suma vuelve a ser \\(14\\). · El divisor nunca es cero porque los dados solo muestran valores del \\(1\\) al \\(6\\).",
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "relacion_de_divisibilidad",
+          "pares_ordenados",
+          "contar_divisores_por_resultado",
+          "organizar_un_espacio_muestral"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "El número de resultados válidos para el segundo dado depende del valor obtenido en el primero."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_prob_014",
+      "collection": "CUANTLY",
+      "subcategory": "Probabilidad · probabilidad aritmética",
+      "problem_number": 14,
+      "source_question_label": "PROB-014",
+      "source_page": 14,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Un entero n se escoge uniformemente entre \\(1\\) y \\(36\\). ¿Cuál es la probabilidad de que n y \\(n^{2}\\) tengan la misma cifra de unidades?",
+      "options": [],
+      "correct_answer": "\\(\\frac{5}{12}\\)",
+      "correct_option_label": null,
+      "solution_text": "Las últimas cifras que se conservan al elevar al cuadrado son \\(0,1,5,6\\), pues \\(r(r-1)\\) debe ser múltiplo de \\(10\\). Entre \\(1\\) y \\(36\\), terminan en \\(0\\) tres números, y en cada una de las cifras \\(1,5,6\\) terminan cuatro números. Hay \\(3+4+4+4=15\\) casos favorables de \\(36\\). La probabilidad es \\(\\frac{15}{36}=\\frac5{12}\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Enumerando los favorables se obtienen \\(1,5,6,10,11,15,16,20,21,25,26,30,31,35,36\\), exactamente quince.\n\nCasos límite IGL: El intervalo comienza en \\(1\\), por lo que la clase terminal \\(0\\) aparece una vez menos que \\(1,5,6\\)."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 264,
+      "accepted_answers": [
+        "5/12"
+      ],
+      "strategy": "Resolver \\(r^2\\equiv r\\pmod{10}\\) y contar las clases \\(0,1,5,6\\).",
+      "theory_used": [
+        "última cifra",
+        "clases de residuos",
+        "clasificar residuos módulo \\(10\\)",
+        "contar en un intervalo"
+      ],
+      "validity_check": "verified · Enumerando los favorables se obtienen \\(1,5,6,10,11,15,16,20,21,25,26,30,31,35,36\\), exactamente quince. · El intervalo comienza en \\(1\\), por lo que la clase terminal \\(0\\) aparece una vez menos que \\(1,5,6\\).",
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "ultima_cifra",
+          "clases_de_residuos",
+          "clasificar_residuos_modulo_10",
+          "contar_en_un_intervalo"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "El evento depende solo de la última cifra, pero las diez clases no aparecen el mismo número de veces en el intervalo."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_prob_015",
+      "collection": "CUANTLY",
+      "subcategory": "Probabilidad · experimentos con dados",
+      "problem_number": 15,
+      "source_question_label": "PROB-015",
+      "source_page": 15,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Sobre una mesa se lanzan dos dados equilibrados. ¿Cuál es la probabilidad de que el producto de sus resultados sea múltiplo de \\(6\\)?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(\\frac{5}{12}\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(\\frac{1}{3}\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(\\frac{1}{2}\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(\\frac{7}{12}\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(\\frac{2}{3}\\)"
+        }
+      ],
+      "correct_answer": "\\(\\frac{5}{12}\\)",
+      "correct_option_label": "a",
+      "solution_text": "Hay \\(36\\) pares ordenados. Fallan en aportar factor \\(2\\) los \\(3^{2}=9\\) pares de resultados impares. Fallan en aportar factor \\(3\\) los \\(4^{2}=16\\) pares con resultados en \\(\\{1,2,4,5\\}\\). Se contaron dos veces los \\(2^{2}=4\\) pares con resultados en \\(\\{1,5\\}\\). Por inclusión-exclusión, fallan \\(9+16-4=21\\), así que funcionan \\(36-21=15\\). La probabilidad es \\(\\frac{15}{36}=\\frac5{12}\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Es el conteo correcto de \\(15\\) casos.",
+          "is_correct": true
+        },
+        {
+          "label": "b",
+          "reason": "Cuenta solo los pares donde aparece un \\(6\\).",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "Supone independencia entre «producto par» y «producto múltiplo de \\(3\\)».",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "Omite la intersección del complemento.",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "Incluye pares cuyo producto aporta solo uno de los factores.",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Una enumeración de los seis posibles valores del primer dado da \\(0,2,3,4,2,4\\) valores favorables del segundo, para un total de \\(15\\).\n\nCasos límite IGL: Un resultado como \\(2\\cdot3\\) es válido aunque ninguno de los dados muestre \\(6\\); el conteo incluye factores repartidos."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 265,
+      "accepted_answers": [],
+      "strategy": "Contar por complemento los pares sin factor \\(2\\) o sin factor \\(3\\).",
+      "theory_used": [
+        "divisibilidad de un producto",
+        "inclusión-exclusión",
+        "clasificar factores",
+        "usar complemento doble"
+      ],
+      "validity_check": "verified · Una enumeración de los seis posibles valores del primer dado da \\(0,2,3,4,2,4\\) valores favorables del segundo, para un total de \\(15\\). · Un resultado como \\(2\\cdot3\\) es válido aunque ninguno de los dados muestre \\(6\\); el conteo incluye factores repartidos.",
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "divisibilidad_de_un_producto",
+          "inclusion_exclusion",
+          "clasificar_factores",
+          "usar_complemento_doble"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "El producto debe aportar simultáneamente un factor \\(2\\) y un factor \\(3\\), lo que requiere combinar dos condiciones."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_prob_016",
+      "collection": "CUANTLY",
+      "subcategory": "Probabilidad · patrones en lanzamientos",
+      "problem_number": 16,
+      "source_question_label": "PROB-016",
+      "source_page": 16,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Entre todas las secuencias equiprobables de \\(4\\) lanzamientos de una moneda, ¿qué probabilidad corresponde a las que no contienen dos águilas consecutivas?",
+      "options": [],
+      "correct_answer": "\\(\\frac{1}{2}\\)",
+      "correct_option_label": null,
+      "solution_text": "Las secuencias válidas son SSSS, ASSS, SASS, SSAS, SSSA, ASAS, ASSA, SASA. Hay \\(8\\) entre \\(2^{4}=16\\) secuencias equiprobables. La probabilidad es \\(\\frac8{16}=\\frac{1}{2}\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Con la recurrencia \\(a_n=a_{n-1}+a_{n-2}\\), partiendo de \\(a_1=2\\) y \\(a_2=3\\), se obtiene \\(a_4=8\\).\n\nCasos límite IGL: La condición prohíbe únicamente el bloque \\(AA\\); una sola águila o águilas separadas sí se permiten."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 266,
+      "accepted_answers": [
+        "1/2"
+      ],
+      "strategy": "Clasificar secuencias según su último resultado o enumerar las ocho válidas.",
+      "theory_used": [
+        "restricción de adyacencia",
+        "cadenas binarias",
+        "contar secuencias válidas",
+        "usar una recurrencia pequeña"
+      ],
+      "validity_check": "verified · Con la recurrencia \\(a_n=a_{n-1}+a_{n-2}\\), partiendo de \\(a_1=2\\) y \\(a_2=3\\), se obtiene \\(a_4=8\\). · La condición prohíbe únicamente el bloque \\(AA\\); una sola águila o águilas separadas sí se permiten.",
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "restriccion_de_adyacencia",
+          "cadenas_binarias",
+          "contar_secuencias_validas",
+          "usar_una_recurrencia_pequena"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "El evento requiere contar cadenas completas bajo una restricción local."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_prob_017",
+      "collection": "CUANTLY",
+      "subcategory": "Probabilidad · selección de números",
+      "problem_number": 17,
+      "source_question_label": "PROB-017",
+      "source_page": 17,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Dos tarjetas diferentes se toman del conjunto numerado \\(\\{1,2,3,4,5,6\\}\\). ¿Cuál es la probabilidad de que sus números sean coprimos?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(\\frac{3}{5}\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(\\frac{2}{3}\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(\\frac{4}{5}\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(\\frac{11}{15}\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(\\frac{13}{15}\\)"
+        }
+      ],
+      "correct_answer": "\\(\\frac{11}{15}\\)",
+      "correct_option_label": "d",
+      "solution_text": "Hay \\(\\binom{6}{2}=15\\) parejas. Las que no son coprimas son \\(\\{2,4\\},\\{2,6\\},\\{3,6\\},\\{4,6\\}\\), cuatro parejas. Por tanto, hay \\(15-4=11\\) parejas coprimas y la probabilidad es \\(\\frac{11}{15}\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Excluye demasiadas parejas con un número par.",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "Cuenta diez parejas favorables.",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "Incluye una pareja adicional inexistente.",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "Es el complemento correcto de cuatro pares no coprimos.",
+          "is_correct": true
+        },
+        {
+          "label": "e",
+          "reason": "Solo excluye las parejas con ambos números pares.",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Listando directamente: las cinco parejas con \\(1\\), dos pares adicionales con \\(2\\), dos con \\(3\\), uno con \\(4\\) y uno con \\(5\\) suman \\(11\\).\n\nCasos límite IGL: Los números son distintos; no aparece la pareja \\(\\{1,1\\}\\), aunque no afectaría la idea de coprimalidad."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 267,
+      "accepted_answers": [],
+      "strategy": "Contar las parejas cuyo máximo común divisor es \\(1\\).",
+      "theory_used": [
+        "máximo común divisor",
+        "parejas coprimas",
+        "clasificar pares",
+        "usar complemento por factores comunes"
+      ],
+      "validity_check": "verified · Listando directamente: las cinco parejas con \\(1\\), dos pares adicionales con \\(2\\), dos con \\(3\\), uno con \\(4\\) y uno con \\(5\\) suman \\(11\\). · Los números son distintos; no aparece la pareja \\(\\{1,1\\}\\), aunque no afectaría la idea de coprimalidad.",
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "maximo_comun_divisor",
+          "parejas_coprimas",
+          "clasificar_pares",
+          "usar_complemento_por_factores_comunes"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Requiere revisar una propiedad entre pares, no una propiedad individual de cada tarjeta."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_prob_018",
+      "collection": "CUANTLY",
+      "subcategory": "Probabilidad · permutaciones con separación",
+      "problem_number": 18,
+      "source_question_label": "PROB-018",
+      "source_page": 18,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Seis libros distintos, entre ellos A,B,C, se acomodan al azar en un estante. ¿Cuál es la probabilidad de que no haya dos de A,B,C juntos?",
+      "options": [],
+      "correct_answer": "\\(\\frac{1}{5}\\)",
+      "correct_option_label": null,
+      "solution_text": "Los otros tres libros se ordenan de \\(3!\\) formas y crean \\(4\\) huecos. Se eligen \\(3\\) huecos y se asignan A,B,C en \\(3!\\) órdenes. Hay \\(3!\\binom{4}{3} 3!=144\\) acomodos favorables de \\(6!=720\\). La probabilidad es \\(\\frac{144}{720}=\\frac{1}{5}\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: El conteo favorable \\(6\\cdot4\\cdot6=144\\) puede verificarse enumerando las permutaciones y rechazando las que contienen \\(AB,AC\\) o \\(BC\\) como vecinos.\n\nCasos límite IGL: El estante es lineal; los huecos de los extremos también pueden recibir uno de los libros distinguidos."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 268,
+      "accepted_answers": [
+        "1/5"
+      ],
+      "strategy": "Ordenar primero los otros tres libros y colocar \\(A,B,C\\) en tres de los cuatro huecos.",
+      "theory_used": [
+        "método de huecos",
+        "tres objetos distinguidos",
+        "crear posiciones disponibles",
+        "contar arreglos sin adyacencia"
+      ],
+      "validity_check": "verified · El conteo favorable \\(6\\cdot4\\cdot6=144\\) puede verificarse enumerando las permutaciones y rechazando las que contienen \\(AB,AC\\) o \\(BC\\) como vecinos. · El estante es lineal; los huecos de los extremos también pueden recibir uno de los libros distinguidos.",
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "metodo_de_huecos",
+          "tres_objetos_distinguidos",
+          "crear_posiciones_disponibles",
+          "contar_arreglos_sin_adyacencia"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "El método de huecos exige separar primero los libros sin restricción y luego colocar tres libros distinguidos sin adyacencias."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_prob_019",
+      "collection": "CUANTLY",
+      "subcategory": "Probabilidad · probabilidad aritmética e inclusión-exclusión",
+      "problem_number": 19,
+      "source_question_label": "PROB-019",
+      "source_page": 19,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Se elige al azar un entero del \\(1\\) al \\(210\\). ¿Cuál es la probabilidad de que sea divisible por exactamente uno de los números \\(4,6,10\\)?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(\\frac{1}{5}\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(\\frac{1}{4}\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(\\frac{4}{15}\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(\\frac{7}{30}\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(\\frac{3}{10}\\)"
+        }
+      ],
+      "correct_answer": "\\(\\frac{7}{30}\\)",
+      "correct_option_label": "d",
+      "solution_text": "Hay \\(52,35,21\\) múltiplos de \\(4,6,10\\). Las intersecciones dobles son múltiplos de \\(12,20,30\\): hay \\(17,10,7\\). La triple intersección son los múltiplos de \\(60\\): hay \\(3\\). Por tanto, el número que pertenece exactamente a un conjunto es \\(52+35+21-2(17+10+7)+3(3)=49\\). La probabilidad es \\(\\frac{49}{210}=\\frac{7}{30}\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Cuenta \\(42\\) casos al descontar en exceso las intersecciones.",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "Resulta de tratar las intersecciones dobles como si fueran disjuntas.",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "Cuenta \\(56\\) enteros por corregir mal la intersección triple.",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "Es la reducción correcta de \\(49/210\\).",
+          "is_correct": true
+        },
+        {
+          "label": "e",
+          "reason": "Suma proporciones aproximadas sin controlar traslapes.",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Clasificando los \\(210\\) enteros por el número de divisores de la lista que los dividen se obtienen exactamente \\(49\\) con conteo igual a uno.\n\nCasos límite IGL: El extremo \\(210\\) es divisible por \\(6\\) y \\(10\\), así que no es favorable; todos los cocientes usan parte entera."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 269,
+      "accepted_answers": [],
+      "strategy": "La fórmula para pertenecer exactamente a uno es \\(\\sum|A_i|-2\\sum|A_i\\cap A_j|+3|A_1\\cap A_2\\cap A_3|\\).",
+      "theory_used": [
+        "divisibilidad exacta",
+        "tres conjuntos",
+        "usar mínimos comunes múltiplos",
+        "contar pertenencia exacta"
+      ],
+      "validity_check": "verified · Clasificando los \\(210\\) enteros por el número de divisores de la lista que los dividen se obtienen exactamente \\(49\\) con conteo igual a uno. · El extremo \\(210\\) es divisible por \\(6\\) y \\(10\\), así que no es favorable; todos los cocientes usan parte entera.",
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "divisibilidad_exacta",
+          "tres_conjuntos",
+          "usar_minimos_comunes_multiplos",
+          "contar_pertenencia_exacta"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Para contar los números divisibles por exactamente uno de tres divisores hay que ponderar correctamente intersecciones dobles y triples."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_prob_020",
+      "collection": "CUANTLY",
+      "subcategory": "Probabilidad · valor esperado",
+      "problem_number": 20,
+      "source_question_label": "PROB-020",
+      "source_page": 20,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "El premio de un experimento es el cuadrado del número de águilas obtenido al lanzar dos monedas equilibradas. ¿Cuál es el valor esperado del premio?",
+      "options": [],
+      "correct_answer": "\\(\\frac{3}{2}\\)",
+      "correct_option_label": null,
+      "solution_text": "El número de águilas puede ser \\(0,1,2\\) con probabilidades \\(\\frac{1}{4},\\frac{1}{2},\\frac{1}{4}\\), respectivamente. Los premios son \\(0,1,4\\). Así, el valor esperado es \\(0\\cdot\\frac{1}{4}+1\\cdot\\frac{1}{2}+4\\cdot\\frac{1}{4}=\\frac{1}{2}+1=\\frac{3}{2}\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Enumerando \\(SS,SA,AS,AA\\), los premios son \\(0,1,1,4\\); su promedio es \\(\\frac{0+1+1+4}{4}=\\frac32\\).\n\nCasos límite IGL: El premio puede ser fraccionario solo como valor esperado; cada premio individual es entero."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 270,
+      "accepted_answers": [
+        "3/2"
+      ],
+      "strategy": "Usar la distribución de \\(X\\), el número de águilas, y calcular \\(E(X^2)\\).",
+      "theory_used": [
+        "función de una variable binomial",
+        "premio no lineal",
+        "construir una distribución pequeña",
+        "calcular esperanza"
+      ],
+      "validity_check": "verified · Enumerando \\(SS,SA,AS,AA\\), los premios son \\(0,1,1,4\\); su promedio es \\(\\frac{0+1+1+4}{4}=\\frac32\\). · El premio puede ser fraccionario solo como valor esperado; cada premio individual es entero.",
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "funcion_de_una_variable_binomial",
+          "premio_no_lineal",
+          "construir_una_distribucion_pequena",
+          "calcular_esperanza"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La recompensa no es el número de águilas, sino su cuadrado, por lo que debe evaluarse caso por caso."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_prob_021",
+      "collection": "CUANTLY",
+      "subcategory": "Probabilidad · probabilidad condicional aritmética",
+      "problem_number": 21,
+      "source_question_label": "PROB-021",
+      "source_page": 21,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "De las tarjetas \\(1,2,\\ldots,8\\) se eligen dos distintas. Se sabe que el producto de los números elegidos es divisible por \\(6\\). ¿Cuál es la probabilidad de que su suma sea par?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(\\frac{1}{5}\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(\\frac{3}{10}\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(\\frac{1}{4}\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(\\frac{2}{5}\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(\\frac{1}{2}\\)"
+        }
+      ],
+      "correct_answer": "\\(\\frac{3}{10}\\)",
+      "correct_option_label": "b",
+      "solution_text": "Los pares condicionados son \\(\\{1,6\\},\\{2,3\\},\\{2,6\\},\\{3,4\\},\\{3,6\\},\\{3,8\\},\\{4,6\\},\\{5,6\\},\\{6,7\\},\\{6,8\\}\\): diez. Tienen suma par \\(\\{2,6\\},\\{4,6\\},\\{6,8\\}\\), tres pares. La probabilidad condicional es \\(\\frac3{10}\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Cuenta dos de los diez pares condicionados.",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "Es la razón correcta de \\(3\\) casos entre \\(10\\).",
+          "is_correct": true
+        },
+        {
+          "label": "c",
+          "reason": "Supone cuatro pares condicionados por cada caso favorable.",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "Incluye un par adicional de suma impar.",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "Asume que la paridad queda equilibrada tras condicionar.",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Un programa de enumeración de las \\(\\binom82=28\\) parejas confirma diez productos múltiplos de \\(6\\) y tres sumas pares dentro de ellos.\n\nCasos límite IGL: La selección es no ordenada y las tarjetas son distintas; la probabilidad se calcula dentro del evento condicionado."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 271,
+      "accepted_answers": [],
+      "strategy": "Enumerar únicamente los pares cuyo producto aporta factores \\(2\\) y \\(3\\).",
+      "theory_used": [
+        "productos divisibles",
+        "paridad de una suma",
+        "construir un espacio condicionado",
+        "clasificar pares no ordenados"
+      ],
+      "validity_check": "verified · Un programa de enumeración de las \\(\\binom82=28\\) parejas confirma diez productos múltiplos de \\(6\\) y tres sumas pares dentro de ellos. · La selección es no ordenada y las tarjetas son distintas; la probabilidad se calcula dentro del evento condicionado.",
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "productos_divisibles",
+          "paridad_de_una_suma",
+          "construir_un_espacio_condicionado",
+          "clasificar_pares_no_ordenados"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La condición dada redefine el espacio muestral; después hay que identificar qué pares favorables tienen suma par."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_prob_022",
+      "collection": "CUANTLY",
+      "subcategory": "Probabilidad · probabilidad geométrica discreta",
+      "problem_number": 22,
+      "source_question_label": "PROB-022",
+      "source_page": 22,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "De todas las diagonales de un hexágono regular se eligen \\(2\\) distintas al azar. ¿Cuál es la probabilidad de que se corten en un punto interior del hexágono?",
+      "options": [],
+      "correct_answer": "\\(\\frac{5}{12}\\)",
+      "correct_option_label": null,
+      "solution_text": "El hexágono tiene \\(\\frac{6(6-3)}2=9\\) diagonales, así que hay \\(\\binom{9}{2}=36\\) pares. En un polígono convexo, cada elección de \\(4\\) vértices determina exactamente un par de diagonales cruzadas: las diagonales del cuadrilátero que forman. Por ello hay \\(\\binom{6}{4}=15\\) pares favorables. La probabilidad es \\(\\frac{15}{36}=\\frac5{12}\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Enumerando los nueve segmentos diagonales y probando intersección estrictamente interior se obtienen quince pares.\n\nCasos límite IGL: No cuentan pares que comparten un vértice ni diagonales que solo se encuentran en la frontera."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 272,
+      "accepted_answers": [
+        "5/12"
+      ],
+      "strategy": "Cada conjunto de cuatro vértices determina exactamente un par de diagonales que se cruzan.",
+      "theory_used": [
+        "diagonales de un polígono convexo",
+        "intersecciones interiores",
+        "establecer una biyección",
+        "contar pares de diagonales"
+      ],
+      "validity_check": "verified · Enumerando los nueve segmentos diagonales y probando intersección estrictamente interior se obtienen quince pares. · No cuentan pares que comparten un vértice ni diagonales que solo se encuentran en la frontera.",
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "diagonales_de_un_poligono_convexo",
+          "intersecciones_interiores",
+          "establecer_una_biyeccion",
+          "contar_pares_de_diagonales"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "El cruce interior de dos diagonales se cuenta mejor mediante conjuntos de cuatro vértices, no examinando pares de diagonales uno por uno."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_prob_023",
+      "collection": "CUANTLY",
+      "subcategory": "Probabilidad · procesos de parada con residuos",
+      "problem_number": 23,
+      "source_question_label": "PROB-023",
+      "source_page": 23,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Las tarjetas \\(1,2,3,4,5,6\\) se barajan y se revelan una a una. El proceso se detiene en cuanto la suma de las tarjetas reveladas es múltiplo de \\(3\\). ¿Cuál es la probabilidad de que se detenga exactamente al revelar la segunda tarjeta?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(\\frac{1}{5}\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(\\frac{1}{3}\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(\\frac{2}{5}\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(\\frac{7}{15}\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(\\frac{4}{15}\\)"
+        }
+      ],
+      "correct_answer": "\\(\\frac{4}{15}\\)",
+      "correct_option_label": "e",
+      "solution_text": "Hay \\(6\\cdot5=30\\) pares ordenados iniciales. Para no detenerse en la primera tarjeta, esta debe ser \\(1,2,4\\) o \\(5\\). Si su residuo es \\(1\\), la segunda debe tener residuo \\(2\\), y viceversa. Los pares favorables son \\((1,2),(1,5),(4,2),(4,5),(2,1),(2,4),(5,1),(5,4)\\): ocho. La probabilidad es \\(\\frac8{30}=\\frac4{15}\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Cuenta seis pares favorables y omite dos complementos.",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "Incluye casos en que la primera tarjeta ya es múltiplo de \\(3\\).",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "Cuenta doce pares por ignorar la no repetición.",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "Incluye pares cuya suma no es múltiplo de \\(3\\).",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "Es la reducción correcta de \\(8/30\\).",
+          "is_correct": true
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: La enumeración de las \\(30\\) parejas iniciales encuentra exactamente ocho con primer residuo no cero y suma residual cero.\n\nCasos límite IGL: Las tarjetas \\(3\\) y \\(6\\) detendrían el proceso en el primer paso y por eso no pueden iniciar un caso favorable."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 273,
+      "accepted_answers": [],
+      "strategy": "El primer residuo debe ser \\(1\\) o \\(2\\), y el segundo debe ser su complemento módulo \\(3\\).",
+      "theory_used": [
+        "suma acumulada módulo 3",
+        "extracción sin reemplazo",
+        "contar pares ordenados",
+        "imponer una condición de primera ocurrencia"
+      ],
+      "validity_check": "verified · La enumeración de las \\(30\\) parejas iniciales encuentra exactamente ocho con primer residuo no cero y suma residual cero. · Las tarjetas \\(3\\) y \\(6\\) detendrían el proceso en el primer paso y por eso no pueden iniciar un caso favorable.",
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "suma_acumulada_modulo_3",
+          "extraccion_sin_reemplazo",
+          "contar_pares_ordenados",
+          "imponer_una_condicion_de_primera_ocurrencia"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Es un proceso de parada sin reemplazo: el primer número no debe cerrar el proceso, pero la suma de los dos primeros sí."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_prob_024",
+      "collection": "CUANTLY",
+      "subcategory": "Probabilidad · intersección de subconjuntos aleatorios",
+      "problem_number": 24,
+      "source_question_label": "PROB-024",
+      "source_page": 24,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Dos subconjuntos \\(A\\) y \\(B\\), cada uno de \\(3\\) elementos, se eligen de manera independiente y uniforme de un conjunto de \\(6\\) elementos. Sabiendo que \\(A\\neq B\\), ¿cuál es la probabilidad de que \\(|A\\cap B|=2\\)?",
+      "options": [],
+      "correct_answer": "\\(\\frac{9}{19}\\)",
+      "correct_option_label": null,
+      "solution_text": "Fijado \\(A\\), existen \\(\\binom{6}{3}=20\\) posibilidades para \\(B\\). La condición \\(A\\neq B\\) deja \\(19\\). Para que la intersección tenga tamaño \\(2\\), se eligen \\(2\\) de los \\(3\\) elementos de \\(A\\) y \\(1\\) de los \\(3\\) elementos exteriores: \\(\\binom{3}{2}\\binom{3}{1}=9\\) posibilidades. La probabilidad condicional es \\(\\frac9{19}\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: La distribución de \\(|A\\cap B|\\) para un \\(A\\) fijo tiene conteos \\(1,9,9,1\\) para intersecciones \\(0,1,2,3\\); al excluir el caso de tamaño \\(3\\), quedan nueve de diecinueve.\n\nCasos límite IGL: Las elecciones de \\(A\\) y \\(B\\) son independientes antes de condicionar; el único caso con intersección \\(3\\) es \\(A=B\\)."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 274,
+      "accepted_answers": [
+        "9/19"
+      ],
+      "strategy": "Fijar \\(A\\) por simetría y contar las opciones de \\(B\\) después de excluir \\(B=A\\).",
+      "theory_used": [
+        "subconjuntos de tamaño fijo",
+        "condicionamiento por desigualdad",
+        "fijar un subconjunto por simetría",
+        "contar intersecciones"
+      ],
+      "validity_check": "verified · La distribución de \\(|A\\cap B|\\) para un \\(A\\) fijo tiene conteos \\(1,9,9,1\\) para intersecciones \\(0,1,2,3\\); al excluir el caso de tamaño \\(3\\), quedan nueve de diecinueve. · Las elecciones de \\(A\\) y \\(B\\) son independientes antes de condicionar; el único caso con intersección \\(3\\) es \\(A=B\\).",
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "subconjuntos_de_tamano_fijo",
+          "condicionamiento_por_desigualdad",
+          "fijar_un_subconjunto_por_simetria",
+          "contar_intersecciones"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "El condicionamiento elimina un único caso y rompe la forma directa de la distribución hipergeométrica."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_prob_025",
+      "collection": "CUANTLY",
+      "subcategory": "Probabilidad · selección con parejas incompatibles",
+      "problem_number": 25,
+      "source_question_label": "PROB-025",
+      "source_page": 25,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Un grupo está formado por \\(4\\) parejas de hermanos. Se eligen al azar \\(3\\) de las \\(8\\) personas. ¿Cuál es la probabilidad de que no se elija a dos hermanos de una misma pareja?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(\\frac{2}{7}\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(\\frac{3}{7}\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(\\frac{4}{7}\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(\\frac{5}{7}\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(\\frac{6}{7}\\)"
+        }
+      ],
+      "correct_answer": "\\(\\frac{4}{7}\\)",
+      "correct_option_label": "c",
+      "solution_text": "Hay \\(\\binom{8}{3}=56\\) ternas totales. Para una terna válida se eligen \\(3\\) de las \\(4\\) parejas y, de cada una, uno de sus \\(2\\) integrantes. Hay \\(\\binom{4}{3} 2^{3}=4\\cdot8=32\\) ternas favorables. La probabilidad es \\(\\frac{32}{56}=\\frac{4}{7}\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Cuenta solo dieciséis ternas favorables.",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "Olvida algunas elecciones internas dentro de las parejas.",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "Es la reducción correcta de \\(32/56\\).",
+          "is_correct": true
+        },
+        {
+          "label": "d",
+          "reason": "Incluye ternas con una pareja completa.",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "Cuenta casi todas las ternas como válidas.",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Por complemento, una terna inválida contiene exactamente una pareja completa: \\(4\\) opciones para la pareja y \\(6\\) para la tercera persona, es decir \\(24\\); \\(56-24=32\\).\n\nCasos límite IGL: Con solo tres personas no pueden aparecer dos parejas completas, por lo que el conteo complementario no tiene traslapes."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 275,
+      "accepted_answers": [],
+      "strategy": "Elegir tres parejas distintas y después uno de los dos integrantes de cada pareja.",
+      "theory_used": [
+        "pares de hermanos",
+        "comités sin conflicto",
+        "usar el principio multiplicativo",
+        "contar subconjuntos con prohibiciones"
+      ],
+      "validity_check": "verified · Por complemento, una terna inválida contiene exactamente una pareja completa: \\(4\\) opciones para la pareja y \\(6\\) para la tercera persona, es decir \\(24\\); \\(56-24=32\\). · Con solo tres personas no pueden aparecer dos parejas completas, por lo que el conteo complementario no tiene traslapes.",
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L2",
+        "tags": [
+          "pares_de_hermanos",
+          "comites_sin_conflicto",
+          "usar_el_principio_multiplicativo",
+          "contar_subconjuntos_con_prohibiciones"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La restricción se maneja eligiendo primero familias y después una persona de cada familia."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_prob_026",
+      "collection": "CUANTLY",
+      "subcategory": "Probabilidad · ocupación aleatoria de cajas",
+      "problem_number": 26,
+      "source_question_label": "PROB-026",
+      "source_page": 26,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Cinco bolas distintas se colocan, cada una de manera independiente y uniforme, en una de \\(3\\) cajas distintas. Sabiendo que ninguna caja quedó vacía, ¿cuál es la probabilidad de que una caja contenga \\(3\\) bolas y las otras dos contengan una bola cada una?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(\\frac{2}{5}\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(\\frac{1}{5}\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(\\frac{1}{3}\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(\\frac{1}{2}\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(\\frac{3}{5}\\)"
+        }
+      ],
+      "correct_answer": "\\(\\frac{2}{5}\\)",
+      "correct_option_label": "a",
+      "solution_text": "Hay \\(3^{5}\\) asignaciones totales. Por inclusión-exclusión, las que usan las tres cajas son \\(3^{5}-3\\cdot2^{5}+3=150\\). Para una ocupación \\(3,1,1\\), se elige la caja con tres bolas en \\(3\\) formas, sus bolas en \\(\\binom{5}{3}=10\\) formas y se asignan las dos restantes a las otras cajas en \\(2\\) órdenes. Hay \\(3\\cdot10\\cdot2=60\\) casos favorables. La probabilidad condicional es \\(\\frac{60}{150}=\\frac{2}{5}\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Es la razón correcta de sesenta casos entre ciento cincuenta.",
+          "is_correct": true
+        },
+        {
+          "label": "b",
+          "reason": "Cuenta solo treinta asignaciones favorables.",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "Divide por el total condicionado pero omite el orden de las cajas con una bola.",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "Supone que los dos patrones de ocupación posibles son equiprobables.",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "Incluye asignaciones donde alguna caja queda vacía.",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Las ocupaciones positivas de cinco bolas en tres cajas son de tipos \\(3,1,1\\) y \\(2,2,1\\); sus conteos son \\(60\\) y \\(90\\), que suman \\(150\\).\n\nCasos límite IGL: Las bolas y cajas son distinguibles; la condición de no vaciedad se aplica antes de calcular la probabilidad solicitada."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 276,
+      "accepted_answers": [],
+      "strategy": "Contar todas las asignaciones sobreyectivas y, dentro de ellas, las de tipo \\(3,1,1\\).",
+      "theory_used": [
+        "funciones sobreyectivas",
+        "patrones de ocupación",
+        "usar inclusión-exclusión",
+        "contar distribuciones de objetos distinguibles"
+      ],
+      "validity_check": "verified · Las ocupaciones positivas de cinco bolas en tres cajas son de tipos \\(3,1,1\\) y \\(2,2,1\\); sus conteos son \\(60\\) y \\(90\\), que suman \\(150\\). · Las bolas y cajas son distinguibles; la condición de no vaciedad se aplica antes de calcular la probabilidad solicitada.",
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "funciones_sobreyectivas",
+          "patrones_de_ocupacion",
+          "usar_inclusion_exclusion",
+          "contar_distribuciones_de_objetos_distinguibles"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "El espacio condicionado se cuenta por inclusión-exclusión, mientras que el evento favorable exige una ocupación específica \\(3,1,1\\)."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_prob_027",
+      "collection": "CUANTLY",
+      "subcategory": "Probabilidad · probabilidad aritmética en subconjuntos",
+      "problem_number": 27,
+      "source_question_label": "PROB-027",
+      "source_page": 27,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Entre todas las ternas de números distintos tomadas de \\(\\{1,2,\\ldots,9\\}\\), se escoge una uniformemente. ¿Qué probabilidad hay de que la suma sea múltiplo de \\(3\\) y el producto sea par?",
+      "options": [],
+      "correct_answer": "\\(\\frac{13}{42}\\)",
+      "correct_option_label": null,
+      "solution_text": "Las clases módulo \\(3\\) son \\(\\{3,6,9\\}\\), \\(\\{1,4,7\\}\\) y \\(\\{2,5,8\\}\\). Una terna suma un múltiplo de \\(3\\) si toma los tres elementos de una clase, lo que da \\(3\\) ternas, o uno de cada clase, lo que da \\(3^{3}=27\\). Las tres ternas de clase única tienen producto par. Entre las \\(27\\) mixtas, el producto es impar solo si se eligen impares: hay \\(2\\) opciones en la clase \\(0\\), \\(2\\) en la clase \\(1\\) y \\(1\\) en la clase \\(2\\), es decir \\(4\\). Por tanto, hay \\(3+(27-4)=26\\) casos favorables de \\(\\binom{9}{3}=84\\). La probabilidad es \\(\\frac{26}{84}=\\frac{13}{42}\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: La enumeración de las \\(84\\) ternas encuentra \\(30\\) con suma divisible por \\(3\\); de ellas, \\(4\\) tienen producto impar y \\(26\\) producto par.\n\nCasos límite IGL: Los números son distintos y la selección no tiene orden; el cero no pertenece al conjunto."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 277,
+      "accepted_answers": [
+        "13/42"
+      ],
+      "strategy": "Las ternas con suma divisible por \\(3\\) tienen los tres residuos iguales o uno de cada clase; después se excluyen las ternas totalmente impares.",
+      "theory_used": [
+        "residuos módulo 3",
+        "paridad de un producto",
+        "clasificar ternas por residuos",
+        "contar por complemento dentro de una clase"
+      ],
+      "validity_check": "verified · La enumeración de las \\(84\\) ternas encuentra \\(30\\) con suma divisible por \\(3\\); de ellas, \\(4\\) tienen producto impar y \\(26\\) producto par. · Los números son distintos y la selección no tiene orden; el cero no pertenece al conjunto.",
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "residuos_modulo_3",
+          "paridad_de_un_producto",
+          "clasificar_ternas_por_residuos",
+          "contar_por_complemento_dentro_de_una_clase"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La suma divisible por \\(3\\) se clasifica por residuos, y dentro de esas clases todavía debe imponerse una condición independiente de paridad."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_prob_028",
+      "collection": "CUANTLY",
+      "subcategory": "Probabilidad · permutaciones e inversiones",
+      "problem_number": 28,
+      "source_question_label": "PROB-028",
+      "source_page": 28,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Los números \\(1,2,\\ldots,7\\) se ordenan al azar. Considerando únicamente el orden relativo en que aparecen \\(1,2,3,4\\), ¿cuál es la probabilidad de que ese orden tenga exactamente una inversión?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(\\frac{1}{12}\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(\\frac{1}{6}\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(\\frac{5}{24}\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(\\frac{1}{4}\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(\\frac{1}{8}\\)"
+        }
+      ],
+      "correct_answer": "\\(\\frac{1}{8}\\)",
+      "correct_option_label": "e",
+      "solution_text": "Cada uno de los \\(4!=24\\) órdenes relativos de \\(1,2,3,4\\) es igualmente probable. Para tener exactamente una inversión, basta mover un valor una posición a la izquierda desde \\(1234\\): los órdenes son \\(2134,1324,1243\\). No hay otros, porque una inversión única debe corresponder a un único par adyacente invertido. La probabilidad es \\(\\frac3{24}=\\frac{1}{8}\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Cuenta solo dos de los tres intercambios adyacentes posibles.",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "Incluye un orden con dos inversiones.",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "Cuenta cinco órdenes relativos.",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "Supone seis órdenes favorables.",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "Es la reducción correcta de \\(3/24\\).",
+          "is_correct": true
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: El polinomio generador de inversiones para cuatro elementos empieza \\(1+3q+5q^2+\\cdots\\); el coeficiente de \\(q\\) es \\(3\\).\n\nCasos límite IGL: Una inversión es un par \\(i<j\\) que aparece en orden contrario; los valores \\(5,6,7\\) no alteran el orden relativo de \\(1,2,3,4\\)."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 278,
+      "accepted_answers": [],
+      "strategy": "Los otros tres números no influyen; entre los \\(4!\\) órdenes relativos, solo tres tienen una inversión.",
+      "theory_used": [
+        "orden relativo",
+        "exactamente una inversión",
+        "contar permutaciones por inversiones",
+        "eliminar elementos irrelevantes"
+      ],
+      "validity_check": "verified · El polinomio generador de inversiones para cuatro elementos empieza \\(1+3q+5q^2+\\cdots\\); el coeficiente de \\(q\\) es \\(3\\). · Una inversión es un par \\(i<j\\) que aparece en orden contrario; los valores \\(5,6,7\\) no alteran el orden relativo de \\(1,2,3,4\\).",
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "orden_relativo",
+          "exactamente_una_inversion",
+          "contar_permutaciones_por_inversiones",
+          "eliminar_elementos_irrelevantes"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La condición se refiere al número de inversiones del orden relativo de cuatro valores, no a sus posiciones absolutas entre los siete elementos."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_prob_029",
+      "collection": "CUANTLY",
+      "subcategory": "Probabilidad · probabilidad condicional con dados",
+      "problem_number": 29,
+      "source_question_label": "PROB-029",
+      "source_page": 29,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Se lanzan \\(3\\) dados equilibrados y se sabe que la suma de los resultados fue \\(10\\). ¿Cuál es la probabilidad de que el producto de los tres resultados sea divisible por \\(8\\)?",
+      "options": [],
+      "correct_answer": "\\(\\frac{2}{9}\\)",
+      "correct_option_label": null,
+      "solution_text": "Las ternas positivas de suma \\(10\\), con cada entrada a lo sumo \\(6\\), son \\(27\\) en total. Para que el producto sea múltiplo de \\(8\\), deben aparecer al menos tres factores \\(2\\). Los únicos multiconjuntos posibles con suma \\(10\\) son \\(\\{2,2,6\\}\\) y \\(\\{2,4,4\\}\\). Cada uno tiene \\(3\\) permutaciones, así que hay \\(6\\) ternas favorables. La probabilidad condicional es \\(\\frac6{27}=\\frac{2}{9}\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: La enumeración de las \\(216\\) ternas de dados encuentra \\(27\\) con suma \\(10\\) y exactamente \\(6\\) de ellas con producto divisible por \\(8\\).\n\nCasos límite IGL: La terna \\((2,6,2)\\) cuenta por su orden; valores como \\(1,3,6\\) suman \\(10\\) pero no aportan suficientes factores \\(2\\)."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 279,
+      "accepted_answers": [
+        "2/9"
+      ],
+      "strategy": "Entre las ternas ordenadas de suma \\(10\\), solo los patrones \\(\\{2,2,6\\}\\) y \\(\\{2,4,4\\}\\) aportan al menos tres factores \\(2\\).",
+      "theory_used": [
+        "suma fija de tres dados",
+        "divisibilidad del producto",
+        "contar composiciones acotadas",
+        "clasificar patrones con repetición"
+      ],
+      "validity_check": "verified · La enumeración de las \\(216\\) ternas de dados encuentra \\(27\\) con suma \\(10\\) y exactamente \\(6\\) de ellas con producto divisible por \\(8\\). · La terna \\((2,6,2)\\) cuenta por su orden; valores como \\(1,3,6\\) suman \\(10\\) pero no aportan suficientes factores \\(2\\).",
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "suma_fija_de_tres_dados",
+          "divisibilidad_del_producto",
+          "contar_composiciones_acotadas",
+          "clasificar_patrones_con_repeticion"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "El condicionamiento fija una suma y obliga a clasificar composiciones acotadas por su estructura de factores primos."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_prob_030",
+      "collection": "CUANTLY",
+      "subcategory": "Probabilidad · caminos aleatorios en cuadrícula",
+      "problem_number": 30,
+      "source_question_label": "PROB-030",
+      "source_page": 30,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Todas las rutas mínimas de \\((0,0)\\) a \\((4,3)\\), con pasos a la derecha o hacia arriba, se consideran igualmente probables. ¿Cuál es la probabilidad de que una ruta pase por \\((2,1)\\)?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(\\frac{12}{35}\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(\\frac{16}{35}\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(\\frac{18}{35}\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(\\frac{3}{5}\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(\\frac{24}{35}\\)"
+        }
+      ],
+      "correct_answer": "\\(\\frac{18}{35}\\)",
+      "correct_option_label": "c",
+      "solution_text": "Toda ruta mínima a \\((4,3)\\) tiene \\(4\\) pasos derechos y \\(3\\) hacia arriba, por lo que hay \\(\\binom{7}{3}=35\\) rutas. Para pasar por \\((2,1)\\), el primer tramo tiene \\(2\\) pasos derechos y \\(1\\) hacia arriba: \\(\\binom{3}{1}=3\\) rutas. El segundo tramo requiere \\(2\\) pasos de cada tipo: \\(\\binom{4}{2}=6\\) rutas. Hay \\(3\\cdot6=18\\) rutas favorables, así que la probabilidad es \\(\\frac{18}{35}\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Cuenta solo las rutas del segundo tramo duplicadas.",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "Multiplica conteos incorrectos de \\(4\\) por \\(4\\).",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "Es la razón correcta \\(18/35\\).",
+          "is_correct": true
+        },
+        {
+          "label": "d",
+          "reason": "Usa una proporción geométrica de coordenadas.",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "Suma, en vez de multiplicar, las rutas de los dos tramos.",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Una enumeración de las \\(35\\) palabras con cuatro \\(D\\) y tres \\(U\\) confirma que \\(18\\) tienen, tras tres pasos, exactamente dos \\(D\\) y un \\(U\\).\n\nCasos límite IGL: Todas las rutas son mínimas y, por tanto, tienen exactamente siete pasos; pasar por \\((2,1)\\) ocurre necesariamente tras el tercer paso."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 280,
+      "accepted_answers": [],
+      "strategy": "Multiplicar las rutas de \\((0,0)\\) a \\((2,1)\\) por las de \\((2,1)\\) a \\((4,3)\\).",
+      "theory_used": [
+        "rutas mínimas",
+        "condición de pasar por un punto",
+        "contar caminos con combinaciones",
+        "descomponer una ruta"
+      ],
+      "validity_check": "verified · Una enumeración de las \\(35\\) palabras con cuatro \\(D\\) y tres \\(U\\) confirma que \\(18\\) tienen, tras tres pasos, exactamente dos \\(D\\) y un \\(U\\). · Todas las rutas son mínimas y, por tanto, tienen exactamente siete pasos; pasar por \\((2,1)\\) ocurre necesariamente tras el tercer paso.",
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "rutas_minimas",
+          "condicion_de_pasar_por_un_punto",
+          "contar_caminos_con_combinaciones",
+          "descomponer_una_ruta"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Hay que contar rutas completas y rutas que se descomponen obligatoriamente en dos tramos."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_prob_031",
+      "collection": "CUANTLY",
+      "subcategory": "Probabilidad · permutaciones con adyacencias prohibidas",
+      "problem_number": 31,
+      "source_question_label": "PROB-031",
+      "source_page": 31,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Los números \\(1,2,3,4,5,6\\) se ordenan al azar. ¿Cuál es la probabilidad de que ningún par de números consecutivos, como \\(2\\) y \\(3\\), quede en posiciones adyacentes?",
+      "options": [],
+      "correct_answer": "\\(\\frac{1}{8}\\)",
+      "correct_option_label": null,
+      "solution_text": "Si se exigen e adyacencias que forman c bloques conexos, hay \\(2^{c}(6-e)!\\) arreglos. Para los cinco enlaces de un camino, los números de subconjuntos (e,c) son: \\((0,0):1\\); \\((1,1):5\\); \\((2,1):4,(2,2):6\\); \\((3,1):3,(3,2):6,(3,3):1\\); \\((4,1):2,(4,2):3\\); \\((5,1):1\\). La suma alternada es \\(720-1200+(192+576)-(36+144+48)+(8+24)-2=90\\). Así, la probabilidad es \\(\\frac{90}{720}=\\frac{1}{8}\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: La enumeración de las \\(720\\) permutaciones encuentra \\(90\\) en las que \\(|\\operatorname{pos}(i)-\\operatorname{pos}(i+1)|>1\\) para todo \\(i=1,\\ldots,5\\).\n\nCasos límite IGL: Una cadena como \\(1,2,3\\) forma un solo bloque con dos orientaciones, no cuatro; esta superposición es la razón para clasificar componentes."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 281,
+      "accepted_answers": [
+        "1/8"
+      ],
+      "strategy": "Aplicar inclusión-exclusión a los cinco eventos \\(E_i\\): «\\(i\\) y \\(i+1\\) están juntos».",
+      "theory_used": [
+        "inclusión-exclusión",
+        "bloques superpuestos",
+        "contraer bloques",
+        "clasificar subconjuntos de un camino"
+      ],
+      "validity_check": "verified · La enumeración de las \\(720\\) permutaciones encuentra \\(90\\) en las que \\(|\\operatorname{pos}(i)-\\operatorname{pos}(i+1)|>1\\) para todo \\(i=1,\\ldots,5\\). · Una cadena como \\(1,2,3\\) forma un solo bloque con dos orientaciones, no cuatro; esta superposición es la razón para clasificar componentes.",
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "inclusion_exclusion",
+          "bloques_superpuestos",
+          "contraer_bloques",
+          "clasificar_subconjuntos_de_un_camino"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La prohibición involucra cinco eventos superpuestos; hay que agrupar intersecciones según los componentes consecutivos que forman."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_prob_032",
+      "collection": "CUANTLY",
+      "subcategory": "Probabilidad · subconjuntos aleatorios con extremos",
+      "problem_number": 32,
+      "source_question_label": "PROB-032",
+      "source_page": 32,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Se elige al azar uno de los \\(255\\) subconjuntos no vacíos de \\(\\{1,2,\\ldots,8\\}\\). ¿Cuál es la probabilidad de que el máximo del subconjunto sea exactamente el doble de su mínimo?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(\\frac{1}{31}\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(\\frac{2}{17}\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(\\frac{5}{51}\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(\\frac{1}{17}\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(\\frac{1}{8}\\)"
+        }
+      ],
+      "correct_answer": "\\(\\frac{1}{17}\\)",
+      "correct_option_label": "d",
+      "solution_text": "El mínimo solo puede ser \\(m=1,2,3,4\\). Para un m fijo, el subconjunto debe contener m y \\(2m\\), no puede contener números menores que m ni mayores que \\(2m\\), y puede incluir libremente los \\(m-1\\) números entre ambos. Por tanto hay \\(2^{m-1}\\) subconjuntos. El total favorable es \\(1+2+4+8=15\\). La probabilidad es \\(\\frac{15}{255}=\\frac1{17}\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Cuenta solo los cuatro subconjuntos de dos elementos.",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "Duplica los casos al tratar mínimo y máximo como intercambiables.",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "Omite parte de las elecciones de elementos intermedios.",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "Es la reducción correcta de \\(15/255\\).",
+          "is_correct": true
+        },
+        {
+          "label": "e",
+          "reason": "Supone que cada posible mínimo aporta el mismo número de subconjuntos.",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: La enumeración de las máscaras binarias no vacías de ocho elementos encuentra exactamente \\(15\\) con \\(\\max S=2\\min S\\).\n\nCasos límite IGL: Los elementos fuera del intervalo \\([m,2m]\\) alterarían el mínimo o el máximo; el subconjunto no puede ser vacío."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 282,
+      "accepted_answers": [],
+      "strategy": "Si el mínimo es \\(m\\), el máximo es \\(2m\\) y los \\(m-1\\) enteros intermedios se eligen libremente.",
+      "theory_used": [
+        "mínimo y máximo",
+        "conteo por casos",
+        "condicionar por el mínimo",
+        "contar elementos opcionales"
+      ],
+      "validity_check": "verified · La enumeración de las máscaras binarias no vacías de ocho elementos encuentra exactamente \\(15\\) con \\(\\max S=2\\min S\\). · Los elementos fuera del intervalo \\([m,2m]\\) alterarían el mínimo o el máximo; el subconjunto no puede ser vacío.",
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "minimo_y_maximo",
+          "conteo_por_casos",
+          "condicionar_por_el_minimo",
+          "contar_elementos_opcionales"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "El mínimo determina el máximo y deja un intervalo de elementos opcionales cuyo tamaño cambia con el mínimo."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_prob_033",
+      "collection": "CUANTLY",
+      "subcategory": "Probabilidad · procesos de patrones",
+      "problem_number": 33,
+      "source_question_label": "PROB-033",
+      "source_page": 33,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Una moneda sesgada produce águila con probabilidad \\(\\frac{2}{3}\\). Se lanza hasta que aparece por primera vez \\(AA\\) o \\(SS\\) en posiciones consecutivas. ¿Cuál es la probabilidad de que \\(AA\\) aparezca antes?",
+      "options": [],
+      "correct_answer": "\\(\\frac{16}{21}\\)",
+      "correct_option_label": null,
+      "solution_text": "Sea \\(x_{A}\\) la probabilidad de que gane \\(AA\\) cuando el último resultado fue \\(A\\), y \\(x_{S}\\) cuando fue \\(S\\). Entonces \\(x_{A}=\\frac{2}{3}+\\frac{1}{3}x_{S}\\), pues otra águila termina con éxito; y \\(x_{S}=\\frac{2}{3}x_{A}\\), pues otro sol termina con fracaso. Sustituyendo, \\(x_{A}=\\frac{2}{3}+\\frac{2}{9}x_{A}\\), así que \\(\\frac{7}{9}x_{A}=\\frac{2}{3}\\) y \\(x_{A}=\\frac{6}{7}\\). Desde el inicio, la probabilidad es \\(\\frac{2}{3}x_{A}+\\frac{1}{3}x_{S}=\\frac{2}{3}\\cdot\\frac{6}{7}+\\frac{1}{3}\\cdot\\frac{4}{7}=\\frac{16}{21}\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Un árbol de estados finitos con ecuaciones absorbentes produce el mismo valor; además, \\(16/21\\) es mayor que \\(1/2\\), coherente con que águila es más probable.\n\nCasos límite IGL: El proceso termina con probabilidad \\(1\\); después del primer lanzamiento siempre se está en uno de los dos estados definidos."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 283,
+      "accepted_answers": [
+        "16/21"
+      ],
+      "strategy": "Definir probabilidades de éxito condicionadas a que el último lanzamiento sea águila o sol.",
+      "theory_used": [
+        "moneda sesgada",
+        "competencia entre patrones",
+        "plantear estados",
+        "resolver ecuaciones recursivas"
+      ],
+      "validity_check": "verified · Un árbol de estados finitos con ecuaciones absorbentes produce el mismo valor; además, \\(16/21\\) es mayor que \\(1/2\\), coherente con que águila es más probable. · El proceso termina con probabilidad \\(1\\); después del primer lanzamiento siempre se está en uno de los dos estados definidos.",
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "moneda_sesgada",
+          "competencia_entre_patrones",
+          "plantear_estados",
+          "resolver_ecuaciones_recursivas"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La probabilidad depende del último resultado observado y requiere un pequeño sistema de estados."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_prob_034",
+      "collection": "CUANTLY",
+      "subcategory": "Probabilidad · probabilidad geométrica discreta",
+      "problem_number": 34,
+      "source_question_label": "PROB-034",
+      "source_page": 34,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Un triángulo se obtiene escogiendo uniformemente \\(3\\) de los \\(12\\) vértices de un dodecágono regular. ¿Con qué probabilidad tendrá al menos dos lados de la misma longitud?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(\\frac{1}{5}\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(\\frac{13}{55}\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(\\frac{12}{55}\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(\\frac{3}{11}\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(\\frac{4}{15}\\)"
+        }
+      ],
+      "correct_answer": "\\(\\frac{13}{55}\\)",
+      "correct_option_label": "b",
+      "solution_text": "Fijado un vértice como ápice, los otros dos deben quedar a la misma distancia circular a ambos lados. Hay \\(5\\) elecciones posibles, de modo que se obtienen \\(12\\cdot5=60\\) conteos con ápice marcado. En el dodecágono hay \\(4\\) triángulos equiláteros, cada uno contado \\(3\\) veces en lugar de una; se restan \\(2\\) conteos por cada uno. Así, hay \\(60-2\\cdot4=52\\) triángulos isósceles distintos. El total es \\(\\binom{12}{3}=220\\), por lo que la probabilidad es \\(\\frac{52}{220}=\\frac{13}{55}\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Cuenta solo los triángulos equiláteros y algunos isósceles.",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "Es la reducción correcta de \\(52/220\\).",
+          "is_correct": true
+        },
+        {
+          "label": "c",
+          "reason": "Corrige de más el sobreconteo de equiláteros.",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "No corrige que cada equilátero tiene tres ápices.",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "Usa un total de triángulos incorrecto.",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Una enumeración de los \\(220\\) subconjuntos de tres vértices, comparando las tres longitudes de cuerda, encuentra \\(52\\) con al menos dos lados iguales.\n\nCasos límite IGL: No existen triángulos degenerados porque se eligen tres vértices distintos; los equiláteros son los únicos isósceles con más de un ápice posible."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 284,
+      "accepted_answers": [],
+      "strategy": "Contar triángulos con un vértice principal y corregir los equiláteros, que tienen tres vértices principales.",
+      "theory_used": [
+        "triángulos isósceles en polígonos regulares",
+        "doble conteo",
+        "contar por vértice",
+        "corregir configuraciones con varias simetrías"
+      ],
+      "validity_check": "verified · Una enumeración de los \\(220\\) subconjuntos de tres vértices, comparando las tres longitudes de cuerda, encuentra \\(52\\) con al menos dos lados iguales. · No existen triángulos degenerados porque se eligen tres vértices distintos; los equiláteros son los únicos isósceles con más de un ápice posible.",
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "triangulos_isosceles_en_poligonos_regulares",
+          "doble_conteo",
+          "contar_por_vertice",
+          "corregir_configuraciones_con_varias_simetrias"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "El conteo por vértice principal sobrecuenta únicamente los triángulos equiláteros, por lo que se necesita una corrección de doble conteo."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_prob_035",
+      "collection": "CUANTLY",
+      "subcategory": "Probabilidad · estadística de permutaciones",
+      "problem_number": 35,
+      "source_question_label": "PROB-035",
+      "source_page": 35,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Los números \\(1,2,\\ldots,7\\) se ordenan al azar. Un término se llama récord si es mayor que todos los términos que aparecen antes que él; el primero siempre es récord. ¿Cuál es la probabilidad de que haya exactamente \\(3\\) récords?",
+      "options": [],
+      "correct_answer": "\\(\\frac{29}{90}\\)",
+      "correct_option_label": null,
+      "solution_text": "Sea R(n,k) el número de permutaciones de n elementos con k récords. Al insertar el mínimo, si se coloca al inicio añade un récord; en cualquiera de las otras \\(n-1\\) posiciones no cambia el número. Así, \\(R(n,k)=R(n-1,k-1)+(n-1)R(n-1,k)\\). Desde \\(R(1,1)=1\\), las filas hasta \\(n=7\\) culminan en \\(720,1764,1624,735,175,21,1\\). Por tanto, \\(R(7,3)=1624\\) y la probabilidad es \\(\\frac{1624}{5040}=\\frac{29}{90}\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: La enumeración de las \\(5040\\) permutaciones confirma que \\(1624\\) tienen exactamente tres máximos de izquierda a derecha.\n\nCasos límite IGL: El primer término siempre cuenta como récord; el mínimo insertado en una posición no inicial nunca supera a los elementos anteriores."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 285,
+      "accepted_answers": [
+        "29/90"
+      ],
+      "strategy": "Al insertar el elemento mínimo en una permutación de tamaño \\(n-1\\), solo aumenta el número de récords si se coloca al principio.",
+      "theory_used": [
+        "récords de izquierda a derecha",
+        "recurrencia de conteo",
+        "construir una recurrencia",
+        "normalizar por factorial"
+      ],
+      "validity_check": "verified · La enumeración de las \\(5040\\) permutaciones confirma que \\(1624\\) tienen exactamente tres máximos de izquierda a derecha. · El primer término siempre cuenta como récord; el mínimo insertado en una posición no inicial nunca supera a los elementos anteriores.",
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "records_de_izquierda_a_derecha",
+          "recurrencia_de_conteo",
+          "construir_una_recurrencia",
+          "normalizar_por_factorial"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La cantidad de récords se cuenta con una recurrencia al insertar el elemento mínimo, no mediante una enumeración directa de \\(7!\\) órdenes."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_prob_036",
+      "collection": "CUANTLY",
+      "subcategory": "Probabilidad · probabilidad condicional y mezcla de urnas",
+      "problem_number": 36,
+      "source_question_label": "PROB-036",
+      "source_page": 36,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Dos cajas tienen composiciones opuestas: la caja \\(I\\) contiene \\(2\\) bolas rojas y \\(1\\) azul, y la caja \\(II\\), \\(1\\) roja y \\(2\\) azules. Se elige una caja al azar; la primera extracción, sin reemplazo, resulta roja. ¿Cuál es la probabilidad de que la segunda bola de esa misma caja también sea roja?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(\\frac{1}{3}\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(\\frac{1}{6}\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(\\frac{1}{4}\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(\\frac{1}{2}\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(\\frac{2}{3}\\)"
+        }
+      ],
+      "correct_answer": "\\(\\frac{1}{3}\\)",
+      "correct_option_label": "a",
+      "solution_text": "La probabilidad de roja en la primera extracción es \\(\\frac{1}{2}\\cdot\\frac{2}{3}+\\frac{1}{2}\\cdot\\frac{1}{3}=\\frac{1}{2}\\). La probabilidad de dos rojas solo puede provenir de la caja \\(I\\): \\(\\frac{1}{2}\\cdot\\frac{2}{3}\\cdot\\frac{1}{2}=\\frac{1}{6}\\). Por tanto, \\(P(R_{2}\\mid R_{1})=\\frac{P(RR)}{P(R_{1})}=\\frac{\\frac{1}{6}}{\\frac{1}{2}}=\\frac{1}{3}\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Es el cociente correcto.",
+          "is_correct": true
+        },
+        {
+          "label": "b",
+          "reason": "Confunde la probabilidad conjunta con la condicional.",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "Promedia las probabilidades restantes sin actualizar la caja.",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "Supone que la primera roja identifica con certeza la caja I.",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "Usa la proporción inicial de rojas en la caja I.",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Dado que salió roja, la probabilidad posterior de haber elegido la caja I es \\(\\frac{(1/2)(2/3)}{1/2}=\\frac23\\); desde ella queda una roja de dos bolas, así que \\(\\frac23\\cdot\\frac12=\\frac13\\).\n\nCasos límite IGL: No se reemplaza la primera bola; desde la caja II no puede aparecer una segunda roja."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 286,
+      "accepted_answers": [],
+      "strategy": "Obtener la probabilidad condicional mediante el cociente \\(P(RR)/P(R_1)\\).",
+      "theory_used": [
+        "elección de caja",
+        "segunda extracción",
+        "aplicar Bayes implícitamente",
+        "usar probabilidad total"
+      ],
+      "validity_check": "verified · Dado que salió roja, la probabilidad posterior de haber elegido la caja I es \\(\\frac{(1/2)(2/3)}{1/2}=\\frac23\\); desde ella queda una roja de dos bolas, así que \\(\\frac23\\cdot\\frac12=\\frac13\\). · No se reemplaza la primera bola; desde la caja II no puede aparecer una segunda roja.",
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "eleccion_de_caja",
+          "segunda_extraccion",
+          "aplicar_bayes_implicitamente",
+          "usar_probabilidad_total"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "El primer resultado modifica la probabilidad de haber elegido cada caja."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_prob_037",
+      "collection": "CUANTLY",
+      "subcategory": "Probabilidad · caminatas aleatorias",
+      "problem_number": 37,
+      "source_question_label": "PROB-037",
+      "source_page": 37,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Desde \\(0\\), una ficha avanza una unidad a la derecha o a la izquierda con la misma probabilidad. El recorrido termina al llegar a \\(2\\) o a \\(-3\\). ¿Cuál es la probabilidad de alcanzar \\(2\\) primero?",
+      "options": [],
+      "correct_answer": "\\(\\frac{3}{5}\\)",
+      "correct_option_label": null,
+      "solution_text": "Sea \\(p_{k}\\) la probabilidad de llegar a \\(2\\) antes que a \\(-3\\) empezando en k. Se cumple \\(p_{k}=\\frac{1}{2}p_{k-1}+\\frac{1}{2}p_{k+1}\\), con \\(p_{-3}=0\\) y \\(p_{2}=1\\). Esta recurrencia tiene solución lineal. Al trasladar \\(-3\\) a \\(0\\) y \\(2\\) a \\(5\\), el inicio \\(0\\) queda a distancia \\(3\\) de la frontera izquierda. Por tanto, la probabilidad es \\(\\frac{3}{5}\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Las probabilidades lineales \\(0,\\frac15,\\frac25,\\frac35,\\frac45,1\\) satisfacen la ecuación de promedio en cada estado interior.\n\nCasos límite IGL: Las fronteras son absorbentes y la caminata finita termina con probabilidad \\(1\\)."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 287,
+      "accepted_answers": [
+        "3/5"
+      ],
+      "strategy": "Trasladar el intervalo \\([-3,2]\\) a \\([0,5]\\); el punto inicial queda en \\(3\\).",
+      "theory_used": [
+        "ruina del jugador",
+        "probabilidad de alcanzar una frontera",
+        "plantear una recurrencia lineal",
+        "usar simetría armónica"
+      ],
+      "validity_check": "verified · Las probabilidades lineales \\(0,\\frac15,\\frac25,\\frac35,\\frac45,1\\) satisfacen la ecuación de promedio en cada estado interior. · Las fronteras son absorbentes y la caminata finita termina con probabilidad \\(1\\).",
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "ruina_del_jugador",
+          "probabilidad_de_alcanzar_una_frontera",
+          "plantear_una_recurrencia_lineal",
+          "usar_simetria_armonica"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La respuesta requiere analizar una caminata con dos fronteras a distancias diferentes."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_prob_038",
+      "collection": "CUANTLY",
+      "subcategory": "Probabilidad · acomodos circulares",
+      "problem_number": 38,
+      "source_question_label": "PROB-038",
+      "source_page": 38,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Al sentar al azar a seis personas distintas alrededor de una mesa redonda, ¿cuál es la probabilidad de que al menos una de \\(B\\) o \\(C\\) quede junto a \\(A\\)?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(\\frac{2}{5}\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(\\frac{1}{2}\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(\\frac{7}{10}\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(\\frac{3}{5}\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(\\frac{4}{5}\\)"
+        }
+      ],
+      "correct_answer": "\\(\\frac{7}{10}\\)",
+      "correct_option_label": "c",
+      "solution_text": "Fijamos a \\(A\\). Las posiciones de \\(B\\) y \\(C\\) forman una pareja entre los \\(5\\) lugares restantes, así que hay \\(\\binom{5}{2}=10\\) pares posibles. Para que ninguno quede junto a \\(A\\), ambos deben ocupar dos de los \\(3\\) lugares no vecinos, lo que puede hacerse de \\(\\binom{3}{2}=3\\) formas. La probabilidad buscada es \\(1-\\frac3{10}=\\frac7{10}\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Cuenta solo la probabilidad de que B sea vecino.",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "Supone independencia entre las dos adyacencias.",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "Es el complemento correcto.",
+          "is_correct": true
+        },
+        {
+          "label": "d",
+          "reason": "Resta una intersección incorrecta.",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "Cuenta como favorables todos los pares salvo dos.",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Por inclusión-exclusión: \\(P(B\\sim A)=2/5\\), \\(P(C\\sim A)=2/5\\), y \\(P(B,C\\sim A)=1/10\\); la unión es \\(2/5+2/5-1/10=7/10\\).\n\nCasos límite IGL: La mesa es circular; fijar a A elimina las rotaciones sin alterar las probabilidades."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 288,
+      "accepted_answers": [],
+      "strategy": "Fijar a \\(A\\) y exigir que \\(B,C\\) eviten sus dos lugares vecinos.",
+      "theory_used": [
+        "adyacencia",
+        "complemento",
+        "fijar una persona",
+        "contar posiciones prohibidas"
+      ],
+      "validity_check": "verified · Por inclusión-exclusión: \\(P(B\\sim A)=2/5\\), \\(P(C\\sim A)=2/5\\), y \\(P(B,C\\sim A)=1/10\\); la unión es \\(2/5+2/5-1/10=7/10\\). · La mesa es circular; fijar a A elimina las rotaciones sin alterar las probabilidades.",
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "adyacencia",
+          "complemento",
+          "fijar_una_persona",
+          "contar_posiciones_prohibidas"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Los eventos «B junto a A» y «C junto a A» se traslapan, por lo que el complemento es más limpio."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_prob_039",
+      "collection": "CUANTLY",
+      "subcategory": "Probabilidad · emparejamientos aleatorios",
+      "problem_number": 39,
+      "source_question_label": "PROB-039",
+      "source_page": 39,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Ocho estudiantes se dividen al azar en \\(4\\) parejas, considerando igualmente probables todos los emparejamientos. ¿Cuál es la probabilidad de que ni \\(A\\) quede emparejado con \\(B\\), ni \\(C\\) con \\(D\\)?",
+      "options": [],
+      "correct_answer": "\\(\\frac{26}{35}\\)",
+      "correct_option_label": null,
+      "solution_text": "El número total de emparejamientos de \\(8\\) personas es \\(7\\cdot5\\cdot3\\cdot1=105\\). Si \\(A\\) queda con \\(B\\), las otras \\(6\\) personas pueden emparejarse de \\(5\\cdot3\\cdot1=15\\) formas; lo mismo ocurre para C,D. Si aparecen ambas parejas prohibidas, las cuatro personas restantes se emparejan de \\(3\\) formas. Por inclusión-exclusión, los emparejamientos válidos son \\(105-15-15+3=78\\). La probabilidad es \\(\\frac{78}{105}=\\frac{26}{35}\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Al fijar la pareja de \\(A\\), hay siete opciones equiprobables; un conteo por casos según si \\(A\\) se une con \\(C\\), con \\(D\\) o con otra persona vuelve a producir \\(78\\) emparejamientos válidos.\n\nCasos límite IGL: Las parejas no tienen orden y el orden de las cuatro parejas tampoco importa; los dos eventos prohibidos pueden ocurrir simultáneamente."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 289,
+      "accepted_answers": [
+        "26/35"
+      ],
+      "strategy": "Usar inclusión-exclusión sobre los dos emparejamientos prohibidos.",
+      "theory_used": [
+        "parejas no ordenadas",
+        "inclusión-exclusión",
+        "contar emparejamientos perfectos",
+        "corregir eventos traslapados"
+      ],
+      "validity_check": "verified · Al fijar la pareja de \\(A\\), hay siete opciones equiprobables; un conteo por casos según si \\(A\\) se une con \\(C\\), con \\(D\\) o con otra persona vuelve a producir \\(78\\) emparejamientos válidos. · Las parejas no tienen orden y el orden de las cuatro parejas tampoco importa; los dos eventos prohibidos pueden ocurrir simultáneamente.",
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "parejas_no_ordenadas",
+          "inclusion_exclusion",
+          "contar_emparejamientos_perfectos",
+          "corregir_eventos_traslapados"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "El espacio muestral son emparejamientos perfectos, y dos restricciones prohibidas se traslapan cuando ambas parejas aparecen."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_prob_040",
+      "collection": "CUANTLY",
+      "subcategory": "Probabilidad · valor esperado en permutaciones",
+      "problem_number": 40,
+      "source_question_label": "PROB-040",
+      "source_page": 40,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Para una permutación aleatoria de \\(1,2,3,4,5,6\\), sea \\(X\\) la cantidad de pares de valores consecutivos \\(\\{k,k+1\\}\\) que aparecen en lugares adyacentes. ¿Cuál es E(X)?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(1\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(\\frac{4}{3}\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(\\frac{3}{2}\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(2\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(\\frac{5}{3}\\)"
+        }
+      ],
+      "correct_answer": "\\(\\frac{5}{3}\\)",
+      "correct_option_label": "e",
+      "solution_text": "Para cada \\(k=1,\\ldots,5\\), definimos \\(I_{k}=1\\) si k y \\(k+1\\) quedan juntos, y \\(0\\) en otro caso. Tratándolos como un bloque, la probabilidad de adyacencia es \\(\\frac{2\\cdot5!}{6!}=\\frac{1}{3}\\). Como \\(X=I_{1}+\\cdots+I_{5}\\), la linealidad de la esperanza da \\(E(X)=5\\cdot\\frac{1}{3}=\\frac{5}{3}\\). No se necesita que los eventos sean independientes.",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Supone que solo puede aparecer una pareja adyacente.",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "Usa probabilidad \\(4/15\\) de una separación distinta.",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "Promedia incorrectamente sobre seis valores.",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "Cuenta seis parejas consecutivas en lugar de cinco.",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "Es la suma correcta de cinco probabilidades \\(1/3\\).",
+          "is_correct": true
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Sumando \\(X\\) sobre las \\(6!\\) permutaciones, cada una de las cinco parejas aporta \\(2\\cdot5!\\) incidencias; el promedio total es \\(\\frac{5\\cdot2\\cdot5!}{6!}=\\frac53\\).\n\nCasos límite IGL: Los pares pueden traslaparse, por ejemplo \\(1,2,3\\) consecutivos; la linealidad sigue siendo válida."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 290,
+      "accepted_answers": [],
+      "strategy": "Cada pareja consecutiva de valores queda junta con probabilidad \\(2/6=1/3\\).",
+      "theory_used": [
+        "indicadores",
+        "adyacencia de valores consecutivos",
+        "usar linealidad de la esperanza",
+        "calcular una probabilidad local"
+      ],
+      "validity_check": "verified · Sumando \\(X\\) sobre las \\(6!\\) permutaciones, cada una de las cinco parejas aporta \\(2\\cdot5!\\) incidencias; el promedio total es \\(\\frac{5\\cdot2\\cdot5!}{6!}=\\frac53\\). · Los pares pueden traslaparse, por ejemplo \\(1,2,3\\) consecutivos; la linealidad sigue siendo válida.",
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "indicadores",
+          "adyacencia_de_valores_consecutivos",
+          "usar_linealidad_de_la_esperanza",
+          "calcular_una_probabilidad_local"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Contar todas las configuraciones de \\(X\\) sería difícil; la linealidad de la esperanza permite tratar cada pareja por separado."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_prob_041",
+      "collection": "CUANTLY",
+      "subcategory": "Probabilidad · caminos de votación",
+      "problem_number": 41,
+      "source_question_label": "PROB-041",
+      "source_page": 41,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Entre las secuencias de \\(6\\) lanzamientos que contienen \\(3\\) águilas y \\(3\\) soles, se elige una al azar. ¿Cuál es la probabilidad de que en todo prefijo haya al menos tantas águilas como soles?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(\\frac{1}{4}\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(\\frac{1}{10}\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(\\frac{1}{5}\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(\\frac{3}{10}\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(\\frac{2}{5}\\)"
+        }
+      ],
+      "correct_answer": "\\(\\frac{1}{4}\\)",
+      "correct_option_label": "a",
+      "solution_text": "Dado que hay exactamente \\(3\\) águilas y \\(3\\) soles, existen \\(\\binom{6}{3}=20\\) secuencias equiprobables. Las secuencias cuyos prefijos nunca tienen más soles que águilas son contadas por el número de Catalan \\(C_{3}=\\frac{1}{4}\\binom{6}{3}=5\\). Por tanto, la probabilidad es \\(\\frac5{20}=\\frac{1}{4}\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Es la razón correcta de cinco caminos válidos entre veinte.",
+          "is_correct": true
+        },
+        {
+          "label": "b",
+          "reason": "Cuenta solo dos secuencias alternantes.",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "Confunde el conteo con el de posiciones no adyacentes.",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "Incluye una secuencia que baja de cero en un prefijo.",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "Cuenta todas las secuencias que comienzan con águila.",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Por el principio de reflexión, de las \\(20\\) secuencias balanceadas, \\(\\binom62=15\\) cruzan por primera vez a nivel \\(-1\\); quedan \\(20-15=5\\) válidas.\n\nCasos límite IGL: La igualdad al final está garantizada por las tres águilas y tres soles; la condición permite empates intermedios."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 291,
+      "accepted_answers": [],
+      "strategy": "Contar los caminos de tres subidas y tres bajadas que nunca quedan por debajo de cero.",
+      "theory_used": [
+        "prefijos de una secuencia",
+        "principio de reflexión",
+        "contar caminos que no cruzan una frontera",
+        "usar números de Catalan"
+      ],
+      "validity_check": "verified · Por el principio de reflexión, de las \\(20\\) secuencias balanceadas, \\(\\binom62=15\\) cruzan por primera vez a nivel \\(-1\\); quedan \\(20-15=5\\) válidas. · La igualdad al final está garantizada por las tres águilas y tres soles; la condición permite empates intermedios.",
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "prefijos_de_una_secuencia",
+          "principio_de_reflexion",
+          "contar_caminos_que_no_cruzan_una_frontera",
+          "usar_numeros_de_catalan"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La condición debe cumplirse en todos los prefijos, no solo al final, y conduce a un conteo tipo Catalan."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_prob_042",
+      "collection": "CUANTLY",
+      "subcategory": "Probabilidad · órdenes parciales en permutaciones",
+      "problem_number": 42,
+      "source_question_label": "PROB-042",
+      "source_page": 42,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Los números \\(1,2,\\ldots,6\\) se ordenan al azar. ¿Cuál es la probabilidad de que se cumplan simultáneamente: \\(1\\) antes que \\(3\\); \\(2\\) antes que \\(3\\) y que \\(4\\); \\(3\\) y \\(4\\) antes que \\(5\\); y \\(5\\) antes que \\(6\\)?",
+      "options": [],
+      "correct_answer": "\\(\\frac{1}{144}\\)",
+      "correct_option_label": null,
+      "solution_text": "Al inicio solo pueden aparecer \\(1\\) o \\(2\\). Si empieza \\(1\\), debe seguir \\(2\\), y después \\(3,4\\) pueden intercambiarse: dos órdenes. Si empieza \\(2\\), el segundo puede ser \\(1\\) o \\(4\\). Con \\(2,1\\), nuevamente \\(3,4\\) se intercambian: dos órdenes; con \\(2,4\\), debe seguir \\(1,3,5,6\\): uno. Hay \\(5\\) órdenes favorables: \\(123456,124356,213456,214356,241356\\). Entre \\(6!=720\\), la probabilidad es \\(\\frac5{720}=\\frac1{144}\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Un algoritmo de extensiones lineales que elige en cada paso cualquiera de los elementos sin predecesores pendientes devuelve exactamente cinco órdenes.\n\nCasos límite IGL: Las condiciones «antes que» son estrictas y todos los números son distintos; no se supone que los elementos relacionados sean adyacentes."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 292,
+      "accepted_answers": [
+        "1/144"
+      ],
+      "strategy": "Enumerar los órdenes compatibles liberando un número solo cuando todos sus predecesores ya aparecieron.",
+      "theory_used": [
+        "restricciones de precedencia",
+        "extensiones lineales",
+        "seguir dependencias",
+        "contar órdenes compatibles"
+      ],
+      "validity_check": "verified · Un algoritmo de extensiones lineales que elige en cada paso cualquiera de los elementos sin predecesores pendientes devuelve exactamente cinco órdenes. · Las condiciones «antes que» son estrictas y todos los números son distintos; no se supone que los elementos relacionados sean adyacentes.",
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "restricciones_de_precedencia",
+          "extensiones_lineales",
+          "seguir_dependencias",
+          "contar_ordenes_compatibles"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "Las restricciones forman un orden parcial conectado; contar sus extensiones lineales requiere ramificar según los elementos disponibles."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_prob_043",
+      "collection": "CUANTLY",
+      "subcategory": "Probabilidad · rachas en muestreo sin reemplazo",
+      "problem_number": 43,
+      "source_question_label": "PROB-043",
+      "source_page": 43,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Cuatro bolas rojas y tres azules se colocan al azar en una fila. ¿Cuál es la probabilidad de que la secuencia de colores tenga exactamente \\(4\\) rachas, donde una racha es un bloque máximo de bolas consecutivas del mismo color?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(\\frac{8}{35}\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(\\frac{2}{7}\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(\\frac{3}{7}\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(\\frac{12}{35}\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(\\frac{1}{2}\\)"
+        }
+      ],
+      "correct_answer": "\\(\\frac{12}{35}\\)",
+      "correct_option_label": "d",
+      "solution_text": "Hay \\(\\binom{7}{3}=35\\) secuencias de colores. Si empieza roja y termina azul, las \\(4\\) rojas se dividen en \\(2\\) bloques positivos de \\(\\binom{3}{1}=3\\) formas y las \\(3\\) azules en \\(2\\) bloques de \\(\\binom{2}{1}=2\\) formas: \\(6\\). Si empieza azul y termina roja hay otros \\(6\\). En total son \\(12\\), y la probabilidad es \\(\\frac{12}{35}\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Cuenta solo algunas divisiones de los bloques.",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "Olvida una de las dos posibilidades para el color inicial.",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "Incluye secuencias con tres o cinco rachas.",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "Es el conteo correcto de doce secuencias entre treinta y cinco.",
+          "is_correct": true
+        },
+        {
+          "label": "e",
+          "reason": "Supone que la mitad de las secuencias tiene cuatro rachas.",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: La enumeración de las \\(35\\) posiciones posibles de las tres bolas azules produce exactamente doce cadenas con cuatro cambios de bloque máximos.\n\nCasos límite IGL: Las bolas del mismo color son indistinguibles para el patrón; las rachas deben ser no vacías y alternar colores."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 293,
+      "accepted_answers": [],
+      "strategy": "Con cuatro rachas, los colores alternan en dos bloques rojos y dos azules, sin importar cuál color empieza.",
+      "theory_used": [
+        "secuencias de colores",
+        "composiciones",
+        "contar bloques alternantes",
+        "normalizar por secuencias equiprobables"
+      ],
+      "validity_check": "verified · La enumeración de las \\(35\\) posiciones posibles de las tres bolas azules produce exactamente doce cadenas con cuatro cambios de bloque máximos. · Las bolas del mismo color son indistinguibles para el patrón; las rachas deben ser no vacías y alternar colores.",
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "secuencias_de_colores",
+          "composiciones",
+          "contar_bloques_alternantes",
+          "normalizar_por_secuencias_equiprobables"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La posición exacta de cada bola es irrelevante; el evento se cuenta mediante composiciones positivas de los tamaños de las rachas."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_prob_044",
+      "collection": "CUANTLY",
+      "subcategory": "Probabilidad · probabilidad sobre divisores",
+      "problem_number": 44,
+      "source_question_label": "PROB-044",
+      "source_page": 44,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Sea \\(N=2^{5}\\cdot3^{4}\\cdot5^{3}\\). Se elige al azar, con la misma probabilidad, uno de sus divisores positivos d. ¿Cuál es la probabilidad de que \\(\\gcd(d,\\frac{N}{d)}\\) sea libre de cuadrados?",
+      "options": [],
+      "correct_answer": "\\(\\frac{8}{15}\\)",
+      "correct_option_label": null,
+      "solution_text": "Escribamos \\(d=2^{a}\\,3^{b}\\,5^{c}\\), con \\(0\\le a\\le5\\), \\(0\\le b\\le4\\), \\(0\\le c\\le3\\). Hay \\(6\\cdot5\\cdot4=120\\) divisores. El exponente de \\(2\\) en el MCD es \\(\\min(a,5-a)\\), que debe ser \\(0\\) o \\(1\\); esto permite \\(a=0,1,4,5\\), cuatro opciones. Para \\(3\\), se permiten \\(b=0,1,3,4\\), cuatro. Para \\(5\\), todos \\(c=0,1,2,3\\) dan mínimo a lo sumo \\(1\\), otras cuatro. Hay \\(4^{3}=64\\) casos favorables y la probabilidad es \\(\\frac{64}{120}=\\frac8{15}\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: La enumeración de los \\(120\\) triples de exponentes encuentra \\(64\\) para los que ningún primo aparece al cuadrado en el MCD.\n\nCasos límite IGL: «Libre de cuadrados» permite el valor \\(1\\); los exponentes de \\(d\\) y de \\(N/d\\) suman el exponente total de cada primo."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 294,
+      "accepted_answers": [
+        "8/15"
+      ],
+      "strategy": "Para cada primo, el exponente del MCD es el menor entre el exponente elegido y su complemento.",
+      "theory_used": [
+        "exponentes primos",
+        "máximo común divisor squarefree",
+        "modelar divisores por exponentes",
+        "contar elecciones independientes"
+      ],
+      "validity_check": "verified · La enumeración de los \\(120\\) triples de exponentes encuentra \\(64\\) para los que ningún primo aparece al cuadrado en el MCD. · «Libre de cuadrados» permite el valor \\(1\\); los exponentes de \\(d\\) y de \\(N/d\\) suman el exponente total de cada primo.",
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "exponentes_primos",
+          "maximo_comun_divisor_squarefree",
+          "modelar_divisores_por_exponentes",
+          "contar_elecciones_independientes"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La condición sobre el máximo común divisor se traduce en restricciones simultáneas sobre los exponentes elegidos y sus complementos."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_prob_045",
+      "collection": "CUANTLY",
+      "subcategory": "Probabilidad · simetría en permutaciones y sumas",
+      "problem_number": 45,
+      "source_question_label": "PROB-045",
+      "source_page": 45,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Los números \\(1,2,\\ldots,8\\) se ordenan al azar. ¿Cuál es la probabilidad de que la suma de los primeros \\(4\\) números sea mayor que la suma de los últimos \\(4\\)?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(\\frac{3}{7}\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(\\frac{31}{70}\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(\\frac{1}{2}\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(\\frac{33}{70}\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(\\frac{4}{7}\\)"
+        }
+      ],
+      "correct_answer": "\\(\\frac{31}{70}\\)",
+      "correct_option_label": "b",
+      "solution_text": "El conjunto de los primeros cuatro números es uniforme entre \\(\\binom{8}{4}=70\\) subconjuntos. Hay \\(8\\) subconjuntos de cuatro elementos con suma \\(18\\): \\(\\{1,2,7,8\\},\\{1,3,6,8\\},\\{1,4,5,8\\},\\{1,4,6,7\\},\\{2,3,5,8\\},\\{2,3,6,7\\},\\{2,4,5,7\\},\\{3,4,5,6\\}\\). Los otros \\(62\\) se emparejan con sus complementos, uno con suma mayor que \\(18\\) y otro menor. Hay \\(31\\) favorables, y la probabilidad es \\(\\frac{31}{70}\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Descarta más empates de los que existen.",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "Es el conteo correcto de treinta y un subconjuntos.",
+          "is_correct": true
+        },
+        {
+          "label": "c",
+          "reason": "Ignora los ocho casos de empate.",
+          "is_correct": false
+        },
+        {
+          "label": "d",
+          "reason": "Cuenta dos casos adicionales como favorables.",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "No usa la simetría entre un subconjunto y su complemento.",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Una enumeración de los setenta subconjuntos de tamaño cuatro produce \\(31\\) con suma mayor que \\(18\\), \\(31\\) menor y \\(8\\) igual.\n\nCasos límite IGL: El orden dentro de cada mitad no afecta las sumas; cada subconjunto aparece con la misma frecuencia \\(4!4!\\)."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 295,
+      "accepted_answers": [],
+      "strategy": "La suma total es \\(36\\); por complementariedad, los casos de «mayor» y «menor» son iguales una vez excluidos los empates de suma \\(18\\).",
+      "theory_used": [
+        "subconjuntos complementarios",
+        "suma fija",
+        "usar una involución",
+        "contar subconjuntos de suma dada"
+      ],
+      "validity_check": "verified · Una enumeración de los setenta subconjuntos de tamaño cuatro produce \\(31\\) con suma mayor que \\(18\\), \\(31\\) menor y \\(8\\) igual. · El orden dentro de cada mitad no afecta las sumas; cada subconjunto aparece con la misma frecuencia \\(4!4!\\).",
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "subconjuntos_complementarios",
+          "suma_fija",
+          "usar_una_involucion",
+          "contar_subconjuntos_de_suma_dada"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La simetría entre las dos mitades reduce el problema a contar únicamente los casos de empate en la suma."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_prob_046",
+      "collection": "CUANTLY",
+      "subcategory": "Probabilidad · procesos acumulativos",
+      "problem_number": 46,
+      "source_question_label": "PROB-046",
+      "source_page": 46,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Se lanza un dado equilibrado repetidamente y se suman los resultados. El proceso termina en cuanto la suma es al menos \\(6\\). ¿Cuál es la probabilidad de que la suma final sea exactamente \\(6\\)?",
+      "options": [],
+      "correct_answer": "\\(\\frac{16807}{46656}\\)",
+      "correct_option_label": null,
+      "solution_text": "Si se alcanza \\(6\\) en exactamente k lanzamientos, los resultados forman una composición de \\(6\\) en k partes positivas. Hay \\(\\binom{5}{k-1}\\) composiciones y cada secuencia tiene probabilidad \\(6^{-k}\\). Por tanto, la probabilidad es \\(\\sum_{k=1}^{6}\\binom{5}{k-1}\\frac1{6^k}=\\frac{1}{6}\\left(1+\\frac{1}{6}\\right)^{5}=\\frac{7^5}{6^6}=\\frac{16807}{46656}\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Una recurrencia \\(p_0=1\\), \\(p_n=\\frac16(p_{n-1}+\\cdots+p_{\\max(0,n-6)})\\) da \\(p_6=16807/46656\\).\n\nCasos límite IGL: Antes del último lanzamiento la suma es menor que \\(6\\); toda composición positiva de \\(6\\) cumple automáticamente esta condición."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 296,
+      "accepted_answers": [
+        "16807/46656"
+      ],
+      "strategy": "Una trayectoria favorable es una composición de \\(6\\) en resultados positivos de dado.",
+      "theory_used": [
+        "composiciones enteras",
+        "tiempo de parada por umbral",
+        "contar trayectorias por longitud",
+        "sumar una expansión binomial"
+      ],
+      "validity_check": "verified · Una recurrencia \\(p_0=1\\), \\(p_n=\\frac16(p_{n-1}+\\cdots+p_{\\max(0,n-6)})\\) da \\(p_6=16807/46656\\). · Antes del último lanzamiento la suma es menor que \\(6\\); toda composición positiva de \\(6\\) cumple automáticamente esta condición.",
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "composiciones_enteras",
+          "tiempo_de_parada_por_umbral",
+          "contar_trayectorias_por_longitud",
+          "sumar_una_expansion_binomial"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "El proceso puede terminar tras distinta cantidad de lanzamientos; las trayectorias favorables se agrupan por composiciones del total \\(6\\)."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_prob_047",
+      "collection": "CUANTLY",
+      "subcategory": "Probabilidad · torneos aleatorios",
+      "problem_number": 47,
+      "source_question_label": "PROB-047",
+      "source_page": 47,
+      "language": "es-MX",
+      "format": "multiple_choice",
+      "problem_text": "Cuatro jugadores disputan un torneo en el que cada pareja juega una vez. Cada partido tiene ganador y cualquiera de los dos jugadores gana con probabilidad \\(\\frac{1}{2}\\), independientemente. ¿Cuál es la probabilidad de que exista un orden de los cuatro jugadores en el que cada jugador haya vencido a todos los que aparecen después de él?",
+      "options": [
+        {
+          "label": "a",
+          "text": "\\(\\frac{1}{4}\\)"
+        },
+        {
+          "label": "b",
+          "text": "\\(\\frac{5}{12}\\)"
+        },
+        {
+          "label": "c",
+          "text": "\\(\\frac{3}{8}\\)"
+        },
+        {
+          "label": "d",
+          "text": "\\(\\frac{1}{2}\\)"
+        },
+        {
+          "label": "e",
+          "text": "\\(\\frac{5}{8}\\)"
+        }
+      ],
+      "correct_answer": "\\(\\frac{3}{8}\\)",
+      "correct_option_label": "c",
+      "solution_text": "Hay \\(\\binom{4}{2}=6\\) partidos, así que existen \\(2^{6}=64\\) resultados equiprobables. Para cada uno de los \\(4!=24\\) órdenes de los jugadores hay exactamente una forma de orientar todos los partidos para que cada jugador venza a los posteriores. Esas orientaciones son distintas. Por tanto, la probabilidad es \\(\\frac{24}{64}=\\frac{3}{8}\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [
+        {
+          "label": "a",
+          "reason": "Cuenta dieciséis torneos transitivos.",
+          "is_correct": false
+        },
+        {
+          "label": "b",
+          "reason": "Incluye orientaciones que contienen un ciclo de tres jugadores.",
+          "is_correct": false
+        },
+        {
+          "label": "c",
+          "reason": "Es la reducción correcta de \\(24/64\\).",
+          "is_correct": true
+        },
+        {
+          "label": "d",
+          "reason": "Supone que la mitad de los torneos admite una clasificación perfecta.",
+          "is_correct": false
+        },
+        {
+          "label": "e",
+          "reason": "Cuenta cuarenta orientaciones favorables.",
+          "is_correct": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "answer_checked": true,
+        "all_options_checked": true,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Enumerando las \\(64\\) orientaciones del grafo completo \\(K_4\\), exactamente \\(24\\) no contienen ciclos dirigidos y admiten un único orden topológico.\n\nCasos límite IGL: No hay empates y los seis partidos son independientes; el orden buscado debe comparar a cada pareja de jugadores."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 297,
+      "accepted_answers": [],
+      "strategy": "Cada orden total produce un único torneo transitivo, y ningún torneo transitivo corresponde a dos órdenes diferentes.",
+      "theory_used": [
+        "orientaciones de un grafo completo",
+        "orden transitivo",
+        "establecer una correspondencia con permutaciones",
+        "contar resultados independientes"
+      ],
+      "validity_check": "verified · Enumerando las \\(64\\) orientaciones del grafo completo \\(K_4\\), exactamente \\(24\\) no contienen ciclos dirigidos y admiten un único orden topológico. · No hay empates y los seis partidos son independientes; el orden buscado debe comparar a cada pareja de jugadores.",
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "orientaciones_de_un_grafo_completo",
+          "orden_transitivo",
+          "establecer_una_correspondencia_con_permutaciones",
+          "contar_resultados_independientes"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La ausencia de ciclos se caracteriza globalmente como una orientación transitiva y se cuenta mediante órdenes totales."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_prob_048",
+      "collection": "CUANTLY",
+      "subcategory": "Probabilidad · valor esperado en muestreo sin reemplazo",
+      "problem_number": 48,
+      "source_question_label": "PROB-048",
+      "source_page": 48,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Las tarjetas \\(1,2,3,4,5,6\\) se barajan y se revelan una a una, acumulando sus valores. El proceso termina cuando la suma acumulada supera \\(10\\). ¿Cuál es el número esperado de tarjetas reveladas?",
+      "options": [],
+      "correct_answer": "\\(\\frac{7}{2}\\)",
+      "correct_option_label": null,
+      "solution_text": "Siempre se revelan al menos dos tarjetas. Para seguir después de dos, la suma de las primeras dos debe ser a lo sumo \\(10\\); solo fallan los órdenes \\(5,6\\) y \\(6,5\\), así que \\(P(T>2)=\\frac{28}{30}=\\frac{14}{15}\\). Para seguir después de tres, hay \\(10\\) ternas no ordenadas con suma a lo sumo \\(10\\), es decir \\(10\\cdot3!=60\\) de \\(120\\): probabilidad \\(\\frac{1}{2}\\). Para seguir después de cuatro, solo el conjunto \\(\\{1,2,3,4\\}\\) tiene suma a lo sumo \\(10\\), con \\(4!=24\\) de \\(360\\): \\(\\frac{1}{15}\\). Después de cinco es imposible. Así, \\(E(T)=1+1+\\frac{14}{15}+\\frac{1}{2}+\\frac1{15}=\\frac{7}{2}\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: La enumeración de las \\(720\\) permutaciones da duraciones: \\(48\\) de longitud \\(2\\), \\(312\\) de longitud \\(3\\), \\(312\\) de longitud \\(4\\) y \\(48\\) de longitud \\(5\\); su promedio es \\(7/2\\).\n\nCasos límite IGL: «Supera \\(10\\)» es estricto: una suma igual a \\(10\\) no detiene el proceso."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 298,
+      "accepted_answers": [
+        "7/2"
+      ],
+      "strategy": "Usar la identidad \\(E(T)=\\sum_{k\\ge0}P(T>k)\\).",
+      "theory_used": [
+        "tiempo de cruce de umbral",
+        "fórmula de colas",
+        "usar \\(E(T)=\\sum P(T>k)\\)",
+        "contar sumas de prefijos"
+      ],
+      "validity_check": "verified · La enumeración de las \\(720\\) permutaciones da duraciones: \\(48\\) de longitud \\(2\\), \\(312\\) de longitud \\(3\\), \\(312\\) de longitud \\(4\\) y \\(48\\) de longitud \\(5\\); su promedio es \\(7/2\\). · «Supera \\(10\\)» es estricto: una suma igual a \\(10\\) no detiene el proceso.",
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "tiempo_de_cruce_de_umbral",
+          "formula_de_colas",
+          "usar_e_t_sum_p_t_k",
+          "contar_sumas_de_prefijos"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La esperanza se calcula con probabilidades de supervivencia del proceso, que requieren contar sumas parciales de distintos tamaños."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_prob_049",
+      "collection": "CUANTLY",
+      "subcategory": "Probabilidad · distribución binomial",
+      "problem_number": 49,
+      "source_question_label": "PROB-049",
+      "source_page": 49,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Cada cadena binaria de longitud \\(8\\) se elige con la misma probabilidad. ¿Cuál es la probabilidad de que su cantidad de unos sea múltiplo de \\(3\\)?",
+      "options": [],
+      "correct_answer": "\\(\\frac{85}{256}\\)",
+      "correct_option_label": null,
+      "solution_text": "Una cadena de longitud \\(8\\) puede tener una cantidad de unos divisible por \\(3\\) igual a \\(0,3\\) o \\(6\\). Los conteos correspondientes son \\(\\binom{8}{0},\\binom{8}{3},\\binom{8}{6}\\). Así, hay \\(1+56+28=85\\) cadenas favorables entre \\(2^{8}=256\\), y la probabilidad es \\(\\frac{85}{256}\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: Una enumeración de las \\(256\\) cadenas confirma \\(1\\) de peso cero, \\(56\\) de peso tres y \\(28\\) de peso seis.\n\nCasos límite IGL: El cero es divisible por \\(3\\), por lo que la cadena formada solo por ceros se incluye."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 299,
+      "accepted_answers": [
+        "85/256"
+      ],
+      "strategy": "Considerar cadenas con \\(0\\), \\(3\\) o \\(6\\) unos.",
+      "theory_used": [
+        "peso de una cadena binaria",
+        "congruencias",
+        "seleccionar capas combinatorias",
+        "sumar coeficientes binomiales"
+      ],
+      "validity_check": "verified · Una enumeración de las \\(256\\) cadenas confirma \\(1\\) de peso cero, \\(56\\) de peso tres y \\(28\\) de peso seis. · El cero es divisible por \\(3\\), por lo que la cadena formada solo por ceros se incluye.",
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "peso_de_una_cadena_binaria",
+          "congruencias",
+          "seleccionar_capas_combinatorias",
+          "sumar_coeficientes_binomiales"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "La condición modular obliga a combinar varias capas de pesos distintos del cubo binario."
+        ]
+      }
+    },
+    {
+      "source_id": "cuantly_prob_050",
+      "collection": "CUANTLY",
+      "subcategory": "Probabilidad · selección cíclica de vértices",
+      "problem_number": 50,
+      "source_question_label": "PROB-050",
+      "source_page": 50,
+      "language": "es-MX",
+      "format": "open_answer",
+      "problem_text": "Cuatro vértices de un dodecágono regular se eligen al azar. ¿Cuál es la probabilidad de que ningún par de los elegidos sea consecutivo?",
+      "options": [],
+      "correct_answer": "\\(\\frac{7}{33}\\)",
+      "correct_option_label": null,
+      "solution_text": "Hay \\(\\binom{12}{4}=495\\) selecciones totales. Para contar las no adyacentes, separamos según se elija un vértice fijo \\(V\\). Si se elige \\(V\\), se excluyen sus dos vecinos y se eligen \\(3\\) vértices no adyacentes de una fila de \\(9\\) posiciones, lo que da \\(\\binom{9-3+1}{3}=\\binom{7}{3}=35\\). Si no se elige \\(V\\), quedan \\(11\\) posiciones en fila y se eligen \\(4\\) no adyacentes: \\(\\binom{11-4+1}{4}=\\binom{8}{4}=70\\). En total hay \\(35+70=105\\) selecciones. La probabilidad es \\(\\frac{105}{495}=\\frac7{33}\\).",
+      "has_diagram": false,
+      "problem_images": [],
+      "solution_images": [],
+      "option_analysis": [],
+      "verification": {
+        "status": "verified_open_answer",
+        "answer_checked": true,
+        "all_options_checked": null,
+        "latex_checked": true,
+        "notes": "Comprobación independiente IGL: La fórmula cíclica \\(\\frac{n}{n-k}\\binom{n-k}{k}\\) da \\(\\frac{12}{8}\\binom84=105\\), confirmando el conteo.\n\nCasos límite IGL: Los vértices están en un ciclo; el primero y el último en cualquier numeración también son consecutivos."
+      },
+      "problem_source_url": "",
+      "solution_source_url": "",
+      "content_origin": "cuantly_model",
+      "source_problem_number": 300,
+      "accepted_answers": [
+        "7/33"
+      ],
+      "strategy": "Contar los subconjuntos de \\(4\\) vértices no consecutivos entre \\(12\\) posiciones cíclicas.",
+      "theory_used": [
+        "dodecágono regular",
+        "subconjuntos sin adyacencia",
+        "contar selecciones en un ciclo",
+        "usar una descomposición por un vértice"
+      ],
+      "validity_check": "verified · La fórmula cíclica \\(\\frac{n}{n-k}\\binom{n-k}{k}\\) da \\(\\frac{12}{8}\\binom84=105\\), confirmando el conteo. · Los vértices están en un ciclo; el primero y el último en cualquier numeración también son consecutivos.",
+      "classification": {
+        "primary_area": "probability",
+        "secondary_areas": [],
+        "mixed": false,
+        "difficulty": "L3",
+        "tags": [
+          "dodecagono_regular",
+          "subconjuntos_sin_adyacencia",
+          "contar_selecciones_en_un_ciclo",
+          "usar_una_descomposicion_por_un_vertice"
+        ],
+        "classification_confidence": 0.9,
+        "difficulty_confidence": 0.9,
+        "classification_notes": [
+          "El conteo de selecciones no adyacentes en un ciclo es más delicado que en una fila."
+        ]
+      }
+    }
+  ]
+}

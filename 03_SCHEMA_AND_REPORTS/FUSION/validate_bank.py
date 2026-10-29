@@ -41,11 +41,54 @@ def unique_object(pairs):
 
 
 def validate_bank(bank, raw, source_pdf=None, allow_unclassified=False):
-    errors, notices, figures = [], [], []
+    errors, notices, figures, solution_figures = [], [], [], []
 
     def check(condition, message):
         if not condition:
             errors.append(message)
+
+    def validate_images(images, prefix, field, output):
+        if not isinstance(images, list):
+            errors.append(f"{prefix}: {field} must be an array.")
+            return []
+        for image_index, image in enumerate(images, 1):
+            location = f"{prefix}/{field}[{image_index}]"
+            if not isinstance(image, dict):
+                errors.append(f"{location}: image must be an object.")
+                continue
+            for image_field in ("label", "source", "original_filename"):
+                check(nonempty(image.get(image_field)), f"{location}: missing {image_field}.")
+            check(image.get("encoding") == "base64", f"{location}: encoding must be base64.")
+            mime, encoded = image.get("mime_type"), image.get("base64")
+            check(mime in ("image/png", "image/jpeg"), f"{location}: unsupported MIME.")
+            if not isinstance(encoded, str) or not 0 < len(encoded) <= MAX_IMAGE_CHARACTERS:
+                errors.append(f"{location}: missing or oversized Base64.")
+                continue
+            try:
+                if not re.fullmatch(r"[A-Za-z0-9+/]+={0,2}", encoded):
+                    raise ValueError("Base64 contains a prefix, whitespace or invalid characters")
+                decoded = base64.b64decode(encoded, validate=True)
+                digest = hashlib.sha256(decoded).hexdigest()
+                check(image.get("sha256") == digest, f"{location}: image hash mismatch.")
+                from PIL import Image
+
+                with warnings.catch_warnings():
+                    warnings.simplefilter("error", Image.DecompressionBombWarning)
+                    with Image.open(io.BytesIO(decoded)) as bitmap:
+                        actual_format, dimensions = bitmap.format, bitmap.size
+                        bitmap.verify()
+                    with Image.open(io.BytesIO(decoded)) as bitmap:
+                        bitmap.load()
+                expected_format = {"image/png": "PNG", "image/jpeg": "JPEG"}.get(mime)
+                check(actual_format == expected_format, f"{location}: bytes do not match MIME.")
+                check(all(positive_int(image.get(image_field)) for image_field in ("width_px", "height_px")), f"{location}: dimensions must be positive integers.")
+                check(dimensions == (image.get("width_px"), image.get("height_px")), f"{location}: dimensions do not match decoded bytes.")
+                output.append({"source_id": identity, "figure": image_index, "sha256": digest, "width": dimensions[0], "height": dimensions[1]})
+            except ImportError:
+                errors.append(f"{location}: Pillow is required to verify image decoding.")
+            except Exception as exc:
+                errors.append(f"{location}: image cannot be verified ({type(exc).__name__}).")
+        return images
 
     check(len(raw) <= MAX_BANK_BYTES, "Bank exceeds the reader's 32 MiB limit.")
     if not isinstance(bank, dict):
@@ -137,7 +180,8 @@ def validate_bank(bank, raw, source_pdf=None, allow_unclassified=False):
             check("is_correct" in item and (value is None or type(value) is bool), f"{prefix}: invalid is_correct.")
             if value is True:
                 correct_labels.append(label)
-        check(sorted(analysis_labels) == sorted(labels), f"{prefix}: analysis must cover every option exactly once.")
+        if analysis:
+            check(sorted(analysis_labels) == sorted(labels), f"{prefix}: analysis must cover every option exactly once.")
         verification = problem.get("verification")
         if not isinstance(verification, dict):
             errors.append(f"{prefix}: missing verification object.")
@@ -156,7 +200,8 @@ def validate_bank(bank, raw, source_pdf=None, allow_unclassified=False):
                 check(label is None and not analysis, f"{prefix}: open answers have no correct option or option analysis.")
             else:
                 check(nonempty(label) and label in labels, f"{prefix}: correct label is not an option.")
-                check(len(correct_labels) == 1 and correct_labels[0] == label, f"{prefix}: verified answer must be unique and match analysis.")
+                if analysis:
+                    check(len(correct_labels) == 1 and correct_labels[0] == label, f"{prefix}: verified answer must be unique and match analysis.")
             check(nonempty(problem.get("correct_answer")), f"{prefix}: missing verified answer.")
             for flag in (("answer_checked", "latex_checked") if is_open else ("answer_checked", "all_options_checked", "latex_checked")):
                 check(verification.get(flag) is True, f"{prefix}: verified requires {flag}=true.")
@@ -164,48 +209,9 @@ def validate_bank(bank, raw, source_pdf=None, allow_unclassified=False):
             guided.append(number)
             check(problem.get("correct_option_label") is None, f"{prefix}: guided problem must have null correct label.")
             check(nonempty(verification.get("notes")), f"{prefix}: guided problem requires an explanation in notes.")
-        images = problem.get("problem_images")
-        if not isinstance(images, list):
-            errors.append(f"{prefix}: problem_images must be an array.")
-            images = []
+        images = validate_images(problem.get("problem_images"), prefix, "problem_images", figures)
         check(type(problem.get("has_diagram")) is bool and problem["has_diagram"] == bool(images), f"{prefix}: has_diagram mismatch.")
-        for image_index, image in enumerate(images, 1):
-            location = f"{prefix}/figure[{image_index}]"
-            if not isinstance(image, dict):
-                errors.append(f"{location}: image must be an object.")
-                continue
-            for field in ("label", "source", "original_filename"):
-                check(nonempty(image.get(field)), f"{location}: missing {field}.")
-            check(image.get("encoding") == "base64", f"{location}: encoding must be base64.")
-            mime, encoded = image.get("mime_type"), image.get("base64")
-            check(mime in ("image/png", "image/jpeg"), f"{location}: unsupported MIME.")
-            if not isinstance(encoded, str) or not 0 < len(encoded) <= MAX_IMAGE_CHARACTERS:
-                errors.append(f"{location}: missing or oversized Base64.")
-                continue
-            try:
-                if not re.fullmatch(r"[A-Za-z0-9+/]+={0,2}", encoded):
-                    raise ValueError("Base64 contains a prefix, whitespace or invalid characters")
-                decoded = base64.b64decode(encoded, validate=True)
-                digest = hashlib.sha256(decoded).hexdigest()
-                check(image.get("sha256") == digest, f"{location}: image hash mismatch.")
-                from PIL import Image
-
-                with warnings.catch_warnings():
-                    warnings.simplefilter("error", Image.DecompressionBombWarning)
-                    with Image.open(io.BytesIO(decoded)) as bitmap:
-                        actual_format, dimensions = bitmap.format, bitmap.size
-                        bitmap.verify()
-                    with Image.open(io.BytesIO(decoded)) as bitmap:
-                        bitmap.load()
-                expected_format = {"image/png": "PNG", "image/jpeg": "JPEG"}.get(mime)
-                check(actual_format == expected_format, f"{location}: bytes do not match MIME.")
-                check(all(positive_int(image.get(field)) for field in ("width_px", "height_px")), f"{location}: dimensions must be positive integers.")
-                check(dimensions == (image.get("width_px"), image.get("height_px")), f"{location}: dimensions do not match decoded bytes.")
-                figures.append({"source_id": identity, "figure": image_index, "sha256": digest, "width": dimensions[0], "height": dimensions[1]})
-            except ImportError:
-                errors.append(f"{location}: Pillow is required to verify image decoding.")
-            except Exception as exc:
-                errors.append(f"{location}: image cannot be verified ({type(exc).__name__}).")
+        validate_images(problem.get("solution_images", []), prefix, "solution_images", solution_figures)
         classification = problem.get("classification")
         if classification is None and allow_unclassified:
             continue
@@ -239,13 +245,14 @@ def validate_bank(bank, raw, source_pdf=None, allow_unclassified=False):
         check(isinstance(recorded, list) and all(positive_int(value) for value in recorded) and sorted(recorded) == sorted(value for value in guided if positive_int(value)), "validation_summary.needs_review_problem_numbers mismatch.")
     return {
         "ok": not errors,
-        "scope": "structure_options_image_decoding_hashes_classification_only",
+        "scope": "structure_options_problem_and_solution_image_decoding_hashes_classification_only",
         "mathematical_verification": "not_performed_by_this_script",
         "visual_source_comparison": "not_performed_by_this_script",
         "latex_rendering": "not_performed_by_this_script",
         "bank_sha256": hashlib.sha256(raw).hexdigest(),
         "bytes": len(raw), "problems": len(problems), "verified": verified_count,
         "guided": len(guided), "images": len(figures), "figures": figures,
+        "solution_images": len(solution_figures), "solution_figures": solution_figures,
         "errors": errors, "warnings": notices,
     }
 
